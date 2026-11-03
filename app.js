@@ -51,6 +51,8 @@ const ICON = {
   note: '<path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/>',
   book: '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>',
   drop: '<path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/>',
+  pin: '<path d="M12 17v5"/><path d="M9 10.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V7a1 1 0 0 1 1-1 2 2 0 0 0 0-4H8a2 2 0 0 0 0 4 1 1 0 0 1 1 1z"/>',
+  hand: '<path d="M18 11V6a2 2 0 0 0-4 0"/><path d="M14 10V4a2 2 0 0 0-4 0v2"/><path d="M10 10.5V6a2 2 0 0 0-4 0v8"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"/>',
   film: '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 4v16M17 4v16M3 9h4M3 15h4M17 9h4M17 15h4"/>',
   calendar: '<rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/>',
   utensils: '<path d="M5 3v6a3 3 0 0 0 6 0V3M8 3v18"/><path d="M17 21V3c-2.5 1.5-4 4.5-4 8h4"/>',
@@ -76,7 +78,7 @@ const lsSet = (k, v) => { try { localStorage.setItem(k, v); return true; } catch
 
 const defaults = () => ({
   v: 1, updated: 0, todos: [], shop: [], notes: [], recipes: [], watch: [], events: [], meals: {}, chores: [], bills: [], links: [],
-  layout: {}, settings: { name: '', units: 'f', city: null }
+  layout: {}, pins: {}, order: {}, settings: { name: '', units: 'f', city: null }
 });
 function normalize(d) {
   const base = defaults(); const out = Object.assign(base, d || {});
@@ -84,6 +86,7 @@ function normalize(d) {
   out.layout = (d && d.layout) || {};
   ['todos', 'shop', 'notes', 'recipes', 'watch', 'events', 'chores', 'bills', 'links'].forEach(k => { if (!Array.isArray(out[k])) out[k] = []; });
   if (!out.meals || typeof out.meals !== 'object') out.meals = {};
+  ['pins', 'order'].forEach(k => { if (!out[k] || typeof out[k] !== 'object' || Array.isArray(out[k])) out[k] = {}; });
   return out;
 }
 let data = (() => { try { const d = JSON.parse(lsGet(KEY)); if (d && d.v === 1) return normalize(d); } catch { } return defaults(); })();
@@ -702,10 +705,10 @@ function renderDublin() {
   const laNow = new Date().toLocaleString('en-CA', { timeZone: 'America/Los_Angeles', hourCycle: 'h23', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit' }); // "2026-11-03, 09"
   const nowDay = laNow.slice(0, 10), nowHr = +laNow.slice(-2);
   const short = { '08': '8a', '12': '12p', '16': '4p', '20': '8p' };
-  const body = days.map((d, di) => `<div class="dwx-d"><span class="dwx-day">${di === 0 ? 'Today' : esc(parseDate(d).toLocaleDateString([], { weekday: 'short' }))}</span>` + DUB_HOURS.map(h => {
+  const body = days.map((d, di) => `<div class="dwx-d"><span class="dwx-day">${di === 0 ? 'Today' : esc(parseDate(d).toLocaleDateString([], { weekday: 'short' }))}</span><div class="dwx-s">` + DUB_HOURS.map(h => {
     const i = dub.t.indexOf(`${d}T${h}:00`), c = i < 0 ? null : dub.c[i], pr = i < 0 ? null : dub.p[i], past = d === nowDay && +h < nowHr;
     return `<span class="dwx-c${past ? ' past' : ''}"><b>${c == null ? '–' : Math.round(c * 9 / 5 + 32) + '/' + Math.round(c) + '°'}</b><small>${short[h]} <em>${pr == null ? '–' : pr + '%'}</em></small></span>`;
-  }).join('') + '</div>').join('');
+  }).join('') + '</div></div>').join('');
   el.innerHTML = title + `<div class="dwx-row" role="list" aria-label="Forecast, today and the next 3 days">${body}</div>` + (dubErr ? '<span class="muted dwx-msg" title="Showing the last saved forecast">offline</span>' : '');
 }
 async function loadDublin(force) {
@@ -736,23 +739,96 @@ function makeCard(id) {
       return;
     }
     if (ev.target.closest('[data-add]')) return openAdd(id);
+    const pb = ev.target.closest('.pin-btn');
+    if (pb && el.contains(pb)) { const prow = pb.closest('[data-id]'); if (prow && prow !== el) togglePin(id, prow.dataset.id); return; }
     const a = ev.target.closest('[data-act]'); if (!a || !el.contains(a)) return;
     if (a.dataset.act === 'edit' && ev.target.closest('a')) return;
     const row = a.closest('[data-id]'); const fn = w.act && w.act[a.dataset.act];
     if (fn) fn({ el: a, id: row && row !== el ? row.dataset.id : undefined, ev, card: el });
   });
   if (w.onSubmit) el.addEventListener('submit', ev => { const f = ev.target.closest('[data-wxsearch],[data-cform]'); if (f) { ev.preventDefault(); w.onSubmit(f); } });
-  if (w.search) $('.tools input', el).addEventListener('input', e => { searchQ[id] = e.target.value; const b = $('.body', el); b.innerHTML = w.render(); });
+  if (w.search) $('.tools input', el).addEventListener('input', e => { searchQ[id] = e.target.value; const b = $('.body', el); b.innerHTML = w.render(); decorate(id); });
   return el;
 }
 
 function renderWidget(id) {
   const card = cards[id]; if (!card) return;
   const w = W[id], body = $('.body', card), st = body.scrollTop;
-  body.innerHTML = w.render(); body.scrollTop = st;
+  body.innerHTML = w.render(); decorate(id); body.scrollTop = st;
   const n = w.count ? w.count() : 0, b = $('[data-badge]', card); b.textContent = n || ''; b.hidden = !n;
   if (w.search) $('.tools', card).hidden = !w.alwaysSearch && data.recipes.length < 6;
 }
+/* ================= pin + reorder (all list cards) ================= */
+const PINNABLE = ['todo', 'shop', 'notes', 'events', 'recipes', 'watch', 'chores', 'bills', 'links'];
+function decorate(wid) {
+  if (!PINNABLE.includes(wid) || !cards[wid]) return;
+  const pins = new Set((data.pins && data.pins[wid]) || []), ord = (data.order && data.order[wid]) || [];
+  const rank = id => { const i = ord.indexOf(id); return i < 0 ? 1e9 : i; };
+  $$('.body ul, .body .chips', cards[wid]).forEach(c => {
+    const items = Array.from(c.children).filter(x => x.dataset && x.dataset.id);
+    if (!items.length) return;
+    items.map((el, i) => ({ el, i })).sort((a, b) => (pins.has(a.el.dataset.id) ? 0 : 1) - (pins.has(b.el.dataset.id) ? 0 : 1) || rank(a.el.dataset.id) - rank(b.el.dataset.id) || a.i - b.i).forEach(o => c.appendChild(o.el));
+    items.forEach(el => {
+      const on = pins.has(el.dataset.id);
+      el.classList.toggle('pinned', on); el.classList.add('pinnable');
+      const btn = document.createElement('button'); btn.type = 'button'; btn.className = 'pin-btn'; btn.setAttribute('aria-pressed', String(on)); btn.setAttribute('aria-label', on ? 'Unpin' : 'Pin to top'); btn.innerHTML = icon('pin');
+      const hand = document.createElement('span'); hand.className = 'grab-hand'; hand.setAttribute('aria-hidden', 'true'); hand.innerHTML = icon('hand');
+      const ref = el.classList.contains('note') ? $('.note-foot', el).firstChild : ($(':scope > .row-main', el) || el.firstChild);
+      ref.parentNode.insertBefore(hand, ref); ref.parentNode.insertBefore(btn, hand);
+    });
+  });
+}
+function togglePin(wid, id) {
+  data.pins = data.pins || {}; const a = data.pins[wid] = data.pins[wid] || [], i = a.indexOf(id);
+  if (i < 0) a.push(id); else a.splice(i, 1);
+  save(); renderWidget(wid); toast(i < 0 ? 'Pinned to the top' : 'Unpinned');
+}
+function commitOrder(wid, before, after) {
+  data.order = data.order || {}; const full = (data.order[wid] || []).slice();
+  before.forEach(id => { if (!full.includes(id)) full.push(id); });
+  const slots = before.map(id => full.indexOf(id)).sort((a, b) => a - b);
+  after.forEach((id, i) => { full[slots[i]] = id; });
+  data.order[wid] = full; save();
+}
+let lp = null, justDragged = false;
+const idsIn = c => Array.from(c.children).filter(x => x.classList.contains('pinnable')).map(x => x.dataset.id);
+document.addEventListener('pointerdown', e => {
+  if (editing || (e.pointerType === 'mouse' && e.button !== 0)) return;
+  const row = e.target.closest('.pinnable'); if (!row) return;
+  if (e.target.closest('button, input, textarea, select, .del, .chk')) return;
+  if (e.target.closest('a') && !row.classList.contains('chip-wrap')) return;
+  const card = row.closest('.card'); if (!card) return;
+  lp = { row, card, wid: card.dataset.id, x: e.clientX, y: e.clientY, active: false };
+  lp.timer = setTimeout(() => {
+    if (!lp) return; lp.active = true; lp.before = idsIn(row.parentNode);
+    row.classList.add('lifting'); if (navigator.vibrate) navigator.vibrate(25);
+  }, 1000);
+});
+document.addEventListener('pointermove', e => {
+  if (!lp) return;
+  if (!lp.active) { if (Math.hypot(e.clientX - lp.x, e.clientY - lp.y) > 10) { clearTimeout(lp.timer); lp = null; } return; }
+  const row = lp.row, b = $('.body', lp.card), r = b.getBoundingClientRect();
+  if (e.clientY < r.top + 36) b.scrollTop -= 10; else if (e.clientY > r.bottom - 36) b.scrollTop += 10;
+  const t = document.elementFromPoint(e.clientX, e.clientY), over = t && t.closest('.pinnable');
+  if (over && over !== row && over.parentNode === row.parentNode) {
+    const kids = Array.from(row.parentNode.children);
+    if (kids.indexOf(over) < kids.indexOf(row)) over.before(row); else over.after(row);
+  }
+});
+const endPress = () => {
+  if (!lp) return; clearTimeout(lp.timer); const s0 = lp; lp = null;
+  if (!s0.active) return;
+  s0.row.classList.remove('lifting'); justDragged = true; setTimeout(() => { justDragged = false; }, 60);
+  const after = idsIn(s0.row.parentNode);
+  if (after.join() !== s0.before.join()) commitOrder(s0.wid, s0.before, after);
+  renderWidget(s0.wid);
+};
+document.addEventListener('pointerup', endPress);
+document.addEventListener('pointercancel', endPress);
+document.addEventListener('touchmove', e => { if (lp && lp.active && e.cancelable) e.preventDefault(); }, { passive: false });
+document.addEventListener('contextmenu', e => { if (lp && e.target.closest('.pinnable')) e.preventDefault(); });
+document.addEventListener('click', e => { if (justDragged) { e.stopPropagation(); e.preventDefault(); } }, true);
+
 function touched(...ids) { save(); if (ids.includes('events') && !ids.includes('calendar')) ids.push('calendar'); ids.forEach(renderWidget); renderKpis(); fillDatalist(); }
 function fillDatalist() { $('#recipeTitles').innerHTML = allRecipes().map(r => `<option value="${esc(r.title)}">`).join(''); }
 

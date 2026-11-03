@@ -394,31 +394,59 @@ button.cal-c:hover { background: var(--field); }
 .wl .grp { padding: 0 12px; margin: 8px 0 0; }
 .wl .rchips { padding-top: 0; }
 
-/* top row: one slim strip (two tiles + Dublin forecast) */
-.kpis { grid-template-columns: 96px 128px minmax(0, 1fr); gap: 8px; }
+/* top area: two lines total. Tiles stacked on the left, Dublin forecast spanning both lines on the right */
+.app { --strong: color-mix(in srgb, var(--text) 30%, transparent); }
+.kpis { grid-template-columns: 176px minmax(0, 1fr); grid-auto-rows: auto; gap: 8px; }
 .kpi-tiles { display: contents; }
-.kpi { justify-content: center; padding: 6px 12px; gap: 0; border-radius: 16px; min-height: 0; }
+.kpi { grid-column: 1; justify-content: center; padding: 6px 14px; gap: 0; border-radius: 16px; min-height: 46px; }
 .kpi-label { font-size: 10.5px; line-height: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .kpi-val, .kpi-val.small { font-size: 17px; line-height: 21px; padding: 0; letter-spacing: -.01em; }
 .kpi-sub, .spark { display: none; }
-.kpi-wx { min-width: 0; padding: 6px 10px; gap: 8px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow); display: flex; align-items: center; gap: 12px; }
-.dwx-title { flex: none; text-align: left; font: inherit; color: var(--text); padding: 0; display: flex; flex-direction: column; line-height: 1.2; }
-.dwx-title b { font-size: 12px; font-weight: 750; white-space: nowrap; }
-.dwx-title small { font-size: 9.5px; color: var(--muted); white-space: nowrap; }
-.dwx-row { flex: 1; min-width: 0; display: flex; align-items: center; gap: 8px; overflow-x: auto; scrollbar-width: none; scroll-snap-type: x proximity; }
+.kpi-wx { grid-column: 2; grid-row: 1 / span 2; min-width: 0; padding: 8px 12px; border-radius: 16px; background: var(--surface); border: 1.5px solid var(--strong); box-shadow: var(--shadow); display: flex; align-items: center; gap: 14px; }
+.dwx-title { flex: none; text-align: left; font: inherit; color: var(--text); padding: 0 14px 0 0; display: flex; flex-direction: column; line-height: 1.25; border-right: 2px solid var(--strong); align-self: stretch; justify-content: center; }
+.dwx-title b { font-size: 13px; font-weight: 750; white-space: nowrap; }
+.dwx-title small { font-size: 10px; color: var(--muted); white-space: nowrap; }
+.dwx-row { flex: 1; min-width: 0; display: flex; align-items: stretch; gap: 0; overflow-x: auto; scrollbar-width: none; scroll-snap-type: x proximity; }
 .dwx-row::-webkit-scrollbar { display: none; }
-.dwx-d { flex: none; display: flex; align-items: center; gap: 5px; scroll-snap-align: start; }
-.dwx-d + .dwx-d { padding-left: 8px; border-left: 1px solid var(--line); }
-.dwx-day { font-size: 11px; font-weight: 750; min-width: 26px; }
-.dwx-c { display: flex; flex-direction: column; line-height: 1.15; font-variant-numeric: tabular-nums; white-space: nowrap; }
-.dwx-c b { font-size: 11.5px; font-weight: 650; }
-.dwx-c small { font-size: 9.5px; color: var(--muted); }
-.dwx-c em { font-style: normal; color: #3b8fd9; font-weight: 650; }
+.dwx-d { flex: 1 0 auto; display: flex; flex-direction: column; justify-content: center; gap: 4px; padding: 0 9px; scroll-snap-align: start; }
+.dwx-d + .dwx-d { border-left: 2px solid var(--strong); }
+.dwx-d:first-child { padding-left: 4px; }
+.dwx-day { font-size: 12px; font-weight: 800; letter-spacing: .03em; text-transform: uppercase; text-align: center; padding-bottom: 3px; border-bottom: 2px solid var(--strong); }
+.dwx-s { display: flex; justify-content: space-between; gap: 6px; }
+.dwx-c { display: flex; flex-direction: column; align-items: center; line-height: 1.2; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.dwx-c b { font-size: 13.5px; font-weight: 700; }
+.dwx-c small { font-size: 11px; color: var(--muted); }
+.dwx-c em { font-style: normal; color: #3b8fd9; font-weight: 700; }
 .dwx-c.past { opacity: .45; }
 .dwx-msg { font-size: 11px; }
 @media (max-width: 699px) {
   .kpis { grid-template-columns: 1fr 1.4fr; gap: 8px; }
-  .kpi-wx { grid-column: span 2; padding: 5px 10px; gap: 8px; }
-  .dwx-row { gap: 10px; } .dwx-d + .dwx-d { padding-left: 8px; }
-  .kpi { padding: 5px 10px; }
+  .kpi { grid-column: auto; padding: 5px 10px; min-height: 0; }
+  .kpi-wx { grid-column: span 2; grid-row: auto; padding: 5px 10px; gap: 8px; }
+  .dwx-title { padding-right: 8px; }
+  .dwx-d { flex: none; flex-direction: row; align-items: center; gap: 6px; padding: 0 8px; }
+  .dwx-d:first-child { padding-left: 0; }
+  .dwx-day { border: 0; padding: 0; min-width: 28px; font-size: 11px; text-align: left; }
+  .dwx-s { gap: 8px; } .dwx-c b { font-size: 11.5px; } .dwx-c small { font-size: 9.5px; }
 }
+
+/* pin + long-press reorder */
+.pinnable { -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; }
+.pin-btn { flex: none; width: 0; height: 22px; padding: 0; overflow: hidden; opacity: 0; display: inline-grid; place-items: center; color: var(--faint); border-radius: 6px; transition: width .12s, opacity .12s, margin .12s; }
+.pin-btn .ic { width: 15px; height: 15px; transform: rotate(35deg); }
+.row > .pin-btn { margin-left: -10px; }
+.pinned > .pin-btn, .note.pinned .pin-btn { width: 20px; opacity: 1; color: var(--accent, #3b82f6); }
+.row.pinned > .pin-btn { margin-left: 0; }
+.pinned .pin-btn .ic { fill: currentColor; }
+@media (hover: hover) {
+  .pinnable:hover .pin-btn, .pin-btn:focus-visible { width: 20px; opacity: 1; }
+  .row:hover > .pin-btn, .row > .pin-btn:focus-visible { margin-left: 0; }
+  .pin-btn:hover { color: var(--accent, #3b82f6); }
+}
+@media (hover: none) { .pin-btn { width: 20px; opacity: .38; } .row > .pin-btn { margin-left: 0; } .pinned .pin-btn { opacity: 1; } }
+.grab-hand { display: none; width: 20px; flex: none; color: var(--accent, #3b82f6); place-items: center; }
+.grab-hand .ic { width: 17px; height: 17px; }
+.lifting { background: var(--surface); box-shadow: 0 12px 30px rgba(0, 0, 0, .22); transform: scale(1.025); z-index: 6; cursor: grabbing; transition: transform .12s; }
+.lifting .pin-btn { display: none; }
+.lifting .grab-hand { display: inline-grid; }
+body.editing .pin-btn, body.editing .grab-hand { display: none; }

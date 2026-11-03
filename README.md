@@ -13,6 +13,9 @@ The top row has two tappable tiles (open tasks, next event) and a Dublin, CA for
 - **Customize** (grid icon, top right): drag a card by its title to move it, drag its bottom-right corner to resize, tap × to hide. Phone, tablet and desktop each remember their own layout.
 - **Install on your phone:** open the site, then Share → Add to Home Screen (iPhone) or menu → Install app (Android).
 
+## Pin and reorder
+On every list card (To-Do, Shopping, Notes, Upcoming, Recipes, Watch list, Chores, Bills, Links): hover the left of an item to get a pin icon (on a phone the icon is always faintly visible) and tap it to pin the item to the top. To reorder, press and hold an item for 1 second until the hand appears, then drag it. Pins and order are saved with your data and sync with it.
+
 ## Recipes from the Google Sheet
 The Recipes card lists every recipe from the Recipes / Ingredients / Steps tabs of the Google Sheet, with search (title, category, tags, ingredients), category chips, a detail view with Prep and Cooking instructions, scaling (1/2, x1 to x4) and "Add to Shopping". Recipes you add with + stay on this dashboard under "My recipes".
 - `recipes.json` is a snapshot of the Sheet, used by default. Regenerate it from the Sheet when recipes change.
