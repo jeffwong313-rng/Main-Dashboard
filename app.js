@@ -727,7 +727,7 @@ function openSettings() {
       `<ol class="muted" style="margin:0 0 12px;padding-left:20px;font-size:14px;line-height:1.5"><li>Open <a href="https://github.com/settings/tokens/new?scopes=gist&description=Home%20Dashboard" target="_blank" rel="noopener noreferrer" style="text-decoration:underline">GitHub token page</a> (classic token, only the <b>gist</b> box ticked).</li><li>Tap Generate token, copy it, and paste it below.</li></ol><div class="row2"><input type="password" id="tok" placeholder="Paste token" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="GitHub token"><button class="btn primary" type="button" id="syncOn">Connect</button></div>`}
     <p style="margin-top:10px;font-size:13px">Latest change wins if two devices edit at once, so the app checks for updates whenever you come back to it. Keep passwords and card numbers out of this app.</p>
   </div>
-  <div class="set-group"><h3>Your data</h3><div class="row2"><button class="btn" type="button" id="exp">Download backup</button><button class="btn" type="button" id="imp">Restore from backup</button><input type="file" id="impFile" accept="application/json,.json" hidden></div></div>`,
+  <div class="set-group"><h3>Your data</h3><div class="row2"><button class="btn" type="button" id="exp">Download backup</button><button class="btn" type="button" id="imp">Restore from backup</button><button class="btn" type="button" id="lockNow">Lock this device</button><input type="file" id="impFile" accept="application/json,.json" hidden></div></div>`,
     {
       title: 'Settings', onOpen(b) {
         $('#setName', b).addEventListener('input', e => { data.settings.name = e.target.value.trim(); save(); renderHeader(); });
@@ -737,6 +737,7 @@ function openSettings() {
         const now = $('#syncNow', b); now && now.addEventListener('click', () => { lastPull = Date.now(); syncNow(); });
         const off = $('#syncOff', b); off && off.addEventListener('click', () => { if (!confirm('Disconnect this device? Your data stays here and in the cloud copy.')) return; sync = { token: '', gistId: '', last: 0, state: 'off', err: '' }; saveSyncCfg(); setSyncState('off'); sheet.close(); toast('Disconnected'); });
         $('#exp', b).addEventListener('click', () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' })); a.download = `home-dashboard-${todayStr()}.json`; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 2000); });
+        $('#lockNow', b).addEventListener('click', () => { try { localStorage.removeItem(AUTH_KEY); } catch { } location.reload(); });
         $('#imp', b).addEventListener('click', () => $('#impFile', b).click());
         $('#impFile', b).addEventListener('change', async e => {
           const f = e.target.files[0]; if (!f) return;
@@ -746,6 +747,21 @@ function openSettings() {
     });
 }
 $('#btnSettings').addEventListener('click', openSettings);
+
+/* ================= password gate ================= */
+// Client-side only: keeps casual visitors out and remembers this device once unlocked. Not real security.
+const AUTH_KEY = 'hd.v1.auth';
+async function sha(p) { const b = await crypto.subtle.digest('SHA-256', new TextEncoder().encode('hd-v1:' + p)); return Array.from(new Uint8Array(b)).map(x => x.toString(16).padStart(2, '0')).join(''); }
+$('#gateForm').addEventListener('submit', async e => {
+  e.preventDefault(); const inp = $('#gatePw'), err = $('#gateErr'), f = e.currentTarget;
+  try {
+    const h = await sha(inp.value.trim());
+    if (h === window.__H) { lsSet(AUTH_KEY, h); document.documentElement.classList.remove('locked'); inp.value = ''; err.hidden = true; return; }
+    err.textContent = 'That password is not right. Try again.';
+  } catch { err.textContent = 'This browser cannot check the password here. Open the https link.'; }
+  err.hidden = false; inp.value = ''; inp.focus(); f.classList.remove('shake'); void f.offsetWidth; f.classList.add('shake');
+});
+if (document.documentElement.classList.contains('locked')) setTimeout(() => $('#gatePw').focus(), 50);
 
 /* ================= boot ================= */
 hydrateIcons();

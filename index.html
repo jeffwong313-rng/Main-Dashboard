@@ -14,8 +14,19 @@
 <meta name="apple-mobile-web-app-title" content="Home">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="stylesheet" href="styles.css">
+<script>try{window.__H="554fb7a9769ca86be00f647b735d8cffb94cfe131ed6f8cbda3cc71874f9f66b";if(localStorage.getItem("hd.v1.auth")!==window.__H)document.documentElement.classList.add("locked")}catch(e){document.documentElement.classList.add("locked")}</script>
 </head>
 <body>
+<div class="gate" id="gate" role="dialog" aria-modal="true" aria-labelledby="gateTitle">
+  <form id="gateForm" autocomplete="off">
+    <div class="gate-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+    <h1 id="gateTitle">Home Dashboard</h1>
+    <p>Enter the password to open it. You will only be asked once on this device.</p>
+    <input type="password" id="gatePw" placeholder="Password" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="Password" required>
+    <button class="btn primary" type="submit">Unlock</button>
+    <p class="gate-err" id="gateErr" role="alert" hidden>That password is not right. Try again.</p>
+  </form>
+</div>
 <div class="app">
   <header class="top">
     <div>

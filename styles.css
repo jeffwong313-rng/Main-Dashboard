@@ -338,3 +338,20 @@ body.editing .card.resizing { outline-style: solid; }
 body.editing .fab { display: none; }
 
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+
+/* ---------- password gate ---------- */
+.gate { display: none; position: fixed; inset: 0; z-index: 100; place-items: center; padding: 24px; background: var(--bg); }
+html.locked .gate { display: grid; }
+html.locked .app, html.locked .fab, html.locked .toast { display: none; }
+.gate form { --accent: #2fb8a6; width: min(380px, 100%); display: flex; flex-direction: column; gap: 12px; padding: 28px 24px 24px; border-radius: 30px 28px 30px 28px; background: color-mix(in srgb, var(--accent) var(--tint), var(--surface)); border: 1px solid var(--line); box-shadow: var(--shadow); }
+.gate h1 { margin: 6px 0 0; font-size: 24px; letter-spacing: -.02em; }
+.gate p { margin: 0; color: var(--muted); }
+.gate input { background: var(--field); border: 1px solid transparent; border-radius: 14px; padding: 13px 14px; font-size: 16px; }
+.gate input:focus { outline: none; border-color: var(--accent); background: var(--surface); }
+.gate .btn { padding: 13px 16px; }
+.gate p.gate-err { color: var(--danger); font-weight: 600; font-size: 14px; }
+.gate form.shake { animation: shake .3s; }
+@keyframes shake { 25% { transform: translateX(-6px); } 75% { transform: translateX(6px); } }
+.gate-mark { width: 52px; height: 52px; display: grid; grid-template: 1fr 1fr / 1fr 1fr; gap: 4px; }
+.gate-mark i { border-radius: 9px; background: #2fb8a6; }
+.gate-mark i:nth-child(2) { background: #e8a23a; } .gate-mark i:nth-child(3) { background: #e5677f; } .gate-mark i:nth-child(4) { background: #8b7cf0; }
