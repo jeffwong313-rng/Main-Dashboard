@@ -44,3 +44,7 @@ The grid follows the real window width: the column count steps with the width (2
 ## Tags
 
 Every list card (To-Do, Shopping, Notes, Upcoming, Watch list, Chores, Bills, Quick links) has an optional **Tag** box in its add row (pick an existing tag or type a new one) and a small tag chip on each item that you can tap to change. The **Tags** bar under the forecast lists every tag in use (plus any news topic you favorited); tap one to see all matching items across the dashboard and matching news headlines.
+
+## Free placement
+
+Cards sit on a real grid. In Customize layout, drag a card by its header to any open spot and it stays there (no automatic bumping or compacting); drop is ignored where it would overlap another card. Resizing is also blocked from overlapping. Hiding a card leaves its space open.

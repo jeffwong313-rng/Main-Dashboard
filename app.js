@@ -128,6 +128,11 @@ const bp = () => mqMobile.matches ? 'mobile' : mqTablet.matches ? 'tablet' : 'de
 const stockLayout = () => Object.entries(data.layout).every(([b, L]) => DEF[b] && !(L.hidden || []).length && JSON.stringify(L.order) === JSON.stringify(DEF[b].order) && ALL.every(id => !L.items[id] || (L.items[id].c === DEF[b].items[id].c && L.items[id].r === DEF[b].items[id].r)));
 let sharedLayout = null; // layout.default.json: what a device shows until it is customized there
 const sharedFor = b => sharedLayout && sharedLayout.layout && sharedLayout.layout[b] ? JSON.parse(JSON.stringify(sharedLayout.layout[b])) : null;
+const cellsHit = (a, b) => a.x < b.x + b.c && b.x < a.x + a.c && a.y < b.y + b.r && b.y < a.y + a.r;
+function firstFit(placed, c, r, cols) {
+  for (let y = 1; y < 500; y++) for (let x = 1; x + c - 1 <= cols; x++) if (!placed.some(p => cellsHit({ x, y, c, r }, p))) return { x, y };
+  return { x: 1, y: 500 };
+}
 function layout() {
   const b = bp(), D = DEF[b];
   const L = (data.layout[b] = data.layout[b] || sharedFor(b) || { order: [], items: {}, hidden: [] });
@@ -139,6 +144,14 @@ function layout() {
     if (!L.order.includes(id) && !L.hidden.includes(id)) L.order.push(id);
   });
   L.order = L.order.filter(id => W[id] && !L.hidden.includes(id));
+  // free placement: every card owns a cell (x column, y row, in base grid units); anything unplaced or overlapping is dropped into the first free spot
+  const placed = [];
+  L.order.forEach(id => {
+    const it = L.items[id];
+    const ok = Number.isInteger(it.x) && Number.isInteger(it.y) && it.x >= 1 && it.y >= 1 && it.x + it.c - 1 <= COLS[b] && !placed.some(p => cellsHit(it, p));
+    if (!ok) { const p = firstFit(placed, it.c, it.r, COLS[b]); it.x = p.x; it.y = p.y; }
+    placed.push(it);
+  });
   return L;
 }
 
@@ -1012,7 +1025,10 @@ function colsFor() {
   return b === 'mobile' ? (w < 520 ? 2 : 4) : b === 'tablet' ? (w < 880 ? 6 : 8) : (w < 1500 ? 12 : 16);
 }
 const spanFor = c => { const b = bp(); return clamp(Math.round(c * gridN / COLS[b]), 1, gridN); };
-function applySize(card, it) { card.style.gridColumn = `span ${spanFor(it.c)}`; card.style.gridRow = `span ${it.r}`; }
+function applySize(card, it) {
+  const f = gridN / COLS[bp()], x0 = Math.round((it.x - 1) * f) + 1, x1 = Math.max(x0 + 1, Math.round((it.x - 1 + it.c) * f) + 1);
+  card.style.gridColumn = `${x0} / ${Math.min(x1, gridN + 1)}`; card.style.gridRow = `${it.y} / span ${it.r}`;
+}
 function fitGrid() {
   const n = colsFor(); if (n === gridN) return;
   gridN = n; grid.style.setProperty('--n', n);
@@ -1022,7 +1038,7 @@ new ResizeObserver(fitGrid).observe(grid);
 function buildGrid() {
   if (!gridN) { gridN = colsFor(); grid.style.setProperty('--n', gridN); }
   const L = layout(); grid.innerHTML = ''; Object.keys(cards).forEach(k => delete cards[k]);
-  L.order.forEach(id => { const c = makeCard(id); cards[id] = c; applySize(c, L.items[id]); grid.appendChild(c); renderWidget(id); });
+  [...L.order].sort((a, b) => (L.items[a].y - L.items[b].y) || (L.items[a].x - L.items[b].x)).forEach(id => { const c = makeCard(id); cards[id] = c; applySize(c, L.items[id]); grid.appendChild(c); renderWidget(id); });
   renderTray();
 }
 function renderAll() { renderHeader(); buildGrid(); renderKpis(); fillDatalist(); renderTagBar(); loadWeather(); }
@@ -1081,26 +1097,26 @@ function startResize(e, card) {
   const move = ev => {
     edgeScroll(ev.clientY);
     const c = clamp(Math.round(sc + (ev.clientX - sx) / step), MINC[b], cols), r = clamp(Math.round(sr + (ev.clientY - sy) / (rowH + rowGap)), MINR, 40);
-    if (c !== it.c || r !== it.r) { it.c = c; it.r = r; applySize(card, it); }
+    const others = L.order.filter(x => x !== id).map(x => L.items[x]);
+    if ((c !== it.c || r !== it.r) && it.x + c - 1 <= cols && !others.some(o => cellsHit({ x: it.x, y: it.y, c, r }, o))) { it.c = c; it.r = r; applySize(card, it); }
   };
   const up = () => { t.removeEventListener('pointermove', move); t.removeEventListener('pointerup', up); t.removeEventListener('pointercancel', up); card.classList.remove('resizing'); stopEdgeScroll(); save(); };
   t.addEventListener('pointermove', move); t.addEventListener('pointerup', up); t.addEventListener('pointercancel', up);
 }
 function startDrag(e, card) {
-  e.preventDefault(); const id = card.dataset.id, L = layout(), hd = $('.card-h', card); let last = 0;
+  e.preventDefault(); const id = card.dataset.id, L = layout(), it = L.items[id], b = bp(), cols = COLS[b], hd = $('.card-h', card);
+  const cs = getComputedStyle(grid), gap = parseFloat(cs.columnGap) || 14, rowH = parseFloat(cs.gridAutoRows) || 32, rowGap = parseFloat(cs.rowGap) || 14;
+  const stepX = (grid.clientWidth + gap) / cols, stepY = rowH + rowGap;
+  const gr = grid.getBoundingClientRect(), cr = card.getBoundingClientRect(), offX = e.clientX - cr.left, offY = e.clientY - cr.top;
   card.classList.add('dragging'); hd.setPointerCapture(e.pointerId);
-  const applyOrder = () => L.order.forEach((x, i) => { if (cards[x]) cards[x].style.order = i; });
+  const others = () => L.order.filter(x => x !== id).map(x => L.items[x]);
   const move = ev => {
     edgeScroll(ev.clientY);
-    if (Date.now() - last < 140) return;
-    const over = document.elementsFromPoint(ev.clientX, ev.clientY).find(x => x.classList && x.classList.contains('card') && x !== card); if (!over) return;
-    const from = L.order.indexOf(id), to = L.order.indexOf(over.dataset.id); if (from < 0 || to < 0 || from === to) return;
-    L.order.splice(from, 1); L.order.splice(to, 0, id); applyOrder(); last = Date.now();
+    const g = grid.getBoundingClientRect();
+    const x = clamp(Math.round((ev.clientX - offX - g.left) / stepX) + 1, 1, cols - it.c + 1), y = Math.max(1, Math.round((ev.clientY - offY - g.top) / stepY) + 1);
+    if ((x !== it.x || y !== it.y) && !others().some(o => cellsHit({ x, y, c: it.c, r: it.r }, o))) { it.x = x; it.y = y; applySize(card, it); }
   };
-  const up = () => {
-    hd.removeEventListener('pointermove', move); hd.removeEventListener('pointerup', up); hd.removeEventListener('pointercancel', up);
-    card.classList.remove('dragging'); stopEdgeScroll(); L.order.forEach(x => { if (cards[x]) { cards[x].style.order = ''; grid.appendChild(cards[x]); } }); save();
-  };
+  const up = () => { hd.removeEventListener('pointermove', move); hd.removeEventListener('pointerup', up); hd.removeEventListener('pointercancel', up); card.classList.remove('dragging'); stopEdgeScroll(); save(); };
   hd.addEventListener('pointermove', move); hd.addEventListener('pointerup', up); hd.addEventListener('pointercancel', up);
 }
 const onBp = () => { gridN = 0; buildGrid(); fitGrid(); renderKpis(); };
