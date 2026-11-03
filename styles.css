@@ -496,3 +496,16 @@ body.editing .pin-btn, body.editing .grab-hand { display: none; }
 .addrow[data-wid=events] input[name=time] { flex: 1 1 60%; min-width: 0; }
 .meta .evtag { width: auto; padding: 1px 8px; }
 .rchips .rchip { white-space: nowrap; }
+
+/* ---- news ---- */
+.newslist { list-style: none; margin: 8px 0 0; padding: 0; }
+.newsrow + .newsrow { border-top: 1px solid var(--line, rgba(128,128,128,.22)); }
+.newsrow a { display: grid; grid-template-columns: 84px 1fr; column-gap: 10px; align-items: start; padding: 10px 0; color: inherit; text-decoration: none; }
+.newsrow .evtag { grid-row: 1 / span 2; margin-top: 2px; }
+.newsrow .nt { font-weight: 600; line-height: 1.3; }
+.newsrow a:hover .nt { text-decoration: underline; }
+.newsrow .meta { grid-column: 2; margin-top: 3px; }
+.newsfav { margin-top: 8px; border: 1px dashed color-mix(in srgb, var(--accent) 50%, transparent); background: transparent; color: inherit; border-radius: 999px; padding: 5px 12px; font: inherit; font-size: 13px; cursor: pointer; }
+.newsfav.on { background: color-mix(in srgb, var(--accent) 22%, transparent); border-style: solid; font-weight: 650; }
+.newsfoot { margin: 8px 0 0; font-size: 12px; opacity: .65; }
+.newsrow .evtag { width: 84px; max-width: 84px; }

@@ -1,0 +1,34 @@
+name: Update news
+
+on:
+  schedule:
+    # 6 AM, 12 PM and 6 PM Pacific. Both UTC hours for each slot are listed so it works in standard and daylight time;
+    # the script only runs when it is actually 6, 12 or 18 o'clock in Los Angeles.
+    - cron: '7 13,14,19,20,1,2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news
+  cancel-in-progress: false
+
+jobs:
+  news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch headlines
+        run: python3 scripts/fetch_news.py
+        env:
+          FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
+      - name: Commit news.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add news.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update news"
+          git pull --rebase
+          git push

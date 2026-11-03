@@ -59,6 +59,7 @@ const ICON = {
   fog: '<path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="M16 17H7"/><path d="M17 21H9"/>',
   pin: '<path d="M12 17v5"/><path d="M9 10.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V7a1 1 0 0 1 1-1 2 2 0 0 0 0-4H8a2 2 0 0 0 0 4 1 1 0 0 1 1 1z"/>',
   hand: '<path d="M18 11V6a2 2 0 0 0-4 0"/><path d="M14 10V4a2 2 0 0 0-4 0v2"/><path d="M10 10.5V6a2 2 0 0 0-4 0v8"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"/>',
+  news: '<path d="M4 5h13v14a2 2 0 0 0 2 2H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v10a2 2 0 0 1-2 2M7.5 9h6M7.5 13h6M7.5 16.5h4"/>',
   film: '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 4v16M17 4v16M3 9h4M3 15h4M17 9h4M17 15h4"/>',
   calendar: '<rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/>',
   utensils: '<path d="M5 3v6a3 3 0 0 0 6 0V3M8 3v18"/><path d="M17 21V3c-2.5 1.5-4 4.5-4 8h4"/>',
@@ -84,7 +85,7 @@ const lsSet = (k, v) => { try { localStorage.setItem(k, v); return true; } catch
 
 const defaults = () => ({
   v: 1, updated: 0, todos: [], shop: [], notes: [], recipes: [], watch: [], events: [], meals: {}, chores: [], bills: [], links: [],
-  layout: {}, pins: {}, order: {}, settings: { name: '', units: 'f', city: null }
+  layout: {}, pins: {}, order: {}, settings: { name: '', units: 'f', city: null }, newsFav: []
 });
 function normalize(d) {
   const base = defaults(); const out = Object.assign(base, d || {});
@@ -92,6 +93,7 @@ function normalize(d) {
   out.layout = (d && d.layout) || {};
   ['todos', 'shop', 'notes', 'recipes', 'watch', 'events', 'chores', 'bills', 'links'].forEach(k => { if (!Array.isArray(out[k])) out[k] = []; });
   if (!out.meals || typeof out.meals !== 'object') out.meals = {};
+  if (!Array.isArray(out.newsFav)) out.newsFav = [];
   ['pins', 'order'].forEach(k => { if (!out[k] || typeof out[k] !== 'object' || Array.isArray(out[k])) out[k] = {}; });
   return out;
 }
@@ -103,22 +105,22 @@ function persist() { if (!lsSet(KEY, JSON.stringify(data))) toast('Could not sav
 function save() { data.updated = Date.now(); persist(); scheduleSync(); }
 
 /* ================= layout ================= */
-const ALL = ['todo', 'shop', 'notes', 'events', 'calendar', 'weather', 'recipes', 'watch', 'meals', 'bills', 'chores', 'links'];
+const ALL = ['todo', 'shop', 'notes', 'events', 'calendar', 'news', 'weather', 'recipes', 'watch', 'meals', 'bills', 'chores', 'links'];
 const COLS = { desktop: 12, tablet: 6, mobile: 2 };
 const MINC = { desktop: 3, tablet: 2, mobile: 1 };
 const MINR = 4;
 const DEF = {
   desktop: {
-    order: ['todo', 'shop', 'notes', 'events', 'calendar', 'weather', 'recipes', 'watch', 'meals', 'bills', 'chores', 'links'],
-    items: { todo: { c: 4, r: 9 }, shop: { c: 4, r: 9 }, notes: { c: 4, r: 9 }, events: { c: 4, r: 8 }, calendar: { c: 5, r: 11 }, weather: { c: 3, r: 8 }, recipes: { c: 5, r: 8 }, watch: { c: 4, r: 9 }, meals: { c: 6, r: 9 }, bills: { c: 3, r: 8 }, chores: { c: 3, r: 8 }, links: { c: 12, r: 4 } }
+    order: ['todo', 'shop', 'notes', 'events', 'calendar', 'news', 'weather', 'recipes', 'watch', 'meals', 'bills', 'chores', 'links'],
+    items: { todo: { c: 4, r: 9 }, shop: { c: 4, r: 9 }, notes: { c: 4, r: 9 }, events: { c: 4, r: 8 }, calendar: { c: 5, r: 11 }, news: { c: 4, r: 11 }, weather: { c: 3, r: 8 }, recipes: { c: 5, r: 8 }, watch: { c: 4, r: 9 }, meals: { c: 6, r: 9 }, bills: { c: 3, r: 8 }, chores: { c: 3, r: 8 }, links: { c: 12, r: 4 } }
   },
   tablet: {
-    order: ['todo', 'shop', 'notes', 'events', 'calendar', 'weather', 'recipes', 'watch', 'bills', 'meals', 'chores', 'links'],
-    items: { todo: { c: 3, r: 9 }, shop: { c: 3, r: 9 }, notes: { c: 6, r: 6 }, events: { c: 3, r: 8 }, calendar: { c: 6, r: 11 }, weather: { c: 3, r: 8 }, recipes: { c: 3, r: 8 }, watch: { c: 3, r: 9 }, bills: { c: 3, r: 8 }, meals: { c: 6, r: 9 }, chores: { c: 3, r: 7 }, links: { c: 3, r: 7 } }
+    order: ['todo', 'shop', 'notes', 'events', 'calendar', 'news', 'weather', 'recipes', 'watch', 'bills', 'meals', 'chores', 'links'],
+    items: { todo: { c: 3, r: 9 }, shop: { c: 3, r: 9 }, notes: { c: 6, r: 6 }, events: { c: 3, r: 8 }, calendar: { c: 6, r: 11 }, news: { c: 6, r: 9 }, weather: { c: 3, r: 8 }, recipes: { c: 3, r: 8 }, watch: { c: 3, r: 9 }, bills: { c: 3, r: 8 }, meals: { c: 6, r: 9 }, chores: { c: 3, r: 7 }, links: { c: 3, r: 7 } }
   },
   mobile: {
-    order: ['todo', 'shop', 'notes', 'events', 'calendar', 'recipes', 'watch', 'meals', 'bills', 'chores', 'weather', 'links'],
-    items: { todo: { c: 2, r: 8 }, shop: { c: 2, r: 8 }, notes: { c: 2, r: 8 }, events: { c: 2, r: 6 }, calendar: { c: 2, r: 12 }, recipes: { c: 2, r: 7 }, watch: { c: 2, r: 9 }, meals: { c: 2, r: 9 }, bills: { c: 2, r: 7 }, chores: { c: 2, r: 6 }, weather: { c: 2, r: 5 }, links: { c: 2, r: 4 } }
+    order: ['todo', 'shop', 'notes', 'events', 'news', 'calendar', 'recipes', 'watch', 'meals', 'bills', 'chores', 'weather', 'links'],
+    items: { todo: { c: 2, r: 8 }, shop: { c: 2, r: 8 }, notes: { c: 2, r: 8 }, events: { c: 2, r: 6 }, calendar: { c: 2, r: 12 }, news: { c: 2, r: 11 }, recipes: { c: 2, r: 7 }, watch: { c: 2, r: 9 }, meals: { c: 2, r: 9 }, bills: { c: 2, r: 7 }, chores: { c: 2, r: 6 }, weather: { c: 2, r: 5 }, links: { c: 2, r: 4 } }
   }
 };
 const mqMobile = matchMedia('(max-width: 699px)'), mqTablet = matchMedia('(max-width: 1099px)');
@@ -761,6 +763,57 @@ document.addEventListener('visibilitychange', () => { if (!document.hidden) load
 $('#kpiTiles').addEventListener('click', e => { const k = e.target.closest('[data-goto]'); if (k) goto(k.dataset.goto); });
 
 /* ================= cards / grid ================= */
+/* ================= news (news.json is rebuilt at 6 AM, 12 PM and 6 PM Pacific by a GitHub Action) ================= */
+const NEWS_COLORS = { 'World': '#3b82c4', 'U.S.': '#d9534f', 'Politics': '#8b5cf6', 'Economy': '#2fa56e', 'Finance': '#0e9f8e', 'Local': '#e8873a', 'Sports': '#e5677f', 'Tech': '#4f6ef0', 'Science': '#17a2b8', 'Health': '#c25fd0', 'Entertainment': '#d6a31c' };
+let news = null, newsState = 'loading', newsView = 'top';
+const newsColor = t => NEWS_COLORS[t] || '#8a8f98';
+const ago = iso => { const m = Math.max(0, Math.round((Date.now() - new Date(iso)) / 60000)); return m < 60 ? (m < 2 ? 'just now' : m + ' min ago') : m < 1440 ? Math.round(m / 60) + ' hr ago' : Math.round(m / 1440) + ' d ago'; };
+function newsPicks() {
+  if (!news) return [];
+  const picks = (news.top || []).slice(0, 5), fav = data.newsFav || [];
+  fav.forEach(t => {
+    if (picks.some(p => p.topic === t)) return;
+    const s = ((news.topics || {})[t] || [])[0]; if (!s) return;
+    let i = picks.length - 1; while (i >= 0 && fav.includes(picks[i].topic)) i--;
+    if (i >= 0) picks.splice(i, 1, s); else picks.push(s);
+  });
+  return picks.sort((a, b) => b.score - a.score);
+}
+async function loadNews() {
+  try {
+    const r = await fetch('news.json?t=' + Date.now(), { cache: 'no-store' });
+    if (!r.ok) throw 0;
+    news = await r.json(); newsState = '';
+  } catch { if (!news) newsState = 'none'; }
+  renderWidget('news');
+}
+W.news = {
+  title: 'News', icon: 'news', accent: '#5b6bd6',
+  count: () => 0,
+  render() {
+    if (!news) return empty(newsState === 'loading' ? 'Loading the news' : 'No headlines yet', newsState === 'loading' ? '' : 'The first update arrives at the next 6 AM, 12 PM or 6 PM.');
+    const fav = data.newsFav || [], topics = Object.keys(news.topics || {}).sort((a, b) => (fav.includes(b) - fav.includes(a)) || a.localeCompare(b));
+    if (newsView !== 'top' && !topics.includes(newsView)) newsView = 'top';
+    const chip = (k, l, extra = '') => `<button type="button" class="rchip${newsView === k ? ' on' : ''}" style="--accent:${k === 'top' ? '#5b6bd6' : newsColor(k)}" data-act="nview" data-k="${esc(k)}">${extra}${esc(l)}</button>`;
+    const chips = `<div class="rchips" role="group" aria-label="Topic">${chip('top', 'Top 5')}${topics.map(t => chip(t, t, fav.includes(t) ? '★ ' : '')).join('')}</div>`;
+    const list = newsView === 'top' ? newsPicks() : ((news.topics || {})[newsView] || []).slice(0, 5);
+    const isFav = fav.includes(newsView);
+    const favBar = newsView === 'top' ? '' : `<button type="button" class="newsfav${isFav ? ' on' : ''}" data-act="nfav" aria-pressed="${isFav}">${isFav ? '★ Favorite: always shown in Top 5' : '☆ Favorite this topic'}</button>`;
+    const row = s => `<li class="newsrow"><a href="${esc(s.link)}" target="_blank" rel="noopener"><span class="evtag" style="--tg:${newsColor(s.topic)}">${esc(s.topic)}</span><span class="nt">${esc(s.title)}</span><small class="meta">${esc(s.source)}${s.published ? ' · ' + ago(s.published) : ''}${s.outlets > 1 ? ' · ' + s.outlets + ' outlets' : ''}</small></a></li>`;
+    const gen = news.generated ? `Updated ${new Date(news.generated).toLocaleString([], { weekday: 'short', hour: 'numeric', minute: '2-digit' })} · refreshes 6 AM, 12 PM, 6 PM` : '';
+    return `${chips}${favBar}<ul class="newslist">${list.map(row).join('') || '<li class="muted" style="padding:10px 0">Nothing in this topic right now.</li>'}</ul><p class="newsfoot">${gen}</p>`;
+  },
+  act: {
+    nview: ({ el }) => { newsView = el.dataset.k; renderWidget('news'); },
+    nfav: () => {
+      const fav = data.newsFav = data.newsFav || [], i = fav.indexOf(newsView);
+      if (i >= 0) fav.splice(i, 1); else fav.push(newsView);
+      save(); renderWidget('news');
+    }
+  }
+};
+document.addEventListener('visibilitychange', () => { if (!document.hidden && (!news || Date.now() - new Date(news.generated) > 20 * 60000)) loadNews(); });
+
 const grid = $('#grid'), cards = {}, searchQ = {};
 let editing = false;
 
@@ -1155,7 +1208,7 @@ hydrateIcons();
 applyTheme();
 renderAll();
 loadDublin();
-loadFeed();
+loadFeed(); loadNews();
 setSyncState(sync.state === 'off' ? 'off' : 'ok');
 if (sync.token) { lastPull = Date.now(); syncNow(); }
 if (new URLSearchParams(location.search).has('add')) setTimeout(() => openQuickAdd(), 50);
