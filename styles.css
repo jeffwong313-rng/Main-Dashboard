@@ -534,3 +534,4 @@ body.editing .pin-btn, body.editing .grab-hand { display: none; }
 .row .evtag.sm, .note-foot .evtag.sm, .chip-wrap .evtag.sm { width: auto; max-width: 88px; padding: 2px 8px; flex: none; }
 .note-foot { gap: 8px; }
 .chip-wrap .evtag.sm { margin-left: 4px; }
+.card { transition: background-color .3s; }

@@ -1037,9 +1037,28 @@ function fitGrid() {
 new ResizeObserver(fitGrid).observe(grid);
 function buildGrid() {
   if (!gridN) { gridN = colsFor(); grid.style.setProperty('--n', gridN); }
-  const L = layout(); grid.innerHTML = ''; Object.keys(cards).forEach(k => delete cards[k]);
+  const L = layout(); applyColors(); grid.innerHTML = ''; Object.keys(cards).forEach(k => delete cards[k]);
   [...L.order].sort((a, b) => (L.items[a].y - L.items[b].y) || (L.items[a].x - L.items[b].x)).forEach(id => { const c = makeCard(id); cards[id] = c; applySize(c, L.items[id]); grid.appendChild(c); renderWidget(id); });
   renderTray();
+}
+/* ================= dynamic colors: cards that touch never share a color ================= */
+const COLORS = { teal: '#2fb8a6', amber: '#e8a23a', purple: '#8b7cf0', blue: '#3b9ae8', rose: '#e5677f', orange: '#e9803f', green: '#2fa56e', magenta: '#d46bb0', cyan: '#4fb3c8', lime: '#8fb83a', slate: '#7a8aa8' };
+const FAMS = Object.keys(COLORS);
+const FAM = { todo: 'teal', shop: 'amber', notes: 'purple', events: 'blue', calendar: 'lime', news: 'slate', weather: 'cyan', recipes: 'rose', watch: 'magenta', meals: 'purple', bills: 'green', chores: 'orange', links: 'magenta' };
+const touching = (a, b) => a.x <= b.x + b.c && b.x <= a.x + a.c && a.y <= b.y + b.r && b.y <= a.y + a.r;
+function applyColors() {
+  const L = layout(), ids = [...L.order].sort((a, b) => (L.items[a].y - L.items[b].y) || (L.items[a].x - L.items[b].x)), got = {}, use = {};
+  ids.forEach(id => {
+    const it = L.items[id], nb = ids.filter(o => got[o] && touching(it, L.items[o])).map(o => got[o]);
+    const mine = FAM[id] || null, prefs = [...(mine ? [mine] : []), ...FAMS.filter(f => f !== mine).sort((a, b) => (use[a] || 0) - (use[b] || 0))];
+    const pick = prefs.find(f => !nb.includes(f)) || prefs[0]; got[id] = pick; use[pick] = (use[pick] || 0) + 1;
+  });
+  let changed = false;
+  Object.keys(W).forEach(id => {
+    const col = COLORS[got[id] || FAM[id]]; if (!col || W[id].accent === col) return;
+    W[id].accent = col; changed = true; if (cards[id]) cards[id].style.setProperty('--accent', col);
+  });
+  if (changed && typeof renderKpis === 'function') renderKpis();
 }
 function renderAll() { renderHeader(); buildGrid(); renderKpis(); fillDatalist(); renderTagBar(); loadWeather(); }
 
@@ -1098,7 +1117,7 @@ function startResize(e, card) {
     edgeScroll(ev.clientY);
     const c = clamp(Math.round(sc + (ev.clientX - sx) / step), MINC[b], cols), r = clamp(Math.round(sr + (ev.clientY - sy) / (rowH + rowGap)), MINR, 40);
     const others = L.order.filter(x => x !== id).map(x => L.items[x]);
-    if ((c !== it.c || r !== it.r) && it.x + c - 1 <= cols && !others.some(o => cellsHit({ x: it.x, y: it.y, c, r }, o))) { it.c = c; it.r = r; applySize(card, it); }
+    if ((c !== it.c || r !== it.r) && it.x + c - 1 <= cols && !others.some(o => cellsHit({ x: it.x, y: it.y, c, r }, o))) { it.c = c; it.r = r; applySize(card, it); applyColors(); }
   };
   const up = () => { t.removeEventListener('pointermove', move); t.removeEventListener('pointerup', up); t.removeEventListener('pointercancel', up); card.classList.remove('resizing'); stopEdgeScroll(); save(); };
   t.addEventListener('pointermove', move); t.addEventListener('pointerup', up); t.addEventListener('pointercancel', up);
@@ -1114,7 +1133,7 @@ function startDrag(e, card) {
     edgeScroll(ev.clientY);
     const g = grid.getBoundingClientRect();
     const x = clamp(Math.round((ev.clientX - offX - g.left) / stepX) + 1, 1, cols - it.c + 1), y = Math.max(1, Math.round((ev.clientY - offY - g.top) / stepY) + 1);
-    if ((x !== it.x || y !== it.y) && !others().some(o => cellsHit({ x, y, c: it.c, r: it.r }, o))) { it.x = x; it.y = y; applySize(card, it); }
+    if ((x !== it.x || y !== it.y) && !others().some(o => cellsHit({ x, y, c: it.c, r: it.r }, o))) { it.x = x; it.y = y; applySize(card, it); applyColors(); }
   };
   const up = () => { hd.removeEventListener('pointermove', move); hd.removeEventListener('pointerup', up); hd.removeEventListener('pointercancel', up); card.classList.remove('dragging'); stopEdgeScroll(); save(); };
   hd.addEventListener('pointermove', move); hd.addEventListener('pointerup', up); hd.addEventListener('pointercancel', up);
