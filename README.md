@@ -13,9 +13,15 @@ The summary tiles at the top (open tasks, items to buy, bills left, next event) 
 - **Customize** (grid icon, top right): drag a card by its title to move it, drag its bottom-right corner to resize, tap × to hide. Phone, tablet and desktop each remember their own layout.
 - **Install on your phone:** open the site, then Share → Add to Home Screen (iPhone) or menu → Install app (Android).
 
+## Recipes from the Google Sheet
+The Recipes card lists every recipe from the Recipes / Ingredients / Steps tabs of the Google Sheet, with search (title, category, tags, ingredients), category chips, a detail view with Prep and Cooking instructions, scaling (1/2, x1 to x4) and "Add to Shopping". Recipes you add with + stay on this dashboard under "My recipes".
+- `recipes.json` is a snapshot of the Sheet, used by default. Regenerate it from the Sheet when recipes change.
+- If the Sheet is shared as "anyone with the link can view", the dashboard reads it live on every open and keeps the snapshot as a fallback. Edit recipes in the Sheet (the detail view has an "Open in Google Sheets" button).
+- Note: this repo is public, so the snapshot is publicly readable.
+
 ## Where the data lives
 Each device keeps its data in that browser's local storage. To share it across devices, open **Settings → Sync across devices** and paste a GitHub token (classic token with only the `gist` permission). The dashboard then keeps a private Gist in sync. The latest change wins if two devices edit at the same time.
 Settings also has a backup download / restore.
 
 ## Files
-`index.html`, `styles.css`, `app.js` (all the logic), `sw.js` + `manifest.webmanifest` (offline / installable), `icons/`.
+`index.html`, `styles.css`, `app.js` (all the logic), `recipes.json` (recipe snapshot), `sw.js` + `manifest.webmanifest` (offline / installable), `icons/`.

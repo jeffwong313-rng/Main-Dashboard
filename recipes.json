@@ -1,0 +1,1738 @@
+{
+"Recipes": [
+{
+"Recipe": "BBQ sauce",
+"Category": "Sauce or marinade",
+"Cuisine": "American",
+"Servings": "",
+"Prep (min)": "",
+"Cook (min)": "",
+"Scale": "1",
+"Equipment": "",
+"Tags": "kansas city style",
+"Source": "https://www.seriouseats.com/sauced-kansas-city-style-barbecue-sauce-recipe",
+"Notes": ""
+},
+{
+"Recipe": "Brad's fermented hot sauce",
+"Category": "Sauce or marinade",
+"Cuisine": "",
+"Servings": "",
+"Prep (min)": "",
+"Cook (min)": "",
+"Scale": "1",
+"Equipment": "Fermentation jar",
+"Tags": "fermented, spicy",
+"Source": "",
+"Notes": "Ferments 1.5 weeks, then another 1 to 2 weeks."
+},
+{
+"Recipe": "Carne asada",
+"Category": "Main dish",
+"Cuisine": "Mexican",
+"Servings": "",
+"Prep (min)": "",
+"Cook (min)": "",
+"Scale": "1",
+"Equipment": "",
+"Tags": "",
+"Source": "",
+"Notes": "Marinade only."
+},
+{
+"Recipe": "Jeff's chicken noodle soup",
+"Category": "Soup",
+"Cuisine": "Asian",
+"Servings": "",
+"Prep (min)": "",
+"Cook (min)": "",
+"Scale": "1",
+"Equipment": "2 pots",
+"Tags": "",
+"Source": "",
+"Notes": ""
+},
+{
+"Recipe": "Keto mozzarella sticks",
+"Category": "Snack",
+"Cuisine": "",
+"Servings": "",
+"Prep (min)": "",
+"Cook (min)": "10",
+"Scale": "1",
+"Equipment": "Air fryer, or stove top pan",
+"Tags": "keto, air fryer",
+"Source": "",
+"Notes": "Freeze the cut sticks 20 to 30 minutes before breading."
+},
+{
+"Recipe": "Kung pao chicken",
+"Category": "Main dish",
+"Cuisine": "Chinese",
+"Servings": "",
+"Prep (min)": "",
+"Cook (min)": "",
+"Scale": "1",
+"Equipment": "",
+"Tags": "",
+"Source": "",
+"Notes": ""
+},
+{
+"Recipe": "Moo ping (Hot Thai Kitchen)",
+"Category": "Main dish",
+"Cuisine": "Thai",
+"Servings": "",
+"Prep (min)": "",
+"Cook (min)": "",
+"Scale": "1",
+"Equipment": "",
+"Tags": "",
+"Source": "Hot Thai Kitchen",
+"Notes": ""
+},
+{
+"Recipe": "Moo ping (Jeff's version)",
+"Category": "Main dish",
+"Cuisine": "Thai",
+"Servings": "",
+"Prep (min)": "",
+"Cook (min)": "",
+"Scale": "1",
+"Equipment": "",
+"Tags": "",
+"Source": "",
+"Notes": "Scale 2 for the 3 lb batch. The 3 lb batch used 13 cloves of garlic."
+},
+{
+"Recipe": "Moo ping (Serious Eats)",
+"Category": "Main dish",
+"Cuisine": "Thai",
+"Servings": "",
+"Prep (min)": "",
+"Cook (min)": "",
+"Scale": "1",
+"Equipment": "",
+"Tags": "",
+"Source": "Serious Eats",
+"Notes": ""
+},
+{
+"Recipe": "Pad see ew",
+"Category": "Main dish",
+"Cuisine": "Thai",
+"Servings": "",
+"Prep (min)": "",
+"Cook (min)": "",
+"Scale": "1",
+"Equipment": "",
+"Tags": "",
+"Source": "Pailin",
+"Notes": "Sauce only."
+},
+{
+"Recipe": "Potato leek soup",
+"Category": "Soup",
+"Cuisine": "French",
+"Servings": "",
+"Prep (min)": "",
+"Cook (min)": "40",
+"Scale": "1",
+"Equipment": "",
+"Tags": "",
+"Source": "",
+"Notes": "Undecided on bay leaf and nutmeg."
+},
+{
+"Recipe": "Spaghetti",
+"Category": "Main dish",
+"Cuisine": "Italian",
+"Servings": "",
+"Prep (min)": "",
+"Cook (min)": "",
+"Scale": "1",
+"Equipment": "",
+"Tags": "",
+"Source": "",
+"Notes": ""
+},
+{
+"Recipe": "Spring rolls (full version)",
+"Category": "Appetizer",
+"Cuisine": "Asian",
+"Servings": "",
+"Prep (min)": "",
+"Cook (min)": "",
+"Scale": "1",
+"Equipment": "",
+"Tags": "",
+"Source": "",
+"Notes": ""
+},
+{
+"Recipe": "Spring rolls (quick version)",
+"Category": "Appetizer",
+"Cuisine": "Asian",
+"Servings": "",
+"Prep (min)": "",
+"Cook (min)": "",
+"Scale": "1",
+"Equipment": "",
+"Tags": "quick",
+"Source": "",
+"Notes": ""
+},
+{
+"Recipe": "Steamed soft-boiled eggs",
+"Category": "Basics",
+"Cuisine": "",
+"Servings": "",
+"Prep (min)": "",
+"Cook (min)": "",
+"Scale": "1",
+"Equipment": "",
+"Tags": "",
+"Source": "",
+"Notes": ""
+}
+],
+"Ingredients": [
+{
+"Recipe": "BBQ sauce",
+"Group": "Key ingredients",
+"Qty": "2",
+"Unit": "cup",
+"Item": "Ketchup",
+"Prep or note": ""
+},
+{
+"Recipe": "BBQ sauce",
+"Group": "Key ingredients",
+"Qty": "1/3",
+"Unit": "cup",
+"Item": "Honey",
+"Prep or note": ""
+},
+{
+"Recipe": "BBQ sauce",
+"Group": "Key ingredients",
+"Qty": "1/3",
+"Unit": "cup",
+"Item": "Brown sugar",
+"Prep or note": ""
+},
+{
+"Recipe": "BBQ sauce",
+"Group": "Key ingredients",
+"Qty": "1/3",
+"Unit": "cup",
+"Item": "Apple cider vinegar",
+"Prep or note": ""
+},
+{
+"Recipe": "BBQ sauce",
+"Group": "Key ingredients",
+"Qty": "2",
+"Unit": "tbsp",
+"Item": "Butter",
+"Prep or note": ""
+},
+{
+"Recipe": "BBQ sauce",
+"Group": "Key ingredients",
+"Qty": "1",
+"Unit": "small",
+"Item": "Onion",
+"Prep or note": ""
+},
+{
+"Recipe": "BBQ sauce",
+"Group": "Key ingredients",
+"Qty": "4",
+"Unit": "clove",
+"Item": "Garlic",
+"Prep or note": ""
+},
+{
+"Recipe": "BBQ sauce",
+"Group": "Seasonings",
+"Qty": "2",
+"Unit": "tbsp",
+"Item": "Yellow mustard",
+"Prep or note": ""
+},
+{
+"Recipe": "BBQ sauce",
+"Group": "Seasonings",
+"Qty": "2",
+"Unit": "tbsp",
+"Item": "Worcestershire sauce",
+"Prep or note": ""
+},
+{
+"Recipe": "BBQ sauce",
+"Group": "Seasonings",
+"Qty": "1",
+"Unit": "tbsp",
+"Item": "Chile powder",
+"Prep or note": ""
+},
+{
+"Recipe": "BBQ sauce",
+"Group": "Seasonings",
+"Qty": "1",
+"Unit": "tsp",
+"Item": "Black pepper",
+"Prep or note": ""
+},
+{
+"Recipe": "BBQ sauce",
+"Group": "Seasonings",
+"Qty": "0.5",
+"Unit": "tsp",
+"Item": "Cayenne pepper",
+"Prep or note": ""
+},
+{
+"Recipe": "BBQ sauce",
+"Group": "Seasonings",
+"Qty": "3",
+"Unit": "tbsp",
+"Item": "Favorite rub",
+"Prep or note": ""
+},
+{
+"Recipe": "Brad's fermented hot sauce",
+"Group": "Key ingredients",
+"Qty": "40",
+"Unit": "",
+"Item": "Peppers",
+"Prep or note": "tops and seeds removed"
+},
+{
+"Recipe": "Brad's fermented hot sauce",
+"Group": "Key ingredients",
+"Qty": "3",
+"Unit": "",
+"Item": "Habanero",
+"Prep or note": ""
+},
+{
+"Recipe": "Brad's fermented hot sauce",
+"Group": "Key ingredients",
+"Qty": "3",
+"Unit": "clove",
+"Item": "Garlic",
+"Prep or note": "crushed"
+},
+{
+"Recipe": "Brad's fermented hot sauce",
+"Group": "Seasonings",
+"Qty": "6",
+"Unit": "tbsp",
+"Item": "Sea salt",
+"Prep or note": ""
+},
+{
+"Recipe": "Brad's fermented hot sauce",
+"Group": "Seasonings",
+"Qty": "6",
+"Unit": "tbsp",
+"Item": "Sugar",
+"Prep or note": ""
+},
+{
+"Recipe": "Brad's fermented hot sauce",
+"Group": "Seasonings",
+"Qty": "4",
+"Unit": "flower",
+"Item": "Dried hibiscus",
+"Prep or note": ""
+},
+{
+"Recipe": "Brad's fermented hot sauce",
+"Group": "Seasonings",
+"Qty": "10",
+"Unit": "",
+"Item": "Mixed peppercorns",
+"Prep or note": ""
+},
+{
+"Recipe": "Brad's fermented hot sauce",
+"Group": "Seasonings",
+"Qty": "4",
+"Unit": "",
+"Item": "Cardamom pods",
+"Prep or note": ""
+},
+{
+"Recipe": "Brad's fermented hot sauce",
+"Group": "Seasonings",
+"Qty": "1",
+"Unit": "pinch",
+"Item": "Maras biber",
+"Prep or note": ""
+},
+{
+"Recipe": "Carne asada",
+"Group": "Marinade",
+"Qty": "1/3",
+"Unit": "cup",
+"Item": "Olive oil",
+"Prep or note": ""
+},
+{
+"Recipe": "Carne asada",
+"Group": "Marinade",
+"Qty": "0.25",
+"Unit": "cup",
+"Item": "Soy sauce",
+"Prep or note": ""
+},
+{
+"Recipe": "Carne asada",
+"Group": "Marinade",
+"Qty": "2",
+"Unit": "tbsp",
+"Item": "Balsamic vinegar",
+"Prep or note": ""
+},
+{
+"Recipe": "Carne asada",
+"Group": "Marinade",
+"Qty": "0.25",
+"Unit": "cup",
+"Item": "Orange juice or lemon juice",
+"Prep or note": ""
+},
+{
+"Recipe": "Carne asada",
+"Group": "Marinade",
+"Qty": "1/3",
+"Unit": "cup",
+"Item": "Lime juice",
+"Prep or note": ""
+},
+{
+"Recipe": "Carne asada",
+"Group": "Marinade",
+"Qty": "1",
+"Unit": "tbsp",
+"Item": "Teriyaki sauce",
+"Prep or note": ""
+},
+{
+"Recipe": "Carne asada",
+"Group": "Marinade",
+"Qty": "4",
+"Unit": "clove",
+"Item": "Garlic",
+"Prep or note": "grated"
+},
+{
+"Recipe": "Carne asada",
+"Group": "Marinade",
+"Qty": "0.5",
+"Unit": "cup",
+"Item": "Cilantro",
+"Prep or note": "chopped"
+},
+{
+"Recipe": "Carne asada",
+"Group": "Seasonings",
+"Qty": "0.5",
+"Unit": "tsp",
+"Item": "Chipotle powder",
+"Prep or note": ""
+},
+{
+"Recipe": "Carne asada",
+"Group": "Seasonings",
+"Qty": "1",
+"Unit": "tsp",
+"Item": "Onion powder",
+"Prep or note": ""
+},
+{
+"Recipe": "Carne asada",
+"Group": "Seasonings",
+"Qty": "1",
+"Unit": "tsp",
+"Item": "Ground cumin",
+"Prep or note": ""
+},
+{
+"Recipe": "Carne asada",
+"Group": "Seasonings",
+"Qty": "1",
+"Unit": "tsp",
+"Item": "Oregano",
+"Prep or note": ""
+},
+{
+"Recipe": "Carne asada",
+"Group": "Seasonings",
+"Qty": "2",
+"Unit": "tbsp",
+"Item": "House special Jacobson",
+"Prep or note": ""
+},
+{
+"Recipe": "Carne asada",
+"Group": "Seasonings",
+"Qty": "1",
+"Unit": "tsp",
+"Item": "MSG",
+"Prep or note": "chicken powder"
+},
+{
+"Recipe": "Jeff's chicken noodle soup",
+"Group": "Key ingredients",
+"Qty": "",
+"Unit": "",
+"Item": "Pork ribs",
+"Prep or note": "amount not set"
+},
+{
+"Recipe": "Jeff's chicken noodle soup",
+"Group": "Key ingredients",
+"Qty": "8",
+"Unit": "",
+"Item": "Chicken drumsticks",
+"Prep or note": ""
+},
+{
+"Recipe": "Jeff's chicken noodle soup",
+"Group": "Key ingredients",
+"Qty": "1.5",
+"Unit": "lb",
+"Item": "Ground pork",
+"Prep or note": ""
+},
+{
+"Recipe": "Jeff's chicken noodle soup",
+"Group": "Key ingredients",
+"Qty": "2",
+"Unit": "",
+"Item": "Chicken broth",
+"Prep or note": ""
+},
+{
+"Recipe": "Jeff's chicken noodle soup",
+"Group": "Key ingredients",
+"Qty": "",
+"Unit": "",
+"Item": "Noodles",
+"Prep or note": "any kind"
+},
+{
+"Recipe": "Jeff's chicken noodle soup",
+"Group": "Vegetables",
+"Qty": "1",
+"Unit": "box",
+"Item": "Tofu",
+"Prep or note": ""
+},
+{
+"Recipe": "Jeff's chicken noodle soup",
+"Group": "Vegetables",
+"Qty": "1",
+"Unit": "pack",
+"Item": "Enoki mushroom",
+"Prep or note": ""
+},
+{
+"Recipe": "Jeff's chicken noodle soup",
+"Group": "Vegetables",
+"Qty": "1",
+"Unit": "pack",
+"Item": "Baby carrots",
+"Prep or note": ""
+},
+{
+"Recipe": "Jeff's chicken noodle soup",
+"Group": "Vegetables",
+"Qty": "1",
+"Unit": "",
+"Item": "Napa cabbage",
+"Prep or note": ""
+},
+{
+"Recipe": "Jeff's chicken noodle soup",
+"Group": "Vegetables",
+"Qty": "",
+"Unit": "",
+"Item": "Shiitake mushroom",
+"Prep or note": ""
+},
+{
+"Recipe": "Jeff's chicken noodle soup",
+"Group": "Vegetables",
+"Qty": "",
+"Unit": "",
+"Item": "Snow fungus",
+"Prep or note": ""
+},
+{
+"Recipe": "Jeff's chicken noodle soup",
+"Group": "Seasonings",
+"Qty": "",
+"Unit": "to taste",
+"Item": "Sugar",
+"Prep or note": ""
+},
+{
+"Recipe": "Jeff's chicken noodle soup",
+"Group": "Seasonings",
+"Qty": "",
+"Unit": "to taste",
+"Item": "Salt",
+"Prep or note": ""
+},
+{
+"Recipe": "Jeff's chicken noodle soup",
+"Group": "Seasonings",
+"Qty": "",
+"Unit": "to taste",
+"Item": "Pepper",
+"Prep or note": ""
+},
+{
+"Recipe": "Jeff's chicken noodle soup",
+"Group": "Seasonings",
+"Qty": "",
+"Unit": "",
+"Item": "Dried scallops",
+"Prep or note": ""
+},
+{
+"Recipe": "Jeff's chicken noodle soup",
+"Group": "Seasonings",
+"Qty": "",
+"Unit": "",
+"Item": "Garlic",
+"Prep or note": ""
+},
+{
+"Recipe": "Jeff's chicken noodle soup",
+"Group": "Seasonings",
+"Qty": "",
+"Unit": "",
+"Item": "Chicken powder",
+"Prep or note": ""
+},
+{
+"Recipe": "Jeff's chicken noodle soup",
+"Group": "Pantry",
+"Qty": "",
+"Unit": "",
+"Item": "Cornstarch",
+"Prep or note": ""
+},
+{
+"Recipe": "Keto mozzarella sticks",
+"Group": "Key ingredients",
+"Qty": "5",
+"Unit": "whole",
+"Item": "Low-moisture mozzarella sticks",
+"Prep or note": "cut in half, freeze 20 to 30 minutes"
+},
+{
+"Recipe": "Keto mozzarella sticks",
+"Group": "Key ingredients",
+"Qty": "2",
+"Unit": "whole",
+"Item": "Eggs",
+"Prep or note": "beaten"
+},
+{
+"Recipe": "Keto mozzarella sticks",
+"Group": "Key ingredients",
+"Qty": "0.5",
+"Unit": "cup",
+"Item": "Pork rinds",
+"Prep or note": ""
+},
+{
+"Recipe": "Keto mozzarella sticks",
+"Group": "Key ingredients",
+"Qty": "0.5",
+"Unit": "cup",
+"Item": "Grated Parmesan cheese",
+"Prep or note": ""
+},
+{
+"Recipe": "Keto mozzarella sticks",
+"Group": "Key ingredients",
+"Qty": "0.25",
+"Unit": "cup",
+"Item": "Almond flour",
+"Prep or note": ""
+},
+{
+"Recipe": "Keto mozzarella sticks",
+"Group": "Seasonings",
+"Qty": "6",
+"Unit": "dash",
+"Item": "Garlic powder",
+"Prep or note": ""
+},
+{
+"Recipe": "Keto mozzarella sticks",
+"Group": "Pantry",
+"Qty": "",
+"Unit": "",
+"Item": "Oil for frying",
+"Prep or note": "1/2 cup for the stove top method"
+},
+{
+"Recipe": "Kung pao chicken",
+"Group": "Key ingredients",
+"Qty": "2",
+"Unit": "",
+"Item": "Chicken thighs",
+"Prep or note": "cut in 1/2 inch cubes, breast also works"
+},
+{
+"Recipe": "Kung pao chicken",
+"Group": "Key ingredients",
+"Qty": "6",
+"Unit": "",
+"Item": "Dried red chili",
+"Prep or note": ""
+},
+{
+"Recipe": "Kung pao chicken",
+"Group": "Key ingredients",
+"Qty": "0.75",
+"Unit": "cup",
+"Item": "Roasted peanuts",
+"Prep or note": ""
+},
+{
+"Recipe": "Kung pao chicken",
+"Group": "Vegetables",
+"Qty": "4",
+"Unit": "clove",
+"Item": "Garlic",
+"Prep or note": "thinly sliced"
+},
+{
+"Recipe": "Kung pao chicken",
+"Group": "Vegetables",
+"Qty": "1",
+"Unit": "inch",
+"Item": "Ginger",
+"Prep or note": "knob, peeled, cut in matchsticks or grated"
+},
+{
+"Recipe": "Kung pao chicken",
+"Group": "Vegetables",
+"Qty": "6",
+"Unit": "medium",
+"Item": "Scallions",
+"Prep or note": "white and pale green only, cut in 1/2 inch pieces"
+},
+{
+"Recipe": "Kung pao chicken",
+"Group": "Marinade",
+"Qty": "2",
+"Unit": "tsp",
+"Item": "Light soy sauce",
+"Prep or note": ""
+},
+{
+"Recipe": "Kung pao chicken",
+"Group": "Marinade",
+"Qty": "2",
+"Unit": "tsp",
+"Item": "Cornstarch",
+"Prep or note": ""
+},
+{
+"Recipe": "Kung pao chicken",
+"Group": "Marinade",
+"Qty": "1",
+"Unit": "tsp",
+"Item": "Shaoxing wine",
+"Prep or note": ""
+},
+{
+"Recipe": "Kung pao chicken",
+"Group": "Marinade",
+"Qty": "1",
+"Unit": "pinch",
+"Item": "Kosher salt",
+"Prep or note": ""
+},
+{
+"Recipe": "Kung pao chicken",
+"Group": "Sauce",
+"Qty": "2",
+"Unit": "tbsp",
+"Item": "Chinkiang vinegar",
+"Prep or note": ""
+},
+{
+"Recipe": "Kung pao chicken",
+"Group": "Sauce",
+"Qty": "1",
+"Unit": "tbsp",
+"Item": "Honey",
+"Prep or note": ""
+},
+{
+"Recipe": "Kung pao chicken",
+"Group": "Sauce",
+"Qty": "1",
+"Unit": "tbsp",
+"Item": "Shaoxing wine",
+"Prep or note": ""
+},
+{
+"Recipe": "Kung pao chicken",
+"Group": "Sauce",
+"Qty": "2",
+"Unit": "tsp",
+"Item": "Light soy sauce",
+"Prep or note": ""
+},
+{
+"Recipe": "Kung pao chicken",
+"Group": "Sauce",
+"Qty": "0.5",
+"Unit": "tsp",
+"Item": "Cornstarch",
+"Prep or note": ""
+},
+{
+"Recipe": "Kung pao chicken",
+"Group": "Sauce",
+"Qty": "0.25",
+"Unit": "cup",
+"Item": "Chicken stock or water",
+"Prep or note": ""
+},
+{
+"Recipe": "Kung pao chicken",
+"Group": "Seasonings",
+"Qty": "1",
+"Unit": "tsp",
+"Item": "Sichuan peppercorns",
+"Prep or note": "red husks"
+},
+{
+"Recipe": "Kung pao chicken",
+"Group": "Pantry",
+"Qty": "3",
+"Unit": "tbsp",
+"Item": "Vegetable oil",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Hot Thai Kitchen)",
+"Group": "Key ingredients",
+"Qty": "1.5",
+"Unit": "lb",
+"Item": "Pork collar butt roast",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Hot Thai Kitchen)",
+"Group": "Vegetables",
+"Qty": "5",
+"Unit": "clove",
+"Item": "Garlic",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Hot Thai Kitchen)",
+"Group": "Vegetables",
+"Qty": "2",
+"Unit": "tbsp",
+"Item": "Cilantro stems",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Hot Thai Kitchen)",
+"Group": "Marinade",
+"Qty": "2",
+"Unit": "tbsp",
+"Item": "Oyster sauce",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Hot Thai Kitchen)",
+"Group": "Marinade",
+"Qty": "2",
+"Unit": "tbsp",
+"Item": "Soy sauce",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Hot Thai Kitchen)",
+"Group": "Marinade",
+"Qty": "2",
+"Unit": "tbsp",
+"Item": "Black soy sauce",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Hot Thai Kitchen)",
+"Group": "Marinade",
+"Qty": "3",
+"Unit": "tbsp",
+"Item": "Palm sugar",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Hot Thai Kitchen)",
+"Group": "Marinade",
+"Qty": "0.25",
+"Unit": "cup",
+"Item": "Coconut milk",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Hot Thai Kitchen)",
+"Group": "Marinade",
+"Qty": "3",
+"Unit": "tbsp",
+"Item": "Water",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Hot Thai Kitchen)",
+"Group": "Marinade",
+"Qty": "3",
+"Unit": "tbsp",
+"Item": "Cornstarch",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Hot Thai Kitchen)",
+"Group": "Seasonings",
+"Qty": "0.25",
+"Unit": "tsp",
+"Item": "White peppercorns",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Hot Thai Kitchen)",
+"Group": "Seasonings",
+"Qty": "0.25",
+"Unit": "tsp",
+"Item": "Black peppercorns",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Hot Thai Kitchen)",
+"Group": "Pantry",
+"Qty": "1",
+"Unit": "tbsp",
+"Item": "Neutral oil",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Jeff's version)",
+"Group": "Key ingredients",
+"Qty": "1.5",
+"Unit": "lb",
+"Item": "Pork collar butt roast",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Jeff's version)",
+"Group": "Vegetables",
+"Qty": "6",
+"Unit": "clove",
+"Item": "Garlic",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Jeff's version)",
+"Group": "Vegetables",
+"Qty": "2",
+"Unit": "tbsp",
+"Item": "Cilantro stems",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Jeff's version)",
+"Group": "Marinade",
+"Qty": "2",
+"Unit": "tbsp",
+"Item": "Oyster sauce",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Jeff's version)",
+"Group": "Marinade",
+"Qty": "2",
+"Unit": "tbsp",
+"Item": "Soy sauce",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Jeff's version)",
+"Group": "Marinade",
+"Qty": "2",
+"Unit": "tbsp",
+"Item": "Black soy sauce",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Jeff's version)",
+"Group": "Marinade",
+"Qty": "3",
+"Unit": "tbsp",
+"Item": "Palm sugar",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Jeff's version)",
+"Group": "Marinade",
+"Qty": "0.25",
+"Unit": "cup",
+"Item": "Coconut milk",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Jeff's version)",
+"Group": "Marinade",
+"Qty": "3",
+"Unit": "tbsp",
+"Item": "Water",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Jeff's version)",
+"Group": "Marinade",
+"Qty": "3",
+"Unit": "tbsp",
+"Item": "Cornstarch",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Jeff's version)",
+"Group": "Seasonings",
+"Qty": "0.25",
+"Unit": "tsp",
+"Item": "White peppercorns",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Jeff's version)",
+"Group": "Seasonings",
+"Qty": "0.25",
+"Unit": "tsp",
+"Item": "Black peppercorns",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Jeff's version)",
+"Group": "Pantry",
+"Qty": "1",
+"Unit": "tbsp",
+"Item": "Neutral oil",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Serious Eats)",
+"Group": "Key ingredients",
+"Qty": "2",
+"Unit": "lb",
+"Item": "Pork",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Serious Eats)",
+"Group": "Vegetables",
+"Qty": "4",
+"Unit": "clove",
+"Item": "Garlic",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Serious Eats)",
+"Group": "Vegetables",
+"Qty": "2",
+"Unit": "tbsp",
+"Item": "Cilantro stems",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Serious Eats)",
+"Group": "Marinade",
+"Qty": "2",
+"Unit": "tbsp",
+"Item": "Palm sugar",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Serious Eats)",
+"Group": "Marinade",
+"Qty": "1",
+"Unit": "tbsp",
+"Item": "Fish sauce",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Serious Eats)",
+"Group": "Marinade",
+"Qty": "1",
+"Unit": "tbsp",
+"Item": "Soy sauce",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Serious Eats)",
+"Group": "Marinade",
+"Qty": "1",
+"Unit": "tbsp",
+"Item": "Oyster sauce",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Serious Eats)",
+"Group": "Marinade",
+"Qty": "1",
+"Unit": "can",
+"Item": "Unsweetened coconut cream",
+"Prep or note": "160 ml"
+},
+{
+"Recipe": "Moo ping (Serious Eats)",
+"Group": "Seasonings",
+"Qty": "1.5",
+"Unit": "tsp",
+"Item": "White pepper",
+"Prep or note": ""
+},
+{
+"Recipe": "Moo ping (Serious Eats)",
+"Group": "Seasonings",
+"Qty": "0.5",
+"Unit": "tsp",
+"Item": "MSG",
+"Prep or note": ""
+},
+{
+"Recipe": "Pad see ew",
+"Group": "Vegetables",
+"Qty": "",
+"Unit": "",
+"Item": "Garlic",
+"Prep or note": ""
+},
+{
+"Recipe": "Pad see ew",
+"Group": "Sauce",
+"Qty": "2",
+"Unit": "tbsp",
+"Item": "Oyster sauce",
+"Prep or note": ""
+},
+{
+"Recipe": "Pad see ew",
+"Group": "Sauce",
+"Qty": "1",
+"Unit": "tbsp",
+"Item": "Soy sauce",
+"Prep or note": ""
+},
+{
+"Recipe": "Pad see ew",
+"Group": "Sauce",
+"Qty": "1.5",
+"Unit": "tsp",
+"Item": "Fish sauce",
+"Prep or note": ""
+},
+{
+"Recipe": "Pad see ew",
+"Group": "Sauce",
+"Qty": "1.5",
+"Unit": "tsp",
+"Item": "Golden Mountain sauce",
+"Prep or note": "or substitute Maggi seasoning"
+},
+{
+"Recipe": "Pad see ew",
+"Group": "Sauce",
+"Qty": "2",
+"Unit": "tsp",
+"Item": "Thai black soy sauce",
+"Prep or note": ""
+},
+{
+"Recipe": "Pad see ew",
+"Group": "Seasonings",
+"Qty": "",
+"Unit": "to taste",
+"Item": "White pepper",
+"Prep or note": ""
+},
+{
+"Recipe": "Pad see ew",
+"Group": "Seasonings",
+"Qty": "",
+"Unit": "to taste",
+"Item": "Sugar",
+"Prep or note": ""
+},
+{
+"Recipe": "Potato leek soup",
+"Group": "Key ingredients",
+"Qty": "4",
+"Unit": "",
+"Item": "Leeks",
+"Prep or note": "sliced, no dark greens, keep green"
+},
+{
+"Recipe": "Potato leek soup",
+"Group": "Key ingredients",
+"Qty": "4",
+"Unit": "",
+"Item": "Potatoes",
+"Prep or note": "chopped, Yukon gold or 2/3 of russet"
+},
+{
+"Recipe": "Potato leek soup",
+"Group": "Key ingredients",
+"Qty": "0.5",
+"Unit": "stick",
+"Item": "Butter",
+"Prep or note": ""
+},
+{
+"Recipe": "Potato leek soup",
+"Group": "Key ingredients",
+"Qty": "",
+"Unit": "",
+"Item": "Heavy cream",
+"Prep or note": ""
+},
+{
+"Recipe": "Potato leek soup",
+"Group": "Key ingredients",
+"Qty": "",
+"Unit": "",
+"Item": "Crème fraîche",
+"Prep or note": ""
+},
+{
+"Recipe": "Potato leek soup",
+"Group": "Seasonings",
+"Qty": "",
+"Unit": "to taste",
+"Item": "Salt",
+"Prep or note": ""
+},
+{
+"Recipe": "Potato leek soup",
+"Group": "Seasonings",
+"Qty": "",
+"Unit": "to taste",
+"Item": "White pepper",
+"Prep or note": ""
+},
+{
+"Recipe": "Potato leek soup",
+"Group": "Seasonings",
+"Qty": "",
+"Unit": "",
+"Item": "Bay leaf",
+"Prep or note": "unsure"
+},
+{
+"Recipe": "Potato leek soup",
+"Group": "Seasonings",
+"Qty": "",
+"Unit": "",
+"Item": "Nutmeg",
+"Prep or note": "unsure"
+},
+{
+"Recipe": "Potato leek soup",
+"Group": "Pantry",
+"Qty": "",
+"Unit": "",
+"Item": "Olive oil",
+"Prep or note": ""
+},
+{
+"Recipe": "Potato leek soup",
+"Group": "Toppings",
+"Qty": "",
+"Unit": "",
+"Item": "Chives",
+"Prep or note": ""
+},
+{
+"Recipe": "Spaghetti",
+"Group": "Key ingredients",
+"Qty": "",
+"Unit": "",
+"Item": "Noodles",
+"Prep or note": ""
+},
+{
+"Recipe": "Spaghetti",
+"Group": "Key ingredients",
+"Qty": "",
+"Unit": "",
+"Item": "Hot sausage",
+"Prep or note": ""
+},
+{
+"Recipe": "Spaghetti",
+"Group": "Key ingredients",
+"Qty": "",
+"Unit": "",
+"Item": "Turkey hot dog",
+"Prep or note": ""
+},
+{
+"Recipe": "Spaghetti",
+"Group": "Key ingredients",
+"Qty": "",
+"Unit": "",
+"Item": "Mushroom",
+"Prep or note": ""
+},
+{
+"Recipe": "Spaghetti",
+"Group": "Key ingredients",
+"Qty": "",
+"Unit": "",
+"Item": "Cheese",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (full version)",
+"Group": "Key ingredients",
+"Qty": "",
+"Unit": "",
+"Item": "Tofu",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (full version)",
+"Group": "Key ingredients",
+"Qty": "",
+"Unit": "",
+"Item": "Rice paper",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (full version)",
+"Group": "Key ingredients",
+"Qty": "",
+"Unit": "",
+"Item": "Egg",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (full version)",
+"Group": "Key ingredients",
+"Qty": "",
+"Unit": "",
+"Item": "Pork or chicken",
+"Prep or note": "optional"
+},
+{
+"Recipe": "Spring rolls (full version)",
+"Group": "Vegetables",
+"Qty": "",
+"Unit": "",
+"Item": "Shiitake mushroom",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (full version)",
+"Group": "Vegetables",
+"Qty": "",
+"Unit": "",
+"Item": "Long beans",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (full version)",
+"Group": "Vegetables",
+"Qty": "",
+"Unit": "",
+"Item": "Snow peas",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (full version)",
+"Group": "Vegetables",
+"Qty": "",
+"Unit": "",
+"Item": "Cabbage",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (full version)",
+"Group": "Vegetables",
+"Qty": "",
+"Unit": "",
+"Item": "Carrots",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (full version)",
+"Group": "Vegetables",
+"Qty": "",
+"Unit": "",
+"Item": "Garlic",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (full version)",
+"Group": "Vegetables",
+"Qty": "",
+"Unit": "",
+"Item": "Green onions",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (full version)",
+"Group": "Sauce",
+"Qty": "",
+"Unit": "",
+"Item": "Hoisin sauce",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (full version)",
+"Group": "Sauce",
+"Qty": "",
+"Unit": "",
+"Item": "Sweet chili sauce",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (full version)",
+"Group": "Sauce",
+"Qty": "",
+"Unit": "",
+"Item": "Sriracha",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (quick version)",
+"Group": "Key ingredients",
+"Qty": "",
+"Unit": "",
+"Item": "Tofu",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (quick version)",
+"Group": "Key ingredients",
+"Qty": "",
+"Unit": "",
+"Item": "Beancurd sticks",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (quick version)",
+"Group": "Key ingredients",
+"Qty": "",
+"Unit": "",
+"Item": "Egg",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (quick version)",
+"Group": "Key ingredients",
+"Qty": "",
+"Unit": "",
+"Item": "Rice paper",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (quick version)",
+"Group": "Key ingredients",
+"Qty": "",
+"Unit": "",
+"Item": "Pork or chicken",
+"Prep or note": "optional"
+},
+{
+"Recipe": "Spring rolls (quick version)",
+"Group": "Vegetables",
+"Qty": "",
+"Unit": "",
+"Item": "Shiitake mushroom",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (quick version)",
+"Group": "Vegetables",
+"Qty": "",
+"Unit": "",
+"Item": "Wood ear mushroom",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (quick version)",
+"Group": "Vegetables",
+"Qty": "",
+"Unit": "",
+"Item": "Snow peas",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (quick version)",
+"Group": "Vegetables",
+"Qty": "",
+"Unit": "",
+"Item": "Cabbage",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (quick version)",
+"Group": "Vegetables",
+"Qty": "",
+"Unit": "",
+"Item": "Carrots",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (quick version)",
+"Group": "Vegetables",
+"Qty": "",
+"Unit": "",
+"Item": "Garlic",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (quick version)",
+"Group": "Vegetables",
+"Qty": "",
+"Unit": "",
+"Item": "Cilantro",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (quick version)",
+"Group": "Vegetables",
+"Qty": "",
+"Unit": "",
+"Item": "Green onions",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (quick version)",
+"Group": "Sauce",
+"Qty": "",
+"Unit": "",
+"Item": "Hoisin sauce",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (quick version)",
+"Group": "Sauce",
+"Qty": "",
+"Unit": "",
+"Item": "Sweet chili sauce",
+"Prep or note": ""
+},
+{
+"Recipe": "Spring rolls (quick version)",
+"Group": "Sauce",
+"Qty": "",
+"Unit": "",
+"Item": "Sriracha",
+"Prep or note": ""
+},
+{
+"Recipe": "Steamed soft-boiled eggs",
+"Group": "Key ingredients",
+"Qty": "",
+"Unit": "",
+"Item": "Eggs",
+"Prep or note": ""
+}
+],
+"Steps": [
+{
+"Recipe": "Brad's fermented hot sauce",
+"Phase": "Prep",
+"Instruction": "Using gloves, remove tops and seeds."
+},
+{
+"Recipe": "Brad's fermented hot sauce",
+"Phase": "Cook",
+"Instruction": "Add salt, sugar, spices and garlic to the fermentation jar."
+},
+{
+"Recipe": "Brad's fermented hot sauce",
+"Phase": "Cook",
+"Instruction": "Add enough water to cover the spice layer and shake."
+},
+{
+"Recipe": "Brad's fermented hot sauce",
+"Phase": "Cook",
+"Instruction": "Place the peppers into the jar and add the remaining 2 qts of water."
+},
+{
+"Recipe": "Brad's fermented hot sauce",
+"Phase": "Cook",
+"Instruction": "Close the jar and let it ferment for 1.5 weeks, burping it each day."
+},
+{
+"Recipe": "Brad's fermented hot sauce",
+"Phase": "Cook",
+"Instruction": "After 1.5 weeks, massage the peppers with gloves."
+},
+{
+"Recipe": "Brad's fermented hot sauce",
+"Phase": "Cook",
+"Instruction": "Ferment for another 1 to 2 weeks."
+},
+{
+"Recipe": "Brad's fermented hot sauce",
+"Phase": "Cook",
+"Instruction": "Strain out the pepper solids, keeping some of the liquid as table brine."
+},
+{
+"Recipe": "Brad's fermented hot sauce",
+"Phase": "Cook",
+"Instruction": "Blend at variable speeds, adding some brine."
+},
+{
+"Recipe": "Jeff's chicken noodle soup",
+"Phase": "Prep",
+"Instruction": "Marinate the ground pork with salt, sugar, hot sesame oil and cornstarch."
+},
+{
+"Recipe": "Jeff's chicken noodle soup",
+"Phase": "Cook",
+"Instruction": "Preboil the meats, then transfer them to boiling water."
+},
+{
+"Recipe": "Jeff's chicken noodle soup",
+"Phase": "Cook",
+"Instruction": "Add sugar and salt to the clean water pot."
+},
+{
+"Recipe": "Jeff's chicken noodle soup",
+"Phase": "Cook",
+"Instruction": "Add the chicken broth."
+},
+{
+"Recipe": "Keto mozzarella sticks",
+"Phase": "Prep",
+"Instruction": "Cut the mozzarella sticks in half and freeze them for 20 to 30 minutes."
+},
+{
+"Recipe": "Keto mozzarella sticks",
+"Phase": "Prep",
+"Instruction": "In a bowl or on a plate, mix the pork rinds, grated Parmesan and garlic powder."
+},
+{
+"Recipe": "Keto mozzarella sticks",
+"Phase": "Prep",
+"Instruction": "In another bowl, beat the 2 eggs."
+},
+{
+"Recipe": "Keto mozzarella sticks",
+"Phase": "Prep",
+"Instruction": "In a third bowl, add 1/4 cup of almond flour."
+},
+{
+"Recipe": "Keto mozzarella sticks",
+"Phase": "Cook",
+"Instruction": "Take the cheese sticks out of the freezer."
+},
+{
+"Recipe": "Keto mozzarella sticks",
+"Phase": "Cook",
+"Instruction": "Dip each stick in almond flour, egg, pork rind mixture, egg, then pork rind mixture again."
+},
+{
+"Recipe": "Keto mozzarella sticks",
+"Phase": "Cook",
+"Instruction": "Air fryer: place 5 pieces in the air fryer and cook for 10 minutes at 400F."
+},
+{
+"Recipe": "Keto mozzarella sticks",
+"Phase": "Cook",
+"Instruction": "Stove top: add 1/2 cup of oil to a pan and cook until crispy on each side."
+},
+{
+"Recipe": "Potato leek soup",
+"Phase": "Cook",
+"Instruction": "Heat the butter and olive oil in a pan with a little salt."
+},
+{
+"Recipe": "Potato leek soup",
+"Phase": "Cook",
+"Instruction": "Add the sliced leeks and cook until very, very soft."
+},
+{
+"Recipe": "Potato leek soup",
+"Phase": "Cook",
+"Instruction": "Add the chopped potatoes."
+},
+{
+"Recipe": "Potato leek soup",
+"Phase": "Cook",
+"Instruction": "Cook for about 40 minutes."
+},
+{
+"Recipe": "Potato leek soup",
+"Phase": "Cook",
+"Instruction": "Blend until smooth."
+},
+{
+"Recipe": "Potato leek soup",
+"Phase": "Cook",
+"Instruction": "Stir in the heavy cream and crème fraîche."
+},
+{
+"Recipe": "Potato leek soup",
+"Phase": "Cook",
+"Instruction": "Season with salt and white pepper, then top with chives."
+},
+{
+"Recipe": "Steamed soft-boiled eggs",
+"Phase": "Cook",
+"Instruction": "Add 1 inch of water to a pot and cover it."
+},
+{
+"Recipe": "Steamed soft-boiled eggs",
+"Phase": "Cook",
+"Instruction": "Put the eggs in the water."
+},
+{
+"Recipe": "Steamed soft-boiled eggs",
+"Phase": "Cook",
+"Instruction": "Heat to a boil."
+},
+{
+"Recipe": "Steamed soft-boiled eggs",
+"Phase": "Cook",
+"Instruction": "Let it simmer heavily."
+},
+{
+"Recipe": "Steamed soft-boiled eggs",
+"Phase": "Cook",
+"Instruction": "Soft boiled: 4:30 to 5 minutes."
+},
+{
+"Recipe": "Steamed soft-boiled eggs",
+"Phase": "Cook",
+"Instruction": "Fudgy middle: 6 minutes."
+},
+{
+"Recipe": "Steamed soft-boiled eggs",
+"Phase": "Cook",
+"Instruction": "Hard boiled: 9 minutes."
+}
+]
+}

@@ -237,18 +237,108 @@ W.notes = {
   }
 };
 
+/* ---- recipe feed: the Google Sheet (live when shared, else the bundled snapshot) ---- */
+const SHEET_ID = '1KyZI6fsmlOAoA-KaYU_zegpnRlZvO2WpHQj9aAr-lnk';
+const SHEET_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/edit?gid=1004`;
+const FEED_KEY = 'hd.v1.feed';
+let feed = { recipes: [], src: 'none' }, recCat = 'All';
+const slug = t => 's-' + t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+function parseCsv(txt) {
+  const rows = []; let row = [], cur = '', q = false;
+  for (let i = 0; i < txt.length; i++) {
+    const c = txt[i];
+    if (q) { if (c === '"') { if (txt[i + 1] === '"') { cur += '"'; i++; } else q = false; } else cur += c; }
+    else if (c === '"') q = true;
+    else if (c === ',') { row.push(cur); cur = ''; }
+    else if (c === '\n' || c === '\r') { if (c === '\r' && txt[i + 1] === '\n') i++; row.push(cur); rows.push(row); row = []; cur = ''; }
+    else cur += c;
+  }
+  if (cur || row.length) { row.push(cur); rows.push(row); }
+  const h = (rows.shift() || []).map(x => x.trim());
+  return rows.filter(r => r.some(x => x.trim())).map(r => Object.fromEntries(h.map((k, i) => [k, (r[i] || '').trim()])));
+}
+function parseQty(v) {
+  const t = String(v ?? '').trim(); if (!t) return null;
+  let tot = 0;
+  for (const part of t.split(/\s+/)) {
+    const m = part.match(/^(\d+)\/(\d+)$/);
+    if (m) tot += +m[1] / +m[2]; else if (!isNaN(+part)) tot += +part; else return null;
+  }
+  return tot || null;
+}
+function fmtQty(n) {
+  if (n == null) return '';
+  const whole = Math.floor(n + 1e-9), f = n - whole;
+  if (f < 0.02) return String(whole);
+  for (const [d, label] of [[1 / 8, '1/8'], [1 / 4, '1/4'], [1 / 3, '1/3'], [3 / 8, '3/8'], [1 / 2, '1/2'], [5 / 8, '5/8'], [2 / 3, '2/3'], [3 / 4, '3/4'], [7 / 8, '7/8']])
+    if (Math.abs(f - d) < 0.02) return (whole ? whole + ' ' : '') + label;
+  if (f > 0.98) return String(whole + 1);
+  return String(Math.round(n * 100) / 100);
+}
+const PLURAL = { cup: 'cups', clove: 'cloves', can: 'cans', stick: 'sticks', pinch: 'pinches', dash: 'dashes', inch: 'inches', pack: 'packs', box: 'boxes', flower: 'flowers' };
+function ingText(i, mult, note = true) {
+  const q = i.qty == null ? null : i.qty * mult, plural = q != null && q > 1.02;
+  const unit = i.unit === 'to taste' ? '' : (plural && PLURAL[i.unit]) || i.unit;
+  const head = [q == null ? '' : fmtQty(q), unit, i.item].filter(Boolean).join(' ');
+  return head + (i.unit === 'to taste' ? ', to taste' : '') + (note && i.note ? ', ' + i.note : '');
+}
+function buildFeed(raw) {
+  const by = (rows, key) => { const m = {}; rows.forEach(r => (m[r.Recipe] = m[r.Recipe] || []).push(r)); return m; };
+  const ings = by(raw.Ingredients), steps = by(raw.Steps);
+  return raw.Recipes.filter(r => r.Recipe).map(r => {
+    const prep = +r['Prep (min)'] || 0, cook = +r['Cook (min)'] || 0;
+    return {
+      id: slug(r.Recipe), title: r.Recipe, category: r.Category || '', cuisine: r.Cuisine || '', servings: r.Servings || '',
+      prep, cook, total: prep + cook, scale: parseQty(r.Scale) || 1, equipment: r.Equipment || '', tags: r.Tags || '', source: r.Source || '', notes: r.Notes || '',
+      ing: (ings[r.Recipe] || []).map(i => ({ group: i.Group || 'Other', qty: parseQty(i.Qty), unit: i.Unit || '', item: i.Item, note: i['Prep or note'] || '' })),
+      steps: (steps[r.Recipe] || []).map(x => ({ phase: x.Phase === 'Prep' ? 'Prep' : 'Cook', text: x.Instruction }))
+    };
+  });
+}
+function setFeed(recipes, src) {
+  if (!recipes.length) return;
+  feed = { recipes, src };
+  try { localStorage.setItem(FEED_KEY, JSON.stringify(recipes)); } catch { }
+  if (cards.recipes) renderWidget('recipes');
+  fillDatalist();
+}
+async function loadFeed() {
+  try { const c = JSON.parse(localStorage.getItem(FEED_KEY) || 'null'); if (Array.isArray(c) && c.length) feed = { recipes: c, src: 'cache' }; } catch { }
+  if (cards.recipes) renderWidget('recipes'); fillDatalist();
+  try {
+    const r = await fetch('recipes.json', { cache: 'no-cache' }); if (r.ok) setFeed(buildFeed(await r.json()), 'snapshot');
+  } catch { }
+  try { // live read of the Sheet: works only if the Sheet is shared as "anyone with the link can view"
+    const ctl = new AbortController(), t = setTimeout(() => ctl.abort(), 7000);
+    const get = async tab => { const r = await fetch(`https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=${encodeURIComponent(tab)}`, { signal: ctl.signal, credentials: 'omit' }); if (!r.ok) throw 0; const x = await r.text(); if (/^\s*</.test(x)) throw 0; return parseCsv(x); };
+    const [Recipes, Ingredients, Steps] = await Promise.all([get('Recipes'), get('Ingredients'), get('Steps')]); clearTimeout(t);
+    const rec = buildFeed({ Recipes, Ingredients: Ingredients.filter(i => i.Recipe), Steps: Steps.filter(i => i.Recipe) });
+    if (rec.length) setFeed(rec, 'live');
+  } catch { }
+}
+const allRecipes = () => [...feed.recipes, ...data.recipes.map(r => ({ id: r.id, title: r.title, local: true, category: 'My recipes', ing: r.ing, tags: '', cuisine: '' }))];
+const metaLine = r => r.local ? `${r.ing.length} ingredient${r.ing.length === 1 ? '' : 's'}` : [r.category, r.cuisine, r.total ? r.total + ' min' : ''].filter(Boolean).join(' · ');
+const recMatch = (r, q) => !q || [r.title, r.category, r.cuisine, r.tags].join(' ').toLowerCase().includes(q) || (r.local ? r.ing : r.ing.map(i => i.item)).some(i => i.toLowerCase().includes(q));
+
 W.recipes = {
-  title: 'Recipes', icon: 'book', accent: '#e5677f', search: true,
+  title: 'Recipes', icon: 'book', accent: '#e5677f', search: true, alwaysSearch: true,
   add: { modal: () => openRecipeEditor() },
-  count: () => data.recipes.length,
+  count: () => allRecipes().length,
   render() {
-    if (!data.recipes.length) return empty('No recipes yet', 'Tap + to save one. You can send its ingredients to Shopping.');
-    const q = (searchQ.recipes || '').toLowerCase();
-    const list = data.recipes.filter(r => !q || r.title.toLowerCase().includes(q) || r.ing.some(i => i.toLowerCase().includes(q))).sort((a, b) => a.title.localeCompare(b.title));
-    if (!list.length) return empty('No matches', 'Try a different word.');
-    return `<ul class="rows">${list.map(r => `<li class="row clickable" data-id="${r.id}" data-act="open"><div class="row-main"><span>${esc(r.title)}</span><small class="meta">${r.ing.length} ingredient${r.ing.length === 1 ? '' : 's'}</small></div><span style="color:var(--faint)">${icon('chevron')}</span></li>`).join('')}</ul>`;
+    const all = allRecipes();
+    if (!all.length) return empty('No recipes yet', 'Tap + to save one. You can send its ingredients to Shopping.');
+    const cats = ['All', ...[...new Set(all.map(r => r.category).filter(Boolean))].sort()];
+    if (!cats.includes(recCat)) recCat = 'All';
+    const q = (searchQ.recipes || '').trim().toLowerCase();
+    const list = all.filter(r => (recCat === 'All' || r.category === recCat) && recMatch(r, q)).sort((a, b) => a.title.localeCompare(b.title));
+    const chips = `<div class="rchips" role="group" aria-label="Filter by category">${cats.map(c => `<button type="button" class="rchip${c === recCat ? ' on' : ''}" data-act="cat" data-cat="${esc(c)}">${esc(c)}</button>`).join('')}</div>`;
+    if (!list.length) return chips + empty('No matches', 'Try a different word or category.');
+    return chips + `<ul class="rows">${list.map(r => `<li class="row clickable" data-id="${esc(r.id)}" data-act="open"><div class="row-main"><span>${esc(r.title)}</span><small class="meta">${esc(metaLine(r))}</small></div><span style="color:var(--faint)">${icon('chevron')}</span></li>`).join('')}</ul>`;
   },
-  act: { open: ({ id }) => openRecipe(id) }
+  act: {
+    open: ({ id }) => openRecipe(id),
+    cat: ({ el }) => { recCat = el.dataset.cat; renderWidget('recipes'); }
+  }
 };
 
 W.events = {
@@ -394,7 +484,47 @@ W.weather = {
 };
 
 /* ================= recipes: viewer + editor ================= */
+function openSheetRecipe(r) {
+  const groups = () => { const g = []; r.ing.forEach(i => { let x = g.find(y => y.n === i.group); if (!x) g.push(x = { n: i.group, l: [] }); x.l.push(i); }); return g; };
+  const ingHtml = mult => r.ing.length ? groups().map(g => `<h4 class="grp">${esc(g.n)}</h4><ul class="ing">${g.l.map(i => `<li><label><input type="checkbox" value="${esc(ingText(i, mult, false))}"><span>${esc(ingText(i, mult))}</span></label></li>`).join('')}</ul>`).join('') : '<p class="muted">No ingredients listed.</p>';
+  const stepsOf = ph => r.steps.filter(x => x.phase === ph).map(x => x.text);
+  const ol = a => `<ol>${a.map(t => `<li>${esc(t)}</li>`).join('')}</ol>`;
+  const prep = stepsOf('Prep'), cook = stepsOf('Cook');
+  const facts = [r.category, r.cuisine, r.servings && r.servings + ' servings', r.prep && 'Prep ' + r.prep + ' min', r.cook && 'Cook ' + r.cook + ' min'].filter(Boolean);
+  const src = /^https?:\/\//i.test(r.source) ? `<a href="${esc(r.source)}" target="_blank" rel="noopener noreferrer">${esc(new URL(r.source).hostname.replace(/^www\./, ''))}</a>` : esc(r.source);
+  const mults = [[0.5, '½'], [1, '×1'], [2, '×2'], [3, '×3'], [4, '×4']];
+  let mult = 1;
+  openSheet(
+    `${facts.length ? `<p class="rmeta">${facts.map(esc).join(' · ')}</p>` : ''}
+    ${r.equipment ? `<p class="rmeta"><b>Equipment</b> ${esc(r.equipment)}</p>` : ''}${r.source ? `<p class="rmeta"><b>Source</b> ${src}</p>` : ''}
+    <h3 class="sub">Ingredients <small>tick what you need to buy</small></h3>
+    <div class="scale" role="group" aria-label="Scale the recipe">${mults.map(([m, l]) => `<button type="button" class="rchip${m === 1 ? ' on' : ''}" data-mult="${m}">${l}</button>`).join('')}</div>
+    <div data-ings>${ingHtml(1)}</div>
+    ${prep.length ? `<h3 class="sub">Prep</h3><div class="steps">${ol(prep)}</div>` : ''}
+    <h3 class="sub">Cooking instructions</h3>
+    <div class="steps">${cook.length ? ol(cook) : '<p class="muted">No steps written yet. Add them in the Sheet\'s Steps tab.</p>'}</div>
+    ${r.notes ? `<h3 class="sub">Notes</h3><div class="steps"><p>${esc(r.notes)}</p></div>` : ''}
+    <div class="actions wrap">${r.ing.length ? '<button class="btn primary" type="button" data-addshop></button>' : ''}<a class="btn ghost" href="${SHEET_URL}" target="_blank" rel="noopener noreferrer">${icon('external')} Open in Google Sheets</a></div>`,
+    {
+      title: r.title, accent: W.recipes.accent, onOpen(b) {
+        const btn = $('[data-addshop]', b);
+        const picked = () => $$('.ing input:checked', b).map(i => i.value);
+        const label = () => { if (btn) btn.textContent = picked().length ? `Add ${picked().length} to Shopping` : 'Add all to Shopping'; };
+        label(); b.addEventListener('change', label);
+        $$('[data-mult]', b).forEach(m => m.addEventListener('click', () => {
+          mult = +m.dataset.mult * r.scale; $$('[data-mult]', b).forEach(x => x.classList.toggle('on', x === m));
+          $('[data-ings]', b).innerHTML = ingHtml(mult); label();
+        }));
+        btn && btn.addEventListener('click', () => {
+          const items = picked().length ? picked() : r.ing.map(i => ingText(i, mult, false)); let n = 0;
+          items.forEach(t => { if (!data.shop.some(x => !x.done && x.t.toLowerCase() === t.toLowerCase())) { data.shop.unshift({ id: uid(), t, done: false, created: Date.now() }); n++; } });
+          touched('shop'); sheet.close(); toast(n ? `Added ${n} item${n === 1 ? '' : 's'} to Shopping` : 'Everything is already on your list');
+        });
+      }
+    });
+}
 function openRecipe(id) {
+  const sr = feed.recipes.find(x => x.id === id); if (sr) return openSheetRecipe(sr);
   const r = find(data.recipes, id); if (!r) return;
   const stepLines = lines(r.steps).map(s => s.replace(/^\s*(?:step\s*)?\d+[.)]\s*/i, ''));
   openSheet(
@@ -493,10 +623,10 @@ function renderWidget(id) {
   const w = W[id], body = $('.body', card), st = body.scrollTop;
   body.innerHTML = w.render(); body.scrollTop = st;
   const n = w.count ? w.count() : 0, b = $('[data-badge]', card); b.textContent = n || ''; b.hidden = !n;
-  if (w.search) $('.tools', card).hidden = data.recipes.length < 6;
+  if (w.search) $('.tools', card).hidden = !w.alwaysSearch && data.recipes.length < 6;
 }
 function touched(...ids) { save(); ids.forEach(renderWidget); renderKpis(); fillDatalist(); }
-function fillDatalist() { $('#recipeTitles').innerHTML = data.recipes.map(r => `<option value="${esc(r.title)}">`).join(''); }
+function fillDatalist() { $('#recipeTitles').innerHTML = allRecipes().map(r => `<option value="${esc(r.title)}">`).join(''); }
 
 /* ---- quick-add rows inside cards ---- */
 function buildForm(id) {
@@ -767,6 +897,7 @@ if (document.documentElement.classList.contains('locked')) setTimeout(() => $('#
 hydrateIcons();
 applyTheme();
 renderAll();
+loadFeed();
 setSyncState(sync.state === 'off' ? 'off' : 'ok');
 if (sync.token) { lastPull = Date.now(); syncNow(); }
 if (new URLSearchParams(location.search).has('add')) setTimeout(() => openQuickAdd(), 50);

@@ -355,3 +355,14 @@ html.locked .app, html.locked .fab, html.locked .toast { display: none; }
 .gate-mark { width: 52px; height: 52px; display: grid; grid-template: 1fr 1fr / 1fr 1fr; gap: 4px; }
 .gate-mark i { border-radius: 9px; background: #2fb8a6; }
 .gate-mark i:nth-child(2) { background: #e8a23a; } .gate-mark i:nth-child(3) { background: #e5677f; } .gate-mark i:nth-child(4) { background: #8b7cf0; }
+
+/* recipes: category chips, scale, groups */
+.rchips, .scale { display: flex; gap: 6px; overflow-x: auto; padding: 2px 12px 8px; scrollbar-width: none; }
+.rchips::-webkit-scrollbar, .scale::-webkit-scrollbar { display: none; }
+.scale { padding: 0 0 6px; flex-wrap: wrap; }
+.rchip { flex: none; padding: 6px 12px; border-radius: 999px; background: var(--field); color: var(--text); font-weight: 600; font-size: 13px; min-height: 32px; }
+.rchip.on { background: var(--accent, #e5677f); color: #0b141b; }
+.grp { margin: 12px 0 2px; font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+.rmeta { margin: 0 0 6px; color: var(--muted); font-size: 14px; }
+.rmeta b { color: var(--text); margin-right: 6px; }
+.rmeta a { color: inherit; }
