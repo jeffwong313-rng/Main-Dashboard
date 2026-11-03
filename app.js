@@ -696,16 +696,18 @@ const DUB_KEY = 'hd.v1.dub', DUB_HOURS = ['08', '12', '16', '20'], DUB_LABELS = 
 let dub = (() => { try { return JSON.parse(lsGet(DUB_KEY)); } catch { return null; } })(), dubErr = false;
 function renderDublin() {
   const el = $('#dubWx'); if (!el) return;
-  const head = `<div class="dwx-h"><strong>Dublin, CA</strong><span class="dwx-leg">°F / °C and chance of rain</span><button type="button" class="icon-btn" data-dubrefresh aria-label="Refresh forecast">${icon('repeat')}</button></div>`;
-  if (!dub || !dub.t || !dub.t.length) { el.innerHTML = head + `<p class="muted dwx-msg">${dubErr ? 'Could not load the forecast. Check your connection.' : 'Loading forecast…'}</p>`; return; }
+  const title = `<button type="button" class="dwx-title" data-dubrefresh aria-label="Dublin, CA forecast. Tap to refresh">Dublin, CA</button>`;
+  if (!dub || !dub.t || !dub.t.length) { el.innerHTML = `<div class="dwx-g">${title}</div><p class="muted dwx-msg">${dubErr ? 'Could not load the forecast. Check your connection.' : 'Loading forecast…'}</p>`; return; }
   const days = [...new Set(dub.t.map(x => x.slice(0, 10)))].slice(0, 4);
   const laNow = new Date().toLocaleString('en-CA', { timeZone: 'America/Los_Angeles', hourCycle: 'h23', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit' }); // "2026-11-03, 09"
   const nowDay = laNow.slice(0, 10), nowHr = +laNow.slice(-2);
-  const cells = days.map((d, di) => `<span class="dwx-day">${di === 0 ? 'Today' : esc(parseDate(d).toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' }))}</span>` + DUB_HOURS.map(h => {
+  const rows = days.map((d, di) => `<span class="dwx-day">${di === 0 ? 'Today' : esc(parseDate(d).toLocaleDateString([], { weekday: 'short' }) + ' ' + parseDate(d).getDate())}</span>` + DUB_HOURS.map(h => {
     const i = dub.t.indexOf(`${d}T${h}:00`), c = i < 0 ? null : dub.c[i], pr = i < 0 ? null : dub.p[i], past = d === nowDay && +h < nowHr;
-    return `<span class="dwx-c${past ? ' past' : ''}">${c == null ? '<b>–</b>' : `<b>${Math.round(c * 9 / 5 + 32)}°F</b><small>${Math.round(c)}°C</small>`}<em>${icon('drop')}${pr == null ? '–' : pr + '%'}</em></span>`;
+    if (c == null) return `<span class="dwx-c${past ? ' past' : ''}">–</span>`;
+    const f = Math.round(c * 9 / 5 + 32), k = Math.round(c);
+    return `<span class="dwx-c${past ? ' past' : ''}"><b><i class="lg">${f}°F / ${k}°C</i><i class="sm">${f}/${k}°</i></b><em>${pr == null ? '–' : pr + '%'}</em></span>`;
   }).join('')).join('');
-  el.innerHTML = head + `<div class="dwx-g"><span></span>${DUB_LABELS.map(l => `<span class="dwx-t">${l}</span>`).join('')}${cells}</div>` + (dubErr ? '<p class="muted dwx-msg">Showing the last saved forecast.</p>' : '');
+  el.innerHTML = `<div class="dwx-g">${title}${DUB_LABELS.map(l => `<span class="dwx-t">${l}</span>`).join('')}${rows}</div>` + (dubErr ? '<p class="muted dwx-msg">Showing the last saved forecast.</p>' : '');
 }
 async function loadDublin(force) {
   renderDublin();
