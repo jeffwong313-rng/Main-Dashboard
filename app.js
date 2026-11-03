@@ -125,9 +125,12 @@ const DEF = {
 };
 const mqMobile = matchMedia('(max-width: 699px)'), mqTablet = matchMedia('(max-width: 1099px)');
 const bp = () => mqMobile.matches ? 'mobile' : mqTablet.matches ? 'tablet' : 'desktop';
+const stockLayout = () => Object.entries(data.layout).every(([b, L]) => DEF[b] && !(L.hidden || []).length && JSON.stringify(L.order) === JSON.stringify(DEF[b].order) && ALL.every(id => !L.items[id] || (L.items[id].c === DEF[b].items[id].c && L.items[id].r === DEF[b].items[id].r)));
+let sharedLayout = null; // layout.default.json: what a device shows until it is customized there
+const sharedFor = b => sharedLayout && sharedLayout.layout && sharedLayout.layout[b] ? JSON.parse(JSON.stringify(sharedLayout.layout[b])) : null;
 function layout() {
   const b = bp(), D = DEF[b];
-  const L = (data.layout[b] = data.layout[b] || { order: [], items: {}, hidden: [] });
+  const L = (data.layout[b] = data.layout[b] || sharedFor(b) || { order: [], items: {}, hidden: [] });
   L.hidden = L.hidden || []; L.items = L.items || {};
   if (!L.order || (!L.order.length && !L.hidden.length)) L.order = [...D.order];
   ALL.forEach(id => {
@@ -1155,6 +1158,11 @@ function openSettings() {
   <div class="set-group"><h3>Cards <small>turn on or off, nothing is deleted</small></h3>
     <div class="swlist" id="cardToggles">${ALL.filter(id => W[id]).map(id => `<label class="swrow"><span>${esc(W[id].title)}</span><input type="checkbox" role="switch" data-card="${id}"${isCardHidden(id) ? '' : ' checked'}></label>`).join('')}<label class="swrow"><span>Summary tiles and forecast</span><input type="checkbox" role="switch" data-top${data.settings.hideTop ? '' : ' checked'}></label></div>
   </div>
+  <div class="set-group"><h3>Layout for everyone <small>make this arrangement the starting layout on other devices</small></h3>
+    <p>Arrange and hide cards how you like, then copy the layout code and send it to Claude to publish as the new default. Devices you have not customized pick it up automatically.</p>
+    <div class="row2"><button class="btn" type="button" id="layCopy">Copy layout code</button><button class="btn" type="button" id="layReset">Use the shared layout here</button></div>
+    <textarea id="layCode" readonly hidden rows="4" style="width:100%;margin-top:8px;font-size:12px" aria-label="Layout code"></textarea>
+  </div>
   <div class="set-group"><h3>Sync across devices</h3>
     <p>Keeps your dashboard identical on your phone, laptop and tablet using a private GitHub Gist (a hidden file in your own GitHub account). Create a token once, then paste it on each device.</p>
     <div class="status-line" id="syncStatus">${syncStatusHtml()}</div>
@@ -1169,6 +1177,16 @@ function openSettings() {
           const t = e.target;
           if (t.matches('[data-top]')) { data.settings.hideTop = !t.checked; save(); applyTop(); return; }
           if (t.dataset.card) setCardHidden(t.dataset.card, !t.checked);
+        });
+        $('#layCopy', b).addEventListener('click', async () => {
+          const code = JSON.stringify({ layout: data.layout, hideTop: !!data.settings.hideTop }), ta = $('#layCode', b);
+          ta.value = code; ta.hidden = false; ta.select();
+          try { await navigator.clipboard.writeText(code); toast('Layout code copied'); } catch { toast('Select the code below and copy it'); }
+        });
+        $('#layReset', b).addEventListener('click', () => {
+          if (!confirm('Replace this device\'s layout with the shared one?')) return;
+          data.layout = {}; if (sharedLayout && 'hideTop' in sharedLayout) data.settings.hideTop = !!sharedLayout.hideTop;
+          save(); applyTop(); renderAll(); sheet.close && sheet.close();
         });
         $('#setName', b).addEventListener('input', e => { data.settings.name = e.target.value.trim(); save(); renderHeader(); });
         $('#setTheme', b).addEventListener('change', e => { lsSet(THEME_KEY, e.target.value); applyTheme(); });
@@ -1208,6 +1226,11 @@ hydrateIcons();
 applyTheme();
 renderAll();
 loadDublin();
+fetch('layout.default.json?t=' + Date.now(), { cache: 'no-store' }).then(r => r.ok ? r.json() : null).then(j => {
+  if (!j || !j.layout) return;
+  sharedLayout = j;
+  if (stockLayout()) { data.layout = {}; if ('hideTop' in j) data.settings.hideTop = !!j.hideTop; applyTop(); renderAll(); }
+}).catch(() => { });
 loadFeed(); loadNews();
 setSyncState(sync.state === 'off' ? 'off' : 'ok');
 if (sync.token) { lastPull = Date.now(); syncNow(); }

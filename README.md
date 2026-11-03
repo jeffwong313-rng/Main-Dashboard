@@ -32,3 +32,7 @@ Settings also has on/off switches for every card (hidden cards keep their data),
 ## News widget
 
 A GitHub Action (`.github/workflows/news.yml`, script `scripts/fetch_news.py`) reads RSS feeds (BBC, NPR, CBS, Guardian, CNBC, KQED, Mercury News, ESPN, Ars Technica and more) at **6 AM, 12 PM and 6 PM Pacific**, groups the same story across outlets, scores importance (outlet agreement, feed position, recency, plus a bonus for stories already in the previous top 5 so big news stays), and commits `news.json`. The News card shows the top 5, each tagged by topic. Open a topic chip and tap **Favorite** to guarantee at least one headline from it in the Top 5. Run it any time from the repo's Actions tab ("Update news" → Run workflow). Edit the `FEEDS` list in the script to change sources.
+
+## Default layout for everyone
+
+Settings → **Layout for everyone** → *Copy layout code*. Send that code to Claude, who saves it as `layout.default.json`. Devices that have not customized their layout (and new installs) start from it; *Use the shared layout here* resets a device to it.
