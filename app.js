@@ -800,7 +800,7 @@ $('#kpiTiles').addEventListener('click', e => { const k = e.target.closest('[dat
 
 /* ================= cards / grid ================= */
 /* ================= news (news.json is rebuilt at 6 AM, 12 PM and 6 PM Pacific by a GitHub Action) ================= */
-let news = null, newsState = 'loading', newsView = 'top';
+let news = null, newsState = 'loading', newsView = 'top', newsAuto = true, newsPauseUntil = 0;
 const newsColor = t => NEWS_COLORS[t] || '#8a8f98';
 const ago = iso => { const m = Math.max(0, Math.round((Date.now() - new Date(iso)) / 60000)); return m < 60 ? (m < 2 ? 'just now' : m + ' min ago') : m < 1440 ? Math.round(m / 60) + ' hr ago' : Math.round(m / 1440) + ' d ago'; };
 function newsPicks() {
@@ -836,10 +836,11 @@ W.news = {
     const favBar = newsView === 'top' ? '' : `<button type="button" class="newsfav${isFav ? ' on' : ''}" data-act="nfav" aria-pressed="${isFav}">${isFav ? '★ Favorite: always shown in Top 5' : '☆ Favorite this topic'}</button>`;
     const row = s => `<li class="newsrow"><a href="${esc(s.link)}" target="_blank" rel="noopener"><span class="evtag" style="--tg:${newsColor(s.topic)}">${esc(s.topic)}</span><span class="nt">${esc(s.title)}</span><small class="meta">${esc(s.source)}${s.published ? ' · ' + ago(s.published) : ''}${s.outlets > 1 ? ' · ' + s.outlets + ' outlets' : ''}</small></a></li>`;
     const gen = news.generated ? `Updated ${new Date(news.generated).toLocaleString([], { weekday: 'short', hour: 'numeric', minute: '2-digit' })} · refreshes 6 AM, 12 PM, 6 PM` : '';
-    return `${chips}${favBar}<ul class="newslist">${list.map(row).join('') || '<li class="muted" style="padding:10px 0">Nothing in this topic right now.</li>'}</ul><p class="newsfoot">${gen}</p>`;
+    return `${chips}${favBar}<ul class="newslist">${list.map(row).join('') || '<li class="muted" style="padding:10px 0">Nothing in this topic right now.</li>'}</ul><p class="newsfoot">${gen}<button type="button" class="newsauto" data-act="nauto" aria-pressed="${newsAuto}">${newsAuto ? '⏸ Rotating every 10 s' : '▶ Rotate topics'}</button></p>`;
   },
   act: {
-    nview: ({ el }) => { newsView = el.dataset.k; renderWidget('news'); },
+    nview: ({ el }) => { newsView = el.dataset.k; newsPauseUntil = Date.now() + 45000; renderWidget('news'); },
+    nauto: () => { newsAuto = !newsAuto; newsPauseUntil = 0; renderWidget('news'); },
     nfav: () => {
       const fav = data.newsFav = data.newsFav || [], i = fav.indexOf(newsView);
       if (i >= 0) fav.splice(i, 1); else fav.push(newsView);
@@ -847,6 +848,12 @@ W.news = {
     }
   }
 };
+setInterval(() => {
+  if (!newsAuto || !news || document.hidden || Date.now() < newsPauseUntil || editing || !cards.news || cards.news.matches(':hover') || sheet.open) return;
+  const keys = ['top', ...Object.keys(news.topics || {}).filter(t => (news.topics[t] || []).length).sort((a, b) => ((data.newsFav || []).includes(b) - (data.newsFav || []).includes(a)) || a.localeCompare(b))];
+  newsView = keys[(keys.indexOf(newsView) + 1) % keys.length]; renderWidget('news');
+  const on = cards.news.querySelector('.rchip.on'), row = on && on.parentElement; if (row) row.scrollLeft = on.offsetLeft - row.clientWidth / 2 + on.offsetWidth / 2;
+}, 10000);
 document.addEventListener('visibilitychange', () => { if (!document.hidden && (!news || Date.now() - new Date(news.generated) > 20 * 60000)) loadNews(); });
 
 /* ================= tag bar: every tag used anywhere, tap one to see everything that has it ================= */

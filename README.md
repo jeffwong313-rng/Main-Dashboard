@@ -60,3 +60,5 @@ Events have an optional **To** date (for trips and other multi-day plans). A ran
 ## Full-screen calendar
 
 Tap the Calendar card's title (or its expand icon) to open a full-screen, Outlook-style month: multi-day events are drawn as bars across the days they cover, colored by tag, with a legend (Travel, Important Days, Friends, Family, any tags you add, Other, Holidays). Tap a legend item to hide or show that group, tap a day to see and add events for it.
+
+News rotation: the News card steps through Top 5 and then each topic every 10 seconds (favorites first). Tapping a topic pauses it for 45 seconds; hovering, opening a sheet or editing layout also pauses it, and the footer button turns rotation off or on.
