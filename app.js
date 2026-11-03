@@ -51,6 +51,12 @@ const ICON = {
   note: '<path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/>',
   book: '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>',
   drop: '<path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/>',
+  cloudsun: '<path d="M12 2v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="M20 12h2"/><path d="m19.07 4.93-1.41 1.41"/><path d="M15.947 12.65a4 4 0 0 0-5.925-4.128"/><path d="M13 22H7a5 5 0 1 1 4.9-6H13a3 3 0 0 1 0 6Z"/>',
+  cloudmoon: '<path d="M13 16a3 3 0 1 1 0 6H7a5 5 0 1 1 4.9-6Z"/><path d="M10.1 9A6 6 0 0 1 16 4a4.24 4.24 0 0 0 6 6 6 6 0 0 1-3 5.197"/>',
+  rain: '<path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="M16 14v6"/><path d="M8 14v6"/><path d="M12 16v6"/>',
+  storm: '<path d="M6 16.326A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 .5 8.973"/><path d="m13 12-3 5h4l-3 5"/>',
+  snow: '<path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="M8 15h.01"/><path d="M8 19h.01"/><path d="M12 17h.01"/><path d="M12 21h.01"/><path d="M16 15h.01"/><path d="M16 19h.01"/>',
+  fog: '<path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="M16 17H7"/><path d="M17 21H9"/>',
   pin: '<path d="M12 17v5"/><path d="M9 10.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V7a1 1 0 0 1 1-1 2 2 0 0 0 0-4H8a2 2 0 0 0 0 4 1 1 0 0 1 1 1z"/>',
   hand: '<path d="M18 11V6a2 2 0 0 0-4 0"/><path d="M14 10V4a2 2 0 0 0-4 0v2"/><path d="M10 10.5V6a2 2 0 0 0-4 0v8"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"/>',
   film: '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 4v16M17 4v16M3 9h4M3 15h4M17 9h4M17 15h4"/>',
@@ -695,6 +701,18 @@ function renderKpis() {
     tile('events', W.events.accent, 'Next up' + (ev ? ' · ' + fmtDay(ev.date) + (ev.time ? ', ' + fmtTime(ev.time) : '') : ''), ev ? esc(ev.t) : 'Nothing', '', '', true);
 }
 /* ---- Dublin, CA forecast (top right): 8 AM / 12 PM / 4 PM / 8 PM, today + 3 days ---- */
+function wxKind(c, day) {
+  if (c === 0) return day ? ['sun', 'Sunny'] : ['moon', 'Clear'];
+  if (c === 1) return day ? ['cloudsun', 'Mostly sunny'] : ['cloudmoon', 'Mostly clear'];
+  if (c === 2) return day ? ['cloudsun', 'Partly cloudy'] : ['cloudmoon', 'Partly cloudy'];
+  if (c === 3) return ['cloud', 'Cloudy'];
+  if (c === 45 || c === 48) return ['fog', 'Fog'];
+  if (c >= 51 && c <= 57) return ['rain', 'Drizzle'];
+  if ((c >= 61 && c <= 67) || (c >= 80 && c <= 82)) return ['rain', 'Rain'];
+  if ((c >= 71 && c <= 77) || c === 85 || c === 86) return ['snow', 'Snow'];
+  if (c >= 95) return ['storm', 'Thunderstorms'];
+  return ['cloud', 'Cloudy'];
+}
 const DUB_KEY = 'hd.v1.dub', DUB_HOURS = ['08', '12', '16', '20'], DUB_LABELS = ['8 AM', '12 PM', '4 PM', '8 PM'];
 let dub = (() => { try { return JSON.parse(lsGet(DUB_KEY)); } catch { return null; } })(), dubErr = false;
 function renderDublin() {
@@ -707,17 +725,18 @@ function renderDublin() {
   const short = { '08': '8a', '12': '12p', '16': '4p', '20': '8p' };
   const body = days.map((d, di) => `<div class="dwx-d"><span class="dwx-day">${di === 0 ? 'Today' : esc(parseDate(d).toLocaleDateString([], { weekday: 'short' }))}</span><div class="dwx-s">` + DUB_HOURS.map(h => {
     const i = dub.t.indexOf(`${d}T${h}:00`), c = i < 0 ? null : dub.c[i], pr = i < 0 ? null : dub.p[i], past = d === nowDay && +h < nowHr;
-    return `<span class="dwx-c${past ? ' past' : ''}"><b>${c == null ? '–' : Math.round(c * 9 / 5 + 32) + '/' + Math.round(c) + '°'}</b><small>${short[h]} <em>${pr == null ? '–' : pr + '%'}</em></small></span>`;
+    const wk = i < 0 || !dub.w || dub.w[i] == null ? null : wxKind(dub.w[i], dub.d ? dub.d[i] === 1 : +h < 19);
+    return `<span class="dwx-c${past ? ' past' : ''}"${wk ? ` title="${wk[1]}"` : ''}>${wk ? `<i class="wi k-${wk[0]}" role="img" aria-label="${wk[1]}">${icon(wk[0])}</i>` : ''}<b>${c == null ? '–' : Math.round(c * 9 / 5 + 32) + '/' + Math.round(c) + '°'}</b><small>${short[h]} <em>${pr == null ? '–' : pr + '%'}</em></small></span>`;
   }).join('') + '</div></div>').join('');
   el.innerHTML = title + `<div class="dwx-row" role="list" aria-label="Forecast, today and the next 3 days">${body}</div>` + (dubErr ? '<span class="muted dwx-msg" title="Showing the last saved forecast">offline</span>' : '');
 }
 async function loadDublin(force) {
   renderDublin();
-  if (!force && dub && Date.now() - dub.at < 30 * 60e3) return;
+  if (!force && dub && dub.w && Date.now() - dub.at < 30 * 60e3) return;
   try {
-    const r = await fetch('https://api.open-meteo.com/v1/forecast?latitude=37.70&longitude=-121.94&hourly=temperature_2m,precipitation_probability&forecast_days=4&timezone=America%2FLos_Angeles');
+    const r = await fetch('https://api.open-meteo.com/v1/forecast?latitude=37.70&longitude=-121.94&hourly=temperature_2m,precipitation_probability,weather_code,is_day&forecast_days=4&timezone=America%2FLos_Angeles');
     if (!r.ok) throw 0; const j = await r.json(); if (!j.hourly || !j.hourly.time) throw 0;
-    dub = { at: Date.now(), t: j.hourly.time, c: j.hourly.temperature_2m, p: j.hourly.precipitation_probability }; lsSet(DUB_KEY, JSON.stringify(dub)); dubErr = false;
+    dub = { at: Date.now(), t: j.hourly.time, c: j.hourly.temperature_2m, p: j.hourly.precipitation_probability, w: j.hourly.weather_code, d: j.hourly.is_day }; lsSet(DUB_KEY, JSON.stringify(dub)); dubErr = false;
   } catch { dubErr = true; }
   renderDublin();
 }
