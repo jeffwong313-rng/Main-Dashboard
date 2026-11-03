@@ -24,7 +24,7 @@ The Recipes card lists every recipe from the Recipes / Ingredients / Steps tabs 
 
 ## Where the data lives
 Each device keeps its data in that browser's local storage. To share it across devices, open **Settings → Sync across devices** and paste a GitHub token (classic token with only the `gist` permission). The dashboard then keeps a private Gist in sync. The latest change wins if two devices edit at the same time.
-Settings also has a backup download / restore.
+Settings also has on/off switches for every card (hidden cards keep their data), and a backup download / restore.
 
 ## Files
 `index.html`, `styles.css`, `app.js` (all the logic), `recipes.json` (recipe snapshot), `sw.js` + `manifest.webmanifest` (offline / installable), `icons/`.

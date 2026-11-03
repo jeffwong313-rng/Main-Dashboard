@@ -691,6 +691,7 @@ function spark(vals) {
   return `<svg class="spark" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" aria-hidden="true">${vals.map((v, i) => { const bh = Math.max(3, Math.round(v / m * (h - 2))); return `<rect x="${(i * (bw + gap)).toFixed(1)}" y="${h - bh}" width="${bw}" height="${bh}" rx="2.5" fill="currentColor" opacity="${i === vals.length - 1 ? 1 : .4}"/>`; }).join('')}</svg>`;
 }
 function renderKpis() {
+  applyTop();
   const t0 = startOfDay(new Date()).getTime();
   const openT = data.todos.filter(t => !t.done).length, doneToday = data.todos.filter(t => t.doneAt && t.doneAt >= t0).length;
   const week = Array.from({ length: 7 }, (_, i) => { const a = t0 - (6 - i) * DAY, b = a + DAY; return data.todos.filter(t => t.doneAt && t.doneAt >= a && t.doneAt < b).length; });
@@ -913,6 +914,16 @@ function renderTray() {
   const L = layout(); const hid = L.hidden.filter(id => W[id]);
   $('#hiddenChips').innerHTML = hid.map(id => `<button class="chip-btn" data-show="${id}">${icon('plus')} ${esc(W[id].title)}</button>`).join('');
 }
+const isCardHidden = id => { const L = layout(); return L.hidden.includes(id); };
+function setCardHidden(id, hide) {
+  Object.keys(COLS).forEach(b => {
+    const L = (data.layout[b] = data.layout[b] || { order: [], items: {}, hidden: [] }); L.hidden = L.hidden || []; L.order = L.order || [];
+    if (hide) { if (!L.hidden.includes(id)) L.hidden.push(id); L.order = L.order.filter(x => x !== id); }
+    else { L.hidden = L.hidden.filter(x => x !== id); if (!L.order.includes(id)) L.order.push(id); }
+  });
+  save(); buildGrid(); renderKpis(); if (editing) renderTray();
+}
+function applyTop() { $('#kpis').hidden = !!data.settings.hideTop; }
 function hideWidget(id) { const L = layout(); L.hidden.push(id); L.order = L.order.filter(x => x !== id); save(); cards[id].remove(); delete cards[id]; renderTray(); }
 $('#hiddenChips').addEventListener('click', e => {
   const b = e.target.closest('[data-show]'); if (!b) return; const L = layout(), id = b.dataset.show;
@@ -1073,6 +1084,9 @@ function openSettings() {
     <div><div class="muted" style="font-weight:650;font-size:14px;margin-bottom:6px;color:var(--text)">Theme</div><div class="seg" id="setTheme">${['auto', 'light', 'dark'].map(t => `<label><input type="radio" name="theme" value="${t}"${pref === t ? ' checked' : ''}><span>${t[0].toUpperCase() + t.slice(1)}</span></label>`).join('')}</div></div>
     <div><div class="muted" style="font-weight:650;font-size:14px;margin-bottom:6px;color:var(--text)">Temperature</div><div class="seg" id="setUnits">${[['f', '°F'], ['c', '°C']].map(([v, l]) => `<label><input type="radio" name="units" value="${v}"${data.settings.units === v ? ' checked' : ''}><span>${l}</span></label>`).join('')}</div></div>
   </div>
+  <div class="set-group"><h3>Cards <small>turn on or off, nothing is deleted</small></h3>
+    <div class="swlist" id="cardToggles">${ALL.filter(id => W[id]).map(id => `<label class="swrow"><span>${esc(W[id].title)}</span><input type="checkbox" role="switch" data-card="${id}"${isCardHidden(id) ? '' : ' checked'}></label>`).join('')}<label class="swrow"><span>Summary tiles and forecast</span><input type="checkbox" role="switch" data-top${data.settings.hideTop ? '' : ' checked'}></label></div>
+  </div>
   <div class="set-group"><h3>Sync across devices</h3>
     <p>Keeps your dashboard identical on your phone, laptop and tablet using a private GitHub Gist (a hidden file in your own GitHub account). Create a token once, then paste it on each device.</p>
     <div class="status-line" id="syncStatus">${syncStatusHtml()}</div>
@@ -1083,6 +1097,11 @@ function openSettings() {
   <div class="set-group"><h3>Your data</h3><div class="row2"><button class="btn" type="button" id="exp">Download backup</button><button class="btn" type="button" id="imp">Restore from backup</button><button class="btn" type="button" id="lockNow">Lock this device</button><input type="file" id="impFile" accept="application/json,.json" hidden></div></div>`,
     {
       title: 'Settings', onOpen(b) {
+        $('#cardToggles', b).addEventListener('change', e => {
+          const t = e.target;
+          if (t.matches('[data-top]')) { data.settings.hideTop = !t.checked; save(); applyTop(); return; }
+          if (t.dataset.card) setCardHidden(t.dataset.card, !t.checked);
+        });
         $('#setName', b).addEventListener('input', e => { data.settings.name = e.target.value.trim(); save(); renderHeader(); });
         $('#setTheme', b).addEventListener('change', e => { lsSet(THEME_KEY, e.target.value); applyTheme(); });
         $('#setUnits', b).addEventListener('change', e => { data.settings.units = e.target.value; save(); loadWeather(true); });
