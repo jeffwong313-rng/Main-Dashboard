@@ -50,6 +50,7 @@ const ICON = {
   cart: '<circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.7 12.4a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.5L21 8H6"/>',
   note: '<path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/>',
   book: '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>',
+  film: '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 4v16M17 4v16M3 9h4M3 15h4M17 9h4M17 15h4"/>',
   calendar: '<rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/>',
   utensils: '<path d="M5 3v6a3 3 0 0 0 6 0V3M8 3v18"/><path d="M17 21V3c-2.5 1.5-4 4.5-4 8h4"/>',
   repeat: '<path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/>',
@@ -73,14 +74,14 @@ const lsGet = (k, d = null) => { try { const v = localStorage.getItem(k); return
 const lsSet = (k, v) => { try { localStorage.setItem(k, v); return true; } catch { return false; } };
 
 const defaults = () => ({
-  v: 1, updated: 0, todos: [], shop: [], notes: [], recipes: [], events: [], meals: {}, chores: [], bills: [], links: [],
+  v: 1, updated: 0, todos: [], shop: [], notes: [], recipes: [], watch: [], events: [], meals: {}, chores: [], bills: [], links: [],
   layout: {}, settings: { name: '', units: 'f', city: null }
 });
 function normalize(d) {
   const base = defaults(); const out = Object.assign(base, d || {});
   out.settings = Object.assign(defaults().settings, (d && d.settings) || {});
   out.layout = (d && d.layout) || {};
-  ['todos', 'shop', 'notes', 'recipes', 'events', 'chores', 'bills', 'links'].forEach(k => { if (!Array.isArray(out[k])) out[k] = []; });
+  ['todos', 'shop', 'notes', 'recipes', 'watch', 'events', 'chores', 'bills', 'links'].forEach(k => { if (!Array.isArray(out[k])) out[k] = []; });
   if (!out.meals || typeof out.meals !== 'object') out.meals = {};
   return out;
 }
@@ -92,22 +93,22 @@ function persist() { if (!lsSet(KEY, JSON.stringify(data))) toast('Could not sav
 function save() { data.updated = Date.now(); persist(); scheduleSync(); }
 
 /* ================= layout ================= */
-const ALL = ['todo', 'shop', 'notes', 'events', 'calendar', 'weather', 'recipes', 'meals', 'bills', 'chores', 'links'];
+const ALL = ['todo', 'shop', 'notes', 'events', 'calendar', 'weather', 'recipes', 'watch', 'meals', 'bills', 'chores', 'links'];
 const COLS = { desktop: 12, tablet: 6, mobile: 2 };
 const MINC = { desktop: 3, tablet: 2, mobile: 1 };
 const MINR = 4;
 const DEF = {
   desktop: {
-    order: ['todo', 'shop', 'notes', 'events', 'calendar', 'weather', 'recipes', 'meals', 'bills', 'chores', 'links'],
-    items: { todo: { c: 4, r: 9 }, shop: { c: 4, r: 9 }, notes: { c: 4, r: 9 }, events: { c: 4, r: 8 }, calendar: { c: 5, r: 11 }, weather: { c: 3, r: 8 }, recipes: { c: 5, r: 8 }, meals: { c: 6, r: 9 }, bills: { c: 3, r: 8 }, chores: { c: 3, r: 8 }, links: { c: 12, r: 4 } }
+    order: ['todo', 'shop', 'notes', 'events', 'calendar', 'weather', 'recipes', 'watch', 'meals', 'bills', 'chores', 'links'],
+    items: { todo: { c: 4, r: 9 }, shop: { c: 4, r: 9 }, notes: { c: 4, r: 9 }, events: { c: 4, r: 8 }, calendar: { c: 5, r: 11 }, weather: { c: 3, r: 8 }, recipes: { c: 5, r: 8 }, watch: { c: 4, r: 9 }, meals: { c: 6, r: 9 }, bills: { c: 3, r: 8 }, chores: { c: 3, r: 8 }, links: { c: 12, r: 4 } }
   },
   tablet: {
-    order: ['todo', 'shop', 'notes', 'events', 'calendar', 'weather', 'recipes', 'bills', 'meals', 'chores', 'links'],
-    items: { todo: { c: 3, r: 9 }, shop: { c: 3, r: 9 }, notes: { c: 6, r: 6 }, events: { c: 3, r: 8 }, calendar: { c: 6, r: 11 }, weather: { c: 3, r: 8 }, recipes: { c: 3, r: 8 }, bills: { c: 3, r: 8 }, meals: { c: 6, r: 9 }, chores: { c: 3, r: 7 }, links: { c: 3, r: 7 } }
+    order: ['todo', 'shop', 'notes', 'events', 'calendar', 'weather', 'recipes', 'watch', 'bills', 'meals', 'chores', 'links'],
+    items: { todo: { c: 3, r: 9 }, shop: { c: 3, r: 9 }, notes: { c: 6, r: 6 }, events: { c: 3, r: 8 }, calendar: { c: 6, r: 11 }, weather: { c: 3, r: 8 }, recipes: { c: 3, r: 8 }, watch: { c: 3, r: 9 }, bills: { c: 3, r: 8 }, meals: { c: 6, r: 9 }, chores: { c: 3, r: 7 }, links: { c: 3, r: 7 } }
   },
   mobile: {
-    order: ['todo', 'shop', 'notes', 'events', 'calendar', 'recipes', 'meals', 'bills', 'chores', 'weather', 'links'],
-    items: { todo: { c: 2, r: 8 }, shop: { c: 2, r: 8 }, notes: { c: 2, r: 8 }, events: { c: 2, r: 6 }, calendar: { c: 2, r: 12 }, recipes: { c: 2, r: 7 }, meals: { c: 2, r: 9 }, bills: { c: 2, r: 7 }, chores: { c: 2, r: 6 }, weather: { c: 2, r: 5 }, links: { c: 2, r: 4 } }
+    order: ['todo', 'shop', 'notes', 'events', 'calendar', 'recipes', 'watch', 'meals', 'bills', 'chores', 'weather', 'links'],
+    items: { todo: { c: 2, r: 8 }, shop: { c: 2, r: 8 }, notes: { c: 2, r: 8 }, events: { c: 2, r: 6 }, calendar: { c: 2, r: 12 }, recipes: { c: 2, r: 7 }, watch: { c: 2, r: 9 }, meals: { c: 2, r: 9 }, bills: { c: 2, r: 7 }, chores: { c: 2, r: 6 }, weather: { c: 2, r: 5 }, links: { c: 2, r: 4 } }
   }
 };
 const mqMobile = matchMedia('(max-width: 699px)'), mqTablet = matchMedia('(max-width: 1099px)');
@@ -219,6 +220,49 @@ W.shop = {
     del: ({ id }) => remove('shop', id, 'shop'),
     edit: ({ el, id }) => inlineEdit(el, { wid: 'shop', onSave: v => { find(data.shop, id).t = v; touched('shop'); } }),
     clearDone: () => undoable('Cleared checked items', () => { data.shop = data.shop.filter(t => !t.done); }, 'shop')
+  }
+};
+
+const WTYPES = [['tv', 'TV shows'], ['movie', 'Movies'], ['special', 'Specials']];
+let watchTab = 'all', watchShowDone = false;
+W.watch = {
+  title: 'Watch list', icon: 'film', accent: '#c25fd0',
+  add: {
+    fields: [{ k: 't', ph: 'Add a title' }, { k: 'type', type: 'select', options: [['tv', 'TV show'], ['movie', 'Movie'], ['special', 'Special']], val: 'tv' }],
+    primary: 't',
+    submit(v) {
+      const t = v.t.trim(), type = ['tv', 'movie', 'special'].includes(v.type) ? v.type : 'tv';
+      if (data.watch.some(x => !x.done && x.type === type && x.t.toLowerCase() === t.toLowerCase())) { toast('Already on the list'); return false; }
+      data.watch.unshift({ id: uid(), t, type, done: false, created: Date.now() }); watchTab = type; touched('watch');
+    }
+  },
+  count: () => data.watch.filter(x => !x.done).length,
+  render() {
+    const n = k => data.watch.filter(x => !x.done && (k === 'all' || x.type === k)).length, doneN = data.watch.filter(x => x.done).length;
+    const tabs = [['all', 'All'], ...WTYPES].map(([k, l]) => `<button type="button" class="rchip${watchTab === k ? ' on' : ''}" data-act="wtab" data-k="${k}">${l} ${n(k)}</button>`).join('');
+    const chips = `<div class="rchips" role="group" aria-label="Filter by type">${tabs}<button type="button" class="rchip${watchShowDone ? ' on' : ''}" data-act="wshow" aria-pressed="${watchShowDone}">Watched ${doneN}</button></div>`;
+    const typeName = k => (WTYPES.find(x => x[0] === k) || [0, 'Other'])[1];
+    const row = t => `<li class="row${t.done ? ' is-done' : ''}" data-id="${t.id}"><button class="chk" data-act="toggle" aria-label="${t.done ? 'Put back on the list' : 'Mark as watched'}">${icon('check')}</button><div class="row-main"><span class="txt" data-act="edit">${esc(t.t)}</span>${t.done ? `<small class="meta">${typeName(t.type).replace(/s$/, '')}${t.doneAt ? ' · watched ' + new Date(t.doneAt).toLocaleDateString([], { month: 'short', day: 'numeric', year: 'numeric' }) : ''}</small>` : ''}</div>${delBtn}</li>`;
+    const open = data.watch.filter(x => !x.done && (watchTab === 'all' || x.type === watchTab));
+    let html = '';
+    if (watchTab === 'all') WTYPES.forEach(([k, l]) => { const g = open.filter(x => x.type === k); if (g.length) html += `<h4 class="grp">${l}</h4><ul class="rows">${g.map(row).join('')}</ul>`; });
+    else html = open.length ? `<ul class="rows">${open.map(row).join('')}</ul>` : '';
+    if (!open.length && !(watchShowDone && doneN)) html = empty(data.watch.some(x => !x.done) ? 'Nothing here' : 'Nothing to watch yet', data.watch.some(x => !x.done) ? 'Try another tab.' : 'Tap + to add a show, movie or special.');
+    if (watchShowDone) {
+      const done = data.watch.filter(x => x.done && (watchTab === 'all' || x.type === watchTab)).sort((a, b) => (b.doneAt || 0) - (a.doneAt || 0));
+      html += done.length ? `<div class="sep"><span>Watched (${done.length})</span></div><ul class="rows">${done.map(row).join('')}</ul>` : '';
+    }
+    return `<div class="wl">${chips}${html}</div>`;
+  },
+  act: {
+    wtab: ({ el }) => { watchTab = el.dataset.k; renderWidget('watch'); },
+    wshow: () => { watchShowDone = !watchShowDone; renderWidget('watch'); },
+    toggle: ({ id }) => {
+      const t = find(data.watch, id); t.done = !t.done; if (t.done) t.doneAt = Date.now(); else delete t.doneAt; touched('watch');
+      if (t.done && !watchShowDone) toast('Marked as watched', { undo: () => { t.done = false; delete t.doneAt; touched('watch'); } });
+    },
+    del: ({ id }) => remove('watch', id, 'watch'),
+    edit: ({ el, id }) => inlineEdit(el, { wid: 'watch', onSave: v => { find(data.watch, id).t = v; touched('watch'); } })
   }
 };
 
@@ -852,7 +896,7 @@ const FILE = 'main-dashboard.json';
 let sync = Object.assign({ token: '', gistId: '', last: 0, state: 'off', err: '' }, (() => { try { return JSON.parse(lsGet(SYNC_KEY)) || {}; } catch { return {}; } })());
 const saveSyncCfg = () => lsSet(SYNC_KEY, JSON.stringify(sync));
 let syncing = false, syncQueued = false, syncTimer = 0;
-const hasData = d => ['todos', 'shop', 'notes', 'recipes', 'events', 'chores', 'bills', 'links'].some(k => (d[k] || []).length) || Object.keys(d.meals || {}).length > 0;
+const hasData = d => ['todos', 'shop', 'notes', 'recipes', 'watch', 'events', 'chores', 'bills', 'links'].some(k => (d[k] || []).length) || Object.keys(d.meals || {}).length > 0;
 function setSyncState(s, err = '') { sync.state = sync.token ? s : 'off'; sync.err = err; $('#syncDot').dataset.s = sync.state; const el = $('#syncStatus'); if (el) el.innerHTML = syncStatusHtml(); }
 function syncStatusHtml() {
   if (!sync.token) return '<i></i>Not connected. Data is saved on this device only.';
