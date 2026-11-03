@@ -2,7 +2,7 @@
 
 A household dashboard that runs entirely in the browser (no build step, no server). Works on phone, tablet and computer.
 
-**Cards:** To-Do, Shopping, Notes, Recipes, Upcoming events, Weather, Dinner plan, Chores, Bills, Quick links.
+**Cards:** To-Do, Shopping, Notes, Recipes, Upcoming events, Calendar (month view with US holidays; anything in Upcoming shows on it, and tapping a day lets you add an event there), Weather, Dinner plan, Chores, Bills, Quick links.
 The summary tiles at the top (open tasks, items to buy, bills left, next event) are tappable and jump to their card.
 
 ## Using it

@@ -92,22 +92,22 @@ function persist() { if (!lsSet(KEY, JSON.stringify(data))) toast('Could not sav
 function save() { data.updated = Date.now(); persist(); scheduleSync(); }
 
 /* ================= layout ================= */
-const ALL = ['todo', 'shop', 'notes', 'events', 'weather', 'recipes', 'meals', 'bills', 'chores', 'links'];
+const ALL = ['todo', 'shop', 'notes', 'events', 'calendar', 'weather', 'recipes', 'meals', 'bills', 'chores', 'links'];
 const COLS = { desktop: 12, tablet: 6, mobile: 2 };
 const MINC = { desktop: 3, tablet: 2, mobile: 1 };
 const MINR = 4;
 const DEF = {
   desktop: {
-    order: ['todo', 'shop', 'notes', 'events', 'weather', 'recipes', 'meals', 'bills', 'chores', 'links'],
-    items: { todo: { c: 4, r: 9 }, shop: { c: 4, r: 9 }, notes: { c: 4, r: 9 }, events: { c: 4, r: 8 }, weather: { c: 3, r: 8 }, recipes: { c: 5, r: 8 }, meals: { c: 6, r: 9 }, bills: { c: 3, r: 8 }, chores: { c: 3, r: 8 }, links: { c: 12, r: 4 } }
+    order: ['todo', 'shop', 'notes', 'events', 'calendar', 'weather', 'recipes', 'meals', 'bills', 'chores', 'links'],
+    items: { todo: { c: 4, r: 9 }, shop: { c: 4, r: 9 }, notes: { c: 4, r: 9 }, events: { c: 4, r: 8 }, calendar: { c: 5, r: 11 }, weather: { c: 3, r: 8 }, recipes: { c: 5, r: 8 }, meals: { c: 6, r: 9 }, bills: { c: 3, r: 8 }, chores: { c: 3, r: 8 }, links: { c: 12, r: 4 } }
   },
   tablet: {
-    order: ['todo', 'shop', 'notes', 'events', 'weather', 'recipes', 'bills', 'meals', 'chores', 'links'],
-    items: { todo: { c: 3, r: 9 }, shop: { c: 3, r: 9 }, notes: { c: 6, r: 6 }, events: { c: 3, r: 8 }, weather: { c: 3, r: 8 }, recipes: { c: 3, r: 8 }, bills: { c: 3, r: 8 }, meals: { c: 6, r: 9 }, chores: { c: 3, r: 7 }, links: { c: 3, r: 7 } }
+    order: ['todo', 'shop', 'notes', 'events', 'calendar', 'weather', 'recipes', 'bills', 'meals', 'chores', 'links'],
+    items: { todo: { c: 3, r: 9 }, shop: { c: 3, r: 9 }, notes: { c: 6, r: 6 }, events: { c: 3, r: 8 }, calendar: { c: 6, r: 11 }, weather: { c: 3, r: 8 }, recipes: { c: 3, r: 8 }, bills: { c: 3, r: 8 }, meals: { c: 6, r: 9 }, chores: { c: 3, r: 7 }, links: { c: 3, r: 7 } }
   },
   mobile: {
-    order: ['todo', 'shop', 'notes', 'events', 'recipes', 'meals', 'bills', 'chores', 'weather', 'links'],
-    items: { todo: { c: 2, r: 8 }, shop: { c: 2, r: 8 }, notes: { c: 2, r: 8 }, events: { c: 2, r: 6 }, recipes: { c: 2, r: 7 }, meals: { c: 2, r: 9 }, bills: { c: 2, r: 7 }, chores: { c: 2, r: 6 }, weather: { c: 2, r: 5 }, links: { c: 2, r: 4 } }
+    order: ['todo', 'shop', 'notes', 'events', 'calendar', 'recipes', 'meals', 'bills', 'chores', 'weather', 'links'],
+    items: { todo: { c: 2, r: 8 }, shop: { c: 2, r: 8 }, notes: { c: 2, r: 8 }, events: { c: 2, r: 6 }, calendar: { c: 2, r: 12 }, recipes: { c: 2, r: 7 }, meals: { c: 2, r: 9 }, bills: { c: 2, r: 7 }, chores: { c: 2, r: 6 }, weather: { c: 2, r: 5 }, links: { c: 2, r: 4 } }
   }
 };
 const mqMobile = matchMedia('(max-width: 699px)'), mqTablet = matchMedia('(max-width: 1099px)');
@@ -356,6 +356,64 @@ W.events = {
   act: {
     del: ({ id }) => remove('events', id, 'events'),
     edit: ({ el, id }) => inlineEdit(el, { wid: 'events', onSave: v => { find(data.events, id).t = v; touched('events'); } })
+  }
+};
+
+/* ---- calendar: month grid with holidays + Upcoming events ---- */
+const nthDow = (y, m, dow, n) => {
+  if (n > 0) return 1 + ((dow - new Date(y, m, 1).getDay() + 7) % 7) + 7 * (n - 1);
+  const last = new Date(y, m + 1, 0); return last.getDate() - ((last.getDay() - dow + 7) % 7);
+};
+const holCache = {};
+function holidays(y) {
+  if (holCache[y]) return holCache[y];
+  const h = {}, add = (m, d, n) => { const k = `${y}-${pad(m + 1)}-${pad(d)}`; h[k] = h[k] ? h[k] + ' / ' + n : n; };
+  const a = y % 19, b = Math.floor(y / 100), c = y % 100, d = Math.floor(b / 4), e = b % 4, f = Math.floor((b + 8) / 25), g = Math.floor((b - f + 1) / 3);
+  const hh = (19 * a + b - d - g + 15) % 30, i = Math.floor(c / 4), k = c % 4, l = (32 + 2 * e + 2 * i - hh - k) % 7, mm = Math.floor((a + 11 * hh + 22 * l) / 451);
+  add(0, 1, "New Year's Day"); add(0, nthDow(y, 0, 1, 3), 'Martin Luther King Jr. Day'); add(1, 14, "Valentine's Day"); add(1, nthDow(y, 1, 1, 3), "Presidents' Day");
+  add(2, 17, "St. Patrick's Day"); add(Math.floor((hh + l - 7 * mm + 114) / 31) - 1, ((hh + l - 7 * mm + 114) % 31) + 1, 'Easter');
+  add(4, 5, 'Cinco de Mayo'); add(4, nthDow(y, 4, 0, 2), "Mother's Day"); add(4, nthDow(y, 4, 1, -1), 'Memorial Day'); add(5, 19, 'Juneteenth');
+  add(5, nthDow(y, 5, 0, 3), "Father's Day"); add(6, 4, 'Independence Day'); add(8, nthDow(y, 8, 1, 1), 'Labor Day');
+  add(9, nthDow(y, 9, 1, 2), "Columbus / Indigenous Peoples' Day"); add(9, 31, 'Halloween'); add(10, 11, 'Veterans Day'); add(10, nthDow(y, 10, 4, 4), 'Thanksgiving');
+  add(11, 24, 'Christmas Eve'); add(11, 25, 'Christmas Day'); add(11, 31, "New Year's Eve");
+  return (holCache[y] = h);
+}
+let calMonth = new Date(new Date().getFullYear(), new Date().getMonth(), 1), calSel = todayStr();
+const calGo = m => { calMonth = m; calSel = monthKey(m) === monthKey() ? todayStr() : dstr(m); renderWidget('calendar'); };
+W.calendar = {
+  title: 'Calendar', icon: 'calendar', accent: '#2fb7a3',
+  count() { const k = monthKey(calMonth); return data.events.filter(e => e.date.startsWith(k)).length; },
+  render() {
+    const y = calMonth.getFullYear(), m = calMonth.getMonth(), first = calMonth.getDay(), dim = new Date(y, m + 1, 0).getDate(), weeks = Math.ceil((first + dim) / 7);
+    const hol = holidays(y), by = {}, today = todayStr();
+    data.events.forEach(e => (by[e.date] = by[e.date] || []).push(e));
+    let cells = '';
+    for (let i = 0; i < weeks * 7; i++) {
+      const dn = i - first + 1; if (dn < 1 || dn > dim) { cells += '<span class="cal-c out"></span>'; continue; }
+      const k = `${y}-${pad(m + 1)}-${pad(dn)}`, ev = by[k] || [];
+      cells += `<button type="button" class="cal-c${k === today ? ' today' : ''}${k === calSel ? ' sel' : ''}" data-act="day" data-d="${k}" aria-label="${esc(parseDate(k).toLocaleDateString([], { weekday: 'long', month: 'long', day: 'numeric' }))}${hol[k] ? ', ' + esc(hol[k]) : ''}${ev.length ? ', ' + ev.length + ' event' + (ev.length > 1 ? 's' : '') : ''}"><b>${dn}</b><i class="dots">${hol[k] ? '<u class="h"></u>' : ''}${ev.slice(0, 3).map(() => '<u class="e"></u>').join('')}</i></button>`;
+    }
+    const sd = parseDate(calSel), hs = holidays(sd.getFullYear())[calSel], evs = (by[calSel] || []).slice().sort((a, b) => (a.time || '99:99').localeCompare(b.time || '99:99'));
+    const rows = (hs ? `<li class="row cal-hol"><span class="cal-flag" aria-hidden="true"></span><div class="row-main"><span>${esc(hs)}</span><small class="meta">Holiday</small></div></li>` : '') +
+      evs.map(e => `<li class="row" data-id="${e.id}"><span class="cal-flag ev" aria-hidden="true"></span><div class="row-main"><span class="txt" data-act="edit">${esc(e.t)}</span>${e.time ? `<small class="meta">${fmtTime(e.time)}</small>` : ''}</div>${delBtn}</li>`).join('');
+    return `<div class="cal-h"><button type="button" class="icon-btn" data-act="prev" aria-label="Previous month" style="transform:scaleX(-1)">${icon('chevron')}</button><strong>${calMonth.toLocaleDateString([], { month: 'long', year: 'numeric' })}</strong><button type="button" class="icon-btn" data-act="next" aria-label="Next month">${icon('chevron')}</button><span class="spacer"></span><button type="button" class="chip-btn" data-act="today">Today</button></div>
+    <div class="cal-g cal-dow" aria-hidden="true">${['S', 'M', 'T', 'W', 'T', 'F', 'S'].map(x => `<span>${x}</span>`).join('')}</div>
+    <div class="cal-g">${cells}</div>
+    <div class="cal-day"><h4>${sd.toLocaleDateString([], { weekday: 'long', month: 'long', day: 'numeric' })}</h4><ul class="rows">${rows || '<li class="muted cal-none">Nothing on this day.</li>'}</ul></div>
+    <form class="addrow cal-add" data-cform autocomplete="off"><input name="t" placeholder="Add an event" aria-label="Add an event"><input name="time" type="time" aria-label="Time"><button class="go" type="submit" aria-label="Add">${icon('plus')}</button></form>`;
+  },
+  act: {
+    day: ({ el }) => { calSel = el.dataset.d; renderWidget('calendar'); },
+    prev: () => calGo(new Date(calMonth.getFullYear(), calMonth.getMonth() - 1, 1)),
+    next: () => calGo(new Date(calMonth.getFullYear(), calMonth.getMonth() + 1, 1)),
+    today: () => calGo(new Date(new Date().getFullYear(), new Date().getMonth(), 1)),
+    del: ({ id }) => remove('events', id, 'events'),
+    edit: ({ el, id }) => inlineEdit(el, { wid: 'calendar', onSave: v => { find(data.events, id).t = v; touched('events'); } })
+  },
+  onSubmit(f) {
+    const fd = new FormData(f), t = fd.get('t').toString().trim(); if (!t) { $('input[name=t]', f).focus(); return; }
+    data.events.push({ id: uid(), t, date: calSel, time: fd.get('time') || '', created: Date.now() }); touched('events');
+    const i = $('.cal-add input', cards.calendar); if (i) i.focus();
   }
 };
 
@@ -613,7 +671,7 @@ function makeCard(id) {
     const row = a.closest('[data-id]'); const fn = w.act && w.act[a.dataset.act];
     if (fn) fn({ el: a, id: row && row !== el ? row.dataset.id : undefined, ev, card: el });
   });
-  if (w.onSubmit) el.addEventListener('submit', ev => { const f = ev.target.closest('[data-wxsearch]'); if (f) { ev.preventDefault(); w.onSubmit(f); } });
+  if (w.onSubmit) el.addEventListener('submit', ev => { const f = ev.target.closest('[data-wxsearch],[data-cform]'); if (f) { ev.preventDefault(); w.onSubmit(f); } });
   if (w.search) $('.tools input', el).addEventListener('input', e => { searchQ[id] = e.target.value; const b = $('.body', el); b.innerHTML = w.render(); });
   return el;
 }
@@ -625,7 +683,7 @@ function renderWidget(id) {
   const n = w.count ? w.count() : 0, b = $('[data-badge]', card); b.textContent = n || ''; b.hidden = !n;
   if (w.search) $('.tools', card).hidden = !w.alwaysSearch && data.recipes.length < 6;
 }
-function touched(...ids) { save(); ids.forEach(renderWidget); renderKpis(); fillDatalist(); }
+function touched(...ids) { save(); if (ids.includes('events') && !ids.includes('calendar')) ids.push('calendar'); ids.forEach(renderWidget); renderKpis(); fillDatalist(); }
 function fillDatalist() { $('#recipeTitles').innerHTML = allRecipes().map(r => `<option value="${esc(r.title)}">`).join(''); }
 
 /* ---- quick-add rows inside cards ---- */
