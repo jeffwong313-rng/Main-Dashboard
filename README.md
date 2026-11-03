@@ -3,7 +3,7 @@
 A household dashboard that runs entirely in the browser (no build step, no server). Works on phone, tablet and computer.
 
 **Cards:** To-Do, Shopping, Notes, Recipes, Upcoming events, Watch list (TV shows, movies, specials; check one off to hide it, tap "Watched" to see them again), Calendar (month view with US holidays; anything in Upcoming shows on it, and tapping a day lets you add an event there), Weather, Dinner plan, Chores, Bills, Quick links.
-The summary tiles at the top (open tasks, items to buy, bills left, next event) are tappable and jump to their card.
+The top row has two tappable tiles (open tasks, next event) and a Dublin, CA forecast: today plus 3 days at 8 AM, 12 PM, 4 PM and 8 PM, with °F, °C and chance of rain.
 
 ## Using it
 - Tap **+** on a card (or the round **+** at the bottom right) and type. Press Enter to add several in a row.

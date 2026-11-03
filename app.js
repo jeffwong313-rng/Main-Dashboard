@@ -50,6 +50,7 @@ const ICON = {
   cart: '<circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.7 12.4a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.5L21 8H6"/>',
   note: '<path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/>',
   book: '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>',
+  drop: '<path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/>',
   film: '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 4v16M17 4v16M3 9h4M3 15h4M17 9h4M17 15h4"/>',
   calendar: '<rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/>',
   utensils: '<path d="M5 3v6a3 3 0 0 0 6 0V3M8 3v18"/><path d="M17 21V3c-2.5 1.5-4 4.5-4 8h4"/>',
@@ -684,16 +685,40 @@ function renderKpis() {
   const t0 = startOfDay(new Date()).getTime();
   const openT = data.todos.filter(t => !t.done).length, doneToday = data.todos.filter(t => t.doneAt && t.doneAt >= t0).length;
   const week = Array.from({ length: 7 }, (_, i) => { const a = t0 - (6 - i) * DAY, b = a + DAY; return data.todos.filter(t => t.doneAt && t.doneAt >= a && t.doneAt < b).length; });
-  const left = data.shop.filter(s => !s.done).length, cart = data.shop.length - left;
-  const unpaid = W.bills.unpaid(), due = unpaid.reduce((s, b) => s + b.amt, 0), nextBill = [...unpaid].sort((a, b) => billDay(a) - billDay(b))[0];
   const ev = W.events.upcoming()[0];
   const tile = (id, color, label, val, sub, extra = '', small = false) => `<button class="kpi" data-goto="${id}" style="--accent:${color}"><span class="kpi-label">${label}</span><span class="kpi-val${small ? ' small' : ''}">${val}</span><span class="kpi-sub">${sub}</span>${extra}</button>`;
-  $('#kpis').innerHTML =
+  $('#kpiTiles').innerHTML =
     tile('todo', W.todo.accent, 'Open tasks', openT, doneToday ? `${doneToday} finished today` : 'None finished today', spark(week)) +
-    tile('shop', W.shop.accent, 'To buy', left, cart ? `${cart} already in the cart` : 'Nothing in the cart') +
-    tile('bills', W.bills.accent, 'Bills left this month', money(due), nextBill ? `Next: ${esc(nextBill.t)}, ${new Date().toLocaleDateString([], { month: 'short' })} ${billDay(nextBill)}` : data.bills.length ? 'All paid' : 'No bills added') +
     tile('events', W.events.accent, 'Next up', ev ? esc(ev.t) : 'Nothing', ev ? `${fmtDay(ev.date)}${ev.time ? ', ' + fmtTime(ev.time) : ''}` : 'No events scheduled', '', true);
 }
+/* ---- Dublin, CA forecast (top right): 8 AM / 12 PM / 4 PM / 8 PM, today + 3 days ---- */
+const DUB_KEY = 'hd.v1.dub', DUB_HOURS = ['08', '12', '16', '20'], DUB_LABELS = ['8 AM', '12 PM', '4 PM', '8 PM'];
+let dub = (() => { try { return JSON.parse(lsGet(DUB_KEY)); } catch { return null; } })(), dubErr = false;
+function renderDublin() {
+  const el = $('#dubWx'); if (!el) return;
+  const head = `<div class="dwx-h"><strong>Dublin, CA</strong><span class="dwx-leg">°F / °C and chance of rain</span><button type="button" class="icon-btn" data-dubrefresh aria-label="Refresh forecast">${icon('repeat')}</button></div>`;
+  if (!dub || !dub.t || !dub.t.length) { el.innerHTML = head + `<p class="muted dwx-msg">${dubErr ? 'Could not load the forecast. Check your connection.' : 'Loading forecast…'}</p>`; return; }
+  const days = [...new Set(dub.t.map(x => x.slice(0, 10)))].slice(0, 4);
+  const laNow = new Date().toLocaleString('en-CA', { timeZone: 'America/Los_Angeles', hourCycle: 'h23', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit' }); // "2026-11-03, 09"
+  const nowDay = laNow.slice(0, 10), nowHr = +laNow.slice(-2);
+  const cells = days.map((d, di) => `<span class="dwx-day">${di === 0 ? 'Today' : esc(parseDate(d).toLocaleDateString([], { weekday: 'short', month: 'short', day: 'numeric' }))}</span>` + DUB_HOURS.map(h => {
+    const i = dub.t.indexOf(`${d}T${h}:00`), c = i < 0 ? null : dub.c[i], pr = i < 0 ? null : dub.p[i], past = d === nowDay && +h < nowHr;
+    return `<span class="dwx-c${past ? ' past' : ''}">${c == null ? '<b>–</b>' : `<b>${Math.round(c * 9 / 5 + 32)}°F</b><small>${Math.round(c)}°C</small>`}<em>${icon('drop')}${pr == null ? '–' : pr + '%'}</em></span>`;
+  }).join('')).join('');
+  el.innerHTML = head + `<div class="dwx-g"><span></span>${DUB_LABELS.map(l => `<span class="dwx-t">${l}</span>`).join('')}${cells}</div>` + (dubErr ? '<p class="muted dwx-msg">Showing the last saved forecast.</p>' : '');
+}
+async function loadDublin(force) {
+  renderDublin();
+  if (!force && dub && Date.now() - dub.at < 30 * 60e3) return;
+  try {
+    const r = await fetch('https://api.open-meteo.com/v1/forecast?latitude=37.70&longitude=-121.94&hourly=temperature_2m,precipitation_probability&forecast_days=4&timezone=America%2FLos_Angeles');
+    if (!r.ok) throw 0; const j = await r.json(); if (!j.hourly || !j.hourly.time) throw 0;
+    dub = { at: Date.now(), t: j.hourly.time, c: j.hourly.temperature_2m, p: j.hourly.precipitation_probability }; lsSet(DUB_KEY, JSON.stringify(dub)); dubErr = false;
+  } catch { dubErr = true; }
+  renderDublin();
+}
+$('#dubWx').addEventListener('click', e => { if (e.target.closest('[data-dubrefresh]')) loadDublin(true); });
+document.addEventListener('visibilitychange', () => { if (!document.hidden) loadDublin(); });
 $('#kpis').addEventListener('click', e => { const k = e.target.closest('[data-goto]'); if (k) goto(k.dataset.goto); });
 
 /* ================= cards / grid ================= */
@@ -999,6 +1024,7 @@ if (document.documentElement.classList.contains('locked')) setTimeout(() => $('#
 hydrateIcons();
 applyTheme();
 renderAll();
+loadDublin();
 loadFeed();
 setSyncState(sync.state === 'off' ? 'off' : 'ok');
 if (sync.token) { lastPull = Date.now(); syncNow(); }
