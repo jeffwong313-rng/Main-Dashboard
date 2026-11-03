@@ -52,3 +52,7 @@ Cards sit on a real grid. In Customize layout, drag a card by its header to any 
 ## Dynamic colors
 
 Card colors come from an 11-color palette and are recomputed whenever cards move, resize, hide or show: each card keeps its own color unless a touching neighbor already has it, in which case it switches to a free color. Two touching cards never share a color; cards with a gap between them can.
+
+## Date ranges in Upcoming
+
+Events have an optional **To** date (for trips and other multi-day plans). A range shows as "Nov 10 to Nov 16 · 7 days", stays in Upcoming and Next up until it ends, and appears on every day it covers in the Calendar. Tap the date text on an event to set, change or clear its end date.

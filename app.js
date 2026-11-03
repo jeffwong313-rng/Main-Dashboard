@@ -36,6 +36,13 @@ function fmtStamp(ms) {
   const o = { month: 'short', day: 'numeric' }; if (d.getFullYear() !== new Date().getFullYear()) o.year = 'numeric';
   return d.toLocaleDateString([], o) + ', ' + t;
 }
+const evEnd = e => e.end && e.end > e.date ? e.end : e.date;
+const shortDay = str => parseDate(str).toLocaleDateString([], { month: 'short', day: 'numeric' });
+function rangeText(e) {
+  if (evEnd(e) === e.date) return fmtDay(e.date);
+  const n = Math.round((parseDate(e.end) - parseDate(e.date)) / DAY) + 1;
+  return `${shortDay(e.date)} to ${shortDay(e.end)} · ${n} days`;
+}
 function fmtDay(str) {
   const d = parseDate(str), diff = daysFromToday(d);
   if (diff === 0) return 'Today'; if (diff === 1) return 'Tomorrow';
@@ -99,7 +106,7 @@ function normalize(d) {
 }
 let data = (() => { try { const d = JSON.parse(lsGet(KEY)); if (d && d.v === 1) return normalize(d); } catch { } return defaults(); })();
 // Drop events that ended more than 30 days ago so the list stays tidy.
-data.events = data.events.filter(e => daysFromToday(parseDate(e.date)) >= -30);
+data.events = data.events.filter(e => daysFromToday(parseDate(evEnd(e))) >= -30);
 
 function persist() { if (!lsSet(KEY, JSON.stringify(data))) toast('Could not save: browser storage is full or blocked'); }
 function save() { data.updated = Date.now(); persist(); scheduleSync(); }
@@ -433,11 +440,11 @@ let evFilter = 'All';
 W.events = {
   title: 'Upcoming', icon: 'calendar', accent: '#3b9ae8',
   add: {
-    fields: [{ k: 't', ph: 'Add an event' }, { k: 'tag', ph: 'Tag', attrs: 'list="eventTags" maxlength="24" autocapitalize="words"' }, { k: 'date', type: 'date', def: todayStr }, { k: 'time', type: 'time' }],
+    fields: [{ k: 't', ph: 'Add an event' }, { k: 'tag', ph: 'Tag', attrs: 'list="eventTags" maxlength="24" autocapitalize="words"' }, { k: 'date', type: 'date', def: todayStr, lbl: 'From' }, { k: 'end', type: 'date', lbl: 'To (optional)' }, { k: 'time', type: 'time' }],
     primary: 't',
-    submit(v) { data.events.push({ id: uid(), t: v.t.trim(), tag: canonTag(v.tag), date: v.date || todayStr(), time: v.time || '', created: Date.now() }); touched('events'); }
+    submit(v) { const date = v.date || todayStr(); data.events.push({ id: uid(), t: v.t.trim(), tag: canonTag(v.tag), date, end: v.end && v.end > date ? v.end : '', time: v.time || '', created: Date.now() }); touched('events'); }
   },
-  upcoming() { return data.events.filter(e => daysFromToday(parseDate(e.date)) >= 0).sort((a, b) => (a.date + (a.time || '99:99')).localeCompare(b.date + (b.time || '99:99'))); },
+  upcoming() { return data.events.filter(e => daysFromToday(parseDate(evEnd(e))) >= 0).sort((a, b) => (a.date + (a.time || '99:99')).localeCompare(b.date + (b.time || '99:99'))); },
   count() { return this.upcoming().length; },
   render() {
     const all = this.upcoming(); if (!all.length) return empty('Nothing scheduled', 'Tap + to add an appointment or plan.');
@@ -445,11 +452,12 @@ W.events = {
     if (evFilter !== 'All' && !used.includes(evFilter)) evFilter = 'All';
     const list = evFilter === 'All' ? all : all.filter(e => e.tag === evFilter);
     const chips = used.length ? `<div class="rchips" role="group" aria-label="Filter by tag"><button type="button" class="rchip${evFilter === 'All' ? ' on' : ''}" data-act="etag" data-k="All">All</button>${used.map(t => `<button type="button" class="rchip${evFilter === t ? ' on' : ''}" style="--accent:${tagColor(t)}" data-act="etag" data-k="${esc(t)}">${esc(t)}</button>`).join('')}</div>` : '';
-    return chips + `<ul class="rows">${list.map(e => { const d = parseDate(e.date); return `<li class="row" data-id="${e.id}">${tagChip(e)}<div class="datepill${daysFromToday(d) === 0 ? ' is-today' : ''}"><span>${d.toLocaleDateString([], { month: 'short' })}</span><b>${d.getDate()}</b></div><div class="row-main"><span class="txt" data-act="edit">${esc(e.t)}</span><small class="meta">${fmtDay(e.date)}${e.time ? ', ' + fmtTime(e.time) : ''}</small></div>${delBtn}</li>`; }).join('')}</ul>`;
+    return chips + `<ul class="rows">${list.map(e => { const d = parseDate(e.date), now = daysFromToday(d) <= 0 && daysFromToday(parseDate(evEnd(e))) >= 0; return `<li class="row" data-id="${e.id}">${tagChip(e)}<div class="datepill${now ? ' is-today' : ''}"><span>${d.toLocaleDateString([], { month: 'short' })}</span><b>${d.getDate()}</b></div><div class="row-main"><span class="txt" data-act="edit">${esc(e.t)}</span><small class="meta" data-act="editEnd" data-raw="${esc(e.end || '')}" title="Tap to set or change the end date">${rangeText(e)}${e.time ? ', ' + fmtTime(e.time) : ''}</small></div>${delBtn}</li>`; }).join('')}</ul>`;
   },
   act: {
     del: ({ id }) => remove('events', id, 'events'),
     edit: ({ el, id }) => inlineEdit(el, { wid: 'events', onSave: v => { find(data.events, id).t = v; touched('events'); } }),
+    editEnd: ({ el, id }) => { const e = find(data.events, id); el.dataset.raw = e.end || e.date; inlineEdit(el, { wid: 'events', type: 'date', allowEmpty: true, onSave: v => { e.end = v && v > e.date ? v : ''; touched('events'); } }); },
     editTag: ({ el, id }) => inlineEdit(el, { wid: 'events', list: 'eventTags', allowEmpty: true, onSave: v => { find(data.events, id).tag = canonTag(v); touched('events'); } }),
     etag: ({ el }) => { evFilter = el.dataset.k; renderWidget('events'); }
   }
@@ -478,11 +486,11 @@ let calMonth = new Date(new Date().getFullYear(), new Date().getMonth(), 1), cal
 const calGo = m => { calMonth = m; calSel = monthKey(m) === monthKey() ? todayStr() : dstr(m); renderWidget('calendar'); };
 W.calendar = {
   title: 'Calendar', icon: 'calendar', accent: '#2fb7a3',
-  count() { const k = monthKey(calMonth); return data.events.filter(e => e.date.startsWith(k)).length; },
+  count() { const k = monthKey(calMonth), a = k + '-01', z = k + '-31'; return data.events.filter(e => e.date <= z && evEnd(e) >= a).length; },
   render() {
     const y = calMonth.getFullYear(), m = calMonth.getMonth(), first = calMonth.getDay(), dim = new Date(y, m + 1, 0).getDate(), weeks = Math.ceil((first + dim) / 7);
     const hol = holidays(y), by = {}, today = todayStr();
-    data.events.forEach(e => (by[e.date] = by[e.date] || []).push(e));
+    data.events.forEach(e => { for (let d = parseDate(e.date), n = 0; n < 60 && dstr(d) <= evEnd(e); n++, d = new Date(d.getFullYear(), d.getMonth(), d.getDate() + 1)) (by[dstr(d)] = by[dstr(d)] || []).push(e); });
     let cells = '';
     for (let i = 0; i < weeks * 7; i++) {
       const dn = i - first + 1; if (dn < 1 || dn > dim) { cells += '<span class="cal-c out"></span>'; continue; }
@@ -743,7 +751,7 @@ function renderKpis() {
   const tile = (id, color, label, val, sub, extra = '', small = false) => `<button class="kpi" data-goto="${id}" style="--accent:${color}"><span class="kpi-label">${label}</span><span class="kpi-val${small ? ' small' : ''}">${val}</span><span class="kpi-sub">${sub}</span>${extra}</button>`;
   $('#kpiTiles').innerHTML =
     tile('todo', W.todo.accent, 'Open tasks', openT, doneToday ? `${doneToday} finished today` : 'None finished today', spark(week)) +
-    tile('events', W.events.accent, 'Next up' + (ev ? ' · ' + fmtDay(ev.date) + (ev.time ? ', ' + fmtTime(ev.time) : '') : ''), ev ? esc(ev.t) : 'Nothing', '', '', true);
+    tile('events', W.events.accent, 'Next up' + (ev ? ' · ' + (daysFromToday(parseDate(ev.date)) < 0 ? 'Until ' + shortDay(evEnd(ev)) : evEnd(ev) !== ev.date ? rangeText(ev).split(' · ')[0] : fmtDay(ev.date)) + (daysFromToday(parseDate(ev.date)) >= 0 && ev.time ? ', ' + fmtTime(ev.time) : '') : ''), ev ? esc(ev.t) : 'Nothing', '', '', true);
 }
 /* ---- Dublin, CA forecast (top right): 8 AM / 12 PM / 4 PM / 8 PM, today + 3 days ---- */
 function wxKind(c, day) {
@@ -847,7 +855,7 @@ function tagMatches(tag) {
   Object.entries(TAGGED).forEach(([wid, key]) => {
     if (isCardHidden(wid)) return;
     const hits = (data[key] || []).filter(e => e.tag && e.tag.toLowerCase() === k);
-    if (hits.length) groups.push({ wid, title: W[wid].title, items: hits.map(e => ({ t: e.t.length > 90 ? e.t.slice(0, 89) + '…' : e.t, done: !!e.done || (wid === 'bills' && !!(e.paid || {})[monthKey()]), sub: wid === 'events' ? fmtDay(e.date) : '' })) });
+    if (hits.length) groups.push({ wid, title: W[wid].title, items: hits.map(e => ({ t: e.t.length > 90 ? e.t.slice(0, 89) + '…' : e.t, done: !!e.done || (wid === 'bills' && !!(e.paid || {})[monthKey()]), sub: wid === 'events' ? rangeText(e) : '' })) });
   });
   if (news && !isCardHidden('news')) {
     const seen = new Set(), hits = [...(news.top || []), ...Object.values(news.topics || {}).flat()].filter(s => s.topic.toLowerCase() === k && !seen.has(s.id) && seen.add(s.id)).slice(0, 5);
@@ -987,6 +995,7 @@ function buildForm(id) {
     const attrs = `name="${fl.k}" ${fl.attrs || ''}`;
     if (fl.type === 'textarea') return `<textarea ${attrs} rows="1" placeholder="${esc(fl.ph || '')}" aria-label="${esc(fl.ph || '')}"></textarea>`;
     if (fl.type === 'select') return `<select ${attrs} aria-label="How often">${fl.options.map(([v, l]) => `<option value="${v}"${v === fl.val ? ' selected' : ''}>${l}</option>`).join('')}</select>`;
+    if (fl.lbl) return `<label class="fl"><span>${esc(fl.lbl)}</span><input ${attrs} type="${fl.type || 'text'}" aria-label="${esc(fl.lbl)}"></label>`;
     return `<input ${attrs} type="${fl.type || 'text'}" placeholder="${esc(fl.ph || '')}" aria-label="${esc(fl.ph || fl.k)}">`;
   }).join('') + `<button class="go" type="submit" aria-label="Add">${icon('plus')}</button>`;
   const first = $('[name]', f), prim = $(`[name="${spec.primary || spec.fields[0].k}"]`, f);
@@ -1002,6 +1011,7 @@ function buildForm(id) {
     if (!String(vals[key] || '').trim()) { prim.focus(); return; }
     if (spec.submit(vals) === false) return;
     $$('input:not([type=date]):not([type=time]), textarea', f).forEach(x => { x.value = ''; if (x.tagName === 'TEXTAREA') x.style.height = 'auto'; });
+    const en = $('[name=end]', f); if (en) en.value = '';
     first.focus(); if (navigator.vibrate) navigator.vibrate(8);
   });
   return f;
@@ -1146,13 +1156,13 @@ const QA = [
   { k: 'todo', label: 'Task', ph: 'What needs doing?', add: t => lines(t).forEach(x => data.todos.unshift({ id: uid(), t: x, done: false, created: Date.now() })), wid: 'todo', to: 'To-Do' },
   { k: 'shop', label: 'Shopping', ph: 'Milk, eggs, rice', add: t => lines(t, true).forEach(x => { if (!data.shop.some(s => !s.done && s.t.toLowerCase() === x.toLowerCase())) data.shop.unshift({ id: uid(), t: x, done: false, created: Date.now() }); }), wid: 'shop', to: 'Shopping' },
   { k: 'notes', label: 'Note', ph: 'Jot something down', add: t => data.notes.unshift({ id: uid(), t: t.trim(), created: Date.now() }), wid: 'notes', to: 'Notes' },
-  { k: 'events', label: 'Event', ph: 'What is happening?', add: (t, extra) => data.events.push({ id: uid(), t: t.trim(), tag: canonTag(extra.tag), date: extra.date || todayStr(), time: extra.time || '', created: Date.now() }), wid: 'events', to: 'Upcoming', extra: true }
+  { k: 'events', label: 'Event', ph: 'What is happening?', add: (t, extra) => data.events.push({ id: uid(), t: t.trim(), tag: canonTag(extra.tag), date: extra.date || todayStr(), end: extra.end && extra.end > (extra.date || todayStr()) ? extra.end : '', time: extra.time || '', created: Date.now() }), wid: 'events', to: 'Upcoming', extra: true }
 ];
 function openQuickAdd(type) {
   type = type || lsGet(QA_KEY, 'todo'); if (!QA.some(q => q.k === type)) type = 'todo';
   openSheet(`<form class="qa" id="qa"><div class="seg" role="radiogroup" aria-label="What to add">${QA.map(q => `<label><input type="radio" name="type" value="${q.k}"${q.k === type ? ' checked' : ''}><span>${q.label}</span></label>`).join('')}</div>
     <textarea name="t" rows="2" class="form-ta" style="background:var(--field);border:1px solid transparent;border-radius:14px;padding:12px;font-size:16px"></textarea>
-    <div class="extra" hidden><input type="date" name="date" aria-label="Date"><input type="time" name="time" aria-label="Time"><input name="tag" list="eventTags" maxlength="24" placeholder="Tag (optional)" aria-label="Tag"></div>
+    <div class="extra" hidden><input type="date" name="date" aria-label="From date"><input type="date" name="end" aria-label="To date (optional)" title="To date (optional)"><input type="time" name="time" aria-label="Time"><input name="tag" list="eventTags" maxlength="24" placeholder="Tag (optional)" aria-label="Tag"></div>
     <div class="actions"><button class="btn" type="button" data-close>Done</button><button class="btn primary" type="submit">Add</button></div>
     <ul class="qa-log" aria-live="polite"></ul></form>`,
     {
@@ -1164,7 +1174,7 @@ function openQuickAdd(type) {
         ta.addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey && !e.isComposing) { e.preventDefault(); f.requestSubmit(); } });
         f.addEventListener('submit', e => {
           e.preventDefault(); const q = cur(), v = ta.value; if (!v.trim()) { ta.focus(); return; }
-          q.add(v, { date: $('[name=date]', f).value, time: $('[name=time]', f).value, tag: $('[name=tag]', f).value }); if (q.extra) $('[name=tag]', f).value = ''; touched(q.wid);
+          q.add(v, { date: $('[name=date]', f).value, end: $('[name=end]', f).value, time: $('[name=time]', f).value, tag: $('[name=tag]', f).value }); if (q.extra) $('[name=tag]', f).value = ''; touched(q.wid);
           const li = document.createElement('li'); li.innerHTML = `<b>${icon('check')}</b>${esc(v.trim().split('\n')[0].slice(0, 60))} added to ${q.to}`; li.firstChild.style.display = 'inline-flex'; li.firstChild.style.verticalAlign = 'middle'; log.prepend(li);
           ta.value = ''; ta.focus(); if (navigator.vibrate) navigator.vibrate(8);
         });
