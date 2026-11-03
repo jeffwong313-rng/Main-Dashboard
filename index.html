@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Home Dashboard</title>
+<meta name="description" content="Household dashboard: to-dos, shopping, notes, recipes and more.">
+<meta name="theme-color" content="#eaeef2">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Home">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <div>
+      <h1 id="hello">Hello</h1>
+      <p id="today"></p>
+    </div>
+    <span class="spacer"></span>
+    <div class="tools-r">
+      <button class="round" id="btnTheme" aria-label="Switch light or dark theme" data-icon="moon"></button>
+      <button class="round" id="btnEdit" aria-label="Customize layout" aria-pressed="false" data-icon="grid"></button>
+      <button class="round" id="btnSettings" aria-label="Settings and sync" data-icon="gear"><span class="sync-dot" id="syncDot" data-s="off"></span></button>
+    </div>
+  </header>
+
+  <section class="kpis" id="kpis" aria-label="Summary"></section>
+
+  <div class="edit-tray" id="editTray" hidden>
+    <div class="msg">Drag a card by its title to move it. Drag the corner to resize. Tap × to hide a card.</div>
+    <span id="hiddenChips"></span>
+    <button class="chip-btn" id="btnReset">Reset layout</button>
+    <button class="chip-btn" id="btnDone" style="background:var(--text);color:var(--bg)">Done</button>
+  </div>
+
+  <main class="grid" id="grid"></main>
+</div>
+
+<button class="fab" id="fab" aria-label="Quick add" data-icon="plus"></button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<dialog id="sheet" class="sheet"></dialog>
+<datalist id="recipeTitles"></datalist>
+<script src="app.js"></script>
+</body>
+</html>
