@@ -582,3 +582,5 @@ dialog.sheet.cal-full .sheet-body { padding: 4px max(14px, env(safe-area-inset-l
   .cdow span { padding-left: 4px; font-size: 10px; }
 }
 .card[data-id="calendar"] .card-h h3 { cursor: pointer; }
+.tokrow { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin: 8px 0; font-size: 13px; }
+.tokbtn { max-width: 100%; padding: 6px 12px; border-radius: 10px; background: var(--field); font: 600 12.5px ui-monospace, monospace; color: var(--text); overflow-wrap: anywhere; text-align: left; }

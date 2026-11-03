@@ -1334,6 +1334,7 @@ function openSettings() {
   <div class="set-group"><h3>Sync across devices</h3>
     <p>Keeps your dashboard identical on your phone, laptop and tablet using a private GitHub Gist (a hidden file in your own GitHub account). Create a token once, then paste it on each device.</p>
     <div class="status-line" id="syncStatus">${syncStatusHtml()}</div>
+    ${sync.token ? `<div class="tokrow"><span class="muted">Token on this device</span><button type="button" class="tokbtn" id="tokShow" data-shown="0" title="Tap to reveal, tap again to copy">Reveal token</button></div>` : ''}
     ${sync.token ? `<div class="row2"><button class="btn primary" type="button" id="syncNow">Sync now</button><button class="btn danger" type="button" id="syncOff">Disconnect this device</button></div>` :
       `<ol class="muted" style="margin:0 0 12px;padding-left:20px;font-size:14px;line-height:1.5"><li>Open <a href="https://github.com/settings/tokens/new?scopes=gist&description=Home%20Dashboard" target="_blank" rel="noopener noreferrer" style="text-decoration:underline">GitHub token page</a> (classic token, only the <b>gist</b> box ticked).</li><li>Tap Generate token, copy it, and paste it below.</li></ol><div class="row2"><input type="password" id="tok" placeholder="Paste token" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="GitHub token"><button class="btn primary" type="button" id="syncOn">Connect</button></div>`}
     <p style="margin-top:10px;font-size:13px">Latest change wins if two devices edit at once, so the app checks for updates whenever you come back to it. Keep passwords and card numbers out of this app.</p>
@@ -1360,6 +1361,10 @@ function openSettings() {
         $('#setTheme', b).addEventListener('change', e => { lsSet(THEME_KEY, e.target.value); applyTheme(); });
         $('#setUnits', b).addEventListener('change', e => { data.settings.units = e.target.value; save(); loadWeather(true); });
         const on = $('#syncOn', b); on && on.addEventListener('click', () => { const t = $('#tok', b).value.trim(); if (!t) return; sync = { ...sync, token: t, gistId: '', state: 'syncing', err: '' }; saveSyncCfg(); sheet.close(); syncNow({ first: true }); });
+        const ts = $('#tokShow', b); ts && ts.addEventListener('click', async () => {
+          if (ts.dataset.shown !== '1') { ts.dataset.shown = '1'; ts.textContent = sync.token; return; }
+          try { await navigator.clipboard.writeText(sync.token); toast('Token copied'); } catch { const r = document.createRange(); r.selectNodeContents(ts); const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r); toast('Select and copy the token'); }
+        });
         const now = $('#syncNow', b); now && now.addEventListener('click', () => { lastPull = Date.now(); syncNow(); });
         const off = $('#syncOff', b); off && off.addEventListener('click', () => { if (!confirm('Disconnect this device? Your data stays here and in the cloud copy.')) return; sync = { token: '', gistId: '', last: 0, state: 'off', err: '' }; saveSyncCfg(); setSyncState('off'); sheet.close(); toast('Disconnected'); });
         $('#exp', b).addEventListener('click', () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' })); a.download = `home-dashboard-${todayStr()}.json`; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 2000); });
