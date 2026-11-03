@@ -479,3 +479,20 @@ body.editing .pin-btn, body.editing .grab-hand { display: none; }
   .top .kpi-tiles[hidden] { display: none; }
   .top .kpi { width: auto; }
 }
+
+/* event tags */
+.evtag { flex: none; width: 96px; text-align: center; box-sizing: border-box; max-width: 96px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 10px; font-weight: 750; padding: 3px 4px; border-radius: 999px; line-height: 1.3; cursor: pointer;
+  background: color-mix(in srgb, var(--tg) 20%, var(--surface)); color: color-mix(in srgb, var(--tg), #000 var(--ink-mix, 45%)); border: 1px solid color-mix(in srgb, var(--tg) 45%, transparent); }
+.evtag.none { --tg: #8a97a5; background: transparent; border-style: dashed; color: var(--faint); opacity: 0; transition: opacity .12s; }
+.row:hover .evtag.none, .evtag.none:focus-visible { opacity: 1; }
+@media (hover: none) { .evtag.none { opacity: .55; } }
+.meta .evtag { cursor: default; }
+.cal-add input[name=tag] { max-width: 96px; }
+.qa .extra { flex-wrap: wrap; } .qa .extra input[name=tag] { flex: 1 1 100%; }
+.addrow[data-wid=events] { flex-wrap: wrap; }
+.addrow[data-wid=events] input[name=t] { flex: 1 1 100%; }
+.addrow[data-wid=events] input[name=tag] { flex: 1 1 38%; min-width: 0; }
+.addrow[data-wid=events] input[name=date] { flex: 1 1 50%; min-width: 0; }
+.addrow[data-wid=events] input[name=time] { flex: 1 1 60%; min-width: 0; }
+.meta .evtag { width: auto; padding: 1px 8px; }
+.rchips .rchip { white-space: nowrap; }

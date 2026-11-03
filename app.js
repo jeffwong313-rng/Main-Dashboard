@@ -395,21 +395,36 @@ W.recipes = {
   }
 };
 
+/* ---- event tags: Travel, Important Days, Friends, Family + any you type ---- */
+const TAG_DEFAULTS = [['Travel', '#3b9ae8'], ['Important Days', '#e5677f'], ['Friends', '#e8a23a'], ['Family', '#2fb7a3']];
+const TAG_EXTRA = ['#8b7cf0', '#c25fd0', '#7bb83d', '#e0884b', '#5a9fb0', '#d1648c'];
+const allTags = () => { const m = new Map(); TAG_DEFAULTS.forEach(([n]) => m.set(n.toLowerCase(), n)); data.events.forEach(e => { if (e.tag && !m.has(e.tag.toLowerCase())) m.set(e.tag.toLowerCase(), e.tag); }); return [...m.values()]; };
+const canonTag = t => { t = String(t || '').trim().replace(/\s+/g, ' ').slice(0, 24); if (!t) return ''; return allTags().find(x => x.toLowerCase() === t.toLowerCase()) || t; };
+const tagColor = t => { const k = t.toLowerCase(), d = TAG_DEFAULTS.find(x => x[0].toLowerCase() === k); if (d) return d[1]; let h = 0; for (const c of k) h = (h * 31 + c.charCodeAt(0)) >>> 0; return TAG_EXTRA[h % TAG_EXTRA.length]; };
+const tagChip = (e, editable = true) => e.tag ? `<span class="evtag" style="--tg:${tagColor(e.tag)}"${editable ? ` data-act="editTag" data-raw="${esc(e.tag)}" title="Change tag"` : ''}>${esc(e.tag)}</span>` : (editable ? '<span class="evtag none" data-act="editTag" data-raw="" title="Add a tag">+ Tag</span>' : '');
+let evFilter = 'All';
 W.events = {
   title: 'Upcoming', icon: 'calendar', accent: '#3b9ae8',
   add: {
-    fields: [{ k: 't', ph: 'Add an event' }, { k: 'date', type: 'date', def: todayStr }, { k: 'time', type: 'time' }],
-    submit(v) { data.events.push({ id: uid(), t: v.t.trim(), date: v.date || todayStr(), time: v.time || '', created: Date.now() }); touched('events'); }
+    fields: [{ k: 't', ph: 'Add an event' }, { k: 'tag', ph: 'Tag', attrs: 'list="eventTags" maxlength="24" autocapitalize="words"' }, { k: 'date', type: 'date', def: todayStr }, { k: 'time', type: 'time' }],
+    primary: 't',
+    submit(v) { data.events.push({ id: uid(), t: v.t.trim(), tag: canonTag(v.tag), date: v.date || todayStr(), time: v.time || '', created: Date.now() }); touched('events'); }
   },
   upcoming() { return data.events.filter(e => daysFromToday(parseDate(e.date)) >= 0).sort((a, b) => (a.date + (a.time || '99:99')).localeCompare(b.date + (b.time || '99:99'))); },
   count() { return this.upcoming().length; },
   render() {
-    const list = this.upcoming(); if (!list.length) return empty('Nothing scheduled', 'Tap + to add an appointment or plan.');
-    return `<ul class="rows">${list.map(e => { const d = parseDate(e.date); return `<li class="row" data-id="${e.id}"><div class="datepill${daysFromToday(d) === 0 ? ' is-today' : ''}"><span>${d.toLocaleDateString([], { month: 'short' })}</span><b>${d.getDate()}</b></div><div class="row-main"><span class="txt" data-act="edit">${esc(e.t)}</span><small class="meta">${fmtDay(e.date)}${e.time ? ', ' + fmtTime(e.time) : ''}</small></div>${delBtn}</li>`; }).join('')}</ul>`;
+    const all = this.upcoming(); if (!all.length) return empty('Nothing scheduled', 'Tap + to add an appointment or plan.');
+    const used = [...new Set(all.map(e => e.tag).filter(Boolean))];
+    if (evFilter !== 'All' && !used.includes(evFilter)) evFilter = 'All';
+    const list = evFilter === 'All' ? all : all.filter(e => e.tag === evFilter);
+    const chips = used.length ? `<div class="rchips" role="group" aria-label="Filter by tag"><button type="button" class="rchip${evFilter === 'All' ? ' on' : ''}" data-act="etag" data-k="All">All</button>${used.map(t => `<button type="button" class="rchip${evFilter === t ? ' on' : ''}" style="--accent:${tagColor(t)}" data-act="etag" data-k="${esc(t)}">${esc(t)}</button>`).join('')}</div>` : '';
+    return chips + `<ul class="rows">${list.map(e => { const d = parseDate(e.date); return `<li class="row" data-id="${e.id}">${tagChip(e)}<div class="datepill${daysFromToday(d) === 0 ? ' is-today' : ''}"><span>${d.toLocaleDateString([], { month: 'short' })}</span><b>${d.getDate()}</b></div><div class="row-main"><span class="txt" data-act="edit">${esc(e.t)}</span><small class="meta">${fmtDay(e.date)}${e.time ? ', ' + fmtTime(e.time) : ''}</small></div>${delBtn}</li>`; }).join('')}</ul>`;
   },
   act: {
     del: ({ id }) => remove('events', id, 'events'),
-    edit: ({ el, id }) => inlineEdit(el, { wid: 'events', onSave: v => { find(data.events, id).t = v; touched('events'); } })
+    edit: ({ el, id }) => inlineEdit(el, { wid: 'events', onSave: v => { find(data.events, id).t = v; touched('events'); } }),
+    editTag: ({ el, id }) => inlineEdit(el, { wid: 'events', list: 'eventTags', allowEmpty: true, onSave: v => { find(data.events, id).tag = canonTag(v); touched('events'); } }),
+    etag: ({ el }) => { evFilter = el.dataset.k; renderWidget('events'); }
   }
 };
 
@@ -445,16 +460,16 @@ W.calendar = {
     for (let i = 0; i < weeks * 7; i++) {
       const dn = i - first + 1; if (dn < 1 || dn > dim) { cells += '<span class="cal-c out"></span>'; continue; }
       const k = `${y}-${pad(m + 1)}-${pad(dn)}`, ev = by[k] || [];
-      cells += `<button type="button" class="cal-c${k === today ? ' today' : ''}${k === calSel ? ' sel' : ''}" data-act="day" data-d="${k}" aria-label="${esc(parseDate(k).toLocaleDateString([], { weekday: 'long', month: 'long', day: 'numeric' }))}${hol[k] ? ', ' + esc(hol[k]) : ''}${ev.length ? ', ' + ev.length + ' event' + (ev.length > 1 ? 's' : '') : ''}"><b>${dn}</b><i class="dots">${hol[k] ? '<u class="h"></u>' : ''}${ev.slice(0, 3).map(() => '<u class="e"></u>').join('')}</i></button>`;
+      cells += `<button type="button" class="cal-c${k === today ? ' today' : ''}${k === calSel ? ' sel' : ''}" data-act="day" data-d="${k}" aria-label="${esc(parseDate(k).toLocaleDateString([], { weekday: 'long', month: 'long', day: 'numeric' }))}${hol[k] ? ', ' + esc(hol[k]) : ''}${ev.length ? ', ' + ev.length + ' event' + (ev.length > 1 ? 's' : '') : ''}"><b>${dn}</b><i class="dots">${hol[k] ? '<u class="h"></u>' : ''}${ev.slice(0, 3).map(x => `<u class="e"${x.tag ? ` style="background:${tagColor(x.tag)}"` : ''}></u>`).join('')}</i></button>`;
     }
     const sd = parseDate(calSel), hs = holidays(sd.getFullYear())[calSel], evs = (by[calSel] || []).slice().sort((a, b) => (a.time || '99:99').localeCompare(b.time || '99:99'));
     const rows = (hs ? `<li class="row cal-hol"><span class="cal-flag" aria-hidden="true"></span><div class="row-main"><span>${esc(hs)}</span><small class="meta">Holiday</small></div></li>` : '') +
-      evs.map(e => `<li class="row" data-id="${e.id}"><span class="cal-flag ev" aria-hidden="true"></span><div class="row-main"><span class="txt" data-act="edit">${esc(e.t)}</span>${e.time ? `<small class="meta">${fmtTime(e.time)}</small>` : ''}</div>${delBtn}</li>`).join('');
+      evs.map(e => `<li class="row" data-id="${e.id}"><span class="cal-flag ev" aria-hidden="true"${e.tag ? ` style="background:${tagColor(e.tag)}"` : ''}></span><div class="row-main"><span class="txt" data-act="edit">${esc(e.t)}</span>${e.tag ? `<small class="meta">${tagChip(e, false)}</small>` : ''}${e.time ? `<small class="meta">${fmtTime(e.time)}</small>` : ''}</div>${delBtn}</li>`).join('');
     return `<div class="cal-h"><button type="button" class="icon-btn" data-act="prev" aria-label="Previous month" style="transform:scaleX(-1)">${icon('chevron')}</button><strong>${calMonth.toLocaleDateString([], { month: 'long', year: 'numeric' })}</strong><button type="button" class="icon-btn" data-act="next" aria-label="Next month">${icon('chevron')}</button><span class="spacer"></span><button type="button" class="chip-btn" data-act="today">Today</button></div>
     <div class="cal-g cal-dow" aria-hidden="true">${['S', 'M', 'T', 'W', 'T', 'F', 'S'].map(x => `<span>${x}</span>`).join('')}</div>
     <div class="cal-g">${cells}</div>
     <div class="cal-day"><h4>${sd.toLocaleDateString([], { weekday: 'long', month: 'long', day: 'numeric' })}</h4><ul class="rows">${rows || '<li class="muted cal-none">Nothing on this day.</li>'}</ul></div>
-    <form class="addrow cal-add" data-cform autocomplete="off"><input name="t" placeholder="Add an event" aria-label="Add an event"><input name="time" type="time" aria-label="Time"><button class="go" type="submit" aria-label="Add">${icon('plus')}</button></form>`;
+    <form class="addrow cal-add" data-cform autocomplete="off"><input name="t" placeholder="Add an event" aria-label="Add an event"><input name="tag" list="eventTags" maxlength="24" placeholder="Tag" aria-label="Tag"><input name="time" type="time" aria-label="Time"><button class="go" type="submit" aria-label="Add">${icon('plus')}</button></form>`;
   },
   act: {
     day: ({ el }) => { calSel = el.dataset.d; renderWidget('calendar'); },
@@ -466,7 +481,7 @@ W.calendar = {
   },
   onSubmit(f) {
     const fd = new FormData(f), t = fd.get('t').toString().trim(); if (!t) { $('input[name=t]', f).focus(); return; }
-    data.events.push({ id: uid(), t, date: calSel, time: fd.get('time') || '', created: Date.now() }); touched('events');
+    data.events.push({ id: uid(), t, tag: canonTag(fd.get('tag')), date: calSel, time: fd.get('time') || '', created: Date.now() }); touched('events');
     const i = $('.cal-add input', cards.calendar); if (i) i.focus();
   }
 };
@@ -850,11 +865,11 @@ document.addEventListener('contextmenu', e => { if (lp && e.target.closest('.pin
 document.addEventListener('click', e => { if (justDragged) { e.stopPropagation(); e.preventDefault(); } }, true);
 
 function touched(...ids) { save(); if (ids.includes('events') && !ids.includes('calendar')) ids.push('calendar'); ids.forEach(renderWidget); renderKpis(); fillDatalist(); }
-function fillDatalist() { $('#recipeTitles').innerHTML = allRecipes().map(r => `<option value="${esc(r.title)}">`).join(''); }
+function fillDatalist() { const et = $('#eventTags'); if (et) et.innerHTML = allTags().map(t => `<option value="${esc(t)}">`).join(''); $('#recipeTitles').innerHTML = allRecipes().map(r => `<option value="${esc(r.title)}">`).join(''); }
 
 /* ---- quick-add rows inside cards ---- */
 function buildForm(id) {
-  const spec = W[id].add, f = document.createElement('form'); f.className = 'addrow'; f.autocomplete = 'off'; f.noValidate = true;
+  const spec = W[id].add, f = document.createElement('form'); f.className = 'addrow'; f.dataset.wid = id; f.autocomplete = 'off'; f.noValidate = true;
   f.innerHTML = spec.fields.map(fl => {
     const attrs = `name="${fl.k}" ${fl.attrs || ''}`;
     if (fl.type === 'textarea') return `<textarea ${attrs} rows="1" placeholder="${esc(fl.ph || '')}" aria-label="${esc(fl.ph || '')}"></textarea>`;
@@ -982,13 +997,13 @@ const QA = [
   { k: 'todo', label: 'Task', ph: 'What needs doing?', add: t => lines(t).forEach(x => data.todos.unshift({ id: uid(), t: x, done: false, created: Date.now() })), wid: 'todo', to: 'To-Do' },
   { k: 'shop', label: 'Shopping', ph: 'Milk, eggs, rice', add: t => lines(t, true).forEach(x => { if (!data.shop.some(s => !s.done && s.t.toLowerCase() === x.toLowerCase())) data.shop.unshift({ id: uid(), t: x, done: false, created: Date.now() }); }), wid: 'shop', to: 'Shopping' },
   { k: 'notes', label: 'Note', ph: 'Jot something down', add: t => data.notes.unshift({ id: uid(), t: t.trim(), created: Date.now() }), wid: 'notes', to: 'Notes' },
-  { k: 'events', label: 'Event', ph: 'What is happening?', add: (t, extra) => data.events.push({ id: uid(), t: t.trim(), date: extra.date || todayStr(), time: extra.time || '', created: Date.now() }), wid: 'events', to: 'Upcoming', extra: true }
+  { k: 'events', label: 'Event', ph: 'What is happening?', add: (t, extra) => data.events.push({ id: uid(), t: t.trim(), tag: canonTag(extra.tag), date: extra.date || todayStr(), time: extra.time || '', created: Date.now() }), wid: 'events', to: 'Upcoming', extra: true }
 ];
 function openQuickAdd(type) {
   type = type || lsGet(QA_KEY, 'todo'); if (!QA.some(q => q.k === type)) type = 'todo';
   openSheet(`<form class="qa" id="qa"><div class="seg" role="radiogroup" aria-label="What to add">${QA.map(q => `<label><input type="radio" name="type" value="${q.k}"${q.k === type ? ' checked' : ''}><span>${q.label}</span></label>`).join('')}</div>
     <textarea name="t" rows="2" class="form-ta" style="background:var(--field);border:1px solid transparent;border-radius:14px;padding:12px;font-size:16px"></textarea>
-    <div class="extra" hidden><input type="date" name="date" aria-label="Date"><input type="time" name="time" aria-label="Time"></div>
+    <div class="extra" hidden><input type="date" name="date" aria-label="Date"><input type="time" name="time" aria-label="Time"><input name="tag" list="eventTags" maxlength="24" placeholder="Tag (optional)" aria-label="Tag"></div>
     <div class="actions"><button class="btn" type="button" data-close>Done</button><button class="btn primary" type="submit">Add</button></div>
     <ul class="qa-log" aria-live="polite"></ul></form>`,
     {
@@ -1000,7 +1015,7 @@ function openQuickAdd(type) {
         ta.addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey && !e.isComposing) { e.preventDefault(); f.requestSubmit(); } });
         f.addEventListener('submit', e => {
           e.preventDefault(); const q = cur(), v = ta.value; if (!v.trim()) { ta.focus(); return; }
-          q.add(v, { date: $('[name=date]', f).value, time: $('[name=time]', f).value }); touched(q.wid);
+          q.add(v, { date: $('[name=date]', f).value, time: $('[name=time]', f).value, tag: $('[name=tag]', f).value }); if (q.extra) $('[name=tag]', f).value = ''; touched(q.wid);
           const li = document.createElement('li'); li.innerHTML = `<b>${icon('check')}</b>${esc(v.trim().split('\n')[0].slice(0, 60))} added to ${q.to}`; li.firstChild.style.display = 'inline-flex'; li.firstChild.style.verticalAlign = 'middle'; log.prepend(li);
           ta.value = ''; ta.focus(); if (navigator.vibrate) navigator.vibrate(8);
         });
