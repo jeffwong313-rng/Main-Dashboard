@@ -188,23 +188,35 @@ function inlineEdit(span, { wid, onSave, multiline = false, allowEmpty = false, 
 }
 
 /* ================= widgets ================= */
+const NEWS_COLORS = { 'World': '#3b82c4', 'U.S.': '#d9534f', 'Politics': '#8b5cf6', 'Economy': '#2fa56e', 'Finance': '#0e9f8e', 'Local': '#e8873a', 'Sports': '#e5677f', 'Tech': '#4f6ef0', 'Science': '#17a2b8', 'Health': '#c25fd0', 'Entertainment': '#d6a31c' };
+const TAG_DEFAULTS = [['Travel', '#3b9ae8'], ['Important Days', '#e5677f'], ['Friends', '#e8a23a'], ['Family', '#2fb7a3']];
+const TAG_EXTRA = ['#8b7cf0', '#c25fd0', '#7bb83d', '#e0884b', '#5a9fb0', '#d1648c'];
+const TAGGED = { todo: 'todos', shop: 'shop', notes: 'notes', events: 'events', watch: 'watch', chores: 'chores', bills: 'bills', links: 'links' };
+const allTags = () => { const m = new Map(); TAG_DEFAULTS.forEach(([n]) => m.set(n.toLowerCase(), n)); Object.values(TAGGED).forEach(k => (data[k] || []).forEach(e => { if (e.tag && !m.has(e.tag.toLowerCase())) m.set(e.tag.toLowerCase(), e.tag); })); return [...m.values()]; };
+const usedTags = () => { const m = new Map(); Object.values(TAGGED).forEach(k => (data[k] || []).forEach(e => { if (e.tag && !m.has(e.tag.toLowerCase())) m.set(e.tag.toLowerCase(), e.tag); })); (data.newsFav || []).forEach(t => { if (!m.has(t.toLowerCase())) m.set(t.toLowerCase(), t); }); return [...m.values()].sort((a, b) => a.localeCompare(b)); };
+const TAGF = { k: 'tag', ph: 'Tag (optional)', attrs: 'list="eventTags" maxlength="24" autocapitalize="words"' };
+const tagAct = (wid, key) => ({ el, id }) => inlineEdit(el, { wid, list: 'eventTags', allowEmpty: true, onSave: v => { find(data[key], id).tag = canonTag(v); touched(wid); } });
+const canonTag = t => { t = String(t || '').trim().replace(/\s+/g, ' ').slice(0, 24); if (!t) return ''; return allTags().find(x => x.toLowerCase() === t.toLowerCase()) || Object.keys(NEWS_COLORS).find(x => x.toLowerCase() === t.toLowerCase()) || t.charAt(0).toUpperCase() + t.slice(1); };
+const tagColor = t => { const k = t.toLowerCase(), d = TAG_DEFAULTS.find(x => x[0].toLowerCase() === k); if (d) return d[1]; const nk = Object.keys(NEWS_COLORS).find(x => x.toLowerCase() === k); if (nk) return NEWS_COLORS[nk]; let h = 0; for (const c of k) h = (h * 31 + c.charCodeAt(0)) >>> 0; return TAG_EXTRA[h % TAG_EXTRA.length]; };
+const tagChip = (e, editable = true, cls = '') => e.tag ? `<span class="evtag${cls}" style="--tg:${tagColor(e.tag)}"${editable ? ` data-act="editTag" data-raw="${esc(e.tag)}" title="Change tag"` : ''}>${esc(e.tag)}</span>` : (editable ? `<span class="evtag none${cls}" data-act="editTag" data-raw="" title="Add a tag">+ Tag</span>` : '');
 const W = {};
 const empty = (t, s) => `<div class="empty"><strong>${esc(t)}</strong><span>${esc(s)}</span></div>`;
 const delBtn = `<button class="icon-btn del" data-act="del" aria-label="Delete">${icon('x')}</button>`;
 
 W.todo = {
   title: 'To-Do', icon: 'list', accent: '#2fb8a6',
-  add: { fields: [{ k: 't', ph: 'Add a task', type: 'textarea' }], submit(v) { lines(v.t).forEach(t => data.todos.unshift({ id: uid(), t, done: false, created: Date.now() })); touched('todo'); } },
+  add: { fields: [{ k: 't', ph: 'Add a task', type: 'textarea' }, TAGF], submit(v) { const tag = canonTag(v.tag); lines(v.t).forEach(t => data.todos.unshift({ id: uid(), t, tag, done: false, created: Date.now() })); touched('todo'); } },
   count: () => data.todos.filter(t => !t.done).length,
   render() {
     if (!data.todos.length) return empty('Nothing to do', 'Tap + to add a task.');
     const open = data.todos.filter(t => !t.done), done = data.todos.filter(t => t.done).sort((a, b) => (b.doneAt || 0) - (a.doneAt || 0));
-    const row = t => `<li class="row${t.done ? ' is-done' : ''}" data-id="${t.id}"><button class="chk" data-act="toggle" aria-label="${t.done ? 'Mark not done' : 'Mark done'}">${icon('check')}</button><div class="row-main"><span class="txt" data-act="edit">${esc(t.t)}</span><small class="meta">${fmtStamp(t.created)}</small></div>${delBtn}</li>`;
+    const row = t => `<li class="row${t.done ? ' is-done' : ''}" data-id="${t.id}"><button class="chk" data-act="toggle" aria-label="${t.done ? 'Mark not done' : 'Mark done'}">${icon('check')}</button><div class="row-main"><span class="txt" data-act="edit">${esc(t.t)}</span><small class="meta">${fmtStamp(t.created)}</small></div>${tagChip(t, true, ' sm')}${delBtn}</li>`;
     return `<ul class="rows">${open.map(row).join('')}</ul>` + (done.length ? `<div class="sep"><span>Completed (${done.length})</span><button class="link" data-act="clearDone">Clear</button></div><ul class="rows">${done.slice(0, 40).map(row).join('')}</ul>` : '');
   },
   act: {
     toggle: ({ id }) => { const t = find(data.todos, id); t.done = !t.done; t.doneAt = t.done ? Date.now() : null; touched('todo'); },
     del: ({ id }) => remove('todos', id, 'todo'),
+    editTag: tagAct('todo', 'todos'),
     edit: ({ el, id }) => inlineEdit(el, { wid: 'todo', onSave: v => { find(data.todos, id).t = v; touched('todo'); } }),
     clearDone: () => undoable('Cleared completed tasks', () => { data.todos = data.todos.filter(t => !t.done); }, 'todo')
   }
@@ -213,12 +225,12 @@ W.todo = {
 W.shop = {
   title: 'Shopping', icon: 'cart', accent: '#e8a23a',
   add: {
-    fields: [{ k: 't', ph: 'Add items, separated by commas', type: 'textarea' }],
+    fields: [{ k: 't', ph: 'Add items, separated by commas', type: 'textarea' }, TAGF],
     submit(v) {
       let dup = 0;
       lines(v.t, true).forEach(t => {
         if (data.shop.some(x => !x.done && x.t.toLowerCase() === t.toLowerCase())) { dup++; return; }
-        data.shop.unshift({ id: uid(), t, done: false, created: Date.now() });
+        data.shop.unshift({ id: uid(), t, tag: canonTag(v.tag), done: false, created: Date.now() });
       });
       touched('shop'); if (dup) toast(dup === 1 ? 'Already on the list' : `${dup} items were already on the list`);
     }
@@ -227,12 +239,13 @@ W.shop = {
   render() {
     if (!data.shop.length) return empty('List is empty', 'Tap + and type items, like "milk, eggs, rice".');
     const open = data.shop.filter(t => !t.done), done = data.shop.filter(t => t.done);
-    const row = t => `<li class="row${t.done ? ' is-done' : ''}" data-id="${t.id}"><button class="chk" data-act="toggle" aria-label="${t.done ? 'Put back on list' : 'Check off'}">${icon('check')}</button><div class="row-main"><span class="txt" data-act="edit">${esc(t.t)}</span></div>${delBtn}</li>`;
+    const row = t => `<li class="row${t.done ? ' is-done' : ''}" data-id="${t.id}"><button class="chk" data-act="toggle" aria-label="${t.done ? 'Put back on list' : 'Check off'}">${icon('check')}</button><div class="row-main"><span class="txt" data-act="edit">${esc(t.t)}</span></div>${tagChip(t, true, ' sm')}${delBtn}</li>`;
     return `<ul class="rows">${open.map(row).join('')}</ul>` + (done.length ? `<div class="sep"><span>In the cart (${done.length})</span><button class="link" data-act="clearDone">Clear</button></div><ul class="rows">${done.map(row).join('')}</ul>` : '');
   },
   act: {
     toggle: ({ id }) => { const t = find(data.shop, id); t.done = !t.done; touched('shop'); },
     del: ({ id }) => remove('shop', id, 'shop'),
+    editTag: tagAct('shop', 'shop'),
     edit: ({ el, id }) => inlineEdit(el, { wid: 'shop', onSave: v => { find(data.shop, id).t = v; touched('shop'); } }),
     clearDone: () => undoable('Cleared checked items', () => { data.shop = data.shop.filter(t => !t.done); }, 'shop')
   }
@@ -243,12 +256,12 @@ let watchTab = 'all', watchShowDone = false;
 W.watch = {
   title: 'Watch list', icon: 'film', accent: '#c25fd0',
   add: {
-    fields: [{ k: 't', ph: 'Add a title' }, { k: 'type', type: 'select', options: [['tv', 'TV show'], ['movie', 'Movie'], ['special', 'Special']], val: 'tv' }],
+    fields: [{ k: 't', ph: 'Add a title' }, { k: 'type', type: 'select', options: [['tv', 'TV show'], ['movie', 'Movie'], ['special', 'Special']], val: 'tv' }, TAGF],
     primary: 't',
     submit(v) {
       const t = v.t.trim(), type = ['tv', 'movie', 'special'].includes(v.type) ? v.type : 'tv';
       if (data.watch.some(x => !x.done && x.type === type && x.t.toLowerCase() === t.toLowerCase())) { toast('Already on the list'); return false; }
-      data.watch.unshift({ id: uid(), t, type, done: false, created: Date.now() }); watchTab = type; touched('watch');
+      data.watch.unshift({ id: uid(), t, type, tag: canonTag(v.tag), done: false, created: Date.now() }); watchTab = type; touched('watch');
     }
   },
   count: () => data.watch.filter(x => !x.done).length,
@@ -257,7 +270,7 @@ W.watch = {
     const tabs = [['all', 'All'], ...WTYPES].map(([k, l]) => `<button type="button" class="rchip${watchTab === k ? ' on' : ''}" data-act="wtab" data-k="${k}">${l} ${n(k)}</button>`).join('');
     const chips = `<div class="rchips" role="group" aria-label="Filter by type">${tabs}<button type="button" class="rchip${watchShowDone ? ' on' : ''}" data-act="wshow" aria-pressed="${watchShowDone}">Watched ${doneN}</button></div>`;
     const typeName = k => (WTYPES.find(x => x[0] === k) || [0, 'Other'])[1];
-    const row = t => `<li class="row${t.done ? ' is-done' : ''}" data-id="${t.id}"><button class="chk" data-act="toggle" aria-label="${t.done ? 'Put back on the list' : 'Mark as watched'}">${icon('check')}</button><div class="row-main"><span class="txt" data-act="edit">${esc(t.t)}</span>${t.done ? `<small class="meta">${typeName(t.type).replace(/s$/, '')}${t.doneAt ? ' · watched ' + new Date(t.doneAt).toLocaleDateString([], { month: 'short', day: 'numeric', year: 'numeric' }) : ''}</small>` : ''}</div>${delBtn}</li>`;
+    const row = t => `<li class="row${t.done ? ' is-done' : ''}" data-id="${t.id}"><button class="chk" data-act="toggle" aria-label="${t.done ? 'Put back on the list' : 'Mark as watched'}">${icon('check')}</button><div class="row-main"><span class="txt" data-act="edit">${esc(t.t)}</span>${t.done ? `<small class="meta">${typeName(t.type).replace(/s$/, '')}${t.doneAt ? ' · watched ' + new Date(t.doneAt).toLocaleDateString([], { month: 'short', day: 'numeric', year: 'numeric' }) : ''}</small>` : ''}</div>${tagChip(t, true, ' sm')}${delBtn}</li>`;
     const open = data.watch.filter(x => !x.done && (watchTab === 'all' || x.type === watchTab));
     let html = '';
     if (watchTab === 'all') WTYPES.forEach(([k, l]) => { const g = open.filter(x => x.type === k); if (g.length) html += `<h4 class="grp">${l}</h4><ul class="rows">${g.map(row).join('')}</ul>`; });
@@ -270,6 +283,7 @@ W.watch = {
     return `<div class="wl">${chips}${html}</div>`;
   },
   act: {
+    editTag: tagAct('watch', 'watch'),
     wtab: ({ el }) => { watchTab = el.dataset.k; renderWidget('watch'); },
     wshow: () => { watchShowDone = !watchShowDone; renderWidget('watch'); },
     toggle: ({ id }) => {
@@ -283,14 +297,15 @@ W.watch = {
 
 W.notes = {
   title: 'Notes', icon: 'note', accent: '#8b7cf0',
-  add: { fields: [{ k: 't', ph: 'Jot something down', type: 'textarea', multi: true }], submit(v) { data.notes.unshift({ id: uid(), t: v.t.trim(), created: Date.now() }); touched('notes'); } },
+  add: { fields: [{ k: 't', ph: 'Jot something down', type: 'textarea', multi: true }, TAGF], submit(v) { data.notes.unshift({ id: uid(), t: v.t.trim(), tag: canonTag(v.tag), created: Date.now() }); touched('notes'); } },
   count: () => data.notes.length,
   render() {
     if (!data.notes.length) return empty('No notes yet', 'Tap + to jot something down. Each note is saved with the time.');
     return `<ul class="notes-list" style="padding-top:2px">${[...data.notes].sort((a, b) => b.created - a.created).map(n =>
-      `<li class="note" data-id="${n.id}"><div class="note-txt" data-act="edit" data-raw="${esc(n.t)}">${linkify(n.t)}</div><div class="note-foot"><span>${fmtStamp(n.created)}${n.edited ? ', edited' : ''}</span>${delBtn}</div></li>`).join('')}</ul>`;
+      `<li class="note" data-id="${n.id}"><div class="note-txt" data-act="edit" data-raw="${esc(n.t)}">${linkify(n.t)}</div><div class="note-foot"><span>${fmtStamp(n.created)}${n.edited ? ', edited' : ''}</span>${tagChip(n, true, ' sm')}${delBtn}</div></li>`).join('')}</ul>`;
   },
   act: {
+    editTag: tagAct('notes', 'notes'),
     del: ({ id }) => remove('notes', id, 'notes'),
     edit: ({ el, id }) => inlineEdit(el, { wid: 'notes', multiline: true, onSave: v => { const n = find(data.notes, id); n.t = v; n.edited = Date.now(); touched('notes'); } })
   }
@@ -401,12 +416,6 @@ W.recipes = {
 };
 
 /* ---- event tags: Travel, Important Days, Friends, Family + any you type ---- */
-const TAG_DEFAULTS = [['Travel', '#3b9ae8'], ['Important Days', '#e5677f'], ['Friends', '#e8a23a'], ['Family', '#2fb7a3']];
-const TAG_EXTRA = ['#8b7cf0', '#c25fd0', '#7bb83d', '#e0884b', '#5a9fb0', '#d1648c'];
-const allTags = () => { const m = new Map(); TAG_DEFAULTS.forEach(([n]) => m.set(n.toLowerCase(), n)); data.events.forEach(e => { if (e.tag && !m.has(e.tag.toLowerCase())) m.set(e.tag.toLowerCase(), e.tag); }); return [...m.values()]; };
-const canonTag = t => { t = String(t || '').trim().replace(/\s+/g, ' ').slice(0, 24); if (!t) return ''; return allTags().find(x => x.toLowerCase() === t.toLowerCase()) || t; };
-const tagColor = t => { const k = t.toLowerCase(), d = TAG_DEFAULTS.find(x => x[0].toLowerCase() === k); if (d) return d[1]; let h = 0; for (const c of k) h = (h * 31 + c.charCodeAt(0)) >>> 0; return TAG_EXTRA[h % TAG_EXTRA.length]; };
-const tagChip = (e, editable = true) => e.tag ? `<span class="evtag" style="--tg:${tagColor(e.tag)}"${editable ? ` data-act="editTag" data-raw="${esc(e.tag)}" title="Change tag"` : ''}>${esc(e.tag)}</span>` : (editable ? '<span class="evtag none" data-act="editTag" data-raw="" title="Add a tag">+ Tag</span>' : '');
 let evFilter = 'All';
 W.events = {
   title: 'Upcoming', icon: 'calendar', accent: '#3b9ae8',
@@ -513,18 +522,19 @@ const EVERY = [[1, 'Daily'], [2, 'Every 2 days'], [7, 'Weekly'], [14, 'Every 2 w
 const everyLabel = n => (EVERY.find(e => e[0] === n) || [n, `Every ${n} days`])[1].toLowerCase();
 W.chores = {
   title: 'Chores', icon: 'repeat', accent: '#e9803f',
-  add: { fields: [{ k: 't', ph: 'Add a recurring chore' }, { k: 'every', type: 'select', options: EVERY, val: 7 }], submit(v) { data.chores.push({ id: uid(), t: v.t.trim(), every: +v.every || 7, last: null, created: Date.now() }); touched('chores'); } },
+  add: { fields: [{ k: 't', ph: 'Add a recurring chore' }, { k: 'every', type: 'select', options: EVERY, val: 7 }, TAGF], submit(v) { data.chores.push({ id: uid(), t: v.t.trim(), tag: canonTag(v.tag), every: +v.every || 7, last: null, created: Date.now() }); touched('chores'); } },
   due(c) { return c.last ? Math.round((startOfDay(c.last) - startOfDay(new Date())) / DAY) + c.every : 0; },
   count() { return data.chores.filter(c => this.due(c) <= 0).length; },
   render() {
     if (!data.chores.length) return empty('No chores yet', 'Add things like "water plants" or "change filters" with how often they repeat.');
     return `<ul class="rows">${[...data.chores].sort((a, b) => this.due(a) - this.due(b)).map(c => {
       const d = this.due(c); const pill = d < 0 ? `<span class="pill late">${-d}d overdue</span>` : d === 0 ? `<span class="pill soon">Due today</span>` : `<span class="pill">${d === 1 ? 'Tomorrow' : 'In ' + d + ' days'}</span>`;
-      return `<li class="row" data-id="${c.id}"><div class="row-main"><span class="txt" data-act="edit">${esc(c.t)}</span><small class="meta">${everyLabel(c.every)}</small></div>${pill}<button class="done-btn" data-act="done" aria-label="Mark done">${icon('check')}</button>${delBtn}</li>`;
+      return `<li class="row" data-id="${c.id}"><div class="row-main"><span class="txt" data-act="edit">${esc(c.t)}</span><small class="meta">${everyLabel(c.every)}</small></div>${tagChip(c, true, ' sm')}${pill}<button class="done-btn" data-act="done" aria-label="Mark done">${icon('check')}</button>${delBtn}</li>`;
     }).join('')}</ul>`;
   },
   act: {
     done: ({ id }) => { const c = find(data.chores, id); c.last = Date.now(); touched('chores'); toast(`Done. Next in ${everyLabel(c.every).replace('every ', '')}`); },
+    editTag: tagAct('chores', 'chores'),
     del: ({ id }) => remove('chores', id, 'chores'),
     edit: ({ el, id }) => inlineEdit(el, { wid: 'chores', onSave: v => { find(data.chores, id).t = v; touched('chores'); } })
   }
@@ -534,7 +544,7 @@ const daysInMonth = (y, m) => new Date(y, m + 1, 0).getDate();
 const billDay = b => { const n = new Date(); return Math.min(b.day, daysInMonth(n.getFullYear(), n.getMonth())); };
 W.bills = {
   title: 'Bills', icon: 'dollar', accent: '#2fa56e',
-  add: { fields: [{ k: 't', ph: 'Bill name' }, { k: 'amt', type: 'number', ph: 'Amount', attrs: 'step="0.01" min="0" inputmode="decimal"' }, { k: 'day', type: 'number', ph: 'Day', attrs: 'min="1" max="31" inputmode="numeric" title="Day of the month it is due"' }], submit(v) { data.bills.push({ id: uid(), t: v.t.trim(), amt: Math.max(0, parseFloat(v.amt) || 0), day: clamp(parseInt(v.day) || 1, 1, 31), paid: {}, created: Date.now() }); touched('bills'); } },
+  add: { fields: [{ k: 't', ph: 'Bill name' }, { k: 'amt', type: 'number', ph: 'Amount', attrs: 'step="0.01" min="0" inputmode="decimal"' }, { k: 'day', type: 'number', ph: 'Day', attrs: 'min="1" max="31" inputmode="numeric" title="Day of the month it is due"' }, TAGF], submit(v) { data.bills.push({ id: uid(), t: v.t.trim(), tag: canonTag(v.tag), amt: Math.max(0, parseFloat(v.amt) || 0), day: clamp(parseInt(v.day) || 1, 1, 31), paid: {}, created: Date.now() }); touched('bills'); } },
   unpaid() { const k = monthKey(); return data.bills.filter(b => !b.paid[k]); },
   count() { return this.unpaid().length; },
   render() {
@@ -543,11 +553,12 @@ W.bills = {
     const today = new Date().getDate(); const mon = new Date().toLocaleDateString([], { month: 'short' });
     return `<div class="bill-sum"><b>${money(left)}</b><span>left of ${money(total)} this month</span><div class="bar"><i style="width:${pct}%"></i></div></div><ul class="rows">${[...data.bills].sort((a, b) => billDay(a) - billDay(b)).map(b => {
       const paid = !!b.paid[k], late = !paid && billDay(b) < today;
-      return `<li class="row${paid ? ' is-done' : ''}" data-id="${b.id}"><button class="chk" data-act="pay" aria-label="${paid ? 'Mark unpaid' : 'Mark paid'}">${icon('check')}</button><div class="row-main"><span class="txt" data-act="edit">${esc(b.t)}</span><small class="meta">${late ? '<span style="color:var(--danger)">Past due, ' : '('}${mon} ${billDay(b)}${late ? '</span>' : ')'}</small></div><span class="amt" data-act="editAmt" data-raw="${b.amt}">${money(b.amt)}</span>${delBtn}</li>`;
+      return `<li class="row${paid ? ' is-done' : ''}" data-id="${b.id}"><button class="chk" data-act="pay" aria-label="${paid ? 'Mark unpaid' : 'Mark paid'}">${icon('check')}</button><div class="row-main"><span class="txt" data-act="edit">${esc(b.t)}</span><small class="meta">${late ? '<span style="color:var(--danger)">Past due, ' : '('}${mon} ${billDay(b)}${late ? '</span>' : ')'}</small></div>${tagChip(b, true, ' sm')}<span class="amt" data-act="editAmt" data-raw="${b.amt}">${money(b.amt)}</span>${delBtn}</li>`;
     }).join('')}</ul>`;
   },
   act: {
     pay: ({ id }) => { const b = find(data.bills, id), k = monthKey(); if (b.paid[k]) delete b.paid[k]; else b.paid[k] = Date.now(); touched('bills'); },
+    editTag: tagAct('bills', 'bills'),
     del: ({ id }) => remove('bills', id, 'bills'),
     edit: ({ el, id }) => inlineEdit(el, { wid: 'bills', onSave: v => { find(data.bills, id).t = v; touched('bills'); } }),
     editAmt: ({ el, id }) => inlineEdit(el, { wid: 'bills', type: 'number', onSave: v => { const n = parseFloat(v); if (isFinite(n) && n >= 0) { find(data.bills, id).amt = n; touched('bills'); } else renderWidget('bills'); } })
@@ -556,13 +567,13 @@ W.bills = {
 
 W.links = {
   title: 'Quick links', icon: 'link', accent: '#d46bb0',
-  add: { primary: 'url', fields: [{ k: 'url', ph: 'Web address', attrs: 'inputmode="url" autocapitalize="off"' }, { k: 't', ph: 'Name (optional)' }], submit(v) { const url = cleanUrl(v.url); if (!url) { toast('That web address does not look right'); return false; } data.links.push({ id: uid(), t: v.t.trim() || new URL(url).hostname.replace(/^www\./, ''), url, created: Date.now() }); touched('links'); } },
+  add: { primary: 'url', fields: [{ k: 'url', ph: 'Web address', attrs: 'inputmode="url" autocapitalize="off"' }, { k: 't', ph: 'Name (optional)' }, TAGF], submit(v) { const url = cleanUrl(v.url); if (!url) { toast('That web address does not look right'); return false; } data.links.push({ id: uid(), t: v.t.trim() || new URL(url).hostname.replace(/^www\./, ''), url, tag: canonTag(v.tag), created: Date.now() }); touched('links'); } },
   count: () => data.links.length,
   render() {
     if (!data.links.length) return empty('No links yet', 'Tap + to pin the sites you use most.');
-    return `<div class="chips">${data.links.map(l => `<span class="chip-wrap" data-id="${l.id}"><a class="chip" href="${esc(l.url)}" target="_blank" rel="noopener noreferrer"><span class="chip-ic">${esc(l.t.trim().charAt(0).toUpperCase())}</span>${esc(l.t)}</a>${delBtn}</span>`).join('')}</div>`;
+    return `<div class="chips">${data.links.map(l => `<span class="chip-wrap" data-id="${l.id}"><a class="chip" href="${esc(l.url)}" target="_blank" rel="noopener noreferrer"><span class="chip-ic">${esc(l.t.trim().charAt(0).toUpperCase())}</span>${esc(l.t)}</a>${tagChip(l, true, ' sm')}${delBtn}</span>`).join('')}</div>`;
   },
-  act: { del: ({ id }) => remove('links', id, 'links') }
+  act: { editTag: tagAct('links', 'links'), del: ({ id }) => remove('links', id, 'links') }
 };
 
 /* ---- weather (Open-Meteo, no key) ---- */
@@ -767,7 +778,6 @@ $('#kpiTiles').addEventListener('click', e => { const k = e.target.closest('[dat
 
 /* ================= cards / grid ================= */
 /* ================= news (news.json is rebuilt at 6 AM, 12 PM and 6 PM Pacific by a GitHub Action) ================= */
-const NEWS_COLORS = { 'World': '#3b82c4', 'U.S.': '#d9534f', 'Politics': '#8b5cf6', 'Economy': '#2fa56e', 'Finance': '#0e9f8e', 'Local': '#e8873a', 'Sports': '#e5677f', 'Tech': '#4f6ef0', 'Science': '#17a2b8', 'Health': '#c25fd0', 'Entertainment': '#d6a31c' };
 let news = null, newsState = 'loading', newsView = 'top';
 const newsColor = t => NEWS_COLORS[t] || '#8a8f98';
 const ago = iso => { const m = Math.max(0, Math.round((Date.now() - new Date(iso)) / 60000)); return m < 60 ? (m < 2 ? 'just now' : m + ' min ago') : m < 1440 ? Math.round(m / 60) + ' hr ago' : Math.round(m / 1440) + ' d ago'; };
@@ -788,7 +798,7 @@ async function loadNews() {
     if (!r.ok) throw 0;
     news = await r.json(); newsState = '';
   } catch { if (!news) newsState = 'none'; }
-  renderWidget('news');
+  renderWidget('news'); renderTagBar();
 }
 W.news = {
   title: 'News', icon: 'news', accent: '#5b6bd6',
@@ -811,11 +821,45 @@ W.news = {
     nfav: () => {
       const fav = data.newsFav = data.newsFav || [], i = fav.indexOf(newsView);
       if (i >= 0) fav.splice(i, 1); else fav.push(newsView);
-      save(); renderWidget('news');
+      save(); renderWidget('news'); renderTagBar();
     }
   }
 };
 document.addEventListener('visibilitychange', () => { if (!document.hidden && (!news || Date.now() - new Date(news.generated) > 20 * 60000)) loadNews(); });
+
+/* ================= tag bar: every tag used anywhere, tap one to see everything that has it ================= */
+let activeTag = '';
+function tagMatches(tag) {
+  const k = tag.toLowerCase(), groups = [];
+  Object.entries(TAGGED).forEach(([wid, key]) => {
+    if (isCardHidden(wid)) return;
+    const hits = (data[key] || []).filter(e => e.tag && e.tag.toLowerCase() === k);
+    if (hits.length) groups.push({ wid, title: W[wid].title, items: hits.map(e => ({ t: e.t.length > 90 ? e.t.slice(0, 89) + '…' : e.t, done: !!e.done || (wid === 'bills' && !!(e.paid || {})[monthKey()]), sub: wid === 'events' ? fmtDay(e.date) : '' })) });
+  });
+  if (news && !isCardHidden('news')) {
+    const seen = new Set(), hits = [...(news.top || []), ...Object.values(news.topics || {}).flat()].filter(s => s.topic.toLowerCase() === k && !seen.has(s.id) && seen.add(s.id)).slice(0, 5);
+    if (hits.length) groups.push({ wid: 'news', title: 'News', news: hits });
+  }
+  return groups;
+}
+function renderTagBar() {
+  const el = $('#tagBar'); if (!el) return;
+  const tags = usedTags(); if (activeTag && !tags.some(t => t.toLowerCase() === activeTag.toLowerCase())) activeTag = '';
+  el.hidden = !tags.length; if (!tags.length) { el.innerHTML = ''; return; }
+  const chips = tags.map(t => `<button type="button" class="rchip tgchip${t.toLowerCase() === activeTag.toLowerCase() ? ' on' : ''}" style="--accent:${tagColor(t)}" data-tag="${esc(t)}" aria-pressed="${t.toLowerCase() === activeTag.toLowerCase()}">${esc(t)}</button>`).join('');
+  let res = '';
+  if (activeTag) {
+    const g = tagMatches(activeTag);
+    res = `<div class="tagres" role="region" aria-label="Everything tagged ${esc(activeTag)}">` + (g.length ? g.map(x => `<div class="tg-grp"><button type="button" class="tg-h" data-goto="${x.wid}" style="--accent:${W[x.wid].accent}">${esc(x.title)}</button><ul>` +
+      (x.news ? x.news.map(n => `<li><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.title)}<small> ${esc(n.source)}</small></a></li>`).join('') : x.items.map(i => `<li class="${i.done ? 'is-done' : ''}"><button type="button" data-goto="${x.wid}">${esc(i.t)}${i.sub ? `<small> ${esc(i.sub)}</small>` : ''}</button></li>`).join('')) + '</ul></div>').join('') : '<p class="muted">Nothing is tagged this right now.</p>') + '</div>';
+  }
+  el.innerHTML = `<div class="rchips tg-row" role="group" aria-label="Filter everything by tag"><span class="tg-lbl">Tags</span>${chips}</div>${res}`;
+}
+$('#tagBar').addEventListener('click', e => {
+  const g = e.target.closest('[data-goto]'); if (g) { goto(g.dataset.goto); return; }
+  const c = e.target.closest('[data-tag]'); if (!c) return;
+  activeTag = activeTag.toLowerCase() === c.dataset.tag.toLowerCase() ? '' : c.dataset.tag; renderTagBar();
+});
 
 const grid = $('#grid'), cards = {}, searchQ = {};
 let editing = false;
@@ -920,7 +964,7 @@ document.addEventListener('touchmove', e => { if (lp && lp.active && e.cancelabl
 document.addEventListener('contextmenu', e => { if (lp && e.target.closest('.pinnable')) e.preventDefault(); });
 document.addEventListener('click', e => { if (justDragged) { e.stopPropagation(); e.preventDefault(); } }, true);
 
-function touched(...ids) { save(); if (ids.includes('events') && !ids.includes('calendar')) ids.push('calendar'); ids.forEach(renderWidget); renderKpis(); fillDatalist(); }
+function touched(...ids) { save(); if (ids.includes('events') && !ids.includes('calendar')) ids.push('calendar'); ids.forEach(renderWidget); renderKpis(); fillDatalist(); renderTagBar(); }
 function fillDatalist() { const et = $('#eventTags'); if (et) et.innerHTML = allTags().map(t => `<option value="${esc(t)}">`).join(''); $('#recipeTitles').innerHTML = allRecipes().map(r => `<option value="${esc(r.title)}">`).join(''); }
 
 /* ---- quick-add rows inside cards ---- */
@@ -981,7 +1025,7 @@ function buildGrid() {
   L.order.forEach(id => { const c = makeCard(id); cards[id] = c; applySize(c, L.items[id]); grid.appendChild(c); renderWidget(id); });
   renderTray();
 }
-function renderAll() { renderHeader(); buildGrid(); renderKpis(); fillDatalist(); loadWeather(); }
+function renderAll() { renderHeader(); buildGrid(); renderKpis(); fillDatalist(); renderTagBar(); loadWeather(); }
 
 function renderHeader() {
   const h = new Date().getHours(), g = h < 12 ? 'Good morning' : h < 18 ? 'Good afternoon' : 'Good evening';

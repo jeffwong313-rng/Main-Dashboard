@@ -40,3 +40,7 @@ Settings → **Layout for everyone** → *Copy layout code*. Send that code to C
 ## Fluid layout
 
 The grid follows the real window width: the column count steps with the width (2/4 on phones, 6/8 on tablets, 12 on desktop) and every card keeps its share of the row, so cards wrap to the next row as the window narrows. There is no desktop/mobile toggle.
+
+## Tags
+
+Every list card (To-Do, Shopping, Notes, Upcoming, Watch list, Chores, Bills, Quick links) has an optional **Tag** box in its add row (pick an existing tag or type a new one) and a small tag chip on each item that you can tap to change. The **Tags** bar under the forecast lists every tag in use (plus any news topic you favorited); tap one to see all matching items across the dashboard and matching news headlines.
