@@ -743,7 +743,7 @@ async function loadDublin(force) {
 }
 $('#dubWx').addEventListener('click', e => { if (e.target.closest('[data-dubrefresh]')) loadDublin(true); });
 document.addEventListener('visibilitychange', () => { if (!document.hidden) loadDublin(); });
-$('#kpis').addEventListener('click', e => { const k = e.target.closest('[data-goto]'); if (k) goto(k.dataset.goto); });
+$('#kpiTiles').addEventListener('click', e => { const k = e.target.closest('[data-goto]'); if (k) goto(k.dataset.goto); });
 
 /* ================= cards / grid ================= */
 const grid = $('#grid'), cards = {}, searchQ = {};
@@ -901,7 +901,7 @@ function renderAll() { renderHeader(); buildGrid(); renderKpis(); fillDatalist()
 function renderHeader() {
   const h = new Date().getHours(), g = h < 12 ? 'Good morning' : h < 18 ? 'Good afternoon' : 'Good evening';
   $('#hello').textContent = data.settings.name ? `${g}, ${data.settings.name}` : g;
-  $('#today').textContent = new Date().toLocaleDateString([], { weekday: 'long', month: 'long', day: 'numeric' });
+  $('#today').textContent = new Date().toLocaleDateString([], { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
 }
 
 /* ================= customize mode ================= */
@@ -923,7 +923,7 @@ function setCardHidden(id, hide) {
   });
   save(); buildGrid(); renderKpis(); if (editing) renderTray();
 }
-function applyTop() { $('#kpis').hidden = !!data.settings.hideTop; }
+function applyTop() { $('#kpis').hidden = $('#kpiTiles').hidden = !!data.settings.hideTop; }
 function hideWidget(id) { const L = layout(); L.hidden.push(id); L.order = L.order.filter(x => x !== id); save(); cards[id].remove(); delete cards[id]; renderTray(); }
 $('#hiddenChips').addEventListener('click', e => {
   const b = e.target.closest('[data-show]'); if (!b) return; const L = layout(), id = b.dataset.show;

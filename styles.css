@@ -465,3 +465,17 @@ body.editing .pin-btn, body.editing .grab-hand { display: none; }
 .swrow input[type=checkbox]:checked { background: #2fb7a3; }
 .swrow input[type=checkbox]:checked::after { transform: translateX(18px); }
 .kpis[hidden] { display: none; }
+
+/* header: tiles sit between the greeting and the buttons; the forecast bar spans the full width */
+.top { margin-bottom: 10px; }
+.top .kpi-tiles { display: flex; gap: 8px; margin-left: 10px; flex: none; }
+.top .kpi-tiles[hidden] { display: none; }
+.top .kpi { grid-column: auto; width: 190px; min-height: 46px; }
+.kpis { display: block; margin-bottom: var(--gap); }
+.kpi-wx { grid-column: auto; grid-row: auto; width: 100%; }
+@media (max-width: 699px) {
+  .top { flex-wrap: wrap; row-gap: 8px; }
+  .top .kpi-tiles { order: 5; flex: 1 0 100%; margin: 0; display: grid; grid-template-columns: 1fr 1.4fr; gap: 8px; }
+  .top .kpi-tiles[hidden] { display: none; }
+  .top .kpi { width: auto; }
+}

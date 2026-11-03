@@ -13,7 +13,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Home">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<link rel="stylesheet" href="styles.css?v=202611031040">
+<link rel="stylesheet" href="styles.css?v=202611031041">
 <script>try{window.__H="554fb7a9769ca86be00f647b735d8cffb94cfe131ed6f8cbda3cc71874f9f66b";if(localStorage.getItem("hd.v1.auth")!==window.__H)document.documentElement.classList.add("locked")}catch(e){document.documentElement.classList.add("locked")}</script>
 </head>
 <body>
@@ -33,6 +33,7 @@
       <h1 id="hello">Hello</h1>
       <p id="today"></p>
     </div>
+    <div class="kpi-tiles" id="kpiTiles" aria-label="Summary"></div>
     <span class="spacer"></span>
     <div class="tools-r">
       <button class="round" id="btnTheme" aria-label="Switch light or dark theme" data-icon="moon"></button>
@@ -41,7 +42,7 @@
     </div>
   </header>
 
-  <section class="kpis" id="kpis" aria-label="Summary"><div class="kpi-tiles" id="kpiTiles"></div><section class="kpi-wx" id="dubWx" aria-label="Dublin, CA weather forecast"></section></section>
+  <section class="kpis" id="kpis" aria-label="Weather"><section class="kpi-wx" id="dubWx" aria-label="Dublin, CA weather forecast"></section></section>
 
   <div class="edit-tray" id="editTray" hidden>
     <div class="msg">Drag a card by its title to move it. Drag the corner to resize. Tap × to hide a card.</div>
@@ -57,6 +58,6 @@
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <dialog id="sheet" class="sheet"></dialog>
 <datalist id="recipeTitles"></datalist>
-<script src="app.js?v=202611031040"></script>
+<script src="app.js?v=202611031041"></script>
 </body>
 </html>
