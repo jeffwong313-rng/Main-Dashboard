@@ -36,3 +36,7 @@ A GitHub Action (`.github/workflows/news.yml`, script `scripts/fetch_news.py`) r
 ## Default layout for everyone
 
 Settings → **Layout for everyone** → *Copy layout code*. Send that code to Claude, who saves it as `layout.default.json`. Devices that have not customized their layout (and new installs) start from it; *Use the shared layout here* resets a device to it.
+
+## Fluid layout
+
+The grid follows the real window width: the column count steps with the width (2/4 on phones, 6/8 on tablets, 12 on desktop) and every card keeps its share of the row, so cards wrap to the next row as the window narrows. There is no desktop/mobile toggle.

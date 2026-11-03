@@ -961,8 +961,22 @@ function openAdd(id) {
 }
 function closeAdd(id) { const card = cards[id]; if (!card) return; const slot = $('.addslot', card), btn = $('[data-add]', card); if (slot.firstChild) slot.firstChild.hidden = true; if (btn) btn.setAttribute('aria-expanded', 'false'); }
 
-function applySize(card, it) { card.style.gridColumn = `span ${it.c}`; card.style.gridRow = `span ${it.r}`; }
+/* Fluid grid: the column count follows the actual width (not just 3 fixed sizes) and each card keeps its share of the row. */
+let gridN = 0;
+function colsFor() {
+  const w = grid.clientWidth || window.innerWidth, b = bp();
+  return b === 'mobile' ? (w < 520 ? 2 : 4) : b === 'tablet' ? (w < 880 ? 6 : 8) : (w < 1500 ? 12 : 16);
+}
+const spanFor = c => { const b = bp(); return clamp(Math.round(c * gridN / COLS[b]), 1, gridN); };
+function applySize(card, it) { card.style.gridColumn = `span ${spanFor(it.c)}`; card.style.gridRow = `span ${it.r}`; }
+function fitGrid() {
+  const n = colsFor(); if (n === gridN) return;
+  gridN = n; grid.style.setProperty('--n', n);
+  const L = layout(); Object.keys(cards).forEach(id => { if (L.items[id]) applySize(cards[id], L.items[id]); });
+}
+new ResizeObserver(fitGrid).observe(grid);
 function buildGrid() {
+  if (!gridN) { gridN = colsFor(); grid.style.setProperty('--n', gridN); }
   const L = layout(); grid.innerHTML = ''; Object.keys(cards).forEach(k => delete cards[k]);
   L.order.forEach(id => { const c = makeCard(id); cards[id] = c; applySize(c, L.items[id]); grid.appendChild(c); renderWidget(id); });
   renderTray();
@@ -1018,11 +1032,11 @@ grid.addEventListener('pointerdown', e => {
 function startResize(e, card) {
   e.preventDefault(); const id = card.dataset.id, L = layout(), it = L.items[id], b = bp(), cols = COLS[b];
   const cs = getComputedStyle(grid), gap = parseFloat(cs.columnGap) || 14, rowH = parseFloat(cs.gridAutoRows) || 32, rowGap = parseFloat(cs.rowGap) || 14;
-  const colW = (grid.clientWidth - gap * (cols - 1)) / cols, sx = e.clientX, sy = e.clientY, sc = it.c, sr = it.r, t = e.target;
+  const step = (grid.clientWidth + gap) / cols, sx = e.clientX, sy = e.clientY, sc = it.c, sr = it.r, t = e.target;
   card.classList.add('resizing'); t.setPointerCapture(e.pointerId);
   const move = ev => {
     edgeScroll(ev.clientY);
-    const c = clamp(Math.round(sc + (ev.clientX - sx) / (colW + gap)), MINC[b], cols), r = clamp(Math.round(sr + (ev.clientY - sy) / (rowH + rowGap)), MINR, 40);
+    const c = clamp(Math.round(sc + (ev.clientX - sx) / step), MINC[b], cols), r = clamp(Math.round(sr + (ev.clientY - sy) / (rowH + rowGap)), MINR, 40);
     if (c !== it.c || r !== it.r) { it.c = c; it.r = r; applySize(card, it); }
   };
   const up = () => { t.removeEventListener('pointermove', move); t.removeEventListener('pointerup', up); t.removeEventListener('pointercancel', up); card.classList.remove('resizing'); stopEdgeScroll(); save(); };
@@ -1045,7 +1059,7 @@ function startDrag(e, card) {
   };
   hd.addEventListener('pointermove', move); hd.addEventListener('pointerup', up); hd.addEventListener('pointercancel', up);
 }
-const onBp = () => { buildGrid(); renderKpis(); };
+const onBp = () => { gridN = 0; buildGrid(); fitGrid(); renderKpis(); };
 mqMobile.addEventListener('change', onBp); mqTablet.addEventListener('change', onBp);
 
 /* ================= quick add (floating +) ================= */
