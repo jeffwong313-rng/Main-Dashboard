@@ -539,3 +539,46 @@ body.editing .pin-btn, body.editing .grab-hand { display: none; }
 .addrow .fl span { font-size: 10.5px; font-weight: 650; color: var(--muted); padding-left: 4px; }
 .row-main .meta[data-act="editEnd"] { cursor: pointer; }
 .addrow:has(.fl) { align-items: flex-end; }
+
+/* ---- full-screen calendar ---- */
+dialog.sheet.cal-full[open] { align-items: stretch; padding: 0; }
+dialog.sheet.cal-full .sheet-card { width: 100vw; max-width: none; height: 100dvh; max-height: none; border-radius: 0; padding-bottom: env(safe-area-inset-bottom); }
+dialog.sheet.cal-full .sheet-body { padding: 4px max(14px, env(safe-area-inset-left)) 24px; flex: 1; }
+.cbar-top { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+.cbar-top h3 { margin: 0; font-size: 22px; font-weight: 700; min-width: 190px; text-align: center; }
+.clegend { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+.clg { display: inline-flex; align-items: center; gap: 6px; padding: 4px 11px 4px 8px; border-radius: 999px; font-size: 12.5px; font-weight: 650; background: var(--field); color: var(--text); border: 1px solid color-mix(in srgb, var(--c) 50%, transparent); }
+.clg i { width: 10px; height: 10px; border-radius: 3px; background: var(--c); }
+.clg.off { opacity: .45; text-decoration: line-through; }
+.cdow { display: grid; grid-template-columns: repeat(7, 1fr); font-size: 12px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; padding: 0 2px 4px; }
+.cdow span { padding-left: 8px; }
+.cgrid { border: 1px solid var(--line2, var(--line)); border-radius: 14px; overflow: hidden; background: var(--surface); }
+.cwk { display: grid; border-top: 1px solid var(--line2, var(--line)); }
+.cwk:first-child { border-top: 0; }
+.cdays, .cbars { grid-area: 1 / 1; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); }
+.cdays { min-height: calc(34px + var(--lanes) * 24px + 8px); min-height: max(96px, calc(34px + var(--lanes) * 24px + 8px)); }
+.ccell { text-align: left; vertical-align: top; padding: 6px 8px; border-left: 1px solid var(--line2, var(--line)); font-size: 13px; font-weight: 650; color: var(--text); display: flex; align-items: flex-start; justify-content: flex-start; }
+.ccell:first-child { border-left: 0; }
+.ccell.out { background: color-mix(in srgb, var(--muted) 8%, transparent); color: var(--muted); }
+.ccell.sel { box-shadow: inset 0 0 0 2px var(--accent); }
+.ccell.today span { display: inline-block; min-width: 24px; text-align: center; padding: 1px 5px; border-radius: 999px; background: var(--accent); color: #0b141b; }
+.cbars { padding-top: 34px; grid-auto-rows: 22px; row-gap: 2px; pointer-events: none; align-content: start; }
+.cbar { pointer-events: auto; text-align: left; margin: 0 3px; padding: 0 7px; height: 22px; line-height: 22px; font-size: 12px; font-weight: 650; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text); background: color-mix(in srgb, var(--c) 26%, var(--surface)); border-left: 4px solid var(--c); border-radius: 6px; }
+.cbar i { font-style: normal; font-weight: 500; opacity: .75; }
+.cbar.cl { margin-left: 0; border-radius: 0 6px 6px 0; border-left-width: 0; }
+.cbar.cr { margin-right: 0; border-radius: 6px 0 0 6px; }
+.cbar.cl.cr { border-radius: 0; }
+.cday { margin-top: 16px; }
+.cday h4 { margin: 0 0 6px; font-size: 16px; }
+.clist { list-style: none; margin: 0 0 10px; padding: 0; }
+.crow { display: flex; align-items: center; gap: 10px; padding: 7px 0; border-top: 1px solid var(--line); }
+.crow > i { width: 6px; align-self: stretch; border-radius: 3px; background: var(--c); flex: none; }
+.crow > div { flex: 1; min-width: 0; display: grid; }
+.crow small { color: var(--muted); font-size: 12px; }
+@media (max-width: 699px) {
+  .cbar-top h3 { min-width: 0; flex: 1; font-size: 18px; }
+  .cbar { font-size: 11px; padding: 0 4px; }
+  .ccell { padding: 4px 4px; font-size: 12px; }
+  .cdow span { padding-left: 4px; font-size: 10px; }
+}
+.card[data-id="calendar"] .card-h h3 { cursor: pointer; }

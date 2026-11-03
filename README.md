@@ -56,3 +56,7 @@ Card colors come from an 11-color palette and are recomputed whenever cards move
 ## Date ranges in Upcoming
 
 Events have an optional **To** date (for trips and other multi-day plans). A range shows as "Nov 10 to Nov 16 · 7 days", stays in Upcoming and Next up until it ends, and appears on every day it covers in the Calendar. Tap the date text on an event to set, change or clear its end date.
+
+## Full-screen calendar
+
+Tap the Calendar card's title (or its expand icon) to open a full-screen, Outlook-style month: multi-day events are drawn as bars across the days they cover, colored by tag, with a legend (Travel, Important Days, Friends, Family, any tags you add, Other, Holidays). Tap a legend item to hide or show that group, tap a day to see and add events for it.
