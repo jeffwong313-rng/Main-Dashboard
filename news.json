@@ -1,407 +1,328 @@
 {
- "generated": "2026-11-04T20:23:31+00:00",
- "generatedLocal": "2026-11-04 12:23",
+ "generated": "2026-11-05T20:37:27+00:00",
+ "generatedLocal": "2026-11-05 12:37",
  "top": [
   {
-   "id": "herbert-blomstedt-conductor-of-great-orchestras-for-seven-de",
-   "title": "Herbert Blomstedt, conductor of great orchestras for seven decades, dies at 99",
-   "link": "https://www.npr.org/2026/11/04/nx-s1-5740271/herbert-blomstedt-conductor-dead",
-   "source": "NPR",
-   "topic": "U.S.",
-   "summary": "Modest in his demeanor but remarkably enduring, the American-born, Swedish conductor continually fell in love with music, leading orchestras with no-nonsense insight and integrity well…",
-   "published": "2026-11-04T20:11:14+00:00",
-   "outlets": 1,
-   "score": 1.287
-  },
-  {
-   "id": "trump-touts-white-house-ballroom-after-gop-midterm-losses",
-   "title": "Trump touts White House ballroom after GOP midterm losses",
-   "link": "https://www.cbsnews.com/news/trump-2026-midterms-republicans-white-house-ballroom/",
+   "id": "trump-s-lawyers-argue-appeal-in-hush-money-case",
+   "title": "Trump's lawyers argue appeal in \"hush money\" case",
+   "link": "https://www.cbsnews.com/news/trump-hush-money-conviction-appeal/",
    "source": "CBS News",
    "topic": "Politics",
-   "summary": "After the GOP's losses in the midterms, President Trump hosted a celebratory event in the unfinished ballroom that stood in stark contrast with his new political reality in Washington.",
-   "published": "2026-11-04T20:16:34+00:00",
+   "summary": "President Trump was convicted in 2024 of 34 felonies tied to a 2016 \"hush money\" payment to adult film star Stormy Daniels.",
+   "published": "2026-11-05T20:35:19+00:00",
    "outlets": 1,
-   "score": 1.193
+   "score": 1.198
   },
   {
-   "id": "trump-s-loss-limits-powers-at-home-but-it-will-likely-be-dif",
-   "title": "Trump's loss limits powers at home, but it will likely be different abroad",
-   "link": "https://www.bbc.co.uk/news/articles/crkg7wj8g201o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC US & Canada",
-   "topic": "U.S.",
-   "summary": "After bruising midterm results, President Trump will want to show he can still shake the world, the BBC's international editor writes.",
-   "published": "2026-11-04T18:35:07+00:00",
-   "outlets": 1,
-   "score": 1.188
-  },
-  {
-   "id": "british-healthcare-worker-with-ebola-evacuated-from-dr-congo",
-   "title": "British healthcare worker with Ebola evacuated from DR Congo to UK",
-   "link": "https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows",
-   "source": "The Guardian",
-   "topic": "Health",
-   "summary": "Patient is ⁠in ​stable condition and will be transferred to a specialist ‘high consequence’ infectious disease unit A British healthcare worker with Ebola is being evacuated from the…",
-   "published": "2026-11-04T18:18:37+00:00",
-   "outlets": 1,
-   "score": 0.991
-  },
-  {
-   "id": "jacoby-brissett-trade-ravens-strike-deal-for-cardinals-qb-am",
-   "title": "Jacoby Brissett trade: Ravens strike deal for Cardinals QB amid injury crisis",
-   "link": "https://www.cbssports.com/nfl/news/jacoby-brissett-trade-ravens-cardinals-lamar-jackson/",
-   "source": "CBS Sports",
-   "topic": "Sports",
-   "summary": "Baltimore is expected to acquire the veteran quarterback from Arizona after injuries to Lamar Jackson, Tyler Huntley and Joe Fagnano decimated its depth chart",
-   "published": "2026-11-04T20:00:52+00:00",
-   "outlets": 1,
-   "score": 0.981
-  },
-  {
-   "id": "variety-s-10-comics-to-watch-for-2026",
-   "title": "Variety’s 10 Comics to Watch for 2026",
-   "link": "https://variety.com/lists/variety-10-comics-to-watch-2026/",
-   "source": "Variety",
-   "topic": "Entertainment",
-   "summary": "Since the turn of the century, Variety has scoped out the next generation of comedy stars through our annual 10 Comics to Watch franchise. The inaugural lineup in 2000 included future…",
-   "published": "2026-11-04T20:00:00+00:00",
-   "outlets": 1,
-   "score": 0.981
-  },
-  {
-   "id": "jackie-elward-declares-victory-in-north-bay-assembly-race-ta",
-   "title": "Jackie Elward Declares Victory in North Bay Assembly Race Targeted by Silicon Valley",
-   "link": "https://ww2.kqed.org/news/2026/11/04/jackie-elward-declares-victory-in-north-bay-assembly-race-targeted-by-silicon-valley/",
-   "source": "KQED",
-   "topic": "Local",
-   "summary": "Tech-funded super PACs spent millions in the race for Assembly District 12, but analysts say the deluge of outside spending backfired.",
-   "published": "2026-11-04T19:32:13+00:00",
-   "outlets": 1,
-   "score": 0.958
-  },
-  {
-   "id": "an-island-in-mourning-tenerife-processes-death-of-de-miguel",
-   "title": "An island in mourning: Tenerife processes death of De Miguel",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckx2qz97gz3no?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "topic": "Sports",
-   "summary": "Tenerife football club and the wider football community mourn the loss of footballer Jesus de Miguel following an on-field collision.",
-   "published": "2026-11-04T18:51:21+00:00",
-   "outlets": 1,
-   "score": 0.926
-  },
-  {
-   "id": "nothing-teases-a-screen-free-ai-device-ahead-of-launch-next",
-   "title": "Nothing teases a screen-free AI device ahead of launch next month",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
-   "source": "The Verge",
-   "topic": "Tech",
-   "summary": "Nothing CEO Carl Pei said in a post on X that the company's launching its first AI device in December. That's just a little over a year after Pei announced plans for \"AI-native\" devices…",
-   "published": "2026-11-04T18:51:06+00:00",
-   "outlets": 1,
-   "score": 0.926
-  },
-  {
-   "id": "chuck-schumer-heralds-democrats-generational-remake-of-senat",
-   "title": "Chuck Schumer heralds Democrats' 'generational remake' of Senate",
-   "link": "https://www.npr.org/2026/11/04/g-s1-151833/2026-midterms-chuck-schumer-senate-democrats",
-   "source": "NPR National",
-   "topic": "U.S.",
-   "summary": "In remarks the day after his party flipped control of Congress, the Senate Minority Leader said voters had spoken clearly about their priorities, and said it's up to the Democratic party…",
-   "published": "2026-11-04T18:37:34+00:00",
-   "outlets": 1,
-   "score": 0.915
-  },
-  {
-   "id": "people-say-they-want-small-smartphones-the-enough-phone-will",
-   "title": "People say they want small smartphones—the Enough Phone will put that to the test",
-   "link": "https://arstechnica.com/gadgets/2026/11/people-say-they-want-small-smartphones-the-enough-phone-will-put-that-to-the-test/",
-   "source": "Ars Technica",
-   "topic": "Tech",
-   "summary": "It won't win the specs race, but it will actually fit in your hand.",
-   "published": "2026-11-04T18:00:40+00:00",
-   "outlets": 1,
-   "score": 0.888
-  },
-  {
-   "id": "10-year-treasury-yield-slides-as-traders-mull-over-democrats",
-   "title": "10-year Treasury yield slides as traders mull over Democrats' midterm victories, oil prices drop",
-   "link": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
-   "source": "CNBC Finance",
-   "topic": "Finance",
-   "summary": "Treasury yields were last little changed Wednesday as investors weighed big wins from Democrats in the U.S. midterm elections.",
-   "published": "2026-11-04T17:11:00+00:00",
-   "outlets": 1,
-   "score": 0.852
-  },
-  {
-   "id": "midterm-fallout-begins-after-democrats-win-control-of-congre",
-   "title": "Midterm fallout begins after Democrats win control of Congress",
-   "link": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
-   "source": "CBS News",
-   "topic": "Politics",
-   "summary": "The impact of Democrats' sweeping victories in the 2026 midterm elections is already being felt in Washington. Follow live updates here.",
-   "published": "2026-11-04T20:10:24+00:00",
-   "outlets": 1,
-   "score": 0.819
-  },
-  {
-   "id": "elon-musk-s-millions-fail-to-deliver-texas-for-the-republica",
-   "title": "Elon Musk's millions fail to deliver Texas for the Republicans in fierce midterms",
-   "link": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Business",
-   "topic": "Economy",
-   "summary": "The billionaire's political action committee (Pac) contributed $47m (£35m) to Ken Paxton's campaign.",
-   "published": "2026-11-04T15:51:37+00:00",
-   "outlets": 1,
-   "score": 0.797
-  },
-  {
-   "id": "abdul-el-sayed-welcomes-trump-s-plan-to-cut-israel-aid-calls",
-   "title": "Abdul El-Sayed welcomes Trump's plan to cut Israel aid, calls for end to arms sales",
-   "link": "https://www.npr.org/2026/11/04/nx-s1-6028702/abdul-el-sayed-michigan-senate-israel-aid",
+   "id": "paraguay-s-president-is-impeached-minutes-after-resigning-fo",
+   "title": "Paraguay's president is impeached minutes after resigning following a bank collapse",
+   "link": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse",
    "source": "NPR World",
    "topic": "World",
-   "summary": "Michigan's first Muslim senator-elect, Abdul El-Sayed, discusses his historic victory, an unlikely agreement with Trump on Israel military aid and the political divisions that remain.",
-   "published": "2026-11-04T13:38:09+00:00",
+   "summary": "Paraguayan lawmakers voted to impeach President Santiago Peña minutes after his resignation, as the collapse of a digital bank tied to his government froze millions of people's savings.",
+   "published": "2026-11-05T18:30:16+00:00",
+   "outlets": 1,
+   "score": 1.169
+  },
+  {
+   "id": "russell-brand-found-guilty-of-rape-and-sexual-assault",
+   "title": "Russell Brand found guilty of rape and sexual assault",
+   "link": "https://www.bbc.co.uk/news/articles/ckyvrze96y70o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Entertainment",
+   "topic": "Entertainment",
+   "summary": "Brand is told to expect a prison sentence \"of some length\" and faces more rape allegations, it can now be reported.",
+   "published": "2026-11-05T18:28:35+00:00",
+   "outlets": 1,
+   "score": 1.168
+  },
+  {
+   "id": "nithya-raman-wins-l-a-mayor-s-race-as-karen-bass-concedes",
+   "title": "Nithya Raman Wins L.A. Mayor’s Race as Karen Bass Concedes",
+   "link": "https://variety.com/2026/politics/news/nithya-raman-wins-los-angeles-mayor-1236939950/",
+   "source": "Variety",
+   "topic": "Entertainment",
+   "summary": "Nithya Raman will be the next mayor of Los Angeles, as incumbent Karen Bass conceded defeat after a hard-fought campaign. In a video, Raman thanked Bass for her service and vowed to…",
+   "published": "2026-11-05T20:27:43+00:00",
+   "outlets": 2,
+   "score": 1.163
+  },
+  {
+   "id": "california-governor-commutes-death-sentences-for-all-548-peo",
+   "title": "California governor commutes death sentences for all 548 people on death row",
+   "link": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC US & Canada",
+   "topic": "U.S.",
+   "summary": "California has historically had the largest population of death row inmates in the US.",
+   "published": "2026-11-05T20:28:38+00:00",
+   "outlets": 2,
+   "score": 1.046
+  },
+  {
+   "id": "10-college-football-players-who-have-increased-their-nil-val",
+   "title": "10 college football players who have increased their NIL value so far in 2026",
+   "link": "https://www.cbssports.com/college-football/news/10-college-football-players-increased-nil-value-2026/",
+   "source": "CBS Sports",
+   "topic": "Sports",
+   "summary": "These breakout players have earned a big payday increase at the end of the season",
+   "published": "2026-11-05T20:29:55+00:00",
+   "outlets": 1,
+   "score": 0.994
+  },
+  {
+   "id": "top-democrats-call-to-rein-in-ai-buildout-after-midterms-swe",
+   "title": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
+   "link": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html",
+   "source": "CNBC Finance",
+   "topic": "Finance",
+   "summary": "Democratic winners and progressive lawmakers are calling for tougher limits on AI and data centers after the 2026 midterm elections.",
+   "published": "2026-11-05T20:17:16+00:00",
+   "outlets": 1,
+   "score": 0.983
+  },
+  {
+   "id": "hbo-s-the-gilded-age-season-4-ratings-most-watched-premiere",
+   "title": "HBO’s ‘The Gilded Age’ Season 4 Ratings: Most-Watched Premiere Yet",
+   "link": "https://variety.com/2026/tv/news/the-gilded-age-season-4-ratings-season-premiere-hbo-1236940637/",
+   "source": "Variety",
+   "topic": "Entertainment",
+   "summary": "Things are still looking gilded for HBO’s “The Gilded Age.” The series returned on Nov. 1 to its most-watched season premiere yet, averaging nearly 4 million viewers across platforms…",
+   "published": "2026-11-05T20:05:46+00:00",
+   "outlets": 1,
+   "score": 0.974
+  },
+  {
+   "id": "el-cerrito-high-school-football-team-coach-suspended-amid-cr",
+   "title": "El Cerrito High School Football Team, Coach Suspended Amid Criminal Hazing Investigation",
+   "link": "https://ww2.kqed.org/news/2026/11/05/el-cerrito-high-school-football-team-coach-suspended-amid-criminal-hazing-investigation/",
+   "source": "KQED",
+   "topic": "Local",
+   "summary": "The El Cerrito Police Department said 22 student-athletes could face arrest.",
+   "published": "2026-11-05T19:56:36+00:00",
+   "outlets": 1,
+   "score": 0.967
+  },
+  {
+   "id": "samsung-s-galaxy-z-fold-8-is-300-off-ahead-of-black-friday",
+   "title": "Samsung’s Galaxy Z Fold 8 is $300 off ahead of Black Friday",
+   "link": "https://www.theverge.com/gadgets/1027659/samsung-galaxy-z-fold-8-beats-pill-deal-sale",
+   "source": "The Verge",
+   "topic": "Tech",
+   "summary": "Android fans with a bit of iPhone Duo envy, take note: The Samsung Galaxy Z Fold 8 is discounted to $1,599.99 at both Amazon and Best Buy, a hefty $300 markdown from its usual price, and…",
+   "published": "2026-11-05T19:27:06+00:00",
+   "outlets": 1,
+   "score": 0.943
+  },
+  {
+   "id": "cnbc-s-experts-on-whether-the-ai-trade-is-ending-and-what-in",
+   "title": "CNBC's experts on whether the AI trade is ending and what investors should do next",
+   "link": "https://www.cnbc.com/2026/11/05/cnbcs-experts-on-whether-the-ai-trade-is-ending-and-what-investors-should-do-next.html",
+   "source": "CNBC Investing",
+   "topic": "Finance",
+   "summary": "The big Democratic win on Tuesday is changing the technology investment math.",
+   "published": "2026-11-05T19:19:31+00:00",
+   "outlets": 1,
+   "score": 0.937
+  },
+  {
+   "id": "boebert-billionaires-tax-and-other-midterms-races-still-to-w",
+   "title": "Boebert, billionaires' tax and other midterms races still to watch",
+   "link": "https://www.bbc.co.uk/news/articles/c6vg0y2nr445o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC US & Canada",
+   "topic": "U.S.",
+   "summary": "Democrats have taken control of the House and Senate, and are eyeing some more with several key races still too close to call.",
+   "published": "2026-11-05T19:02:17+00:00",
+   "outlets": 1,
+   "score": 0.924
+  },
+  {
+   "id": "is-maha-dying-or-will-it-be-reborn-what-s-next-after-crushin",
+   "title": "Is MAHA dying—or will it be reborn? What's next after crushing midterm losses?",
+   "link": "https://arstechnica.com/health/2026/11/is-maha-dying-or-will-it-be-reborn-whats-next-after-crushing-midterm-losses/",
+   "source": "Ars Technica",
+   "topic": "Tech",
+   "summary": "RFK Jr.'s Make America Healthy Again movement was in trouble before voting began.",
+   "published": "2026-11-05T18:49:41+00:00",
+   "outlets": 1,
+   "score": 0.914
+  },
+  {
+   "id": "head-of-justice-department-office-on-civil-rights-resigns",
+   "title": "Head of Justice Department office on Civil Rights resigns",
+   "link": "https://www.npr.org/2026/11/05/g-s1-152080/head-of-justice-department-office-on-civil-rights-resigns",
+   "source": "NPR National",
+   "topic": "U.S.",
+   "summary": "The head of the Justice Department's Civil Rights Division, Harmeet Dhillon, is out after 18 tumultuous months in charge.",
+   "published": "2026-11-05T18:01:57+00:00",
+   "outlets": 1,
+   "score": 0.878
+  },
+  {
+   "id": "hoax-bomb-threats-target-european-airlines-and-airports-for",
+   "title": "Hoax bomb threats target European airlines and airports for second time in a week",
+   "link": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "topic": "World",
+   "summary": "At least 21 flights across Europe are affected in what the UK government calls a \"malicious hoax threat\".",
+   "published": "2026-11-05T17:39:48+00:00",
+   "outlets": 1,
+   "score": 0.862
+  },
+  {
+   "id": "interest-rates-hiked-to-4-in-first-increase-in-over-three-ye",
+   "title": "Interest rates hiked to 4% in first increase in over three years",
+   "link": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Business",
+   "topic": "Economy",
+   "summary": "Most analysts expected the increase from 3.75% to 4%.",
+   "published": "2026-11-05T17:09:55+00:00",
+   "outlets": 1,
+   "score": 0.841
+  },
+  {
+   "id": "harmeet-dhillon-doj-s-controversial-civil-rights-chief-resig",
+   "title": "Harmeet Dhillon, DOJ's controversial civil rights chief, resigns",
+   "link": "https://www.cbsnews.com/news/harmeet-dhillon-resigns-doj-civil-rights-division/",
+   "source": "CBS News",
+   "topic": "U.S.",
+   "summary": "Harmeet Dhillon, the assistant attorney general for the Civil Rights Division, resigned from the Justice Department on Thursday.",
+   "published": "2026-11-05T20:32:51+00:00",
+   "outlets": 1,
+   "score": 0.824
+  },
+  {
+   "id": "first-time-homebuyers-remain-scarce-but-a-record-share-of-th",
+   "title": "First-time homebuyers remain scarce, but a record share of them pay all cash",
+   "link": "https://www.npr.org/2026/11/05/nx-s1-6022491/real-estate-all-cash-offer",
+   "source": "NPR Economy",
+   "topic": "Economy",
+   "summary": "A new report finds generational wealth is widening the divide between homebuyers and those priced out. The median age of first-time buyers also remains at a record high.",
+   "published": "2026-11-05T15:00:00+00:00",
+   "outlets": 1,
+   "score": 0.755
+  },
+  {
+   "id": "a-bitter-end-for-ronaldo-the-icon-who-transformed-portugal",
+   "title": "A bitter end for Ronaldo - the icon who transformed Portugal",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckn9rwr2zzpvo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "topic": "Sports",
+   "summary": "As Cristiano Ronaldo retires from international football, Guillem Balague looks at why and what is next for the Portugal legend.",
+   "published": "2026-11-05T14:29:40+00:00",
+   "outlets": 1,
+   "score": 0.736
+  },
+  {
+   "id": "watch-met-police-release-brand-interview-footage",
+   "title": "Watch: Met Police release Brand interview footage",
+   "link": "https://www.bbc.co.uk/news/videos/c693ze38vywxo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC News",
+   "topic": "World",
+   "summary": "Brand was found guilty of one count of rape and three sexual assaults at Southwark Crown Court.",
+   "published": "2026-11-05T16:01:56+00:00",
    "outlets": 1,
    "score": 0.713
   },
   {
-   "id": "this-is-a-disaster-angry-republicans-blame-trump-for-midter",
-   "title": "'This is a disaster': Angry Republicans blame Trump for midterms defeat",
-   "link": "https://www.bbc.co.uk/news/articles/c6x29rr8djy3o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC US & Canada",
-   "topic": "U.S.",
-   "summary": "Some Republicans tell the BBC the president's focus on his legacy and indifference to voter concerns cost them.",
-   "published": "2026-11-04T13:33:30+00:00",
-   "outlets": 1,
-   "score": 0.711
-  },
-  {
-   "id": "a24-on-top-with-bigger-budgets-better-box-office-and-splashy",
-   "title": "A24 on Top: With Bigger Budgets, Better Box Office and Splashy IP, Is it Finally Time to Sell?",
-   "link": "https://variety.com/2026/film/news/a24-biggest-year-backrooms-elden-ring-1236938874/",
-   "source": "Variety",
-   "topic": "Entertainment",
-   "summary": "“Elden Ring,” one of the most popular video games of all time, takes place in a fantasy realm called the Lands Between — a space between life and death where humans battle gods and…",
-   "published": "2026-11-04T20:00:00+00:00",
-   "outlets": 1,
-   "score": 0.676
-  },
-  {
-   "id": "mlb-rumors-the-only-oriole-not-on-the-trading-block-rays-dre",
-   "title": "MLB rumors: The only Oriole not on the trading block, Rays' Drew Rasmussen plan and Astros add to manager hunt",
-   "link": "https://www.cbssports.com/mlb/news/mlb-rumors-orioles-pete-alonso-rays-drew-rasmussen/",
+   "id": "texas-rb-hollywood-smothers-out-for-season-with-torn-mcl-as",
+   "title": "Texas RB Hollywood Smothers out for season with torn MCL as injuries mount for Longhorns",
+   "link": "https://www.cbssports.com/college-football/news/texas-hollywood-smothers-injury-out-for-season-torn-mcl/",
    "source": "CBS Sports",
    "topic": "Sports",
-   "summary": "Here are the latest MLB trade and free agency rumors for Wednesday, Nov. 4",
-   "published": "2026-11-04T19:49:47+00:00",
+   "summary": "Smothers was a splashy transfer portal addition for Texas, but he's battled injury all season",
+   "published": "2026-11-05T20:28:05+00:00",
    "outlets": 1,
-   "score": 0.671
+   "score": 0.684
   },
   {
-   "id": "poundland-owner-in-crunch-talks-as-retailer-s-collapse-looms",
-   "title": "Poundland owner in crunch talks as retailer's collapse looms",
-   "link": "https://www.bbc.co.uk/news/articles/ck240mm3e42do?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Business",
-   "topic": "Economy",
-   "summary": "Gordon Brothers will meet Jonathan Reynolds on Wednesday as the investment firm faces scrutiny over Poundland.",
-   "published": "2026-11-04T19:44:46+00:00",
+   "id": "who-could-be-behind-hoax-bomb-threats-to-european-air-travel",
+   "title": "Who could be behind hoax bomb threats to European air travel?",
+   "link": "https://www.bbc.co.uk/news/articles/cx8dzzjg3g9zo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "topic": "World",
+   "summary": "There is no hard evidence so far linking airline bomb threats to Russia, Iran or any proxy groups.",
+   "published": "2026-11-05T19:58:40+00:00",
    "outlets": 1,
    "score": 0.668
   },
   {
-   "id": "2026-college-baskball-odds-picks-predictions-best-bets-exper",
-   "title": "2026 college baskball odds, picks, predictions, best bets: Experts, model backing Auburn on Wednesday, Nov. 4",
-   "link": "https://www.cbssports.com/betting/news/2026-college-baskball-odds-picks-predictions-best-bets-experts-model-backing-auburn-on-wednesday-nov-4/",
-   "source": "CBS Sports",
-   "topic": "Sports",
-   "summary": "SportsLine's experts and the SportsLine Projection Model have revealed college basketball picks and best bets for Wednesday, November 4",
-   "published": "2026-11-04T19:47:42+00:00",
+   "id": "teens-worldwide-aren-t-getting-enough-exercise-especially-gi",
+   "title": "Teens worldwide aren't getting enough exercise -- especially girls",
+   "link": "https://www.npr.org/2026/11/05/nx-s1-6027635/exercise-workout-teenagers-adolescents-gender-gap",
+   "source": "NPR Health",
+   "topic": "Health",
+   "summary": "A new study looks at the recommended amount of daily exercise for adolescents — and how few are getting it.",
+   "published": "2026-11-05T12:24:14+00:00",
    "outlets": 1,
-   "score": 0.664
+   "score": 0.663
   },
   {
-   "id": "everything-you-need-to-know-from-the-us-midterm-elections",
-   "title": "Everything you need to know from the US midterm elections",
-   "link": "https://www.bbc.co.uk/news/articles/cmr4y92rgd9po?at_medium=RSS&at_campaign=rss",
-   "source": "BBC News",
-   "topic": "Politics",
-   "summary": "Democrats secured some big wins - and a few historic firsts - earning congratulations from President Trump.",
-   "published": "2026-11-04T14:05:42+00:00",
-   "outlets": 1,
-   "score": 0.654
-  },
-  {
-   "id": "lurie-backed-propositions-appear-headed-to-victory-in-san-fr",
-   "title": "Lurie-Backed Propositions Appear Headed to Victory in San Francisco",
-   "link": "https://ww2.kqed.org/news/2026/11/04/lurie-backed-propositions-appear-headed-to-victory-in-san-francisco/",
-   "source": "KQED",
-   "topic": "Local",
-   "summary": "Two competitive seats on the Board of Supervisors were on the ballot, too.",
-   "published": "2026-11-04T18:49:43+00:00",
-   "outlets": 1,
-   "score": 0.638
-  },
-  {
-   "id": "apple-will-check-shared-icloud-links-for-harmful-content",
-   "title": "Apple will check shared iCloud links for ‘harmful content’",
-   "link": "https://www.theverge.com/tech/1026604/apple-icloud-links-harmful-content-27-3",
+   "id": "muse-has-a-voice-mode-now",
+   "title": "Muse has a voice mode now",
+   "link": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
    "source": "The Verge",
    "topic": "Tech",
-   "summary": "Apple will start checking iCloud items that are accessible to anyone who has the link for \"harmful content\" starting with iOS 27.3 and other 27.3 updates, the company says. \"When you share…",
-   "published": "2026-11-04T18:32:01+00:00",
+   "summary": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS…",
+   "published": "2026-11-05T19:07:13+00:00",
+   "outlets": 1,
+   "score": 0.64
+  },
+  {
+   "id": "liv-golf-shutting-down-after-debtors-bail-and-players-head-f",
+   "title": "LIV Golf shutting down after debtors bail and players head for exits",
+   "link": "https://www.cbsnews.com/news/liv-golf-shutting-down-operations-bankruptcy/",
+   "source": "CBS News",
+   "topic": "U.S.",
+   "summary": "Bankrupt LIV Golf, which sought to disrupt professional golf, will wind down its operations after failing to secure funding.",
+   "published": "2026-11-05T20:30:54+00:00",
    "outlets": 1,
    "score": 0.628
-  },
-  {
-   "id": "celebrity-hairstylist-john-frieda-dies-aged-75",
-   "title": "Celebrity hairstylist John Frieda dies aged 75",
-   "link": "https://www.bbc.co.uk/news/articles/crlykl5gl3x4o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Entertainment",
-   "topic": "Entertainment",
-   "summary": "He was stylist to the stars in the 1960s and 1970s before creating a global range of hair products.",
-   "published": "2026-11-04T10:52:39+00:00",
-   "outlets": 1,
-   "score": 0.621
-  },
-  {
-   "id": "mike-johnson-will-step-aside-as-top-house-republican-next-co",
-   "title": "Mike Johnson will step aside as top House Republican next Congress",
-   "link": "https://www.npr.org/2026/11/04/g-s1-151854/2026-midterms-mike-johnson-speaker",
-   "source": "NPR National",
-   "topic": "U.S.",
-   "summary": "After Tuesday's bruising defeat for Republicans, House Speaker Mike Johnson will not stay on as minority leader come January.",
-   "published": "2026-11-04T18:14:13+00:00",
-   "outlets": 1,
-   "score": 0.619
   }
  ],
  "topics": {
-  "U.S.": [
-   {
-    "id": "herbert-blomstedt-conductor-of-great-orchestras-for-seven-de",
-    "title": "Herbert Blomstedt, conductor of great orchestras for seven decades, dies at 99",
-    "link": "https://www.npr.org/2026/11/04/nx-s1-5740271/herbert-blomstedt-conductor-dead",
-    "source": "NPR",
-    "topic": "U.S.",
-    "summary": "Modest in his demeanor but remarkably enduring, the American-born, Swedish conductor continually fell in love with music, leading orchestras with no-nonsense insight and integrity well…",
-    "published": "2026-11-04T20:11:14+00:00",
-    "outlets": 1,
-    "score": 1.287
-   },
-   {
-    "id": "trump-s-loss-limits-powers-at-home-but-it-will-likely-be-dif",
-    "title": "Trump's loss limits powers at home, but it will likely be different abroad",
-    "link": "https://www.bbc.co.uk/news/articles/crkg7wj8g201o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC US & Canada",
-    "topic": "U.S.",
-    "summary": "After bruising midterm results, President Trump will want to show he can still shake the world, the BBC's international editor writes.",
-    "published": "2026-11-04T18:35:07+00:00",
-    "outlets": 1,
-    "score": 1.188
-   },
-   {
-    "id": "chuck-schumer-heralds-democrats-generational-remake-of-senat",
-    "title": "Chuck Schumer heralds Democrats' 'generational remake' of Senate",
-    "link": "https://www.npr.org/2026/11/04/g-s1-151833/2026-midterms-chuck-schumer-senate-democrats",
-    "source": "NPR National",
-    "topic": "U.S.",
-    "summary": "In remarks the day after his party flipped control of Congress, the Senate Minority Leader said voters had spoken clearly about their priorities, and said it's up to the Democratic party…",
-    "published": "2026-11-04T18:37:34+00:00",
-    "outlets": 1,
-    "score": 0.915
-   },
-   {
-    "id": "this-is-a-disaster-angry-republicans-blame-trump-for-midter",
-    "title": "'This is a disaster': Angry Republicans blame Trump for midterms defeat",
-    "link": "https://www.bbc.co.uk/news/articles/c6x29rr8djy3o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC US & Canada",
-    "topic": "U.S.",
-    "summary": "Some Republicans tell the BBC the president's focus on his legacy and indifference to voter concerns cost them.",
-    "published": "2026-11-04T13:33:30+00:00",
-    "outlets": 1,
-    "score": 0.711
-   },
-   {
-    "id": "mike-johnson-will-step-aside-as-top-house-republican-next-co",
-    "title": "Mike Johnson will step aside as top House Republican next Congress",
-    "link": "https://www.npr.org/2026/11/04/g-s1-151854/2026-midterms-mike-johnson-speaker",
-    "source": "NPR National",
-    "topic": "U.S.",
-    "summary": "After Tuesday's bruising defeat for Republicans, House Speaker Mike Johnson will not stay on as minority leader come January.",
-    "published": "2026-11-04T18:14:13+00:00",
-    "outlets": 1,
-    "score": 0.619
-   },
-   {
-    "id": "progressive-beats-gop-rep-tom-barrett-in-key-michigan-distri",
-    "title": "Progressive beats GOP Rep. Tom Barrett in key Michigan district",
-    "link": "https://www.cbsnews.com/news/michigan-7th-district-results-tom-barrett-william-lawrence/",
-    "source": "CBS News",
-    "topic": "U.S.",
-    "summary": "The race was one of the most closely watched in the nation.",
-    "published": "2026-11-04T19:47:13+00:00",
-    "outlets": 1,
-    "score": 0.495
-   }
-  ],
   "Politics": [
    {
-    "id": "trump-touts-white-house-ballroom-after-gop-midterm-losses",
-    "title": "Trump touts White House ballroom after GOP midterm losses",
-    "link": "https://www.cbsnews.com/news/trump-2026-midterms-republicans-white-house-ballroom/",
+    "id": "trump-s-lawyers-argue-appeal-in-hush-money-case",
+    "title": "Trump's lawyers argue appeal in \"hush money\" case",
+    "link": "https://www.cbsnews.com/news/trump-hush-money-conviction-appeal/",
     "source": "CBS News",
     "topic": "Politics",
-    "summary": "After the GOP's losses in the midterms, President Trump hosted a celebratory event in the unfinished ballroom that stood in stark contrast with his new political reality in Washington.",
-    "published": "2026-11-04T20:16:34+00:00",
+    "summary": "President Trump was convicted in 2024 of 34 felonies tied to a 2016 \"hush money\" payment to adult film star Stormy Daniels.",
+    "published": "2026-11-05T20:35:19+00:00",
     "outlets": 1,
-    "score": 1.193
+    "score": 1.198
    },
    {
-    "id": "midterm-fallout-begins-after-democrats-win-control-of-congre",
-    "title": "Midterm fallout begins after Democrats win control of Congress",
-    "link": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+    "id": "democrats-prepare-to-take-congress-as-gop-grapples-with-stun",
+    "title": "Democrats prepare to take Congress as GOP grapples with stunning losses",
+    "link": "https://www.cbsnews.com/live-updates/midterm-election-results-2026-democrats-house-senate-trump/",
     "source": "CBS News",
     "topic": "Politics",
-    "summary": "The impact of Democrats' sweeping victories in the 2026 midterm elections is already being felt in Washington. Follow live updates here.",
-    "published": "2026-11-04T20:10:24+00:00",
+    "summary": "After Democrats' sweeping House and Senate victories, the party is laying out how it plans to wield power, while President Trump and Republicans react to their midterm losses.",
+    "published": "2026-11-05T20:25:10+00:00",
     "outlets": 1,
-    "score": 0.819
+    "score": 0.424
    },
    {
-    "id": "everything-you-need-to-know-from-the-us-midterm-elections",
-    "title": "Everything you need to know from the US midterm elections",
-    "link": "https://www.bbc.co.uk/news/articles/cmr4y92rgd9po?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News",
-    "topic": "Politics",
-    "summary": "Democrats secured some big wins - and a few historic firsts - earning congratulations from President Trump.",
-    "published": "2026-11-04T14:05:42+00:00",
-    "outlets": 1,
-    "score": 0.654
-   },
-   {
-    "id": "sen-amy-klobuchar-wins-minnesota-governor-s-race-cbs-news-pr",
-    "title": "Sen. Amy Klobuchar wins Minnesota governor's race, CBS News projects",
-    "link": "https://www.cbsnews.com/news/klobuchar-wins-minnesota-governor-race-cbs-news-projects/",
+    "id": "oil-prices-rebound-slightly-as-iran-claims-new-attacks-on-sh",
+    "title": "Oil prices rebound slightly as Iran claims new attacks on ships",
+    "link": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/",
     "source": "CBS News",
     "topic": "Politics",
-    "summary": "Democratic U.S. Sen. Amy Klobuchar defeated Republican state House Speaker Lisa Demuth. She will succeed Gov. Tim Walz, who announced in January he would not seek a third term.",
-    "published": "2026-11-04T19:57:05+00:00",
+    "summary": "Oil rebounds slightly as ships continue coming under attack in the Persian Gulf after prices plunged following President Trump's midterm elections rebuke.",
+    "published": "2026-11-05T20:05:02+00:00",
     "outlets": 1,
-    "score": 0.618
+    "score": 0.281
    },
    {
-    "id": "democrats-won-congress-in-a-blue-wave-now-comes-the-hard-par",
-    "title": "Democrats won Congress in a blue wave. Now comes the hard part.",
-    "link": "https://www.bbc.co.uk/news/articles/cq1kdgnn2xdeo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News",
+    "id": "after-sweeping-midterm-wins-here-s-what-democrats-hope-to-ge",
+    "title": "After sweeping midterm wins, here's what Democrats hope to get done in the majority",
+    "link": "https://www.npr.org/2026/11/05/nx-s1-6029331/democrats-have-a-long-to-do-list-when-they-take-over-congress-next-year",
+    "source": "NPR Politics",
     "topic": "Politics",
-    "summary": "Democrats can vote legislation through. But Trump still has veto power.",
-    "published": "2026-11-04T18:01:27+00:00",
+    "summary": "Democrats ran on lowering costs and stamping out corruption. Now that they've won, party leaders will have to unite a sometimes fractious caucus to fulfill those pledges.",
+    "published": "2026-11-05T11:45:35+00:00",
     "outlets": 1,
-    "score": 0.608
+    "score": 0.273
    },
    {
     "id": "anc-faces-anger-over-poor-services-as-south-africans-vote-in",
@@ -412,10 +333,576 @@
     "summary": "Party expected to get less than a third of the vote amid frustration over water outages and power cuts The African National Congress is on course for a bruising result in South Africa’s…",
     "published": "2026-11-04T14:50:47+00:00",
     "outlets": 1,
-    "score": 0.575
+    "score": 0.266
+   },
+   {
+    "id": "democrats-win-senate-control-live-updates",
+    "title": "Democrats win Senate control — live updates",
+    "link": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
+    "source": "CBS News",
+    "topic": "Politics",
+    "summary": "Democrats were able to pick up the seats needed to gain control of the Senate, CBS News projects, and the party scored several upset victories in red states.",
+    "published": "2026-11-05T19:37:21+00:00",
+    "outlets": 1,
+    "score": 0.226
+   }
+  ],
+  "World": [
+   {
+    "id": "paraguay-s-president-is-impeached-minutes-after-resigning-fo",
+    "title": "Paraguay's president is impeached minutes after resigning following a bank collapse",
+    "link": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse",
+    "source": "NPR World",
+    "topic": "World",
+    "summary": "Paraguayan lawmakers voted to impeach President Santiago Peña minutes after his resignation, as the collapse of a digital bank tied to his government froze millions of people's savings.",
+    "published": "2026-11-05T18:30:16+00:00",
+    "outlets": 1,
+    "score": 1.169
+   },
+   {
+    "id": "hoax-bomb-threats-target-european-airlines-and-airports-for",
+    "title": "Hoax bomb threats target European airlines and airports for second time in a week",
+    "link": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "summary": "At least 21 flights across Europe are affected in what the UK government calls a \"malicious hoax threat\".",
+    "published": "2026-11-05T17:39:48+00:00",
+    "outlets": 1,
+    "score": 0.862
+   },
+   {
+    "id": "watch-met-police-release-brand-interview-footage",
+    "title": "Watch: Met Police release Brand interview footage",
+    "link": "https://www.bbc.co.uk/news/videos/c693ze38vywxo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News",
+    "topic": "World",
+    "summary": "Brand was found guilty of one count of rape and three sexual assaults at Southwark Crown Court.",
+    "published": "2026-11-05T16:01:56+00:00",
+    "outlets": 1,
+    "score": 0.713
+   },
+   {
+    "id": "who-could-be-behind-hoax-bomb-threats-to-european-air-travel",
+    "title": "Who could be behind hoax bomb threats to European air travel?",
+    "link": "https://www.bbc.co.uk/news/articles/cx8dzzjg3g9zo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "summary": "There is no hard evidence so far linking airline bomb threats to Russia, Iran or any proxy groups.",
+    "published": "2026-11-05T19:58:40+00:00",
+    "outlets": 1,
+    "score": 0.668
+   },
+   {
+    "id": "henry-nowak-s-killer-has-minimum-term-increased-to-25-years",
+    "title": "Henry Nowak’s killer has minimum term increased to 25 years by Court of Appeal",
+    "link": "https://www.bbc.co.uk/news/articles/cmwy9z5423p2o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News",
+    "topic": "World",
+    "summary": "Judges ruled Vickrum Digwa's original term was unduly lenient and refused his bid to have it cut.",
+    "published": "2026-11-05T18:53:47+00:00",
+    "outlets": 1,
+    "score": 0.628
+   },
+   {
+    "id": "russell-brand-is-convicted-of-rape-and-judge-says-he-ll-get",
+    "title": "Russell Brand is convicted of rape, and judge says he'll get a prison term",
+    "link": "https://www.npr.org/2026/11/05/nx-s1-6030720/russell-brand-rape-sexual-assault-prison",
+    "source": "NPR World",
+    "topic": "World",
+    "summary": "A prosecutor described Brand as a ruthless, calculating, manipulative \"sexual predator.\" Brand, 51, denied the charges, saying he had never forced anyone to do something against their will.",
+    "published": "2026-11-05T16:15:02+00:00",
+    "outlets": 1,
+    "score": 0.554
+   }
+  ],
+  "Entertainment": [
+   {
+    "id": "russell-brand-found-guilty-of-rape-and-sexual-assault",
+    "title": "Russell Brand found guilty of rape and sexual assault",
+    "link": "https://www.bbc.co.uk/news/articles/ckyvrze96y70o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Entertainment",
+    "topic": "Entertainment",
+    "summary": "Brand is told to expect a prison sentence \"of some length\" and faces more rape allegations, it can now be reported.",
+    "published": "2026-11-05T18:28:35+00:00",
+    "outlets": 1,
+    "score": 1.168
+   },
+   {
+    "id": "nithya-raman-wins-l-a-mayor-s-race-as-karen-bass-concedes",
+    "title": "Nithya Raman Wins L.A. Mayor’s Race as Karen Bass Concedes",
+    "link": "https://variety.com/2026/politics/news/nithya-raman-wins-los-angeles-mayor-1236939950/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "Nithya Raman will be the next mayor of Los Angeles, as incumbent Karen Bass conceded defeat after a hard-fought campaign. In a video, Raman thanked Bass for her service and vowed to…",
+    "published": "2026-11-05T20:27:43+00:00",
+    "outlets": 2,
+    "score": 1.163
+   },
+   {
+    "id": "hbo-s-the-gilded-age-season-4-ratings-most-watched-premiere",
+    "title": "HBO’s ‘The Gilded Age’ Season 4 Ratings: Most-Watched Premiere Yet",
+    "link": "https://variety.com/2026/tv/news/the-gilded-age-season-4-ratings-season-premiere-hbo-1236940637/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "Things are still looking gilded for HBO’s “The Gilded Age.” The series returned on Nov. 1 to its most-watched season premiere yet, averaging nearly 4 million viewers across platforms…",
+    "published": "2026-11-05T20:05:46+00:00",
+    "outlets": 1,
+    "score": 0.974
+   },
+   {
+    "id": "hyena-thriller-exec-produced-by-david-lynch-to-star-kiernan",
+    "title": "‘Hyena,’ Thriller Exec Produced by David Lynch, to Star Kiernan Shipka, D’Pharaoh Woon-A-Tai, Edgar Ramírez and Rosemarie DeWitt",
+    "link": "https://variety.com/2026/film/global/hyena-thriller-exec-produced-david-lynch-kiernan-shipka-1236940574/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "One of the final film projects of the late Hollywood icon David Lynch is heading to the American Film Market with a fresh cast and a production start date. The psychological thriller…",
+    "published": "2026-11-05T19:16:31+00:00",
+    "outlets": 1,
+    "score": 0.492
+   },
+   {
+    "id": "married-at-first-sight-uk-cancelled-after-bbc-revealed-rape",
+    "title": "Married at First Sight UK cancelled after BBC revealed rape allegations",
+    "link": "https://www.bbc.co.uk/news/articles/cw33xm0de221o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Entertainment",
+    "topic": "Entertainment",
+    "summary": "Channel 4 will reinvest the show's budget in \"distinctive new programming\" and said sorry again to the women involved.",
+    "published": "2026-11-05T12:26:24+00:00",
+    "outlets": 1,
+    "score": 0.458
+   },
+   {
+    "id": "what-legend-of-zelda-superfan-jon-batiste-thinks-of-ocarina",
+    "title": "What ‘Legend of Zelda’ Superfan Jon Batiste Thinks of ‘Ocarina of Time’ Remake and the Game’s Iconic Score",
+    "link": "https://variety.com/2026/gaming/news/legend-of-zelda-ocarina-of-time-review-score-jon-batiste-1236940357/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "Hey! Listen! “The Legend of Zelda: Ocarina of Time” remake is out, and the initial response from critics is overwhelmingly positive. And while it’s still too early to tell exactly what…",
+    "published": "2026-11-05T19:13:33+00:00",
+    "outlets": 1,
+    "score": 0.397
+   }
+  ],
+  "U.S.": [
+   {
+    "id": "california-governor-commutes-death-sentences-for-all-548-peo",
+    "title": "California governor commutes death sentences for all 548 people on death row",
+    "link": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC US & Canada",
+    "topic": "U.S.",
+    "summary": "California has historically had the largest population of death row inmates in the US.",
+    "published": "2026-11-05T20:28:38+00:00",
+    "outlets": 2,
+    "score": 1.046
+   },
+   {
+    "id": "boebert-billionaires-tax-and-other-midterms-races-still-to-w",
+    "title": "Boebert, billionaires' tax and other midterms races still to watch",
+    "link": "https://www.bbc.co.uk/news/articles/c6vg0y2nr445o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC US & Canada",
+    "topic": "U.S.",
+    "summary": "Democrats have taken control of the House and Senate, and are eyeing some more with several key races still too close to call.",
+    "published": "2026-11-05T19:02:17+00:00",
+    "outlets": 1,
+    "score": 0.924
+   },
+   {
+    "id": "head-of-justice-department-office-on-civil-rights-resigns",
+    "title": "Head of Justice Department office on Civil Rights resigns",
+    "link": "https://www.npr.org/2026/11/05/g-s1-152080/head-of-justice-department-office-on-civil-rights-resigns",
+    "source": "NPR National",
+    "topic": "U.S.",
+    "summary": "The head of the Justice Department's Civil Rights Division, Harmeet Dhillon, is out after 18 tumultuous months in charge.",
+    "published": "2026-11-05T18:01:57+00:00",
+    "outlets": 1,
+    "score": 0.878
+   },
+   {
+    "id": "harmeet-dhillon-doj-s-controversial-civil-rights-chief-resig",
+    "title": "Harmeet Dhillon, DOJ's controversial civil rights chief, resigns",
+    "link": "https://www.cbsnews.com/news/harmeet-dhillon-resigns-doj-civil-rights-division/",
+    "source": "CBS News",
+    "topic": "U.S.",
+    "summary": "Harmeet Dhillon, the assistant attorney general for the Civil Rights Division, resigned from the Justice Department on Thursday.",
+    "published": "2026-11-05T20:32:51+00:00",
+    "outlets": 1,
+    "score": 0.824
+   },
+   {
+    "id": "liv-golf-shutting-down-after-debtors-bail-and-players-head-f",
+    "title": "LIV Golf shutting down after debtors bail and players head for exits",
+    "link": "https://www.cbsnews.com/news/liv-golf-shutting-down-operations-bankruptcy/",
+    "source": "CBS News",
+    "topic": "U.S.",
+    "summary": "Bankrupt LIV Golf, which sought to disrupt professional golf, will wind down its operations after failing to secure funding.",
+    "published": "2026-11-05T20:30:54+00:00",
+    "outlets": 1,
+    "score": 0.628
+   },
+   {
+    "id": "shares-in-musk-s-spacex-plunge-as-tech-and-ai-stocks-fall",
+    "title": "Shares in Musk's SpaceX plunge as tech and AI stocks fall",
+    "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC US & Canada",
+    "topic": "U.S.",
+    "summary": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US mid-terms",
+    "published": "2026-11-05T17:57:57+00:00",
+    "outlets": 1,
+    "score": 0.461
+   }
+  ],
+  "Sports": [
+   {
+    "id": "10-college-football-players-who-have-increased-their-nil-val",
+    "title": "10 college football players who have increased their NIL value so far in 2026",
+    "link": "https://www.cbssports.com/college-football/news/10-college-football-players-increased-nil-value-2026/",
+    "source": "CBS Sports",
+    "topic": "Sports",
+    "summary": "These breakout players have earned a big payday increase at the end of the season",
+    "published": "2026-11-05T20:29:55+00:00",
+    "outlets": 1,
+    "score": 0.994
+   },
+   {
+    "id": "a-bitter-end-for-ronaldo-the-icon-who-transformed-portugal",
+    "title": "A bitter end for Ronaldo - the icon who transformed Portugal",
+    "link": "https://www.bbc.co.uk/sport/football/articles/ckn9rwr2zzpvo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "topic": "Sports",
+    "summary": "As Cristiano Ronaldo retires from international football, Guillem Balague looks at why and what is next for the Portugal legend.",
+    "published": "2026-11-05T14:29:40+00:00",
+    "outlets": 1,
+    "score": 0.736
+   },
+   {
+    "id": "texas-rb-hollywood-smothers-out-for-season-with-torn-mcl-as",
+    "title": "Texas RB Hollywood Smothers out for season with torn MCL as injuries mount for Longhorns",
+    "link": "https://www.cbssports.com/college-football/news/texas-hollywood-smothers-injury-out-for-season-torn-mcl/",
+    "source": "CBS Sports",
+    "topic": "Sports",
+    "summary": "Smothers was a splashy transfer portal addition for Texas, but he's battled injury all season",
+    "published": "2026-11-05T20:28:05+00:00",
+    "outlets": 1,
+    "score": 0.684
+   },
+   {
+    "id": "nfl-dfs-jaguars-vs-ravens-top-daily-fantasy-picks-lineups-ad",
+    "title": "NFL DFS, Jaguars vs. Ravens: Top daily Fantasy picks, lineups, advice for 'Thursday Night Football'",
+    "link": "https://www.cbssports.com/betting/news/nfl-dfs-jaguars-ravens-daily-fantasy-picks-draftkings-fanduel-lineup-advice-strategy-stacks-thursday-night-football/",
+    "source": "CBS Sports",
+    "topic": "Sports",
+    "summary": "DFS millionaire Mike McClure shares his top daily Fantasy picks and advice for Jacksonville vs. Baltimore on 'Thursday Night Football'",
+    "published": "2026-11-05T20:26:58+00:00",
+    "outlets": 1,
+    "score": 0.522
+   },
+   {
+    "id": "what-new-kane-deal-means-for-england-and-the-premier-league",
+    "title": "What new Kane deal means for England and the Premier League record",
+    "link": "https://www.bbc.co.uk/sport/football/articles/cm93zvzzl33zo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "topic": "Sports",
+    "summary": "Harry Kane's new deal at Bayern Munich may end his Premier League career but offers fresh hope he can lead England to glory, writes Phil McNulty.",
+    "published": "2026-11-05T14:44:34+00:00",
+    "outlets": 1,
+    "score": 0.514
+   },
+   {
+    "id": "i-don-t-fear-for-my-safety-from-online-abuse-because-we-re",
+    "title": "'I don't fear for my safety from online abuse - because we're so used to it'",
+    "link": "https://www.bbc.co.uk/sport/tennis/articles/cmq8nn2q01wdo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "topic": "Sports",
+    "summary": "Britain's Jodie Burrage speaks to BBC Sport about the online abuse she received after her recent defeat - and why it no longer comes as a surprise.",
+    "published": "2026-11-05T18:38:24+00:00",
+    "outlets": 1,
+    "score": 0.477
+   }
+  ],
+  "Finance": [
+   {
+    "id": "top-democrats-call-to-rein-in-ai-buildout-after-midterms-swe",
+    "title": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
+    "link": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html",
+    "source": "CNBC Finance",
+    "topic": "Finance",
+    "summary": "Democratic winners and progressive lawmakers are calling for tougher limits on AI and data centers after the 2026 midterm elections.",
+    "published": "2026-11-05T20:17:16+00:00",
+    "outlets": 1,
+    "score": 0.983
+   },
+   {
+    "id": "cnbc-s-experts-on-whether-the-ai-trade-is-ending-and-what-in",
+    "title": "CNBC's experts on whether the AI trade is ending and what investors should do next",
+    "link": "https://www.cnbc.com/2026/11/05/cnbcs-experts-on-whether-the-ai-trade-is-ending-and-what-investors-should-do-next.html",
+    "source": "CNBC Investing",
+    "topic": "Finance",
+    "summary": "The big Democratic win on Tuesday is changing the technology investment math.",
+    "published": "2026-11-05T19:19:31+00:00",
+    "outlets": 1,
+    "score": 0.937
+   },
+   {
+    "id": "democratic-sweep-puts-crypto-on-defensive-in-washington",
+    "title": "Democratic sweep puts crypto on defensive in Washington",
+    "link": "https://www.cnbc.com/2026/11/05/crypto-midterms-democrats-clarity-act.html",
+    "source": "CNBC Investing",
+    "topic": "Finance",
+    "summary": "Democrats in Congress could impose tougher rules on crypto and investigate President Donald Trump, ushering in a tougher era for the industry.",
+    "published": "2026-11-05T16:48:34+00:00",
+    "outlets": 1,
+    "score": 0.57
+   },
+   {
+    "id": "barkin-sees-interest-rate-hikes-ahead-but-at-a-gradual-pace",
+    "title": "Barkin sees interest rate hikes ahead, but at a gradual pace",
+    "link": "https://www.cnbc.com/2026/11/05/barkin-sees-interest-rate-hikes-ahead-but-at-a-gradual-pace.html",
+    "source": "CNBC Finance",
+    "topic": "Finance",
+    "summary": "In a CNBC interview, the policymaker expressed concern over inflation and said monetary policy will need to adjust.",
+    "published": "2026-11-05T16:34:33+00:00",
+    "outlets": 1,
+    "score": 0.563
+   },
+   {
+    "id": "what-the-democratic-midterms-sweep-changes-for-u-s-china-rel",
+    "title": "What the Democratic midterms sweep changes for U.S.-China relations",
+    "link": "https://www.cnbc.com/2026/11/05/what-the-democrat-midterms-sweep-changes-for-us-china-tech-rivalry.html",
+    "source": "CNBC Finance",
+    "topic": "Finance",
+    "summary": "Analysts note the growing risks around U.S. President Donald Trump's ability to maintain a fragile trade truce.",
+    "published": "2026-11-05T12:57:10+00:00",
+    "outlets": 1,
+    "score": 0.359
+   },
+   {
+    "id": "stocks-crater-as-midterms-spur-investor-exodus-from-tech-and",
+    "title": "Stocks crater as midterms spur investor exodus from tech and AI",
+    "link": "https://www.cbsnews.com/news/stocks-midterm-elections-tech-companies-ai-data-centers/",
+    "source": "CBS News",
+    "topic": "Finance",
+    "summary": "Tech-heavy Nasdaq plunges nearly 1,300 points as Wall Street weighs the impact of Democratic wins on the AI sector.",
+    "published": "2026-11-05T19:34:36+00:00",
+    "outlets": 1,
+    "score": 0.207
+   }
+  ],
+  "Local": [
+   {
+    "id": "el-cerrito-high-school-football-team-coach-suspended-amid-cr",
+    "title": "El Cerrito High School Football Team, Coach Suspended Amid Criminal Hazing Investigation",
+    "link": "https://ww2.kqed.org/news/2026/11/05/el-cerrito-high-school-football-team-coach-suspended-amid-criminal-hazing-investigation/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "The El Cerrito Police Department said 22 student-athletes could face arrest.",
+    "published": "2026-11-05T19:56:36+00:00",
+    "outlets": 1,
+    "score": 0.967
+   },
+   {
+    "id": "randy-villegas-flips-highly-contested-central-valley-congres",
+    "title": "Randy Villegas Flips Highly Contested Central Valley Congressional Seat",
+    "link": "https://ww2.kqed.org/news/2026/11/05/randy-villegas-flips-highly-contested-central-valley-congressional-seat/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "The District 22 race was one of the most closely watched in California.",
+    "published": "2026-11-05T18:02:41+00:00",
+    "outlets": 1,
+    "score": 0.606
+   },
+   {
+    "id": "pretty-vengeful-star-witness-in-thao-trial-to-resume-testim",
+    "title": "‘Pretty Vengeful’: Star Witness in Thao Trial to Resume Testimony",
+    "link": "https://ww2.kqed.org/news/2026/11/05/pretty-vengeful-star-witness-in-thao-trial-to-resume-testimony/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "Mario Juarez began his highly anticipated testimony last week, unloading bombshell allegations about the alleged pay-to-play involving former Oakland Mayor Sheng Thao.",
+    "published": "2026-11-05T17:00:00+00:00",
+    "outlets": 1,
+    "score": 0.439
+   },
+   {
+    "id": "rent-control-makes-moderate-gains-across-the-bay-area-in-ear",
+    "title": "Rent Control Makes Moderate Gains Across the Bay Area in Early Voting Returns",
+    "link": "https://ww2.kqed.org/news/2026/11/05/rent-control-makes-moderate-gains-across-the-bay-area-in-early-voting-returns/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "Three cities voted on rent control measures to expand protections for tenants. Two of those measures were leading in early returns.",
+    "published": "2026-11-05T15:00:00+00:00",
+    "outlets": 1,
+    "score": 0.321
+   },
+   {
+    "id": "highway-101-through-sf-is-closed-again-this-weekend-for-the",
+    "title": "Highway 101 Through SF Is Closed Again This Weekend — for the Last Time",
+    "link": "https://ww2.kqed.org/news/2026/11/05/101-closure-san-francisco-bay-bridge-november-6-9-detour-traffic/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "Yet another closure starts Friday on southbound 101 through the city. Here’s what to know, including the recommended detours and which travelers will be most affected.",
+    "published": "2026-11-05T12:00:00+00:00",
+    "outlets": 1,
+    "score": 0.232
+   },
+   {
+    "id": "the-heart-behind-the-mic-how-randy-hahn-brings-sharks-games",
+    "title": "The Heart Behind the Mic: How Randy Hahn Brings Sharks Games to Life",
+    "link": "https://ww2.kqed.org/news/2026/11/05/the-heart-behind-the-mic-how-randy-hahn-brings-sharks-games-to-life/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "For Sharks fans, Randy Hahn is the soul of the team. But why doesn’t he call the playoff games?",
+    "published": "2026-11-05T11:00:00+00:00",
+    "outlets": 1,
+    "score": 0.19
+   }
+  ],
+  "Tech": [
+   {
+    "id": "samsung-s-galaxy-z-fold-8-is-300-off-ahead-of-black-friday",
+    "title": "Samsung’s Galaxy Z Fold 8 is $300 off ahead of Black Friday",
+    "link": "https://www.theverge.com/gadgets/1027659/samsung-galaxy-z-fold-8-beats-pill-deal-sale",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "Android fans with a bit of iPhone Duo envy, take note: The Samsung Galaxy Z Fold 8 is discounted to $1,599.99 at both Amazon and Best Buy, a hefty $300 markdown from its usual price, and…",
+    "published": "2026-11-05T19:27:06+00:00",
+    "outlets": 1,
+    "score": 0.943
+   },
+   {
+    "id": "is-maha-dying-or-will-it-be-reborn-what-s-next-after-crushin",
+    "title": "Is MAHA dying—or will it be reborn? What's next after crushing midterm losses?",
+    "link": "https://arstechnica.com/health/2026/11/is-maha-dying-or-will-it-be-reborn-whats-next-after-crushing-midterm-losses/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "RFK Jr.'s Make America Healthy Again movement was in trouble before voting began.",
+    "published": "2026-11-05T18:49:41+00:00",
+    "outlets": 1,
+    "score": 0.914
+   },
+   {
+    "id": "muse-has-a-voice-mode-now",
+    "title": "Muse has a voice mode now",
+    "link": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS…",
+    "published": "2026-11-05T19:07:13+00:00",
+    "outlets": 1,
+    "score": 0.64
+   },
+   {
+    "id": "gamers-go-to-ridiculous-lengths-to-improve-gta-vi-with-nvidi",
+    "title": "Gamers go to ridiculous lengths to \"improve\" GTA VI with Nvidia's DLSS 5",
+    "link": "https://arstechnica.com/gaming/2026/11/gamers-go-to-ridiculous-lengths-to-improve-gta-vi-with-nvidias-dlss-5/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "Using a capture card and open source software to run PS5 video through a PC GPU.",
+    "published": "2026-11-05T17:40:27+00:00",
+    "outlets": 1,
+    "score": 0.595
+   },
+   {
+    "id": "statehouse-wins-give-democrats-new-power-to-push-clean-energ",
+    "title": "Statehouse wins give Democrats new power to push clean energy",
+    "link": "https://arstechnica.com/science/2026/11/statehouse-wins-give-democrats-new-power-to-push-clean-energy/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "Democrats erased the GOP’s trifecta edge and gained new power over energy policy.",
+    "published": "2026-11-05T15:59:51+00:00",
+    "outlets": 1,
+    "score": 0.418
+   },
+   {
+    "id": "claude-ai-can-plug-directly-into-your-bank-account",
+    "title": "Claude AI can plug directly into your bank account",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "Anthropic has a new pitch for managing your personal finances: let Claude do it instead, with a new Personal Finance feature that connects it to your bank and card accounts via the Plaid…",
+    "published": "2026-11-05T17:49:25+00:00",
+    "outlets": 1,
+    "score": 0.37
+   }
+  ],
+  "Economy": [
+   {
+    "id": "interest-rates-hiked-to-4-in-first-increase-in-over-three-ye",
+    "title": "Interest rates hiked to 4% in first increase in over three years",
+    "link": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "Most analysts expected the increase from 3.75% to 4%.",
+    "published": "2026-11-05T17:09:55+00:00",
+    "outlets": 1,
+    "score": 0.841
+   },
+   {
+    "id": "first-time-homebuyers-remain-scarce-but-a-record-share-of-th",
+    "title": "First-time homebuyers remain scarce, but a record share of them pay all cash",
+    "link": "https://www.npr.org/2026/11/05/nx-s1-6022491/real-estate-all-cash-offer",
+    "source": "NPR Economy",
+    "topic": "Economy",
+    "summary": "A new report finds generational wealth is widening the divide between homebuyers and those priced out. The median age of first-time buyers also remains at a record high.",
+    "published": "2026-11-05T15:00:00+00:00",
+    "outlets": 1,
+    "score": 0.755
+   },
+   {
+    "id": "discursive-verses-is-spend-dat-the-best-financial-indicator",
+    "title": "Discursive Verses: Is 'Spend Dat' the best financial indicator of America's grift economy?",
+    "link": "https://www.npr.org/2026/11/05/nx-s1-6029747/the-week-in-hip-hop-yung-miami-spend-dat",
+    "source": "NPR",
+    "topic": "Economy",
+    "summary": "NPR Music culture critic and reporter Rodney Carmichael ruminates on the latest in rap culture. This week: How Yung Miami's summer bop became a sweeping indictment.",
+    "published": "2026-11-05T16:30:00+00:00",
+    "outlets": 1,
+    "score": 0.557
+   },
+   {
+    "id": "faisal-islam-how-high-will-interest-rates-go",
+    "title": "Faisal Islam: How high will interest rates go?",
+    "link": "https://www.bbc.co.uk/news/articles/ckr5y0y37gv3o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "The BBC's economics editor views one more interest rate as likely, but thinks that will be all.",
+    "published": "2026-11-05T13:17:10+00:00",
+    "outlets": 1,
+    "score": 0.478
+   },
+   {
+    "id": "as-budgets-tighten-people-are-breaking-out-their-library-car",
+    "title": "As budgets tighten, people are breaking out their library cards",
+    "link": "https://www.npr.org/2026/11/05/nx-s1-5992908/libraries-and-cost-of-living",
+    "source": "NPR Economy",
+    "topic": "Economy",
+    "summary": "Some Americans squeezed by high prices are relying more on their local libraries for things like books, streaming services and high-priced items like musical instruments and sewing machines.",
+    "published": "2026-11-05T10:00:00+00:00",
+    "outlets": 1,
+    "score": 0.405
+   },
+   {
+    "id": "three-ways-the-interest-rate-rise-could-affect-you",
+    "title": "Three ways the interest rate rise could affect you",
+    "link": "https://www.bbc.co.uk/news/articles/cx4g1q3vlp62o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "Job, loans and savings are all affected by the rise in interest rates announced by the Bank of England.",
+    "published": "2026-11-05T13:08:30+00:00",
+    "outlets": 1,
+    "score": 0.362
    }
   ],
   "Health": [
+   {
+    "id": "teens-worldwide-aren-t-getting-enough-exercise-especially-gi",
+    "title": "Teens worldwide aren't getting enough exercise -- especially girls",
+    "link": "https://www.npr.org/2026/11/05/nx-s1-6027635/exercise-workout-teenagers-adolescents-gender-gap",
+    "source": "NPR Health",
+    "topic": "Health",
+    "summary": "A new study looks at the recommended amount of daily exercise for adolescents — and how few are getting it.",
+    "published": "2026-11-05T12:24:14+00:00",
+    "outlets": 1,
+    "score": 0.663
+   },
    {
     "id": "british-healthcare-worker-with-ebola-evacuated-from-dr-congo",
     "title": "British healthcare worker with Ebola evacuated from DR Congo to UK",
@@ -425,516 +912,18 @@
     "summary": "Patient is ⁠in ​stable condition and will be transferred to a specialist ‘high consequence’ infectious disease unit A British healthcare worker with Ebola is being evacuated from the…",
     "published": "2026-11-04T18:18:37+00:00",
     "outlets": 1,
-    "score": 0.991
+    "score": 0.501
    },
    {
-    "id": "this-woman-defied-lethal-cancer-can-mrna-vaccines-make-that",
-    "title": "This woman defied lethal cancer. Can mRNA vaccines make that possible for others?",
-    "link": "https://www.npr.org/2026/11/02/nx-s1-6009085/mrna-cancer-vaccine-pancreatic-skin",
+    "id": "it-was-a-big-night-for-doctors-to-win-seats-in-congress-ridi",
+    "title": "It was a big night for doctors to win seats in Congress, riding the blue wave",
+    "link": "https://www.npr.org/2026/11/04/nx-s1-6017757/democrats-republicans-doctors-acton-andrews-blue-wave",
     "source": "NPR Health",
     "topic": "Health",
-    "summary": "Researchers have been chasing the dream of a cancer vaccine for decades. Some recent successes with mRNA technology are garnering excitement from patients, doctors, government and investors.",
-    "published": "2026-11-02T21:31:10+00:00",
-    "outlets": 1,
-    "score": 0.35
-   },
-   {
-    "id": "huntingdon-train-attack-passengers-thought-stabbing-was-a-jo",
-    "title": "Huntingdon train attack passengers thought stabbing was a 'joke'",
-    "link": "https://www.bbc.co.uk/news/articles/cq8ez378661xo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News",
-    "topic": "Health",
-    "summary": "The first person who was attacked also says he asked hospital staff \"am I going to die today?\".",
-    "published": "2026-11-04T17:20:59+00:00",
-    "outlets": 1,
-    "score": 0.302
-   },
-   {
-    "id": "british-man-infected-with-ebola-in-dr-congo-to-be-flown-back",
-    "title": "British man infected with Ebola in DR Congo to be flown back to UK",
-    "link": "https://www.bbc.co.uk/news/articles/crq8nj7xqdv9o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News",
-    "topic": "Health",
-    "summary": "The wider risk to the UK public from the deadly virus remains low, a government spokesperson says.",
-    "published": "2026-11-04T18:34:19+00:00",
-    "outlets": 1,
-    "score": 0.235
-   }
-  ],
-  "Sports": [
-   {
-    "id": "jacoby-brissett-trade-ravens-strike-deal-for-cardinals-qb-am",
-    "title": "Jacoby Brissett trade: Ravens strike deal for Cardinals QB amid injury crisis",
-    "link": "https://www.cbssports.com/nfl/news/jacoby-brissett-trade-ravens-cardinals-lamar-jackson/",
-    "source": "CBS Sports",
-    "topic": "Sports",
-    "summary": "Baltimore is expected to acquire the veteran quarterback from Arizona after injuries to Lamar Jackson, Tyler Huntley and Joe Fagnano decimated its depth chart",
-    "published": "2026-11-04T20:00:52+00:00",
-    "outlets": 1,
-    "score": 0.981
-   },
-   {
-    "id": "an-island-in-mourning-tenerife-processes-death-of-de-miguel",
-    "title": "An island in mourning: Tenerife processes death of De Miguel",
-    "link": "https://www.bbc.co.uk/sport/football/articles/ckx2qz97gz3no?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Sport",
-    "topic": "Sports",
-    "summary": "Tenerife football club and the wider football community mourn the loss of footballer Jesus de Miguel following an on-field collision.",
-    "published": "2026-11-04T18:51:21+00:00",
-    "outlets": 1,
-    "score": 0.926
-   },
-   {
-    "id": "mlb-rumors-the-only-oriole-not-on-the-trading-block-rays-dre",
-    "title": "MLB rumors: The only Oriole not on the trading block, Rays' Drew Rasmussen plan and Astros add to manager hunt",
-    "link": "https://www.cbssports.com/mlb/news/mlb-rumors-orioles-pete-alonso-rays-drew-rasmussen/",
-    "source": "CBS Sports",
-    "topic": "Sports",
-    "summary": "Here are the latest MLB trade and free agency rumors for Wednesday, Nov. 4",
-    "published": "2026-11-04T19:49:47+00:00",
-    "outlets": 1,
-    "score": 0.671
-   },
-   {
-    "id": "2026-college-baskball-odds-picks-predictions-best-bets-exper",
-    "title": "2026 college baskball odds, picks, predictions, best bets: Experts, model backing Auburn on Wednesday, Nov. 4",
-    "link": "https://www.cbssports.com/betting/news/2026-college-baskball-odds-picks-predictions-best-bets-experts-model-backing-auburn-on-wednesday-nov-4/",
-    "source": "CBS Sports",
-    "topic": "Sports",
-    "summary": "SportsLine's experts and the SportsLine Projection Model have revealed college basketball picks and best bets for Wednesday, November 4",
-    "published": "2026-11-04T19:47:42+00:00",
-    "outlets": 1,
-    "score": 0.664
-   },
-   {
-    "id": "why-man-utd-s-roma-comeback-has-echoes-of-mourinho-and-solsk",
-    "title": "Why Man Utd's Roma comeback has echoes of Mourinho and Solskjaer",
-    "link": "https://www.bbc.co.uk/sport/football/articles/cqx28zjxdxxzo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Sport",
-    "topic": "Sports",
-    "summary": "After their memorable comeback victory against Roma, can Manchester United avoid a repeat of the past and follow that up with a successive victory?",
-    "published": "2026-11-04T16:12:46+00:00",
-    "outlets": 1,
-    "score": 0.56
-   },
-   {
-    "id": "zverev-annoyed-by-reaction-to-becoming-world-number-one",
-    "title": "Zverev annoyed by reaction to becoming world number one",
-    "link": "https://www.bbc.co.uk/sport/tennis/articles/ckpdg01pq55eo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Sport",
-    "topic": "Sports",
-    "summary": "After a defeat at the Paris Masters, Alexander Zverev complains that he is the only player who has had \"to explain why it's OK\" for him to be top of the rankings.",
-    "published": "2026-11-04T17:08:45+00:00",
-    "outlets": 1,
-    "score": 0.447
-   }
-  ],
-  "Entertainment": [
-   {
-    "id": "variety-s-10-comics-to-watch-for-2026",
-    "title": "Variety’s 10 Comics to Watch for 2026",
-    "link": "https://variety.com/lists/variety-10-comics-to-watch-2026/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "Since the turn of the century, Variety has scoped out the next generation of comedy stars through our annual 10 Comics to Watch franchise. The inaugural lineup in 2000 included future…",
-    "published": "2026-11-04T20:00:00+00:00",
-    "outlets": 1,
-    "score": 0.981
-   },
-   {
-    "id": "a24-on-top-with-bigger-budgets-better-box-office-and-splashy",
-    "title": "A24 on Top: With Bigger Budgets, Better Box Office and Splashy IP, Is it Finally Time to Sell?",
-    "link": "https://variety.com/2026/film/news/a24-biggest-year-backrooms-elden-ring-1236938874/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "“Elden Ring,” one of the most popular video games of all time, takes place in a fantasy realm called the Lands Between — a space between life and death where humans battle gods and…",
-    "published": "2026-11-04T20:00:00+00:00",
-    "outlets": 1,
-    "score": 0.676
-   },
-   {
-    "id": "celebrity-hairstylist-john-frieda-dies-aged-75",
-    "title": "Celebrity hairstylist John Frieda dies aged 75",
-    "link": "https://www.bbc.co.uk/news/articles/crlykl5gl3x4o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Entertainment",
-    "topic": "Entertainment",
-    "summary": "He was stylist to the stars in the 1960s and 1970s before creating a global range of hair products.",
-    "published": "2026-11-04T10:52:39+00:00",
-    "outlets": 1,
-    "score": 0.621
-   },
-   {
-    "id": "matt-friend-signs-with-range-media-partners-exclusive",
-    "title": "Matt Friend Signs With Range Media Partners (EXCLUSIVE)",
-    "link": "https://variety.com/2026/tv/news/matt-friend-range-media-partners-1236938846/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "Matt Friend has signed with Range Media Partners for representation. The 28-year-old comedian has gone viral on social media for his arsenal of impressions, which includes 250 distinct…",
-    "published": "2026-11-04T19:30:00+00:00",
-    "outlets": 1,
-    "score": 0.503
-   },
-   {
-    "id": "netflix-s-trinity-sets-december-release-date-drops-tense-new",
-    "title": "Netflix’s ‘Trinity’ Sets December Release Date, Drops Tense New Trailer (TV News Roundup)",
-    "link": "https://variety.com/2026/tv/news/tv-news-roundup-week-of-nov-2-1236937906/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "Thriller series “Trinity” has been set for December release at Netflix. A new trailer gives a first look at Gugu Mbatha-Raw (“Lift,” “Surface”) and Richard Madden (“Eternals,” “Citadel”)…",
-    "published": "2026-11-04T19:22:55+00:00",
-    "outlets": 1,
-    "score": 0.405
-   },
-   {
-    "id": "tributes-paid-to-drummer-with-dozens-of-number-ones",
-    "title": "Tributes paid to drummer with dozens of number ones",
-    "link": "https://www.bbc.co.uk/news/articles/c317kjwj18wzo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Entertainment",
-    "topic": "Entertainment",
-    "summary": "Amarillo singer Tony Christie says Clem Cattini was a \"world class\" musician and gentleman.",
-    "published": "2026-11-04T17:23:26+00:00",
-    "outlets": 1,
-    "score": 0.366
-   }
-  ],
-  "Local": [
-   {
-    "id": "jackie-elward-declares-victory-in-north-bay-assembly-race-ta",
-    "title": "Jackie Elward Declares Victory in North Bay Assembly Race Targeted by Silicon Valley",
-    "link": "https://ww2.kqed.org/news/2026/11/04/jackie-elward-declares-victory-in-north-bay-assembly-race-targeted-by-silicon-valley/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "Tech-funded super PACs spent millions in the race for Assembly District 12, but analysts say the deluge of outside spending backfired.",
-    "published": "2026-11-04T19:32:13+00:00",
-    "outlets": 1,
-    "score": 0.958
-   },
-   {
-    "id": "lurie-backed-propositions-appear-headed-to-victory-in-san-fr",
-    "title": "Lurie-Backed Propositions Appear Headed to Victory in San Francisco",
-    "link": "https://ww2.kqed.org/news/2026/11/04/lurie-backed-propositions-appear-headed-to-victory-in-san-francisco/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "Two competitive seats on the Board of Supervisors were on the ballot, too.",
-    "published": "2026-11-04T18:49:43+00:00",
-    "outlets": 1,
-    "score": 0.638
-   },
-   {
-    "id": "valkyries-parade-draws-thousands-to-san-francisco-s-embarcad",
-    "title": "Valkyries Parade Draws Thousands to San Francisco’s Embarcadero for WNBA Championship Celebration",
-    "link": "https://ww2.kqed.org/news/2026/11/04/valkyries-parade-draws-thousands-to-san-franciscos-embarcadero-for-wnba-championship-celebration/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "The Bay Area’s WNBA team, only in its second year, is the fastest expansion team to win a WNBA championship title.",
-    "published": "2026-11-04T18:00:00+00:00",
-    "outlets": 1,
-    "score": 0.467
-   },
-   {
-    "id": "lee-triumphs-in-oakland-mayor-s-race-strong-mayor-measure-le",
-    "title": "Lee Triumphs in Oakland Mayor’s Race; ‘Strong Mayor’ Measure Leading",
-    "link": "https://ww2.kqed.org/news/2026/11/04/lee-headed-for-victory-in-oakland-mayors-race-strong-mayor-measure-leading/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "Eighteen months after taking the city’s reins in the midst of a major political scandal and budget crisis, voters give Barbara Lee the nod to lead the city for next four years. A measure…",
-    "published": "2026-11-04T17:43:44+00:00",
-    "outlets": 1,
-    "score": 0.372
-   },
-   {
-    "id": "cinema-is-so-back-and-gen-z-is-behind-it",
-    "title": "Cinema Is So Back. And Gen Z Is Behind It.",
-    "link": "https://ww2.kqed.org/news/2026/11/04/cinema-is-so-back-and-gen-z-is-behind-it/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "Internet culture reporter Candice Lim explores the rise of the Gen Z cinephile movement.",
-    "published": "2026-11-04T11:00:00+00:00",
-    "outlets": 1,
-    "score": 0.223
-   },
-   {
-    "id": "election-night-at-kqed",
-    "title": "Election Night at KQED",
-    "link": "https://ww2.kqed.org/news/2026/11/04/behind-the-scenes-election-night-at-kqed/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "Behind the scenes of KQED's midterm election coverage, and decisive results as of Tuesday night.",
-    "published": "2026-11-04T11:00:00+00:00",
-    "outlets": 1,
-    "score": 0.192
-   }
-  ],
-  "Tech": [
-   {
-    "id": "nothing-teases-a-screen-free-ai-device-ahead-of-launch-next",
-    "title": "Nothing teases a screen-free AI device ahead of launch next month",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "Nothing CEO Carl Pei said in a post on X that the company's launching its first AI device in December. That's just a little over a year after Pei announced plans for \"AI-native\" devices…",
-    "published": "2026-11-04T18:51:06+00:00",
-    "outlets": 1,
-    "score": 0.926
-   },
-   {
-    "id": "people-say-they-want-small-smartphones-the-enough-phone-will",
-    "title": "People say they want small smartphones—the Enough Phone will put that to the test",
-    "link": "https://arstechnica.com/gadgets/2026/11/people-say-they-want-small-smartphones-the-enough-phone-will-put-that-to-the-test/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "It won't win the specs race, but it will actually fit in your hand.",
-    "published": "2026-11-04T18:00:40+00:00",
-    "outlets": 1,
-    "score": 0.888
-   },
-   {
-    "id": "apple-will-check-shared-icloud-links-for-harmful-content",
-    "title": "Apple will check shared iCloud links for ‘harmful content’",
-    "link": "https://www.theverge.com/tech/1026604/apple-icloud-links-harmful-content-27-3",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "Apple will start checking iCloud items that are accessible to anyone who has the link for \"harmful content\" starting with iOS 27.3 and other 27.3 updates, the company says. \"When you share…",
-    "published": "2026-11-04T18:32:01+00:00",
-    "outlets": 1,
-    "score": 0.628
-   },
-   {
-    "id": "binance-says-hackers-who-stole-billions-in-crypto-spent-mont",
-    "title": "Binance says hackers who stole billions in crypto spent months planning heist",
-    "link": "https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "Techniques included laptop infections, compromised internal tooling, and fake job interviews.",
-    "published": "2026-11-04T16:06:03+00:00",
-    "outlets": 1,
-    "score": 0.556
-   },
-   {
-    "id": "my-therapist-thinks-i-should-chuck-the-amazon-bee-frontier-o",
-    "title": "My therapist thinks I should chuck the Amazon Bee Frontier out a window",
-    "link": "https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life.…",
-    "published": "2026-11-04T17:41:01+00:00",
-    "outlets": 1,
-    "score": 0.46
-   },
-   {
-    "id": "what-i-learned-driving-the-slate-electric-truck-prototype",
-    "title": "What I learned driving the Slate electric truck prototype",
-    "link": "https://arstechnica.com/cars/2026/11/what-i-learned-driving-the-slate-electric-truck-prototype/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "After 45 minutes behind the wheel, I am more optimistic about the $25,000 EV.",
-    "published": "2026-11-04T15:42:18+00:00",
-    "outlets": 1,
-    "score": 0.416
-   }
-  ],
-  "Finance": [
-   {
-    "id": "10-year-treasury-yield-slides-as-traders-mull-over-democrats",
-    "title": "10-year Treasury yield slides as traders mull over Democrats' midterm victories, oil prices drop",
-    "link": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
-    "source": "CNBC Finance",
-    "topic": "Finance",
-    "summary": "Treasury yields were last little changed Wednesday as investors weighed big wins from Democrats in the U.S. midterm elections.",
-    "published": "2026-11-04T17:11:00+00:00",
-    "outlets": 1,
-    "score": 0.852
-   },
-   {
-    "id": "binance-breach-puts-custody-at-center-of-crypto-infrastructu",
-    "title": "Binance breach puts custody at center of crypto infrastructure trade",
-    "link": "https://www.cnbc.com/2026/11/03/binance-breach-puts-custody-at-center-of-crypto-infrastructure-trade.html",
-    "source": "CNBC Investing",
-    "topic": "Finance",
-    "summary": "Lessons from the $6.3 billion Binance hack could help shape the next phase of the crypto infrastructure trade.",
-    "published": "2026-11-03T20:13:37+00:00",
-    "outlets": 1,
-    "score": 0.35
-   },
-   {
-    "id": "blackstone-president-calls-for-more-equity-to-fund-ai-buildo",
-    "title": "Blackstone president calls for more equity to fund AI buildout as debt risks mount",
-    "link": "https://www.cnbc.com/2026/11/03/equity-ai-debt-blackstone-pimco-financing.html",
-    "source": "CNBC Finance",
-    "topic": "Finance",
-    "summary": "Blackstone President Jon Gray says AI infrastructure needs more equity as debt investors face concentration risks amid massive spending plans.",
-    "published": "2026-11-03T06:46:36+00:00",
+    "summary": "Historically, most physicians who served in the House or Senate have been Republicans. In the next Congress, physicians who are Democrats made significant gains.",
+    "published": "2026-11-04T20:46:26+00:00",
     "outlets": 1,
     "score": 0.241
-   },
-   {
-    "id": "fannie-mae-freddie-mac-rally-as-ackman-presses-for-conservat",
-    "title": "Fannie Mae, Freddie Mac rally as Ackman presses for conservatorship exit",
-    "link": "https://www.cnbc.com/2026/11/03/ackman-fannie-mae-freddie-mac-conservatorship.html",
-    "source": "CNBC Investing",
-    "topic": "Finance",
-    "summary": "The midterm elections could be a turning point for the release of Fannie Mae and Freddie Mac from government control, according to Bill Ackman.",
-    "published": "2026-11-03T20:52:14+00:00",
-    "outlets": 1,
-    "score": 0.241
-   },
-   {
-    "id": "dow-surges-1-500-points-after-democrats-take-control-of-cong",
-    "title": "Dow surges 1,500 points after Democrats take control of Congress",
-    "link": "https://www.cbsnews.com/news/stock-market-soar-democrats-take-control-of-congress/",
-    "source": "CBS News",
-    "topic": "Finance",
-    "summary": "The prospect of political gridlock in Washington, D.C., will limit lawmakers' ability to pass sweeping tax and spending packages, according to Wall Street analysts.",
-    "published": "2026-11-04T19:15:37+00:00",
-    "outlets": 1,
-    "score": 0.225
-   },
-   {
-    "id": "texas-governor-race-tightens-in-prediction-markets-but-abbot",
-    "title": "Texas governor race tightens in prediction markets, but Abbott remains favored",
-    "link": "https://www.cnbc.com/2026/11/02/texas-governor-prediction-markets-abbott-hinojosa.html",
-    "source": "CNBC Finance",
-    "topic": "Finance",
-    "summary": "Prediction markets still show the Republican incumbent favored to win a fourth term, but the odds have narrowed in recent weeks.",
-    "published": "2026-11-03T13:33:11+00:00",
-    "outlets": 1,
-    "score": 0.184
-   }
-  ],
-  "Economy": [
-   {
-    "id": "elon-musk-s-millions-fail-to-deliver-texas-for-the-republica",
-    "title": "Elon Musk's millions fail to deliver Texas for the Republicans in fierce midterms",
-    "link": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "The billionaire's political action committee (Pac) contributed $47m (£35m) to Ken Paxton's campaign.",
-    "published": "2026-11-04T15:51:37+00:00",
-    "outlets": 1,
-    "score": 0.797
-   },
-   {
-    "id": "poundland-owner-in-crunch-talks-as-retailer-s-collapse-looms",
-    "title": "Poundland owner in crunch talks as retailer's collapse looms",
-    "link": "https://www.bbc.co.uk/news/articles/ck240mm3e42do?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "Gordon Brothers will meet Jonathan Reynolds on Wednesday as the investment firm faces scrutiny over Poundland.",
-    "published": "2026-11-04T19:44:46+00:00",
-    "outlets": 1,
-    "score": 0.668
-   },
-   {
-    "id": "kellogg-s-admits-snap-crackle-and-pop-is-quieter-after-uproa",
-    "title": "Kellogg's admits snap, crackle and pop is quieter after uproar over Rice Krispies recipe change",
-    "link": "https://www.bbc.co.uk/news/articles/cqvg0y44ym7vo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "The cereal giant has changed the recipes for Rice Krispies and Coco Pops, sparking a backlash online.",
-    "published": "2026-11-04T19:38:53+00:00",
-    "outlets": 1,
-    "score": 0.41
-   },
-   {
-    "id": "uk-and-eu-agree-draft-deal-to-scrap-brexit-red-tape-over-foo",
-    "title": "UK and EU agree draft deal to scrap Brexit red tape over food exports",
-    "link": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "The food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.",
-    "published": "2026-11-03T20:53:03+00:00",
-    "outlets": 1,
-    "score": 0.184
-   },
-   {
-    "id": "binance-says-fake-job-interviews-used-as-part-of-6-3bn-crypt",
-    "title": "Binance says fake job interviews used as part of $6.3bn crypto hack",
-    "link": "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "An engineer was contacted through a legitimate job-hunting platform and invited to bogus job interviews with fake company representatives, Binance says.",
-    "published": "2026-11-03T16:19:29+00:00",
-    "outlets": 1,
-    "score": 0.125
-   },
-   {
-    "id": "graduates-are-managing-ai-but-are-they-learning-much-else",
-    "title": "Graduates are managing AI - but are they learning much else?",
-    "link": "https://www.bbc.co.uk/news/articles/c820vz6wyp65o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "Graduates are spending more time managing AI, but are they missing out on other work experience?",
-    "published": "2026-11-04T00:04:35+00:00",
-    "outlets": 1,
-    "score": 0.111
-   }
-  ],
-  "World": [
-   {
-    "id": "abdul-el-sayed-welcomes-trump-s-plan-to-cut-israel-aid-calls",
-    "title": "Abdul El-Sayed welcomes Trump's plan to cut Israel aid, calls for end to arms sales",
-    "link": "https://www.npr.org/2026/11/04/nx-s1-6028702/abdul-el-sayed-michigan-senate-israel-aid",
-    "source": "NPR World",
-    "topic": "World",
-    "summary": "Michigan's first Muslim senator-elect, Abdul El-Sayed, discusses his historic victory, an unlikely agreement with Trump on Israel military aid and the political divisions that remain.",
-    "published": "2026-11-04T13:38:09+00:00",
-    "outlets": 1,
-    "score": 0.713
-   },
-   {
-    "id": "us-midterm-results-a-victory-for-canadians-hopeful-of-tariff",
-    "title": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
-    "link": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "topic": "World",
-    "summary": "With Canada-US trade talks back on, Tuesday’s midterm Democratic wave puts pressure on the White House to come to a deal.",
-    "published": "2026-11-04T18:01:31+00:00",
-    "outlets": 1,
-    "score": 0.613
-   },
-   {
-    "id": "ukraine-says-bodycam-video-shows-deadly-russian-double-tap-b",
-    "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
-    "link": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "topic": "World",
-    "summary": "At least 40 people were killed and another 30 may still be under the rubble after Monday's attack on a Ukrainian village, Kyiv says.",
-    "published": "2026-11-04T20:22:40+00:00",
-    "outlets": 1,
-    "score": 0.526
-   },
-   {
-    "id": "the-world-is-reacting-to-the-democrats-sweeping-midterm-elec",
-    "title": "The world is reacting to the Democrats' sweeping midterm elections victory",
-    "link": "https://www.npr.org/2026/11/04/nx-s1-6028664/world-reacts-midterm-elections",
-    "source": "NPR World",
-    "topic": "World",
-    "summary": "From Kyiv to Moscow, and Tehran to Tel Aviv, all eyes were on the Democrats big win as foreign powers weigh how a flipped Congress will affect international relations.",
-    "published": "2026-11-04T12:34:35+00:00",
-    "outlets": 1,
-    "score": 0.467
-   },
-   {
-    "id": "democrats-seize-full-control-of-congress-and-which-candidate",
-    "title": "Democrats seize full control of Congress. And, which candidates made history last night",
-    "link": "https://www.npr.org/2026/11/04/g-s1-151745/up-first-newsletter-midterms-democrats-congress-control",
-    "source": "NPR World",
-    "topic": "World",
-    "summary": "Democrats have won the House and the Senate, taking full control of Congress for the first time since 2023. And history was made in several states. Here's what happened last night.",
-    "published": "2026-11-04T12:18:39+00:00",
-    "outlets": 1,
-    "score": 0.351
-   },
-   {
-    "id": "french-blood-storage-impacted-by-freezer-hacks-as-theories-s",
-    "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
-    "link": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "topic": "World",
-    "summary": "The French Blood Establishment (EFS) said cold rooms storing blood were impacted by hackers.",
-    "published": "2026-11-04T16:26:15+00:00",
-    "outlets": 1,
-    "score": 0.349
    }
   ]
  }
