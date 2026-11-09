@@ -135,8 +135,15 @@ def keyword_topic(text, default):
 
 def main():
     la = dt.datetime.now(ZoneInfo("America/Los_Angeles"))
-    if not os.environ.get("FORCE") and la.hour not in (6, 12, 18):
-        print(f"Skipping: it is {la:%H:%M} in Los Angeles, not a 6 AM / 12 PM / 6 PM update.")
+    # The newest 6 AM / 12 PM / 6 PM (Pacific) slot that has already started. GitHub's scheduler runs late or skips runs,
+    # so the workflow fires often and this decides whether the current slot still needs its update.
+    slot = max(c for c in (la.replace(hour=h, minute=0, second=0, microsecond=0) - dt.timedelta(days=d) for d in (0, 1) for h in (6, 12, 18)) if c <= la)
+    try:
+        last = dt.datetime.fromisoformat(json.load(open("news.json"))["generated"])
+    except Exception:
+        last = None
+    if not os.environ.get("FORCE") and last and last >= slot:
+        print(f"Skipping: news.json ({last:%m-%d %H:%M} UTC) is already current for the {slot:%H:%M} Pacific update.")
         return 0
     now = dt.datetime.now(dt.timezone.utc)
     prev = []

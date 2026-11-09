@@ -2,9 +2,8 @@ name: Update news
 
 on:
   schedule:
-    # 6 AM, 12 PM and 6 PM Pacific. Both UTC hours for each slot are listed so it works in standard and daylight time;
-    # the script only runs when it is actually 6, 12 or 18 o'clock in Los Angeles.
-    - cron: '7 13,14,19,20,1,2 * * *'
+    # Checked every 30 minutes; the script only fetches once per 6 AM / 12 PM / 6 PM Pacific slot (GitHub delays or skips scheduled runs, so one run per slot is not reliable).
+    - cron: '7,37 * * * *'
   workflow_dispatch:
 
 permissions:
