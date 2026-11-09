@@ -61,7 +61,7 @@ Events have an optional **To** date (for trips and other multi-day plans). A ran
 
 Tap the Calendar card's title (or its expand icon) to open a full-screen, Outlook-style month: multi-day events are drawn as bars across the days they cover, colored by tag, with a legend (Travel, Important Days, Friends, Family, any tags you add, Other, Holidays). Tap a legend item to hide or show that group, tap a day to see and add events for it.
 
-News rotation: the News card steps through Top 5 and then each topic every 10 seconds (favorites first). Tapping a topic pauses it for 45 seconds; hovering, opening a sheet or editing layout also pauses it, and the footer button turns rotation off or on.
+News rotation (off by default; the footer link turns it on): the News card steps through Top 5 and then each topic every 10 seconds (favorites first). Tapping a topic pauses it for 45 seconds; hovering, opening a sheet or editing layout also pauses it, and the footer button turns rotation off or on.
 
 The news workflow checks every 30 minutes and fetches once per 6 AM / 12 PM / 6 PM Pacific slot (GitHub's scheduler often runs late or skips runs, so a single run per slot was unreliable).
 

@@ -800,7 +800,7 @@ $('#kpiTiles').addEventListener('click', e => { const k = e.target.closest('[dat
 
 /* ================= cards / grid ================= */
 /* ================= news (news.json is rebuilt at 6 AM, 12 PM and 6 PM Pacific by a GitHub Action) ================= */
-let news = null, newsState = 'loading', newsView = 'top', newsAuto = true, newsPauseUntil = 0;
+let news = null, newsState = 'loading', newsView = 'top', newsAuto = false, newsPauseUntil = 0;
 const newsColor = t => NEWS_COLORS[t] || '#8a8f98';
 const ago = iso => { const m = Math.max(0, Math.round((Date.now() - new Date(iso)) / 60000)); return m < 60 ? (m < 2 ? 'just now' : m + ' min ago') : m < 1440 ? Math.round(m / 60) + ' hr ago' : Math.round(m / 1440) + ' d ago'; };
 function renderNews(center) {
