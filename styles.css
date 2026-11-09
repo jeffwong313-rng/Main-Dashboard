@@ -499,15 +499,11 @@ body.editing .pin-btn, body.editing .grab-hand { display: none; }
 /* ---- news ---- */
 .newslist { list-style: none; margin: 8px 0 0; padding: 0; }
 .newsrow + .newsrow { border-top: 1px solid var(--line, rgba(128,128,128,.22)); }
-.newsrow a { display: grid; grid-template-columns: 84px 1fr; column-gap: 10px; align-items: start; padding: 10px 0; color: inherit; text-decoration: none; }
-.newsrow .evtag { grid-row: 1 / span 2; margin-top: 2px; }
 .newsrow .nt { font-weight: 600; line-height: 1.3; }
 .newsrow a:hover .nt { text-decoration: underline; }
-.newsrow .meta { grid-column: 2; margin-top: 3px; }
 .newsfav { margin-top: 8px; border: 1px dashed color-mix(in srgb, var(--accent) 50%, transparent); background: transparent; color: inherit; border-radius: 999px; padding: 5px 12px; font: inherit; font-size: 13px; cursor: pointer; }
 .newsfav.on { background: color-mix(in srgb, var(--accent) 22%, transparent); border-style: solid; font-weight: 650; }
 .newsfoot { margin: 8px 0 0; font-size: 12px; opacity: .65; }
-.newsrow .evtag { width: 84px; max-width: 84px; }
 
 /* Next up stretches across the free space in the header */
 @media (min-width: 700px) {
@@ -585,3 +581,15 @@ dialog.sheet.cal-full .sheet-body { padding: 4px max(14px, env(safe-area-inset-l
 .tokrow { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin: 8px 0; font-size: 13px; }
 .tokbtn { max-width: 100%; padding: 6px 12px; border-radius: 10px; background: var(--field); font: 600 12.5px ui-monospace, monospace; color: var(--text); overflow-wrap: anywhere; text-align: left; }
 .newsauto { margin-left: 8px; font-size: 12px; opacity: .8; text-decoration: underline; color: inherit; }
+
+/* ---- news: swipeable topic row, roomier headlines ---- */
+.card[data-id="news"] .rchips { flex-wrap: nowrap; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x proximity; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding: 2px 18px 6px 2px; margin: 0 -4px; mask-image: linear-gradient(90deg, #000 calc(100% - 28px), transparent); -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 28px), transparent); }
+.card[data-id="news"] .rchips::-webkit-scrollbar { display: none; }
+.card[data-id="news"] .rchip { flex: none; scroll-snap-align: center; min-height: 36px; padding: 6px 14px; font-size: 14px; }
+.newsrow a { display: block; padding: 12px 2px; }
+.newsrow .nh { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; min-width: 0; }
+.newsrow .nh .evtag { width: auto; max-width: none; margin: 0; padding: 2px 9px; flex: none; }
+.newsrow .nh .meta { margin: 0; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.newsrow .nt { display: block; font-size: 15.5px; line-height: 1.35; }
+.newsrow a, .newsrow a:hover { color: inherit; text-decoration: none; }
+.newsrow a:hover .nt { text-decoration: underline; }

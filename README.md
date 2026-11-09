@@ -64,3 +64,5 @@ Tap the Calendar card's title (or its expand icon) to open a full-screen, Outloo
 News rotation: the News card steps through Top 5 and then each topic every 10 seconds (favorites first). Tapping a topic pauses it for 45 seconds; hovering, opening a sheet or editing layout also pauses it, and the footer button turns rotation off or on.
 
 The news workflow checks every 30 minutes and fetches once per 6 AM / 12 PM / 6 PM Pacific slot (GitHub's scheduler often runs late or skips runs, so a single run per slot was unreliable).
+
+News card: the topic chips are a swipeable single row (swipe or scroll sideways, tap one to open it); touching the row pauses the 10-second rotation. Each headline shows its topic tag and source on top with the title at full width below.
