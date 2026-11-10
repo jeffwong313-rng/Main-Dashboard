@@ -1,17 +1,39 @@
 {
- "generated": "2026-11-10T00:22:49+00:00",
- "generatedLocal": "2026-11-09 16:22",
+ "generated": "2026-11-10T07:40:22+00:00",
+ "generatedLocal": "2026-11-09 23:40",
  "top": [
   {
-   "id": "russell-brand-sentenced-to-10-and-a-half-years-in-prison-for",
-   "title": "Russell Brand sentenced to 10-and-a-half years in prison for rape and sexual assault",
-   "link": "https://www.bbc.co.uk/news/articles/ckzd6dl18dmyo?at_medium=RSS&at_campaign=rss",
+   "id": "california-voters-defeat-billionaire-tax-proposal-that-divid",
+   "title": "California voters defeat billionaire tax proposal that divided Democrats",
+   "link": "https://www.npr.org/2026/11/09/g-s1-151625/california-billionaire-tax-referendum",
+   "source": "NPR National",
+   "topic": "U.S.",
+   "summary": "The novel proposal would have charged billionaires a one-time 5% tax on most of their overall wealth, including their ownership in companies.",
+   "published": "2026-11-10T03:23:00+00:00",
+   "outlets": 2,
+   "score": 2.002
+  },
+  {
+   "id": "trump-says-fbi-investigating-nvidia-boss-s-affair-with-alleg",
+   "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+   "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "topic": "World",
+   "summary": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
+   "published": "2026-11-10T03:58:13+00:00",
+   "outlets": 2,
+   "score": 1.22
+  },
+  {
+   "id": "russell-brand-s-ex-jemima-goldsmith-accuses-him-of-violence",
+   "title": "Russell Brand's ex Jemima Goldsmith accuses him of violence and abuse against her",
+   "link": "https://www.bbc.co.uk/news/articles/c95ynylr8j6xo?at_medium=RSS&at_campaign=rss",
    "source": "BBC Entertainment",
    "topic": "Entertainment",
-   "summary": "The disgraced entertainer was sentenced on Monday following a four-week trial at Southwark Crown Court.",
-   "published": "2026-11-09T17:31:08+00:00",
-   "outlets": 2,
-   "score": 1.619
+   "summary": "Goldsmith accuses the disgraced entertainer of \"violence, coercive control and abuse\" while the two were together.",
+   "published": "2026-11-10T02:59:42+00:00",
+   "outlets": 1,
+   "score": 1.029
   },
   {
    "id": "france-accuses-iran-of-cyber-sabotage-in-fridge-attacks",
@@ -22,29 +44,51 @@
    "summary": "France says Iranian military hackers took over refrigeration controllers at around 700 different retail sites last month, turning up temperatures in the middle of the night and spoiling…",
    "published": "2026-11-09T22:30:49+00:00",
    "outlets": 2,
-   "score": 1.476
+   "score": 1.0
   },
   {
-   "id": "trump-says-fbi-investigating-nvidia-boss-s-affair-with-alleg",
-   "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
-   "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC World",
-   "topic": "World",
-   "summary": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
-   "published": "2026-11-09T23:59:50+00:00",
-   "outlets": 5,
-   "score": 1.471
-  },
-  {
-   "id": "fda-warns-of-rare-vision-loss-side-effect-from-glp-1-drugs",
-   "title": "FDA warns of rare vision-loss side effect from GLP-1 drugs",
-   "link": "https://www.cbsnews.com/news/glp-1-vision-loss-side-effect-warning-fda/",
-   "source": "CBS News",
-   "topic": "U.S.",
-   "summary": "The Food and Drug Administration is adding a new warning about possible rare cases of vision loss reported with GLP-1 drugs like Ozempic, Wegovy and other brands.",
-   "published": "2026-11-10T00:09:36+00:00",
+   "id": "artificial-star-andrew-garfield-recalls-believing-openai-s",
+   "title": "‘Artificial’ Star Andrew Garfield Recalls Believing OpenAI’s Sam Altman Was ‘Genuinely Great’ and Could Be ‘My Future Best Friend’",
+   "link": "https://variety.com/2026/film/columns/artificial-andrew-garfield-sam-altman-great-best-friend-1236943645/",
+   "source": "Variety",
+   "topic": "Entertainment",
+   "summary": "Andrew Garfield’s portrayal of Sam Altman in “Artificial” is less than flattering, but there was a time when the actor deeply admired the OpenAI co-founder and CEO. “The first time I saw…",
+   "published": "2026-11-10T07:06:01+00:00",
    "outlets": 1,
-   "score": 1.187
+   "score": 0.972
+  },
+  {
+   "id": "california-billionaire-tax-fails-to-pass",
+   "title": "California Billionaire Tax Fails to Pass",
+   "link": "https://ww2.kqed.org/news/2026/11/09/california-billionaire-tax-trails-in-early-results/",
+   "source": "KQED",
+   "topic": "Local",
+   "summary": "Proposition 40 would have imposed a one-time wealth tax on the state's billionaires. Proposition 42, a billionaire-backed countermeasure, is leading.",
+   "published": "2026-11-10T05:29:00+00:00",
+   "outlets": 1,
+   "score": 0.896
+  },
+  {
+   "id": "six-lessons-learned-from-nfl-week-9-arvell-reese-a-superstar",
+   "title": "Six lessons learned from NFL Week 9: Arvell Reese a superstar in the making, C.J. Stroud having career year",
+   "link": "https://www.cbssports.com/nfl/news/six-lessons-nfl-week-9-arvell-reese-c-j-stroud/",
+   "source": "CBS Sports",
+   "topic": "Sports",
+   "summary": "Plus, there's a bell cow running back emerging for one of the NFL's best teams",
+   "published": "2026-11-10T04:44:19+00:00",
+   "outlets": 1,
+   "score": 0.864
+  },
+  {
+   "id": "david-ellison-says-ai-could-be-the-biggest-creative-unlock-i",
+   "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+   "link": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+   "source": "The Verge",
+   "topic": "Tech",
+   "summary": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about…",
+   "published": "2026-11-10T00:28:49+00:00",
+   "outlets": 1,
+   "score": 0.698
   },
   {
    "id": "everything-we-know-so-far-about-the-nvidia-spy-scandal-targe",
@@ -53,31 +97,9 @@
    "source": "The Verge",
    "topic": "Tech",
    "summary": "The leather-jacketed CEO of Nvidia, Jensen Huang, has acknowledged an affair with Megaspeed exec Alice Huang, spurring an investigation by his company and intense discussions worldwide.…",
-   "published": "2026-11-09T23:49:36+00:00",
-   "outlets": 2,
-   "score": 1.007
-  },
-  {
-   "id": "use-betmgm-bonus-code-cbssports-to-get-1-500-in-bonus-bets-f",
-   "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 in bonus bets for Bills vs. Vikings, NFL Monday Night Football",
-   "link": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-bills-vs-vikings-nfl-monday-night-football/",
-   "source": "CBS Sports",
-   "topic": "Sports",
-   "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for Bills vs. Vikings on Monday Night Football",
-   "published": "2026-11-10T00:13:13+00:00",
-   "outlets": 1,
-   "score": 0.992
-  },
-  {
-   "id": "what-could-china-get-from-jensen-huang",
-   "title": "What could China get from Jensen Huang?",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
-   "source": "The Verge",
-   "topic": "Tech",
-   "summary": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has…",
-   "published": "2026-11-10T00:07:10+00:00",
-   "outlets": 1,
-   "score": 0.987
+   "published": "2026-11-10T01:04:57+00:00",
+   "outlets": 3,
+   "score": 0.685
   },
   {
    "id": "man-utd-expected-to-sack-head-coach-carrick",
@@ -88,18 +110,62 @@
    "summary": "Michael Carrick's Manchester United reign appears close to an end following the club's worst start to a domestic campaign in 40 years.",
    "published": "2026-11-09T23:13:31+00:00",
    "outlets": 1,
-   "score": 0.944
+   "score": 0.655
   },
   {
-   "id": "bong-joon-ho-on-restoring-the-host-and-why-it-still-resonate",
-   "title": "Bong Joon Ho on Restoring ‘The Host’ and Why It Still Resonates 20 Years On: ‘We Are Repeating Our Mistakes’",
-   "link": "https://variety.com/2026/film/news/bong-joon-ho-the-host-restoration-20-years-1236943560/",
+   "id": "these-house-and-senate-midterm-races-don-t-have-winners-yet",
+   "title": "These House and Senate midterm races don't have winners yet",
+   "link": "https://www.cbsnews.com/news/2026-midterm-election-house-senate-projections-toss-up/",
+   "source": "CBS News",
+   "topic": "Politics",
+   "summary": "Democrats won sizable House and Senate majorities in the 2026 midterm elections, but the exact margins are unclear because some races haven't been projected yet. Here's where the results…",
+   "published": "2026-11-10T03:00:27+00:00",
+   "outlets": 1,
+   "score": 0.655
+  },
+  {
+   "id": "cast-your-vote-for-bbc-women-s-footballer-of-the-year-2026",
+   "title": "Cast your vote for BBC Women's Footballer of the Year 2026",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cj20velkgnypo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "topic": "Sports",
+   "summary": "Voting is now open for the BBC Women's Footballer of the Year 2026, with five players on the shortlist.",
+   "published": "2026-11-10T06:24:50+00:00",
+   "outlets": 1,
+   "score": 0.648
+  },
+  {
+   "id": "faisal-islam-what-jensen-huang-told-me-about-china-national",
+   "title": "Faisal Islam: What Jensen Huang told me about China, national security and persuading Trump",
+   "link": "https://www.bbc.co.uk/news/articles/c64g1gzy2vdzo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Business",
+   "topic": "Economy",
+   "summary": "Huang, who is now being investigated over an affair with an alleged Chinese spy, is far more important to the future of the world order than other tech bosses.",
+   "published": "2026-11-10T06:01:44+00:00",
+   "outlets": 1,
+   "score": 0.635
+  },
+  {
+   "id": "keira-knightley-says-it-means-nothing-when-fans-quote-love-a",
+   "title": "Keira Knightley Says ‘It Means Nothing’ When Fans Quote ‘Love Actually’ to Her Because She Hasn’t Watched It Since the Premiere: ‘I Don’t Remember It’",
+   "link": "https://variety.com/2026/film/news/keira-knightley-love-actually-fans-1236943826/",
    "source": "Variety",
    "topic": "Entertainment",
-   "summary": "Bong Joon Ho has revisited “The Host” for a 20th-anniversary 4K restoration, and the Oscar-winning director says the 2006 monster movie’s satire of official misinformation feels newly…",
-   "published": "2026-11-09T23:08:26+00:00",
+   "summary": "“Love Actually” might be one of the most beloved — if controversial — Christmas classics, but don’t try quoting the film to star Keira Knightley. The actress recently revealed that she…",
+   "published": "2026-11-10T05:56:13+00:00",
    "outlets": 1,
-   "score": 0.94
+   "score": 0.632
+  },
+  {
+   "id": "russell-brand-sentenced-to-10-and-a-half-years-in-prison-for",
+   "title": "Russell Brand sentenced to 10-and-a-half years in prison for rape and sexual assault",
+   "link": "https://www.bbc.co.uk/news/articles/ckzd6dl18dmyo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Entertainment",
+   "topic": "Entertainment",
+   "summary": "The disgraced entertainer was sentenced on Monday following a four-week trial at Southwark Crown Court.",
+   "published": "2026-11-09T17:31:08+00:00",
+   "outlets": 2,
+   "score": 0.629
   },
   {
    "id": "scientists-think-they-ve-found-ancient-remnants-of-dinosaur",
@@ -110,7 +176,18 @@
    "summary": "Scientists have studied plenty of dinosaur bones, eggs and footprints. Now, some think they've found their strongest evidence yet of dinosaur blood.",
    "published": "2026-11-09T22:00:49+00:00",
    "outlets": 1,
-   "score": 0.888
+   "score": 0.617
+  },
+  {
+   "id": "trump-says-more-us-attacks-on-iran-highly-unlikely",
+   "title": "Trump says more US attacks on Iran 'highly unlikely'",
+   "link": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC US & Canada",
+   "topic": "U.S.",
+   "summary": "The president says the US is keeping \"status quo\" with Iran but remains “locked and loaded” should the situation change.",
+   "published": "2026-11-10T05:33:25+00:00",
+   "outlets": 1,
+   "score": 0.616
   },
   {
    "id": "dcu-shake-up-james-gunn-and-peter-safran-out-post-merger",
@@ -121,18 +198,7 @@
    "summary": "Producer and former Kevin Feige protege Jeremy Latcham will replace Gunn and Safran.",
    "published": "2026-11-09T21:55:35+00:00",
    "outlets": 1,
-   "score": 0.885
-  },
-  {
-   "id": "supreme-court-says-border-wall-construction-can-continue-in",
-   "title": "Supreme Court says border wall construction can continue in west Texas",
-   "link": "https://www.npr.org/2026/11/09/nx-s1-6019424/border-wall-big-bend-texas-trump",
-   "source": "NPR National",
-   "topic": "U.S.",
-   "summary": "The Trump administration filed an emergency relief request with the high court earlier in October asking for the construction to continue while a lawsuit over the plan moves forward.",
-   "published": "2026-11-09T21:47:39+00:00",
-   "outlets": 1,
-   "score": 0.879
+   "score": 0.614
   },
   {
    "id": "tokenization-platform-securitize-gains-10-postmarket-on-q3-r",
@@ -143,40 +209,18 @@
    "summary": "Securitize saw growth in tokenization last quarter and announced its expansion into asset-backed finance through the acquisition of River One.",
    "published": "2026-11-09T21:24:13+00:00",
    "outlets": 1,
-   "score": 0.862
+   "score": 0.598
   },
   {
-   "id": "judge-orders-release-of-uc-berkeley-student-from-ice-custody",
-   "title": "Judge Orders Release of UC Berkeley Student From ICE Custody After SFO Arrest",
-   "link": "https://ww2.kqed.org/news/2026/11/09/judge-orders-release-of-uc-berkeley-student-from-ice-custody-after-sfo-arrest/",
-   "source": "KQED",
-   "topic": "Local",
-   "summary": "Asylum-seeker Paula Albornoz Hernandez will be released today from federal immigration detention and reunited with her family, her attorney said.",
-   "published": "2026-11-09T21:15:21+00:00",
+   "id": "nfl-week-9-grades-for-every-team-bills-earn-impressive-mark",
+   "title": "NFL Week 9 grades for every team: Bills earn impressive mark for beating Vikings, Cowboys barely pass",
+   "link": "https://www.cbssports.com/nfl/news/nfl-week-9-grades-cowboys-bengals-patriots-packers/",
+   "source": "CBS Sports",
+   "topic": "Sports",
+   "summary": "We're handing out grades for every team that played in Week 9",
+   "published": "2026-11-10T04:34:29+00:00",
    "outlets": 1,
-   "score": 0.855
-  },
-  {
-   "id": "trump-says-iran-war-at-status-quo-tells-60-minutes-there-s-n",
-   "title": "Trump says Iran war at \"status quo,\" tells 60 Minutes there's no reason to escalate conflict",
-   "link": "https://www.cbsnews.com/video/trump-says-iran-war-at-status-quo-tells-60-minutes-theres-no-reason-to-escalate-conflict/",
-   "source": "CBS News",
-   "topic": "Politics",
-   "summary": "President Trump on Monday said the Iran war \"is effectively over,\" but warned the U.S. is \"fully locked and loaded\" if the situation were to change. CBS News national security analyst…",
-   "published": "2026-11-09T23:59:56+00:00",
-   "outlets": 1,
-   "score": 0.812
-  },
-  {
-   "id": "brand-s-ex-jemima-goldsmith-accuses-him-of-violence-and-abus",
-   "title": "Brand's ex Jemima Goldsmith accuses him of violence and abuse against her",
-   "link": "https://www.bbc.co.uk/news/articles/c95ynylr8j6xo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC News",
-   "topic": "World",
-   "summary": "She accuses the disgraced performer of \"violence, coercive control and abuse\" while the two were together.",
-   "published": "2026-11-09T22:06:29+00:00",
-   "outlets": 1,
-   "score": 0.8
+   "score": 0.591
   },
   {
    "id": "jensen-huang-exit-odds-are-low-on-prediction-markets-after-n",
@@ -187,18 +231,18 @@
    "summary": "Prediction markets traders price relatively low odds that the Nvidia CEO will depart in the near term.",
    "published": "2026-11-09T18:46:01+00:00",
    "outlets": 1,
-   "score": 0.755
+   "score": 0.525
   },
   {
-   "id": "here-s-what-trump-said-he-knew-about-jensen-huang",
-   "title": "Here’s what Trump said he knew about Jensen Huang",
-   "link": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
-   "source": "The Verge",
-   "topic": "Tech",
-   "summary": "President Trump held a White House press briefing earlier today and responded to several questions about his knowledge of Nvidia CEO Jensen Huang's affair with an alleged Chinese spy.…",
-   "published": "2026-11-10T00:02:17+00:00",
+   "id": "no-reason-to-reopen-sandpaper-investigation",
+   "title": "'No reason' to reopen sandpaper investigation",
+   "link": "https://www.bbc.co.uk/sport/cricket/articles/cjzxlxrp3335o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "topic": "Sports",
+   "summary": "Cricket Australia CEO Todd Greenberg says he does not see \"any compelling reason\" to reopen the investigation into the 2018 Australia ball-tampering scandal.",
+   "published": "2026-11-10T07:31:01+00:00",
    "outlets": 1,
-   "score": 0.678
+   "score": 0.522
   },
   {
    "id": "republican-congressman-to-force-impeachment-vote-on-defence",
@@ -207,225 +251,67 @@
    "source": "BBC US & Canada",
    "topic": "U.S.",
    "summary": "The effort will likely fail, but Representative Thomas Massie wants to push Trump to fire Hegseth before Democrats can launch their own impeachment process next year.",
-   "published": "2026-11-09T23:45:14+00:00",
+   "published": "2026-11-10T01:38:49+00:00",
    "outlets": 1,
-   "score": 0.668
+   "score": 0.51
   },
   {
-   "id": "sean-penn-ava-duvernay-and-laura-poitras-turn-out-for-san-fr",
-   "title": "Sean Penn, Ava DuVernay and Laura Poitras Turn Out For San Francisco’s Doc Stories",
-   "link": "https://variety.com/2026/film/news/sean-penn-ava-duvernay-laura-poitras-doc-stories-1236943431/",
-   "source": "Variety",
-   "topic": "Entertainment",
-   "summary": "Sean Penn isn’t exactly a fixture on the regional documentary festival circuit. But SFFILM’s Doc Stories has a way of attracting high-profile supporters. On Saturday, Penn was at the…",
-   "published": "2026-11-09T23:02:06+00:00",
-   "outlets": 1,
-   "score": 0.645
-  },
-  {
-   "id": "judge-dismisses-dolly-parton-s-estate-s-lawsuit-against-her",
-   "title": "Judge dismisses Dolly Parton's estate's lawsuit against her nephew",
-   "link": "https://www.cbsnews.com/news/dolly-parton-estate-lawsuit-dismissed-nephew-bryan-seaver/",
-   "source": "CBS News",
-   "topic": "U.S.",
-   "summary": "The details of the resolution between Dolly Parton's estate and her nephew, Bryan Seaver, were not immediately known.",
-   "published": "2026-11-09T23:50:14+00:00",
-   "outlets": 1,
-   "score": 0.615
-  },
-  {
-   "id": "mice-can-learn-to-fight-by-watching-tiny-rodent-cage-matches",
-   "title": "Mice can learn to fight by watching tiny rodent cage matches, study finds",
-   "link": "https://www.npr.org/2026/11/09/nx-s1-6027938/mice-can-learn-to-fight-by-watching-tiny-rodent-cage-matches-study-finds",
-   "source": "NPR Science",
-   "topic": "Science",
-   "summary": "Brain scientists set up \"gladiator style\" cage matches for mice — and found that simply observing fighting matches can rewire a mouse's brain to resemble those who actually fought.",
-   "published": "2026-11-09T21:39:35+00:00",
-   "outlets": 1,
-   "score": 0.602
-  },
-  {
-   "id": "man-who-lost-308-000-on-sports-bets-sues-kalshi-for-offering",
-   "title": "Man who lost $308,000 on sports bets sues Kalshi for offering illegal gambling",
-   "link": "https://arstechnica.com/tech-policy/2026/11/man-who-lost-308000-on-sports-bets-sues-kalshi-for-offering-illegal-gambling/",
-   "source": "Ars Technica",
-   "topic": "Tech",
-   "summary": "Lawsuit demands Kalshi return losses because online betting is illegal in Washington.",
-   "published": "2026-11-09T21:13:39+00:00",
-   "outlets": 1,
-   "score": 0.589
-  },
-  {
-   "id": "stephen-miller-is-now-chief-of-staff-what-does-that-mean-for",
-   "title": "Stephen Miller is now chief of staff. What does that mean for Trump?",
-   "link": "https://www.npr.org/2026/11/09/nx-s1-6034461/stephen-miller-is-now-chief-of-staff-what-does-that-mean-for-trump",
-   "source": "NPR Politics",
-   "topic": "Politics",
-   "summary": "NPR's Sacha Pfeiffer speaks with Chris Whipple, an expert on White House chiefs of staff who has written extensively about Susie Wiles, about Trump's appointment of Stephen Miller.",
-   "published": "2026-11-09T21:08:40+00:00",
-   "outlets": 1,
-   "score": 0.587
-  },
-  {
-   "id": "jane-kim-victorious-in-close-california-insurance-commission",
-   "title": "Jane Kim Victorious in Close California Insurance Commissioner Race",
-   "link": "https://ww2.kqed.org/news/2026/11/09/race-for-ca-insurance-commissioner-too-close-to-call/",
+   "id": "testimony-ag-bonta-visited-oakland-housing-company-connected",
+   "title": "Testimony: AG Bonta Visited Oakland Housing Company Connected to Alleged Bribery Scheme",
+   "link": "https://ww2.kqed.org/news/2026/11/09/testimony-ag-bonta-visited-oakland-housing-company-connected-to-alleged-bribery-scheme/",
    "source": "KQED",
    "topic": "Local",
-   "summary": "Kim has held a healthy lead over state Sen. Ben Allen since election night; the Associated Press called the race over the weekend.",
-   "published": "2026-11-09T20:45:00+00:00",
+   "summary": "Rob Bonta spent nearly $470 thousand in campaign funds on legal services after being contacted by federal investigators amid the FBI's probe.",
+   "published": "2026-11-10T01:37:10+00:00",
    "outlets": 1,
-   "score": 0.575
+   "score": 0.51
+  },
+  {
+   "id": "what-happened-inside-court-as-brand-was-sentenced",
+   "title": "What happened inside court as Brand was sentenced",
+   "link": "https://www.bbc.co.uk/news/videos/cq99z9mrv35lo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC News",
+   "topic": "World",
+   "summary": "The BBC's Sima Kotecha was inside the court as the judge sentenced Brand to 10 years and six months in prison, after being convicted of rape and sexual assault.",
+   "published": "2026-11-09T20:13:41+00:00",
+   "outlets": 1,
+   "score": 0.506
   }
  ],
  "topics": {
-  "Entertainment": [
-   {
-    "id": "russell-brand-sentenced-to-10-and-a-half-years-in-prison-for",
-    "title": "Russell Brand sentenced to 10-and-a-half years in prison for rape and sexual assault",
-    "link": "https://www.bbc.co.uk/news/articles/ckzd6dl18dmyo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Entertainment",
-    "topic": "Entertainment",
-    "summary": "The disgraced entertainer was sentenced on Monday following a four-week trial at Southwark Crown Court.",
-    "published": "2026-11-09T17:31:08+00:00",
-    "outlets": 2,
-    "score": 1.619
-   },
-   {
-    "id": "bong-joon-ho-on-restoring-the-host-and-why-it-still-resonate",
-    "title": "Bong Joon Ho on Restoring ‘The Host’ and Why It Still Resonates 20 Years On: ‘We Are Repeating Our Mistakes’",
-    "link": "https://variety.com/2026/film/news/bong-joon-ho-the-host-restoration-20-years-1236943560/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "Bong Joon Ho has revisited “The Host” for a 20th-anniversary 4K restoration, and the Oscar-winning director says the 2006 monster movie’s satire of official misinformation feels newly…",
-    "published": "2026-11-09T23:08:26+00:00",
-    "outlets": 1,
-    "score": 0.94
-   },
-   {
-    "id": "sean-penn-ava-duvernay-and-laura-poitras-turn-out-for-san-fr",
-    "title": "Sean Penn, Ava DuVernay and Laura Poitras Turn Out For San Francisco’s Doc Stories",
-    "link": "https://variety.com/2026/film/news/sean-penn-ava-duvernay-laura-poitras-doc-stories-1236943431/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "Sean Penn isn’t exactly a fixture on the regional documentary festival circuit. But SFFILM’s Doc Stories has a way of attracting high-profile supporters. On Saturday, Penn was at the…",
-    "published": "2026-11-09T23:02:06+00:00",
-    "outlets": 1,
-    "score": 0.645
-   },
-   {
-    "id": "tom-brady-and-jim-harbaugh-exec-produce-the-team-michigan-fo",
-    "title": "Tom Brady and Jim Harbaugh Exec Produce ‘The Team: Michigan Football,’ Set to Debut on Fox This Month (EXCLUSIVE)",
-    "link": "https://variety.com/2026/tv/news/tom-brady-jim-harbaugh-the-team-michigan-football-fox-1236942904/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "Fox Sports has greenlighted the two-part documentary “The Team: Michigan Football,” which centers on Michigan’s college football program and its two championship eras. Shadow Lion is…",
-    "published": "2026-11-09T23:00:00+00:00",
-    "outlets": 1,
-    "score": 0.491
-   },
-   {
-    "id": "ground-force-and-homes-under-the-hammer-star-tommy-walsh-die",
-    "title": "Ground Force and Homes Under the Hammer star Tommy Walsh dies aged 69",
-    "link": "https://www.bbc.co.uk/news/articles/ck0e0elq4ndpo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Entertainment",
-    "topic": "Entertainment",
-    "summary": "The building and DIY expert also appeared on TV shows like Challenge Tommy Walsh and Clean It, Fix It.",
-    "published": "2026-11-09T15:27:00+00:00",
-    "outlets": 1,
-    "score": 0.441
-   },
-   {
-    "id": "heated-rivalry-superfans-hit-theaters-for-shane-and-ilya-on",
-    "title": "‘Heated Rivalry’ Superfans Hit Theaters for Shane and Ilya on the Big Screen: ‘They Invented Chemistry’",
-    "link": "https://variety.com/2026/tv/news/heated-rivalry-fans-theaters-rerelease-1236943493/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "A sea of women and a scattering of men packed into the Regal Sherman Oaks Galleria Sunday night for a cinematic experience. Not to see a new movie, but to celebrate the one-year…",
-    "published": "2026-11-09T22:37:42+00:00",
-    "outlets": 1,
-    "score": 0.39
-   }
-  ],
-  "World": [
-   {
-    "id": "france-accuses-iran-of-cyber-sabotage-in-fridge-attacks",
-    "title": "France accuses Iran of cyber 'sabotage' in fridge attacks",
-    "link": "https://www.npr.org/2026/11/09/g-s1-152724/france-iran-cyber-sabotage-fridge-attacks",
-    "source": "NPR World",
-    "topic": "World",
-    "summary": "France says Iranian military hackers took over refrigeration controllers at around 700 different retail sites last month, turning up temperatures in the middle of the night and spoiling…",
-    "published": "2026-11-09T22:30:49+00:00",
-    "outlets": 2,
-    "score": 1.476
-   },
-   {
-    "id": "trump-says-fbi-investigating-nvidia-boss-s-affair-with-alleg",
-    "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
-    "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "topic": "World",
-    "summary": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
-    "published": "2026-11-09T23:59:50+00:00",
-    "outlets": 5,
-    "score": 1.471
-   },
-   {
-    "id": "brand-s-ex-jemima-goldsmith-accuses-him-of-violence-and-abus",
-    "title": "Brand's ex Jemima Goldsmith accuses him of violence and abuse against her",
-    "link": "https://www.bbc.co.uk/news/articles/c95ynylr8j6xo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News",
-    "topic": "World",
-    "summary": "She accuses the disgraced performer of \"violence, coercive control and abuse\" while the two were together.",
-    "published": "2026-11-09T22:06:29+00:00",
-    "outlets": 1,
-    "score": 0.8
-   },
-   {
-    "id": "thick-smog-shrouds-new-delhi-after-diwali-firecrackers-add-t",
-    "title": "Thick smog shrouds New Delhi after Diwali firecrackers add to seasonal pollution",
-    "link": "https://www.npr.org/2026/11/09/g-s1-152634/thick-smog-shrouds-new-delhi-after-diwali-firecrackers-add-to-seasonal-pollution",
-    "source": "NPR World",
-    "topic": "World",
-    "summary": "New Delhi, home to over 30 million people, regularly ranks among the world's most polluted areas during winter, with pollution worsening in late October and November.",
-    "published": "2026-11-09T15:09:53+00:00",
-    "outlets": 1,
-    "score": 0.566
-   },
-   {
-    "id": "what-happened-inside-court-as-brand-was-sentenced",
-    "title": "What happened inside court as Brand was sentenced",
-    "link": "https://www.bbc.co.uk/news/videos/cq99z9mrv35lo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News",
-    "topic": "World",
-    "summary": "The BBC's Sima Kotecha was inside the court as the judge sentenced Brand to 10 years and six months in prison, after being convicted of rape and sexual assault.",
-    "published": "2026-11-09T20:13:41+00:00",
-    "outlets": 1,
-    "score": 0.556
-   },
-   {
-    "id": "ukraine-peace-talks-resume-with-some-flexibility-by-warring",
-    "title": "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say",
-    "link": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "topic": "World",
-    "summary": "Kyiv, Washington and Moscow are all sending delegation to the United Arab Emirates for the first trilateral talks since February.",
-    "published": "2026-11-10T00:09:49+00:00",
-    "outlets": 1,
-    "score": 0.521
-   }
-  ],
   "U.S.": [
    {
-    "id": "fda-warns-of-rare-vision-loss-side-effect-from-glp-1-drugs",
-    "title": "FDA warns of rare vision-loss side effect from GLP-1 drugs",
-    "link": "https://www.cbsnews.com/news/glp-1-vision-loss-side-effect-warning-fda/",
-    "source": "CBS News",
+    "id": "california-voters-defeat-billionaire-tax-proposal-that-divid",
+    "title": "California voters defeat billionaire tax proposal that divided Democrats",
+    "link": "https://www.npr.org/2026/11/09/g-s1-151625/california-billionaire-tax-referendum",
+    "source": "NPR National",
     "topic": "U.S.",
-    "summary": "The Food and Drug Administration is adding a new warning about possible rare cases of vision loss reported with GLP-1 drugs like Ozempic, Wegovy and other brands.",
-    "published": "2026-11-10T00:09:36+00:00",
+    "summary": "The novel proposal would have charged billionaires a one-time 5% tax on most of their overall wealth, including their ownership in companies.",
+    "published": "2026-11-10T03:23:00+00:00",
+    "outlets": 2,
+    "score": 2.002
+   },
+   {
+    "id": "trump-says-more-us-attacks-on-iran-highly-unlikely",
+    "title": "Trump says more US attacks on Iran 'highly unlikely'",
+    "link": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC US & Canada",
+    "topic": "U.S.",
+    "summary": "The president says the US is keeping \"status quo\" with Iran but remains “locked and loaded” should the situation change.",
+    "published": "2026-11-10T05:33:25+00:00",
     "outlets": 1,
-    "score": 1.187
+    "score": 0.616
+   },
+   {
+    "id": "republican-congressman-to-force-impeachment-vote-on-defence",
+    "title": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
+    "link": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&at_campaign=rss",
+    "source": "BBC US & Canada",
+    "topic": "U.S.",
+    "summary": "The effort will likely fail, but Representative Thomas Massie wants to push Trump to fire Hegseth before Democrats can launch their own impeachment process next year.",
+    "published": "2026-11-10T01:38:49+00:00",
+    "outlets": 1,
+    "score": 0.51
    },
    {
     "id": "supreme-court-says-border-wall-construction-can-continue-in",
@@ -436,29 +322,18 @@
     "summary": "The Trump administration filed an emergency relief request with the high court earlier in October asking for the construction to continue while a lawsuit over the plan moves forward.",
     "published": "2026-11-09T21:47:39+00:00",
     "outlets": 1,
-    "score": 0.879
+    "score": 0.421
    },
    {
-    "id": "republican-congressman-to-force-impeachment-vote-on-defence",
-    "title": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
-    "link": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&at_campaign=rss",
+    "id": "californians-reject-wealth-tax-for-billionaires",
+    "title": "Californians reject wealth tax for billionaires",
+    "link": "https://www.bbc.co.uk/news/articles/cq398em3032wo?at_medium=RSS&at_campaign=rss",
     "source": "BBC US & Canada",
     "topic": "U.S.",
-    "summary": "The effort will likely fail, but Representative Thomas Massie wants to push Trump to fire Hegseth before Democrats can launch their own impeachment process next year.",
-    "published": "2026-11-09T23:45:14+00:00",
+    "summary": "Proposition 40 targeted Californian billionaires with a 5% tax on their total wealth, including assets such as shares as well as income.",
+    "published": "2026-11-10T03:34:46+00:00",
     "outlets": 1,
-    "score": 0.668
-   },
-   {
-    "id": "judge-dismisses-dolly-parton-s-estate-s-lawsuit-against-her",
-    "title": "Judge dismisses Dolly Parton's estate's lawsuit against her nephew",
-    "link": "https://www.cbsnews.com/news/dolly-parton-estate-lawsuit-dismissed-nephew-bryan-seaver/",
-    "source": "CBS News",
-    "topic": "U.S.",
-    "summary": "The details of the resolution between Dolly Parton's estate and her nephew, Bryan Seaver, were not immediately known.",
-    "published": "2026-11-09T23:50:14+00:00",
-    "outlets": 1,
-    "score": 0.615
+    "score": 0.347
    },
    {
     "id": "judge-denies-motion-to-dismiss-lindsay-clancy-s-murder-case",
@@ -469,99 +344,224 @@
     "summary": "The ruling means the case can move forward, possibly with reduced charges in a new trial.",
     "published": "2026-11-09T23:28:53+00:00",
     "outlets": 1,
-    "score": 0.503
-   },
-   {
-    "id": "watch-massie-s-full-speech-introducing-impeachment-articles",
-    "title": "Watch: Massie's full speech introducing impeachment articles against Hegseth",
-    "link": "https://www.cbsnews.com/video/watch-massies-full-speech-introducing-impeachment-articles-against-hegseth/",
-    "source": "CBS News",
-    "topic": "U.S.",
-    "summary": "GOP Rep. Thomas Massie on Monday introduced new articles of impeachment against Defense Secretary Pete Hegseth. These were his full remarks from the House floor.",
-    "published": "2026-11-09T23:27:05+00:00",
-    "outlets": 1,
-    "score": 0.352
+    "score": 0.237
    }
   ],
-  "Tech": [
+  "World": [
    {
-    "id": "everything-we-know-so-far-about-the-nvidia-spy-scandal-targe",
-    "title": "Everything we know so far about the Nvidia spy scandal targeting CEO Jensen Huang",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "The leather-jacketed CEO of Nvidia, Jensen Huang, has acknowledged an affair with Megaspeed exec Alice Huang, spurring an investigation by his company and intense discussions worldwide.…",
-    "published": "2026-11-09T23:49:36+00:00",
+    "id": "trump-says-fbi-investigating-nvidia-boss-s-affair-with-alleg",
+    "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+    "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "summary": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
+    "published": "2026-11-10T03:58:13+00:00",
     "outlets": 2,
-    "score": 1.007
+    "score": 1.22
    },
    {
-    "id": "what-could-china-get-from-jensen-huang",
-    "title": "What could China get from Jensen Huang?",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has…",
-    "published": "2026-11-10T00:07:10+00:00",
-    "outlets": 1,
-    "score": 0.987
+    "id": "france-accuses-iran-of-cyber-sabotage-in-fridge-attacks",
+    "title": "France accuses Iran of cyber 'sabotage' in fridge attacks",
+    "link": "https://www.npr.org/2026/11/09/g-s1-152724/france-iran-cyber-sabotage-fridge-attacks",
+    "source": "NPR World",
+    "topic": "World",
+    "summary": "France says Iranian military hackers took over refrigeration controllers at around 700 different retail sites last month, turning up temperatures in the middle of the night and spoiling…",
+    "published": "2026-11-09T22:30:49+00:00",
+    "outlets": 2,
+    "score": 1.0
    },
    {
-    "id": "dcu-shake-up-james-gunn-and-peter-safran-out-post-merger",
-    "title": "DCU shake-up: James Gunn and Peter Safran out post-merger",
-    "link": "https://arstechnica.com/culture/2026/11/dcu-shake-up-james-gunn-and-peter-safran-out-post-merger/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "Producer and former Kevin Feige protege Jeremy Latcham will replace Gunn and Safran.",
-    "published": "2026-11-09T21:55:35+00:00",
+    "id": "what-happened-inside-court-as-brand-was-sentenced",
+    "title": "What happened inside court as Brand was sentenced",
+    "link": "https://www.bbc.co.uk/news/videos/cq99z9mrv35lo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News",
+    "topic": "World",
+    "summary": "The BBC's Sima Kotecha was inside the court as the judge sentenced Brand to 10 years and six months in prison, after being convicted of rape and sexual assault.",
+    "published": "2026-11-09T20:13:41+00:00",
     "outlets": 1,
-    "score": 0.885
+    "score": 0.506
    },
    {
-    "id": "here-s-what-trump-said-he-knew-about-jensen-huang",
-    "title": "Here’s what Trump said he knew about Jensen Huang",
-    "link": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "President Trump held a White House press briefing earlier today and responded to several questions about his knowledge of Nvidia CEO Jensen Huang's affair with an alleged Chinese spy.…",
-    "published": "2026-11-10T00:02:17+00:00",
+    "id": "ukraine-peace-talks-resume-with-some-flexibility-by-warring",
+    "title": "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say",
+    "link": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "summary": "Kyiv, Washington and Moscow are all sending delegation to the United Arab Emirates for the first trilateral talks since February.",
+    "published": "2026-11-10T00:09:49+00:00",
     "outlets": 1,
-    "score": 0.678
+    "score": 0.474
    },
    {
-    "id": "man-who-lost-308-000-on-sports-bets-sues-kalshi-for-offering",
-    "title": "Man who lost $308,000 on sports bets sues Kalshi for offering illegal gambling",
-    "link": "https://arstechnica.com/tech-policy/2026/11/man-who-lost-308000-on-sports-bets-sues-kalshi-for-offering-illegal-gambling/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "Lawsuit demands Kalshi return losses because online betting is illegal in Washington.",
-    "published": "2026-11-09T21:13:39+00:00",
+    "id": "collision-of-two-trains-in-egypt-kills-at-least-seven",
+    "title": "Collision of two trains in Egypt kills at least seven",
+    "link": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
+    "source": "The Guardian",
+    "topic": "World",
+    "summary": "President orders prompt investigation after one train derails in collision in al-Ayyat about 50km from Cairo Seven people were killed and at least 125 injured when two trains collided on…",
+    "published": "2026-11-08T17:51:17+00:00",
     "outlets": 1,
-    "score": 0.589
+    "score": 0.385
    },
    {
-    "id": "a-sam-altman-parody-offers-an-amusing-lesson-in-memory-manag",
-    "title": "A Sam Altman parody offers an amusing lesson in memory management",
-    "link": "https://arstechnica.com/gadgets/2026/11/a-sam-altman-parody-offers-an-amusing-lesson-in-memory-management/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "We verified the RAM numbers are real without sending any emails to OpenAI.",
-    "published": "2026-11-09T20:49:09+00:00",
+    "id": "polish-unity-on-show-in-silent-march-to-honour-krakow-shooti",
+    "title": "Polish unity on show in silent march to honour Krakow shooting victims",
+    "link": "https://www.bbc.co.uk/news/articles/cqkg5gm4nr4no?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News",
+    "topic": "World",
+    "summary": "Fiercely proud of its reputation for safety, Poland has been profoundly shaken by Saturday's attack, writes Sarah Rainsford.",
+    "published": "2026-11-10T05:38:53+00:00",
     "outlets": 1,
-    "score": 0.44
+    "score": 0.361
+   }
+  ],
+  "Entertainment": [
+   {
+    "id": "russell-brand-s-ex-jemima-goldsmith-accuses-him-of-violence",
+    "title": "Russell Brand's ex Jemima Goldsmith accuses him of violence and abuse against her",
+    "link": "https://www.bbc.co.uk/news/articles/c95ynylr8j6xo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Entertainment",
+    "topic": "Entertainment",
+    "summary": "Goldsmith accuses the disgraced entertainer of \"violence, coercive control and abuse\" while the two were together.",
+    "published": "2026-11-10T02:59:42+00:00",
+    "outlets": 1,
+    "score": 1.029
+   },
+   {
+    "id": "artificial-star-andrew-garfield-recalls-believing-openai-s",
+    "title": "‘Artificial’ Star Andrew Garfield Recalls Believing OpenAI’s Sam Altman Was ‘Genuinely Great’ and Could Be ‘My Future Best Friend’",
+    "link": "https://variety.com/2026/film/columns/artificial-andrew-garfield-sam-altman-great-best-friend-1236943645/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "Andrew Garfield’s portrayal of Sam Altman in “Artificial” is less than flattering, but there was a time when the actor deeply admired the OpenAI co-founder and CEO. “The first time I saw…",
+    "published": "2026-11-10T07:06:01+00:00",
+    "outlets": 1,
+    "score": 0.972
+   },
+   {
+    "id": "keira-knightley-says-it-means-nothing-when-fans-quote-love-a",
+    "title": "Keira Knightley Says ‘It Means Nothing’ When Fans Quote ‘Love Actually’ to Her Because She Hasn’t Watched It Since the Premiere: ‘I Don’t Remember It’",
+    "link": "https://variety.com/2026/film/news/keira-knightley-love-actually-fans-1236943826/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "“Love Actually” might be one of the most beloved — if controversial — Christmas classics, but don’t try quoting the film to star Keira Knightley. The actress recently revealed that she…",
+    "published": "2026-11-10T05:56:13+00:00",
+    "outlets": 1,
+    "score": 0.632
+   },
+   {
+    "id": "russell-brand-sentenced-to-10-and-a-half-years-in-prison-for",
+    "title": "Russell Brand sentenced to 10-and-a-half years in prison for rape and sexual assault",
+    "link": "https://www.bbc.co.uk/news/articles/ckzd6dl18dmyo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Entertainment",
+    "topic": "Entertainment",
+    "summary": "The disgraced entertainer was sentenced on Monday following a four-week trial at Southwark Crown Court.",
+    "published": "2026-11-09T17:31:08+00:00",
+    "outlets": 2,
+    "score": 0.629
+   },
+   {
+    "id": "ebenezer-first-reactions-johnny-depp-s-hollywood-comeback-i",
+    "title": "‘Ebenezer’ First Reactions: Johnny Depp’s Hollywood Comeback Is a ‘Wickedly Fun Holiday Treat’ That Adds ‘Refreshing New Layers’ to the Christmas Classic",
+    "link": "https://variety.com/2026/film/news/ebenezer-first-reactions-johnny-depp-hollywood-comeback-1236941249/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "“Ebenezer” has officially premiered, and reviews for the Johnny Depp-led film are largely positive among members of the film press, who are praising the star’s return to Hollywood as a…",
+    "published": "2026-11-10T05:19:57+00:00",
+    "outlets": 1,
+    "score": 0.468
+   },
+   {
+    "id": "baffling-but-brilliant-post-apocalyptic-novel-the-end-of-ev",
+    "title": "'Baffling but brilliant' post-apocalyptic novel The End of Everything wins Booker Prize",
+    "link": "https://www.bbc.co.uk/news/articles/cw0737kv52lko?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Entertainment",
+    "topic": "Entertainment",
+    "summary": "M John Harrison becomes the oldest ever winner of the prestigious literary award at the age of 81.",
+    "published": "2026-11-09T22:16:37+00:00",
+    "outlets": 1,
+    "score": 0.431
+   }
+  ],
+  "Local": [
+   {
+    "id": "california-billionaire-tax-fails-to-pass",
+    "title": "California Billionaire Tax Fails to Pass",
+    "link": "https://ww2.kqed.org/news/2026/11/09/california-billionaire-tax-trails-in-early-results/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "Proposition 40 would have imposed a one-time wealth tax on the state's billionaires. Proposition 42, a billionaire-backed countermeasure, is leading.",
+    "published": "2026-11-10T05:29:00+00:00",
+    "outlets": 1,
+    "score": 0.896
+   },
+   {
+    "id": "testimony-ag-bonta-visited-oakland-housing-company-connected",
+    "title": "Testimony: AG Bonta Visited Oakland Housing Company Connected to Alleged Bribery Scheme",
+    "link": "https://ww2.kqed.org/news/2026/11/09/testimony-ag-bonta-visited-oakland-housing-company-connected-to-alleged-bribery-scheme/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "Rob Bonta spent nearly $470 thousand in campaign funds on legal services after being contacted by federal investigators amid the FBI's probe.",
+    "published": "2026-11-10T01:37:10+00:00",
+    "outlets": 1,
+    "score": 0.51
+   },
+   {
+    "id": "airbnb-exec-donates-100-million-to-san-francisco-parks-in-re",
+    "title": "Airbnb Exec Donates $100 Million to San Francisco Parks in Record Gift to City",
+    "link": "https://ww2.kqed.org/news/2026/11/09/airbnb-exec-donates-100-million-to-san-francisco-parks-in-record-gift-to-city/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "Five of the city’s parks are set to receive the first half of the money as early as this year.",
+    "published": "2026-11-10T00:25:10+00:00",
+    "outlets": 1,
+    "score": 0.366
+   },
+   {
+    "id": "judge-orders-release-of-uc-berkeley-student-from-ice-custody",
+    "title": "Judge Orders Release of UC Berkeley Student From ICE Custody After SFO Arrest",
+    "link": "https://ww2.kqed.org/news/2026/11/09/judge-orders-release-of-uc-berkeley-student-from-ice-custody-after-sfo-arrest/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "Asylum-seeker Paula Albornoz Hernandez will be released today from federal immigration detention and reunited with her family, her attorney said.",
+    "published": "2026-11-09T21:15:21+00:00",
+    "outlets": 1,
+    "score": 0.253
+   },
+   {
+    "id": "jane-kim-victorious-in-close-california-insurance-commission",
+    "title": "Jane Kim Victorious in Close California Insurance Commissioner Race",
+    "link": "https://ww2.kqed.org/news/2026/11/09/race-for-ca-insurance-commissioner-too-close-to-call/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "Kim has held a healthy lead over state Sen. Ben Allen since election night; the Associated Press called the race over the weekend.",
+    "published": "2026-11-09T20:45:00+00:00",
+    "outlets": 1,
+    "score": 0.207
+   },
+   {
+    "id": "effort-to-make-it-harder-to-pass-local-taxes-fails",
+    "title": "Effort to Make It Harder to Pass Local Taxes Fails",
+    "link": "https://ww2.kqed.org/news/2026/11/09/effort-to-make-it-harder-to-pass-local-taxes-lags-in-early-results/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "The proposal would have raised the vote threshold to pass local citizens’ revenue initiatives from a simple majority to two-thirds.",
+    "published": "2026-11-09T19:54:00+00:00",
+    "outlets": 1,
+    "score": 0.171
    }
   ],
   "Sports": [
    {
-    "id": "use-betmgm-bonus-code-cbssports-to-get-1-500-in-bonus-bets-f",
-    "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 in bonus bets for Bills vs. Vikings, NFL Monday Night Football",
-    "link": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-bills-vs-vikings-nfl-monday-night-football/",
+    "id": "six-lessons-learned-from-nfl-week-9-arvell-reese-a-superstar",
+    "title": "Six lessons learned from NFL Week 9: Arvell Reese a superstar in the making, C.J. Stroud having career year",
+    "link": "https://www.cbssports.com/nfl/news/six-lessons-nfl-week-9-arvell-reese-c-j-stroud/",
     "source": "CBS Sports",
     "topic": "Sports",
-    "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for Bills vs. Vikings on Monday Night Football",
-    "published": "2026-11-10T00:13:13+00:00",
+    "summary": "Plus, there's a bell cow running back emerging for one of the NFL's best teams",
+    "published": "2026-11-10T04:44:19+00:00",
     "outlets": 1,
-    "score": 0.992
+    "score": 0.864
    },
    {
     "id": "man-utd-expected-to-sack-head-coach-carrick",
@@ -572,51 +572,255 @@
     "summary": "Michael Carrick's Manchester United reign appears close to an end following the club's worst start to a domestic campaign in 40 years.",
     "published": "2026-11-09T23:13:31+00:00",
     "outlets": 1,
-    "score": 0.944
+    "score": 0.655
    },
    {
-    "id": "lakers-vs-hawks-prediction-odds-time-2026-nba-picks-for-mond",
-    "title": "Lakers vs. Hawks prediction, odds, time: 2026 NBA picks for Monday, Nov. 9 from proven model",
-    "link": "https://www.cbssports.com/betting/news/lakers-hawks-prediction-odds-time-2026-nba-picks-best-bets-monday-november-9/",
+    "id": "cast-your-vote-for-bbc-women-s-footballer-of-the-year-2026",
+    "title": "Cast your vote for BBC Women's Footballer of the Year 2026",
+    "link": "https://www.bbc.co.uk/sport/football/articles/cj20velkgnypo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "topic": "Sports",
+    "summary": "Voting is now open for the BBC Women's Footballer of the Year 2026, with five players on the shortlist.",
+    "published": "2026-11-10T06:24:50+00:00",
+    "outlets": 1,
+    "score": 0.648
+   },
+   {
+    "id": "nfl-week-9-grades-for-every-team-bills-earn-impressive-mark",
+    "title": "NFL Week 9 grades for every team: Bills earn impressive mark for beating Vikings, Cowboys barely pass",
+    "link": "https://www.cbssports.com/nfl/news/nfl-week-9-grades-cowboys-bengals-patriots-packers/",
     "source": "CBS Sports",
     "topic": "Sports",
-    "summary": "SportsLine's model reveals its Los Angeles Lakers vs. Atlanta Hawks best bets on Monday with Luka Doncic available for the Lakers",
-    "published": "2026-11-09T23:51:45+00:00",
+    "summary": "We're handing out grades for every team that played in Week 9",
+    "published": "2026-11-10T04:34:29+00:00",
     "outlets": 1,
-    "score": 0.513
+    "score": 0.591
    },
    {
-    "id": "kane-and-bellingham-air-strong-views-in-england-world-cup-re",
-    "title": "Kane and Bellingham air strong views in England World Cup review",
-    "link": "https://www.bbc.co.uk/sport/football/articles/cqr7y7813l04o?at_medium=RSS&at_campaign=rss",
+    "id": "no-reason-to-reopen-sandpaper-investigation",
+    "title": "'No reason' to reopen sandpaper investigation",
+    "link": "https://www.bbc.co.uk/sport/cricket/articles/cjzxlxrp3335o?at_medium=RSS&at_campaign=rss",
     "source": "BBC Sport",
     "topic": "Sports",
-    "summary": "England players are understood to have aired strong views about their World Cup semi-final defeat by Argentina in a team meeting.",
-    "published": "2026-11-09T17:30:23+00:00",
+    "summary": "Cricket Australia CEO Todd Greenberg says he does not see \"any compelling reason\" to reopen the investigation into the 2018 Australia ball-tampering scandal.",
+    "published": "2026-11-10T07:31:01+00:00",
     "outlets": 1,
-    "score": 0.489
+    "score": 0.522
    },
    {
-    "id": "people-don-t-know-full-story-behind-england-exile-white",
-    "title": "People don't know full story behind England exile - White",
-    "link": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+    "id": "how-germany-s-greatest-goalscorer-is-guiding-the-next-genera",
+    "title": "How Germany's greatest goalscorer is guiding the next generation",
+    "link": "https://www.bbc.co.uk/sport/football/articles/cmq8nnddpllqo?at_medium=RSS&at_campaign=rss",
     "source": "BBC Sport",
     "topic": "Sports",
-    "summary": "Arsenal defender Ben White says people don't know the \"full story\" behind his decision to previously make himself unavailable for England selection - but says he would make the same…",
-    "published": "2026-11-09T19:00:10+00:00",
+    "summary": "Miroslav Klose rose from amateur to World Cup winner as a player - now the German is forging a similar path as a coach.",
+    "published": "2026-11-10T07:34:07+00:00",
     "outlets": 1,
-    "score": 0.402
+    "score": 0.423
+   }
+  ],
+  "Tech": [
+   {
+    "id": "david-ellison-says-ai-could-be-the-biggest-creative-unlock-i",
+    "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+    "link": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about…",
+    "published": "2026-11-10T00:28:49+00:00",
+    "outlets": 1,
+    "score": 0.698
    },
    {
-    "id": "brady-ends-association-with-birmingham-city",
-    "title": "Brady ends association with Birmingham City",
-    "link": "https://www.bbc.co.uk/sport/football/articles/cmd6d63vegd4o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Sport",
-    "topic": "Sports",
-    "summary": "NFL legend Tom Brady ends his association with top-of-the-table Championship side Birmingham City after three years.",
-    "published": "2026-11-09T22:18:17+00:00",
+    "id": "everything-we-know-so-far-about-the-nvidia-spy-scandal-targe",
+    "title": "Everything we know so far about the Nvidia spy scandal targeting CEO Jensen Huang",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "The leather-jacketed CEO of Nvidia, Jensen Huang, has acknowledged an affair with Megaspeed exec Alice Huang, spurring an investigation by his company and intense discussions worldwide.…",
+    "published": "2026-11-10T01:04:57+00:00",
+    "outlets": 3,
+    "score": 0.685
+   },
+   {
+    "id": "dcu-shake-up-james-gunn-and-peter-safran-out-post-merger",
+    "title": "DCU shake-up: James Gunn and Peter Safran out post-merger",
+    "link": "https://arstechnica.com/culture/2026/11/dcu-shake-up-james-gunn-and-peter-safran-out-post-merger/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "Producer and former Kevin Feige protege Jeremy Latcham will replace Gunn and Safran.",
+    "published": "2026-11-09T21:55:35+00:00",
+    "outlets": 1,
+    "score": 0.614
+   },
+   {
+    "id": "what-could-china-get-from-jensen-huang",
+    "title": "What could China get from Jensen Huang?",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has…",
+    "published": "2026-11-10T00:07:10+00:00",
+    "outlets": 1,
+    "score": 0.473
+   },
+   {
+    "id": "man-who-lost-308-000-on-sports-bets-sues-kalshi-for-offering",
+    "title": "Man who lost $308,000 on sports bets sues Kalshi for offering illegal gambling",
+    "link": "https://arstechnica.com/tech-policy/2026/11/man-who-lost-308000-on-sports-bets-sues-kalshi-for-offering-illegal-gambling/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "Lawsuit demands Kalshi return losses because online betting is illegal in Washington.",
+    "published": "2026-11-09T21:13:39+00:00",
+    "outlets": 1,
+    "score": 0.409
+   },
+   {
+    "id": "here-s-what-trump-said-he-knew-about-jensen-huang",
+    "title": "Here’s what Trump said he knew about Jensen Huang",
+    "link": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "President Trump held a White House press briefing earlier today and responded to several questions about his knowledge of Nvidia CEO Jensen Huang's affair with an alleged Chinese spy.…",
+    "published": "2026-11-10T00:02:17+00:00",
+    "outlets": 1,
+    "score": 0.359
+   }
+  ],
+  "Politics": [
+   {
+    "id": "these-house-and-senate-midterm-races-don-t-have-winners-yet",
+    "title": "These House and Senate midterm races don't have winners yet",
+    "link": "https://www.cbsnews.com/news/2026-midterm-election-house-senate-projections-toss-up/",
+    "source": "CBS News",
+    "topic": "Politics",
+    "summary": "Democrats won sizable House and Senate majorities in the 2026 midterm elections, but the exact margins are unclear because some races haven't been projected yet. Here's where the results…",
+    "published": "2026-11-10T03:00:27+00:00",
+    "outlets": 1,
+    "score": 0.655
+   },
+   {
+    "id": "where-the-iran-war-stands-as-trump-says-he-sees-no-reason-to",
+    "title": "Where the Iran war stands as Trump says he sees \"no reason\" to escalate attacks",
+    "link": "https://www.cbsnews.com/video/where-the-iran-war-stands-as-trump-says-he-sees-no-reason-to-escalate-attacks/",
+    "source": "CBS News",
+    "topic": "Politics",
+    "summary": "President Trump on Monday met with Qatar's prime minister to discuss strategies for a new ceasefire with Iran. CBS News' Charlie D'Agata has more.",
+    "published": "2026-11-10T02:42:00+00:00",
+    "outlets": 1,
+    "score": 0.493
+   },
+   {
+    "id": "trump-defends-hegseth-as-massie-moves-for-impeachment",
+    "title": "Trump defends Hegseth as Massie moves for impeachment",
+    "link": "https://www.cbsnews.com/video/trump-defends-hegseth-as-massie-moves-for-impeachment/",
+    "source": "CBS News",
+    "topic": "Politics",
+    "summary": "GOP Rep. Thomas Massie on Monday introduced new articles of impeachment against Defense Secretary Pete Hegseth. CBS News' Taurean Small and Olivia Rinaldi have more on that and all the top…",
+    "published": "2026-11-10T02:36:00+00:00",
+    "outlets": 1,
+    "score": 0.396
+   },
+   {
+    "id": "thomas-massie-files-articles-of-impeachment-against-defense",
+    "title": "Thomas Massie files articles of impeachment against Defense Secretary Pete Hegseth",
+    "link": "https://www.npr.org/2026/11/09/nx-s1-6034483/thomas-massie-impeachment-pete-hegseth",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "The articles accuse Hegseth of \"high crimes and misdemeanors,\" including for waging war against Iran in violation of the War Powers Resolution.",
+    "published": "2026-11-09T20:52:24+00:00",
     "outlets": 1,
     "score": 0.322
+   },
+   {
+    "id": "stephen-miller-is-now-chief-of-staff-what-does-that-mean-for",
+    "title": "Stephen Miller is now chief of staff. What does that mean for Trump?",
+    "link": "https://www.npr.org/2026/11/09/nx-s1-6034461/stephen-miller-is-now-chief-of-staff-what-does-that-mean-for-trump",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "NPR's Sacha Pfeiffer speaks with Chris Whipple, an expert on White House chiefs of staff who has written extensively about Susie Wiles, about Trump's appointment of Stephen Miller.",
+    "published": "2026-11-09T21:08:40+00:00",
+    "outlets": 1,
+    "score": 0.311
+   },
+   {
+    "id": "mike-johnson-on-midterm-results-the-people-have-spoken",
+    "title": "Mike Johnson on midterm results: \"The people have spoken\"",
+    "link": "https://www.cbsnews.com/video/mike-johnson-on-midterm-results-the-people-have-spoken/",
+    "source": "CBS News",
+    "topic": "Politics",
+    "summary": "Republican House Speaker Mike Johnson told reporters Monday that \"there's not much more that any of us could've done\" after massive GOP losses to Democrats in last week's midterm elections.",
+    "published": "2026-11-10T02:17:14+00:00",
+    "outlets": 1,
+    "score": 0.282
+   }
+  ],
+  "Economy": [
+   {
+    "id": "faisal-islam-what-jensen-huang-told-me-about-china-national",
+    "title": "Faisal Islam: What Jensen Huang told me about China, national security and persuading Trump",
+    "link": "https://www.bbc.co.uk/news/articles/c64g1gzy2vdzo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "Huang, who is now being investigated over an affair with an alleged Chinese spy, is far more important to the future of the world order than other tech bosses.",
+    "published": "2026-11-10T06:01:44+00:00",
+    "outlets": 1,
+    "score": 0.635
+   },
+   {
+    "id": "i-took-vinted-to-court-to-get-my-money-back",
+    "title": "I took Vinted to court to get my money back",
+    "link": "https://www.bbc.co.uk/news/articles/cm369e3l15lwo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "The BBC hears from Vinted sellers who describe difficulties accessing money held in their online wallets.",
+    "published": "2026-11-10T00:27:37+00:00",
+    "outlets": 1,
+    "score": 0.367
+   },
+   {
+    "id": "economist-discusses-taxing-the-ultra-wealthy-and-their-impac",
+    "title": "Economist discusses taxing the ultra wealthy and their impact on the economy",
+    "link": "https://www.npr.org/2026/11/09/nx-s1-6032701/economist-discusses-taxing-the-ultra-wealthy-and-their-impact-on-the-economy",
+    "source": "NPR Economy",
+    "topic": "Economy",
+    "summary": "NPR's Steve Inskeep speaks with economist and wealth tax expert Gabriel Zucman about millionaire and billionaire taxes and their impact on the economy.",
+    "published": "2026-11-09T09:43:14+00:00",
+    "outlets": 1,
+    "score": 0.35
+   },
+   {
+    "id": "rep-elect-scott-wiener-says-trump-is-not-connected-to-realit",
+    "title": "Rep.-elect Scott Wiener says Trump is \"not connected to reality\" on Iran, economy, immigration",
+    "link": "https://www.cbsnews.com/video/rep-elect-scott-wiener-says-trump-not-connected-reality-iran-immigration/",
+    "source": "CBS News",
+    "topic": "Economy",
+    "summary": "President Trump held a surprise press briefing at the White House on Monday featuring UFC CEO Dana White. Democratic Representative-elect Scott Wiener of California joins CBS News with…",
+    "published": "2026-11-10T02:23:43+00:00",
+    "outlets": 1,
+    "score": 0.329
+   },
+   {
+    "id": "the-superpower-battle-over-energy-and-what-it-means-for-your",
+    "title": "The superpower battle over energy – and what it means for your bills",
+    "link": "https://www.bbc.co.uk/news/articles/cw62y2z53pg1o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "A tug-of-war between China and the US could have a big impact on energy costs, but who will win?",
+    "published": "2026-11-10T00:08:28+00:00",
+    "outlets": 1,
+    "score": 0.319
+   },
+   {
+    "id": "how-a-civil-servant-got-away-with-juggling-five-jobs-for-so",
+    "title": "How a civil servant got away with juggling five jobs for so long",
+    "link": "https://www.bbc.co.uk/news/articles/cw1m4d8vjvppo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "Kashim Chowdhury has been convicted of fraud after pocketing £284,000 of taxpayers' money over three years.",
+    "published": "2026-11-09T18:40:31+00:00",
+    "outlets": 1,
+    "score": 0.222
    }
   ],
   "Science": [
@@ -629,7 +833,7 @@
     "summary": "Scientists have studied plenty of dinosaur bones, eggs and footprints. Now, some think they've found their strongest evidence yet of dinosaur blood.",
     "published": "2026-11-09T22:00:49+00:00",
     "outlets": 1,
-    "score": 0.888
+    "score": 0.617
    },
    {
     "id": "mice-can-learn-to-fight-by-watching-tiny-rodent-cage-matches",
@@ -640,7 +844,7 @@
     "summary": "Brain scientists set up \"gladiator style\" cage matches for mice — and found that simply observing fighting matches can rewire a mouse's brain to resemble those who actually fought.",
     "published": "2026-11-09T21:39:35+00:00",
     "outlets": 1,
-    "score": 0.602
+    "score": 0.418
    },
    {
     "id": "nasa-is-looking-for-astronauts-to-live-and-work-on-the-moon",
@@ -663,17 +867,6 @@
     "published": "2026-11-08T11:00:00+00:00",
     "outlets": 1,
     "score": 0.125
-   },
-   {
-    "id": "banana-producers-in-latin-america-want-better-pay-to-cope-wi",
-    "title": "Banana producers in Latin America want better pay to cope with effects of climate crisis",
-    "link": "https://www.theguardian.com/business/2026/nov/08/banana-producers-in-latin-america-want-better-pay-to-cope-with-effects-of-climate-crisis",
-    "source": "The Guardian",
-    "topic": "Science",
-    "summary": "Farmers face big drop in production from extreme weather during this year’s super El Niño event Banana producers in Latin America are calling for better pay to help cope with the impact of…",
-    "published": "2026-11-08T07:00:34+00:00",
-    "outlets": 1,
-    "score": 0.084
    }
   ],
   "Finance": [
@@ -686,7 +879,7 @@
     "summary": "Securitize saw growth in tokenization last quarter and announced its expansion into asset-backed finance through the acquisition of River One.",
     "published": "2026-11-09T21:24:13+00:00",
     "outlets": 1,
-    "score": 0.862
+    "score": 0.598
    },
    {
     "id": "jensen-huang-exit-odds-are-low-on-prediction-markets-after-n",
@@ -697,7 +890,7 @@
     "summary": "Prediction markets traders price relatively low odds that the Nvidia CEO will depart in the near term.",
     "published": "2026-11-09T18:46:01+00:00",
     "outlets": 1,
-    "score": 0.755
+    "score": 0.525
    },
    {
     "id": "a-massive-trade-in-nvidia-just-went-off-here-are-the-details",
@@ -708,7 +901,7 @@
     "summary": "Despite Monday's sell-off, options traders are targeting new highs on Nvidia",
     "published": "2026-11-09T18:37:59+00:00",
     "outlets": 1,
-    "score": 0.517
+    "score": 0.359
    },
    {
     "id": "goldman-ceo-solomon-says-ai-financing-remains-strong-despite",
@@ -719,7 +912,7 @@
     "summary": "Goldman CEO David Solomon says investor appetite for AI infrastructure remains strong despite a reset in AI stocks and political uncertainty around data centers.",
     "published": "2026-11-09T18:14:47+00:00",
     "outlets": 1,
-    "score": 0.508
+    "score": 0.352
    },
    {
     "id": "millions-of-dollars-poured-into-prediction-markets-on-electi",
@@ -730,7 +923,7 @@
     "summary": "Election night showed how traders reacted in real time to midterm results, as trading activity surged and market prices shifted to Democrats on Nov. 3.",
     "published": "2026-11-09T19:41:13+00:00",
     "outlets": 1,
-    "score": 0.416
+    "score": 0.289
    },
    {
     "id": "top-wall-street-analysts-like-these-3-dividend-stocks-for-co",
@@ -744,142 +937,6 @@
     "score": 0.149
    }
   ],
-  "Local": [
-   {
-    "id": "judge-orders-release-of-uc-berkeley-student-from-ice-custody",
-    "title": "Judge Orders Release of UC Berkeley Student From ICE Custody After SFO Arrest",
-    "link": "https://ww2.kqed.org/news/2026/11/09/judge-orders-release-of-uc-berkeley-student-from-ice-custody-after-sfo-arrest/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "Asylum-seeker Paula Albornoz Hernandez will be released today from federal immigration detention and reunited with her family, her attorney said.",
-    "published": "2026-11-09T21:15:21+00:00",
-    "outlets": 1,
-    "score": 0.855
-   },
-   {
-    "id": "jane-kim-victorious-in-close-california-insurance-commission",
-    "title": "Jane Kim Victorious in Close California Insurance Commissioner Race",
-    "link": "https://ww2.kqed.org/news/2026/11/09/race-for-ca-insurance-commissioner-too-close-to-call/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "Kim has held a healthy lead over state Sen. Ben Allen since election night; the Associated Press called the race over the weekend.",
-    "published": "2026-11-09T20:45:00+00:00",
-    "outlets": 1,
-    "score": 0.575
-   },
-   {
-    "id": "effort-to-make-it-harder-to-pass-local-taxes-fails",
-    "title": "Effort to Make It Harder to Pass Local Taxes Fails",
-    "link": "https://ww2.kqed.org/news/2026/11/09/effort-to-make-it-harder-to-pass-local-taxes-lags-in-early-results/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "The proposal would have raised the vote threshold to pass local citizens’ revenue initiatives from a simple majority to two-thirds.",
-    "published": "2026-11-09T19:54:00+00:00",
-    "outlets": 1,
-    "score": 0.421
-   },
-   {
-    "id": "josh-rowan-who-helped-transform-oakland-is-out-as-city-trans",
-    "title": "Josh Rowan, Who Helped Transform Oakland, Is Out as City Transportation Head",
-    "link": "https://ww2.kqed.org/news/2026/11/09/josh-rowan-who-helped-transform-oakland-is-out-as-city-transportation-head/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "Assistant City Administrator Chuck Baker and City HR head Mary Hao are also out, according to an internal email.",
-    "published": "2026-11-09T18:28:58+00:00",
-    "outlets": 1,
-    "score": 0.317
-   },
-   {
-    "id": "professional-hockey-returns-to-fresno",
-    "title": "Professional Hockey Returns to Fresno",
-    "link": "https://ww2.kqed.org/news/2026/11/09/professional-hockey-returns-to-fresno/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "The Fresno Falcons are enjoying a dominant start to their first season in 17 years.",
-    "published": "2026-11-09T18:08:18+00:00",
-    "outlets": 1,
-    "score": 0.261
-   },
-   {
-    "id": "for-the-first-time-16-17-year-olds-voted-in-albany",
-    "title": "For the First Time, 16-17 Year Olds Voted in Albany",
-    "link": "https://ww2.kqed.org/news/2026/11/09/for-the-first-time-16-17-year-olds-voted-in-albany/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "A growing movement to give youth the right to vote is gaining ground in the Bay Area.",
-    "published": "2026-11-09T11:00:00+00:00",
-    "outlets": 1,
-    "score": 0.158
-   }
-  ],
-  "Politics": [
-   {
-    "id": "trump-says-iran-war-at-status-quo-tells-60-minutes-there-s-n",
-    "title": "Trump says Iran war at \"status quo,\" tells 60 Minutes there's no reason to escalate conflict",
-    "link": "https://www.cbsnews.com/video/trump-says-iran-war-at-status-quo-tells-60-minutes-theres-no-reason-to-escalate-conflict/",
-    "source": "CBS News",
-    "topic": "Politics",
-    "summary": "President Trump on Monday said the Iran war \"is effectively over,\" but warned the U.S. is \"fully locked and loaded\" if the situation were to change. CBS News national security analyst…",
-    "published": "2026-11-09T23:59:56+00:00",
-    "outlets": 1,
-    "score": 0.812
-   },
-   {
-    "id": "stephen-miller-is-now-chief-of-staff-what-does-that-mean-for",
-    "title": "Stephen Miller is now chief of staff. What does that mean for Trump?",
-    "link": "https://www.npr.org/2026/11/09/nx-s1-6034461/stephen-miller-is-now-chief-of-staff-what-does-that-mean-for-trump",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "NPR's Sacha Pfeiffer speaks with Chris Whipple, an expert on White House chiefs of staff who has written extensively about Susie Wiles, about Trump's appointment of Stephen Miller.",
-    "published": "2026-11-09T21:08:40+00:00",
-    "outlets": 1,
-    "score": 0.587
-   },
-   {
-    "id": "thomas-massie-files-articles-of-impeachment-against-defense",
-    "title": "Thomas Massie files articles of impeachment against Defense Secretary Pete Hegseth",
-    "link": "https://www.npr.org/2026/11/09/nx-s1-6034483/thomas-massie-impeachment-pete-hegseth",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "The articles accuse Hegseth of \"high crimes and misdemeanors,\" including for waging war against Iran in violation of the War Powers Resolution.",
-    "published": "2026-11-09T20:52:24+00:00",
-    "outlets": 1,
-    "score": 0.574
-   },
-   {
-    "id": "beto-o-rourke-reacts-to-democrats-midterm-wins-in-texas-long",
-    "title": "Beto O'Rourke reacts to Democrats' midterm wins in Texas: \"Long time in the making\"",
-    "link": "https://www.cbsnews.com/video/beto-orourke-reacts-to-democrats-midterm-wins-in-texas-long-time-in-the-making/",
-    "source": "CBS News",
-    "topic": "Politics",
-    "summary": "Former Democratic Senate candidate for Texas Beto O'Rourke joins CBS News to discuss Democrats' sweeping wins in last week's midterm elections.",
-    "published": "2026-11-09T23:36:54+00:00",
-    "outlets": 1,
-    "score": 0.412
-   },
-   {
-    "id": "lawmakers-return-to-capitol-hill-for-lame-duck-session-democ",
-    "title": "Lawmakers return to Capitol Hill for lame-duck session, Democrats to hold leadership elections",
-    "link": "https://www.cbsnews.com/video/lawmakers-return-to-capitol-hill-for-lame-duck-session/",
-    "source": "CBS News",
-    "topic": "Politics",
-    "summary": "Congressional members are returning to Capitol Hill for the first time since Democrats' sweeping midterm wins. CBS News' Taurean Small has more.",
-    "published": "2026-11-09T23:00:44+00:00",
-    "outlets": 1,
-    "score": 0.222
-   },
-   {
-    "id": "after-midterm-losses-trump-makes-changes-to-his-inner-circle",
-    "title": "After midterm losses, Trump makes changes to his inner circle",
-    "link": "https://www.npr.org/2026/11/09/nx-s1-6034027/after-midterm-losses-trump-makes-changes-to-his-inner-circle",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "President Trump is shaking up his closest advisers after Democrats made huge gains in the midterm elections.",
-    "published": "2026-11-09T11:45:25+00:00",
-    "outlets": 1,
-    "score": 0.164
-   }
-  ],
   "Health": [
    {
     "id": "he-was-diagnosed-with-cancer-then-he-was-told-he-lost-his-me",
@@ -890,7 +947,18 @@
     "summary": "Health clinics and organizations advocating for poor and working-class Nebraskans say the rollout of Medicaid work requirements has been rife with problems.",
     "published": "2026-11-09T10:00:00+00:00",
     "outlets": 1,
-    "score": 0.487
+    "score": 0.35
+   },
+   {
+    "id": "u-s-measles-cases-more-than-doubled-in-2026-compared-with-al",
+    "title": "U.S. measles cases more than doubled in 2026, compared with all of 2025",
+    "link": "https://www.cbsnews.com/video/us-measles-cases-more-doubled-2026-compared-2025-tracker-finds/",
+    "source": "CBS News",
+    "topic": "Health",
+    "summary": "More than twice as many U.S. measles cases were counted this year as there were in all of 2025. This week, experts for the Pan American Health Organization will rule on the country's…",
+    "published": "2026-11-10T02:14:00+00:00",
+    "outlets": 1,
+    "score": 0.247
    },
    {
     "id": "one-air-ambulance-service-rethinks-what-it-takes-to-practice",
@@ -902,74 +970,6 @@
     "published": "2026-11-08T11:00:00+00:00",
     "outlets": 1,
     "score": 0.241
-   }
-  ],
-  "Economy": [
-   {
-    "id": "economist-discusses-taxing-the-ultra-wealthy-and-their-impac",
-    "title": "Economist discusses taxing the ultra wealthy and their impact on the economy",
-    "link": "https://www.npr.org/2026/11/09/nx-s1-6032701/economist-discusses-taxing-the-ultra-wealthy-and-their-impact-on-the-economy",
-    "source": "NPR Economy",
-    "topic": "Economy",
-    "summary": "NPR's Steve Inskeep speaks with economist and wealth tax expert Gabriel Zucman about millionaire and billionaire taxes and their impact on the economy.",
-    "published": "2026-11-09T09:43:14+00:00",
-    "outlets": 1,
-    "score": 0.48
-   },
-   {
-    "id": "zoe-kleinman-nvidia-ceo-s-affair-will-cause-ripples-across-u",
-    "title": "Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond",
-    "link": "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "Jensen Huang is being investigated by his own company over an extramarital affair with a woman alleged to be a Chinese spy.",
-    "published": "2026-11-09T21:52:28+00:00",
-    "outlets": 1,
-    "score": 0.464
-   },
-   {
-    "id": "civil-servant-who-secretly-held-five-jobs-found-guilty-of-fr",
-    "title": "Civil servant who secretly held five jobs found guilty of fraud",
-    "link": "https://www.bbc.co.uk/news/articles/cm70pgnx891do?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "Kashim Chowdhury had secretly held multiple public sector jobs on full-time salaries.",
-    "published": "2026-11-09T18:40:31+00:00",
-    "outlets": 1,
-    "score": 0.298
-   },
-   {
-    "id": "poundland-unable-to-buy-new-stock-as-fears-over-collapse-gro",
-    "title": "Poundland unable to buy new stock as fears over collapse grow",
-    "link": "https://www.bbc.co.uk/news/articles/cw1l3lmem165o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "The discount chain is continuing to edge towards collapse and is said to be \"running on fumes\", according to one insider.",
-    "published": "2026-11-09T16:46:40+00:00",
-    "outlets": 1,
-    "score": 0.21
-   },
-   {
-    "id": "trump-admin-proposes-stricter-unemployment-work-search-rules",
-    "title": "Trump admin proposes stricter unemployment work search rules",
-    "link": "https://www.cbsnews.com/news/trump-work-search-rules-unemployment-benefits/",
-    "source": "CBS News",
-    "topic": "Economy",
-    "summary": "Under a proposed federal rule, Americans seeking unemployment aid would have to conduct more job searches each week.",
-    "published": "2026-11-09T22:41:27+00:00",
-    "outlets": 1,
-    "score": 0.185
-   },
-   {
-    "id": "government-s-ev-targets-expected-to-be-reduced-this-week",
-    "title": "Government's EV targets expected to be reduced this week",
-    "link": "https://www.bbc.co.uk/news/articles/cqkg5g2970epo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "New petrol or diesel cars are due to be phased out by 2030 and by 2035 all new cars must be zero emission.",
-    "published": "2026-11-09T12:06:22+00:00",
-    "outlets": 1,
-    "score": 0.107
    }
   ]
  }
