@@ -1,39 +1,39 @@
 {
- "generated": "2026-11-10T16:21:55+00:00",
- "generatedLocal": "2026-11-10 08:21",
+ "generated": "2026-11-10T21:54:35+00:00",
+ "generatedLocal": "2026-11-10 13:54",
  "top": [
   {
-   "id": "us-military-aircraft-leave-second-uk-base",
-   "title": "US military aircraft leave second UK base",
-   "link": "https://www.bbc.co.uk/news/articles/c32l4lw12z7po?at_medium=RSS&at_campaign=rss",
+   "id": "us-army-soldier-suspected-of-spying-for-russia-arrested-in-u",
+   "title": "US Army soldier suspected of spying for Russia arrested in UK",
+   "link": "https://www.bbc.co.uk/news/articles/c6d7q77xgw0vo?at_medium=RSS&at_campaign=rss",
    "source": "BBC News",
    "topic": "World",
-   "summary": "The departures come weeks after the US withdrew bombers from RAF Fairford airbase over a suspected Iran-linked security incident.",
-   "published": "2026-11-10T15:49:41+00:00",
-   "outlets": 2,
-   "score": 1.545
-  },
-  {
-   "id": "gas-prices-dip-below-4-but-inflation-remains-stubbornly-high",
-   "title": "Gas prices dip below $4 but inflation remains stubbornly high",
-   "link": "https://www.npr.org/2026/11/10/nx-s1-6034518/inflation-consumer-prices-economy-gas-prices",
-   "source": "NPR Economy",
-   "topic": "Economy",
-   "summary": "Gasoline prices fell below $4 a gallon Tuesday for the first time in three months — but the overall cost of living remains stubbornly high.",
-   "published": "2026-11-10T14:35:50+00:00",
+   "summary": "The 41-year-old senior soldier is accused of national security offences and is being questioned in London.",
+   "published": "2026-11-10T20:20:04+00:00",
    "outlets": 1,
-   "score": 1.19
+   "score": 1.202
   },
   {
-   "id": "9-car-insurance-discounts-you-could-be-missing-out-on",
-   "title": "9 car insurance discounts you could be missing out on",
-   "link": "https://www.cbsnews.com/news/car-insurance-discounts-you-could-be-missing-out-on/",
+   "id": "timeline-the-disappearance-of-maya-millete",
+   "title": "Timeline: The disappearance of Maya Millete",
+   "link": "https://www.cbsnews.com/news/maya-millete-disappearance-timeline/",
    "source": "CBS News",
    "topic": "U.S.",
-   "summary": "Your car insurance company may offer extra ways to save on a policy. Here are some discounts worth checking for.",
-   "published": "2026-11-10T16:08:26+00:00",
+   "summary": "Maya Millete, 39, went missing in January 2021. What was happening between her and her husband before she disappeared and what does spellcasting have to do with it?",
+   "published": "2026-11-10T21:52:02+00:00",
    "outlets": 1,
-   "score": 1.187
+   "score": 1.197
+  },
+  {
+   "id": "testing-the-new-generation-of-ai-enabled-fire-extinguishing",
+   "title": "Testing the new generation of AI-enabled fire-extinguishing drones",
+   "link": "https://www.npr.org/2026/11/10/nx-s1-6030962/testing-the-new-generation-of-ai-enabled-fire-extinguishing-drones",
+   "source": "NPR",
+   "topic": "Tech",
+   "summary": "Drone makers are testing new, big drones that can deliver water or fire retardant with AI assistance. Aspen, Colorado is the first place trying them out. Cool and expensive? Yes.…",
+   "published": "2026-11-10T19:00:00+00:00",
+   "outlets": 1,
+   "score": 1.124
   },
   {
    "id": "lewis-hamilton-visits-egypt-s-rafah-crossing-and-gaza-aid-fa",
@@ -44,51 +44,161 @@
    "summary": "Seven-time F1 world champion tours border area and logistics warehouses operated by Egyptian Red Crescent Lewis Hamilton has visited Egypt’s Rafah border crossing with the Gaza Strip to…",
    "published": "2026-11-10T15:39:26+00:00",
    "outlets": 1,
-   "score": 1.062
+   "score": 1.046
   },
   {
-   "id": "david-walliams-dropped-by-agency-following-grooming-allegati",
-   "title": "David Walliams Dropped by Agency Following ‘Grooming’ Allegations",
-   "link": "https://variety.com/2026/tv/global/david-walliams-dropped-by-agency-grooming-1236944059/",
-   "source": "Variety",
-   "topic": "Entertainment",
-   "summary": "Former “Britain’s Got Talent” star David Walliams has been dropped by Independent Talent Group following allegations of “grooming” and “harassment.” “ITG is deeply disturbed by the…",
-   "published": "2026-11-10T16:21:16+00:00",
-   "outlets": 1,
-   "score": 0.999
-  },
-  {
-   "id": "trump-says-fbi-investigating-nvidia-boss-s-affair-with-alleg",
-   "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
-   "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC World",
-   "topic": "World",
-   "summary": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
-   "published": "2026-11-10T08:23:21+00:00",
-   "outlets": 2,
-   "score": 0.995
-  },
-  {
-   "id": "the-verge-s-2026-holiday-gift-guide-for-moms",
-   "title": "The Verge’s 2026 holiday gift guide for moms",
-   "link": "https://www.theverge.com/gadgets/1021621/best-gifts-for-mom-2026",
-   "source": "The Verge",
-   "topic": "Tech",
-   "summary": "Given everything moms do for us, it feels good to give back during the holidays. But where to start? How do you come up with a physical representation of how you feel about such a key and…",
-   "published": "2026-11-10T16:14:57+00:00",
-   "outlets": 1,
-   "score": 0.994
-  },
-  {
-   "id": "after-puka-nacua-injury-five-receivers-the-rams-should-targe",
-   "title": "After Puka Nacua injury, five receivers the Rams should target at the 2026 trade deadline",
-   "link": "https://www.cbssports.com/nfl/news/puka-nacua-injury-nfl-trade-deadline-five-receivers-rams-should-target-george-pickens/",
+   "id": "knicks-vs-bucks-prediction-odds-time-2026-nba-picks-for-tues",
+   "title": "Knicks vs. Bucks prediction, odds, time: 2026 NBA picks for Tuesday, Nov. 10 from proven model",
+   "link": "https://www.cbssports.com/betting/news/knicks-bucks-prediction-odds-time-2026-nba-picks-best-bets-tuesday-november-10/",
    "source": "CBS Sports",
    "topic": "Sports",
-   "summary": "With Puka Nacua and Davante Adams both out, the Rams suddenly need some help at wide receiver",
-   "published": "2026-11-10T16:02:40+00:00",
+   "summary": "SportsLine's model reveals its New York Knicks vs. Milwaukee Bucks best bets on Tuesday",
+   "published": "2026-11-10T21:51:05+00:00",
    "outlets": 1,
-   "score": 0.984
+   "score": 0.997
+  },
+  {
+   "id": "house-gop-report-critical-of-epstein-investigation",
+   "title": "House GOP report critical of Epstein investigation",
+   "link": "https://www.npr.org/2026/11/10/nx-s1-6035872/house-gop-report-critical-of-epstein-investigation",
+   "source": "NPR Politics",
+   "topic": "Politics",
+   "summary": "The House Oversight Committee has released a report into its investigation into sex-offender, Jeffrey Epstein. They faulted the federal government for not holding the financier accountable.",
+   "published": "2026-11-10T21:43:31+00:00",
+   "outlets": 1,
+   "score": 0.991
+  },
+  {
+   "id": "oura-is-acquiring-medical-ai-chatbot-startup-counsel-health",
+   "title": "Oura is acquiring medical AI chatbot startup Counsel Health",
+   "link": "https://www.theverge.com/gadgets/1031284/oura-counsel-health-acquisition",
+   "source": "The Verge",
+   "topic": "Tech",
+   "summary": "Oura announced its quarterly earnings today and said it agreed to acquire Counsel Health for $625 million, after adding the company's AI chatbot to its app earlier this year. Counsel…",
+   "published": "2026-11-10T21:40:31+00:00",
+   "outlets": 1,
+   "score": 0.988
+  },
+  {
+   "id": "the-peanut-butter-falcon-breakout-zack-gottsagen-and-anna-e",
+   "title": "‘The Peanut Butter Falcon’ Breakout Zack Gottsagen and Anna Enger Ritch to Star in ‘A Reason to Stay’ From Director Rippin Sindher (EXCLUSIVE)",
+   "link": "https://variety.com/2026/film/news/zack-gottsagen-anna-enger-ritch-a-reason-to-stay-1236944315/",
+   "source": "Variety",
+   "topic": "Entertainment",
+   "summary": "“The Peanut Butter Falcon” breakout Zack Gottsagen and “S.W.A.T.” star Anna Enger Ritch will star as brother and sister in “A Reason to Stay,” a new romantic comedy from Rippin Sindher.…",
+   "published": "2026-11-10T21:26:49+00:00",
+   "outlets": 1,
+   "score": 0.977
+  },
+  {
+   "id": "meghan-s-father-thomas-markle-detained-for-allegedly-cutting",
+   "title": "Meghan's father Thomas Markle detained for allegedly cutting off ankle monitor, officials say",
+   "link": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "topic": "World",
+   "summary": "The 82-year-old was placed under house detention in Florida last week after being charged over possession of child sex abuse material.",
+   "published": "2026-11-10T21:23:00+00:00",
+   "outlets": 1,
+   "score": 0.974
+  },
+  {
+   "id": "nvidia-hires-major-new-york-law-firm-to-investigate-jensen-h",
+   "title": "Nvidia hires major New York law firm to investigate Jensen Huang affair",
+   "link": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Business",
+   "topic": "Economy",
+   "summary": "The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.",
+   "published": "2026-11-10T21:06:04+00:00",
+   "outlets": 1,
+   "score": 0.96
+  },
+  {
+   "id": "california-prison-officials-failed-to-complete-thousands-of",
+   "title": "California Prison Officials Failed to Complete Thousands of Misconduct Investigations, Report Finds",
+   "link": "https://ww2.kqed.org/news/2026/11/10/california-prison-officials-failed-to-complete-thousands-of-misconduct-investigations-report-finds/",
+   "source": "KQED",
+   "topic": "Local",
+   "summary": "The inspector general found the unit in charge of investigating prisoner complaints is plagued with delays, unmanageable caseloads and a skyrocketing backlog of grievances.",
+   "published": "2026-11-10T20:46:52+00:00",
+   "outlets": 1,
+   "score": 0.945
+  },
+  {
+   "id": "david-walliams-accused-of-sexual-misconduct-after-losing-inj",
+   "title": "David Walliams accused of sexual misconduct after losing injunction bid",
+   "link": "https://www.bbc.co.uk/news/articles/ckn8w8p9370zo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Entertainment",
+   "topic": "Entertainment",
+   "summary": "ITN and the Guardian allege the comedian preyed on teenage girls and young women. He has denied all allegations.",
+   "published": "2026-11-10T20:20:11+00:00",
+   "outlets": 1,
+   "score": 0.924
+  },
+  {
+   "id": "gas-prices-dip-below-4-but-inflation-remains-stubbornly-high",
+   "title": "Gas prices dip below $4 but inflation remains stubbornly high",
+   "link": "https://www.npr.org/2026/11/10/nx-s1-6034518/inflation-consumer-prices-economy-gas-prices",
+   "source": "NPR Economy",
+   "topic": "Economy",
+   "summary": "Gasoline prices fell below $4 a gallon Tuesday for the first time in three months — but the overall cost of living remains stubbornly high.",
+   "published": "2026-11-10T14:35:50+00:00",
+   "outlets": 1,
+   "score": 0.902
+  },
+  {
+   "id": "google-fi-adds-support-for-a-second-5g-network-won-t-say-whi",
+   "title": "Google Fi adds support for a second 5G network, won't say which one",
+   "link": "https://arstechnica.com/google/2026/11/google-fi-adds-support-for-a-second-5g-network-wont-say-which-one/",
+   "source": "Ars Technica",
+   "topic": "Tech",
+   "summary": "Fi has always supported T-Mobile, but the new one? Google won't say.",
+   "published": "2026-11-10T19:35:59+00:00",
+   "outlets": 1,
+   "score": 0.891
+  },
+  {
+   "id": "u-s-boycotts-u-n-human-rights-review-for-second-year-running",
+   "title": "U.S. boycotts U.N. human rights review for second year running",
+   "link": "https://www.npr.org/2026/11/10/nx-s1-6034998/un-human-rights-us-geneva",
+   "source": "NPR World",
+   "topic": "World",
+   "summary": "The U.S. has skipped a key U.N. human rights review for the second year running. Rights groups warn the absence risks undermining global accountability.",
+   "published": "2026-11-10T18:53:34+00:00",
+   "outlets": 1,
+   "score": 0.86
+  },
+  {
+   "id": "the-monaco-summit-that-will-decide-the-future-of-carrick-and",
+   "title": "The Monaco summit that will decide the future of Carrick and Man Utd",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c8wy9yzyzxnko?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "topic": "Sports",
+   "summary": "Manchester United's power brokers meet in Monaco on Wednesday to decide whether Michael Carrick will remain as head coach",
+   "published": "2026-11-10T18:12:02+00:00",
+   "outlets": 1,
+   "score": 0.831
+  },
+  {
+   "id": "jury-convicts-matthew-farwell-of-killing-sandra-birchmore-an",
+   "title": "Jury convicts Matthew Farwell of killing Sandra Birchmore and unborn child",
+   "link": "https://www.cbsnews.com/video/jury-convicts-matthew-farwell-sandra-birchmore-and-unborn-child/",
+   "source": "CBS News",
+   "topic": "U.S.",
+   "summary": "A Massachusetts jury has convicted former police officer Matthew Farwell of killing Sandra Birchmore and the unborn child she was carrying. CBS News legal contributor Jessica Levinson…",
+   "published": "2026-11-10T21:44:43+00:00",
+   "outlets": 1,
+   "score": 0.821
+  },
+  {
+   "id": "u-s-gas-prices-fall-below-4-for-the-first-time-since-july",
+   "title": "U.S. gas prices fall below $4 for the first time since July",
+   "link": "https://www.cnbc.com/2026/11/10/us-gas-prices-below-four-dollars.html",
+   "source": "CNBC Finance",
+   "topic": "Finance",
+   "summary": "Americans may finally find some relief at the pump.",
+   "published": "2026-11-10T16:29:09+00:00",
+   "outlets": 1,
+   "score": 0.762
   },
   {
    "id": "coreweave-earnings-put-debt-fueled-ai-build-out-under-scruti",
@@ -99,62 +209,51 @@
    "summary": "CoreWeave’s earnings after the bell could calm fears about its debt-fueled AI buildout — or stoke more fear.",
    "published": "2026-11-10T15:01:21+00:00",
    "outlets": 1,
-   "score": 0.935
+   "score": 0.709
   },
   {
-   "id": "deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchma",
-   "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
-   "link": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
-   "source": "Ars Technica",
-   "topic": "Tech",
-   "summary": "The new model is up to twice as successful at some tasks.",
-   "published": "2026-11-10T15:00:39+00:00",
+   "id": "house-gop-elects-jim-jordan-as-new-leader-as-the-party-looks",
+   "title": "House GOP elects Jim Jordan as new leader as the party looks to rebuild from midterms",
+   "link": "https://www.npr.org/2026/11/10/nx-s1-6030988/gop-leadership-election-steve-scalise-jim-jordan",
+   "source": "NPR Politics",
+   "topic": "Politics",
+   "summary": "Jordan, a close Trump ally and co-founder of the ultra-conservative House Freedom Caucus, will succeed Mike Johnson, who says he's stepping down as the chamber's top Republican.",
+   "published": "2026-11-10T21:36:06+00:00",
+   "outlets": 2,
+   "score": 0.7
+  },
+  {
+   "id": "use-betmgm-bonus-code-cbssports-to-get-1-500-bonus-bets-for",
+   "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Celtics-76ers, Texas Tech-Illinois, NBA Tuesday",
+   "link": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-celtics-76ers-texas-tech-illinois-nba-tuesday/",
+   "source": "CBS Sports",
+   "topic": "Sports",
+   "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for NBA, college basketball, NFL betting on Tuesday",
+   "published": "2026-11-10T21:35:36+00:00",
    "outlets": 1,
-   "score": 0.935
+   "score": 0.679
   },
   {
-   "id": "david-walliams-career-and-controversies-including-britain-s",
-   "title": "David Walliams' career and controversies including Britain's Got Talent and Little Britain",
-   "link": "https://www.bbc.co.uk/news/articles/c6d7q98z1yz3o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Entertainment",
+   "id": "adobe-premiere-mobile-app-launches-hundreds-of-thousands-of",
+   "title": "Adobe Premiere Mobile App Launches Hundreds of Thousands of Tracks Licensed From UMG, WMG",
+   "link": "https://variety.com/2026/digital/news/adobe-premiere-mobile-songs-licensed-umg-wmg-1236944255/",
+   "source": "Variety",
    "topic": "Entertainment",
-   "summary": "The entertainer shot to fame on Little Britain and also has best-selling series of children's books.",
-   "published": "2026-11-10T14:53:28+00:00",
+   "summary": "Adobe has just made it easier for creators to add some of their favorite hot jams to short-form video clips. On Tuesday, the free Adobe Premiere mobile app, designed for creators to make…",
+   "published": "2026-11-10T21:24:05+00:00",
    "outlets": 1,
-   "score": 0.929
+   "score": 0.672
   },
   {
-   "id": "anthropic-heads-for-lower-than-expected-1-3-trillion-valuati",
-   "title": "Anthropic heads for lower than expected $1.3 trillion valuation in stock market debut",
-   "link": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Business",
-   "topic": "Economy",
-   "summary": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78.",
-   "published": "2026-11-10T14:46:50+00:00",
+   "id": "sony-cancels-live-service-shooter-fairgames",
+   "title": "Sony cancels live-service shooter Fairgames",
+   "link": "https://www.theverge.com/games/1031242/sony-playstation-fairgames-canceled",
+   "source": "The Verge",
+   "topic": "Tech",
+   "summary": "Sony has canceled Fairgames, a heist game announced in 2023, according to Bloomberg. Fairgames had once been part of Sony's big planned push for PlayStation live service games, but the…",
+   "published": "2026-11-10T21:06:12+00:00",
    "outlets": 1,
-   "score": 0.924
-  },
-  {
-   "id": "like-gods-reigning-over-humans-many-defectors-see-daughter",
-   "title": "'Like gods reigning over humans': Many defectors see daughter of North Korea's Kim as heir apparent",
-   "link": "https://www.npr.org/2026/11/10/g-s1-152795/like-gods-reigning-over-humans-many-defectors-see-daughter-of-north-koreas-kim-as-heir-apparent",
-   "source": "NPR World",
-   "topic": "World",
-   "summary": "Little is known about her except that she's reportedly about 13 and named Kim Ju Ae, but Korea's spy agency says she's likely her father's heir.",
-   "published": "2026-11-10T14:16:53+00:00",
-   "outlets": 1,
-   "score": 0.901
-  },
-  {
-   "id": "these-latinas-bring-banda-and-pilates-together-making-workou",
-   "title": "These Latinas Bring Banda and Pilates Together, Making Workouts a Party",
-   "link": "https://ww2.kqed.org/news/2026/11/10/these-latinas-bring-banda-and-pilates-together-making-workouts-a-party/",
-   "source": "KQED",
-   "topic": "Local",
-   "summary": "Fitness organizers are breaking generational barriers for Latinx communities, incorporating music and fun themes into workout classes — encouraging their participants to center themselves…",
-   "published": "2026-11-10T14:00:00+00:00",
-   "outlets": 1,
-   "score": 0.888
+   "score": 0.662
   },
   {
    "id": "hegseth-impeachment-effort-is-farce-and-stunt",
@@ -165,131 +264,32 @@
    "summary": "In his first news conference in six months, the defence secretary defended the US's \"lawful military operations\".",
    "published": "2026-11-10T13:28:07+00:00",
    "outlets": 1,
-   "score": 0.865
+   "score": 0.656
   },
   {
-   "id": "polymarket-says-annualized-revenue-has-topped-1-8-billion",
-   "title": "Polymarket says annualized revenue has topped $1.8 billion",
-   "link": "https://www.cnbc.com/2026/11/10/polymarket-annualized-revenue-us-growth.html",
-   "source": "CNBC Finance",
-   "topic": "Finance",
-   "summary": "Amid growth of its U.S. exchange, the prediction market platform’s current annual run-rate is $1.8 billion.",
-   "published": "2026-11-10T13:00:01+00:00",
+   "id": "california-lawmaker-calls-for-release-of-usf-nursing-profess",
+   "title": "California Lawmaker Calls for Release of USF Nursing Professor Detained by ICE",
+   "link": "https://ww2.kqed.org/news/2026/11/10/california-lawmaker-calls-for-release-of-usf-nursing-professor-detained-by-ice/",
+   "source": "KQED",
+   "topic": "Local",
+   "summary": "Stockton Rep. Josh Harder sounded alarm over Lawani’s detention and whereabouts, stressing that the Lodi resident has lived in the U.S. legally for 13 years with no criminal record.",
+   "published": "2026-11-10T20:26:17+00:00",
    "outlets": 1,
-   "score": 0.845
-  },
-  {
-   "id": "seven-days-of-chaos-in-the-er-how-this-country-s-healthcare",
-   "title": "Seven days of chaos in the ER: How this country's healthcare system is unraveling",
-   "link": "https://www.npr.org/2026/11/10/g-s1-152693/healthcare-ethiopia-conflict-emergency-room",
-   "source": "NPR Health",
-   "topic": "Health",
-   "summary": "Renewed fighting has pushed Ethiopia's healthcare system close to collapse: \"The whole emergency (room) was flooded with war trauma patients,\" one surgeon says of a brutal week in September.",
-   "published": "2026-11-10T12:48:48+00:00",
-   "outlets": 1,
-   "score": 0.837
-  },
-  {
-   "id": "trump-says-iran-war-at-status-quo-warns-u-s-locked-and-loade",
-   "title": "Trump says Iran war at \"status quo,\" warns U.S. \"locked and loaded\"",
-   "link": "https://www.cbsnews.com/live-updates/iran-war-us-trump-deal-negotiations/",
-   "source": "CBS News",
-   "topic": "Politics",
-   "summary": "President Trump told 60 Minutes the war with Iran was a \"good decision\" in the long term, despite its short-term impact.",
-   "published": "2026-11-10T15:58:37+00:00",
-   "outlets": 1,
-   "score": 0.812
-  },
-  {
-   "id": "house-set-to-vote-to-impeach-hegseth-and-scotus-allows-borde",
-   "title": "House set to vote to impeach Hegseth. And, SCOTUS allows border wall work to proceed",
-   "link": "https://www.npr.org/2026/11/10/g-s1-152777/up-first-newsletter-pete-hegseth-impeachment-trump-iran-nvidia-border-wall-texas",
-   "source": "NPR Politics",
-   "topic": "Politics",
-   "summary": "The House could vote to impeach Hegseth, but removing him from office will be tough. And, SCOTUS ruled that a federal judge did not have the authority to halt border wall construction.",
-   "published": "2026-11-10T12:01:04+00:00",
-   "outlets": 1,
-   "score": 0.805
-  },
-  {
-   "id": "met-police-investigating-more-potential-criminal-allegations",
-   "title": "Met Police investigating more 'potential criminal allegations' about Brand",
-   "link": "https://www.bbc.co.uk/news/articles/cvwy7ydg4264o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Entertainment",
-   "topic": "Entertainment",
-   "summary": "Det Supt Andy Furphy says the force had received \"several reports during the trial and since the trial\".",
-   "published": "2026-11-10T14:09:11+00:00",
-   "outlets": 1,
-   "score": 0.803
-  },
-  {
-   "id": "carrick-s-man-utd-future-to-be-decided-at-wednesday-meeting",
-   "title": "Carrick's Man Utd future to be decided at Wednesday meeting",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cmy0r041ed0po?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "topic": "Sports",
-   "summary": "Manchester United head coach Michael Carrick's future will be discussed at a meeting in Monaco on Wednesday.",
-   "published": "2026-11-10T11:23:43+00:00",
-   "outlets": 1,
-   "score": 0.78
-  },
-  {
-   "id": "the-democratic-party-gained-power-across-the-country-in-the",
-   "title": "The Democratic Party gained power across the country in the midterms. Now what?",
-   "link": "https://www.npr.org/2026/11/10/nx-s1-6035008/democratic-party-blue-wave-midterm-congress",
-   "source": "NPR National",
-   "topic": "U.S.",
-   "summary": "Voters handed Democrats the keys to power across the country and expect them to drive in a different direction. Party leaders are now trying to figure out which way to go.",
-   "published": "2026-11-10T10:00:00+00:00",
-   "outlets": 1,
-   "score": 0.727
-  },
-  {
-   "id": "pochettino-howe-emery-or-conte-man-utd-s-managerial-options",
-   "title": "Pochettino, Howe, Emery or Conte? - Man Utd's managerial options",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5rmymrvm004o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "topic": "Sports",
-   "summary": "As doubts grow over Manchester United boss Michael Carrick's future, what are the club's managerial options?",
-   "published": "2026-11-10T16:17:10+00:00",
-   "outlets": 1,
-   "score": 0.687
-  },
-  {
-   "id": "afm-2026-indie-film-faces-a-tougher-market-but-theatrical-br",
-   "title": "AFM 2026: Indie Film Faces a Tougher Market — But Theatrical Breakouts Offer Hope",
-   "link": "https://variety.com/2026/film/news/afm-2026-tough-market-but-theatrical-breakouts-offer-hope-1236941581/",
-   "source": "Variety",
-   "topic": "Entertainment",
-   "summary": "The indie film biz head into this year’s American Film Market amid one of the industry’s most tumultuous periods in recent memory. The completion of Paramount Skydance’s merger with Warner…",
-   "published": "2026-11-10T16:15:00+00:00",
-   "outlets": 1,
-   "score": 0.686
-  },
-  {
-   "id": "fantasy-football-week-10-waiver-wire-audric-estime-could-be",
-   "title": "Fantasy football Week 10 waiver wire: Audric Estime could be the cure for your injury-ravaged backfield",
-   "link": "https://www.cbssports.com/fantasy/football/news/week-10-waiver-wire-audric-estime-could-be-the-cure/",
-   "source": "CBS Sports",
-   "topic": "Sports",
-   "summary": "Injuries and bye weeks have Fantasy backfields in disarray, but Audric Estime and other waiver-wire options could provide relief",
-   "published": "2026-11-10T15:51:54+00:00",
-   "outlets": 1,
-   "score": 0.673
+   "score": 0.641
   }
  ],
  "topics": {
   "World": [
    {
-    "id": "us-military-aircraft-leave-second-uk-base",
-    "title": "US military aircraft leave second UK base",
-    "link": "https://www.bbc.co.uk/news/articles/c32l4lw12z7po?at_medium=RSS&at_campaign=rss",
+    "id": "us-army-soldier-suspected-of-spying-for-russia-arrested-in-u",
+    "title": "US Army soldier suspected of spying for Russia arrested in UK",
+    "link": "https://www.bbc.co.uk/news/articles/c6d7q77xgw0vo?at_medium=RSS&at_campaign=rss",
     "source": "BBC News",
     "topic": "World",
-    "summary": "The departures come weeks after the US withdrew bombers from RAF Fairford airbase over a suspected Iran-linked security incident.",
-    "published": "2026-11-10T15:49:41+00:00",
-    "outlets": 2,
-    "score": 1.545
+    "summary": "The 41-year-old senior soldier is accused of national security offences and is being questioned in London.",
+    "published": "2026-11-10T20:20:04+00:00",
+    "outlets": 1,
+    "score": 1.202
    },
    {
     "id": "lewis-hamilton-visits-egypt-s-rafah-crossing-and-gaza-aid-fa",
@@ -300,132 +300,75 @@
     "summary": "Seven-time F1 world champion tours border area and logistics warehouses operated by Egyptian Red Crescent Lewis Hamilton has visited Egypt’s Rafah border crossing with the Gaza Strip to…",
     "published": "2026-11-10T15:39:26+00:00",
     "outlets": 1,
-    "score": 1.062
+    "score": 1.046
    },
    {
-    "id": "trump-says-fbi-investigating-nvidia-boss-s-affair-with-alleg",
-    "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
-    "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+    "id": "meghan-s-father-thomas-markle-detained-for-allegedly-cutting",
+    "title": "Meghan's father Thomas Markle detained for allegedly cutting off ankle monitor, officials say",
+    "link": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro?at_medium=RSS&at_campaign=rss",
     "source": "BBC World",
     "topic": "World",
-    "summary": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
-    "published": "2026-11-10T08:23:21+00:00",
-    "outlets": 2,
-    "score": 0.995
+    "summary": "The 82-year-old was placed under house detention in Florida last week after being charged over possession of child sex abuse material.",
+    "published": "2026-11-10T21:23:00+00:00",
+    "outlets": 1,
+    "score": 0.974
    },
    {
-    "id": "like-gods-reigning-over-humans-many-defectors-see-daughter",
-    "title": "'Like gods reigning over humans': Many defectors see daughter of North Korea's Kim as heir apparent",
-    "link": "https://www.npr.org/2026/11/10/g-s1-152795/like-gods-reigning-over-humans-many-defectors-see-daughter-of-north-koreas-kim-as-heir-apparent",
+    "id": "u-s-boycotts-u-n-human-rights-review-for-second-year-running",
+    "title": "U.S. boycotts U.N. human rights review for second year running",
+    "link": "https://www.npr.org/2026/11/10/nx-s1-6034998/un-human-rights-us-geneva",
     "source": "NPR World",
     "topic": "World",
-    "summary": "Little is known about her except that she's reportedly about 13 and named Kim Ju Ae, but Korea's spy agency says she's likely her father's heir.",
-    "published": "2026-11-10T14:16:53+00:00",
+    "summary": "The U.S. has skipped a key U.N. human rights review for the second year running. Rights groups warn the absence risks undermining global accountability.",
+    "published": "2026-11-10T18:53:34+00:00",
     "outlets": 1,
-    "score": 0.901
+    "score": 0.86
    },
    {
-    "id": "first-day-of-ukraine-peace-talks-very-productive-us-says",
-    "title": "First day of Ukraine peace talks 'very productive', US says",
-    "link": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
+    "id": "watch-what-we-know-about-the-allegations-against-walliams",
+    "title": "Watch: What we know about the allegations against Walliams",
+    "link": "https://www.bbc.co.uk/news/videos/cmn9r90wyq2lo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News",
+    "topic": "World",
+    "summary": "The author and comedian recently lost a court battle trying to block publication of the allegations.",
+    "published": "2026-11-10T19:35:17+00:00",
+    "outlets": 1,
+    "score": 0.609
+   },
+   {
+    "id": "malaysia-s-disgraced-former-pm-leaves-jail-for-house-arrest",
+    "title": "Malaysia's disgraced former PM leaves jail for house arrest after embezzling millions",
+    "link": "https://www.bbc.co.uk/news/articles/cxnv0v4yln7do?at_medium=RSS&at_campaign=rss",
     "source": "BBC World",
     "topic": "World",
-    "summary": "Delegations from Kyiv, Washington and Moscow are in the United Arab Emirates for the first trilateral talks since February.",
-    "published": "2026-11-10T14:36:57+00:00",
+    "summary": "Najib Razak was convicted for his role in the billion-dollar scandal involving the 1MDB sovereign wealth fund.",
+    "published": "2026-11-10T18:33:51+00:00",
     "outlets": 1,
-    "score": 0.632
-   },
-   {
-    "id": "indonesia-s-vp-offers-resignation-as-questions-mount-over-hi",
-    "title": "Indonesia's VP offers resignation as questions mount over his eligibility",
-    "link": "https://www.npr.org/2026/11/10/g-s1-152788/indonesias-vp-offers-resignation-as-questions-mount-over-his-eligibility",
-    "source": "NPR World",
-    "topic": "World",
-    "summary": "His resignation offer comes amid a widening political rift between Prabowo and Widodo and a separate investigation into allegations that senior police officials wiretapped the president.",
-    "published": "2026-11-10T14:01:14+00:00",
-    "outlets": 1,
-    "score": 0.613
-   }
-  ],
-  "Economy": [
-   {
-    "id": "gas-prices-dip-below-4-but-inflation-remains-stubbornly-high",
-    "title": "Gas prices dip below $4 but inflation remains stubbornly high",
-    "link": "https://www.npr.org/2026/11/10/nx-s1-6034518/inflation-consumer-prices-economy-gas-prices",
-    "source": "NPR Economy",
-    "topic": "Economy",
-    "summary": "Gasoline prices fell below $4 a gallon Tuesday for the first time in three months — but the overall cost of living remains stubbornly high.",
-    "published": "2026-11-10T14:35:50+00:00",
-    "outlets": 1,
-    "score": 1.19
-   },
-   {
-    "id": "anthropic-heads-for-lower-than-expected-1-3-trillion-valuati",
-    "title": "Anthropic heads for lower than expected $1.3 trillion valuation in stock market debut",
-    "link": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78.",
-    "published": "2026-11-10T14:46:50+00:00",
-    "outlets": 1,
-    "score": 0.924
-   },
-   {
-    "id": "sales-of-tinned-food-and-bottled-water-jump-after-be-ready-c",
-    "title": "Sales of tinned food and bottled water jump after 'Be Ready' campaign launch",
-    "link": "https://www.bbc.co.uk/news/articles/cqev3vl4ek33o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "Sales of essential goods such as hand sanitiser soar after the government called on households to be prepared for emergencies.",
-    "published": "2026-11-10T15:10:20+00:00",
-    "outlets": 1,
-    "score": 0.65
-   },
-   {
-    "id": "why-did-california-s-billionaire-tax-fail-to-surf-the-blue-w",
-    "title": "Why did California's billionaire tax fail to surf the blue wave?",
-    "link": "https://www.npr.org/sections/planet-money/2026/11/10/g-s1-152755/why-did-californias-billionaire-tax-fail-to-surf-the-blue-wave",
-    "source": "NPR Economy",
-    "topic": "Economy",
-    "summary": "Two economists debate what California's vote on Prop 40 means for the wealth tax movement.",
-    "published": "2026-11-10T11:30:00+00:00",
-    "outlets": 1,
-    "score": 0.541
-   },
-   {
-    "id": "us-inflation-higher-than-expected-in-october-here-s-what-is",
-    "title": "US inflation higher than expected in October - here's what is happening with prices",
-    "link": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "Prices rose by 0.4% over the month, driven by increases in shelter, food and energy costs.",
-    "published": "2026-11-10T14:45:46+00:00",
-    "outlets": 1,
-    "score": 0.393
-   },
-   {
-    "id": "inflation-report",
-    "title": "INFLATION REPORT",
-    "link": "https://www.npr.org/2026/11/10/nx-s1-6034517/inflation-report",
-    "source": "NPR Economy",
-    "topic": "Economy",
-    "summary": "Gasoline prices are falling, but the overall cost of living remains stubbornly high. The Labor Department reports on October inflation Tuesday morning.",
-    "published": "2026-11-10T09:37:52+00:00",
-    "outlets": 1,
-    "score": 0.376
+    "score": 0.583
    }
   ],
   "U.S.": [
    {
-    "id": "9-car-insurance-discounts-you-could-be-missing-out-on",
-    "title": "9 car insurance discounts you could be missing out on",
-    "link": "https://www.cbsnews.com/news/car-insurance-discounts-you-could-be-missing-out-on/",
+    "id": "timeline-the-disappearance-of-maya-millete",
+    "title": "Timeline: The disappearance of Maya Millete",
+    "link": "https://www.cbsnews.com/news/maya-millete-disappearance-timeline/",
     "source": "CBS News",
     "topic": "U.S.",
-    "summary": "Your car insurance company may offer extra ways to save on a policy. Here are some discounts worth checking for.",
-    "published": "2026-11-10T16:08:26+00:00",
+    "summary": "Maya Millete, 39, went missing in January 2021. What was happening between her and her husband before she disappeared and what does spellcasting have to do with it?",
+    "published": "2026-11-10T21:52:02+00:00",
     "outlets": 1,
-    "score": 1.187
+    "score": 1.197
+   },
+   {
+    "id": "jury-convicts-matthew-farwell-of-killing-sandra-birchmore-an",
+    "title": "Jury convicts Matthew Farwell of killing Sandra Birchmore and unborn child",
+    "link": "https://www.cbsnews.com/video/jury-convicts-matthew-farwell-sandra-birchmore-and-unborn-child/",
+    "source": "CBS News",
+    "topic": "U.S.",
+    "summary": "A Massachusetts jury has convicted former police officer Matthew Farwell of killing Sandra Birchmore and the unborn child she was carrying. CBS News legal contributor Jessica Levinson…",
+    "published": "2026-11-10T21:44:43+00:00",
+    "outlets": 1,
+    "score": 0.821
    },
    {
     "id": "hegseth-impeachment-effort-is-farce-and-stunt",
@@ -436,7 +379,7 @@
     "summary": "In his first news conference in six months, the defence secretary defended the US's \"lawful military operations\".",
     "published": "2026-11-10T13:28:07+00:00",
     "outlets": 1,
-    "score": 0.865
+    "score": 0.656
    },
    {
     "id": "the-democratic-party-gained-power-across-the-country-in-the",
@@ -447,29 +390,7 @@
     "summary": "Voters handed Democrats the keys to power across the country and expect them to drive in a different direction. Party leaders are now trying to figure out which way to go.",
     "published": "2026-11-10T10:00:00+00:00",
     "outlets": 1,
-    "score": 0.727
-   },
-   {
-    "id": "france-says-iran-behind-costly-grocery-store-refrigeration-h",
-    "title": "France says Iran behind costly grocery store refrigeration hacks",
-    "link": "https://www.cbsnews.com/news/france-iran-behind-refrigerator-freezer-hack-cyberattack/",
-    "source": "CBS News",
-    "topic": "U.S.",
-    "summary": "The Paris prosecutor's office says investigators have determined that a cyberattack on grocery store chains was \"carried out to serve a foreign power — in this case, Iran.\"",
-    "published": "2026-11-10T15:54:45+00:00",
-    "outlets": 1,
-    "score": 0.617
-   },
-   {
-    "id": "food-prices-surged-more-than-expected-in-october-cpi-report",
-    "title": "Food prices surged more than expected in October, CPI report shows",
-    "link": "https://www.cbsnews.com/video/inflation-rose-more-than-expected-in-october-cpi-report-shows/",
-    "source": "CBS News",
-    "topic": "U.S.",
-    "summary": "U.S. consumer prices rose at a higher rate than expected in October, according to the October Consumer Price Index (CPI) report. CBS News' Kelly O'Grady explains more.",
-    "published": "2026-11-10T15:52:05+00:00",
-    "outlets": 1,
-    "score": 0.498
+    "score": 0.551
    },
    {
     "id": "trump-says-more-us-attacks-on-iran-highly-unlikely",
@@ -480,20 +401,268 @@
     "summary": "The president says the US is keeping \"status quo\" with Iran but remains “locked and loaded” should the situation change.",
     "published": "2026-11-10T09:40:31+00:00",
     "outlets": 1,
-    "score": 0.494
+    "score": 0.374
+   },
+   {
+    "id": "trump-says-fbi-investigating-nvidia-boss-s-affair-with-alleg",
+    "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+    "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC US & Canada",
+    "topic": "U.S.",
+    "summary": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
+    "published": "2026-11-10T08:23:21+00:00",
+    "outlets": 2,
+    "score": 0.311
+   }
+  ],
+  "Tech": [
+   {
+    "id": "testing-the-new-generation-of-ai-enabled-fire-extinguishing",
+    "title": "Testing the new generation of AI-enabled fire-extinguishing drones",
+    "link": "https://www.npr.org/2026/11/10/nx-s1-6030962/testing-the-new-generation-of-ai-enabled-fire-extinguishing-drones",
+    "source": "NPR",
+    "topic": "Tech",
+    "summary": "Drone makers are testing new, big drones that can deliver water or fire retardant with AI assistance. Aspen, Colorado is the first place trying them out. Cool and expensive? Yes.…",
+    "published": "2026-11-10T19:00:00+00:00",
+    "outlets": 1,
+    "score": 1.124
+   },
+   {
+    "id": "oura-is-acquiring-medical-ai-chatbot-startup-counsel-health",
+    "title": "Oura is acquiring medical AI chatbot startup Counsel Health",
+    "link": "https://www.theverge.com/gadgets/1031284/oura-counsel-health-acquisition",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "Oura announced its quarterly earnings today and said it agreed to acquire Counsel Health for $625 million, after adding the company's AI chatbot to its app earlier this year. Counsel…",
+    "published": "2026-11-10T21:40:31+00:00",
+    "outlets": 1,
+    "score": 0.988
+   },
+   {
+    "id": "google-fi-adds-support-for-a-second-5g-network-won-t-say-whi",
+    "title": "Google Fi adds support for a second 5G network, won't say which one",
+    "link": "https://arstechnica.com/google/2026/11/google-fi-adds-support-for-a-second-5g-network-wont-say-which-one/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "Fi has always supported T-Mobile, but the new one? Google won't say.",
+    "published": "2026-11-10T19:35:59+00:00",
+    "outlets": 1,
+    "score": 0.891
+   },
+   {
+    "id": "sony-cancels-live-service-shooter-fairgames",
+    "title": "Sony cancels live-service shooter Fairgames",
+    "link": "https://www.theverge.com/games/1031242/sony-playstation-fairgames-canceled",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "Sony has canceled Fairgames, a heist game announced in 2023, according to Bloomberg. Fairgames had once been part of Sony's big planned push for PlayStation live service games, but the…",
+    "published": "2026-11-10T21:06:12+00:00",
+    "outlets": 1,
+    "score": 0.662
+   },
+   {
+    "id": "pixel-phones-getting-new-icon-styles-create-my-widget-and-mo",
+    "title": "Pixel phones getting new icon styles, Create My Widget, and more in November Pixel Drop",
+    "link": "https://arstechnica.com/gadgets/2026/11/november-pixel-drop-brings-gemini-intelligence-to-pixel-10-family/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "Spruce up your home screen with expanded custom icons and AI-generated widgets.",
+    "published": "2026-11-10T19:00:26+00:00",
+    "outlets": 1,
+    "score": 0.596
+   },
+   {
+    "id": "the-playstation-plus-pc-app-is-shutting-down-next-month",
+    "title": "The PlayStation Plus PC app is shutting down next month",
+    "link": "https://www.theverge.com/games/1031144/sony-playstation-plus-windows-pc-app-shutting-down",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "Sony is retiring the PlayStation Plus app for PC on December 10th. Sony says it will notify users directly about the shutdown. The app allowed PlayStation Plus Premium subscribers to…",
+    "published": "2026-11-10T20:42:09+00:00",
+    "outlets": 1,
+    "score": 0.495
+   }
+  ],
+  "Sports": [
+   {
+    "id": "knicks-vs-bucks-prediction-odds-time-2026-nba-picks-for-tues",
+    "title": "Knicks vs. Bucks prediction, odds, time: 2026 NBA picks for Tuesday, Nov. 10 from proven model",
+    "link": "https://www.cbssports.com/betting/news/knicks-bucks-prediction-odds-time-2026-nba-picks-best-bets-tuesday-november-10/",
+    "source": "CBS Sports",
+    "topic": "Sports",
+    "summary": "SportsLine's model reveals its New York Knicks vs. Milwaukee Bucks best bets on Tuesday",
+    "published": "2026-11-10T21:51:05+00:00",
+    "outlets": 1,
+    "score": 0.997
+   },
+   {
+    "id": "the-monaco-summit-that-will-decide-the-future-of-carrick-and",
+    "title": "The Monaco summit that will decide the future of Carrick and Man Utd",
+    "link": "https://www.bbc.co.uk/sport/football/articles/c8wy9yzyzxnko?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "topic": "Sports",
+    "summary": "Manchester United's power brokers meet in Monaco on Wednesday to decide whether Michael Carrick will remain as head coach",
+    "published": "2026-11-10T18:12:02+00:00",
+    "outlets": 1,
+    "score": 0.831
+   },
+   {
+    "id": "use-betmgm-bonus-code-cbssports-to-get-1-500-bonus-bets-for",
+    "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Celtics-76ers, Texas Tech-Illinois, NBA Tuesday",
+    "link": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-celtics-76ers-texas-tech-illinois-nba-tuesday/",
+    "source": "CBS Sports",
+    "topic": "Sports",
+    "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for NBA, college basketball, NFL betting on Tuesday",
+    "published": "2026-11-10T21:35:36+00:00",
+    "outlets": 1,
+    "score": 0.679
+   },
+   {
+    "id": "pochettino-howe-emery-or-carrick-man-utd-s-managerial-option",
+    "title": "Pochettino, Howe, Emery... or Carrick? Man Utd's managerial options",
+    "link": "https://www.bbc.co.uk/sport/football/articles/c5rmymrvm004o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "topic": "Sports",
+    "summary": "As doubts grow over Manchester United boss Michael Carrick's future, what are the club's managerial options?",
+    "published": "2026-11-10T16:17:10+00:00",
+    "outlets": 1,
+    "score": 0.521
+   },
+   {
+    "id": "serie-a-hot-takes-ac-milan-s-star-is-no-longer-christian-pul",
+    "title": "Serie A hot takes: AC Milan's star is no longer Christian Pulisic; Napoli need to find a new coach",
+    "link": "https://www.cbssports.com/soccer/news/serie-a-hot-takes-ac-milans-christian-pulisic-napoli/",
+    "source": "CBS Sports",
+    "topic": "Sports",
+    "summary": "Alphadjo Cisse is fueling the Rossoneri, Massimiliano Allegri is struggling in Naples, and Inter are proving they can survive without Lautaro Martinez",
+    "published": "2026-11-10T21:34:04+00:00",
+    "outlets": 1,
+    "score": 0.517
+   },
+   {
+    "id": "mctominay-reveals-heart-treatment-at-world-cup",
+    "title": "McTominay reveals heart treatment at World Cup",
+    "link": "https://www.bbc.co.uk/sport/football/articles/cw5ynynx204zo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "topic": "Sports",
+    "summary": "Scott McTominay reveals he received treatment on his heart two days before Scotland's World Cup win over Haiti in June.",
+    "published": "2026-11-10T16:46:31+00:00",
+    "outlets": 1,
+    "score": 0.407
+   }
+  ],
+  "Politics": [
+   {
+    "id": "house-gop-report-critical-of-epstein-investigation",
+    "title": "House GOP report critical of Epstein investigation",
+    "link": "https://www.npr.org/2026/11/10/nx-s1-6035872/house-gop-report-critical-of-epstein-investigation",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "The House Oversight Committee has released a report into its investigation into sex-offender, Jeffrey Epstein. They faulted the federal government for not holding the financier accountable.",
+    "published": "2026-11-10T21:43:31+00:00",
+    "outlets": 1,
+    "score": 0.991
+   },
+   {
+    "id": "house-gop-elects-jim-jordan-as-new-leader-as-the-party-looks",
+    "title": "House GOP elects Jim Jordan as new leader as the party looks to rebuild from midterms",
+    "link": "https://www.npr.org/2026/11/10/nx-s1-6030988/gop-leadership-election-steve-scalise-jim-jordan",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "Jordan, a close Trump ally and co-founder of the ultra-conservative House Freedom Caucus, will succeed Mike Johnson, who says he's stepping down as the chamber's top Republican.",
+    "published": "2026-11-10T21:36:06+00:00",
+    "outlets": 2,
+    "score": 0.7
+   },
+   {
+    "id": "live-updates-gop-picks-leaders-hegseth-faces-impeachment-vot",
+    "title": "Live Updates: GOP picks leaders, Hegseth faces impeachment vote",
+    "link": "https://www.cbsnews.com/live-updates/congress-today-senate-house-leadership-elections/",
+    "source": "CBS News",
+    "topic": "Politics",
+    "summary": "House and Senate Republicans held internal elections for their leadership teams on Tuesday as they prepare to become the minority in January.",
+    "published": "2026-11-10T21:36:42+00:00",
+    "outlets": 1,
+    "score": 0.622
+   },
+   {
+    "id": "house-set-to-vote-to-impeach-hegseth-and-scotus-allows-borde",
+    "title": "House set to vote to impeach Hegseth. And, SCOTUS allows border wall work to proceed",
+    "link": "https://www.npr.org/2026/11/10/g-s1-152777/up-first-newsletter-pete-hegseth-impeachment-trump-iran-nvidia-border-wall-texas",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "The House could vote to impeach Hegseth, but removing him from office will be tough. And, SCOTUS ruled that a federal judge did not have the authority to halt border wall construction.",
+    "published": "2026-11-10T12:01:04+00:00",
+    "outlets": 1,
+    "score": 0.421
+   },
+   {
+    "id": "former-pentagon-spokesman-on-articles-of-impeachment-filed-a",
+    "title": "Former Pentagon spokesman on articles of impeachment filed against Hegseth",
+    "link": "https://www.npr.org/2026/11/10/nx-s1-6035039/former-pentagon-spokesman-on-articles-of-impeachment-filed-against-hegseth",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "NPR's Steve Inskeep speaks with former Pentagon spokesman John Ullyot about articles of impeachment brought against Secretary of Defense Pete Hegseth.",
+    "published": "2026-11-10T11:52:24+00:00",
+    "outlets": 2,
+    "score": 0.377
+   },
+   {
+    "id": "mississippi-senate-race-leans-democratic-colom-holds-narrow",
+    "title": "Mississippi Senate race leans Democratic; Colom holds narrow lead",
+    "link": "https://www.cbsnews.com/news/mississippi-senate-race-results-2026-midterms/",
+    "source": "CBS News",
+    "topic": "Politics",
+    "summary": "The Senate race in deep-red Mississippi remains unresolved, as Democrat Scott Colom has mounted a surprisingly competitive challenge to incumbent Sen. Cindy Hyde-Smith.",
+    "published": "2026-11-10T21:19:21+00:00",
+    "outlets": 1,
+    "score": 0.359
    }
   ],
   "Entertainment": [
    {
-    "id": "david-walliams-dropped-by-agency-following-grooming-allegati",
-    "title": "David Walliams Dropped by Agency Following ‘Grooming’ Allegations",
-    "link": "https://variety.com/2026/tv/global/david-walliams-dropped-by-agency-grooming-1236944059/",
+    "id": "the-peanut-butter-falcon-breakout-zack-gottsagen-and-anna-e",
+    "title": "‘The Peanut Butter Falcon’ Breakout Zack Gottsagen and Anna Enger Ritch to Star in ‘A Reason to Stay’ From Director Rippin Sindher (EXCLUSIVE)",
+    "link": "https://variety.com/2026/film/news/zack-gottsagen-anna-enger-ritch-a-reason-to-stay-1236944315/",
     "source": "Variety",
     "topic": "Entertainment",
-    "summary": "Former “Britain’s Got Talent” star David Walliams has been dropped by Independent Talent Group following allegations of “grooming” and “harassment.” “ITG is deeply disturbed by the…",
-    "published": "2026-11-10T16:21:16+00:00",
+    "summary": "“The Peanut Butter Falcon” breakout Zack Gottsagen and “S.W.A.T.” star Anna Enger Ritch will star as brother and sister in “A Reason to Stay,” a new romantic comedy from Rippin Sindher.…",
+    "published": "2026-11-10T21:26:49+00:00",
     "outlets": 1,
-    "score": 0.999
+    "score": 0.977
+   },
+   {
+    "id": "david-walliams-accused-of-sexual-misconduct-after-losing-inj",
+    "title": "David Walliams accused of sexual misconduct after losing injunction bid",
+    "link": "https://www.bbc.co.uk/news/articles/ckn8w8p9370zo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Entertainment",
+    "topic": "Entertainment",
+    "summary": "ITN and the Guardian allege the comedian preyed on teenage girls and young women. He has denied all allegations.",
+    "published": "2026-11-10T20:20:11+00:00",
+    "outlets": 1,
+    "score": 0.924
+   },
+   {
+    "id": "adobe-premiere-mobile-app-launches-hundreds-of-thousands-of",
+    "title": "Adobe Premiere Mobile App Launches Hundreds of Thousands of Tracks Licensed From UMG, WMG",
+    "link": "https://variety.com/2026/digital/news/adobe-premiere-mobile-songs-licensed-umg-wmg-1236944255/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "Adobe has just made it easier for creators to add some of their favorite hot jams to short-form video clips. On Tuesday, the free Adobe Premiere mobile app, designed for creators to make…",
+    "published": "2026-11-10T21:24:05+00:00",
+    "outlets": 1,
+    "score": 0.672
+   },
+   {
+    "id": "harry-potter-star-paapa-essiedu-says-i-don-t-want-to-talk-a",
+    "title": "‘Harry Potter’ Star Paapa Essiedu Says ‘I Don’t Want to Talk About’ J.K. Rowling ‘At All’ but ‘Trans People Have the Right to Be Treated With Respect and Dignity’",
+    "link": "https://variety.com/2026/film/news/paapa-essiedu-jk-rowling-trans-rights-harry-potter-hbo-1236944224/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "HBO’s “Harry Potter” showrunner Francesca Gardiner is condemning the “abuse” being directed at Paapa Essiedu, the “I May Destroy You” Emmy nominee who is taking over the role of Professor…",
+    "published": "2026-11-10T21:09:53+00:00",
+    "outlets": 1,
+    "score": 0.507
    },
    {
     "id": "david-walliams-career-and-controversies-including-britain-s",
@@ -504,190 +673,168 @@
     "summary": "The entertainer shot to fame on Little Britain and also has best-selling series of children's books.",
     "published": "2026-11-10T14:53:28+00:00",
     "outlets": 1,
-    "score": 0.929
+    "score": 0.486
    },
    {
-    "id": "met-police-investigating-more-potential-criminal-allegations",
-    "title": "Met Police investigating more 'potential criminal allegations' about Brand",
-    "link": "https://www.bbc.co.uk/news/articles/cvwy7ydg4264o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Entertainment",
-    "topic": "Entertainment",
-    "summary": "Det Supt Andy Furphy says the force had received \"several reports during the trial and since the trial\".",
-    "published": "2026-11-10T14:09:11+00:00",
-    "outlets": 1,
-    "score": 0.803
-   },
-   {
-    "id": "afm-2026-indie-film-faces-a-tougher-market-but-theatrical-br",
-    "title": "AFM 2026: Indie Film Faces a Tougher Market — But Theatrical Breakouts Offer Hope",
-    "link": "https://variety.com/2026/film/news/afm-2026-tough-market-but-theatrical-breakouts-offer-hope-1236941581/",
+    "id": "alexander-skarsg-rd-hunter-schafer-maya-hawke-harry-melling",
+    "title": "Alexander Skarsgård, Hunter Schafer, Maya Hawke, Harry Melling to Star in ‘The Confessions,’ With Ari Aster Producing (EXCLUSIVE)",
+    "link": "https://variety.com/2026/film/global/skarsgard-hunter-schafer-maya-hawke-harry-melling-confessions-1236944297/",
     "source": "Variety",
     "topic": "Entertainment",
-    "summary": "The indie film biz head into this year’s American Film Market amid one of the industry’s most tumultuous periods in recent memory. The completion of Paramount Skydance’s merger with Warner…",
-    "published": "2026-11-10T16:15:00+00:00",
+    "summary": "Alexander Skarsgård (“Wicker”), Hunter Schafer (“Blade Runner 2099”), Maya Hawke (“Stranger Things”) and Harry Melling (“Pillion”) are set to star in “The Confessions,” the latest feature…",
+    "published": "2026-11-10T20:19:39+00:00",
     "outlets": 1,
-    "score": 0.686
-   },
-   {
-    "id": "from-a-mockbuster-version-of-the-odyssey-to-a-jiu-jitsu-nun",
-    "title": "From a Mockbuster Version of ‘The Odyssey’ to a ‘Jiu-Jitsu Nun’: How Producers Are Keeping the Low-Budget Film Market Alive Via Streaming and FAST Channels (and Even Lower Budgets)",
-    "link": "https://variety.com/2026/film/news/producers-adapt-streaming-fast-channels-mockbusters-1236941543/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "“Our journey begins with the Cyclops,” says a ginger-bearded and bald Odysseus somewhat nonchalantly in the trailer for “The Odyssey,” moments before a giant one-eyed AI-generated monster…",
-    "published": "2026-11-10T16:15:00+00:00",
-    "outlets": 1,
-    "score": 0.523
-   },
-   {
-    "id": "baffling-but-brilliant-post-apocalyptic-novel-the-end-of-ev",
-    "title": "'Baffling but brilliant' post-apocalyptic novel The End of Everything wins Booker Prize",
-    "link": "https://www.bbc.co.uk/news/articles/cw0737kv52lko?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Entertainment",
-    "topic": "Entertainment",
-    "summary": "M John Harrison becomes the oldest ever winner of the prestigious literary award at the age of 81.",
-    "published": "2026-11-10T09:35:15+00:00",
-    "outlets": 1,
-    "score": 0.491
+    "score": 0.393
    }
   ],
-  "Tech": [
+  "Economy": [
    {
-    "id": "the-verge-s-2026-holiday-gift-guide-for-moms",
-    "title": "The Verge’s 2026 holiday gift guide for moms",
-    "link": "https://www.theverge.com/gadgets/1021621/best-gifts-for-mom-2026",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "Given everything moms do for us, it feels good to give back during the holidays. But where to start? How do you come up with a physical representation of how you feel about such a key and…",
-    "published": "2026-11-10T16:14:57+00:00",
+    "id": "nvidia-hires-major-new-york-law-firm-to-investigate-jensen-h",
+    "title": "Nvidia hires major New York law firm to investigate Jensen Huang affair",
+    "link": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.",
+    "published": "2026-11-10T21:06:04+00:00",
     "outlets": 1,
-    "score": 0.994
+    "score": 0.96
    },
    {
-    "id": "deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchma",
-    "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
-    "link": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "The new model is up to twice as successful at some tasks.",
-    "published": "2026-11-10T15:00:39+00:00",
+    "id": "gas-prices-dip-below-4-but-inflation-remains-stubbornly-high",
+    "title": "Gas prices dip below $4 but inflation remains stubbornly high",
+    "link": "https://www.npr.org/2026/11/10/nx-s1-6034518/inflation-consumer-prices-economy-gas-prices",
+    "source": "NPR Economy",
+    "topic": "Economy",
+    "summary": "Gasoline prices fell below $4 a gallon Tuesday for the first time in three months — but the overall cost of living remains stubbornly high.",
+    "published": "2026-11-10T14:35:50+00:00",
     "outlets": 1,
-    "score": 0.935
+    "score": 0.902
    },
    {
-    "id": "google-releases-gemini-4-carbon-with-agent-swarm-feature",
-    "title": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "Google is rolling out its latest AI model, Gemini 4 Carbon, to the general public after releasing it to a select group of \"cybersecurity defenders\" two weeks ago. Google claims Carbon is…",
-    "published": "2026-11-10T15:30:28+00:00",
+    "id": "claude-chatbot-maker-set-for-1-3tn-stock-market-debut-despit",
+    "title": "Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning",
+    "link": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78, which is lower than what was expected.",
+    "published": "2026-11-10T17:56:12+00:00",
     "outlets": 1,
-    "score": 0.661
+    "score": 0.565
    },
    {
-    "id": "nvidia-has-a-jensen-huang-problem-and-no-obvious-successor",
-    "title": "Nvidia has a Jensen Huang problem—and no obvious successor",
-    "link": "https://arstechnica.com/gadgets/2026/11/nvidia-has-a-jensen-huang-problem-and-no-obvious-successor/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "Huang faces a board probe as investors fret over Nvidia’s lack of a clear successor.",
-    "published": "2026-11-10T14:53:05+00:00",
+    "id": "americans-across-the-economic-spectrum-feel-a-panic-about-fi",
+    "title": "Americans across the economic spectrum feel a 'panic' about finances, author says",
+    "link": "https://www.npr.org/2026/11/10/nx-s1-6032767/mona-chalabi-ten-lives",
+    "source": "NPR",
+    "topic": "Economy",
+    "summary": "Mona Chalabi spent five years following Americans living paycheck to paycheck, as well as those earning top wages. Her new book, Ten Lives, explores why financial security can feel so…",
+    "published": "2026-11-10T17:46:25+00:00",
     "outlets": 1,
-    "score": 0.64
+    "score": 0.556
    },
    {
-    "id": "ember-s-latest-self-heating-14-ounce-mug-is-50-off",
-    "title": "Ember’s latest self-heating 14-ounce mug is $50 off",
-    "link": "https://www.theverge.com/gadgets/1030735/ember-mug-3-criterion-collection-blu-ray-pixel-watch-deal-sale",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "If you were cool on the $149.95 original price of the 14-ounce Ember Mug 3, you might warm up to the current discount happening at Amazon, Ember, and Best Buy for several colors of the…",
-    "published": "2026-11-10T15:47:18+00:00",
+    "id": "rubio-says-u-s-has-no-need-to-restart-combat-operations-in-i",
+    "title": "Rubio says U.S. has \"no need\" to restart combat operations in Iran",
+    "link": "https://www.cbsnews.com/live-updates/iran-war-us-trump-deal-negotiations/",
+    "source": "CBS News",
+    "topic": "Economy",
+    "summary": "Secretary of State Marco Rubio said he saw no need to resume major combat operations against Iran because economic sanctions were working so effectively.",
+    "published": "2026-11-10T21:27:41+00:00",
     "outlets": 1,
-    "score": 0.511
+    "score": 0.419
    },
    {
-    "id": "fda-warns-glp-1-drugs-may-pose-risk-of-rare-condition-that-c",
-    "title": "FDA warns GLP-1 drugs may pose risk of rare condition that causes vision loss",
-    "link": "https://arstechnica.com/health/2026/11/glp-1-drugs-may-increase-risk-of-vision-loss-from-rare-condition-fda-warns/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "The risk appears small and data is mixed, but FDA wants patients to be aware.",
-    "published": "2026-11-10T14:43:49+00:00",
+    "id": "why-did-california-s-billionaire-tax-fail-to-surf-the-blue-w",
+    "title": "Why did California's billionaire tax fail to surf the blue wave?",
+    "link": "https://www.npr.org/sections/planet-money/2026/11/10/g-s1-152755/why-did-californias-billionaire-tax-fail-to-surf-the-blue-wave",
+    "source": "NPR Economy",
+    "topic": "Economy",
+    "summary": "Two economists debate what California's vote on Prop 40 means for the wealth tax movement.",
+    "published": "2026-11-10T11:30:00+00:00",
     "outlets": 1,
-    "score": 0.485
+    "score": 0.41
    }
   ],
-  "Sports": [
+  "Local": [
    {
-    "id": "after-puka-nacua-injury-five-receivers-the-rams-should-targe",
-    "title": "After Puka Nacua injury, five receivers the Rams should target at the 2026 trade deadline",
-    "link": "https://www.cbssports.com/nfl/news/puka-nacua-injury-nfl-trade-deadline-five-receivers-rams-should-target-george-pickens/",
-    "source": "CBS Sports",
-    "topic": "Sports",
-    "summary": "With Puka Nacua and Davante Adams both out, the Rams suddenly need some help at wide receiver",
-    "published": "2026-11-10T16:02:40+00:00",
+    "id": "california-prison-officials-failed-to-complete-thousands-of",
+    "title": "California Prison Officials Failed to Complete Thousands of Misconduct Investigations, Report Finds",
+    "link": "https://ww2.kqed.org/news/2026/11/10/california-prison-officials-failed-to-complete-thousands-of-misconduct-investigations-report-finds/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "The inspector general found the unit in charge of investigating prisoner complaints is plagued with delays, unmanageable caseloads and a skyrocketing backlog of grievances.",
+    "published": "2026-11-10T20:46:52+00:00",
     "outlets": 1,
-    "score": 0.984
+    "score": 0.945
    },
    {
-    "id": "carrick-s-man-utd-future-to-be-decided-at-wednesday-meeting",
-    "title": "Carrick's Man Utd future to be decided at Wednesday meeting",
-    "link": "https://www.bbc.co.uk/sport/football/articles/cmy0r041ed0po?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Sport",
-    "topic": "Sports",
-    "summary": "Manchester United head coach Michael Carrick's future will be discussed at a meeting in Monaco on Wednesday.",
-    "published": "2026-11-10T11:23:43+00:00",
+    "id": "california-lawmaker-calls-for-release-of-usf-nursing-profess",
+    "title": "California Lawmaker Calls for Release of USF Nursing Professor Detained by ICE",
+    "link": "https://ww2.kqed.org/news/2026/11/10/california-lawmaker-calls-for-release-of-usf-nursing-professor-detained-by-ice/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "Stockton Rep. Josh Harder sounded alarm over Lawani’s detention and whereabouts, stressing that the Lodi resident has lived in the U.S. legally for 13 years with no criminal record.",
+    "published": "2026-11-10T20:26:17+00:00",
     "outlets": 1,
-    "score": 0.78
+    "score": 0.641
    },
    {
-    "id": "pochettino-howe-emery-or-conte-man-utd-s-managerial-options",
-    "title": "Pochettino, Howe, Emery or Conte? - Man Utd's managerial options",
-    "link": "https://www.bbc.co.uk/sport/football/articles/c5rmymrvm004o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Sport",
-    "topic": "Sports",
-    "summary": "As doubts grow over Manchester United boss Michael Carrick's future, what are the club's managerial options?",
-    "published": "2026-11-10T16:17:10+00:00",
+    "id": "testimony-ag-bonta-visited-oakland-housing-company-connected",
+    "title": "Testimony: AG Bonta Visited Oakland Housing Company Connected to Alleged Bribery Scheme",
+    "link": "https://ww2.kqed.org/news/2026/11/10/testimony-ag-bonta-visited-oakland-housing-company-connected-to-alleged-bribery-scheme/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "Rob Bonta spent nearly $470 thousand in campaign funds on legal services after being contacted by federal investigators amid the FBI's probe.",
+    "published": "2026-11-10T20:25:55+00:00",
     "outlets": 1,
-    "score": 0.687
+    "score": 0.489
    },
    {
-    "id": "fantasy-football-week-10-waiver-wire-audric-estime-could-be",
-    "title": "Fantasy football Week 10 waiver wire: Audric Estime could be the cure for your injury-ravaged backfield",
-    "link": "https://www.cbssports.com/fantasy/football/news/week-10-waiver-wire-audric-estime-could-be-the-cure/",
-    "source": "CBS Sports",
-    "topic": "Sports",
-    "summary": "Injuries and bye weeks have Fantasy backfields in disarray, but Audric Estime and other waiver-wire options could provide relief",
-    "published": "2026-11-10T15:51:54+00:00",
+    "id": "industry-challenges-driving-wave-of-napa-winery-closures",
+    "title": "Industry Challenges Driving Wave of Napa Winery Closures",
+    "link": "https://ww2.kqed.org/news/2026/11/10/industry-challenges-driving-wave-of-napa-winery-closures/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "High production coupled with a steady drop in consumer demand has wine country contracting.",
+    "published": "2026-11-10T17:59:43+00:00",
     "outlets": 1,
-    "score": 0.673
+    "score": 0.35
    },
    {
-    "id": "mlb-rumors-a-new-tarik-skubal-suitor-the-mets-vision-plus-wh",
-    "title": "MLB rumors: A new Tarik Skubal suitor, the Mets' vision, plus what the Braves plan to do with Ronald Acuńa Jr.",
-    "link": "https://www.cbssports.com/mlb/news/mlb-rumors-tarik-skubal-padres-mets-cubs-braves-ronald-acuna-jr-adrian-morejon-red-sox-trevor-story/",
-    "source": "CBS Sports",
-    "topic": "Sports",
-    "summary": "Here are your hot stove rumors as the GM meetings open on Tuesday, Nov. 10",
-    "published": "2026-11-10T15:42:38+00:00",
+    "id": "meet-the-san-jos-sea-lions-the-bay-area-s-new-women-s-hockey",
+    "title": "Meet the San José Sea Lions: The Bay Area’s New Women’s Hockey Team",
+    "link": "https://ww2.kqed.org/news/2026/11/10/meet-the-san-jose-sea-lions-the-bay-areas-new-womens-hockey-team/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "The name of the new Professional Women's Hockey League team in the Bay Area was announced Tuesday morning.",
+    "published": "2026-11-10T16:51:51+00:00",
     "outlets": 1,
-    "score": 0.509
+    "score": 0.278
    },
    {
-    "id": "australia-doomed-to-live-with-stench-of-sandpapergate",
-    "title": "Australia doomed to live with stench of sandpapergate",
-    "link": "https://www.bbc.co.uk/sport/cricket/articles/c6x2v277z89eo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Sport",
-    "topic": "Sports",
-    "summary": "Usman Khawaja's autobiography has exposed the limbo Australian cricket finds itself stuck in over the sandpaper scandal, writes Stephan Shemilt.",
-    "published": "2026-11-10T14:03:19+00:00",
+    "id": "these-latinas-bring-banda-and-pilates-together-making-workou",
+    "title": "These Latinas Bring Banda and Pilates Together, Making Workouts a Party",
+    "link": "https://ww2.kqed.org/news/2026/11/10/these-latinas-bring-banda-and-pilates-together-making-workouts-a-party/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "Fitness organizers are breaking generational barriers for Latinx communities, incorporating music and fun themes into workout classes — encouraging their participants to center themselves…",
+    "published": "2026-11-10T14:00:00+00:00",
     "outlets": 1,
-    "score": 0.469
+    "score": 0.207
    }
   ],
   "Finance": [
+   {
+    "id": "u-s-gas-prices-fall-below-4-for-the-first-time-since-july",
+    "title": "U.S. gas prices fall below $4 for the first time since July",
+    "link": "https://www.cnbc.com/2026/11/10/us-gas-prices-below-four-dollars.html",
+    "source": "CNBC Finance",
+    "topic": "Finance",
+    "summary": "Americans may finally find some relief at the pump.",
+    "published": "2026-11-10T16:29:09+00:00",
+    "outlets": 1,
+    "score": 0.762
+   },
    {
     "id": "coreweave-earnings-put-debt-fueled-ai-build-out-under-scruti",
     "title": "CoreWeave earnings put debt-fueled AI build-out under scrutiny",
@@ -697,7 +844,7 @@
     "summary": "CoreWeave’s earnings after the bell could calm fears about its debt-fueled AI buildout — or stoke more fear.",
     "published": "2026-11-10T15:01:21+00:00",
     "outlets": 1,
-    "score": 0.935
+    "score": 0.709
    },
    {
     "id": "polymarket-says-annualized-revenue-has-topped-1-8-billion",
@@ -708,7 +855,7 @@
     "summary": "Amid growth of its U.S. exchange, the prediction market platform’s current annual run-rate is $1.8 billion.",
     "published": "2026-11-10T13:00:01+00:00",
     "outlets": 1,
-    "score": 0.845
+    "score": 0.442
    },
    {
     "id": "fed-governor-waller-sees-december-hike-likely-opens-door-to",
@@ -717,9 +864,9 @@
     "source": "CNBC Finance",
     "topic": "Finance",
     "summary": "The policymaker said he \"is leaning toward\" a rate increase in December and could support a half-point hike depending on inflation data.",
-    "published": "2026-11-10T09:00:01+00:00",
+    "published": "2026-11-10T17:13:44+00:00",
     "outlets": 1,
-    "score": 0.477
+    "score": 0.416
    },
    {
     "id": "millions-of-dollars-poured-into-prediction-markets-on-electi",
@@ -730,7 +877,7 @@
     "summary": "Election night showed how traders reacted in real time to midterm results, as trading activity surged and market prices shifted to Democrats on Nov. 3.",
     "published": "2026-11-10T15:22:38+00:00",
     "outlets": 1,
-    "score": 0.405
+    "score": 0.307
    },
    {
     "id": "tokenization-platform-securitize-gains-10-postmarket-on-q3-r",
@@ -741,86 +888,7 @@
     "summary": "Securitize saw growth in tokenization last quarter and announced its expansion into asset-backed finance through the acquisition of River One.",
     "published": "2026-11-09T21:24:13+00:00",
     "outlets": 1,
-    "score": 0.267
-   },
-   {
-    "id": "jensen-huang-exit-odds-are-low-on-prediction-markets-after-n",
-    "title": "Jensen Huang exit odds are low on prediction markets after Nvidia probe",
-    "link": "https://www.cnbc.com/2026/11/09/jensen-huang-nvidia-exit-prediction-markets.html",
-    "source": "CNBC Finance",
-    "topic": "Finance",
-    "summary": "Prediction markets traders price relatively low odds that the Nvidia CEO will depart in the near term.",
-    "published": "2026-11-09T18:46:01+00:00",
-    "outlets": 1,
-    "score": 0.184
-   }
-  ],
-  "Local": [
-   {
-    "id": "these-latinas-bring-banda-and-pilates-together-making-workou",
-    "title": "These Latinas Bring Banda and Pilates Together, Making Workouts a Party",
-    "link": "https://ww2.kqed.org/news/2026/11/10/these-latinas-bring-banda-and-pilates-together-making-workouts-a-party/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "Fitness organizers are breaking generational barriers for Latinx communities, incorporating music and fun themes into workout classes — encouraging their participants to center themselves…",
-    "published": "2026-11-10T14:00:00+00:00",
-    "outlets": 1,
-    "score": 0.888
-   },
-   {
-    "id": "fall-weekend-itinerary-an-atmospheric-overnighter-outdoors-o",
-    "title": "Fall Weekend Itinerary: An Atmospheric Overnighter Outdoors on the Sonoma Coast",
-    "link": "https://ww2.kqed.org/news/2026/11/10/fall-weekend-itinerary-an-atmospheric-overnighter-outdoors-on-the-sonoma-coast/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "Head to Fort Ross State Historic Park for cozy fall camping, migrating gray whales and a unique slice of California history.",
-    "published": "2026-11-10T12:00:00+00:00",
-    "outlets": 1,
-    "score": 0.554
-   },
-   {
-    "id": "california-billionaire-tax-fails-to-pass",
-    "title": "California Billionaire Tax Fails to Pass",
-    "link": "https://ww2.kqed.org/news/2026/11/09/california-billionaire-tax-trails-in-early-results/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "Proposition 40 would have imposed a one-time wealth tax on the state's billionaires. Proposition 42, a billionaire-backed countermeasure, is leading.",
-    "published": "2026-11-10T05:29:00+00:00",
-    "outlets": 1,
-    "score": 0.305
-   },
-   {
-    "id": "testimony-ag-bonta-visited-oakland-housing-company-connected",
-    "title": "Testimony: AG Bonta Visited Oakland Housing Company Connected to Alleged Bribery Scheme",
-    "link": "https://ww2.kqed.org/news/2026/11/09/testimony-ag-bonta-visited-oakland-housing-company-connected-to-alleged-bribery-scheme/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "Rob Bonta spent nearly $470 thousand in campaign funds on legal services after being contacted by federal investigators amid the FBI's probe.",
-    "published": "2026-11-10T01:37:10+00:00",
-    "outlets": 1,
-    "score": 0.204
-   },
-   {
-    "id": "airbnb-exec-donates-100-million-to-san-francisco-parks-in-re",
-    "title": "Airbnb Exec Donates $100 Million to San Francisco Parks in Record Gift to City",
-    "link": "https://ww2.kqed.org/news/2026/11/09/airbnb-exec-donates-100-million-to-san-francisco-parks-in-record-gift-to-city/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "Five of the city’s parks are set to receive the first half of the money as early as this year.",
-    "published": "2026-11-10T00:25:10+00:00",
-    "outlets": 1,
-    "score": 0.161
-   },
-   {
-    "id": "nvidia-investigating-reports-that-ceo-jensen-huang-was-targe",
-    "title": "Nvidia Investigating Reports That CEO Jensen Huang Was Targeted by Chinese Intelligence",
-    "link": "https://ww2.kqed.org/news/2026/11/08/nvidia-investigating-reports-that-ceo-jensen-huang-was-targeted-by-chinese-intelligence/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "Nvidia's board says Huang supports the review and will remain CEO during the investigation.",
-    "published": "2026-11-09T00:25:28+00:00",
-    "outlets": 2,
-    "score": 0.124
+    "score": 0.241
    }
   ],
   "Health": [
@@ -833,7 +901,7 @@
     "summary": "Renewed fighting has pushed Ethiopia's healthcare system close to collapse: \"The whole emergency (room) was flooded with war trauma patients,\" one surgeon says of a brutal week in September.",
     "published": "2026-11-10T12:48:48+00:00",
     "outlets": 1,
-    "score": 0.837
+    "score": 0.635
    },
    {
     "id": "get-in-loser-broadway-s-newest-mean-girls-are-ready-to-insul",
@@ -844,7 +912,7 @@
     "summary": "\"School Girls; Or, The African Mean Girls Play,\" is ending a Broadway run this week and celebrating with livestream broadcasts. We interviewed the Tony-nominated playwright, Jocelyn Bioh.",
     "published": "2026-11-10T12:28:36+00:00",
     "outlets": 1,
-    "score": 0.568
+    "score": 0.43
    },
    {
     "id": "why-honesty-is-not-always-the-best-policy",
@@ -855,7 +923,7 @@
     "summary": "Should you tell your boss she's got food on her face? Your partner you hate their outfit? Social psychologist Vanessa Bohns shares advice on when to tell someone the truth — or keep your…",
     "published": "2026-11-10T10:00:00+00:00",
     "outlets": 1,
-    "score": 0.383
+    "score": 0.29
    },
    {
     "id": "how-word-of-mouth-is-helping-an-amish-community-s-fight-agai",
@@ -866,75 +934,18 @@
     "summary": "In Pennsylvania, health officials use a quiet vaccination campaign designed to win the trust of the state's Amish community, which has been hit hard by the measles outbreak.",
     "published": "2026-11-10T10:00:00+00:00",
     "outlets": 1,
-    "score": 0.31
-   }
-  ],
-  "Politics": [
-   {
-    "id": "trump-says-iran-war-at-status-quo-warns-u-s-locked-and-loade",
-    "title": "Trump says Iran war at \"status quo,\" warns U.S. \"locked and loaded\"",
-    "link": "https://www.cbsnews.com/live-updates/iran-war-us-trump-deal-negotiations/",
-    "source": "CBS News",
-    "topic": "Politics",
-    "summary": "President Trump told 60 Minutes the war with Iran was a \"good decision\" in the long term, despite its short-term impact.",
-    "published": "2026-11-10T15:58:37+00:00",
-    "outlets": 1,
-    "score": 0.812
+    "score": 0.235
    },
    {
-    "id": "house-set-to-vote-to-impeach-hegseth-and-scotus-allows-borde",
-    "title": "House set to vote to impeach Hegseth. And, SCOTUS allows border wall work to proceed",
-    "link": "https://www.npr.org/2026/11/10/g-s1-152777/up-first-newsletter-pete-hegseth-impeachment-trump-iran-nvidia-border-wall-texas",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "The House could vote to impeach Hegseth, but removing him from office will be tough. And, SCOTUS ruled that a federal judge did not have the authority to halt border wall construction.",
-    "published": "2026-11-10T12:01:04+00:00",
+    "id": "how-medicaid-affected-one-california-house-race",
+    "title": "How Medicaid affected one California House race",
+    "link": "https://www.npr.org/2026/11/09/nx-s1-6030983/how-medicaid-affected-one-california-house-race",
+    "source": "NPR Health",
+    "topic": "Health",
+    "summary": "A Republican in California's Central Valley fended off challengers for years. But his district had a lot of people on Medicaid, and he lost by a large margin this time.",
+    "published": "2026-11-09T22:25:19+00:00",
     "outlets": 1,
-    "score": 0.805
-   },
-   {
-    "id": "former-pentagon-spokesman-on-articles-of-impeachment-filed-a",
-    "title": "Former Pentagon spokesman on articles of impeachment filed against Hegseth",
-    "link": "https://www.npr.org/2026/11/10/nx-s1-6035039/former-pentagon-spokesman-on-articles-of-impeachment-filed-against-hegseth",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "NPR's Steve Inskeep speaks with former Pentagon spokesman John Ullyot about articles of impeachment brought against Secretary of Defense Pete Hegseth.",
-    "published": "2026-11-10T11:52:24+00:00",
-    "outlets": 2,
-    "score": 0.612
-   },
-   {
-    "id": "house-republicans-to-elect-a-new-leader-as-they-look-to-rebu",
-    "title": "House Republicans to elect a new leader as they look to rebuild from midterm defeat",
-    "link": "https://www.npr.org/2026/11/10/nx-s1-6030988/gop-leadership-election-steve-scalise-jim-jordan",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "After sweeping losses in the midterm elections, the House GOP will vote on Tuesday to elect a successor to Mike Johnson, who says he's stepping down as the chamber's top Republican.",
-    "published": "2026-11-10T10:01:00+00:00",
-    "outlets": 1,
-    "score": 0.31
-   },
-   {
-    "id": "trump-s-crypto-profits-raise-alarms-for-transparency-advocat",
-    "title": "Trump's crypto profits raise alarms for transparency advocates",
-    "link": "https://www.npr.org/2026/11/10/nx-s1-5983730/trumps-crypto-profits-raise-alarms-for-transparency-advocates",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "President Trump has made nearly $3 billion while in office, most of it in crypto ventures. And to the alarm of transparency advocates, much of the president's money comes from foreign…",
-    "published": "2026-11-10T09:38:28+00:00",
-    "outlets": 1,
-    "score": 0.22
-   },
-   {
-    "id": "stephen-miller-is-now-chief-of-staff-what-does-that-mean-for",
-    "title": "Stephen Miller is now chief of staff. What does that mean for Trump?",
-    "link": "https://www.npr.org/2026/11/09/nx-s1-6034461/stephen-miller-is-now-chief-of-staff-what-does-that-mean-for-trump",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "NPR's Sacha Pfeiffer speaks with Chris Whipple, an expert on White House chiefs of staff who has written extensively about Susie Wiles, about Trump's appointment of Stephen Miller.",
-    "published": "2026-11-09T21:08:40+00:00",
-    "outlets": 1,
-    "score": 0.083
+    "score": 0.125
    }
   ],
   "Science": [
@@ -947,7 +958,7 @@
     "summary": "Scientists have studied plenty of dinosaur bones, eggs and footprints. Now, some think they've found their strongest evidence yet of dinosaur blood.",
     "published": "2026-11-09T22:00:49+00:00",
     "outlets": 1,
-    "score": 0.399
+    "score": 0.35
    },
    {
     "id": "mice-can-learn-to-fight-by-watching-tiny-rodent-cage-matches",
@@ -958,7 +969,7 @@
     "summary": "Brain scientists set up \"gladiator style\" cage matches for mice — and found that simply observing fighting matches can rewire a mouse's brain to resemble those who actually fought.",
     "published": "2026-11-09T21:39:35+00:00",
     "outlets": 1,
-    "score": 0.271
+    "score": 0.241
    },
    {
     "id": "he-was-diagnosed-with-cancer-then-he-was-told-he-lost-his-me",
