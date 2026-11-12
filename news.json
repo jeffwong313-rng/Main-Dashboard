@@ -1,72 +1,105 @@
 {
- "generated": "2026-11-11T23:38:58+00:00",
- "generatedLocal": "2026-11-11 15:38",
+ "generated": "2026-11-12T06:58:18+00:00",
+ "generatedLocal": "2026-11-11 22:58",
  "top": [
   {
-   "id": "democrat-scott-colom-wins-the-closest-senate-race-in-the-cou",
-   "title": "Democrat Scott Colom wins the closest Senate race in the country",
-   "link": "https://www.npr.org/2026/11/11/nx-s1-6037840/democrat-scott-colom-wins-the-closest-senate-race-in-the-country",
-   "source": "NPR Politics",
-   "topic": "Politics",
-   "summary": "Mississippi hadn't elected a Democrat to the U.S. Senate in more than 40 years.",
-   "published": "2026-11-11T23:33:59+00:00",
-   "outlets": 3,
-   "score": 2.61
-  },
-  {
-   "id": "nvidia-s-stock-dives-as-board-weighs-move-to-oust-jensen-hua",
-   "title": "Nvidia's stock dives as board weighs move to oust Jensen Huang",
-   "link": "https://www.cbsnews.com/news/nvidia-stock-dives-report-board-prepares-oust-jensen-huang/",
-   "source": "CBS News",
-   "topic": "Finance",
-   "summary": "Nvidia shares fall sharply in after-hours trading as the company's board considers whether to remove Jensen Huang as CEO.",
-   "published": "2026-11-11T23:38:00+00:00",
-   "outlets": 1,
-   "score": 1.199
-  },
-  {
-   "id": "author-says-there-were-real-concerns-about-david-walliams-wi",
-   "title": "Author says there were 'real concerns' about David Walliams within publishing industry",
-   "link": "https://www.bbc.co.uk/news/articles/c95y15830k77o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Entertainment",
-   "topic": "Entertainment",
-   "summary": "The comedian denies allegations of sexual misconduct, inappropriate behaviour and abusing his power more than 10 years ago.",
-   "published": "2026-11-11T20:40:47+00:00",
-   "outlets": 1,
-   "score": 1.121
-  },
-  {
-   "id": "us-treasury-secretary-scott-bessent-relocated-after-alleged",
-   "title": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
-   "link": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&at_campaign=rss",
+   "id": "democrat-scott-colom-seals-historic-win-in-mississippi-senat",
+   "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+   "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
    "source": "BBC US & Canada",
    "topic": "U.S.",
-   "summary": "Bessent is now one of several Trump administration officials to live on military bases due to safety concerns.",
-   "published": "2026-11-11T23:13:00+00:00",
-   "outlets": 2,
-   "score": 1.107
+   "summary": "Colom is the first black person from the southern state elected to the US Senate in over 140 years.",
+   "published": "2026-11-12T04:00:30+00:00",
+   "outlets": 3,
+   "score": 2.491
   },
   {
-   "id": "toledo-vs-umass-odds-picks-prediction-start-time-wednesday-c",
-   "title": "Toledo vs. UMass odds, picks, prediction, start time: Wednesday college football betting preview for Nov. 11",
-   "link": "https://www.cbssports.com/betting/news/toledo-vs-umass-odds-picks-prediction-start-time-wednesday-college-football-betting-preview-for-nov-11/",
-   "source": "CBS Sports",
-   "topic": "Sports",
-   "summary": "Toledo and UMass square off on Wednesday for a Week 11 college football matchup",
-   "published": "2026-11-11T23:30:54+00:00",
+   "id": "3-killed-when-suv-crashes-into-north-hollywood-food-stand",
+   "title": "3 killed when SUV crashes into North Hollywood food stand",
+   "link": "https://www.cbsnews.com/news/north-hollywood-food-stand-crash-metro-bus-stop-lankershim-chandler-boulevard/",
+   "source": "CBS News",
+   "topic": "U.S.",
+   "summary": "At least three people were killed and two others were severely injured when an SUV crashed into a food stand near a Metro bus stop in North Hollywood.",
+   "published": "2026-11-12T06:47:10+00:00",
    "outlets": 1,
-   "score": 0.993
+   "score": 1.189
   },
   {
-   "id": "from-inde-navarrette-s-stunning-40-carat-diamond-necklace-to",
-   "title": "From Inde Navarrette’s Stunning 40-Carat Diamond Necklace to a Surprise Role Model Performance: Inside David Yurman’s VIP Dinner Party at Chateau Marmont",
-   "link": "https://variety.com/gallery/inde-navarrettes-role-model-david-yurman-party/",
+   "id": "ukraine-s-power-supply-close-to-critical-as-russian-strikes",
+   "title": "Ukraine's power supply close to critical as Russian strikes bring darkness and cold",
+   "link": "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "topic": "World",
+   "summary": "For parents in parts of Ukraine, trying to lead a normal family life with just a few hours of power each day is taking its toll.",
+   "published": "2026-11-12T05:59:18+00:00",
+   "outlets": 1,
+   "score": 0.952
+  },
+  {
+   "id": "jazz-documentary-tokyo-in-33-rpm-unveiled-ahead-of-india-s-w",
+   "title": "Jazz Documentary ‘Tokyo in 33 RPM’ Unveiled Ahead of India’s WAVES Film Bazaar (EXCLUSIVE)",
+   "link": "https://variety.com/2026/film/markets-festivals/jazz-documentary-tokyo-in-33-rpm-unveiled-1236945240/",
    "source": "Variety",
    "topic": "Entertainment",
-   "summary": "Celebrity jeweler David Yurman hosted a dinner at Chateau Marmont Tuesday night to celebrate the reopening of his flagship boutique on Rodeo Drive. The evening began with a cocktail hour…",
-   "published": "2026-11-11T23:22:53+00:00",
+   "summary": "“Tokyo in 33 RPM,” a feature documentary about the jazz scene in Japan’s capital, is in the works from director Tanmay Srivastava and Synergy Pictures U.K. The project will be presented at…",
+   "published": "2026-11-12T05:30:00+00:00",
    "outlets": 1,
-   "score": 0.987
+   "score": 0.929
+  },
+  {
+   "id": "nc-state-set-to-hire-philip-rivers-as-next-coach-legendary-w",
+   "title": "NC State set to hire Philip Rivers as next coach: Legendary Wolfpack QB aims to turn around alma mater",
+   "link": "https://www.cbssports.com/college-football/news/nc-state-hires-philip-rivers-coach/",
+   "source": "CBS Sports",
+   "topic": "Sports",
+   "summary": "Rivers, who starred in the NFL and for four years as NC State's quarterback, will return to his alma mater",
+   "published": "2026-11-12T05:25:50+00:00",
+   "outlets": 1,
+   "score": 0.926
+  },
+  {
+   "id": "world-s-fastest-ocean-liner-is-sunk-to-break-another-record",
+   "title": "World's fastest ocean liner is sunk to break another record: largest artificial reef",
+   "link": "https://www.npr.org/2026/11/11/nx-s1-6030853/ss-united-states-artificial-reef-sinking",
+   "source": "NPR National",
+   "topic": "U.S.",
+   "summary": "The SS United States broke trans-Atlantic speed records. On Wednesday, it was sunk off the Florida coast and will become a diving destination and home for marine life.",
+   "published": "2026-11-12T03:10:32+00:00",
+   "outlets": 1,
+   "score": 1.075
+  },
+  {
+   "id": "some-under-25s-should-get-fewer-benefits-milburn-review-to-s",
+   "title": "Some under-25s should get fewer benefits, Milburn review to say",
+   "link": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Business",
+   "topic": "Economy",
+   "summary": "The proposed radical overhaul of the welfare system would move under-25s off the main sickness benefits.",
+   "published": "2026-11-11T23:22:04+00:00",
+   "outlets": 1,
+   "score": 0.889
+  },
+  {
+   "id": "government-could-force-media-industry-to-improve-safeguards",
+   "title": "Government could force media industry to improve safeguards after Walliams allegations",
+   "link": "https://www.bbc.co.uk/news/articles/cm3egj20v5x4o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Entertainment",
+   "topic": "Entertainment",
+   "summary": "Culture Secretary Lisa Nandy could force participation in an industry watchdog to protect whistleblowers, the BBC understands.",
+   "published": "2026-11-12T04:01:50+00:00",
+   "outlets": 1,
+   "score": 0.863
+  },
+  {
+   "id": "at-least-2-killed-17-hurt-in-brooklyn-building-collapse",
+   "title": "At least 2 killed, 17 hurt in Brooklyn building collapse",
+   "link": "https://www.cbsnews.com/news/brooklyn-building-collapse-bedford-avenue/",
+   "source": "CBS News",
+   "topic": "U.S.",
+   "summary": "A major technical rescue operation was ongoing, involving hundreds of firefighters.",
+   "published": "2026-11-12T05:17:53+00:00",
+   "outlets": 1,
+   "score": 0.761
   },
   {
    "id": "nvidia-is-reportedly-preparing-to-fire-jensen-huang",
@@ -75,9 +108,20 @@
    "source": "The Verge",
    "topic": "Tech",
    "summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate…",
-   "published": "2026-11-11T23:10:43+00:00",
+   "published": "2026-11-12T00:55:40+00:00",
    "outlets": 1,
-   "score": 0.977
+   "score": 0.739
+  },
+  {
+   "id": "nvidia-s-stock-dives-as-board-weighs-move-to-oust-jensen-hua",
+   "title": "Nvidia's stock dives as board weighs move to oust Jensen Huang",
+   "link": "https://www.cbsnews.com/news/nvidia-stock-dives-report-board-prepares-oust-jensen-huang/",
+   "source": "CBS News",
+   "topic": "Finance",
+   "summary": "Nvidia shares fall sharply in after-hours trading as the company's board considers whether to remove Jensen Huang as CEO.",
+   "published": "2026-11-12T04:10:36+00:00",
+   "outlets": 1,
+   "score": 0.714
   },
   {
    "id": "ceo-jensen-huang-s-job-is-suddenly-on-the-line-at-nvidia",
@@ -88,29 +132,29 @@
    "summary": "The FBI is investigating as Nvidia’s board holds urgent talks over Huang’s future.",
    "published": "2026-11-11T23:10:17+00:00",
    "outlets": 1,
-   "score": 0.976
+   "score": 0.677
   },
   {
-   "id": "poundland-set-for-more-time-to-secure-a-rescue-deal-as-emerg",
-   "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
-   "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Business",
-   "topic": "Economy",
-   "summary": "The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.",
-   "published": "2026-11-11T22:08:56+00:00",
+   "id": "kane-s-top-10-england-moments-which-was-your-favourite",
+   "title": "Kane's top 10 England moments - which was your favourite?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c64g12w5zpjpo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "topic": "Sports",
+   "summary": "BBC Sport looks at 10 of Harry Kane's most iconic England moments as he prepares to break his country's caps record.",
+   "published": "2026-11-12T06:25:26+00:00",
    "outlets": 1,
-   "score": 0.928
+   "score": 0.671
   },
   {
-   "id": "clashes-erupt-in-barcelona-after-thousands-join-spain-genera",
-   "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
-   "link": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC World",
-   "topic": "World",
-   "summary": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living.",
-   "published": "2026-11-11T22:07:37+00:00",
+   "id": "south-park-brings-back-craig-and-tweek-for-heated-rivalry-i",
+   "title": "‘South Park’ Brings Back Craig and Tweek for ‘Heated Rivalry’-Inspired Episode to Celebrate the Blue Wave",
+   "link": "https://variety.com/2026/tv/news/south-park-craig-tweek-1236945874/",
+   "source": "Variety",
+   "topic": "Entertainment",
+   "summary": "In the fifth episode of “South Park” Season 29, the blue wave swept through the mountain town of South America, making it a particularly good time to bring Craig Tucker and Tweek Tweak…",
+   "published": "2026-11-12T04:42:51+00:00",
    "outlets": 1,
-   "score": 0.927
+   "score": 0.616
   },
   {
    "id": "the-democratic-party-gained-power-across-the-country-in-the",
@@ -121,7 +165,7 @@
    "summary": "Democrats will enter the next Congress with one of the largest majorities in a generation, flipping dozens of House districts and at least seven Senate seats in mainly Trump-won communities.",
    "published": "2026-11-11T20:00:34+00:00",
    "outlets": 1,
-   "score": 0.834
+   "score": 0.578
   },
   {
    "id": "why-is-gasoline-suddenly-under-4-a-gallon",
@@ -132,18 +176,7 @@
    "summary": "The average price of a gallon of gasoline dipped below $4 this week for the first time in months. Does that mean more relief is coming for drivers?",
    "published": "2026-11-11T19:59:14+00:00",
    "outlets": 1,
-   "score": 0.833
-  },
-  {
-   "id": "russia-and-ukraine-agree-to-a-prisoner-exchange-as-talks-end",
-   "title": "Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough",
-   "link": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
-   "source": "NPR World",
-   "topic": "World",
-   "summary": "Russia and Ukraine have agreed to a large exchange of prisoners of war. U.S.-mediated talks in Abu Dhabi led to this decision, marking the biggest humanitarian release since the war began…",
-   "published": "2026-11-11T18:04:58+00:00",
-   "outlets": 2,
-   "score": 0.814
+   "score": 0.577
   },
   {
    "id": "prediction-markets-tied-to-clinical-trials-and-drug-approval",
@@ -154,7 +187,29 @@
    "summary": "Sens. Angela Alsobrooks and Ron Wyden are asking what steps the Department of Health and Human Services has taken to mitigate risks from the markets.",
    "published": "2026-11-11T19:16:23+00:00",
    "outlets": 1,
-   "score": 0.803
+   "score": 0.557
+  },
+  {
+   "id": "warriors-vs-rockets-predictions-use-polymarket-promo-code-cb",
+   "title": "Warriors vs. Rockets predictions: Use Polymarket promo code CBSSPORTS to get a $25 bonus for November 11",
+   "link": "https://www.cbssports.com/prediction/news/warriors-vs-rockets-predictions-use-polymarket-promo-code-cbssports-to-get-a-25-bonus-for-november-11/",
+   "source": "CBS Sports",
+   "topic": "Sports",
+   "summary": "Use the latest Polymarket promo code to make predictions when Stephen Curry and the Warriors visit Kevin Durant and the Rockets on Wednesday",
+   "published": "2026-11-12T01:10:43+00:00",
+   "outlets": 1,
+   "score": 0.516
+  },
+  {
+   "id": "poundland-set-for-more-time-to-secure-a-rescue-deal-as-emerg",
+   "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
+   "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Business",
+   "topic": "Economy",
+   "summary": "The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.",
+   "published": "2026-11-12T00:49:05+00:00",
+   "outlets": 1,
+   "score": 0.507
   },
   {
    "id": "greetings-from-senegal-where-breakdancers-are-competing-in-t",
@@ -165,18 +220,18 @@
    "summary": "Senegal's breakdancers have been practicing for their country's historic hosting of the Youth Olympic Games this month. It's the first time Africa is hosting an Olympic event.",
    "published": "2026-11-11T17:23:10+00:00",
    "outlets": 1,
-   "score": 0.731
+   "score": 0.507
   },
   {
-   "id": "college-football-transfer-qb-market-faces-severe-shortage-wi",
-   "title": "College football transfer QB market faces severe shortage with top passers staying put",
-   "link": "https://www.cbssports.com/college-football/news/college-football-transfer-qb-market-shortage/",
-   "source": "CBS Sports",
-   "topic": "Sports",
-   "summary": "With Mississippi State's Kamario Taylor finalizing a deal to become the latest high-profile quarterback to resign with his team, the 2027 college football transfer QB pool is looking like…",
-   "published": "2026-11-11T23:30:33+00:00",
+   "id": "israeli-strike-on-hospital-kills-at-least-five-palestinians",
+   "title": "Israeli strike on hospital kills at least five Palestinians, Gaza civil defence agency says",
+   "link": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "topic": "World",
+   "summary": "The strike hit the surgery department of Nasser Hospital, injuring at least 20 people and causing extensive damage, a spokesperson says.",
+   "published": "2026-11-12T06:12:05+00:00",
    "outlets": 1,
-   "score": 0.685
+   "score": 0.506
   },
   {
    "id": "hands-on-with-home-assistant-s-new-smart-home-multi-tool",
@@ -187,164 +242,449 @@
    "summary": "Nabu Casa - the commercial side of the Open Home Foundation, which runs Home Assistant - just launched the Home Assistant Connect Aux-2, a multi-function box designed to help you bring…",
    "published": "2026-11-11T23:14:34+00:00",
    "outlets": 1,
-   "score": 0.676
+   "score": 0.469
   },
   {
-   "id": "some-under-25s-should-get-less-benefits-milburn-review-to-sa",
-   "title": "Some under-25s should get less benefits, Milburn review to say",
-   "link": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
+   "id": "hegseth-and-advisers-reprimanded-by-guard-at-tomb-of-the-unk",
+   "title": "Hegseth and advisers reprimanded by guard at Tomb of the Unknown Soldier",
+   "link": "https://www.bbc.co.uk/news/videos/ck5y132yq1ymo?at_medium=RSS&at_campaign=rss",
    "source": "BBC News",
    "topic": "World",
-   "summary": "The proposed radical overhaul of the welfare system would move under-25s off the main sickness benefits.",
-   "published": "2026-11-11T23:22:04+00:00",
-   "outlets": 1,
-   "score": 0.675
+   "summary": "Following a ceremony marking Veterans Day, a group that included Defence Secretary Pete Hegseth was shouted at to be quiet.",
+   "published": "2026-11-12T01:33:58+00:00",
+   "outlets": 2,
+   "score": 0.459
   },
   {
-   "id": "tarantino-fired-m-lanie-laurent-from-inglourious-basterds-af",
-   "title": "Tarantino Fired Mélanie Laurent From ‘Inglourious Basterds’ After ‘Terrible’ Table Read and Axed Isabelle Huppert for Not Showing Up: ‘I Don’t Owe You Jack S—‘",
-   "link": "https://variety.com/2026/film/news/tarantino-fired-melanie-laurent-inglourious-basterds-isabelle-huppert-1236945454/",
+   "id": "lionsgate-acquires-alma-har-el-s-wet-starring-connor-storrie",
+   "title": "Lionsgate Acquires Alma Har’el’s ‘Wet’ Starring Connor Storrie, Rebecca Ferguson, Odessa A’zion and More",
+   "link": "https://variety.com/2026/film/news/lionsgate-alma-harel-wet-connor-storrie-1236945829/",
    "source": "Variety",
    "topic": "Entertainment",
-   "summary": "Quentin Tarantino gets brutally honest in Jay Glennie’s new book, “The Making of Quentin Tarantino’s Inglourious Basterds,” about his decision to fire Mélanie Laurent and Isabelle Huppert…",
-   "published": "2026-11-11T22:56:37+00:00",
+   "summary": "Lionsgate has acquired the North America and UK distribution rights to “Wet,” director Alma Har’el’s latest film, from Fifth Season and 193, A Legendary Company. “Wet” features an all-star…",
+   "published": "2026-11-12T03:36:26+00:00",
    "outlets": 1,
-   "score": 0.666
+   "score": 0.445
   },
   {
-   "id": "the-legacy-of-the-1991-gulf-war-and-the-americans-who-carrie",
-   "title": "The legacy of the 1991 Gulf War and the Americans who carried out the mission",
-   "link": "https://www.npr.org/2026/11/11/nx-s1-6036717/the-legacy-of-the-1991-gulf-war-and-the-americans-who-carried-out-the-mission",
-   "source": "NPR National",
-   "topic": "U.S.",
-   "summary": "35 years since the Gulf War ended, veterans reflect on the conflict and its ongoing impact.",
-   "published": "2026-11-11T21:24:04+00:00",
-   "outlets": 1,
-   "score": 0.616
-  },
-  {
-   "id": "t-mobile-illegally-imposed-50gb-cap-on-low-income-home-inter",
-   "title": "T-Mobile illegally imposed 50GB cap on low-income home Internet plan, NY says",
-   "link": "https://arstechnica.com/tech-policy/2026/11/t-mobile-illegally-imposed-50-gb-cap-on-low-income-home-internet-plan-ny-says/",
-   "source": "Ars Technica",
-   "topic": "Tech",
-   "summary": "Law requires 25Mbps home Internet. T-Mobile lowers speed to 600Kbps after 50GB cap.",
-   "published": "2026-11-11T20:32:21+00:00",
-   "outlets": 1,
-   "score": 0.59
-  },
-  {
-   "id": "pochettino-a-decade-in-man-utd-s-making-but-carrick-deserves",
-   "title": "Pochettino a decade in Man Utd's making - but Carrick deserves better",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cwzd9pvjy426o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "topic": "Sports",
-   "summary": "Mauricio Pochettino looks set to turn a decade-long courtship with Man Utd into a full-blown relationship, says chief football writer Phil McNulty.",
-   "published": "2026-11-11T12:58:17+00:00",
-   "outlets": 1,
-   "score": 0.586
-  },
-  {
-   "id": "kennedy-relatives-join-the-fight-against-trump-s-arch-allegi",
-   "title": "Kennedy relatives join the fight against Trump's arch, alleging harm to JFK's grave",
-   "link": "https://www.npr.org/2026/11/11/nx-s1-6037372/kennedys-trump-arch-lawsuit-jfk-grave-arlington-cemetery",
-   "source": "NPR Politics",
-   "topic": "Politics",
-   "summary": "Nine members of the Kennedy family have joined the legal fight against Trump's D.C. arch, arguing it would disrupt views and cast shadows over their ancestors' graves at Arlington National…",
-   "published": "2026-11-11T16:59:32+00:00",
-   "outlets": 1,
-   "score": 0.516
-  },
-  {
-   "id": "hegseth-and-team-reprimanded-by-army-guard-at-solemn-war-mem",
-   "title": "Hegseth and team reprimanded by Army guard at solemn war memorial",
-   "link": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
-   "source": "BBC US & Canada",
-   "topic": "U.S.",
-   "summary": "The guard told the defence secretary and his companions to maintain an atmosphere of \"silence and respect\" during a Veterans Day visit.",
-   "published": "2026-11-11T22:55:55+00:00",
-   "outlets": 1,
-   "score": 0.508
-  },
-  {
-   "id": "11-house-democrats-fail-to-attend-vote-on-pete-hegseth-s-imp",
-   "title": "11 House Democrats fail to attend vote on Pete Hegseth's impeachment",
-   "link": "https://www.cbsnews.com/video/11-house-democrats-fail-to-attend-vote-on-pete-hegseths-impeachment/",
+   "id": "ss-united-states-sinks-will-become-world-s-largest-artificia",
+   "title": "SS United States sinks, will become world's largest artificial reef",
+   "link": "https://www.cbsnews.com/news/ss-united-states-sinking-ocean-floor-largest-artificial-reef-world-florida-gulf-coast/",
    "source": "CBS News",
-   "topic": "Politics",
-   "summary": "House Republicans successfully blocked an effort to impeach Defense Secretary Pete Hegseth on Tuesday, but the outcome might have differed if the 11 Democrats who failed to attend the vote…",
-   "published": "2026-11-11T23:09:10+00:00",
+   "topic": "U.S.",
+   "summary": "The 1,000-foot-long SS United States was sent to the bottom of the ocean in a controlled, explosive-free sinking that is taking place about 20 nautical miles off the Gulf Coast of Florida.",
+   "published": "2026-11-12T03:47:00+00:00",
    "outlets": 1,
-   "score": 0.498
+   "score": 0.435
   }
  ],
  "topics": {
-  "Politics": [
+  "U.S.": [
    {
-    "id": "democrat-scott-colom-wins-the-closest-senate-race-in-the-cou",
-    "title": "Democrat Scott Colom wins the closest Senate race in the country",
-    "link": "https://www.npr.org/2026/11/11/nx-s1-6037840/democrat-scott-colom-wins-the-closest-senate-race-in-the-country",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "Mississippi hadn't elected a Democrat to the U.S. Senate in more than 40 years.",
-    "published": "2026-11-11T23:33:59+00:00",
+    "id": "democrat-scott-colom-seals-historic-win-in-mississippi-senat",
+    "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+    "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC US & Canada",
+    "topic": "U.S.",
+    "summary": "Colom is the first black person from the southern state elected to the US Senate in over 140 years.",
+    "published": "2026-11-12T04:00:30+00:00",
     "outlets": 3,
-    "score": 2.61
+    "score": 2.491
    },
    {
-    "id": "kennedy-relatives-join-the-fight-against-trump-s-arch-allegi",
-    "title": "Kennedy relatives join the fight against Trump's arch, alleging harm to JFK's grave",
-    "link": "https://www.npr.org/2026/11/11/nx-s1-6037372/kennedys-trump-arch-lawsuit-jfk-grave-arlington-cemetery",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "Nine members of the Kennedy family have joined the legal fight against Trump's D.C. arch, arguing it would disrupt views and cast shadows over their ancestors' graves at Arlington National…",
-    "published": "2026-11-11T16:59:32+00:00",
+    "id": "3-killed-when-suv-crashes-into-north-hollywood-food-stand",
+    "title": "3 killed when SUV crashes into North Hollywood food stand",
+    "link": "https://www.cbsnews.com/news/north-hollywood-food-stand-crash-metro-bus-stop-lankershim-chandler-boulevard/",
+    "source": "CBS News",
+    "topic": "U.S.",
+    "summary": "At least three people were killed and two others were severely injured when an SUV crashed into a food stand near a Metro bus stop in North Hollywood.",
+    "published": "2026-11-12T06:47:10+00:00",
+    "outlets": 1,
+    "score": 1.189
+   },
+   {
+    "id": "world-s-fastest-ocean-liner-is-sunk-to-break-another-record",
+    "title": "World's fastest ocean liner is sunk to break another record: largest artificial reef",
+    "link": "https://www.npr.org/2026/11/11/nx-s1-6030853/ss-united-states-artificial-reef-sinking",
+    "source": "NPR National",
+    "topic": "U.S.",
+    "summary": "The SS United States broke trans-Atlantic speed records. On Wednesday, it was sunk off the Florida coast and will become a diving destination and home for marine life.",
+    "published": "2026-11-12T03:10:32+00:00",
+    "outlets": 1,
+    "score": 1.075
+   },
+   {
+    "id": "at-least-2-killed-17-hurt-in-brooklyn-building-collapse",
+    "title": "At least 2 killed, 17 hurt in Brooklyn building collapse",
+    "link": "https://www.cbsnews.com/news/brooklyn-building-collapse-bedford-avenue/",
+    "source": "CBS News",
+    "topic": "U.S.",
+    "summary": "A major technical rescue operation was ongoing, involving hundreds of firefighters.",
+    "published": "2026-11-12T05:17:53+00:00",
+    "outlets": 1,
+    "score": 0.761
+   },
+   {
+    "id": "ss-united-states-sinks-will-become-world-s-largest-artificia",
+    "title": "SS United States sinks, will become world's largest artificial reef",
+    "link": "https://www.cbsnews.com/news/ss-united-states-sinking-ocean-floor-largest-artificial-reef-world-florida-gulf-coast/",
+    "source": "CBS News",
+    "topic": "U.S.",
+    "summary": "The 1,000-foot-long SS United States was sent to the bottom of the ocean in a controlled, explosive-free sinking that is taking place about 20 nautical miles off the Gulf Coast of Florida.",
+    "published": "2026-11-12T03:47:00+00:00",
+    "outlets": 1,
+    "score": 0.435
+   },
+   {
+    "id": "us-treasury-secretary-scott-bessent-relocated-after-alleged",
+    "title": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
+    "link": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC US & Canada",
+    "topic": "U.S.",
+    "summary": "Bessent is now one of several Trump administration officials to live on military bases due to safety concerns.",
+    "published": "2026-11-11T16:45:11+00:00",
+    "outlets": 1,
+    "score": 0.336
+   }
+  ],
+  "World": [
+   {
+    "id": "ukraine-s-power-supply-close-to-critical-as-russian-strikes",
+    "title": "Ukraine's power supply close to critical as Russian strikes bring darkness and cold",
+    "link": "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "summary": "For parents in parts of Ukraine, trying to lead a normal family life with just a few hours of power each day is taking its toll.",
+    "published": "2026-11-12T05:59:18+00:00",
+    "outlets": 1,
+    "score": 0.952
+   },
+   {
+    "id": "greetings-from-senegal-where-breakdancers-are-competing-in-t",
+    "title": "Greetings from Senegal, where breakdancers are competing in the Youth Olympics",
+    "link": "https://www.npr.org/2026/11/11/g-s1-150228/senegal-youth-olympic-games-breakdancing",
+    "source": "NPR World",
+    "topic": "World",
+    "summary": "Senegal's breakdancers have been practicing for their country's historic hosting of the Youth Olympic Games this month. It's the first time Africa is hosting an Olympic event.",
+    "published": "2026-11-11T17:23:10+00:00",
+    "outlets": 1,
+    "score": 0.507
+   },
+   {
+    "id": "israeli-strike-on-hospital-kills-at-least-five-palestinians",
+    "title": "Israeli strike on hospital kills at least five Palestinians, Gaza civil defence agency says",
+    "link": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "summary": "The strike hit the surgery department of Nasser Hospital, injuring at least 20 people and causing extensive damage, a spokesperson says.",
+    "published": "2026-11-12T06:12:05+00:00",
+    "outlets": 1,
+    "score": 0.506
+   },
+   {
+    "id": "hegseth-and-advisers-reprimanded-by-guard-at-tomb-of-the-unk",
+    "title": "Hegseth and advisers reprimanded by guard at Tomb of the Unknown Soldier",
+    "link": "https://www.bbc.co.uk/news/videos/ck5y132yq1ymo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News",
+    "topic": "World",
+    "summary": "Following a ceremony marking Veterans Day, a group that included Defence Secretary Pete Hegseth was shouted at to be quiet.",
+    "published": "2026-11-12T01:33:58+00:00",
+    "outlets": 2,
+    "score": 0.459
+   },
+   {
+    "id": "russia-and-ukraine-agree-to-a-prisoner-exchange-as-talks-end",
+    "title": "Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough",
+    "link": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
+    "source": "NPR World",
+    "topic": "World",
+    "summary": "Russia and Ukraine have agreed to a large exchange of prisoners of war. U.S.-mediated talks in Abu Dhabi led to this decision, marking the biggest humanitarian release since the war began…",
+    "published": "2026-11-11T18:04:58+00:00",
+    "outlets": 2,
+    "score": 0.43
+   },
+   {
+    "id": "are-max-strength-cold-and-flu-pills-worth-the-money",
+    "title": "Are max strength cold and flu pills worth the money?",
+    "link": "https://www.bbc.co.uk/news/articles/cjkgep4rgngro?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News",
+    "topic": "World",
+    "summary": "Some cold and flu remedies cost 20 times as much as a basic pack of paracetamol or ibuprofen.",
+    "published": "2026-11-12T00:12:28+00:00",
+    "outlets": 1,
+    "score": 0.394
+   }
+  ],
+  "Entertainment": [
+   {
+    "id": "jazz-documentary-tokyo-in-33-rpm-unveiled-ahead-of-india-s-w",
+    "title": "Jazz Documentary ‘Tokyo in 33 RPM’ Unveiled Ahead of India’s WAVES Film Bazaar (EXCLUSIVE)",
+    "link": "https://variety.com/2026/film/markets-festivals/jazz-documentary-tokyo-in-33-rpm-unveiled-1236945240/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "“Tokyo in 33 RPM,” a feature documentary about the jazz scene in Japan’s capital, is in the works from director Tanmay Srivastava and Synergy Pictures U.K. The project will be presented at…",
+    "published": "2026-11-12T05:30:00+00:00",
+    "outlets": 1,
+    "score": 0.929
+   },
+   {
+    "id": "government-could-force-media-industry-to-improve-safeguards",
+    "title": "Government could force media industry to improve safeguards after Walliams allegations",
+    "link": "https://www.bbc.co.uk/news/articles/cm3egj20v5x4o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Entertainment",
+    "topic": "Entertainment",
+    "summary": "Culture Secretary Lisa Nandy could force participation in an industry watchdog to protect whistleblowers, the BBC understands.",
+    "published": "2026-11-12T04:01:50+00:00",
+    "outlets": 1,
+    "score": 0.863
+   },
+   {
+    "id": "south-park-brings-back-craig-and-tweek-for-heated-rivalry-i",
+    "title": "‘South Park’ Brings Back Craig and Tweek for ‘Heated Rivalry’-Inspired Episode to Celebrate the Blue Wave",
+    "link": "https://variety.com/2026/tv/news/south-park-craig-tweek-1236945874/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "In the fifth episode of “South Park” Season 29, the blue wave swept through the mountain town of South America, making it a particularly good time to bring Craig Tucker and Tweek Tweak…",
+    "published": "2026-11-12T04:42:51+00:00",
+    "outlets": 1,
+    "score": 0.616
+   },
+   {
+    "id": "lionsgate-acquires-alma-har-el-s-wet-starring-connor-storrie",
+    "title": "Lionsgate Acquires Alma Har’el’s ‘Wet’ Starring Connor Storrie, Rebecca Ferguson, Odessa A’zion and More",
+    "link": "https://variety.com/2026/film/news/lionsgate-alma-harel-wet-connor-storrie-1236945829/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "Lionsgate has acquired the North America and UK distribution rights to “Wet,” director Alma Har’el’s latest film, from Fifth Season and 193, A Legendary Company. “Wet” features an all-star…",
+    "published": "2026-11-12T03:36:26+00:00",
+    "outlets": 1,
+    "score": 0.445
+   },
+   {
+    "id": "keanu-reeves-constantine-2-gets-renewed-hope-after-james-gun",
+    "title": "Keanu Reeves’ ‘Constantine 2’ Gets ‘Renewed Hope’ After James Gunn’s DC Exit, Says Director: ‘People at DC Were an Impediment to Us’",
+    "link": "https://variety.com/2026/film/news/keanu-reeves-constantine-2-james-gunns-dc-exit-1236945816/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "Following the news that James Gunn and Peter Safran are out as co-studio heads at DC, “Constantine” director Francis Lawrence is feeling a “renewed hope” about his long-awaited sequel to…",
+    "published": "2026-11-12T03:20:00+00:00",
+    "outlets": 1,
+    "score": 0.355
+   },
+   {
+    "id": "movie-marketing-veteran-gerry-rich-on-opening-iron-man-grapp",
+    "title": "Movie Marketing Veteran Gerry Rich on Opening ‘Iron Man,’ Grappling With AI and Maintaining the Human Touch",
+    "link": "https://variety.com/2026/film/news/gerry-rich-iron-man-movie-marketing-strictly-business-1236945785/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "On today’s episode of Variety‘s “Strictly Business” podcast, movie marketing veteran Gerry Rich details his new memoir “Chasing Hollywood: A Marketing Chief’s Lessons on Breaking Through.”…",
+    "published": "2026-11-12T02:18:44+00:00",
+    "outlets": 1,
+    "score": 0.283
+   }
+  ],
+  "Sports": [
+   {
+    "id": "nc-state-set-to-hire-philip-rivers-as-next-coach-legendary-w",
+    "title": "NC State set to hire Philip Rivers as next coach: Legendary Wolfpack QB aims to turn around alma mater",
+    "link": "https://www.cbssports.com/college-football/news/nc-state-hires-philip-rivers-coach/",
+    "source": "CBS Sports",
+    "topic": "Sports",
+    "summary": "Rivers, who starred in the NFL and for four years as NC State's quarterback, will return to his alma mater",
+    "published": "2026-11-12T05:25:50+00:00",
+    "outlets": 1,
+    "score": 0.926
+   },
+   {
+    "id": "kane-s-top-10-england-moments-which-was-your-favourite",
+    "title": "Kane's top 10 England moments - which was your favourite?",
+    "link": "https://www.bbc.co.uk/sport/football/articles/c64g12w5zpjpo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "topic": "Sports",
+    "summary": "BBC Sport looks at 10 of Harry Kane's most iconic England moments as he prepares to break his country's caps record.",
+    "published": "2026-11-12T06:25:26+00:00",
+    "outlets": 1,
+    "score": 0.671
+   },
+   {
+    "id": "warriors-vs-rockets-predictions-use-polymarket-promo-code-cb",
+    "title": "Warriors vs. Rockets predictions: Use Polymarket promo code CBSSPORTS to get a $25 bonus for November 11",
+    "link": "https://www.cbssports.com/prediction/news/warriors-vs-rockets-predictions-use-polymarket-promo-code-cbssports-to-get-a-25-bonus-for-november-11/",
+    "source": "CBS Sports",
+    "topic": "Sports",
+    "summary": "Use the latest Polymarket promo code to make predictions when Stephen Curry and the Warriors visit Kevin Durant and the Rockets on Wednesday",
+    "published": "2026-11-12T01:10:43+00:00",
     "outlets": 1,
     "score": 0.516
    },
    {
-    "id": "11-house-democrats-fail-to-attend-vote-on-pete-hegseth-s-imp",
-    "title": "11 House Democrats fail to attend vote on Pete Hegseth's impeachment",
-    "link": "https://www.cbsnews.com/video/11-house-democrats-fail-to-attend-vote-on-pete-hegseths-impeachment/",
-    "source": "CBS News",
-    "topic": "Politics",
-    "summary": "House Republicans successfully blocked an effort to impeach Defense Secretary Pete Hegseth on Tuesday, but the outcome might have differed if the 11 Democrats who failed to attend the vote…",
-    "published": "2026-11-11T23:09:10+00:00",
+    "id": "pochettino-a-decade-in-man-utd-s-making-but-carrick-deserves",
+    "title": "Pochettino a decade in Man Utd's making - but Carrick deserves better",
+    "link": "https://www.bbc.co.uk/sport/football/articles/cwzd9pvjy426o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "topic": "Sports",
+    "summary": "Mauricio Pochettino looks set to turn a decade-long courtship with Man Utd into a full-blown relationship, says chief football writer Phil McNulty.",
+    "published": "2026-11-11T12:58:17+00:00",
     "outlets": 1,
-    "score": 0.498
+    "score": 0.407
    },
    {
-    "id": "who-is-jim-jordan-the-house-republicans-pick-for-minority-le",
-    "title": "Who is Jim Jordan, the House Republicans' pick for minority leader?",
-    "link": "https://www.npr.org/2026/11/11/nx-s1-6037439/who-is-jim-jordan-the-house-republicans-pick-for-minority-leader",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "As House Republicans prepare for life in the minority, they're turning to Jim Jordan as their next leader. In Jordan, they've picked a conservative firebrand and one of Trump's most vocal…",
-    "published": "2026-11-11T21:24:05+00:00",
+    "id": "nfl-week-10-injury-report-mike-evans-still-not-practicing-pu",
+    "title": "NFL Week 10 injury report: Mike Evans still not practicing, Puka Nacua facing multi-week absence",
+    "link": "https://www.cbssports.com/nfl/news/2026-nfl-week-10-injury-report-mike-evans-puka-nacua/",
+    "source": "CBS Sports",
+    "topic": "Sports",
+    "summary": "Here is the latest practice participation, game status and injury news for every team playing Thursday or Sunday in Week 10",
+    "published": "2026-11-12T01:08:15+00:00",
     "outlets": 1,
-    "score": 0.47
+    "score": 0.393
    },
    {
-    "id": "these-house-and-senate-midterm-races-don-t-have-winners-yet",
-    "title": "These House and Senate midterm races don't have winners yet",
-    "link": "https://www.cbsnews.com/news/2026-midterm-election-house-senate-projections-toss-up/",
-    "source": "CBS News",
-    "topic": "Politics",
-    "summary": "Democrats won sizable House and Senate majorities in the 2026 midterm elections, but the exact margins are unclear because some races haven't been projected yet. Here's where the results…",
-    "published": "2026-11-11T23:05:16+00:00",
+    "id": "andreeva-wins-11-games-in-a-row-to-thrash-sabalenka-at-wta-f",
+    "title": "Andreeva wins 11 games in a row to thrash Sabalenka at WTA Finals",
+    "link": "https://www.bbc.co.uk/sport/tennis/articles/cq1md03gz0zvo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "topic": "Sports",
+    "summary": "Mirra Andreeva wins 11 games in a row to thrash world number two Aryna Sabalenka and reach the last four at the WTA Finals.",
+    "published": "2026-11-12T00:48:23+00:00",
     "outlets": 1,
-    "score": 0.417
+    "score": 0.387
+   }
+  ],
+  "Economy": [
+   {
+    "id": "some-under-25s-should-get-fewer-benefits-milburn-review-to-s",
+    "title": "Some under-25s should get fewer benefits, Milburn review to say",
+    "link": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "The proposed radical overhaul of the welfare system would move under-25s off the main sickness benefits.",
+    "published": "2026-11-11T23:22:04+00:00",
+    "outlets": 1,
+    "score": 0.889
    },
    {
-    "id": "these-voters-are-looking-for-change-but-don-t-have-high-hope",
-    "title": "These voters are looking for change, but don't have high hopes for a divided Congress",
-    "link": "https://www.npr.org/2026/11/11/nx-s1-6034955/these-voters-are-looking-for-change-but-dont-have-high-hopes-for-a-divided-congress",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "North Carolina swing voters are seeking change, but have low expectations that things will actually change.",
-    "published": "2026-11-11T21:23:59+00:00",
+    "id": "why-is-gasoline-suddenly-under-4-a-gallon",
+    "title": "Why is gasoline suddenly under $4 a gallon?",
+    "link": "https://www.npr.org/2026/11/11/nx-s1-6037588/gasoline-price-below-4-dollars-gallon",
+    "source": "NPR Economy",
+    "topic": "Economy",
+    "summary": "The average price of a gallon of gasoline dipped below $4 this week for the first time in months. Does that mean more relief is coming for drivers?",
+    "published": "2026-11-11T19:59:14+00:00",
     "outlets": 1,
-    "score": 0.38
+    "score": 0.577
+   },
+   {
+    "id": "poundland-set-for-more-time-to-secure-a-rescue-deal-as-emerg",
+    "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
+    "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.",
+    "published": "2026-11-12T00:49:05+00:00",
+    "outlets": 1,
+    "score": 0.507
+   },
+   {
+    "id": "from-paris-to-dc-why-offices-are-being-turned-into-apartment",
+    "title": "From Paris to DC - why offices are being turned into apartments",
+    "link": "https://www.bbc.co.uk/news/articles/cm89ze7qepvyo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "Office buildings with low occupancy rates are being transformed into flats.",
+    "published": "2026-11-12T00:05:40+00:00",
+    "outlets": 1,
+    "score": 0.302
+   },
+   {
+    "id": "gas-prices-dip-below-4-but-inflation-remains-stubbornly-high",
+    "title": "Gas prices dip below $4 but inflation remains stubbornly high",
+    "link": "https://www.npr.org/2026/11/10/nx-s1-6034518/inflation-consumer-prices-economy-gas-prices",
+    "source": "NPR Economy",
+    "topic": "Economy",
+    "summary": "Gasoline prices fell below $4 a gallon Tuesday for the first time in three months — but the overall cost of living remains stubbornly high.",
+    "published": "2026-11-10T14:35:50+00:00",
+    "outlets": 1,
+    "score": 0.241
+   },
+   {
+    "id": "not-the-answer-labour-mps-speak-out-against-rosebank-as-dec",
+    "title": "'Not the answer': Labour MPs speak out against Rosebank as decision looms",
+    "link": "https://www.bbc.co.uk/news/articles/cqp9dr79jkrzo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "There is a growing expectation among senior Labour figures that drilling in the oil field will be given the green light.",
+    "published": "2026-11-11T21:42:20+00:00",
+    "outlets": 1,
+    "score": 0.225
+   }
+  ],
+  "Tech": [
+   {
+    "id": "nvidia-is-reportedly-preparing-to-fire-jensen-huang",
+    "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+    "link": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate…",
+    "published": "2026-11-12T00:55:40+00:00",
+    "outlets": 1,
+    "score": 0.739
+   },
+   {
+    "id": "ceo-jensen-huang-s-job-is-suddenly-on-the-line-at-nvidia",
+    "title": "CEO Jensen Huang's job is suddenly on the line at Nvidia",
+    "link": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "The FBI is investigating as Nvidia’s board holds urgent talks over Huang’s future.",
+    "published": "2026-11-11T23:10:17+00:00",
+    "outlets": 1,
+    "score": 0.677
+   },
+   {
+    "id": "hands-on-with-home-assistant-s-new-smart-home-multi-tool",
+    "title": "Hands on with Home Assistant’s new ‘smart home multi-tool’",
+    "link": "https://www.theverge.com/tech/1031601/home-assistant-connect-aux-2-hands-on",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "Nabu Casa - the commercial side of the Open Home Foundation, which runs Home Assistant - just launched the Home Assistant Connect Aux-2, a multi-function box designed to help you bring…",
+    "published": "2026-11-11T23:14:34+00:00",
+    "outlets": 1,
+    "score": 0.469
+   },
+   {
+    "id": "t-mobile-illegally-imposed-50gb-cap-on-low-income-home-inter",
+    "title": "T-Mobile illegally imposed 50GB cap on low-income home Internet plan, NY says",
+    "link": "https://arstechnica.com/tech-policy/2026/11/t-mobile-illegally-imposed-50-gb-cap-on-low-income-home-internet-plan-ny-says/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "Law requires 25Mbps home Internet. T-Mobile lowers speed to 600Kbps after 50GB cap.",
+    "published": "2026-11-11T20:32:21+00:00",
+    "outlets": 1,
+    "score": 0.409
+   },
+   {
+    "id": "united-won-t-let-your-ai-agent-book-your-flight",
+    "title": "United won’t let your AI agent book your flight",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI…",
+    "published": "2026-11-11T21:54:21+00:00",
+    "outlets": 1,
+    "score": 0.334
+   },
+   {
+    "id": "anduril-says-its-first-satellite-can-see-adversaries-maneuve",
+    "title": "Anduril says its first satellite can see adversaries maneuver in orbital night",
+    "link": "https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "\"What's unique is it's got a huge dynamic range. We can see things in full dark.\"",
+    "published": "2026-11-11T20:22:03+00:00",
+    "outlets": 1,
+    "score": 0.31
    }
   ],
   "Finance": [
@@ -355,9 +695,9 @@
     "source": "CBS News",
     "topic": "Finance",
     "summary": "Nvidia shares fall sharply in after-hours trading as the company's board considers whether to remove Jensen Huang as CEO.",
-    "published": "2026-11-11T23:38:00+00:00",
+    "published": "2026-11-12T04:10:36+00:00",
     "outlets": 1,
-    "score": 1.199
+    "score": 0.714
    },
    {
     "id": "prediction-markets-tied-to-clinical-trials-and-drug-approval",
@@ -368,7 +708,7 @@
     "summary": "Sens. Angela Alsobrooks and Ron Wyden are asking what steps the Department of Health and Human Services has taken to mitigate risks from the markets.",
     "published": "2026-11-11T19:16:23+00:00",
     "outlets": 1,
-    "score": 0.803
+    "score": 0.557
    },
    {
     "id": "fed-s-goolsbee-calls-inflation-report-borderline-disturbing",
@@ -379,7 +719,7 @@
     "summary": "The consumer price index rose more than expected in October, raising alarm among Federal Reserve officials.",
     "published": "2026-11-11T16:49:02+00:00",
     "outlets": 1,
-    "score": 0.49
+    "score": 0.34
    },
    {
     "id": "alibaba-announces-plans-to-list-t-head-its-nvidia-chip-rival",
@@ -390,7 +730,7 @@
     "summary": "Alibaba noted it had already filed confidentially on Sept. 11 to list T-Head on the Hong Kong Stock Exchange.",
     "published": "2026-11-11T07:47:54+00:00",
     "outlets": 1,
-    "score": 0.238
+    "score": 0.184
    },
    {
     "id": "u-s-gas-prices-fall-below-4-for-the-first-time-since-july",
@@ -415,414 +755,6 @@
     "score": 0.125
    }
   ],
-  "Entertainment": [
-   {
-    "id": "author-says-there-were-real-concerns-about-david-walliams-wi",
-    "title": "Author says there were 'real concerns' about David Walliams within publishing industry",
-    "link": "https://www.bbc.co.uk/news/articles/c95y15830k77o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Entertainment",
-    "topic": "Entertainment",
-    "summary": "The comedian denies allegations of sexual misconduct, inappropriate behaviour and abusing his power more than 10 years ago.",
-    "published": "2026-11-11T20:40:47+00:00",
-    "outlets": 1,
-    "score": 1.121
-   },
-   {
-    "id": "from-inde-navarrette-s-stunning-40-carat-diamond-necklace-to",
-    "title": "From Inde Navarrette’s Stunning 40-Carat Diamond Necklace to a Surprise Role Model Performance: Inside David Yurman’s VIP Dinner Party at Chateau Marmont",
-    "link": "https://variety.com/gallery/inde-navarrettes-role-model-david-yurman-party/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "Celebrity jeweler David Yurman hosted a dinner at Chateau Marmont Tuesday night to celebrate the reopening of his flagship boutique on Rodeo Drive. The evening began with a cocktail hour…",
-    "published": "2026-11-11T23:22:53+00:00",
-    "outlets": 1,
-    "score": 0.987
-   },
-   {
-    "id": "tarantino-fired-m-lanie-laurent-from-inglourious-basterds-af",
-    "title": "Tarantino Fired Mélanie Laurent From ‘Inglourious Basterds’ After ‘Terrible’ Table Read and Axed Isabelle Huppert for Not Showing Up: ‘I Don’t Owe You Jack S—‘",
-    "link": "https://variety.com/2026/film/news/tarantino-fired-melanie-laurent-inglourious-basterds-isabelle-huppert-1236945454/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "Quentin Tarantino gets brutally honest in Jay Glennie’s new book, “The Making of Quentin Tarantino’s Inglourious Basterds,” about his decision to fire Mélanie Laurent and Isabelle Huppert…",
-    "published": "2026-11-11T22:56:37+00:00",
-    "outlets": 1,
-    "score": 0.666
-   },
-   {
-    "id": "jessica-chastain-returning-to-broadway-in-new-play-lost-lear",
-    "title": "Jessica Chastain Returning to Broadway in New Play ‘Lost Lear’",
-    "link": "https://variety.com/2026/legit/news/jessica-chastain-broadway-play-lost-lear-1236945570/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "Jessica Chastain is returning to Broadway in “Lost Lear,” a play that puts a meta spin on “King Lear.” Chastain was last on Broadway in “A Doll’s House,” an acclaimed 2023 revival of the…",
-    "published": "2026-11-11T22:15:00+00:00",
-    "outlets": 1,
-    "score": 0.491
-   },
-   {
-    "id": "former-bbc-radio-presenter-danny-kelly-dies-aged-69",
-    "title": "Former BBC radio presenter Danny Kelly dies aged 69",
-    "link": "https://www.bbc.co.uk/sport/football/articles/cmz9dwk90ny7o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Entertainment",
-    "topic": "Entertainment",
-    "summary": "Former BBC radio presenter Danny Kelly has been described as a \"broadcasting titan\" following his death at the age of 69.",
-    "published": "2026-11-11T12:44:17+00:00",
-    "outlets": 1,
-    "score": 0.4
-   },
-   {
-    "id": "frankie-muniz-hospitalized-after-crashing-race-car-at-dayton",
-    "title": "Frankie Muniz Hospitalized After Crashing Race Car at Daytona",
-    "link": "https://variety.com/2026/film/news/frankie-muniz-hospitalized-crashing-race-car-daytona-1236945614/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "“Malcolm in the Middle” star Frankie Muniz was rushed to a Florida hospital on Wednesday after he crashed during a practice lap at a Veterans Day event at the Daytona International…",
-    "published": "2026-11-11T21:58:11+00:00",
-    "outlets": 1,
-    "score": 0.391
-   }
-  ],
-  "U.S.": [
-   {
-    "id": "us-treasury-secretary-scott-bessent-relocated-after-alleged",
-    "title": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
-    "link": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC US & Canada",
-    "topic": "U.S.",
-    "summary": "Bessent is now one of several Trump administration officials to live on military bases due to safety concerns.",
-    "published": "2026-11-11T23:13:00+00:00",
-    "outlets": 2,
-    "score": 1.107
-   },
-   {
-    "id": "the-legacy-of-the-1991-gulf-war-and-the-americans-who-carrie",
-    "title": "The legacy of the 1991 Gulf War and the Americans who carried out the mission",
-    "link": "https://www.npr.org/2026/11/11/nx-s1-6036717/the-legacy-of-the-1991-gulf-war-and-the-americans-who-carried-out-the-mission",
-    "source": "NPR National",
-    "topic": "U.S.",
-    "summary": "35 years since the Gulf War ended, veterans reflect on the conflict and its ongoing impact.",
-    "published": "2026-11-11T21:24:04+00:00",
-    "outlets": 1,
-    "score": 0.616
-   },
-   {
-    "id": "hegseth-and-team-reprimanded-by-army-guard-at-solemn-war-mem",
-    "title": "Hegseth and team reprimanded by Army guard at solemn war memorial",
-    "link": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
-    "source": "BBC US & Canada",
-    "topic": "U.S.",
-    "summary": "The guard told the defence secretary and his companions to maintain an atmosphere of \"silence and respect\" during a Veterans Day visit.",
-    "published": "2026-11-11T22:55:55+00:00",
-    "outlets": 1,
-    "score": 0.508
-   },
-   {
-    "id": "a-kennedy-relative-talks-about-his-family-s-lawsuit-against",
-    "title": "A Kennedy relative talks about his family's lawsuit against Trump's 250-foot arch",
-    "link": "https://www.npr.org/2026/11/11/nx-s1-6037497/a-kennedy-relative-talks-about-his-familys-lawsuit-against-trumps-250-foot-arch",
-    "source": "NPR National",
-    "topic": "U.S.",
-    "summary": "NPR's Scott Detrow speaks with Max Kennedy, son of Robert Kennedy Sr., about the Kennedy family's lawsuit to halt the construction of President Trump's 250-foot arch near Arlington…",
-    "published": "2026-11-11T21:05:22+00:00",
-    "outlets": 1,
-    "score": 0.463
-   },
-   {
-    "id": "parts-of-a-historic-ghost-town-face-demolition-by-the-nation",
-    "title": "Parts of a historic ghost town face demolition by the National Park Service",
-    "link": "https://www.npr.org/2026/11/11/nx-s1-6034979/parts-of-a-historic-ghost-town-face-demolition-by-the-national-park-service",
-    "source": "NPR National",
-    "topic": "U.S.",
-    "summary": "Part of a historic town owned by the Park Service is set for demolition as residents oppose the move.",
-    "published": "2026-11-11T21:05:19+00:00",
-    "outlets": 1,
-    "score": 0.374
-   },
-   {
-    "id": "missing-11-month-old-baby-rescued-after-being-buried-alive-i",
-    "title": "Missing 11-month-old baby rescued after being buried alive in a crate in South Carolina",
-    "link": "https://www.bbc.co.uk/news/articles/c8e391xzg6z2o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC US & Canada",
-    "topic": "U.S.",
-    "summary": "Officials say the child was found close to his father's home on Tuesday, a day after he was taken, and is being cared for in hospital.",
-    "published": "2026-11-11T18:10:57+00:00",
-    "outlets": 1,
-    "score": 0.324
-   }
-  ],
-  "Sports": [
-   {
-    "id": "toledo-vs-umass-odds-picks-prediction-start-time-wednesday-c",
-    "title": "Toledo vs. UMass odds, picks, prediction, start time: Wednesday college football betting preview for Nov. 11",
-    "link": "https://www.cbssports.com/betting/news/toledo-vs-umass-odds-picks-prediction-start-time-wednesday-college-football-betting-preview-for-nov-11/",
-    "source": "CBS Sports",
-    "topic": "Sports",
-    "summary": "Toledo and UMass square off on Wednesday for a Week 11 college football matchup",
-    "published": "2026-11-11T23:30:54+00:00",
-    "outlets": 1,
-    "score": 0.993
-   },
-   {
-    "id": "college-football-transfer-qb-market-faces-severe-shortage-wi",
-    "title": "College football transfer QB market faces severe shortage with top passers staying put",
-    "link": "https://www.cbssports.com/college-football/news/college-football-transfer-qb-market-shortage/",
-    "source": "CBS Sports",
-    "topic": "Sports",
-    "summary": "With Mississippi State's Kamario Taylor finalizing a deal to become the latest high-profile quarterback to resign with his team, the 2027 college football transfer QB pool is looking like…",
-    "published": "2026-11-11T23:30:33+00:00",
-    "outlets": 1,
-    "score": 0.685
-   },
-   {
-    "id": "pochettino-a-decade-in-man-utd-s-making-but-carrick-deserves",
-    "title": "Pochettino a decade in Man Utd's making - but Carrick deserves better",
-    "link": "https://www.bbc.co.uk/sport/football/articles/cwzd9pvjy426o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Sport",
-    "topic": "Sports",
-    "summary": "Mauricio Pochettino looks set to turn a decade-long courtship with Man Utd into a full-blown relationship, says chief football writer Phil McNulty.",
-    "published": "2026-11-11T12:58:17+00:00",
-    "outlets": 1,
-    "score": 0.586
-   },
-   {
-    "id": "pochettino-ready-to-accept-man-utd-offer-to-replace-carrick",
-    "title": "Pochettino ready to accept Man Utd offer to replace Carrick",
-    "link": "https://www.bbc.co.uk/sport/football/articles/cqvg25pj36mvo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Sport",
-    "topic": "Sports",
-    "summary": "Mauricio Pochettino is ready to accept an offer from Manchester United to become their next head coach.",
-    "published": "2026-11-11T16:03:02+00:00",
-    "outlets": 1,
-    "score": 0.472
-   },
-   {
-    "id": "college-basketball-odds-picks-predictions-best-bets-for-wedn",
-    "title": "College basketball odds, picks, predictions, best bets for Wednesday: Model, experts backing Michigan, Cal",
-    "link": "https://www.cbssports.com/betting/news/college-basketball-odds-picks-predictions-best-bets-wednesday-model-experts-backing-michigan-cal/",
-    "source": "CBS Sports",
-    "topic": "Sports",
-    "summary": "SportsLine's experts and the SportsLine Projection Model have revealed college basketball picks and best bets for Wednesday, November 11, including Michigan vs. Marquette",
-    "published": "2026-11-11T22:40:42+00:00",
-    "outlets": 1,
-    "score": 0.405
-   },
-   {
-    "id": "leader-role-model-extraordinary-how-kane-s-fairytale-came-tr",
-    "title": "Leader, role model, extraordinary - how Kane's 'fairytale' came true",
-    "link": "https://www.bbc.co.uk/sport/football/articles/c60qkdj4lp34o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Sport",
-    "topic": "Sports",
-    "summary": "From 21-year-old who scored 79 seconds into his debut to being on the brink of breaking his nation's appearance record, BBC Sport looks at Harry Kane's England career.",
-    "published": "2026-11-11T16:44:58+00:00",
-    "outlets": 1,
-    "score": 0.373
-   }
-  ],
-  "Tech": [
-   {
-    "id": "nvidia-is-reportedly-preparing-to-fire-jensen-huang",
-    "title": "Nvidia is reportedly preparing to fire Jensen Huang",
-    "link": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate…",
-    "published": "2026-11-11T23:10:43+00:00",
-    "outlets": 1,
-    "score": 0.977
-   },
-   {
-    "id": "ceo-jensen-huang-s-job-is-suddenly-on-the-line-at-nvidia",
-    "title": "CEO Jensen Huang's job is suddenly on the line at Nvidia",
-    "link": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "The FBI is investigating as Nvidia’s board holds urgent talks over Huang’s future.",
-    "published": "2026-11-11T23:10:17+00:00",
-    "outlets": 1,
-    "score": 0.976
-   },
-   {
-    "id": "hands-on-with-home-assistant-s-new-smart-home-multi-tool",
-    "title": "Hands on with Home Assistant’s new ‘smart home multi-tool’",
-    "link": "https://www.theverge.com/tech/1031601/home-assistant-connect-aux-2-hands-on",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "Nabu Casa - the commercial side of the Open Home Foundation, which runs Home Assistant - just launched the Home Assistant Connect Aux-2, a multi-function box designed to help you bring…",
-    "published": "2026-11-11T23:14:34+00:00",
-    "outlets": 1,
-    "score": 0.676
-   },
-   {
-    "id": "t-mobile-illegally-imposed-50gb-cap-on-low-income-home-inter",
-    "title": "T-Mobile illegally imposed 50GB cap on low-income home Internet plan, NY says",
-    "link": "https://arstechnica.com/tech-policy/2026/11/t-mobile-illegally-imposed-50-gb-cap-on-low-income-home-internet-plan-ny-says/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "Law requires 25Mbps home Internet. T-Mobile lowers speed to 600Kbps after 50GB cap.",
-    "published": "2026-11-11T20:32:21+00:00",
-    "outlets": 1,
-    "score": 0.59
-   },
-   {
-    "id": "united-won-t-let-your-ai-agent-book-your-flight",
-    "title": "United won’t let your AI agent book your flight",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI…",
-    "published": "2026-11-11T21:54:21+00:00",
-    "outlets": 1,
-    "score": 0.482
-   },
-   {
-    "id": "anduril-says-its-first-satellite-can-see-adversaries-maneuve",
-    "title": "Anduril says its first satellite can see adversaries maneuver in orbital night",
-    "link": "https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "\"What's unique is it's got a huge dynamic range. We can see things in full dark.\"",
-    "published": "2026-11-11T20:22:03+00:00",
-    "outlets": 1,
-    "score": 0.447
-   }
-  ],
-  "Economy": [
-   {
-    "id": "poundland-set-for-more-time-to-secure-a-rescue-deal-as-emerg",
-    "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
-    "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.",
-    "published": "2026-11-11T22:08:56+00:00",
-    "outlets": 1,
-    "score": 0.928
-   },
-   {
-    "id": "why-is-gasoline-suddenly-under-4-a-gallon",
-    "title": "Why is gasoline suddenly under $4 a gallon?",
-    "link": "https://www.npr.org/2026/11/11/nx-s1-6037588/gasoline-price-below-4-dollars-gallon",
-    "source": "NPR Economy",
-    "topic": "Economy",
-    "summary": "The average price of a gallon of gasoline dipped below $4 this week for the first time in months. Does that mean more relief is coming for drivers?",
-    "published": "2026-11-11T19:59:14+00:00",
-    "outlets": 1,
-    "score": 0.833
-   },
-   {
-    "id": "not-the-answer-labour-mps-speak-out-against-rosebank-as-dec",
-    "title": "'Not the answer': Labour MPs speak out against Rosebank as decision looms",
-    "link": "https://www.bbc.co.uk/news/articles/cqp9dr79jkrzo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "There is a growing expectation among senior Labour figures that drilling in the oil field will be given the green light.",
-    "published": "2026-11-11T21:42:20+00:00",
-    "outlets": 1,
-    "score": 0.478
-   },
-   {
-    "id": "christmas-toy-rush-being-driven-by-squishies-and-building-se",
-    "title": "Christmas toy rush being driven by squishies and building sets",
-    "link": "https://www.bbc.co.uk/news/articles/cx5ynyg6j375o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "A bumper year so far for toy sales comes as debate intensifies over screen time and tech connectivity.",
-    "published": "2026-11-11T07:52:05+00:00",
-    "outlets": 1,
-    "score": 0.313
-   },
-   {
-    "id": "gas-prices-dip-below-4-but-inflation-remains-stubbornly-high",
-    "title": "Gas prices dip below $4 but inflation remains stubbornly high",
-    "link": "https://www.npr.org/2026/11/10/nx-s1-6034518/inflation-consumer-prices-economy-gas-prices",
-    "source": "NPR Economy",
-    "topic": "Economy",
-    "summary": "Gasoline prices fell below $4 a gallon Tuesday for the first time in three months — but the overall cost of living remains stubbornly high.",
-    "published": "2026-11-10T14:35:50+00:00",
-    "outlets": 1,
-    "score": 0.241
-   },
-   {
-    "id": "why-did-california-s-billionaire-tax-fail-to-surf-the-blue-w",
-    "title": "Why did California's billionaire tax fail to surf the blue wave?",
-    "link": "https://www.npr.org/sections/planet-money/2026/11/10/g-s1-152755/why-did-californias-billionaire-tax-fail-to-surf-the-blue-wave",
-    "source": "NPR Economy",
-    "topic": "Economy",
-    "summary": "Two economists debate what California's vote on Prop 40 means for the wealth tax movement.",
-    "published": "2026-11-10T11:30:00+00:00",
-    "outlets": 1,
-    "score": 0.184
-   }
-  ],
-  "World": [
-   {
-    "id": "clashes-erupt-in-barcelona-after-thousands-join-spain-genera",
-    "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
-    "link": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "topic": "World",
-    "summary": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living.",
-    "published": "2026-11-11T22:07:37+00:00",
-    "outlets": 1,
-    "score": 0.927
-   },
-   {
-    "id": "russia-and-ukraine-agree-to-a-prisoner-exchange-as-talks-end",
-    "title": "Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough",
-    "link": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
-    "source": "NPR World",
-    "topic": "World",
-    "summary": "Russia and Ukraine have agreed to a large exchange of prisoners of war. U.S.-mediated talks in Abu Dhabi led to this decision, marking the biggest humanitarian release since the war began…",
-    "published": "2026-11-11T18:04:58+00:00",
-    "outlets": 2,
-    "score": 0.814
-   },
-   {
-    "id": "greetings-from-senegal-where-breakdancers-are-competing-in-t",
-    "title": "Greetings from Senegal, where breakdancers are competing in the Youth Olympics",
-    "link": "https://www.npr.org/2026/11/11/g-s1-150228/senegal-youth-olympic-games-breakdancing",
-    "source": "NPR World",
-    "topic": "World",
-    "summary": "Senegal's breakdancers have been practicing for their country's historic hosting of the Youth Olympic Games this month. It's the first time Africa is hosting an Olympic event.",
-    "published": "2026-11-11T17:23:10+00:00",
-    "outlets": 1,
-    "score": 0.731
-   },
-   {
-    "id": "some-under-25s-should-get-less-benefits-milburn-review-to-sa",
-    "title": "Some under-25s should get less benefits, Milburn review to say",
-    "link": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News",
-    "topic": "World",
-    "summary": "The proposed radical overhaul of the welfare system would move under-25s off the main sickness benefits.",
-    "published": "2026-11-11T23:22:04+00:00",
-    "outlets": 1,
-    "score": 0.675
-   },
-   {
-    "id": "i-felt-like-i-was-being-manipulated-woman-alleges-walliams",
-    "title": "'I felt like I was being manipulated': Woman alleges Walliams groomed her as a teenager",
-    "link": "https://www.bbc.co.uk/news/videos/c8g46y14ye3zo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News",
-    "topic": "World",
-    "summary": "Lilly Creightmore, who has alleged Walliams \"groomed\" her as a teenager, has told BBC Newsnight that she was \"angry\" at his behaviour.",
-    "published": "2026-11-11T09:29:45+00:00",
-    "outlets": 1,
-    "score": 0.442
-   },
-   {
-    "id": "kidnapper-74-escapes-from-house-arrest-in-argentina-by-absei",
-    "title": "Kidnapper, 74, escapes from house arrest in Argentina by abseiling from balcony",
-    "link": "https://www.bbc.co.uk/news/articles/c933gn6710lyo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "topic": "World",
-    "summary": "Leonardo Bertulazzi, a former member of the Marxist guerrilla group the Red Brigades, was about to be extradited to his home country of Italy.",
-    "published": "2026-11-11T19:00:33+00:00",
-    "outlets": 2,
-    "score": 0.435
-   }
-  ],
   "Local": [
    {
     "id": "the-democratic-party-gained-power-across-the-country-in-the",
@@ -833,7 +765,7 @@
     "summary": "Democrats will enter the next Congress with one of the largest majorities in a generation, flipping dozens of House districts and at least seven Senate seats in mainly Trump-won communities.",
     "published": "2026-11-11T20:00:34+00:00",
     "outlets": 1,
-    "score": 0.834
+    "score": 0.578
    },
    {
     "id": "ditching-gas-in-restaurant-kitchens-could-slash-california-e",
@@ -844,7 +776,7 @@
     "summary": "85% of commercial kitchens in California rely on gas appliances. Scientists say that may have to change.",
     "published": "2026-11-11T16:35:51+00:00",
     "outlets": 1,
-    "score": 0.485
+    "score": 0.336
    },
    {
     "id": "high-surf-warning-means-giant-waves-california-surfers-are-p",
@@ -855,7 +787,7 @@
     "summary": "Forecasts show the first big waves of the winter could land as early as Friday night. Will El Niño bring Maverick’s Beach a historic swell?",
     "published": "2026-11-11T12:00:00+00:00",
     "outlets": 1,
-    "score": 0.294
+    "score": 0.204
    },
    {
     "id": "should-you-delegate-the-drudgery-to-ai-with-gavriel-cohen-an",
@@ -866,7 +798,7 @@
     "summary": "Are AI assistants ready for us? Are we ready for them? We explore how much of our lives to outsource.",
     "published": "2026-11-11T11:00:00+00:00",
     "outlets": 1,
-    "score": 0.226
+    "score": 0.157
    },
    {
     "id": "the-little-known-naval-history-of-the-nimitz-house",
@@ -877,7 +809,7 @@
     "summary": "Under the eastern span of the Bay Bridge on Yerba Buena Island, an old mansion connects us to the past.",
     "published": "2026-11-11T11:00:00+00:00",
     "outlets": 1,
-    "score": 0.19
+    "score": 0.132
    },
    {
     "id": "sickfluencers-the-covid-conscious-lesbian-bar-and-the-algori",
@@ -888,7 +820,7 @@
     "summary": "Recent viral stories whipped the internet into a frenzy and disabled people found themselves in the crosshairs.",
     "published": "2026-11-11T11:00:00+00:00",
     "outlets": 1,
-    "score": 0.163
+    "score": 0.113
    }
   ],
   "Health": [
@@ -901,7 +833,7 @@
     "summary": "Congo's Ebola outbreak has topped 11,000 cases, the government said Wednesday, a stark figure that underscores the severity of the situation as the country grapples with the relentless…",
     "published": "2026-11-11T09:16:01+00:00",
     "outlets": 1,
-    "score": 0.487
+    "score": 0.35
    },
    {
     "id": "seven-days-of-chaos-in-the-er-how-this-country-s-healthcare",
@@ -913,17 +845,6 @@
     "published": "2026-11-10T12:48:48+00:00",
     "outlets": 1,
     "score": 0.241
-   },
-   {
-    "id": "veterans-coming-home-with-cte-60-minutes-archive",
-    "title": "Veterans coming home with CTE | 60 Minutes Archive",
-    "link": "https://www.cbsnews.com/video/veterans-coming-home-with-cte-60-minutes-archive/",
-    "source": "CBS News",
-    "topic": "Health",
-    "summary": "In 2018, 60 Minutes reported on CTE, a degenerative brain disease known for impacting athletes who suffer concussions that is now showing up in soldiers returning from combat.",
-    "published": "2026-11-11T22:02:07+00:00",
-    "outlets": 1,
-    "score": 0.186
    },
    {
     "id": "get-in-loser-broadway-s-newest-mean-girls-are-ready-to-insul",
@@ -957,6 +878,74 @@
     "published": "2026-11-10T10:00:00+00:00",
     "outlets": 1,
     "score": 0.125
+   }
+  ],
+  "Politics": [
+   {
+    "id": "who-is-jim-jordan-the-house-republicans-pick-for-minority-le",
+    "title": "Who is Jim Jordan, the House Republicans' pick for minority leader?",
+    "link": "https://www.npr.org/2026/11/11/nx-s1-6037439/who-is-jim-jordan-the-house-republicans-pick-for-minority-leader",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "As House Republicans prepare for life in the minority, they're turning to Jim Jordan as their next leader. In Jordan, they've picked a conservative firebrand and one of Trump's most vocal…",
+    "published": "2026-11-11T21:24:05+00:00",
+    "outlets": 1,
+    "score": 0.326
+   },
+   {
+    "id": "these-voters-are-looking-for-change-but-don-t-have-high-hope",
+    "title": "These voters are looking for change, but don't have high hopes for a divided Congress",
+    "link": "https://www.npr.org/2026/11/11/nx-s1-6034955/these-voters-are-looking-for-change-but-dont-have-high-hopes-for-a-divided-congress",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "North Carolina swing voters are seeking change, but have low expectations that things will actually change.",
+    "published": "2026-11-11T21:23:59+00:00",
+    "outlets": 1,
+    "score": 0.264
+   },
+   {
+    "id": "kennedy-relatives-join-the-fight-against-trump-s-arch-allegi",
+    "title": "Kennedy relatives join the fight against Trump's arch, alleging harm to JFK's grave",
+    "link": "https://www.npr.org/2026/11/11/nx-s1-6037372/kennedys-trump-arch-lawsuit-jfk-grave-arlington-cemetery",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "Nine members of the Kennedy family have joined the legal fight against Trump's D.C. arch, arguing it would disrupt views and cast shadows over their ancestors' graves at Arlington National…",
+    "published": "2026-11-11T16:59:32+00:00",
+    "outlets": 1,
+    "score": 0.199
+   },
+   {
+    "id": "thursday-briefing-what-we-do-and-don-t-know-about-alice-huan",
+    "title": "Thursday briefing: What we do (and don’t) know about Alice Huang and the Nvidia affair",
+    "link": "https://www.theguardian.com/world/2026/nov/12/thursday-briefing-what-we-do-and-dont-know-about-alice-huang-and-the-nvidia-affair",
+    "source": "The Guardian",
+    "topic": "Politics",
+    "summary": "In today’s newsletter: US intelligence reportedly believes the former tech executive was recruited by Beijing, raising questions about the security of the AI industry and Trump’s close…",
+    "published": "2026-11-12T06:43:31+00:00",
+    "outlets": 1,
+    "score": 0.198
+   },
+   {
+    "id": "what-s-behind-democratic-socialists-historic-victories-in-th",
+    "title": "What's behind democratic socialists' historic victories in the midterms?",
+    "link": "https://www.npr.org/2026/11/11/nx-s1-6037432/whats-behind-democratic-socialists-historic-victories-in-the-midterms",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "Historian and The New Yorker writer Jill Lepore says the DSA, once maligned, is no longer \"beyond the political pale.\" She discusses the history of socialism in America, and its current…",
+    "published": "2026-11-11T16:41:48+00:00",
+    "outlets": 1,
+    "score": 0.172
+   },
+   {
+    "id": "following-big-democratic-wins-these-swing-voters-are-looking",
+    "title": "Following big Democratic wins, these swing voters are looking for results",
+    "link": "https://www.npr.org/2026/11/11/nx-s1-6036790/swing-voters-swing-states-democrats-congress",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "For the swing voters NPR is regularly checking in with as part of its Swing Shift series, the election results brought mixed emotions, as does the pending Democratic control of Congress.",
+    "published": "2026-11-11T14:19:42+00:00",
+    "outlets": 1,
+    "score": 0.136
    }
   ]
  }
