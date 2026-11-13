@@ -1,17 +1,50 @@
 {
- "generated": "2026-11-13T18:28:25+00:00",
- "generatedLocal": "2026-11-13 10:28",
+ "generated": "2026-11-13T23:48:34+00:00",
+ "generatedLocal": "2026-11-13 15:48",
  "top": [
   {
-   "id": "the-trump-administration-s-voter-roll-crusade-could-continue",
-   "title": "The Trump administration's voter roll crusade could continue",
-   "link": "https://www.npr.org/2026/11/13/nx-s1-6034016/voter-fraud-search-trump-california",
+   "id": "faa-ground-stop-shuts-down-flights-nationwide",
+   "title": "FAA ground stop shuts down flights nationwide",
+   "link": "https://www.theverge.com/news/1033489/faa-ground-stop",
+   "source": "The Verge",
+   "topic": "Tech",
+   "summary": "Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop \"due to extraordinary circumstances and for reasons of safety,\" while planes…",
+   "published": "2026-11-13T23:47:31+00:00",
+   "outlets": 4,
+   "score": 3.42
+  },
+  {
+   "id": "miracle-on-mississippi-all-rescued-after-cruise-ship-hit-by",
+   "title": "'Miracle on Mississippi' - All rescued after cruise ship hit by tanker in New Orleans",
+   "link": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC US & Canada",
+   "topic": "U.S.",
+   "summary": "The collision leaves 32 people in hospital with non-critical injuries, but no-one unaccounted for.",
+   "published": "2026-11-13T23:40:45+00:00",
+   "outlets": 2,
+   "score": 1.618
+  },
+  {
+   "id": "dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the",
+   "title": "DHS head Markwayne Mullin says there is not a threat to the U.S. amid FAA ground stop",
+   "link": "https://www.npr.org/2026/11/13/nx-s1-6040418/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground-stop",
    "source": "NPR Politics",
    "topic": "Politics",
-   "summary": "Election officials are preparing for the Trump administration's pressure tactics over potential noncitizens on state voter rolls to continue, though recent court rulings pose new obstacles.",
-   "published": "2026-11-13T17:00:00+00:00",
+   "summary": "Department of Homeland Security Secretary Markwayne Mullin spoke to at the White House on Friday afternoon after the FAA issues a total ground stop. NPR was there for the briefing.",
+   "published": "2026-11-13T22:46:33+00:00",
+   "outlets": 2,
+   "score": 1.499
+  },
+  {
+   "id": "naresh-bhatt-convicted-the-road-to-justice-for-mamta-s-famil",
+   "title": "Naresh Bhatt Convicted: The Road to Justice for Mamta's Family | Case by Case | \"48 Hours\" Podcast",
+   "link": "https://www.cbsnews.com/video/111326-48-hours-case-by-case-episode-30/",
+   "source": "CBS News",
+   "topic": "U.S.",
+   "summary": "A Virginia jury has found Naresh Bhatt guilty of murdering his wife, Mamta Kafle Bhatt, whose body has never been found. Just days before the verdict, Bhatt stunned the courtroom when he…",
+   "published": "2026-11-14T00:00:00+00:00",
    "outlets": 1,
-   "score": 1.208
+   "score": 1.2
   },
   {
    "id": "police-investigating-david-walliams-over-reports-alleging-se",
@@ -22,106 +55,106 @@
    "summary": "The Met Police said the allegations are separate from those reported by ITV and the Guardian earlier this week.",
    "published": "2026-11-13T16:53:50+00:00",
    "outlets": 1,
-   "score": 1.201
+   "score": 1.196
   },
   {
-   "id": "spacex-chases-rocket-reusability-with-upcoming-starship-flig",
-   "title": "SpaceX chases rocket reusability with upcoming Starship Flight 15 launch",
-   "link": "https://www.cbsnews.com/video/spacex-chases-rocket-reusability-with-upcoming-starship-flight-5-launch/",
-   "source": "CBS News",
-   "topic": "U.S.",
-   "summary": "SpaceX looks to make history with its upcoming Starship Flight 15 launch. CBS News' Jason Allen explains more.",
-   "published": "2026-11-13T18:15:41+00:00",
-   "outlets": 1,
-   "score": 1.187
-  },
-  {
-   "id": "tv-academy-cancels-televerse-for-2027-emmy-season-festival-w",
-   "title": "TV Academy Cancels Televerse for 2027 Emmy Season; Festival Will Return in Early 2028",
-   "link": "https://variety.com/2026/tv/news/tv-academy-cancels-televerse-2027-emmy-season-return-2028-1236947153/",
+   "id": "jason-voorhees-makes-his-animated-debut-in-new-never-hike-al",
+   "title": "Jason Voorhees Makes His Animated Debut in New ‘Never Hike Alone’ Short",
+   "link": "https://variety.com/2026/digital/news/jason-voorhees-animated-debut-hike-alone-short-1236947225/",
    "source": "Variety",
    "topic": "Entertainment",
-   "summary": "Televerse is taking a telebreak. The Television Academy’s TV festival, which launched in 2025 and continued this year, won’t be back in 2027 — and will move to earlier in the year when it…",
-   "published": "2026-11-13T18:15:51+00:00",
+   "summary": "More than 46 years after his big-screen debut in the slasher classic “Friday the 13th,” hulking horror icon Jason Voorhees is about to prove that his machete cuts just as deep in…",
+   "published": "2026-11-13T23:45:40+00:00",
    "outlets": 1,
-   "score": 0.99
+   "score": 0.998
   },
   {
-   "id": "you-can-adjust-the-position-of-the-trackball-on-keychron-s-n",
-   "title": "You can adjust the position of the trackball on Keychron’s new wireless mouse",
-   "link": "https://www.theverge.com/tech/1033159/keychron-t1-he-trackball-wireless-mouse-adjustable",
-   "source": "The Verge",
-   "topic": "Tech",
-   "summary": "The Nape Pro was Keychron's first trackball device that was introduced at CES 2026 with a slim and compact design allowing it to be positioned right up against a keyboard. The company's…",
-   "published": "2026-11-13T18:10:41+00:00",
-   "outlets": 1,
-   "score": 0.985
-  },
-  {
-   "id": "un-watchdog-increasingly-concerned-over-uninspected-iran-nuc",
-   "title": "UN watchdog 'increasingly concerned' over uninspected Iran nuclear site",
-   "link": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss",
-   "source": "BBC World",
-   "topic": "World",
-   "summary": "It says it has never been able to visit a uranium enrichment plant at Isfahan which Iran announced over a year ago.",
-   "published": "2026-11-13T17:54:54+00:00",
-   "outlets": 2,
-   "score": 0.983
-  },
-  {
-   "id": "is-a-bottom-in-for-the-nasdaq-100-charts-to-watch",
-   "title": "Is a bottom in for the Nasdaq-100? Charts to watch",
-   "link": "https://www.cnbc.com/2026/11/13/is-a-bottom-in-for-the-nasdaq-100-charts-to-watch.html",
-   "source": "CNBC Investing",
-   "topic": "Finance",
-   "summary": "Frank Cappelleri of CappThesis looks at several charts to help answer that question.",
-   "published": "2026-11-13T18:00:01+00:00",
-   "outlets": 1,
-   "score": 0.977
-  },
-  {
-   "id": "california-created-the-nation-s-first-statewide-plan-for-bla",
-   "title": "California Created the Nation’s First Statewide Plan for Black Reparations. Where Does That Effort Stand Now?",
-   "link": "https://ww2.kqed.org/news/2026/11/13/california-created-the-nations-first-statewide-plan-for-black-reparations-where-does-that-effort-stand-now/",
+   "id": "democrats-gear-up-to-investigate-the-trump-administration",
+   "title": "Democrats Gear Up to Investigate the Trump Administration",
+   "link": "https://ww2.kqed.org/news/2026/11/13/democrats-gear-up-to-investigate-the-trump-administration/",
    "source": "KQED",
    "topic": "Local",
-   "summary": "California’s reparations plan is a model for other states, but it’s not yet a reality.",
-   "published": "2026-11-13T18:00:00+00:00",
+   "summary": "Congress has the authority to investigate corruption in the executive branch. Democrats are prepared to use that power.",
+   "published": "2026-11-13T23:45:09+00:00",
    "outlets": 1,
-   "score": 0.977
+   "score": 0.997
   },
   {
-   "id": "college-basketball-rankings-will-byu-end-up-as-the-last-unde",
-   "title": "College basketball rankings: Will BYU end up as the last undefeated team standing?",
-   "link": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-byu-undefeated/",
+   "id": "lutnick-faces-questions-over-nvidia-spy-scandal-his-sons-fir",
+   "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+   "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+   "source": "CNBC Finance",
+   "topic": "Finance",
+   "summary": "Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
+   "published": "2026-11-13T23:42:18+00:00",
+   "outlets": 1,
+   "score": 0.995
+  },
+  {
+   "id": "ohio-state-vs-uconn-prediction-odds-2026-college-basketball",
+   "title": "Ohio State vs. UConn prediction, odds: 2026 college basketball picks for Nov. 13 by proven model",
+   "link": "https://www.cbssports.com/betting/news/ohio-state-uconn-prediction-odds-time-2026-college-basketball-picks-bets-for-november-13/",
    "source": "CBS Sports",
    "topic": "Sports",
-   "summary": "The 4-0 Cougars' schedule provides a long runway of potential wins before things tighten up in January",
-   "published": "2026-11-13T17:50:33+00:00",
+   "summary": "SportsLine model reveals its Ohio State Buckeyes vs. UConn Huskies college basketball best bets as they play on Friday",
+   "published": "2026-11-13T23:13:24+00:00",
    "outlets": 1,
-   "score": 0.969
+   "score": 0.971
   },
   {
-   "id": "openai-board-member-worries-an-ai-takeover-of-society-could",
-   "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
-   "link": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
-   "source": "Ars Technica",
-   "topic": "Tech",
-   "summary": "Researcher traces a path from AI reward hacking to potential human extinction.",
-   "published": "2026-11-13T17:25:45+00:00",
+   "id": "fitness-obsessed-control-freak-what-can-man-utd-expect-from",
+   "title": "Fitness obsessed & 'control freak' - what can Man Utd expect from Pochettino?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c85y13pv69xwo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "topic": "Sports",
+   "summary": "What can Manchester United fans expect from their new manager Mauricio Pochettino? BBC Sport gets an insight from Toby Alderweireld, who played under him at Spurs.",
+   "published": "2026-11-13T22:53:17+00:00",
    "outlets": 1,
-   "score": 0.949
+   "score": 0.955
   },
   {
-   "id": "why-is-microsoft-s-outage-lasting-so-long-and-will-emails-be",
-   "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
-   "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+   "id": "stuck-on-the-tarmac-without-information-travelers-share-thei",
+   "title": "Stuck on the tarmac without information: Travelers share their ground stop experiences",
+   "link": "https://www.npr.org/2026/11/13/nx-s1-6040397/stuck-on-the-tarmac-without-information-travelers-share-their-ground-stop-experiences",
+   "source": "NPR National",
+   "topic": "U.S.",
+   "summary": "Passengers stuck on airplanes on tarmacs across the country during the FAA ground stop on Friday share their stories.",
+   "published": "2026-11-13T22:36:45+00:00",
+   "outlets": 1,
+   "score": 0.942
+  },
+  {
+   "id": "microsoft-deeply-sorry-for-global-outage-after-almost-24-hou",
+   "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+   "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
    "source": "BBC World",
    "topic": "World",
-   "summary": "Microsoft says it is continuing to restore services including Outlook and Teams following a global outage.",
-   "published": "2026-11-13T17:12:46+00:00",
+   "summary": "Experts say the event is a \"stark reminder\" of how heavily the world relies on a small group of big tech providers.",
+   "published": "2026-11-13T21:14:22+00:00",
    "outlets": 1,
-   "score": 0.939
+   "score": 0.879
+  },
+  {
+   "id": "a-trading-strategy-to-ride-out-the-nvidia-uncertainty-and-ge",
+   "title": "A trading strategy to ride out the Nvidia uncertainty and generate income in the process",
+   "link": "https://www.cnbc.com/2026/11/13/a-trading-strategy-to-ride-out-the-nvidia-uncertainty-and-generate-income-in-the-process.html",
+   "source": "CNBC Investing",
+   "topic": "Finance",
+   "summary": "By deploying a persistent covered call strategy, investors can leverage the exact fear driving the stock down to generate robust, risk-reducing income.",
+   "published": "2026-11-13T19:30:36+00:00",
+   "outlets": 1,
+   "score": 0.807
+  },
+  {
+   "id": "what-s-trump-s-strategy-now-with-iran-to-keep-things-as-they",
+   "title": "What's Trump's strategy now with Iran? To keep things as they are",
+   "link": "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are",
+   "source": "NPR World",
+   "topic": "World",
+   "summary": "President Trump says the \"status quo\" is what Gulf Arab allies want as the Iran war hits a stalemate and the U.S. midterms force a pivot from threats of attacks to economic pressure.",
+   "published": "2026-11-13T19:02:04+00:00",
+   "outlets": 1,
+   "score": 0.788
   },
   {
    "id": "does-europe-regret-its-bet-on-u-s-defense",
@@ -132,7 +165,29 @@
    "summary": "Europe bet big on American defense technology and they're now paying the price. Years-long backlogs are underway due to production delays and the U.S. own military needs.",
    "published": "2026-11-13T16:17:43+00:00",
    "outlets": 1,
-   "score": 0.897
+   "score": 0.687
+  },
+  {
+   "id": "psa-don-t-go-anywhere-near-those-huge-waves-this-weekend",
+   "title": "PSA: Don’t Go Anywhere Near Those Huge Waves This Weekend",
+   "link": "https://ww2.kqed.org/news/2026/11/13/bay-area-weather-big-waves-mavericks-surf-san-francisco-coastal-advisory-flooding/",
+   "source": "KQED",
+   "topic": "Local",
+   "summary": "While it can be tempting to find a vantage point to watch massive swells, experts warn that waves like this can turn deadly.",
+   "published": "2026-11-13T23:30:01+00:00",
+   "outlets": 1,
+   "score": 0.679
+  },
+  {
+   "id": "trump-hasn-t-commented-on-nationwide-flight-shutdown-but-he",
+   "title": "Trump Hasn’t Commented on Nationwide Flight Shutdown, But He’s Promoting the Federal Film Incentive",
+   "link": "https://variety.com/2026/film/news/trump-hasnt-commented-flight-shutdown-promoting-film-incentive-1236947426/",
+   "source": "Variety",
+   "topic": "Entertainment",
+   "summary": "As flights across the U.S. ground to a halt Friday amid a rare nationwide ground stop, President Donald Trump was focused on proclaiming his support for a federal film and television tax…",
+   "published": "2026-11-13T23:28:40+00:00",
+   "outlets": 1,
+   "score": 0.678
   },
   {
    "id": "how-sen-chris-van-hollen-plans-to-flex-democratic-power-on-t",
@@ -140,146 +195,260 @@
    "link": "https://www.npr.org/2026/11/13/g-s1-153350/senator-chris-van-hollen-global-health-development-aid",
    "source": "NPR Health",
    "topic": "Health",
-   "summary": "The Maryland Democrat, who's the ranking member of the Senate Foreign Relations Subcommittee, just announced he's going to run for Majority Leader. He spoke to NPR about his foreign aid…",
+   "summary": "He's the ranking member of the Senate Foreign Relations Subcommittee that oversees health aid and he's just announced he's running for Majority Leader. He spoke to NPR about his foreign…",
    "published": "2026-11-13T15:46:35+00:00",
    "outlets": 1,
-   "score": 0.874
-  },
-  {
-   "id": "tearful-pochettino-on-difficult-decision-to-leave-usa-for-ma",
-   "title": "Tearful Pochettino on 'difficult' decision to leave USA for Man Utd",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cmd61qne8352o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "topic": "Sports",
-   "summary": "An emotional Mauricio Pochettino broke down as he explained why he was leaving the USA to take the Manchester United job.",
-   "published": "2026-11-13T15:28:06+00:00",
-   "outlets": 1,
-   "score": 0.86
-  },
-  {
-   "id": "microsoft-outage-stark-reminder-of-how-much-we-rely-on-tech",
-   "title": "Microsoft outage 'stark reminder' of how much we rely on tech",
-   "link": "https://www.bbc.co.uk/news/articles/cxzd9171m51qo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC News",
-   "topic": "Tech",
-   "summary": "Microsoft has apologised for the issue, which it said was due to a technical failure.",
-   "published": "2026-11-13T17:38:19+00:00",
-   "outlets": 1,
-   "score": 0.86
-  },
-  {
-   "id": "chicago-fed-s-goolsbee-says-central-bank-has-definitely-got",
-   "title": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
-   "link": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html",
-   "source": "CNBC Finance",
-   "topic": "Finance",
-   "summary": "The policymaker expressed concern about the latest inflation data, telling CNBC that the central bank likely will need to take action.",
-   "published": "2026-11-13T14:22:07+00:00",
-   "outlets": 1,
-   "score": 0.814
-  },
-  {
-   "id": "manchester-united-names-usmnt-coach-mauricio-pochettino-as-i",
-   "title": "Manchester United names USMNT coach Mauricio Pochettino as its manager",
-   "link": "https://www.npr.org/2026/11/13/nx-s1-6038932/mauricio-pochettino-usmnt-manchester-united",
-   "source": "NPR National",
-   "topic": "U.S.",
-   "summary": "Mauricio Pochettino is out as head coach of the U.S. men's national soccer team. Pochettino led the U.S. to the round of 16 at last year's World Cup. He's departing to coach Manchester…",
-   "published": "2026-11-13T13:32:23+00:00",
-   "outlets": 1,
-   "score": 0.781
-  },
-  {
-   "id": "how-a-sex-scandal-at-nvidia-is-putting-pressure-on-the-white",
-   "title": "How a sex scandal at Nvidia is putting pressure on the White House",
-   "link": "https://www.bbc.co.uk/news/articles/c67429m3vem3o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC US & Canada",
-   "topic": "U.S.",
-   "summary": "Jensen Huang's personal life may have triggered the crisis, but the questions now reach into the White House itself.",
-   "published": "2026-11-13T12:22:30+00:00",
-   "outlets": 1,
-   "score": 0.737
-  },
-  {
-   "id": "nvidia-ceo-steps-down-and-sen-chris-van-hollen-to-run-for-ma",
-   "title": "Nvidia CEO steps down. And, Sen. Chris Van Hollen to run for majority leader",
-   "link": "https://www.npr.org/2026/11/13/g-s1-153532/up-first-newsletter-nvidia-jensen-huang-colette-kress-ukraine-russia-chris-van-hollen",
-   "source": "NPR World",
-   "topic": "World",
-   "summary": "Nvidia's chief financial officer has been appointed interim CEO after Jensen Huang stepped down from the role. And, Sen. Chris Van Hollen says he will challenge Chuck Schumer for majority…",
-   "published": "2026-11-13T12:07:12+00:00",
-   "outlets": 1,
-   "score": 0.728
-  },
-  {
-   "id": "pluribus-promotes-samba-schutte-to-series-regular-for-seaso",
-   "title": "‘Pluribus’ Promotes Samba Schutte to Series Regular for Season 2",
-   "link": "https://variety.com/2026/tv/news/pluribus-season-2-samba-schutte-series-regular-1236947123/",
-   "source": "Variety",
-   "topic": "Entertainment",
-   "summary": "Samba Schutte has been upped to series regular status for “Pluribus” Season 2, Variety has learned. Schutte is known for playing Mr. Diabaté in Season 1 as a guest star. Like Rhea…",
-   "published": "2026-11-13T18:00:00+00:00",
-   "outlets": 1,
-   "score": 0.674
-  },
-  {
-   "id": "california-proposition-roundup-results-so-far",
-   "title": "California Proposition Roundup: Results So Far",
-   "link": "https://ww2.kqed.org/news/2026/11/13/california-proposition-roundup-results-so-far/",
-   "source": "KQED",
-   "topic": "Local",
-   "summary": "Voters weighed in on 14 state propositions; so far six have passed and six have failed, according to the Associated Press.",
-   "published": "2026-11-13T17:54:21+00:00",
-   "outlets": 1,
-   "score": 0.67
-  },
-  {
-   "id": "microsoft-apologizes-for-massive-outlook-outage-affected-cus",
-   "title": "Microsoft Apologizes for Massive Outlook Outage, Affected Customers Can Request Credits for Service Interruption",
-   "link": "https://variety.com/2026/digital/news/microsoft-apologizes-outlook-outage-customer-credits-1236947124/",
-   "source": "Variety",
-   "topic": "Entertainment",
-   "summary": "Microsoft issued an apology Friday for a worldwide outage of its email servers that left millions of Outlook users without access to their mailboxes starting Thursday in some cases for…",
-   "published": "2026-11-13T17:59:03+00:00",
-   "outlets": 2,
    "score": 0.669
   },
   {
-   "id": "mauricio-pochettino-s-usmnt-farewell-was-inevitable-but-it-h",
-   "title": "Mauricio Pochettino's USMNT farewell was inevitable but it hurts all the same: 'A big thank you from my heart'",
-   "link": "https://www.cbssports.com/soccer/news/mauricio-pochettinos-usmnt-farewell-inevitable-hurts/",
+   "id": "illinois-vs-no-4-ucla-college-football-picks-odds-rainy-weat",
+   "title": "Illinois vs. No. 4 UCLA college football picks, odds: Rainy weather could help Illini grab upset",
+   "link": "https://www.cbssports.com/betting/news/illinois-vs-no-4-ucla-cfb-picks-odds-rainy-weather-could-help-illini-grab-upset/",
    "source": "CBS Sports",
    "topic": "Sports",
-   "summary": "Pochettino will leave the U.S. team after two years in the job for Manchester United, the two-legged Concacaf Nations League quarterfinals against Haiti serving as his final matches",
-   "published": "2026-11-13T17:48:09+00:00",
+   "summary": "Weather will factor in Friday as Illinois looks to upset No. 4 UCLA at the Rose Bowl",
+   "published": "2026-11-13T23:09:37+00:00",
    "outlets": 1,
-   "score": 0.667
+   "score": 0.668
   },
   {
-   "id": "jensen-huang-was-reckless-with-the-environment-too",
-   "title": "Jensen Huang was reckless with the environment, too",
-   "link": "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution",
+   "id": "france-hold-nerve-to-edge-past-south-africa-in-thriller",
+   "title": "France hold nerve to edge past South Africa in thriller",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cqm2j810r2m2o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "topic": "Sports",
+   "summary": "France hold on to end their five-match losing run against South Africa at Stade de France with an enthralling 21-19 victory in Paris.",
+   "published": "2026-11-13T23:03:36+00:00",
+   "outlets": 1,
+   "score": 0.664
+  },
+  {
+   "id": "gop-state-officials-push-to-revive-trump-s-mail-voting-restr",
+   "title": "GOP state officials push to revive Trump's mail voting restrictions for 2028 election",
+   "link": "https://www.npr.org/2026/11/13/nx-s1-6040409/trump-mail-in-voting",
+   "source": "NPR Politics",
+   "topic": "Politics",
+   "summary": "Some Republican state officials are reviving a bid for mail-in voting restrictions for the 2028 election by appealing a court order blocking the Postal Service from carrying out a revised…",
+   "published": "2026-11-13T22:18:55+00:00",
+   "outlets": 1,
+   "score": 0.64
+  },
+  {
+   "id": "us-air-force-says-it-responded-to-suspected-drones-over-raf",
+   "title": "US Air Force says it responded to 'suspected drones' over RAF Lakenheath",
+   "link": "https://www.bbc.co.uk/news/articles/c6jd75geegzyo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC US & Canada",
+   "topic": "U.S.",
+   "summary": "The American military says there were no injuries or damage after \"suspected unauthorised drone activity\" this evening.",
+   "published": "2026-11-13T22:12:33+00:00",
+   "outlets": 1,
+   "score": 0.632
+  },
+  {
+   "id": "millions-of-americans-are-not-taking-their-glp-1-drugs-as-pr",
+   "title": "Millions of Americans are not taking their GLP-1 drugs as prescribed",
+   "link": "https://arstechnica.com/health/2026/11/millions-in-us-use-unapproved-glp-1s-and-use-them-in-unapproved-ways/",
+   "source": "Ars Technica",
+   "topic": "Tech",
+   "summary": "Cost and access barriers are pushing people to modified use and unapproved versions.",
+   "published": "2026-11-13T21:59:01+00:00",
+   "outlets": 1,
+   "score": 0.629
+  },
+  {
+   "id": "watch-cruise-ship-seen-sinking-after-collision-with-cargo-sh",
+   "title": "Watch: Cruise ship seen sinking after collision with cargo ship in New Orleans",
+   "link": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC US & Canada",
+   "topic": "U.S.",
+   "summary": "A cargo ship has collided with a docked cruise ship in New Orleans, with reports suggesting more than 120 people were on board the cruise ship.",
+   "published": "2026-11-13T21:15:24+00:00",
+   "outlets": 1,
+   "score": 0.607
+  },
+  {
+   "id": "chatgpt-wallet-lets-openai-s-dots-agents-make-purchases-for",
+   "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
    "source": "The Verge",
    "topic": "Tech",
-   "summary": "Under cofounder Jensen Huang, Nvidia has become the engine for the AI boom - and one of the tech industry's biggest environmental liabilities. Its sought-after chips have triggered a new…",
-   "published": "2026-11-13T17:44:22+00:00",
+   "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the…",
+   "published": "2026-11-13T20:45:10+00:00",
    "outlets": 1,
-   "score": 0.665
-  },
-  {
-   "id": "spacex-s-giant-rocket-may-leave-nasa-in-the-dust",
-   "title": "SpaceX's giant rocket may leave NASA in the dust",
-   "link": "https://www.npr.org/2026/11/13/nx-s1-6039312/spacex-nasa-starship-iss-dragon-falcon-musk",
-   "source": "NPR Science",
-   "topic": "Science",
-   "summary": "As it races to develop its new massive rocket, the space launch company is preparing to retire NASA's main ride to the International Space Station.",
-   "published": "2026-11-13T10:00:00+00:00",
-   "outlets": 1,
-   "score": 0.655
+   "score": 0.592
   }
  ],
  "topics": {
+  "Tech": [
+   {
+    "id": "faa-ground-stop-shuts-down-flights-nationwide",
+    "title": "FAA ground stop shuts down flights nationwide",
+    "link": "https://www.theverge.com/news/1033489/faa-ground-stop",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop \"due to extraordinary circumstances and for reasons of safety,\" while planes…",
+    "published": "2026-11-13T23:47:31+00:00",
+    "outlets": 4,
+    "score": 3.42
+   },
+   {
+    "id": "millions-of-americans-are-not-taking-their-glp-1-drugs-as-pr",
+    "title": "Millions of Americans are not taking their GLP-1 drugs as prescribed",
+    "link": "https://arstechnica.com/health/2026/11/millions-in-us-use-unapproved-glp-1s-and-use-them-in-unapproved-ways/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "Cost and access barriers are pushing people to modified use and unapproved versions.",
+    "published": "2026-11-13T21:59:01+00:00",
+    "outlets": 1,
+    "score": 0.629
+   },
+   {
+    "id": "chatgpt-wallet-lets-openai-s-dots-agents-make-purchases-for",
+    "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the…",
+    "published": "2026-11-13T20:45:10+00:00",
+    "outlets": 1,
+    "score": 0.592
+   },
+   {
+    "id": "faa-expands-ai-advice-to-manage-air-traffic-congestion-acros",
+    "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+    "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+    "published": "2026-11-13T21:20:47+00:00",
+    "outlets": 1,
+    "score": 0.465
+   },
+   {
+    "id": "cmf-s-milk-carton-shaped-bluetooth-speaker-is-down-to-a-new",
+    "title": "CMF’s milk carton-shaped Bluetooth speaker is down to a new low price",
+    "link": "https://www.theverge.com/gadgets/1033185/nothing-cmf-speaker-s-m-black-friday-deal-sale",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "Bluetooth speakers are often boring boxes in plain colors, but not this one! As part of Nothing’s ongoing early Black Friday promo, you can grab its unique, milk carton-shaped CMF Speaker…",
+    "published": "2026-11-13T21:13:20+00:00",
+    "outlets": 1,
+    "score": 0.462
+   },
+   {
+    "id": "here-s-how-you-can-save-on-your-gta-vi-preorder-ahead-of-lau",
+    "title": "Here’s how you can save on your GTA VI preorder ahead of launch",
+    "link": "https://www.theverge.com/gadgets/1033046/playstation-xbox-gift-card-gta-vi-6-preorder-deal-sale",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "The long-awaited launch of GTA VI is around the corner, happening next Friday, November 19th. While discounts on the game itself will be rare for some time, there’s a clever workaround to…",
+    "published": "2026-11-13T22:47:40+00:00",
+    "outlets": 1,
+    "score": 0.404
+   }
+  ],
+  "U.S.": [
+   {
+    "id": "miracle-on-mississippi-all-rescued-after-cruise-ship-hit-by",
+    "title": "'Miracle on Mississippi' - All rescued after cruise ship hit by tanker in New Orleans",
+    "link": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC US & Canada",
+    "topic": "U.S.",
+    "summary": "The collision leaves 32 people in hospital with non-critical injuries, but no-one unaccounted for.",
+    "published": "2026-11-13T23:40:45+00:00",
+    "outlets": 2,
+    "score": 1.618
+   },
+   {
+    "id": "naresh-bhatt-convicted-the-road-to-justice-for-mamta-s-famil",
+    "title": "Naresh Bhatt Convicted: The Road to Justice for Mamta's Family | Case by Case | \"48 Hours\" Podcast",
+    "link": "https://www.cbsnews.com/video/111326-48-hours-case-by-case-episode-30/",
+    "source": "CBS News",
+    "topic": "U.S.",
+    "summary": "A Virginia jury has found Naresh Bhatt guilty of murdering his wife, Mamta Kafle Bhatt, whose body has never been found. Just days before the verdict, Bhatt stunned the courtroom when he…",
+    "published": "2026-11-14T00:00:00+00:00",
+    "outlets": 1,
+    "score": 1.2
+   },
+   {
+    "id": "stuck-on-the-tarmac-without-information-travelers-share-thei",
+    "title": "Stuck on the tarmac without information: Travelers share their ground stop experiences",
+    "link": "https://www.npr.org/2026/11/13/nx-s1-6040397/stuck-on-the-tarmac-without-information-travelers-share-their-ground-stop-experiences",
+    "source": "NPR National",
+    "topic": "U.S.",
+    "summary": "Passengers stuck on airplanes on tarmacs across the country during the FAA ground stop on Friday share their stories.",
+    "published": "2026-11-13T22:36:45+00:00",
+    "outlets": 1,
+    "score": 0.942
+   },
+   {
+    "id": "us-air-force-says-it-responded-to-suspected-drones-over-raf",
+    "title": "US Air Force says it responded to 'suspected drones' over RAF Lakenheath",
+    "link": "https://www.bbc.co.uk/news/articles/c6jd75geegzyo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC US & Canada",
+    "topic": "U.S.",
+    "summary": "The American military says there were no injuries or damage after \"suspected unauthorised drone activity\" this evening.",
+    "published": "2026-11-13T22:12:33+00:00",
+    "outlets": 1,
+    "score": 0.632
+   },
+   {
+    "id": "watch-cruise-ship-seen-sinking-after-collision-with-cargo-sh",
+    "title": "Watch: Cruise ship seen sinking after collision with cargo ship in New Orleans",
+    "link": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC US & Canada",
+    "topic": "U.S.",
+    "summary": "A cargo ship has collided with a docked cruise ship in New Orleans, with reports suggesting more than 120 people were on board the cruise ship.",
+    "published": "2026-11-13T21:15:24+00:00",
+    "outlets": 1,
+    "score": 0.607
+   },
+   {
+    "id": "spacex-launches-first-of-its-kind-starship-test-flight",
+    "title": "SpaceX launches first-of-its-kind Starship test flight",
+    "link": "https://www.cbsnews.com/news/spacex-launches-starship-flight-rocket/",
+    "source": "CBS News",
+    "topic": "U.S.",
+    "summary": "The SpaceX Super Heavy-Starship was designed from the ground up to be fully reusable in a bid to lower launch costs.",
+    "published": "2026-11-13T23:20:45+00:00",
+    "outlets": 1,
+    "score": 0.499
+   }
+  ],
   "Politics": [
+   {
+    "id": "dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the",
+    "title": "DHS head Markwayne Mullin says there is not a threat to the U.S. amid FAA ground stop",
+    "link": "https://www.npr.org/2026/11/13/nx-s1-6040418/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground-stop",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "Department of Homeland Security Secretary Markwayne Mullin spoke to at the White House on Friday afternoon after the FAA issues a total ground stop. NPR was there for the briefing.",
+    "published": "2026-11-13T22:46:33+00:00",
+    "outlets": 2,
+    "score": 1.499
+   },
+   {
+    "id": "gop-state-officials-push-to-revive-trump-s-mail-voting-restr",
+    "title": "GOP state officials push to revive Trump's mail voting restrictions for 2028 election",
+    "link": "https://www.npr.org/2026/11/13/nx-s1-6040409/trump-mail-in-voting",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "Some Republican state officials are reviving a bid for mail-in voting restrictions for the 2028 election by appealing a court order blocking the Postal Service from carrying out a revised…",
+    "published": "2026-11-13T22:18:55+00:00",
+    "outlets": 1,
+    "score": 0.64
+   },
+   {
+    "id": "with-his-challenge-to-schumer-van-hollen-forces-a-debate-ove",
+    "title": "With his challenge to Schumer, Van Hollen forces a debate over Democrats' mandate",
+    "link": "https://www.npr.org/2026/11/13/nx-s1-6040044/dem-senate-leader-fight",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "Democrats say they have a mandate to deliver change, but as the party gets ready to retake the majority in both the House and Senate, there are divides over who should lead it.",
+    "published": "2026-11-13T21:06:09+00:00",
+    "outlets": 1,
+    "score": 0.46
+   },
    {
     "id": "the-trump-administration-s-voter-roll-crusade-could-continue",
     "title": "The Trump administration's voter roll crusade could continue",
@@ -289,62 +458,29 @@
     "summary": "Election officials are preparing for the Trump administration's pressure tactics over potential noncitizens on state voter rolls to continue, though recent court rulings pose new obstacles.",
     "published": "2026-11-13T17:00:00+00:00",
     "outlets": 1,
-    "score": 1.208
+    "score": 0.33
    },
    {
-    "id": "van-hollen-challenges-schumer-for-senate-majority-leader",
-    "title": "Van Hollen challenges Schumer for Senate majority leader",
-    "link": "https://www.cbsnews.com/video/van-hollen-challenges-schumer-for-senate/",
+    "id": "new-campaign-against-eu-membership-launches-ahead-of-uk-eu-s",
+    "title": "New campaign against EU membership launches ahead of UK-EU summit",
+    "link": "https://www.bbc.co.uk/news/articles/c6174l2q99ejo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News",
+    "topic": "Politics",
+    "summary": "The launch of Stay Out comes as Andy Burnham prepares for talks with European leaders next week.",
+    "published": "2026-11-13T21:39:46+00:00",
+    "outlets": 1,
+    "score": 0.281
+   },
+   {
+    "id": "new-congressman-faces-sexual-harassment-allegation",
+    "title": "New congressman faces sexual harassment allegation",
+    "link": "https://www.cbsnews.com/news/democrats-investigating-sexual-harassment-allegation-brian-poindexter/",
     "source": "CBS News",
     "topic": "Politics",
-    "summary": "Sen. Chris Van Hollen says he plans to challenge Sen. Chuck Schumer for Senate majority leader. CBS News' Nikole Killion reports.",
-    "published": "2026-11-13T17:47:41+00:00",
+    "summary": "House Democrats are investigating an allegation of sexual harassment against Brian Poindexter, who defeated embattled GOP Rep. Max Miller.",
+    "published": "2026-11-13T22:08:00+00:00",
     "outlets": 1,
-    "score": 0.642
-   },
-   {
-    "id": "hegseth-awards-medal-to-soldier-who-chastised-him",
-    "title": "Hegseth awards medal to soldier who chastised him",
-    "link": "https://www.npr.org/2026/11/13/nx-s1-6039845/hegseth-awards-medal-to-soldier-who-chastised-him",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "Pete Hegseth was yelled at by a sentinel for poor decorum at Arlington National Cemetery. Now the Secretary of Defense has given him a medal.",
-    "published": "2026-11-13T10:27:08+00:00",
-    "outlets": 2,
-    "score": 0.422
-   },
-   {
-    "id": "these-two-voter-turnout-trends-explain-what-happened-across",
-    "title": "These two voter turnout trends explain what happened across the South in the election",
-    "link": "https://www.npr.org/2026/11/13/nx-s1-6038701/midterm-election-voter-turnout-south",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "In six states across the Deep South, a drastic swing to the left this election was driven by high Black voter turnout and compounded by a sharp decline in voting rates across…",
-    "published": "2026-11-13T10:00:00+00:00",
-    "outlets": 1,
-    "score": 0.279
-   },
-   {
-    "id": "these-swing-voters-have-low-expectations-for-divided-governm",
-    "title": "These swing voters have low expectations for divided government",
-    "link": "https://www.npr.org/2026/11/13/nx-s1-6035826/north-carolina-swing-voters-congress-trump",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "Key voters in North Carolina are pessimistic the blue wave flipping control of Congress will solve their economic woes. Many say President Trump will be the chief obstacle.",
-    "published": "2026-11-13T10:00:00+00:00",
-    "outlets": 1,
-    "score": 0.234
-   },
-   {
-    "id": "trump-redirects-vance-from-iran-to-focus-on-combatting-fraud",
-    "title": "Trump redirects Vance from Iran to focus on combatting fraud in Democratic-led states",
-    "link": "https://www.npr.org/2026/11/13/nx-s1-6039160/trump-redirects-vance-from-iran-to-focus-on-combatting-fraud-in-democratic-led-states",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "President Trump now says there is no need for an Iran deal, pushing Vice President Vance to instead focus on battling corruption.",
-    "published": "2026-11-13T09:43:04+00:00",
-    "outlets": 1,
-    "score": 0.199
+    "score": 0.201
    }
   ],
   "Entertainment": [
@@ -357,40 +493,40 @@
     "summary": "The Met Police said the allegations are separate from those reported by ITV and the Guardian earlier this week.",
     "published": "2026-11-13T16:53:50+00:00",
     "outlets": 1,
-    "score": 1.201
+    "score": 1.196
    },
    {
-    "id": "tv-academy-cancels-televerse-for-2027-emmy-season-festival-w",
-    "title": "TV Academy Cancels Televerse for 2027 Emmy Season; Festival Will Return in Early 2028",
-    "link": "https://variety.com/2026/tv/news/tv-academy-cancels-televerse-2027-emmy-season-return-2028-1236947153/",
+    "id": "jason-voorhees-makes-his-animated-debut-in-new-never-hike-al",
+    "title": "Jason Voorhees Makes His Animated Debut in New ‘Never Hike Alone’ Short",
+    "link": "https://variety.com/2026/digital/news/jason-voorhees-animated-debut-hike-alone-short-1236947225/",
     "source": "Variety",
     "topic": "Entertainment",
-    "summary": "Televerse is taking a telebreak. The Television Academy’s TV festival, which launched in 2025 and continued this year, won’t be back in 2027 — and will move to earlier in the year when it…",
-    "published": "2026-11-13T18:15:51+00:00",
+    "summary": "More than 46 years after his big-screen debut in the slasher classic “Friday the 13th,” hulking horror icon Jason Voorhees is about to prove that his machete cuts just as deep in…",
+    "published": "2026-11-13T23:45:40+00:00",
     "outlets": 1,
-    "score": 0.99
+    "score": 0.998
    },
    {
-    "id": "pluribus-promotes-samba-schutte-to-series-regular-for-seaso",
-    "title": "‘Pluribus’ Promotes Samba Schutte to Series Regular for Season 2",
-    "link": "https://variety.com/2026/tv/news/pluribus-season-2-samba-schutte-series-regular-1236947123/",
+    "id": "trump-hasn-t-commented-on-nationwide-flight-shutdown-but-he",
+    "title": "Trump Hasn’t Commented on Nationwide Flight Shutdown, But He’s Promoting the Federal Film Incentive",
+    "link": "https://variety.com/2026/film/news/trump-hasnt-commented-flight-shutdown-promoting-film-incentive-1236947426/",
     "source": "Variety",
     "topic": "Entertainment",
-    "summary": "Samba Schutte has been upped to series regular status for “Pluribus” Season 2, Variety has learned. Schutte is known for playing Mr. Diabaté in Season 1 as a guest star. Like Rhea…",
-    "published": "2026-11-13T18:00:00+00:00",
+    "summary": "As flights across the U.S. ground to a halt Friday amid a rare nationwide ground stop, President Donald Trump was focused on proclaiming his support for a federal film and television tax…",
+    "published": "2026-11-13T23:28:40+00:00",
     "outlets": 1,
-    "score": 0.674
+    "score": 0.678
    },
    {
-    "id": "microsoft-apologizes-for-massive-outlook-outage-affected-cus",
-    "title": "Microsoft Apologizes for Massive Outlook Outage, Affected Customers Can Request Credits for Service Interruption",
-    "link": "https://variety.com/2026/digital/news/microsoft-apologizes-outlook-outage-customer-credits-1236947124/",
+    "id": "seth-rogen-on-the-invite-tangles-the-studio-season-2-revivin",
+    "title": "Seth Rogen on ‘The Invite,’ ‘Tangles,’ ‘The Studio’ Season 2, Reviving ‘Darkwing Duck’ and Why ‘Any A–hole Can Write That Joke’ Was the Best Advice He Ever Got",
+    "link": "https://variety.com/2026/film/awards/seth-rogen-the-invite-tangles-the-studio-season-2-1236946538/",
     "source": "Variety",
     "topic": "Entertainment",
-    "summary": "Microsoft issued an apology Friday for a worldwide outage of its email servers that left millions of Outlook users without access to their mailboxes starting Thursday in some cases for…",
-    "published": "2026-11-13T17:59:03+00:00",
-    "outlets": 2,
-    "score": 0.669
+    "summary": "For years, people have told me that Seth Rogen and I are voice twins. Sitting across from him at the Middleburg Film Festival, deep in Virginia horse country, even Jeremy, the person…",
+    "published": "2026-11-13T23:16:01+00:00",
+    "outlets": 1,
+    "score": 0.512
    },
    {
     "id": "radio-2-s-owain-wyn-evans-raises-almost-4m-on-children-in-ne",
@@ -401,225 +537,111 @@
     "summary": "Owain Wyn Evans cycled almost 400 miles, setting off from Glasgow and finishing in Cardiff.",
     "published": "2026-11-13T14:38:39+00:00",
     "outlets": 1,
-    "score": 0.569
+    "score": 0.436
    },
    {
-    "id": "sunset-p-i-sets-nbc-release-date-jake-johnson-comedy-series",
-    "title": "‘Sunset P.I.’ Sets NBC Release Date, Jake Johnson Comedy Series Drops New First-Look Photos",
-    "link": "https://variety.com/2026/tv/news/sunset-p-i-nbc-release-date-jake-johnson-1236947108/",
+    "id": "jb-smoove-talks-creativity-and-fighting-ai-fears-evan-shapir",
+    "title": "JB Smoove Talks Creativity and Fighting AI Fears, Evan Shapiro Breaks Down the Digital Entertainment Economy at Variety’s Business Managers Breakfast",
+    "link": "https://variety.com/2026/biz/news/business-managers-variety-jb-smoove-shapiro-arnie-herrmann-1236947175/",
     "source": "Variety",
     "topic": "Entertainment",
-    "summary": "NBC has set the premiere date for its new comedy series “Sunset P.I.” The single-camera comedy will debut Monday, Feb. 8 at 8:30 pm ET/PT. Episodes will be available to stream the next day…",
-    "published": "2026-11-13T18:00:00+00:00",
+    "summary": "JB Smoove brought his signature creative swagger and Evan Shapiro broke down the digital entertainment economy during lively conversations held as part of Variety‘s annual Business…",
+    "published": "2026-11-13T22:58:33+00:00",
     "outlets": 1,
-    "score": 0.514
+    "score": 0.408
    }
   ],
-  "U.S.": [
+  "Local": [
    {
-    "id": "spacex-chases-rocket-reusability-with-upcoming-starship-flig",
-    "title": "SpaceX chases rocket reusability with upcoming Starship Flight 15 launch",
-    "link": "https://www.cbsnews.com/video/spacex-chases-rocket-reusability-with-upcoming-starship-flight-5-launch/",
-    "source": "CBS News",
-    "topic": "U.S.",
-    "summary": "SpaceX looks to make history with its upcoming Starship Flight 15 launch. CBS News' Jason Allen explains more.",
-    "published": "2026-11-13T18:15:41+00:00",
+    "id": "democrats-gear-up-to-investigate-the-trump-administration",
+    "title": "Democrats Gear Up to Investigate the Trump Administration",
+    "link": "https://ww2.kqed.org/news/2026/11/13/democrats-gear-up-to-investigate-the-trump-administration/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "Congress has the authority to investigate corruption in the executive branch. Democrats are prepared to use that power.",
+    "published": "2026-11-13T23:45:09+00:00",
     "outlets": 1,
-    "score": 1.187
+    "score": 0.997
    },
    {
-    "id": "manchester-united-names-usmnt-coach-mauricio-pochettino-as-i",
-    "title": "Manchester United names USMNT coach Mauricio Pochettino as its manager",
-    "link": "https://www.npr.org/2026/11/13/nx-s1-6038932/mauricio-pochettino-usmnt-manchester-united",
-    "source": "NPR National",
-    "topic": "U.S.",
-    "summary": "Mauricio Pochettino is out as head coach of the U.S. men's national soccer team. Pochettino led the U.S. to the round of 16 at last year's World Cup. He's departing to coach Manchester…",
-    "published": "2026-11-13T13:32:23+00:00",
+    "id": "psa-don-t-go-anywhere-near-those-huge-waves-this-weekend",
+    "title": "PSA: Don’t Go Anywhere Near Those Huge Waves This Weekend",
+    "link": "https://ww2.kqed.org/news/2026/11/13/bay-area-weather-big-waves-mavericks-surf-san-francisco-coastal-advisory-flooding/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "While it can be tempting to find a vantage point to watch massive swells, experts warn that waves like this can turn deadly.",
+    "published": "2026-11-13T23:30:01+00:00",
     "outlets": 1,
-    "score": 0.781
+    "score": 0.679
    },
    {
-    "id": "how-a-sex-scandal-at-nvidia-is-putting-pressure-on-the-white",
-    "title": "How a sex scandal at Nvidia is putting pressure on the White House",
-    "link": "https://www.bbc.co.uk/news/articles/c67429m3vem3o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC US & Canada",
-    "topic": "U.S.",
-    "summary": "Jensen Huang's personal life may have triggered the crisis, but the questions now reach into the White House itself.",
-    "published": "2026-11-13T12:22:30+00:00",
+    "id": "all-bay-area-flights-grounded-amid-nationwide-faa-outage",
+    "title": "All Bay Area Flights Grounded Amid Nationwide FAA Outage",
+    "link": "https://ww2.kqed.org/news/2026/11/13/all-bay-area-flights-ground-stopped-in-nationwide-faa-outage/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "Several Bay Area airports have confirmed that flights aren’t departing, and the FAA said the ground stop will last through 8 p.m. PST.",
+    "published": "2026-11-13T22:08:48+00:00",
     "outlets": 1,
-    "score": 0.737
+    "score": 0.484
    },
    {
-    "id": "brother-of-cartel-leader-el-mencho-gets-22-5-years-in-prison",
-    "title": "Brother of cartel leader \"El Mencho\" gets 22.5 years in prison",
-    "link": "https://www.cbsnews.com/news/antonio-oseguera-cervantes-el-mencho-brother-22-5-years-sentenced/",
-    "source": "CBS News",
-    "topic": "U.S.",
-    "summary": "The brother of the slain prominent cartel leader known as \"El Mencho\" was sentenced on Friday to 22.5 years in prison.",
-    "published": "2026-11-13T17:54:02+00:00",
+    "id": "family-of-banko-brown-security-company-settle-for-5m-in-wron",
+    "title": "Family of Banko Brown, Security Company Settle for $5M in Wrongful Death Suit",
+    "link": "https://ww2.kqed.org/news/2026/11/13/family-of-banko-brown-security-company-settle-for-5m-in-wrongful-death-suit/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "Although Brown’s family settled with Kingdom Group Protective Services, the suit against Walgreens and Allied Universal continues.",
+    "published": "2026-11-13T22:00:00+00:00",
     "outlets": 1,
-    "score": 0.614
+    "score": 0.389
    },
    {
-    "id": "investigation-into-what-cause-deadly-brooklyn-building-colla",
-    "title": "Investigation into what cause deadly Brooklyn building collapse continues",
-    "link": "https://www.npr.org/2026/11/13/nx-s1-6038959/investigation-into-what-cause-deadly-brooklyn-building-collapse-continues",
-    "source": "NPR National",
-    "topic": "U.S.",
-    "summary": "Investigators are trying to find out what went wrong after an apartment building collapsed into a nearby construction site in Brooklyn, New York, killing at least eight people.",
-    "published": "2026-11-13T11:46:55+00:00",
-    "outlets": 2,
-    "score": 0.517
+    "id": "bay-area-floods-foreshadow-extreme-king-tides-around-thanksg",
+    "title": "Bay Area Floods Foreshadow Extreme King Tides Around Thanksgiving",
+    "link": "https://ww2.kqed.org/news/2026/11/13/bay-area-floods-foreshadow-extreme-king-tides-around-thanksgiving/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "This week's street flooding foreshadows higher, potentially damaging water levels from king tides in late November.",
+    "published": "2026-11-13T21:09:45+00:00",
+    "outlets": 1,
+    "score": 0.313
    },
    {
-    "id": "nvidia-s-interim-ceo-inherits-risky-ai-bets-and-a-legal-mess",
-    "title": "Nvidia's interim CEO inherits risky AI bets and a legal mess",
-    "link": "https://www.npr.org/2026/11/13/nx-s1-6038868/nvidia-interim-ceo-colette-kress-ai-bets-investigation-lutnick",
-    "source": "NPR National",
-    "topic": "U.S.",
-    "summary": "AI expert Gary Marcus breaks down what's at stake for Nvidia and the mess its new CEO has inherited.",
-    "published": "2026-11-13T11:47:00+00:00",
+    "id": "no-angel-how-a-flawed-star-witness-could-make-or-break-shen",
+    "title": "‘No Angel’: How a Flawed Star Witness Could Make or Break Sheng Thao’s Bribery Trial",
+    "link": "https://ww2.kqed.org/news/2026/11/13/no-angel-how-a-flawed-star-witness-could-make-or-break-sheng-thaos-bribery-trial/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "Mario Juarez, the star witness in Sheng Thao’s Oakland corruption trial, has testified for a week about the alleged scheme to bribe the former mayor.",
+    "published": "2026-11-13T20:35:20+00:00",
     "outlets": 1,
-    "score": 0.494
-   }
-  ],
-  "Tech": [
-   {
-    "id": "you-can-adjust-the-position-of-the-trackball-on-keychron-s-n",
-    "title": "You can adjust the position of the trackball on Keychron’s new wireless mouse",
-    "link": "https://www.theverge.com/tech/1033159/keychron-t1-he-trackball-wireless-mouse-adjustable",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "The Nape Pro was Keychron's first trackball device that was introduced at CES 2026 with a slim and compact design allowing it to be positioned right up against a keyboard. The company's…",
-    "published": "2026-11-13T18:10:41+00:00",
-    "outlets": 1,
-    "score": 0.985
-   },
-   {
-    "id": "openai-board-member-worries-an-ai-takeover-of-society-could",
-    "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
-    "link": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "Researcher traces a path from AI reward hacking to potential human extinction.",
-    "published": "2026-11-13T17:25:45+00:00",
-    "outlets": 1,
-    "score": 0.949
-   },
-   {
-    "id": "microsoft-outage-stark-reminder-of-how-much-we-rely-on-tech",
-    "title": "Microsoft outage 'stark reminder' of how much we rely on tech",
-    "link": "https://www.bbc.co.uk/news/articles/cxzd9171m51qo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News",
-    "topic": "Tech",
-    "summary": "Microsoft has apologised for the issue, which it said was due to a technical failure.",
-    "published": "2026-11-13T17:38:19+00:00",
-    "outlets": 1,
-    "score": 0.86
-   },
-   {
-    "id": "jensen-huang-was-reckless-with-the-environment-too",
-    "title": "Jensen Huang was reckless with the environment, too",
-    "link": "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "Under cofounder Jensen Huang, Nvidia has become the engine for the AI boom - and one of the tech industry's biggest environmental liabilities. Its sought-after chips have triggered a new…",
-    "published": "2026-11-13T17:44:22+00:00",
-    "outlets": 1,
-    "score": 0.665
-   },
-   {
-    "id": "windows-0-day-dropped-by-disgruntled-researcher-hands-hacker",
-    "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
-    "link": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "\"SignDrop\" exploit lets local users gain all-powerful System rights.",
-    "published": "2026-11-13T16:26:32+00:00",
-    "outlets": 1,
-    "score": 0.623
-   },
-   {
-    "id": "the-smallest-version-of-camp-snap-s-retro-digital-camcorder",
-    "title": "The smallest version of Camp Snap’s retro digital camcorder fits on your keychain",
-    "link": "https://www.theverge.com/tech/1033026/camp-snap-retro-digital-video-campcorder-cs-8-micro-keychain",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "Last week, Camp Snap launched a miniaturized version of its screen-free CS-8 video camera that was half the size of the original with a smaller grip designed to be easier for kids to hold.…",
-    "published": "2026-11-13T17:40:28+00:00",
-    "outlets": 1,
-    "score": 0.506
-   }
-  ],
-  "World": [
-   {
-    "id": "un-watchdog-increasingly-concerned-over-uninspected-iran-nuc",
-    "title": "UN watchdog 'increasingly concerned' over uninspected Iran nuclear site",
-    "link": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "topic": "World",
-    "summary": "It says it has never been able to visit a uranium enrichment plant at Isfahan which Iran announced over a year ago.",
-    "published": "2026-11-13T17:54:54+00:00",
-    "outlets": 2,
-    "score": 0.983
-   },
-   {
-    "id": "why-is-microsoft-s-outage-lasting-so-long-and-will-emails-be",
-    "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
-    "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "topic": "World",
-    "summary": "Microsoft says it is continuing to restore services including Outlook and Teams following a global outage.",
-    "published": "2026-11-13T17:12:46+00:00",
-    "outlets": 1,
-    "score": 0.939
-   },
-   {
-    "id": "nvidia-ceo-steps-down-and-sen-chris-van-hollen-to-run-for-ma",
-    "title": "Nvidia CEO steps down. And, Sen. Chris Van Hollen to run for majority leader",
-    "link": "https://www.npr.org/2026/11/13/g-s1-153532/up-first-newsletter-nvidia-jensen-huang-colette-kress-ukraine-russia-chris-van-hollen",
-    "source": "NPR World",
-    "topic": "World",
-    "summary": "Nvidia's chief financial officer has been appointed interim CEO after Jensen Huang stepped down from the role. And, Sen. Chris Van Hollen says he will challenge Chuck Schumer for majority…",
-    "published": "2026-11-13T12:07:12+00:00",
-    "outlets": 1,
-    "score": 0.728
-   },
-   {
-    "id": "watch-how-a-server-outage-took-down-microsoft-teams-and-outl",
-    "title": "Watch: How a server outage took down Microsoft Teams and Outlook",
-    "link": "https://www.bbc.co.uk/news/videos/cqzjr903n01po?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "topic": "World",
-    "summary": "A Microsoft outage is affecting services including Teams, Outlook and AI software Copilot.",
-    "published": "2026-11-13T11:43:27+00:00",
-    "outlets": 1,
-    "score": 0.64
-   },
-   {
-    "id": "former-hamas-bodyguard-guilty-of-uk-knife-attack",
-    "title": "Former Hamas bodyguard guilty of UK knife attack",
-    "link": "https://www.bbc.co.uk/news/articles/c51k9709krxvo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News",
-    "topic": "World",
-    "summary": "Mohammed Alfatih was granted asylum in the UK in 2015 and British citizenship in 2020.",
-    "published": "2026-11-13T15:51:24+00:00",
-    "outlets": 1,
-    "score": 0.6
-   },
-   {
-    "id": "rosenberg-uncompromising-putin-ups-demands-for-peace-with-uk",
-    "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
-    "link": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "topic": "World",
-    "summary": "The fact the question of European security now features in discussions is viewed in Moscow as a victory, BBC Russia Editor Steve Rosenberg says.",
-    "published": "2026-11-13T16:40:31+00:00",
-    "outlets": 1,
-    "score": 0.481
+    "score": 0.262
    }
   ],
   "Finance": [
+   {
+    "id": "lutnick-faces-questions-over-nvidia-spy-scandal-his-sons-fir",
+    "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+    "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+    "source": "CNBC Finance",
+    "topic": "Finance",
+    "summary": "Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
+    "published": "2026-11-13T23:42:18+00:00",
+    "outlets": 1,
+    "score": 0.995
+   },
+   {
+    "id": "a-trading-strategy-to-ride-out-the-nvidia-uncertainty-and-ge",
+    "title": "A trading strategy to ride out the Nvidia uncertainty and generate income in the process",
+    "link": "https://www.cnbc.com/2026/11/13/a-trading-strategy-to-ride-out-the-nvidia-uncertainty-and-generate-income-in-the-process.html",
+    "source": "CNBC Investing",
+    "topic": "Finance",
+    "summary": "By deploying a persistent covered call strategy, investors can leverage the exact fear driving the stock down to generate robust, risk-reducing income.",
+    "published": "2026-11-13T19:30:36+00:00",
+    "outlets": 1,
+    "score": 0.807
+   },
    {
     "id": "is-a-bottom-in-for-the-nasdaq-100-charts-to-watch",
     "title": "Is a bottom in for the Nasdaq-100? Charts to watch",
@@ -629,7 +651,18 @@
     "summary": "Frank Cappelleri of CappThesis looks at several charts to help answer that question.",
     "published": "2026-11-13T18:00:01+00:00",
     "outlets": 1,
-    "score": 0.977
+    "score": 0.516
+   },
+   {
+    "id": "what-s-ahead-for-ai-financing-after-nvidia-ceo-jensen-huang",
+    "title": "What's ahead for AI financing after Nvidia CEO Jensen Huang departs",
+    "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-resignation-ai-financing.html",
+    "source": "CNBC Investing",
+    "topic": "Finance",
+    "summary": "Jensen Huang’s resignation puts Nvidia’s AI financing strategy in focus as investors watch credit markets and neocloud exposure.",
+    "published": "2026-11-13T21:19:04+00:00",
+    "outlets": 1,
+    "score": 0.465
    },
    {
     "id": "chicago-fed-s-goolsbee-says-central-bank-has-definitely-got",
@@ -640,18 +673,7 @@
     "summary": "The policymaker expressed concern about the latest inflation data, telling CNBC that the central bank likely will need to take action.",
     "published": "2026-11-13T14:22:07+00:00",
     "outlets": 1,
-    "score": 0.814
-   },
-   {
-    "id": "what-s-ahead-for-ai-financing-after-nvidia-ceo-jensen-huang",
-    "title": "What's ahead for AI financing after Nvidia CEO Jensen Huang departs",
-    "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-resignation-ai-financing.html",
-    "source": "CNBC Investing",
-    "topic": "Finance",
-    "summary": "Jensen Huang’s resignation puts Nvidia’s AI financing strategy in focus as investors watch credit markets and neocloud exposure.",
-    "published": "2026-11-13T15:34:48+00:00",
-    "outlets": 1,
-    "score": 0.597
+    "score": 0.43
    },
    {
     "id": "how-the-jensen-huang-affair-changes-the-outlook-for-u-s-chin",
@@ -662,165 +684,143 @@
     "summary": "The political climate heading into next week's Trump-Xi summit is drastically different from the last meeting in September.",
     "published": "2026-11-13T02:56:35+00:00",
     "outlets": 1,
-    "score": 0.412
-   },
-   {
-    "id": "in-a-policy-switch-the-fed-says-its-october-2027-meeting-wil",
-    "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
-    "link": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html",
-    "source": "CNBC Finance",
-    "topic": "Finance",
-    "summary": "There will be seven voting meetings next year, with the October session set up as extra time for policy deliberation without a formal vote or post-meeting statement.",
-    "published": "2026-11-12T19:05:25+00:00",
-    "outlets": 1,
-    "score": 0.184
-   },
-   {
-    "id": "oil-prices-rise-after-trump-says-no-iran-deal-needed-we-ve-g",
-    "title": "Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'",
-    "link": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html",
-    "source": "CNBC Finance",
-    "topic": "Finance",
-    "summary": "Oil prices were mixed on Thursday, after the latest comments from President Donald Trump raised worries that an end to the U.S.-Iran war was not in sight.",
-    "published": "2026-11-13T00:01:19+00:00",
-    "outlets": 1,
-    "score": 0.169
-   }
-  ],
-  "Local": [
-   {
-    "id": "california-created-the-nation-s-first-statewide-plan-for-bla",
-    "title": "California Created the Nation’s First Statewide Plan for Black Reparations. Where Does That Effort Stand Now?",
-    "link": "https://ww2.kqed.org/news/2026/11/13/california-created-the-nations-first-statewide-plan-for-black-reparations-where-does-that-effort-stand-now/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "California’s reparations plan is a model for other states, but it’s not yet a reality.",
-    "published": "2026-11-13T18:00:00+00:00",
-    "outlets": 1,
-    "score": 0.977
-   },
-   {
-    "id": "california-proposition-roundup-results-so-far",
-    "title": "California Proposition Roundup: Results So Far",
-    "link": "https://ww2.kqed.org/news/2026/11/13/california-proposition-roundup-results-so-far/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "Voters weighed in on 14 state propositions; so far six have passed and six have failed, according to the Associated Press.",
-    "published": "2026-11-13T17:54:21+00:00",
-    "outlets": 1,
-    "score": 0.67
-   },
-   {
-    "id": "blackbird-mountain-guides-ceases-operations-after-tahoe-aval",
-    "title": "Blackbird Mountain Guides Ceases Operations After Tahoe Avalanche",
-    "link": "https://ww2.kqed.org/news/2026/11/13/blackbird-mountain-guides-ceases-operations-after-tahoe-avalanche/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "The company, which was hit with an investigation and fines after a deadly avalanche incident, posted on its website that it will no longer be in operation.",
-    "published": "2026-11-13T17:00:00+00:00",
-    "outlets": 1,
-    "score": 0.489
-   },
-   {
-    "id": "they-killed-people-with-their-big-rigs-and-california-let-th",
-    "title": "They Killed People With Their Big Rigs, and California Let Them Keep Driving",
-    "link": "https://ww2.kqed.org/news/2026/11/13/they-killed-people-with-their-big-rigs-and-california-let-them-keep-driving/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "A new investigation finds the DMV kept deadly commercial drivers on the road.",
-    "published": "2026-11-13T15:35:17+00:00",
-    "outlets": 1,
-    "score": 0.368
-   },
-   {
-    "id": "survivor-bay-area-bart-gets-a-sales-tax-but-still-forecasts",
-    "title": "Survivor: Bay Area. BART Gets a Sales Tax, but Still Forecasts a Budget Deficit",
-    "link": "https://ww2.kqed.org/news/2026/11/13/survivor-bay-area-bart-gets-a-sales-tax-but-still-forecasts-a-budget-deficit/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "The agency has a rosier budget outlook fueled by improved ridership and certain investment returns, but long-term challenges remain.",
-    "published": "2026-11-13T15:00:00+00:00",
-    "outlets": 1,
-    "score": 0.3
-   },
-   {
-    "id": "no-angel-how-a-flawed-star-witness-could-make-or-break-shen",
-    "title": "‘No Angel’: How a Flawed Star Witness Could Make or Break Sheng Thao’s Bribery Trial",
-    "link": "https://ww2.kqed.org/news/2026/11/13/no-angel-how-a-flawed-star-witness-could-make-or-break-sheng-thaos-bribery-trial/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "Mario Juarez, the star witness in Sheng Thao’s Oakland corruption trial, has testified for a week about the alleged scheme to bribe the former mayor.",
-    "published": "2026-11-13T12:00:00+00:00",
-    "outlets": 1,
-    "score": 0.223
+    "score": 0.185
    }
   ],
   "Sports": [
    {
-    "id": "college-basketball-rankings-will-byu-end-up-as-the-last-unde",
-    "title": "College basketball rankings: Will BYU end up as the last undefeated team standing?",
-    "link": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-byu-undefeated/",
+    "id": "ohio-state-vs-uconn-prediction-odds-2026-college-basketball",
+    "title": "Ohio State vs. UConn prediction, odds: 2026 college basketball picks for Nov. 13 by proven model",
+    "link": "https://www.cbssports.com/betting/news/ohio-state-uconn-prediction-odds-time-2026-college-basketball-picks-bets-for-november-13/",
     "source": "CBS Sports",
     "topic": "Sports",
-    "summary": "The 4-0 Cougars' schedule provides a long runway of potential wins before things tighten up in January",
-    "published": "2026-11-13T17:50:33+00:00",
+    "summary": "SportsLine model reveals its Ohio State Buckeyes vs. UConn Huskies college basketball best bets as they play on Friday",
+    "published": "2026-11-13T23:13:24+00:00",
     "outlets": 1,
-    "score": 0.969
+    "score": 0.971
    },
    {
-    "id": "tearful-pochettino-on-difficult-decision-to-leave-usa-for-ma",
-    "title": "Tearful Pochettino on 'difficult' decision to leave USA for Man Utd",
-    "link": "https://www.bbc.co.uk/sport/football/articles/cmd61qne8352o?at_medium=RSS&at_campaign=rss",
+    "id": "fitness-obsessed-control-freak-what-can-man-utd-expect-from",
+    "title": "Fitness obsessed & 'control freak' - what can Man Utd expect from Pochettino?",
+    "link": "https://www.bbc.co.uk/sport/football/articles/c85y13pv69xwo?at_medium=RSS&at_campaign=rss",
     "source": "BBC Sport",
     "topic": "Sports",
-    "summary": "An emotional Mauricio Pochettino broke down as he explained why he was leaving the USA to take the Manchester United job.",
-    "published": "2026-11-13T15:28:06+00:00",
+    "summary": "What can Manchester United fans expect from their new manager Mauricio Pochettino? BBC Sport gets an insight from Toby Alderweireld, who played under him at Spurs.",
+    "published": "2026-11-13T22:53:17+00:00",
     "outlets": 1,
-    "score": 0.86
+    "score": 0.955
    },
    {
-    "id": "mauricio-pochettino-s-usmnt-farewell-was-inevitable-but-it-h",
-    "title": "Mauricio Pochettino's USMNT farewell was inevitable but it hurts all the same: 'A big thank you from my heart'",
-    "link": "https://www.cbssports.com/soccer/news/mauricio-pochettinos-usmnt-farewell-inevitable-hurts/",
+    "id": "illinois-vs-no-4-ucla-college-football-picks-odds-rainy-weat",
+    "title": "Illinois vs. No. 4 UCLA college football picks, odds: Rainy weather could help Illini grab upset",
+    "link": "https://www.cbssports.com/betting/news/illinois-vs-no-4-ucla-cfb-picks-odds-rainy-weather-could-help-illini-grab-upset/",
     "source": "CBS Sports",
     "topic": "Sports",
-    "summary": "Pochettino will leave the U.S. team after two years in the job for Manchester United, the two-legged Concacaf Nations League quarterfinals against Haiti serving as his final matches",
-    "published": "2026-11-13T17:48:09+00:00",
+    "summary": "Weather will factor in Friday as Illinois looks to upset No. 4 UCLA at the Rose Bowl",
+    "published": "2026-11-13T23:09:37+00:00",
     "outlets": 1,
-    "score": 0.667
+    "score": 0.668
    },
    {
-    "id": "nc-state-hires-philip-rivers-how-other-ex-nfl-stars-have-far",
-    "title": "NC State hires Philip Rivers: How other ex-NFL stars have fared as college football head coaches?",
-    "link": "https://www.cbssports.com/college-football/news/ex-nfl-stars-college-football-head-coaches/",
+    "id": "france-hold-nerve-to-edge-past-south-africa-in-thriller",
+    "title": "France hold nerve to edge past South Africa in thriller",
+    "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cqm2j810r2m2o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "topic": "Sports",
+    "summary": "France hold on to end their five-match losing run against South Africa at Stade de France with an enthralling 21-19 victory in Paris.",
+    "published": "2026-11-13T23:03:36+00:00",
+    "outlets": 1,
+    "score": 0.664
+   },
+   {
+    "id": "nba-player-props-odds-picks-james-harden-shai-gilgeous-alexa",
+    "title": "NBA player props, odds, picks: James Harden, Shai Gilgeous-Alexander featured in Friday's best bets",
+    "link": "https://www.cbssports.com/betting/news/nba-player-props-odds-picks-james-harden-shai-gilgeous-alexander-featured-in-fridays-best-bets/",
     "source": "CBS Sports",
     "topic": "Sports",
-    "summary": "With Philip Rivers set to take over his alma mater at NC State, here's a look at how other former NFL standouts have fared leading collegiate programs",
-    "published": "2026-11-13T17:46:16+00:00",
+    "summary": "We look at the best player prop bets for Friday's NBA games with insights from the SportsLine model",
+    "published": "2026-11-13T23:06:41+00:00",
     "outlets": 1,
     "score": 0.508
    },
    {
-    "id": "how-ferguson-inspired-pochettino-can-succeed-where-carrick-f",
-    "title": "How Ferguson-inspired Pochettino can succeed where Carrick failed at Man Utd",
-    "link": "https://www.bbc.co.uk/sport/football/articles/cm2kljzkw77ko?at_medium=RSS&at_campaign=rss",
+    "id": "goalkeeper-involved-in-fatal-collision-gets-12-game-ban",
+    "title": "Goalkeeper involved in fatal collision gets 12-game ban",
+    "link": "https://www.bbc.co.uk/sport/football/articles/cm98xy2j8k1ko?at_medium=RSS&at_campaign=rss",
     "source": "BBC Sport",
     "topic": "Sports",
-    "summary": "With Mauricio Pochettino set to become Man Utd manager, we analyse if he can clear the tactical hurdles others haven't.",
-    "published": "2026-11-13T12:09:48+00:00",
+    "summary": "Jesus Owono is given a 12-match suspension by the Spanish football federation's disciplinary committee after his challenge which resulted in the death of Jesus de Miguel.",
+    "published": "2026-11-13T22:37:30+00:00",
     "outlets": 1,
-    "score": 0.503
+    "score": 0.496
+   }
+  ],
+  "World": [
+   {
+    "id": "microsoft-deeply-sorry-for-global-outage-after-almost-24-hou",
+    "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+    "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "summary": "Experts say the event is a \"stark reminder\" of how heavily the world relies on a small group of big tech providers.",
+    "published": "2026-11-13T21:14:22+00:00",
+    "outlets": 1,
+    "score": 0.879
    },
    {
-    "id": "eight-sentenced-to-jail-over-nurmagomedov-dvalishvili-brawl",
-    "title": "Eight sentenced to jail over Nurmagomedov-Dvalishvili brawl",
-    "link": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cm3wgpl28yzgo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Sport",
-    "topic": "Sports",
-    "summary": "Eight people face prison sentences for their part in mass brawl involving MMA fighters Usman Nurmagomedov and Merab Dvalishvili at a hotel in Abu Dhabi on Wednesday.",
-    "published": "2026-11-13T17:15:52+00:00",
+    "id": "what-s-trump-s-strategy-now-with-iran-to-keep-things-as-they",
+    "title": "What's Trump's strategy now with Iran? To keep things as they are",
+    "link": "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are",
+    "source": "NPR World",
+    "topic": "World",
+    "summary": "President Trump says the \"status quo\" is what Gulf Arab allies want as the Iran war hits a stalemate and the U.S. midterms force a pivot from threats of attacks to economic pressure.",
+    "published": "2026-11-13T19:02:04+00:00",
     "outlets": 1,
-    "score": 0.495
+    "score": 0.788
+   },
+   {
+    "id": "why-is-microsoft-s-outage-lasting-so-long-and-will-emails-be",
+    "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
+    "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "summary": "Microsoft says it is continuing to restore services including Outlook and Teams following a global outage.",
+    "published": "2026-11-13T18:36:57+00:00",
+    "outlets": 1,
+    "score": 0.532
+   },
+   {
+    "id": "nvidia-ceo-steps-down-and-sen-chris-van-hollen-to-run-for-ma",
+    "title": "Nvidia CEO steps down. And, Sen. Chris Van Hollen to run for majority leader",
+    "link": "https://www.npr.org/2026/11/13/g-s1-153532/up-first-newsletter-nvidia-jensen-huang-colette-kress-ukraine-russia-chris-van-hollen",
+    "source": "NPR World",
+    "topic": "World",
+    "summary": "Nvidia's chief financial officer has been appointed interim CEO after Jensen Huang stepped down from the role. And, Sen. Chris Van Hollen says he will challenge Chuck Schumer for majority…",
+    "published": "2026-11-13T12:07:12+00:00",
+    "outlets": 1,
+    "score": 0.384
+   },
+   {
+    "id": "rosenberg-uncompromising-putin-ups-demands-for-peace-with-uk",
+    "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+    "link": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "summary": "The fact the question of European security now features in discussions is viewed in Moscow as a victory, BBC Russia Editor Steve Rosenberg says.",
+    "published": "2026-11-13T16:40:31+00:00",
+    "outlets": 1,
+    "score": 0.325
+   },
+   {
+    "id": "nvidia-s-interim-ceo-inherits-risky-ai-bets-and-a-legal-mess",
+    "title": "Nvidia's interim CEO inherits risky AI bets and a legal mess",
+    "link": "https://www.npr.org/2026/11/13/nx-s1-6038868/nvidia-interim-ceo-colette-kress-ai-bets-investigation-lutnick",
+    "source": "NPR World",
+    "topic": "World",
+    "summary": "AI expert Gary Marcus breaks down what's at stake for Nvidia and the mess its new CEO has inherited.",
+    "published": "2026-11-13T11:47:00+00:00",
+    "outlets": 1,
+    "score": 0.288
    }
   ],
   "Economy": [
@@ -833,7 +833,29 @@
     "summary": "Europe bet big on American defense technology and they're now paying the price. Years-long backlogs are underway due to production delays and the U.S. own military needs.",
     "published": "2026-11-13T16:17:43+00:00",
     "outlets": 1,
-    "score": 0.897
+    "score": 0.687
+   },
+   {
+    "id": "pressure-grows-on-trump-s-commerce-secretary-lutnick-in-fall",
+    "title": "Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal",
+    "link": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "Scott Bessent told CNBC that several government agencies \"were in favour of putting Megaspeed on the entity list for months\".",
+    "published": "2026-11-13T19:53:57+00:00",
+    "outlets": 1,
+    "score": 0.35
+   },
+   {
+    "id": "how-a-sex-scandal-at-nvidia-is-putting-pressure-on-the-white",
+    "title": "How a sex scandal at Nvidia is putting pressure on the White House",
+    "link": "https://www.bbc.co.uk/news/articles/c67429m3vem3o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "Jensen Huang's personal life may have triggered the crisis, but the questions now reach into the White House itself.",
+    "published": "2026-11-13T12:22:30+00:00",
+    "outlets": 1,
+    "score": 0.297
    },
    {
     "id": "punch-in-the-gut-homes-sales-fall-to-their-lowest-in-16-yea",
@@ -855,18 +877,7 @@
     "summary": "Knowing how much heat your home loses is important before installing a new heating system.",
     "published": "2026-11-13T09:29:25+00:00",
     "outlets": 1,
-    "score": 0.228
-   },
-   {
-    "id": "why-is-gasoline-suddenly-under-4-a-gallon",
-    "title": "Why is gasoline suddenly under $4 a gallon?",
-    "link": "https://www.npr.org/2026/11/11/nx-s1-6037588/gasoline-price-below-4-dollars-gallon",
-    "source": "NPR Economy",
-    "topic": "Economy",
-    "summary": "The average price of a gallon of gasoline dipped below $4 this week for the first time in months. Does that mean more relief is coming for drivers?",
-    "published": "2026-11-11T19:59:14+00:00",
-    "outlets": 1,
-    "score": 0.184
+    "score": 0.15
    },
    {
     "id": "the-rise-of-housefishing-when-does-using-ai-go-from-enhancin",
@@ -877,18 +888,7 @@
     "summary": "Experts warn that using AI to enhance property images can go too far and mislead prospective buyers.",
     "published": "2026-11-13T00:13:35+00:00",
     "outlets": 1,
-    "score": 0.171
-   },
-   {
-    "id": "burnham-says-win-win-deal-can-be-agreed-between-uk-and-eu",
-    "title": "Burnham says 'win-win' deal can be agreed between UK and EU",
-    "link": "https://www.bbc.co.uk/news/articles/cm2l5n07l87vo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "The prime minister says the deal could be \"more like the Brexit people thought they were voting for\" in 2016.",
-    "published": "2026-11-13T01:17:58+00:00",
-    "outlets": 1,
-    "score": 0.115
+    "score": 0.125
    }
   ],
   "Health": [
@@ -898,10 +898,10 @@
     "link": "https://www.npr.org/2026/11/13/g-s1-153350/senator-chris-van-hollen-global-health-development-aid",
     "source": "NPR Health",
     "topic": "Health",
-    "summary": "The Maryland Democrat, who's the ranking member of the Senate Foreign Relations Subcommittee, just announced he's going to run for Majority Leader. He spoke to NPR about his foreign aid…",
+    "summary": "He's the ranking member of the Senate Foreign Relations Subcommittee that oversees health aid and he's just announced he's running for Majority Leader. He spoke to NPR about his foreign…",
     "published": "2026-11-13T15:46:35+00:00",
     "outlets": 1,
-    "score": 0.874
+    "score": 0.669
    },
    {
     "id": "happy-world-kindness-day-check-out-our-kind-photos-of-kindne",
@@ -912,18 +912,7 @@
     "summary": "Friday, November 13 is World Kindness Day. Your mission: Do something kind. Small acts of kindness definitely count!",
     "published": "2026-11-13T12:06:28+00:00",
     "outlets": 1,
-    "score": 0.502
-   },
-   {
-    "id": "as-americans-drown-in-medical-debt-how-one-family-found-a-li",
-    "title": "As Americans drown in medical debt, how one family found a lifeline",
-    "link": "https://www.cbsnews.com/news/medical-debt-credit-card-repayment-plan/",
-    "source": "CBS News",
-    "topic": "Health",
-    "summary": "Coy and Caty Smith are gainfully employed and have health insurance. But when illness struck, the bills piled up fast — here's how they found their way back to financial health.",
-    "published": "2026-11-13T17:28:56+00:00",
-    "outlets": 1,
-    "score": 0.408
+    "score": 0.384
    },
    {
     "id": "kratom-and-7-oh-can-feel-like-a-miracle-they-can-also-be-add",
@@ -934,7 +923,7 @@
     "summary": "In the last decade, strong support for kratom and 7-OH products have kept them federally legal. That's started to change. A crackdown for some highly potent products related to kratom is…",
     "published": "2026-11-13T11:00:00+00:00",
     "outlets": 1,
-    "score": 0.362
+    "score": 0.277
    },
    {
     "id": "fed-up-with-the-healthcare-industry-this-red-state-capped-in",
@@ -945,7 +934,7 @@
     "summary": "Republicans and Democrats in North Dakota worked together to limit what people with diabetes have to pay for insulin, joining a growing bipartisan push across the country to protect…",
     "published": "2026-11-13T10:00:00+00:00",
     "outlets": 1,
-    "score": 0.279
+    "score": 0.213
    }
   ],
   "Science": [
@@ -958,7 +947,7 @@
     "summary": "As it races to develop its new massive rocket, the space launch company is preparing to retire NASA's main ride to the International Space Station.",
     "published": "2026-11-13T10:00:00+00:00",
     "outlets": 1,
-    "score": 0.655
+    "score": 0.501
    },
    {
     "id": "this-week-in-science-ptsd-prediction-phishing-while-tired-an",
@@ -969,7 +958,7 @@
     "summary": "The regular news roundup with NPR's science podcast Short Wave covers a possible use for AI in emergency rooms, a distant planet and the link between cybersecurity and Daylight Saving Time.",
     "published": "2026-11-12T22:24:11+00:00",
     "outlets": 1,
-    "score": 0.253
+    "score": 0.241
    }
   ]
  }
