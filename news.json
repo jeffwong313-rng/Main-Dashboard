@@ -1,105 +1,259 @@
 {
- "generated": "2026-11-15T21:38:34+00:00",
- "generatedLocal": "2026-11-15 13:38",
+ "generated": "2026-11-16T09:25:16+00:00",
+ "generatedLocal": "2026-11-16 01:25",
  "top": [
   {
-   "id": "staggered-age-of-consent-to-be-discussed-after-brand-case-mi",
-   "title": "Staggered age of consent to be discussed after Brand case, minister says",
-   "link": "https://www.bbc.co.uk/news/articles/cwdr1dmn563do?at_medium=RSS&at_campaign=rss",
-   "source": "BBC News",
-   "topic": "World",
-   "summary": "A woman who alleges she was raped by the jailed comedian when she was 16 is campaigning to see relationships between 16-and 17-year-olds and adults made illegal.",
-   "published": "2026-11-15T17:15:46+00:00",
-   "outlets": 1,
-   "score": 1.358
-  },
-  {
-   "id": "transcript-sen-bill-cassidy-on-face-the-nation-with-margaret",
-   "title": "Transcript: Sen. Bill Cassidy on \"Face the Nation with Margaret Brennan,\" Nov. 15, 2026",
-   "link": "https://www.cbsnews.com/news/bill-cassidy-louisiana-republican-face-the-nation-transcript-11-15-2026/",
+   "id": "airline-schedules-returning-to-normal-after-ground-stop-faa",
+   "title": "Airline schedules returning to normal after ground stop, FAA says",
+   "link": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/",
    "source": "CBS News",
    "topic": "U.S.",
-   "summary": "The following is the transcript of the interview with Sen. Bill Cassidy, Republican of Louisiana, that aired on \"Face the Nation with Margaret Brennan\" on Nov. 15, 2026.",
-   "published": "2026-11-15T20:07:02+00:00",
+   "summary": "Officials attributed the ground stop to aging system infrastructure and legacy technology.",
+   "published": "2026-11-16T09:05:40+00:00",
    "outlets": 1,
-   "score": 1.112
+   "score": 1.181
   },
   {
-   "id": "new-orleans-port-sues-owners-of-tanker-involved-in-mississip",
-   "title": "New Orleans port sues owners of tanker involved in Mississippi crash",
-   "link": "https://www.npr.org/2026/11/15/nx-s1-6041677/new-orleans-port-sues-miracle-mississippi-cruise-ship",
-   "source": "NPR National",
-   "topic": "U.S.",
-   "summary": "Officials are seeking at least $1 million in damages from the owners of the tanker that hit a cruise ship last week. The incident was dubbed \"the miracle on the Mississippi\" after no one…",
-   "published": "2026-11-15T17:45:27+00:00",
-   "outlets": 1,
-   "score": 1.07
-  },
-  {
-   "id": "sunday-night-football-prediction-odds-time-bengals-vs-steel",
-   "title": "'Sunday Night Football' prediction, odds, time: Bengals vs. Steelers picks from expert who's on a 34-18 roll",
-   "link": "https://www.cbssports.com/betting/news/sunday-night-football-prediction-odds-time-spread-bengals-steelers-picks-best-bets/",
-   "source": "CBS Sports",
-   "topic": "Sports",
-   "summary": "R.J. White reveals his picks for Cincinnati Bengals vs. Pittsburgh Steelers in the 2026 Week 10 'Sunday Night Football' matchup",
-   "published": "2026-11-15T21:19:55+00:00",
-   "outlets": 1,
-   "score": 0.985
-  },
-  {
-   "id": "vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
-   "title": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
-   "link": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
-   "source": "The Verge",
-   "topic": "Tech",
-   "summary": "United Launch Alliance (ULA) suffered what is reportedly its first mission failure in its 20-year history, failing to deliver 40 Amazon Leo satellites to orbit. Leo is Amazon's competitor…",
-   "published": "2026-11-15T21:05:02+00:00",
-   "outlets": 1,
-   "score": 0.972
-  },
-  {
-   "id": "sources-lions-de-hutchinson-feared-to-have-suffered-signific",
-   "title": "Sources: Lions DE Hutchinson feared to have suffered significant knee injury",
-   "link": "https://www.espn.com/nfl/story/_/id/50491838/sources-lions-hutchinson-feared-significant-knee-injury",
-   "source": "ESPN",
-   "topic": "Sports",
-   "summary": "Lions star Aidan Hutchinson is feared to have suffered a significant injury to his right knee while celebrating a sack, sources told NFL Network.",
-   "published": "2026-11-15T21:04:54+00:00",
-   "outlets": 1,
-   "score": 0.972
-  },
-  {
-   "id": "russell-brand-compares-rape-trial-coverage-to-a-football-mat",
-   "title": "Russell Brand Compares Rape Trial Coverage to a ‘Football Match’ in Pre-Recorded Video as His Wife Says He’s ‘Okay’ and ‘Praying’ Post-Sentencing",
-   "link": "https://variety.com/2026/tv/news/russell-brand-rape-trial-sentencing-1236948233/",
+   "id": "afm-closes-with-rain-flight-chaos-an-inundation-of-horror-bu",
+   "title": "AFM Closes With Rain, Flight Chaos, an ‘Inundation of Horror’ But a ‘Sense of Optimism’ For Bold Creative Choices",
+   "link": "https://variety.com/2026/film/global/afm-closes-rain-flight-chaos-inundation-of-horror-1236947882/",
    "source": "Variety",
    "topic": "Entertainment",
-   "summary": "Russell Brand’s wife, Laura Gallacher, has spoken about the actor’s 10-year and six-month prison sentence after being convicted of rape and sexual assault following his London criminal…",
-   "published": "2026-11-15T20:54:02+00:00",
+   "summary": "It was perhaps apt that, just as the rain lashed down on Los Angeles on Friday, the final day of the American Film Market, the biggest deal announced from the event happened to be for a…",
+   "published": "2026-11-16T09:22:33+00:00",
    "outlets": 1,
-   "score": 0.964
+   "score": 0.998
   },
   {
-   "id": "these-part-time-professors-make-big-money-teaching-dozens-of",
-   "title": "These Part-Time Professors Make Big Money Teaching Dozens of Classes Online. Are Their Students Learning?",
-   "link": "https://ww2.kqed.org/news/2026/11/15/these-part-time-professors-make-big-money-teaching-dozens-of-classes-online-are-their-students-learning/",
+   "id": "yemeni-forces-retreat-leaves-houthis-in-control-of-key-area",
+   "title": "Yemeni forces' retreat leaves Houthis in control of key area on coast of Red Sea waterway",
+   "link": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "topic": "World",
+   "summary": "Saudi-backed forces say they are moving troops from the Bab al-Mandab Strait to defend the interim capital Aden.",
+   "published": "2026-11-16T07:23:23+00:00",
+   "outlets": 1,
+   "score": 0.903
+  },
+  {
+   "id": "flight-disruptions-expected-to-last-into-monday",
+   "title": "Flight disruptions expected to last into Monday",
+   "link": "https://www.npr.org/2026/11/15/nx-s1-6041683/flight-disruptions-expected-to-last-into-monday",
+   "source": "NPR National",
+   "topic": "U.S.",
+   "summary": "Congress recently gave the Department of Transportation $12.5 billion to upgrade the aging air traffic control system. President Trump wants more.",
+   "published": "2026-11-16T01:19:28+00:00",
+   "outlets": 1,
+   "score": 0.867
+  },
+  {
+   "id": "uk-lost-more-than-it-gained-from-brexit-burnham-to-say-ahead",
+   "title": "UK lost more than it gained from Brexit, Burnham to say ahead of EU summit",
+   "link": "https://www.bbc.co.uk/news/articles/crp3e1n5kezpo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC News",
+   "topic": "World",
+   "summary": "The prime minister will say the \"Brexit we were given has not worked\" in a speech on Monday.",
+   "published": "2026-11-16T08:15:07+00:00",
+   "outlets": 1,
+   "score": 0.846
+  },
+  {
+   "id": "bahrain-says-it-intercepted-iranian-strikes-tehran-targets-u",
+   "title": "Bahrain says it intercepted Iranian strikes, Tehran targets U.S. assets",
+   "link": "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/",
+   "source": "CBS News",
+   "topic": "U.S.",
+   "summary": "The attacks come after the U.S. carried out minor strikes on Iran's Qeshm island in recent weeks.",
+   "published": "2026-11-16T09:00:31+00:00",
+   "outlets": 1,
+   "score": 0.811
+  },
+  {
+   "id": "2027-wnba-mock-draft-juju-watkins-hannah-hidalgo-go-1-2-to-t",
+   "title": "2027 WNBA Mock Draft: JuJu Watkins, Hannah Hidalgo go 1-2 to Tempo and Comets",
+   "link": "https://www.cbssports.com/wnba/news/2027-wnba-mock-draft-juju-watkins-hannah-hidalgo-tempo-comets/",
+   "source": "CBS Sports",
+   "topic": "Sports",
+   "summary": "The 2027 WNBA Draft order is set after Sunday's lottery, and here's how we're projecting the first 15 picks",
+   "published": "2026-11-16T04:53:48+00:00",
+   "outlets": 1,
+   "score": 0.798
+  },
+  {
+   "id": "china-s-slowdown-deepens-in-october-as-industrial-output-ret",
+   "title": "China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
+   "link": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html",
+   "source": "CNBC Finance",
+   "topic": "Finance",
+   "summary": "A deepening reliance on external demand leaves China more exposed to shocks abroad as domestic momentum fades, analysts say.",
+   "published": "2026-11-16T03:53:59+00:00",
+   "outlets": 1,
+   "score": 0.759
+  },
+  {
+   "id": "cut-national-insurance-for-under-25s-to-create-jobs-milburn",
+   "title": "Cut National Insurance for under-25s to create jobs, Milburn report to say",
+   "link": "https://www.bbc.co.uk/news/articles/c6p9dzmj514ko?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Business",
+   "topic": "Economy",
+   "summary": "The report being launched this week will suggest gradually reducing employment costs over five years.",
+   "published": "2026-11-15T22:30:03+00:00",
+   "outlets": 1,
+   "score": 0.753
+  },
+  {
+   "id": "apple-s-new-study-looks-to-improve-the-effectiveness-of-ai-h",
+   "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+   "link": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+   "source": "The Verge",
+   "topic": "Tech",
+   "summary": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is…",
+   "published": "2026-11-16T01:47:16+00:00",
+   "outlets": 1,
+   "score": 0.683
+  },
+  {
+   "id": "brand-moved-from-wandsworth-to-category-c-prison-his-wife-co",
+   "title": "Brand moved from Wandsworth to category C prison, his wife confirms on podcast",
+   "link": "https://www.bbc.co.uk/news/articles/cm7024p1ded3o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Entertainment",
+   "topic": "Entertainment",
+   "summary": "The convicted rapist has been moved to HMP Littlehey, which houses sex offenders.",
+   "published": "2026-11-16T01:22:50+00:00",
+   "outlets": 1,
+   "score": 0.669
+  },
+  {
+   "id": "johnny-depp-s-ebenezer-ramayana-dominate-global-box-office-a",
+   "title": "Johnny Depp’s ‘Ebenezer,’ ‘Ramayana’ Dominate Global Box Office as ‘Godzilla Minus Zero’ Crosses $100 Million",
+   "link": "https://variety.com/2026/film/box-office/johnny-depp-ebenezer-ramayana-godzilla-minus-zero-global-box-office-1236948618/",
+   "source": "Variety",
+   "topic": "Entertainment",
+   "summary": "Johnny Depp’s return in Paramount’s “Ebenezer” won the global box office this weekend, edging out Indian powerhouse “Ramayana: Rise of a Legend” to claim the worldwide crown, while Toho’s…",
+   "published": "2026-11-16T08:22:20+00:00",
+   "outlets": 1,
+   "score": 0.654
+  },
+  {
+   "id": "tourette-s-film-i-swear-wins-three-scottish-baftas",
+   "title": "Tourette's film I Swear wins three Scottish Baftas",
+   "link": "https://www.bbc.co.uk/news/articles/crgqx11wkzy8o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Entertainment",
+   "topic": "Entertainment",
+   "summary": "The film about Tourette's Syndrome campaigner John Davidson won Best Film, Best Director and Best Actor.",
+   "published": "2026-11-16T07:40:48+00:00",
+   "outlets": 1,
+   "score": 0.632
+  },
+  {
+   "id": "democrats-are-coming-into-power-youth-want-them-to-use-it-fo",
+   "title": "Democrats Are Coming Into Power. Youth Want Them to Use It for Change",
+   "link": "https://ww2.kqed.org/news/2026/11/15/democrats-are-coming-into-power-youth-want-them-to-use-it-for-change/",
    "source": "KQED",
    "topic": "Local",
-   "summary": "There are no rules governing how many classes community college professors can teach. Some are cashing in.",
-   "published": "2026-11-15T20:30:00+00:00",
+   "summary": "At least two Bay Area young people were arrested as part of a sit-in at a federal lawmaker’s office, calling for a shake up in leadership and the fulfillment of election promises.",
+   "published": "2026-11-16T00:02:31+00:00",
    "outlets": 1,
-   "score": 0.944
+   "score": 0.626
   },
   {
-   "id": "jets-qb-smith-suffers-ankle-injury-replaced-by-rookie-klubni",
-   "title": "Jets QB Smith suffers ankle injury, replaced by rookie Klubnik",
-   "link": "https://www.espn.com/nfl/story/_/id/50493391/jets-qb-geno-smith-suffers-ankle-injury-bills",
-   "source": "ESPN",
+   "id": "60-minutes-of-perfection-30-minutes-of-chaos-an-england-win",
+   "title": "60 minutes of perfection, 30 minutes of chaos - an England win for the ages",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c933ge310n33o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
    "topic": "Sports",
-   "summary": "Jets quarterback Geno Smith suffered an ankle injury in the third quarter and was replaced by rookie Cade Klubnik on Sunday at MetLife Stadium.",
-   "published": "2026-11-15T21:04:54+00:00",
-   "outlets": 2,
-   "score": 0.921
+   "summary": "England's stunning win in Spain had everything - and was their best under Thomas Tuchel, writes Phil McNulty.",
+   "published": "2026-11-15T23:52:43+00:00",
+   "outlets": 1,
+   "score": 0.621
+  },
+  {
+   "id": "iran-rules-out-inspections-of-damaged-nuclear-sites-until-wa",
+   "title": "Iran rules out inspections of damaged nuclear sites until war ends",
+   "link": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-oil-strait-of-hormuz/",
+   "source": "CBS News",
+   "topic": "U.S.",
+   "summary": "The remarks came days after an international nuclear watchdog urged Tehran to take steps toward resuming inspections.",
+   "published": "2026-11-16T08:49:32+00:00",
+   "outlets": 1,
+   "score": 0.613
+  },
+  {
+   "id": "vulcan-rocket-fails-during-launch-dealing-major-blow-to-spac",
+   "title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
+   "link": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
+   "source": "Ars Technica",
+   "topic": "Tech",
+   "summary": "This was the first total mission failure in United Launch Alliance's 20-year history.",
+   "published": "2026-11-15T23:11:54+00:00",
+   "outlets": 1,
+   "score": 0.6
+  },
+  {
+   "id": "far-from-home-voyager-1-is-now-farther-than-anything-man-has",
+   "title": "Far from home. Voyager 1 is now farther than anything man has sent into space",
+   "link": "https://www.npr.org/2026/11/15/nx-s1-6041716/a-long-long-ways-from-home-voyager-1-is-now-farther-than-anything-man-has-sent-into-space",
+   "source": "NPR Science",
+   "topic": "Science",
+   "summary": "NASA's Voyager 1, which is the furthest man-made object from Earth, is set to reach a new milestone this week. On Wednesday, the probe will be roughly 16 billion miles from Earth.",
+   "published": "2026-11-15T22:41:22+00:00",
+   "outlets": 1,
+   "score": 0.585
+  },
+  {
+   "id": "i-d-throw-up-in-the-car-park-how-school-anxiety-is-harming",
+   "title": "'I'd throw up in the car park': How school anxiety is harming children's futures",
+   "link": "https://www.bbc.co.uk/news/articles/cm62pl6lglvwo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC News",
+   "topic": "World",
+   "summary": "As a landmark report is published, the BBC speaks to school avoiders and those trying to fix the issue.",
+   "published": "2026-11-16T06:01:33+00:00",
+   "outlets": 1,
+   "score": 0.577
+  },
+  {
+   "id": "what-to-expect-from-trump-and-xi-s-upcoming-meeting-in-china",
+   "title": "What to expect from Trump and Xi's upcoming meeting in China",
+   "link": "https://www.npr.org/2026/11/15/nx-s1-6038814/what-to-expect-from-trump-and-xis-upcoming-meeting-in-china",
+   "source": "NPR World",
+   "topic": "World",
+   "summary": "Preview of what to expect as President Trump meets with Chinese leader Xi Jinping and Russian President Vladimir Putin at the Asia-Pacific Economic Cooperation summit in Shenzhen, China…",
+   "published": "2026-11-15T22:11:26+00:00",
+   "outlets": 1,
+   "score": 0.57
+  },
+  {
+   "id": "who-makes-sydney-sweeney-s-american-eagle-jeans-and-under-wh",
+   "title": "Who makes Sydney Sweeney's American Eagle jeans — and under what conditions?",
+   "link": "https://www.npr.org/2026/11/15/nx-s1-6013327/sydney-sweeney-jeans-american-eagle-garment-industry",
+   "source": "NPR Health",
+   "topic": "Health",
+   "summary": "Sydney Sweeney has great jeans, American Eagle Outfitters tells us. But who made them? And what are working conditions like in the garment factories of Pakistan and Bangladesh?",
+   "published": "2026-11-15T22:07:55+00:00",
+   "outlets": 1,
+   "score": 0.569
+  },
+  {
+   "id": "nfl-week-10-grades-packers-fail-in-showdown-with-vikings-pat",
+   "title": "NFL Week 10 grades: Packers fail in showdown with Vikings, Patrick Mahomes catches fire",
+   "link": "https://www.cbssports.com/nfl/news/nfl-week-10-grades-packers-vikings-patrick-mahomes/",
+   "source": "CBS Sports",
+   "topic": "Sports",
+   "summary": "We're handing out grades for every team that played in Week 10",
+   "published": "2026-11-16T04:36:08+00:00",
+   "outlets": 1,
+   "score": 0.542
+  },
+  {
+   "id": "investors-sue-chip-giant-intel-after-29-stock-plunge",
+   "title": "Investors sue chip giant Intel after 29% stock plunge",
+   "link": "https://www.bbc.co.uk/news/articles/cw62p42p288do?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Business",
+   "topic": "Economy",
+   "summary": "A proposed class action says Intel hid the impact of slowing sales, inflating its shares.",
+   "published": "2026-11-16T03:04:01+00:00",
+   "outlets": 1,
+   "score": 0.502
   },
   {
    "id": "zelensky-urges-us-and-musk-to-lift-starlink-restrictions-and",
@@ -107,268 +261,68 @@
    "link": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
    "source": "BBC US & Canada",
    "topic": "U.S.",
-   "summary": "The Ukrainian president says restrictions are still in place and making it difficult to stop Russian attacks.",
+   "summary": "The Ukrainian president says the slowed-down internet is making it difficult to stop Russian attacks.",
    "published": "2026-11-15T19:32:39+00:00",
    "outlets": 1,
-   "score": 0.9
+   "score": 0.5
   },
   {
-   "id": "cassidy-slams-rfk-jr-for-series-of-failures-as-hhs-secretary",
-   "title": "Cassidy slams RFK Jr. for \"series of failures\" as HHS secretary",
-   "link": "https://www.cbsnews.com/news/rfjk-series-of-failures-hhs-bill-cassidy-face-the-nation/",
-   "source": "CBS News",
-   "topic": "Health",
-   "summary": "GOP Sen. Bill Cassidy of Louisiana railed against Robert F. Kennedy Jr. for what he called a \"series of failures\" at the helm of the Department of Health and Human Services.",
-   "published": "2026-11-15T20:04:57+00:00",
-   "outlets": 1,
-   "score": 0.765
-  },
-  {
-   "id": "suspected-china-spy-linked-to-nvidia-s-ex-boss-left-in-2025",
-   "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
-   "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Business",
-   "topic": "Economy",
-   "summary": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
-   "published": "2026-11-15T14:56:21+00:00",
-   "outlets": 1,
-   "score": 0.715
-  },
-  {
-   "id": "how-much-did-travel-delays-impact-week-11-results-every-game",
-   "title": "How much did travel delays impact Week 11 results? Every game affected by FAA shutdown",
-   "link": "https://www.cbssports.com/college-football/news/ravel-delays-week-11-results-faa-shutdown/",
-   "source": "CBS Sports",
-   "topic": "Sports",
-   "summary": "Extraordinary circumstances pushed several college football kickoff times back, creating one rare Sunday kickoff",
-   "published": "2026-11-15T21:14:02+00:00",
-   "outlets": 1,
-   "score": 0.676
-  },
-  {
-   "id": "lsu-s-fulwiley-arrested-after-allegedly-fleeing-scene-of-tra",
-   "title": "LSU's Fulwiley arrested after allegedly fleeing scene of traffic stop",
-   "link": "https://www.espn.com/womens-college-basketball/story/_/id/50491748/lsu-milaysia-fulwiley-arrested-fleeing-scene",
-   "source": "ESPN",
-   "topic": "Sports",
-   "summary": "LSU guard MiLaysia Fulwiley was arrested after she allegedly drove her car into a police vehicle while attempting to flee from a traffic stop.",
-   "published": "2026-11-15T21:04:54+00:00",
-   "outlets": 1,
-   "score": 0.671
-  },
-  {
-   "id": "townsend-hails-scotland-s-defence-in-australia-arm-wrestle",
-   "title": "Townsend hails Scotland's defence in Australia 'arm wrestle'",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c6vg25x1zqrro?at_medium=RSS&at_campaign=rss",
+   "id": "burnham-urges-caution-on-scrapping-3pm-tv-blackout",
+   "title": "Burnham urges caution on scrapping 3pm TV blackout",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c6jre22p3941o?at_medium=RSS&at_campaign=rss",
    "source": "BBC Sport",
    "topic": "Sports",
-   "summary": "Scotland's Nations Championship win over Australia was far from a classic, but head coach Gregor Townsend says it was one of his side's best defensive performances in recent years.",
-   "published": "2026-11-15T20:53:34+00:00",
+   "summary": "Andy Burnham urges caution on lifting the Saturday 3pm TV blackout in the UK, saying the health of the football pyramid should come first.",
+   "published": "2026-11-16T08:18:33+00:00",
    "outlets": 1,
-   "score": 0.664
-  },
-  {
-   "id": "jensen-huang-might-be-plotting-a-return-and-more-of-the-late",
-   "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
-   "link": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
-   "source": "The Verge",
-   "topic": "Tech",
-   "summary": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a…",
-   "published": "2026-11-15T20:49:29+00:00",
-   "outlets": 1,
-   "score": 0.662
-  },
-  {
-   "id": "laws-limiting-coal-miners-exposure-to-toxic-dust-are-in-dang",
-   "title": "Laws limiting coal miners' exposure to toxic dust are in danger of being rolled back",
-   "link": "https://www.npr.org/2026/11/15/nx-s1-6039311/laws-limiting-coal-miners-exposure-to-toxic-dust-are-in-danger-of-being-rolled-back",
-   "source": "NPR Health",
-   "topic": "Health",
-   "summary": "Coal miners who are exposed to silica dust are at a higher risk of black lung disease. Despite decades of advocacy, new efforts to regulate the toxic dust are under threat.",
-   "published": "2026-11-15T13:11:30+00:00",
-   "outlets": 1,
-   "score": 0.655
-  },
-  {
-   "id": "in-calling-for-an-end-to-the-iran-war-vance-walks-a-fine-lin",
-   "title": "In calling for an end to the Iran War, Vance walks a fine line with Trump",
-   "link": "https://www.npr.org/2026/11/15/nx-s1-6040447/in-calling-for-an-end-to-the-iran-war-vance-walks-a-fine-line-with-trump",
-   "source": "NPR Politics",
-   "topic": "Politics",
-   "summary": "A rift is opening up between President Trump and Vice President Vance when it comes to the Iran War. NPR's Ayesha Rascoe talks to Susan Glasser, staff writer at the New Yorker.",
-   "published": "2026-11-15T13:11:23+00:00",
-   "outlets": 1,
-   "score": 0.655
-  },
-  {
-   "id": "top-wall-street-analysts-are-bullish-on-these-3-stocks-for-t",
-   "title": "Top Wall Street analysts are bullish on these 3 stocks for the long term",
-   "link": "https://www.cnbc.com/2026/11/15/top-wall-street-analysts-are-bullish-on-these-3-stocks-for-the-long-term.html",
-   "source": "CNBC Investing",
-   "topic": "Finance",
-   "summary": "Here are three stocks favored by some of Wall Street's top pros, according to TipRanks.",
-   "published": "2026-11-15T12:49:07+00:00",
-   "outlets": 1,
-   "score": 0.643
-  },
-  {
-   "id": "ben-affleck-raved-about-robert-pattinson-s-the-odyssey-perfo",
-   "title": "Ben Affleck Raved About Robert Pattinson’s ‘The Odyssey’ Performance, Recalls Matt Damon: He Said ‘It Was Like Watching a Guy Run Into an Avalanche’",
-   "link": "https://variety.com/2026/film/news/ben-affleck-robert-pattinson-the-odyssey-1236948199/",
-   "source": "Variety",
-   "topic": "Entertainment",
-   "summary": "Starring in four major movies just this year, Robert Pattinson’s star power has been put to the test, and even Ben Affleck is noticing. After seeing Christopher Nolan’s “The Odyssey” for…",
-   "published": "2026-11-15T20:08:45+00:00",
-   "outlets": 1,
-   "score": 0.64
-  },
-  {
-   "id": "tearful-mcilroy-dedicates-record-equalling-win-to-ill-dad",
-   "title": "Tearful McIlroy dedicates record-equalling win to ill dad",
-   "link": "https://www.bbc.co.uk/sport/golf/articles/c6kg7rwmz1g8o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "topic": "Sports",
-   "summary": "Rory McIlroy wipes away tears as he dedicates his record-equalling eighth Race to Dubai title to his ill father, Gerry.",
-   "published": "2026-11-15T12:14:04+00:00",
-   "outlets": 1,
-   "score": 0.625
-  },
-  {
-   "id": "how-the-world-s-fires-changed-while-humanity-hit-pause",
-   "title": "How the world’s fires changed while humanity hit pause",
-   "link": "https://arstechnica.com/science/2026/11/how-the-worlds-fires-changed-while-humanity-hit-pause/",
-   "source": "Ars Technica",
-   "topic": "Tech",
-   "summary": "COVID-19 lockdowns cut global fire activity by 12.3 percent.",
-   "published": "2026-11-15T12:07:34+00:00",
-   "outlets": 1,
-   "score": 0.621
-  },
-  {
-   "id": "vulcan-rocket-fails-in-major-setback-for-united-launch-allia",
-   "title": "Vulcan rocket fails in major setback for United Launch Alliance",
-   "link": "https://www.cbsnews.com/news/vulcan-rocket-40-amazon-leo-internet-satellites-launch-mishap/",
-   "source": "CBS News",
-   "topic": "U.S.",
-   "summary": "The loss of its new Vulcan rocket was the first outright failure for United Launch Alliance, a major setback in the commercial launch industry.",
-   "published": "2026-11-15T20:04:05+00:00",
-   "outlets": 1,
-   "score": 0.584
-  },
-  {
-   "id": "spacex-successfully-catches-starship-and-makes-history",
-   "title": "SpaceX successfully catches Starship and makes history",
-   "link": "https://www.npr.org/2026/11/14/g-s1-153786/spacex-successfully-catches-starship-and-makes-history",
-   "source": "NPR Science",
-   "topic": "Science",
-   "summary": "The company's spacecraft returned to its Texas launchpad in dramatic fashion — by carefully lowering itself until two metal arms attached to the launch tower could secure it.",
-   "published": "2026-11-14T22:15:52+00:00",
-   "outlets": 2,
-   "score": 0.578
-  },
-  {
-   "id": "san-francisco-supervisors-to-vote-on-restricting-nuisance-ev",
-   "title": "San Francisco Supervisors to Vote on Restricting Nuisance Evictions",
-   "link": "https://ww2.kqed.org/news/2026/11/15/san-francisco-supervisors-to-vote-on-restricting-nuisance-evictions/",
-   "source": "KQED",
-   "topic": "Local",
-   "summary": "The supervisors are weighing the legislation amid record-high rents and eviction notices in San Francisco.",
-   "published": "2026-11-15T18:00:00+00:00",
-   "outlets": 1,
-   "score": 0.575
+   "score": 0.498
   }
  ],
  "topics": {
-  "World": [
-   {
-    "id": "staggered-age-of-consent-to-be-discussed-after-brand-case-mi",
-    "title": "Staggered age of consent to be discussed after Brand case, minister says",
-    "link": "https://www.bbc.co.uk/news/articles/cwdr1dmn563do?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News",
-    "topic": "World",
-    "summary": "A woman who alleges she was raped by the jailed comedian when she was 16 is campaigning to see relationships between 16-and 17-year-olds and adults made illegal.",
-    "published": "2026-11-15T17:15:46+00:00",
-    "outlets": 1,
-    "score": 1.358
-   },
-   {
-    "id": "man-and-woman-die-and-four-arrested-after-police-pursuit-cra",
-    "title": "Man and woman die and four arrested after police pursuit crash in Leeds",
-    "link": "https://www.bbc.co.uk/news/articles/cm3eg8x9zkvno?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News",
-    "topic": "World",
-    "summary": "Four people have been arrested on suspicion of causing death by dangerous driving, police say.",
-    "published": "2026-11-15T12:38:28+00:00",
-    "outlets": 1,
-    "score": 0.572
-   },
-   {
-    "id": "south-korea-s-top-scorer-in-tax-accountancy-exam-admits-chea",
-    "title": "South Korea's top scorer in tax accountancy exam admits cheating",
-    "link": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "topic": "World",
-    "summary": "Han Won-seok, 34, confessed to using a hidden camera and AI to get a near-perfect mark on the significant test.",
-    "published": "2026-11-15T13:37:45+00:00",
-    "outlets": 2,
-    "score": 0.568
-   },
-   {
-    "id": "pope-leo-rides-in-helicopter-cockpit-during-peru-trip",
-    "title": "Pope Leo rides in helicopter cockpit during Peru trip",
-    "link": "https://www.bbc.co.uk/news/videos/c6pw4rl00lrjo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "topic": "World",
-    "summary": "The Pope took to the skies before arriving in Cusco on the penultimate day of his Latin America tour.",
-    "published": "2026-11-15T18:38:11+00:00",
-    "outlets": 1,
-    "score": 0.453
-   },
-   {
-    "id": "fuel-crisis-and-protests-pressure-chile-s-far-right-presiden",
-    "title": "Fuel crisis and protests pressure Chile's far-right president",
-    "link": "https://www.npr.org/2026/11/14/nx-s1-6040144/chile-protests-fuel-kast-students",
-    "source": "NPR World",
-    "topic": "World",
-    "summary": "Chile's far-right President José Antonio Kast is facing mounting public anger, as rising fuel prices trigger transport strikes and protests across the country.",
-    "published": "2026-11-14T16:05:12+00:00",
-    "outlets": 1,
-    "score": 0.35
-   },
-   {
-    "id": "czechs-rally-against-plan-to-switch-funding-of-public-media",
-    "title": "Czechs rally against plan to switch funding of public media",
-    "link": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "topic": "World",
-    "summary": "Protesters say the move will stifle media freedom, while the government insists broadcasters need to cut costs.",
-    "published": "2026-11-15T21:03:40+00:00",
-    "outlets": 1,
-    "score": 0.347
-   }
-  ],
   "U.S.": [
    {
-    "id": "transcript-sen-bill-cassidy-on-face-the-nation-with-margaret",
-    "title": "Transcript: Sen. Bill Cassidy on \"Face the Nation with Margaret Brennan,\" Nov. 15, 2026",
-    "link": "https://www.cbsnews.com/news/bill-cassidy-louisiana-republican-face-the-nation-transcript-11-15-2026/",
+    "id": "airline-schedules-returning-to-normal-after-ground-stop-faa",
+    "title": "Airline schedules returning to normal after ground stop, FAA says",
+    "link": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/",
     "source": "CBS News",
     "topic": "U.S.",
-    "summary": "The following is the transcript of the interview with Sen. Bill Cassidy, Republican of Louisiana, that aired on \"Face the Nation with Margaret Brennan\" on Nov. 15, 2026.",
-    "published": "2026-11-15T20:07:02+00:00",
+    "summary": "Officials attributed the ground stop to aging system infrastructure and legacy technology.",
+    "published": "2026-11-16T09:05:40+00:00",
     "outlets": 1,
-    "score": 1.112
+    "score": 1.181
    },
    {
-    "id": "new-orleans-port-sues-owners-of-tanker-involved-in-mississip",
-    "title": "New Orleans port sues owners of tanker involved in Mississippi crash",
-    "link": "https://www.npr.org/2026/11/15/nx-s1-6041677/new-orleans-port-sues-miracle-mississippi-cruise-ship",
+    "id": "flight-disruptions-expected-to-last-into-monday",
+    "title": "Flight disruptions expected to last into Monday",
+    "link": "https://www.npr.org/2026/11/15/nx-s1-6041683/flight-disruptions-expected-to-last-into-monday",
     "source": "NPR National",
     "topic": "U.S.",
-    "summary": "Officials are seeking at least $1 million in damages from the owners of the tanker that hit a cruise ship last week. The incident was dubbed \"the miracle on the Mississippi\" after no one…",
-    "published": "2026-11-15T17:45:27+00:00",
+    "summary": "Congress recently gave the Department of Transportation $12.5 billion to upgrade the aging air traffic control system. President Trump wants more.",
+    "published": "2026-11-16T01:19:28+00:00",
     "outlets": 1,
-    "score": 1.07
+    "score": 0.867
+   },
+   {
+    "id": "bahrain-says-it-intercepted-iranian-strikes-tehran-targets-u",
+    "title": "Bahrain says it intercepted Iranian strikes, Tehran targets U.S. assets",
+    "link": "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/",
+    "source": "CBS News",
+    "topic": "U.S.",
+    "summary": "The attacks come after the U.S. carried out minor strikes on Iran's Qeshm island in recent weeks.",
+    "published": "2026-11-16T09:00:31+00:00",
+    "outlets": 1,
+    "score": 0.811
+   },
+   {
+    "id": "iran-rules-out-inspections-of-damaged-nuclear-sites-until-wa",
+    "title": "Iran rules out inspections of damaged nuclear sites until war ends",
+    "link": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-oil-strait-of-hormuz/",
+    "source": "CBS News",
+    "topic": "U.S.",
+    "summary": "The remarks came days after an international nuclear watchdog urged Tehran to take steps toward resuming inspections.",
+    "published": "2026-11-16T08:49:32+00:00",
+    "outlets": 1,
+    "score": 0.613
    },
    {
     "id": "zelensky-urges-us-and-musk-to-lift-starlink-restrictions-and",
@@ -376,114 +330,386 @@
     "link": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
     "source": "BBC US & Canada",
     "topic": "U.S.",
-    "summary": "The Ukrainian president says restrictions are still in place and making it difficult to stop Russian attacks.",
+    "summary": "The Ukrainian president says the slowed-down internet is making it difficult to stop Russian attacks.",
     "published": "2026-11-15T19:32:39+00:00",
     "outlets": 1,
-    "score": 0.9
+    "score": 0.5
    },
    {
-    "id": "vulcan-rocket-fails-in-major-setback-for-united-launch-allia",
-    "title": "Vulcan rocket fails in major setback for United Launch Alliance",
-    "link": "https://www.cbsnews.com/news/vulcan-rocket-40-amazon-leo-internet-satellites-launch-mishap/",
-    "source": "CBS News",
-    "topic": "U.S.",
-    "summary": "The loss of its new Vulcan rocket was the first outright failure for United Launch Alliance, a major setback in the commercial launch industry.",
-    "published": "2026-11-15T20:04:05+00:00",
-    "outlets": 1,
-    "score": 0.584
-   },
-   {
-    "id": "new-mexico-wanted-free-childcare-for-all-this-is-what-s-work",
-    "title": "New Mexico wanted free childcare for all. This is what's worked — and what hasn't",
-    "link": "https://www.npr.org/2026/11/15/nx-s1-6040194/new-mexico-free-universal-childcare-families",
-    "source": "NPR National",
-    "topic": "U.S.",
-    "summary": "A year ago in November, New Mexico became the first state to offer free childcare to every eligible family, regardless of income.",
-    "published": "2026-11-15T10:00:00+00:00",
-    "outlets": 1,
-    "score": 0.385
-   },
-   {
-    "id": "how-telecoms-upgrade-work-sparked-us-flight-chaos",
-    "title": "How telecoms upgrade work sparked US flight chaos",
-    "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
+    "id": "thousands-of-us-flights-still-cancelled-or-delayed-two-days",
+    "title": "Thousands of US flights still cancelled or delayed two days after grounding of planes nationwide",
+    "link": "https://www.bbc.co.uk/news/articles/cw1mdlv0k2r4o?at_medium=RSS&at_campaign=rss",
     "source": "BBC US & Canada",
     "topic": "U.S.",
-    "summary": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack.",
-    "published": "2026-11-15T14:57:15+00:00",
+    "summary": "The US transport secretary says that normal air-traffic operations may not be restored until Monday.",
+    "published": "2026-11-16T00:03:29+00:00",
+    "outlets": 1,
+    "score": 0.432
+   }
+  ],
+  "Entertainment": [
+   {
+    "id": "afm-closes-with-rain-flight-chaos-an-inundation-of-horror-bu",
+    "title": "AFM Closes With Rain, Flight Chaos, an ‘Inundation of Horror’ But a ‘Sense of Optimism’ For Bold Creative Choices",
+    "link": "https://variety.com/2026/film/global/afm-closes-rain-flight-chaos-inundation-of-horror-1236947882/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "It was perhaps apt that, just as the rain lashed down on Los Angeles on Friday, the final day of the American Film Market, the biggest deal announced from the event happened to be for a…",
+    "published": "2026-11-16T09:22:33+00:00",
+    "outlets": 1,
+    "score": 0.998
+   },
+   {
+    "id": "brand-moved-from-wandsworth-to-category-c-prison-his-wife-co",
+    "title": "Brand moved from Wandsworth to category C prison, his wife confirms on podcast",
+    "link": "https://www.bbc.co.uk/news/articles/cm7024p1ded3o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Entertainment",
+    "topic": "Entertainment",
+    "summary": "The convicted rapist has been moved to HMP Littlehey, which houses sex offenders.",
+    "published": "2026-11-16T01:22:50+00:00",
+    "outlets": 1,
+    "score": 0.669
+   },
+   {
+    "id": "johnny-depp-s-ebenezer-ramayana-dominate-global-box-office-a",
+    "title": "Johnny Depp’s ‘Ebenezer,’ ‘Ramayana’ Dominate Global Box Office as ‘Godzilla Minus Zero’ Crosses $100 Million",
+    "link": "https://variety.com/2026/film/box-office/johnny-depp-ebenezer-ramayana-godzilla-minus-zero-global-box-office-1236948618/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "Johnny Depp’s return in Paramount’s “Ebenezer” won the global box office this weekend, edging out Indian powerhouse “Ramayana: Rise of a Legend” to claim the worldwide crown, while Toho’s…",
+    "published": "2026-11-16T08:22:20+00:00",
+    "outlets": 1,
+    "score": 0.654
+   },
+   {
+    "id": "tourette-s-film-i-swear-wins-three-scottish-baftas",
+    "title": "Tourette's film I Swear wins three Scottish Baftas",
+    "link": "https://www.bbc.co.uk/news/articles/crgqx11wkzy8o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Entertainment",
+    "topic": "Entertainment",
+    "summary": "The film about Tourette's Syndrome campaigner John Davidson won Best Film, Best Director and Best Actor.",
+    "published": "2026-11-16T07:40:48+00:00",
+    "outlets": 1,
+    "score": 0.632
+   },
+   {
+    "id": "cinepolis-brings-sala-de-arte-program-to-indonesia-taking-ma",
+    "title": "Cinepolis Brings Sala de Arte Program to Indonesia, Taking Malang World Cinema Highlights to Six Cities",
+    "link": "https://variety.com/2026/film/festivals/cinepolis-sala-de-arte-indonesia-malang-world-cinema-1236948613/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "Multiplex chain Cinepolis is bringing Sala de Arte, its program dedicated to independent and international film, to Indonesia, with KlikFilm on board as curator and highlights from the…",
+    "published": "2026-11-16T07:51:36+00:00",
+    "outlets": 1,
+    "score": 0.487
+   },
+   {
+    "id": "korea-box-office-anime-sensation-chiikawa-holds-off-fall-2-d",
+    "title": "Korea Box Office: Anime Sensation ‘Chiikawa’ Holds Off ‘Fall 2: Deadpoint’ for Fifth Consecutive Crown",
+    "link": "https://variety.com/2026/film/box-office/korea-box-office-chiikawa-fall-2-deadpoint-1236948594/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "Japanese animated phenomenon “Chiikawa the Movie: The Secret of the Mermaid Island” retained the top spot at the South Korean box office over the weekend of Nov. 13–15, securing a fifth…",
+    "published": "2026-11-16T07:39:19+00:00",
+    "outlets": 1,
+    "score": 0.39
+   }
+  ],
+  "World": [
+   {
+    "id": "yemeni-forces-retreat-leaves-houthis-in-control-of-key-area",
+    "title": "Yemeni forces' retreat leaves Houthis in control of key area on coast of Red Sea waterway",
+    "link": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "summary": "Saudi-backed forces say they are moving troops from the Bab al-Mandab Strait to defend the interim capital Aden.",
+    "published": "2026-11-16T07:23:23+00:00",
+    "outlets": 1,
+    "score": 0.903
+   },
+   {
+    "id": "uk-lost-more-than-it-gained-from-brexit-burnham-to-say-ahead",
+    "title": "UK lost more than it gained from Brexit, Burnham to say ahead of EU summit",
+    "link": "https://www.bbc.co.uk/news/articles/crp3e1n5kezpo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News",
+    "topic": "World",
+    "summary": "The prime minister will say the \"Brexit we were given has not worked\" in a speech on Monday.",
+    "published": "2026-11-16T08:15:07+00:00",
+    "outlets": 1,
+    "score": 0.846
+   },
+   {
+    "id": "i-d-throw-up-in-the-car-park-how-school-anxiety-is-harming",
+    "title": "'I'd throw up in the car park': How school anxiety is harming children's futures",
+    "link": "https://www.bbc.co.uk/news/articles/cm62pl6lglvwo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News",
+    "topic": "World",
+    "summary": "As a landmark report is published, the BBC speaks to school avoiders and those trying to fix the issue.",
+    "published": "2026-11-16T06:01:33+00:00",
+    "outlets": 1,
+    "score": 0.577
+   },
+   {
+    "id": "what-to-expect-from-trump-and-xi-s-upcoming-meeting-in-china",
+    "title": "What to expect from Trump and Xi's upcoming meeting in China",
+    "link": "https://www.npr.org/2026/11/15/nx-s1-6038814/what-to-expect-from-trump-and-xis-upcoming-meeting-in-china",
+    "source": "NPR World",
+    "topic": "World",
+    "summary": "Preview of what to expect as President Trump meets with Chinese leader Xi Jinping and Russian President Vladimir Putin at the Asia-Pacific Economic Cooperation summit in Shenzhen, China…",
+    "published": "2026-11-15T22:11:26+00:00",
+    "outlets": 1,
+    "score": 0.57
+   },
+   {
+    "id": "prince-and-princess-of-wales-play-street-cricket-in-mumbai",
+    "title": "Prince and Princess of Wales play street cricket in Mumbai",
+    "link": "https://www.bbc.co.uk/news/videos/cmvg2nl8v22do?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News",
+    "topic": "World",
+    "summary": "William and Catherine met locals on their visit to India, ahead of a meeting with Indian Prime Minister Narendra Modi later in the week.",
+    "published": "2026-11-16T08:13:17+00:00",
     "outlets": 1,
     "score": 0.377
+   },
+   {
+    "id": "suspected-china-spy-linked-to-nvidia-s-ex-boss-left-in-2025",
+    "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+    "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "summary": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
+    "published": "2026-11-16T01:47:57+00:00",
+    "outlets": 1,
+    "score": 0.36
    }
   ],
   "Sports": [
    {
-    "id": "sunday-night-football-prediction-odds-time-bengals-vs-steel",
-    "title": "'Sunday Night Football' prediction, odds, time: Bengals vs. Steelers picks from expert who's on a 34-18 roll",
-    "link": "https://www.cbssports.com/betting/news/sunday-night-football-prediction-odds-time-spread-bengals-steelers-picks-best-bets/",
+    "id": "2027-wnba-mock-draft-juju-watkins-hannah-hidalgo-go-1-2-to-t",
+    "title": "2027 WNBA Mock Draft: JuJu Watkins, Hannah Hidalgo go 1-2 to Tempo and Comets",
+    "link": "https://www.cbssports.com/wnba/news/2027-wnba-mock-draft-juju-watkins-hannah-hidalgo-tempo-comets/",
     "source": "CBS Sports",
     "topic": "Sports",
-    "summary": "R.J. White reveals his picks for Cincinnati Bengals vs. Pittsburgh Steelers in the 2026 Week 10 'Sunday Night Football' matchup",
-    "published": "2026-11-15T21:19:55+00:00",
+    "summary": "The 2027 WNBA Draft order is set after Sunday's lottery, and here's how we're projecting the first 15 picks",
+    "published": "2026-11-16T04:53:48+00:00",
     "outlets": 1,
-    "score": 0.985
+    "score": 0.798
    },
    {
-    "id": "sources-lions-de-hutchinson-feared-to-have-suffered-signific",
-    "title": "Sources: Lions DE Hutchinson feared to have suffered significant knee injury",
-    "link": "https://www.espn.com/nfl/story/_/id/50491838/sources-lions-hutchinson-feared-significant-knee-injury",
-    "source": "ESPN",
-    "topic": "Sports",
-    "summary": "Lions star Aidan Hutchinson is feared to have suffered a significant injury to his right knee while celebrating a sack, sources told NFL Network.",
-    "published": "2026-11-15T21:04:54+00:00",
-    "outlets": 1,
-    "score": 0.972
-   },
-   {
-    "id": "jets-qb-smith-suffers-ankle-injury-replaced-by-rookie-klubni",
-    "title": "Jets QB Smith suffers ankle injury, replaced by rookie Klubnik",
-    "link": "https://www.espn.com/nfl/story/_/id/50493391/jets-qb-geno-smith-suffers-ankle-injury-bills",
-    "source": "ESPN",
-    "topic": "Sports",
-    "summary": "Jets quarterback Geno Smith suffered an ankle injury in the third quarter and was replaced by rookie Cade Klubnik on Sunday at MetLife Stadium.",
-    "published": "2026-11-15T21:04:54+00:00",
-    "outlets": 2,
-    "score": 0.921
-   },
-   {
-    "id": "how-much-did-travel-delays-impact-week-11-results-every-game",
-    "title": "How much did travel delays impact Week 11 results? Every game affected by FAA shutdown",
-    "link": "https://www.cbssports.com/college-football/news/ravel-delays-week-11-results-faa-shutdown/",
-    "source": "CBS Sports",
-    "topic": "Sports",
-    "summary": "Extraordinary circumstances pushed several college football kickoff times back, creating one rare Sunday kickoff",
-    "published": "2026-11-15T21:14:02+00:00",
-    "outlets": 1,
-    "score": 0.676
-   },
-   {
-    "id": "lsu-s-fulwiley-arrested-after-allegedly-fleeing-scene-of-tra",
-    "title": "LSU's Fulwiley arrested after allegedly fleeing scene of traffic stop",
-    "link": "https://www.espn.com/womens-college-basketball/story/_/id/50491748/lsu-milaysia-fulwiley-arrested-fleeing-scene",
-    "source": "ESPN",
-    "topic": "Sports",
-    "summary": "LSU guard MiLaysia Fulwiley was arrested after she allegedly drove her car into a police vehicle while attempting to flee from a traffic stop.",
-    "published": "2026-11-15T21:04:54+00:00",
-    "outlets": 1,
-    "score": 0.671
-   },
-   {
-    "id": "townsend-hails-scotland-s-defence-in-australia-arm-wrestle",
-    "title": "Townsend hails Scotland's defence in Australia 'arm wrestle'",
-    "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c6vg25x1zqrro?at_medium=RSS&at_campaign=rss",
+    "id": "60-minutes-of-perfection-30-minutes-of-chaos-an-england-win",
+    "title": "60 minutes of perfection, 30 minutes of chaos - an England win for the ages",
+    "link": "https://www.bbc.co.uk/sport/football/articles/c933ge310n33o?at_medium=RSS&at_campaign=rss",
     "source": "BBC Sport",
     "topic": "Sports",
-    "summary": "Scotland's Nations Championship win over Australia was far from a classic, but head coach Gregor Townsend says it was one of his side's best defensive performances in recent years.",
-    "published": "2026-11-15T20:53:34+00:00",
+    "summary": "England's stunning win in Spain had everything - and was their best under Thomas Tuchel, writes Phil McNulty.",
+    "published": "2026-11-15T23:52:43+00:00",
     "outlets": 1,
-    "score": 0.664
+    "score": 0.621
+   },
+   {
+    "id": "nfl-week-10-grades-packers-fail-in-showdown-with-vikings-pat",
+    "title": "NFL Week 10 grades: Packers fail in showdown with Vikings, Patrick Mahomes catches fire",
+    "link": "https://www.cbssports.com/nfl/news/nfl-week-10-grades-packers-vikings-patrick-mahomes/",
+    "source": "CBS Sports",
+    "topic": "Sports",
+    "summary": "We're handing out grades for every team that played in Week 10",
+    "published": "2026-11-16T04:36:08+00:00",
+    "outlets": 1,
+    "score": 0.542
+   },
+   {
+    "id": "burnham-urges-caution-on-scrapping-3pm-tv-blackout",
+    "title": "Burnham urges caution on scrapping 3pm TV blackout",
+    "link": "https://www.bbc.co.uk/sport/football/articles/c6jre22p3941o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "topic": "Sports",
+    "summary": "Andy Burnham urges caution on lifting the Saturday 3pm TV blackout in the UK, saying the health of the football pyramid should come first.",
+    "published": "2026-11-16T08:18:33+00:00",
+    "outlets": 1,
+    "score": 0.498
+   },
+   {
+    "id": "4-nfl-officials-work-2-games-each-a-rarity-due-to-ground-sto",
+    "title": "4 NFL officials work 2 games each, a rarity due to ground stop",
+    "link": "https://www.cbsnews.com/news/4-nfl-officials-2-games-each-rarity-faa-ground-stop/",
+    "source": "CBS News",
+    "topic": "Sports",
+    "summary": "Four NFL officials worked two games Sunday — a rarity stemming from Friday's nationwide ground stop ordered by the FAA that threw airlines' schedules into complete disarray.",
+    "published": "2026-11-16T08:11:45+00:00",
+    "outlets": 1,
+    "score": 0.48
+   },
+   {
+    "id": "how-did-england-cling-on-against-spain-and-what-did-tuchel-d",
+    "title": "How did England cling on against Spain and what did Tuchel do differently?",
+    "link": "https://www.bbc.co.uk/sport/football/articles/c6742l4z91lwo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "topic": "Sports",
+    "summary": "Trying to protect a lead in the closing stages, England have been here before - so how did they cling on against Spain?",
+    "published": "2026-11-16T00:02:22+00:00",
+    "outlets": 1,
+    "score": 0.431
+   }
+  ],
+  "Finance": [
+   {
+    "id": "china-s-slowdown-deepens-in-october-as-industrial-output-ret",
+    "title": "China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
+    "link": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html",
+    "source": "CNBC Finance",
+    "topic": "Finance",
+    "summary": "A deepening reliance on external demand leaves China more exposed to shocks abroad as domestic momentum fades, analysts say.",
+    "published": "2026-11-16T03:53:59+00:00",
+    "outlets": 1,
+    "score": 0.759
+   },
+   {
+    "id": "berkshire-breaks-out-to-record-high-with-fourth-quarter-rall",
+    "title": "Berkshire breaks out to record high with fourth-quarter rally reaching 19%",
+    "link": "https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html",
+    "source": "CNBC Investing",
+    "topic": "Finance",
+    "summary": "Berkshire Hathaway's red-hot shares are ending a strong week with four consecutive fresh record high closes.",
+    "published": "2026-11-14T14:02:39+00:00",
+    "outlets": 1,
+    "score": 0.35
+   },
+   {
+    "id": "how-nvidia-turmoil-and-a-democratic-congress-could-reshape-t",
+    "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+    "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+    "source": "CNBC Finance",
+    "topic": "Finance",
+    "summary": "ETF experts say Nvidia’s leadership turmoil and Democratic control of Congress could shift AI demand to the benefit of other Big Tech stocks, rival chipmakers.",
+    "published": "2026-11-14T15:50:43+00:00",
+    "outlets": 1,
+    "score": 0.241
+   },
+   {
+    "id": "lutnick-faces-questions-over-nvidia-spy-scandal-his-sons-fir",
+    "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has ties to the chipmaker",
+    "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+    "source": "CNBC Finance",
+    "topic": "Finance",
+    "summary": "Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
+    "published": "2026-11-15T19:58:21+00:00",
+    "outlets": 1,
+    "score": 0.217
+   },
+   {
+    "id": "eric-trump-backed-robot-soldier-startup-can-t-pay-staff-afte",
+    "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
+    "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
+    "source": "CNBC Finance",
+    "topic": "Finance",
+    "summary": "Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
+    "published": "2026-11-14T12:00:01+00:00",
+    "outlets": 1,
+    "score": 0.184
+   }
+  ],
+  "Economy": [
+   {
+    "id": "cut-national-insurance-for-under-25s-to-create-jobs-milburn",
+    "title": "Cut National Insurance for under-25s to create jobs, Milburn report to say",
+    "link": "https://www.bbc.co.uk/news/articles/c6p9dzmj514ko?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "The report being launched this week will suggest gradually reducing employment costs over five years.",
+    "published": "2026-11-15T22:30:03+00:00",
+    "outlets": 1,
+    "score": 0.753
+   },
+   {
+    "id": "investors-sue-chip-giant-intel-after-29-stock-plunge",
+    "title": "Investors sue chip giant Intel after 29% stock plunge",
+    "link": "https://www.bbc.co.uk/news/articles/cw62p42p288do?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "A proposed class action says Intel hid the impact of slowing sales, inflating its shares.",
+    "published": "2026-11-16T03:04:01+00:00",
+    "outlets": 1,
+    "score": 0.502
+   },
+   {
+    "id": "watch-why-some-teenagers-don-t-go-to-school",
+    "title": "Watch: Why some teenagers don't go to school",
+    "link": "https://www.bbc.co.uk/news/videos/cqe9kgegd2y4o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News",
+    "topic": "Economy",
+    "summary": "Teenagers speak to the BBC about struggling with school anxiety ahead of a landmark report on youth unemployment.",
+    "published": "2026-11-16T06:02:44+00:00",
+    "outlets": 1,
+    "score": 0.467
+   },
+   {
+    "id": "gas-starts-flowing-from-jackdaw-after-government-green-light",
+    "title": "Gas starts flowing from Jackdaw after government green light",
+    "link": "https://www.bbc.co.uk/news/articles/c9x2elzm047po?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "Ministers last month announced the Jackdaw gas field, which lies 150 miles east of Aberdeen, had been approved after years of uncertainty.",
+    "published": "2026-11-16T06:24:08+00:00",
+    "outlets": 1,
+    "score": 0.307
+   },
+   {
+    "id": "uk-will-have-voice-but-no-vote-on-eu-food-rules-in-brexit-re",
+    "title": "UK will have 'voice' but no vote on EU food rules in Brexit reset",
+    "link": "https://www.bbc.co.uk/news/articles/c6wy4l8nl42wo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "EU minister Hamish Falconer insists Britain would have some influence on policy as part of a new deal.",
+    "published": "2026-11-15T22:00:24+00:00",
+    "outlets": 1,
+    "score": 0.24
+   },
+   {
+    "id": "don-t-fall-for-this-black-friday-scam-how-to-check-it-s-a-re",
+    "title": "Don't fall for this Black Friday scam - how to check it's a real deal",
+    "link": "https://www.bbc.co.uk/news/articles/cm4gnlz2p61ko?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "Tens of thousands of scams are reported to HMRC - so it has advice on how to spot a fake request and refund.",
+    "published": "2026-11-16T00:50:39+00:00",
+    "outlets": 1,
+    "score": 0.2
    }
   ],
   "Tech": [
+   {
+    "id": "apple-s-new-study-looks-to-improve-the-effectiveness-of-ai-h",
+    "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+    "link": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is…",
+    "published": "2026-11-16T01:47:16+00:00",
+    "outlets": 1,
+    "score": 0.683
+   },
+   {
+    "id": "vulcan-rocket-fails-during-launch-dealing-major-blow-to-spac",
+    "title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
+    "link": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "This was the first total mission failure in United Launch Alliance's 20-year history.",
+    "published": "2026-11-15T23:11:54+00:00",
+    "outlets": 1,
+    "score": 0.6
+   },
+   {
+    "id": "listen-to-this-armand-hammer-s-snakes-ladders",
+    "title": "Listen to this: Armand Hammer’s Snakes & Ladders",
+    "link": "https://www.theverge.com/entertainment/1034013/armand-hammers-snakes-ladders-review",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "I open with this caveat: I haven't had a ton of time to digest the surprise Armand Hammer record that dropped this week. Billy Woods and Elucid rarely miss, though, and my initial reaction…",
+    "published": "2026-11-15T21:50:05+00:00",
+    "outlets": 1,
+    "score": 0.386
+   },
    {
     "id": "vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
     "title": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
@@ -493,7 +719,7 @@
     "summary": "United Launch Alliance (ULA) suffered what is reportedly its first mission failure in its 20-year history, failing to deliver 40 Amazon Leo satellites to orbit. Leo is Amazon's competitor…",
     "published": "2026-11-15T21:05:02+00:00",
     "outlets": 1,
-    "score": 0.972
+    "score": 0.369
    },
    {
     "id": "jensen-huang-might-be-plotting-a-return-and-more-of-the-late",
@@ -502,9 +728,9 @@
     "source": "The Verge",
     "topic": "Tech",
     "summary": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a…",
-    "published": "2026-11-15T20:49:29+00:00",
+    "published": "2026-11-16T04:17:05+00:00",
     "outlets": 1,
-    "score": 0.662
+    "score": 0.329
    },
    {
     "id": "how-the-world-s-fires-changed-while-humanity-hit-pause",
@@ -515,111 +741,21 @@
     "summary": "COVID-19 lockdowns cut global fire activity by 12.3 percent.",
     "published": "2026-11-15T12:07:34+00:00",
     "outlets": 1,
-    "score": 0.621
-   },
-   {
-    "id": "congress-wants-to-tighten-export-rules-on-ai-chips-after-nvi",
-    "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats…",
-    "published": "2026-11-15T19:15:43+00:00",
-    "outlets": 1,
-    "score": 0.467
-   },
-   {
-    "id": "apple-s-first-smart-glasses-are-coming-together",
-    "title": "Apple’s first smart glasses are coming together",
-    "link": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "Apple's smart glasses are among the worst-kept secrets in the tech world. Bloomberg's Mark Gurman says the company's first model, which will lack augmented reality features, will be…",
-    "published": "2026-11-15T16:59:16+00:00",
-    "outlets": 1,
-    "score": 0.283
-   },
-   {
-    "id": "megaspeed-says-alice-huang-left-company-in-2025-denies-wrong",
-    "title": "Megaspeed says Alice Huang left company in 2025, denies wrongdoing",
-    "link": "https://www.cbsnews.com/news/nvidia-alice-huang-jensen-ai-china-singapore-megaspeed/",
-    "source": "CBS News",
-    "topic": "Tech",
-    "summary": "The company denies wrongdoing after accusations that it smuggled Nvidia's AI chips into China.",
-    "published": "2026-11-15T19:10:50+00:00",
-    "outlets": 1,
-    "score": 0.256
-   }
-  ],
-  "Entertainment": [
-   {
-    "id": "russell-brand-compares-rape-trial-coverage-to-a-football-mat",
-    "title": "Russell Brand Compares Rape Trial Coverage to a ‘Football Match’ in Pre-Recorded Video as His Wife Says He’s ‘Okay’ and ‘Praying’ Post-Sentencing",
-    "link": "https://variety.com/2026/tv/news/russell-brand-rape-trial-sentencing-1236948233/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "Russell Brand’s wife, Laura Gallacher, has spoken about the actor’s 10-year and six-month prison sentence after being convicted of rape and sexual assault following his London criminal…",
-    "published": "2026-11-15T20:54:02+00:00",
-    "outlets": 1,
-    "score": 0.964
-   },
-   {
-    "id": "ben-affleck-raved-about-robert-pattinson-s-the-odyssey-perfo",
-    "title": "Ben Affleck Raved About Robert Pattinson’s ‘The Odyssey’ Performance, Recalls Matt Damon: He Said ‘It Was Like Watching a Guy Run Into an Avalanche’",
-    "link": "https://variety.com/2026/film/news/ben-affleck-robert-pattinson-the-odyssey-1236948199/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "Starring in four major movies just this year, Robert Pattinson’s star power has been put to the test, and even Ben Affleck is noticing. After seeing Christopher Nolan’s “The Odyssey” for…",
-    "published": "2026-11-15T20:08:45+00:00",
-    "outlets": 1,
-    "score": 0.64
-   },
-   {
-    "id": "phil-collins-says-he-s-a-well-man-now-and-hints-at-the-possi",
-    "title": "Phil Collins Says He’s a ‘Well Man’ Now and Hints at the ‘Possibility of Doing Some Shows’ Amid Health Battle: ‘You Haven’t Heard the Last of Me’",
-    "link": "https://variety.com/2026/music/news/phil-collins-rock-roll-hall-of-fame-induction-health-1236948171/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "Phil Collins made a rare public appearance to accept his induction into the Rock & Roll Hall of Fame at the ceremony in Los Angeles on Saturday, where he addressed his health, calling…",
-    "published": "2026-11-15T19:12:41+00:00",
-    "outlets": 1,
-    "score": 0.466
-   },
-   {
-    "id": "box-office-domestic-ticket-sales-up-20-from-last-year-as-hol",
-    "title": "Box Office: Domestic Ticket Sales Up 20% From Last Year as Hollywood Awaits ‘Hunger Games’ Prequel, ‘Dune 3’ and ‘Avengers: Doomsday’",
-    "link": "https://variety.com/2026/film/box-office/box-office-domestic-ticket-sales-increase-hunger-games-dune-3-avengers-doomsday-1236948160/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "It’s been a triumphant year for movie theater owners, who are basking in the long-awaited box office rebound. Domestic ticket sales are already 20% above the same point in 2025, and that’s…",
-    "published": "2026-11-15T19:04:29+00:00",
-    "outlets": 1,
-    "score": 0.374
-   },
-   {
-    "id": "holly-humberstone-people-can-t-connect-to-a-pop-star-who-s-t",
-    "title": "Holly Humberstone: People can't connect to a pop star who's 'too polished'",
-    "link": "https://www.bbc.co.uk/news/articles/cw77p7yj42k5o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Entertainment",
-    "topic": "Entertainment",
-    "summary": "The singer felt forced to compete with her female peers, until she realised the power of longevity.",
-    "published": "2026-11-15T00:07:29+00:00",
-    "outlets": 1,
-    "score": 0.35
-   },
-   {
-    "id": "rock-roll-hall-of-fame-ceremony-gets-fired-up-with-live-wire",
-    "title": "Rock & Roll Hall of Fame Ceremony Gets Fired Up With Live-Wire Numbers From U2, the Chili Peppers, Usher, Cynthia Erivo, Sienna Spiro, Aerosmith and More",
-    "link": "https://variety.com/2026/music/news/rock-roll-hall-fame-induction-ceremony-2026-performances-1236948068/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "You could feel it in the air that night, at the Rock & Roll Hall of Fame induction ceremony, held Saturday at L.A. Peacock Theatre and filmed for a December ABC special. The show’s…",
-    "published": "2026-11-15T18:33:42+00:00",
-    "outlets": 1,
-    "score": 0.306
+    "score": 0.241
    }
   ],
   "Local": [
+   {
+    "id": "democrats-are-coming-into-power-youth-want-them-to-use-it-fo",
+    "title": "Democrats Are Coming Into Power. Youth Want Them to Use It for Change",
+    "link": "https://ww2.kqed.org/news/2026/11/15/democrats-are-coming-into-power-youth-want-them-to-use-it-for-change/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "At least two Bay Area young people were arrested as part of a sit-in at a federal lawmaker’s office, calling for a shake up in leadership and the fulfillment of election promises.",
+    "published": "2026-11-16T00:02:31+00:00",
+    "outlets": 1,
+    "score": 0.626
+   },
    {
     "id": "these-part-time-professors-make-big-money-teaching-dozens-of",
     "title": "These Part-Time Professors Make Big Money Teaching Dozens of Classes Online. Are Their Students Learning?",
@@ -629,7 +765,7 @@
     "summary": "There are no rules governing how many classes community college professors can teach. Some are cashing in.",
     "published": "2026-11-15T20:30:00+00:00",
     "outlets": 1,
-    "score": 0.944
+    "score": 0.361
    },
    {
     "id": "san-francisco-supervisors-to-vote-on-restricting-nuisance-ev",
@@ -640,7 +776,7 @@
     "summary": "The supervisors are weighing the legislation amid record-high rents and eviction notices in San Francisco.",
     "published": "2026-11-15T18:00:00+00:00",
     "outlets": 1,
-    "score": 0.575
+    "score": 0.243
    },
    {
     "id": "hundreds-of-bay-area-flights-remain-disrupted-after-faa-grou",
@@ -651,7 +787,7 @@
     "summary": "Over 500 flights to or from San Francisco International were canceled on Friday, while more than 250 today have been canceled.",
     "published": "2026-11-14T23:42:26+00:00",
     "outlets": 1,
-    "score": 0.184
+    "score": 0.149
    },
    {
     "id": "across-california-big-tech-spending-led-to-election-wins-but",
@@ -662,7 +798,7 @@
     "summary": "Tech-funded super PACs mostly won by boosting Democrats in safe blue districts, political analysts say. But in some races, that money became a focal point.",
     "published": "2026-11-14T17:07:45+00:00",
     "outlets": 1,
-    "score": 0.149
+    "score": 0.125
    },
    {
     "id": "after-6-years-the-mission-s-historic-library-is-back-what-to",
@@ -673,31 +809,77 @@
     "summary": "The century-old building closed down for renovations in 2020 and is reopening this Saturday. Here’s what to know.",
     "published": "2026-11-14T12:00:00+00:00",
     "outlets": 1,
-    "score": 0.125
+    "score": 0.108
+   }
+  ],
+  "Science": [
+   {
+    "id": "far-from-home-voyager-1-is-now-farther-than-anything-man-has",
+    "title": "Far from home. Voyager 1 is now farther than anything man has sent into space",
+    "link": "https://www.npr.org/2026/11/15/nx-s1-6041716/a-long-long-ways-from-home-voyager-1-is-now-farther-than-anything-man-has-sent-into-space",
+    "source": "NPR Science",
+    "topic": "Science",
+    "summary": "NASA's Voyager 1, which is the furthest man-made object from Earth, is set to reach a new milestone this week. On Wednesday, the probe will be roughly 16 billion miles from Earth.",
+    "published": "2026-11-15T22:41:22+00:00",
+    "outlets": 1,
+    "score": 0.585
    },
    {
-    "id": "eric-jones-unseats-longtime-napa-valley-rep-mike-thompson-in",
-    "title": "Eric Jones Unseats Longtime Napa Valley Rep. Mike Thompson in Democratic Shakeup",
-    "link": "https://ww2.kqed.org/news/2026/11/13/early-results-show-rep-mike-thompson-in-tight-race-with-challenger-eric-jones/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "The Democrat-versus-Democrat race became California’s most expensive self-funded House campaign for Jones, a political newcomer.",
-    "published": "2026-11-14T02:03:50+00:00",
+    "id": "spacex-successfully-catches-starship-and-makes-history",
+    "title": "SpaceX successfully catches Starship and makes history",
+    "link": "https://www.npr.org/2026/11/14/g-s1-153786/spacex-successfully-catches-starship-and-makes-history",
+    "source": "NPR Science",
+    "topic": "Science",
+    "summary": "The company's spacecraft returned to its Texas launchpad in dramatic fashion — by carefully lowering itself until two metal arms attached to the launch tower could secure it.",
+    "published": "2026-11-14T22:15:52+00:00",
+    "outlets": 2,
+    "score": 0.3
+   },
+   {
+    "id": "spacex-deploys-starlink-satellites-in-starship-test-but-boos",
+    "title": "SpaceX deploys Starlink satellites in Starship test, but booster crashes into Gulf",
+    "link": "https://www.npr.org/2026/11/14/nx-s1-6038958/spacex-deploys-starlink-satellites-in-starship-test-but-booster-crashes-into-gulf",
+    "source": "NPR Science",
+    "topic": "Science",
+    "summary": "SpaceX conducted a major test of its Starship rocket Friday night. It deployed several satellites for the Starlink constellation, but there was a problem with its booster.",
+    "published": "2026-11-14T12:40:21+00:00",
     "outlets": 1,
-    "score": 0.095
+    "score": 0.184
+   },
+   {
+    "id": "a-new-policy-could-help-solve-the-u-s-organ-shortage-critics",
+    "title": "A new policy could help solve the U.S. organ shortage. Critics say it's unethical",
+    "link": "https://www.npr.org/2026/11/14/nx-s1-6032604/organ-transplant-donor-dead-ethics",
+    "source": "NPR Science",
+    "topic": "Science",
+    "summary": "New guidelines are supposed to protect organ donors in a retrieval procedure that keeps blood flowing through livers, kidneys, lungs and hearts. But bioethicists have troubling questions.",
+    "published": "2026-11-14T10:00:00+00:00",
+    "outlets": 1,
+    "score": 0.149
+   },
+   {
+    "id": "choking-fires-deadly-heat-and-devastating-floods-2026-in-ext",
+    "title": "Choking fires, deadly heat and devastating floods: 2026 in extreme weather",
+    "link": "https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026",
+    "source": "The Guardian",
+    "topic": "Science",
+    "summary": "People around the world have contended with unprecedented weather events and their fatal effects caused by the climate catastrophe After the world’s hottest summer since records began in…",
+    "published": "2026-11-14T13:00:44+00:00",
+    "outlets": 1,
+    "score": 0.104
    }
   ],
   "Health": [
    {
-    "id": "cassidy-slams-rfk-jr-for-series-of-failures-as-hhs-secretary",
-    "title": "Cassidy slams RFK Jr. for \"series of failures\" as HHS secretary",
-    "link": "https://www.cbsnews.com/news/rfjk-series-of-failures-hhs-bill-cassidy-face-the-nation/",
-    "source": "CBS News",
+    "id": "who-makes-sydney-sweeney-s-american-eagle-jeans-and-under-wh",
+    "title": "Who makes Sydney Sweeney's American Eagle jeans — and under what conditions?",
+    "link": "https://www.npr.org/2026/11/15/nx-s1-6013327/sydney-sweeney-jeans-american-eagle-garment-industry",
+    "source": "NPR Health",
     "topic": "Health",
-    "summary": "GOP Sen. Bill Cassidy of Louisiana railed against Robert F. Kennedy Jr. for what he called a \"series of failures\" at the helm of the Department of Health and Human Services.",
-    "published": "2026-11-15T20:04:57+00:00",
+    "summary": "Sydney Sweeney has great jeans, American Eagle Outfitters tells us. But who made them? And what are working conditions like in the garment factories of Pakistan and Bangladesh?",
+    "published": "2026-11-15T22:07:55+00:00",
     "outlets": 1,
-    "score": 0.765
+    "score": 0.569
    },
    {
     "id": "laws-limiting-coal-miners-exposure-to-toxic-dust-are-in-dang",
@@ -708,7 +890,7 @@
     "summary": "Coal miners who are exposed to silica dust are at a higher risk of black lung disease. Despite decades of advocacy, new efforts to regulate the toxic dust are under threat.",
     "published": "2026-11-15T13:11:30+00:00",
     "outlets": 1,
-    "score": 0.655
+    "score": 0.251
    },
    {
     "id": "a-new-generation-of-disability-rights-activists-carry-on-jud",
@@ -719,7 +901,18 @@
     "summary": "The film Being Heumann tells the lesser-known story of the mother of the disability rights movement. A new generation of activists share how they \"carry the torch\" today.",
     "published": "2026-11-15T10:00:00+00:00",
     "outlets": 1,
-    "score": 0.385
+    "score": 0.184
+   },
+   {
+    "id": "cancer-sponge-tests-could-be-offered-to-more-people-with-bad",
+    "title": "Cancer 'sponge' tests could be offered to more people with bad indigestion",
+    "link": "https://www.bbc.co.uk/news/articles/cm5y13q0gx97o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News",
+    "topic": "Health",
+    "summary": "The \"sponge on a string\" tests can be done in GP surgeries, rather than hospitals, unlike endoscopy checks that use a small camera.",
+    "published": "2026-11-16T00:47:04+00:00",
+    "outlets": 1,
+    "score": 0.153
    },
    {
     "id": "us-has-lost-measles-elimination-status-global-health-authori",
@@ -730,64 +923,7 @@
     "summary": "The U.S. has lost its status as a country where measles is eliminated, according to researchers with direct knowledge of the deliberations at the Pan American Health Organization.",
     "published": "2026-11-14T22:15:02+00:00",
     "outlets": 1,
-    "score": 0.184
-   }
-  ],
-  "Economy": [
-   {
-    "id": "suspected-china-spy-linked-to-nvidia-s-ex-boss-left-in-2025",
-    "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
-    "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
-    "published": "2026-11-15T14:56:21+00:00",
-    "outlets": 1,
-    "score": 0.715
-   },
-   {
-    "id": "minister-backs-legal-right-to-job-support-for-young-people",
-    "title": "Minister backs legal right to job support for young people",
-    "link": "https://www.bbc.co.uk/news/articles/cqr7gn1zmlj1o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "The work and pensions secretary said the level of support currently on offer was too vague.",
-    "published": "2026-11-15T13:06:15+00:00",
-    "outlets": 1,
-    "score": 0.45
-   },
-   {
-    "id": "beauty-advent-calendars-can-cost-hundreds-but-are-they-value",
-    "title": "Beauty advent calendars can cost hundreds but are they value for money?",
-    "link": "https://www.bbc.co.uk/news/articles/cqn83l442724o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "Beauty calendars have become a Christmas staple and have become particularly popular with female shoppers.",
-    "published": "2026-11-15T00:01:07+00:00",
-    "outlets": 1,
-    "score": 0.184
-   },
-   {
-    "id": "how-the-jensen-huang-scandal-created-a-headache-for-business",
-    "title": "How the Jensen Huang scandal created a headache for business-friendly Singapore",
-    "link": "https://www.bbc.co.uk/news/articles/ck1exevgql4qo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "The scandal has cast a spotlight on Singapore's success as a chip hub - and a location for alleged illicit trade.",
-    "published": "2026-11-13T23:00:31+00:00",
-    "outlets": 1,
     "score": 0.149
-   },
-   {
-    "id": "microsoft-says-services-fully-restored-after-day-long-global",
-    "title": "Microsoft says services fully restored after day-long global outage",
-    "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "Efforts to address the underlying problem with Outlook, Teams and Copilot are complete, the tech firm says.",
-    "published": "2026-11-14T06:42:27+00:00",
-    "outlets": 1,
-    "score": 0.125
    }
   ],
   "Politics": [
@@ -800,7 +936,7 @@
     "summary": "A rift is opening up between President Trump and Vice President Vance when it comes to the Iran War. NPR's Ayesha Rascoe talks to Susan Glasser, staff writer at the New Yorker.",
     "published": "2026-11-15T13:11:23+00:00",
     "outlets": 1,
-    "score": 0.655
+    "score": 0.364
    },
    {
     "id": "politics-chat-duffy-calls-for-more-funding-democrats-plans-f",
@@ -811,7 +947,7 @@
     "summary": "Transportation Secretary Sean Duffy demands more money for the country's air travel control systems. Democrats plan for accountability, but not enough of them showed up for an impeachment…",
     "published": "2026-11-15T13:09:15+00:00",
     "outlets": 1,
-    "score": 0.451
+    "score": 0.25
    },
    {
     "id": "midterm-voters-ended-the-long-running-gop-dominance-in-state",
@@ -822,7 +958,18 @@
     "summary": "In several states, Democrats took control of legislatures that had been divided and they weakened GOP dominance in others. Issues on the agenda: More access to health care, new limits on…",
     "published": "2026-11-15T10:00:00+00:00",
     "outlets": 1,
-    "score": 0.382
+    "score": 0.184
+   },
+   {
+    "id": "trump-officials-ask-for-50-billion-for-air-traffic-control-a",
+    "title": "Trump officials ask for $50 billion for air traffic control after ground stop",
+    "link": "https://www.cbsnews.com/video/trump-officials-ask-50-billion-air-traffic-control-ground-stop/",
+    "source": "CBS News",
+    "topic": "Politics",
+    "summary": "President Trump broke his silence on the travel turmoil, triggered by Friday's nationwide ground stop. Taurean Small reports from the White House.",
+    "published": "2026-11-16T01:48:00+00:00",
+    "outlets": 1,
+    "score": 0.162
    },
    {
     "id": "trump-blasts-judge-for-halting-his-washington-golf-project-a",
@@ -833,7 +980,7 @@
     "summary": "A federal judge on Saturday ordered a two-week delay to any work at a historic Washington public golf course not far from the White House.",
     "published": "2026-11-15T04:28:45+00:00",
     "outlets": 1,
-    "score": 0.17
+    "score": 0.125
    },
    {
     "id": "we-can-t-let-them-down-after-midterm-wins-democrats-turn-to",
@@ -845,131 +992,6 @@
     "published": "2026-11-14T19:13:54+00:00",
     "outlets": 1,
     "score": 0.095
-   },
-   {
-    "id": "alaska-voters-aren-t-ditching-ranked-choice-voting-top-four",
-    "title": "Alaska voters aren't ditching ranked choice voting, top-four primaries",
-    "link": "https://www.npr.org/2026/11/14/nx-s1-6034952/alaska-results-ranked-choice-voting-nonpartisan-primary",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "This is the second time Alaskans voted down an effort to repeal the state's unique election system, which voters first approved in 2020. A repeal effort in 2024 also failed narrowly.",
-    "published": "2026-11-14T13:08:05+00:00",
-    "outlets": 1,
-    "score": 0.084
-   }
-  ],
-  "Finance": [
-   {
-    "id": "top-wall-street-analysts-are-bullish-on-these-3-stocks-for-t",
-    "title": "Top Wall Street analysts are bullish on these 3 stocks for the long term",
-    "link": "https://www.cnbc.com/2026/11/15/top-wall-street-analysts-are-bullish-on-these-3-stocks-for-the-long-term.html",
-    "source": "CNBC Investing",
-    "topic": "Finance",
-    "summary": "Here are three stocks favored by some of Wall Street's top pros, according to TipRanks.",
-    "published": "2026-11-15T12:49:07+00:00",
-    "outlets": 1,
-    "score": 0.643
-   },
-   {
-    "id": "lutnick-faces-questions-over-nvidia-spy-scandal-his-sons-fir",
-    "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has ties to the chipmaker",
-    "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
-    "source": "CNBC Finance",
-    "topic": "Finance",
-    "summary": "Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
-    "published": "2026-11-15T19:58:21+00:00",
-    "outlets": 1,
-    "score": 0.484
-   },
-   {
-    "id": "how-nvidia-turmoil-and-a-democratic-congress-could-reshape-t",
-    "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
-    "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
-    "source": "CNBC Finance",
-    "topic": "Finance",
-    "summary": "ETF experts say Nvidia’s leadership turmoil and Democratic control of Congress could shift AI demand to the benefit of other Big Tech stocks, rival chipmakers.",
-    "published": "2026-11-14T15:50:43+00:00",
-    "outlets": 1,
-    "score": 0.35
-   },
-   {
-    "id": "eric-trump-backed-robot-soldier-startup-can-t-pay-staff-afte",
-    "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
-    "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
-    "source": "CNBC Finance",
-    "topic": "Finance",
-    "summary": "Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
-    "published": "2026-11-14T12:00:01+00:00",
-    "outlets": 1,
-    "score": 0.241
-   },
-   {
-    "id": "juice-your-growth-and-save-on-taxes-in-this-workplace-invest",
-    "title": "Juice your growth and save on taxes in this workplace investment account",
-    "link": "https://www.cnbc.com/2026/11/14/hsa-investing-tax-benefits.html",
-    "source": "CNBC Investing",
-    "topic": "Finance",
-    "summary": "High-deductible medical benefit plans with health savings accounts are on the menu at many employers as enrollment season for 2027 continues.",
-    "published": "2026-11-14T14:08:17+00:00",
-    "outlets": 1,
-    "score": 0.241
-   },
-   {
-    "id": "berkshire-breaks-out-to-record-high-with-fourth-quarter-rall",
-    "title": "Berkshire breaks out to record high with fourth-quarter rally reaching 19%",
-    "link": "https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html",
-    "source": "CNBC Investing",
-    "topic": "Finance",
-    "summary": "Berkshire Hathaway's red-hot shares are ending a strong week with four consecutive fresh record high closes.",
-    "published": "2026-11-14T14:02:39+00:00",
-    "outlets": 1,
-    "score": 0.184
-   }
-  ],
-  "Science": [
-   {
-    "id": "spacex-successfully-catches-starship-and-makes-history",
-    "title": "SpaceX successfully catches Starship and makes history",
-    "link": "https://www.npr.org/2026/11/14/g-s1-153786/spacex-successfully-catches-starship-and-makes-history",
-    "source": "NPR Science",
-    "topic": "Science",
-    "summary": "The company's spacecraft returned to its Texas launchpad in dramatic fashion — by carefully lowering itself until two metal arms attached to the launch tower could secure it.",
-    "published": "2026-11-14T22:15:52+00:00",
-    "outlets": 2,
-    "score": 0.578
-   },
-   {
-    "id": "spacex-deploys-starlink-satellites-in-starship-test-but-boos",
-    "title": "SpaceX deploys Starlink satellites in Starship test, but booster crashes into Gulf",
-    "link": "https://www.npr.org/2026/11/14/nx-s1-6038958/spacex-deploys-starlink-satellites-in-starship-test-but-booster-crashes-into-gulf",
-    "source": "NPR Science",
-    "topic": "Science",
-    "summary": "SpaceX conducted a major test of its Starship rocket Friday night. It deployed several satellites for the Starlink constellation, but there was a problem with its booster.",
-    "published": "2026-11-14T12:40:21+00:00",
-    "outlets": 1,
-    "score": 0.241
-   },
-   {
-    "id": "a-new-policy-could-help-solve-the-u-s-organ-shortage-critics",
-    "title": "A new policy could help solve the U.S. organ shortage. Critics say it's unethical",
-    "link": "https://www.npr.org/2026/11/14/nx-s1-6032604/organ-transplant-donor-dead-ethics",
-    "source": "NPR Science",
-    "topic": "Science",
-    "summary": "New guidelines are supposed to protect organ donors in a retrieval procedure that keeps blood flowing through livers, kidneys, lungs and hearts. But bioethicists have troubling questions.",
-    "published": "2026-11-14T10:00:00+00:00",
-    "outlets": 1,
-    "score": 0.184
-   },
-   {
-    "id": "choking-fires-deadly-heat-and-devastating-floods-2026-in-ext",
-    "title": "Choking fires, deadly heat and devastating floods: 2026 in extreme weather",
-    "link": "https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026",
-    "source": "The Guardian",
-    "topic": "Science",
-    "summary": "People around the world have contended with unprecedented weather events and their fatal effects caused by the climate catastrophe After the world’s hottest summer since records began in…",
-    "published": "2026-11-14T13:00:44+00:00",
-    "outlets": 1,
-    "score": 0.118
    }
   ]
  }
