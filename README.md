@@ -66,3 +66,12 @@ News rotation (off by default; the footer link turns it on): the News card steps
 The news workflow checks every 30 minutes and fetches once per 6 AM / 12 PM / 6 PM Pacific slot (GitHub's scheduler often runs late or skips runs, so a single run per slot was unreliable).
 
 News card: the topic chips are a swipeable single row (swipe or scroll sideways, tap one to open it); touching the row pauses the 10-second rotation. Each headline shows its topic tag and source on top with the title at full width below.
+
+## Phone view, touch controls and wall mode
+
+The dashboard detects each device on its own (Settings → **This device** can override it, and that choice stays on that device only):
+
+- **Phone view** (narrow screens and landscape phones): one column of full-width cards with a tab bar at the bottom: **Today** (To-Do, Upcoming, News, summary tiles), **Lists** (Shopping, Watch list, Chores), **Plan** (Calendar, Bills), **Food** (Dinner plan, Recipes), **More** (Notes, Quick links, Weather). Red badges show what needs you. Tap the active tab again to jump to the top. The **+** button picks a sensible type for the tab you are on. The grid button opens **Arrange phone tabs**, where you move cards between tabs, reorder them and hide them. That arrangement syncs to your other phones.
+- **Big-screen view** (tablets and computers): the customizable grid, as before.
+- **Touch controls** turn on automatically when you use a finger or pen, and mouse controls come back when you use a mouse, so 2-in-1 laptops switch by themselves. With touch, buttons are finger-sized and nothing hides behind hover. **Swipe a row right** to complete it (tasks, shopping, chores, bills), **swipe left** to delete it (with Undo). Press and hold for half a second to reorder.
+- **Wall display mode** (for a mounted tablet): keeps the screen awake, refreshes weather and news every 15 minutes, rolls over to the new date at midnight, and goes back to the top after 3 idle minutes.

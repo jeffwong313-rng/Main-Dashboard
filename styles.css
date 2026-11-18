@@ -593,3 +593,95 @@ dialog.sheet.cal-full .sheet-body { padding: 4px max(14px, env(safe-area-inset-l
 .newsrow .nt { display: block; font-size: 15.5px; line-height: 1.35; }
 .newsrow a, .newsrow a:hover { color: inherit; text-decoration: none; }
 .newsrow a:hover .nt { text-decoration: underline; }
+
+/* =====================================================================
+   Device modes (set in app.js → applyDevice)
+   html.view-phone / html.view-large : layout     html.touch / html.mouse : controls
+   html.wall : mounted-tablet mode
+   ===================================================================== */
+
+/* ---------- phone view: one column + bottom tabs ---------- */
+.off-tab { display: none !important; }
+html.view-phone .app { max-width: 640px; padding-bottom: calc(170px + env(safe-area-inset-bottom)); }
+html.view-phone .grid { display: flex; flex-direction: column; gap: 12px; }
+html.view-phone .card { flex: none; }
+html.view-phone .card .body { flex: none; overflow: visible; }
+html.view-phone .card[data-id="recipes"] .body, html.view-phone .card[data-id="notes"] .body { max-height: 72dvh; overflow: auto; overscroll-behavior: contain; }
+.tab-empty { border-radius: var(--radius); border: 1.5px dashed var(--line2); }
+.tabbar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 25;
+  display: grid; grid-template-columns: repeat(5, 1fr);
+  padding: 6px max(8px, env(safe-area-inset-left)) calc(6px + env(safe-area-inset-bottom)) max(8px, env(safe-area-inset-right));
+  background: color-mix(in srgb, var(--surface) 90%, transparent); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+  border-top: 1px solid var(--line);
+}
+.tabbar button { position: relative; display: flex; flex-direction: column; align-items: center; gap: 3px; padding: 6px 0 4px; min-height: 54px; border-radius: 14px; color: var(--muted); font-size: 11.5px; font-weight: 650; }
+.tabbar button .ic { width: 24px; height: 24px; }
+.tabbar button[aria-current="page"] { color: var(--text); }
+.tabbar button[aria-current="page"] .ic { stroke-width: 2.4; }
+.tabbar button[aria-current="page"]::before { content: ''; position: absolute; top: 2px; width: 34px; height: 4px; border-radius: 4px; background: var(--text); opacity: .85; }
+.tabbar button b { position: absolute; top: 2px; left: calc(50% + 6px); min-width: 18px; height: 18px; padding: 0 5px; border-radius: 999px; background: var(--danger); color: #fff; font-size: 11px; line-height: 18px; font-variant-numeric: tabular-nums; }
+.tabbar button:active { background: var(--field); }
+html.view-phone .fab { bottom: calc(80px + env(safe-area-inset-bottom)); width: 56px; height: 56px; }
+html.view-phone .toast { bottom: calc(150px + env(safe-area-inset-bottom)); }
+html.view-phone dialog.sheet[open] { align-items: flex-end; }
+html.view-phone .sheet-card { width: 100vw; border-radius: 28px 28px 0 0; padding-bottom: env(safe-area-inset-bottom); max-height: 92dvh; }
+html.view-phone dialog.sheet.top[open] { align-items: flex-start; padding-top: max(12px, env(safe-area-inset-top)); }
+html.view-phone dialog.sheet.top .sheet-card { border-radius: 28px; width: calc(100vw - 16px); }
+html.view-phone dialog.sheet.cal-full .sheet-card { border-radius: 0; height: 100dvh; max-height: none; }
+
+/* phone "arrange tabs" sheet */
+.pa-h { display: flex; align-items: center; gap: 8px; }
+.pa-h .ic { width: 18px; height: 18px; }
+.pa-row { display: flex; align-items: center; gap: 4px; padding: 4px 0; border-bottom: 1px solid var(--line); }
+.pa-row:last-child { border-bottom: 0; }
+.pa-name { flex: 1; min-width: 0; font-weight: 650; }
+.pa-name.off { color: var(--faint); text-decoration: line-through; }
+.pa-row select { background: var(--field); border: 1px solid transparent; border-radius: 12px; padding: 8px 8px; font-size: 15px; }
+.pa-row .icon-btn:disabled { opacity: .25; cursor: default; }
+.pa-row input[type=checkbox] { appearance: none; -webkit-appearance: none; flex: none; width: 46px; height: 28px; border-radius: 999px; background: var(--line2); position: relative; cursor: pointer; margin: 0 0 0 6px; transition: background .15s; }
+.pa-row input[type=checkbox]::after { content: ''; position: absolute; top: 3px; left: 3px; width: 22px; height: 22px; border-radius: 50%; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,.3); transition: transform .15s; }
+.pa-row input[type=checkbox]:checked { background: var(--ok); }
+.pa-row input[type=checkbox]:checked::after { transform: translateX(18px); }
+.dev-lbl { font-weight: 650; font-size: 14px; margin: 10px 0 6px; color: var(--text); }
+
+/* ---------- touch controls: finger-sized targets, nothing hidden behind hover ---------- */
+html.touch body { touch-action: manipulation; }       /* no double-tap zoom delay */
+html.touch .icon-btn { width: 42px; height: 42px; }
+html.touch .round { width: 46px; height: 46px; }
+html.touch .row { min-height: 52px; padding: 9px 8px; }
+html.touch .rows > li.row { touch-action: pan-y; user-select: none; -webkit-user-select: none; }
+html.touch .rows { position: relative; }
+html.touch .chk { width: 28px; height: 28px; position: relative; }
+html.touch .chk::after, html.touch .done-btn::after { content: ''; position: absolute; inset: -9px; }  /* bigger hit area, same look */
+html.touch .done-btn { width: 36px; height: 36px; position: relative; }
+html.touch .del { opacity: .55; }
+html.touch .row:hover, html.touch .icon-btn:hover { background: transparent; }  /* no sticky hover after a tap */
+html.touch .icon-btn.add:hover { background: color-mix(in srgb, var(--accent) 30%, transparent); }
+html.touch .icon-btn:active { background: var(--field); }
+html.touch .pin-btn { width: 24px; opacity: .38; }
+html.touch .row > .pin-btn { margin-left: 0; }
+html.touch .pinned .pin-btn { opacity: 1; }
+html.touch .evtag.none { opacity: .55; }
+html.touch .chip-btn { min-height: 40px; padding: 9px 14px; font-size: 14px; }
+html.touch .seg span { padding: 10px 16px; }
+html.touch .btn { min-height: 46px; }
+html.touch .link { padding: 10px 8px; }
+html.touch .chip-wrap .del { width: 34px; height: 34px; }
+html.touch body.editing .resize { width: 56px; height: 56px; }
+html.touch .kpi:active, html.touch .row:active:not(.swiping) { filter: brightness(.97); }
+
+/* swipe feedback */
+.row.swiping { z-index: 1; background: color-mix(in srgb, var(--accent) var(--tint), var(--surface)); box-shadow: 0 6px 18px -10px rgba(0,0,0,.4); }
+.swipe-hint { position: absolute; z-index: 0; border-radius: 14px; display: flex; align-items: center; justify-content: space-between; padding: 0 16px; font-weight: 750; font-size: 14px; color: #fff; pointer-events: none; }
+.swipe-hint span { display: inline-flex; align-items: center; gap: 6px; opacity: 0; transition: opacity .1s; }
+.swipe-hint[data-dir="l"] { background: color-mix(in srgb, var(--ok) 55%, var(--surface)); }
+.swipe-hint[data-dir="r"] { background: color-mix(in srgb, var(--danger) 55%, var(--surface)); }
+.swipe-hint[data-dir="l"] .sh-l, .swipe-hint[data-dir="r"] .sh-r { opacity: .8; }
+.swipe-hint.armed[data-dir="l"] { background: var(--ok); }
+.swipe-hint.armed[data-dir="r"] { background: var(--danger); }
+.swipe-hint.armed span { opacity: 1; }
+
+/* ---------- wall display ---------- */
+html.wall body { font-size: 16px; }
+html.wall .top h1 { font-size: 30px; }
