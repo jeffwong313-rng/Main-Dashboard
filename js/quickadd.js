@@ -6,12 +6,12 @@ const QA = [
   { k: 'notes', label: 'Note', ph: 'Jot something down', add: t => data.notes.unshift({ id: uid(), t: t.trim(), created: Date.now() }), wid: 'notes', to: 'Notes' },
   { k: 'events', label: 'Event', ph: 'What is happening?', add: (t, extra) => data.events.push({ id: uid(), t: t.trim(), tag: canonTag(extra.tag), date: extra.date || todayStr(), end: extra.end && extra.end > (extra.date || todayStr()) ? extra.end : '', time: extra.time || '', created: Date.now() }), wid: 'events', to: 'Upcoming', extra: true }
 ];
-function openQuickAdd(type) {
+function openQuickAdd(type, { voice = false } = {}) {
   type = type || lsGet(QA_KEY, 'todo'); if (!QA.some(q => q.k === type)) type = 'todo';
   openSheet(`<form class="qa" id="qa"><div class="seg" role="radiogroup" aria-label="What to add">${QA.map(q => `<label><input type="radio" name="type" value="${q.k}"${q.k === type ? ' checked' : ''}><span>${q.label}</span></label>`).join('')}</div>
-    <textarea name="t" rows="2" class="form-ta" style="background:var(--field);border:1px solid transparent;border-radius:14px;padding:12px;font-size:16px"></textarea>
+    <textarea name="t" rows="2" class="form-ta" style="background:var(--field);border:1px solid transparent;border-radius:14px;padding:12px;font-size:calc(16px * var(--fs))"></textarea>
     <div class="extra" hidden><input type="date" name="date" aria-label="From date"><input type="date" name="end" aria-label="To date (optional)" title="To date (optional)"><input type="time" name="time" aria-label="Time"><input name="tag" list="eventTags" maxlength="24" placeholder="Tag (optional)" aria-label="Tag"></div>
-    <div class="actions"><button class="btn" type="button" data-close>Done</button><button class="btn primary" type="submit">Add</button></div>
+    <div class="actions">${voiceBtnHtml()}<span class="spacer"></span><button class="btn" type="button" data-close>Done</button><button class="btn primary" type="submit">Add</button></div>
     <ul class="qa-log" aria-live="polite"></ul></form>`,
     {
       title: 'Quick add', cls: 'top', onOpen(b) {
@@ -26,7 +26,7 @@ function openQuickAdd(type) {
           const li = document.createElement('li'); li.innerHTML = `<b>${icon('check')}</b>${esc(v.trim().split('\n')[0].slice(0, 60))} added to ${q.to}`; li.firstChild.style.display = 'inline-flex'; li.firstChild.style.verticalAlign = 'middle'; log.prepend(li);
           ta.value = ''; ta.focus(); if (navigator.vibrate) navigator.vibrate(8);
         });
-        sync(); ta.focus();
+        sync(); bindVoice(f, ta, { auto: voice }); if (!voice) ta.focus();
       }
     });
 }

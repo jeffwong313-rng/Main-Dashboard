@@ -29,6 +29,7 @@ fetch('layout.default.json?t=' + Date.now(), { cache: 'no-store' }).then(r => r.
 loadFeed(); loadNews();
 setSyncState(sync.state === 'off' ? 'off' : 'ok');
 if (sync.token) { lastPull = Date.now(); syncNow(); }
-if (new URLSearchParams(location.search).has('add')) setTimeout(() => openQuickAdd(), 50);
+const qs = new URLSearchParams(location.search);
+if (qs.has('add') || qs.has('voice')) setTimeout(() => openQuickAdd(undefined, { voice: qs.has('voice') }), 50);
 if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) navigator.serviceWorker.register('sw.js').catch(() => { });
 window.__hd = { get data() { return data; } }; // handy for debugging in the console

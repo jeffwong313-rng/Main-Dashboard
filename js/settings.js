@@ -4,8 +4,8 @@ function openSettings() {
   const pref = lsGet(THEME_KEY, 'auto');
   openSheet(`<div class="form">
     <label>Your name <small>used in the greeting</small><input type="text" id="setName" value="${esc(data.settings.name)}" placeholder="Optional" autocomplete="given-name"></label>
-    <div><div class="muted" style="font-weight:650;font-size:14px;margin-bottom:6px;color:var(--text)">Theme</div><div class="seg" id="setTheme">${['auto', 'light', 'dark'].map(t => `<label><input type="radio" name="theme" value="${t}"${pref === t ? ' checked' : ''}><span>${t[0].toUpperCase() + t.slice(1)}</span></label>`).join('')}</div></div>
-    <div><div class="muted" style="font-weight:650;font-size:14px;margin-bottom:6px;color:var(--text)">Temperature</div><div class="seg" id="setUnits">${[['f', '°F'], ['c', '°C']].map(([v, l]) => `<label><input type="radio" name="units" value="${v}"${data.settings.units === v ? ' checked' : ''}><span>${l}</span></label>`).join('')}</div></div>
+    <div><div class="muted" style="font-weight:650;font-size:calc(14px * var(--fs));margin-bottom:6px;color:var(--text)">Theme</div><div class="seg" id="setTheme">${['auto', 'light', 'dark'].map(t => `<label><input type="radio" name="theme" value="${t}"${pref === t ? ' checked' : ''}><span>${t[0].toUpperCase() + t.slice(1)}</span></label>`).join('')}</div></div>
+    <div><div class="muted" style="font-weight:650;font-size:calc(14px * var(--fs));margin-bottom:6px;color:var(--text)">Temperature</div><div class="seg" id="setUnits">${[['f', '°F'], ['c', '°C']].map(([v, l]) => `<label><input type="radio" name="units" value="${v}"${data.settings.units === v ? ' checked' : ''}><span>${l}</span></label>`).join('')}</div></div>
   </div>
   ${deviceSettingsHtml()}
   <div class="set-group"><h3>Cards <small>turn on or off, nothing is deleted</small></h3>
@@ -14,15 +14,15 @@ function openSettings() {
   <div class="set-group"><h3>Layout for everyone <small>make this arrangement the starting layout on other devices</small></h3>
     <p>Arrange and hide cards how you like, then copy the layout code and send it to Claude to publish as the new default. Devices you have not customized pick it up automatically.</p>
     <div class="row2"><button class="btn" type="button" id="layCopy">Copy layout code</button><button class="btn" type="button" id="layReset">Use the shared layout here</button></div>
-    <textarea id="layCode" readonly hidden rows="4" style="width:100%;margin-top:8px;font-size:12px" aria-label="Layout code"></textarea>
+    <textarea id="layCode" readonly hidden rows="4" style="width:100%;margin-top:8px;font-size:calc(12px * var(--fs))" aria-label="Layout code"></textarea>
   </div>
   <div class="set-group"><h3>Sync across devices</h3>
     <p>Keeps your dashboard identical on your phone, laptop and tablet using a private GitHub Gist (a hidden file in your own GitHub account). Create a token once, then paste it on each device.</p>
     <div class="status-line" id="syncStatus">${syncStatusHtml()}</div>
     ${sync.token ? `<div class="tokrow"><span class="muted">Token on this device</span><button type="button" class="tokbtn" id="tokShow" data-shown="0" title="Tap to reveal, tap again to copy">Reveal token</button></div>` : ''}
     ${sync.token ? `<div class="row2"><button class="btn primary" type="button" id="syncNow">Sync now</button><button class="btn danger" type="button" id="syncOff">Disconnect this device</button></div>` :
-      `<ol class="muted" style="margin:0 0 12px;padding-left:20px;font-size:14px;line-height:1.5"><li>Open <a href="https://github.com/settings/tokens/new?scopes=gist&description=Home%20Dashboard" target="_blank" rel="noopener noreferrer" style="text-decoration:underline">GitHub token page</a> (classic token, only the <b>gist</b> box ticked).</li><li>Tap Generate token, copy it, and paste it below.</li></ol><div class="row2"><input type="password" id="tok" placeholder="Paste token" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="GitHub token"><button class="btn primary" type="button" id="syncOn">Connect</button></div>`}
-    <p style="margin-top:10px;font-size:13px">Latest change wins if two devices edit at once, so the app checks for updates whenever you come back to it. Keep passwords and card numbers out of this app.</p>
+      `<ol class="muted" style="margin:0 0 12px;padding-left:20px;font-size:calc(14px * var(--fs));line-height:1.5"><li>Open <a href="https://github.com/settings/tokens/new?scopes=gist&description=Home%20Dashboard" target="_blank" rel="noopener noreferrer" style="text-decoration:underline">GitHub token page</a> (classic token, only the <b>gist</b> box ticked).</li><li>Tap Generate token, copy it, and paste it below.</li></ol><div class="row2"><input type="password" id="tok" placeholder="Paste token" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="GitHub token"><button class="btn primary" type="button" id="syncOn">Connect</button></div>`}
+    <p style="margin-top:10px;font-size:calc(13px * var(--fs))">Latest change wins if two devices edit at once, so the app checks for updates whenever you come back to it. Keep passwords and card numbers out of this app.</p>
   </div>
   <div class="set-group"><h3>Your data</h3><div class="row2"><button class="btn" type="button" id="exp">Download backup</button><button class="btn" type="button" id="imp">Restore from backup</button><button class="btn" type="button" id="lockNow">Lock this device</button><input type="file" id="impFile" accept="application/json,.json" hidden></div></div>`,
     {

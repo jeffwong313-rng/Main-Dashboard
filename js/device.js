@@ -4,7 +4,7 @@
    view  auto -> phone when the window is narrow (or a landscape phone), otherwise the big-screen grid
    input auto -> follows whatever you last used (finger/pen vs mouse), so 2-in-1 laptops switch on their own */
 const DEV_KEY = 'hd.v1.device', PTAB_KEY = 'hd.v1.ptab', TIP_KEY = 'hd.v1.swipeTip';
-const devPrefs = Object.assign({ view: 'auto', input: 'auto', wall: false }, (() => { try { return JSON.parse(lsGet(DEV_KEY)) || {}; } catch { return {}; } })());
+const devPrefs = Object.assign({ view: 'auto', input: 'auto', text: 1, wall: false, saver: 'clock', saverMin: 5, night: true }, (() => { try { return JSON.parse(lsGet(DEV_KEY)) || {}; } catch { return {}; } })());
 const saveDev = () => lsSet(DEV_KEY, JSON.stringify(devPrefs));
 const mqCoarse = matchMedia('(pointer: coarse)');
 let lastPointer = mqCoarse.matches ? 'touch' : 'mouse';
@@ -20,6 +20,7 @@ function applyDevice() {
   const root = document.documentElement, ph = device.phone, t = device.touch;
   root.classList.toggle('view-phone', ph); root.classList.toggle('view-large', !ph);
   root.classList.toggle('touch', t); root.classList.toggle('mouse', !t);
+  root.style.setProperty('--fs', String(+devPrefs.text || 1));
   if (ph !== curPhone) { curPhone = ph; if (editing) setEditing(false); applyPhone(); }
   if (t && !lsGet(TIP_KEY) && document.querySelector('.card .rows > li.row')) { lsSet(TIP_KEY, '1'); setTimeout(() => toast('Tip: swipe a row right to finish it, left to delete it'), 1200); }
 }
@@ -167,48 +168,25 @@ const endSwipe = e => {
 document.addEventListener('pointerup', endSwipe);
 document.addEventListener('pointercancel', endSwipe);
 
-/* ---------- wall display: screen stays on, data stays fresh, idles back to the top ---------- */
-let wakeLock = null, wallTimer = 0, idleTimer = 0, wallDay = todayStr();
-async function wake() {
-  if (!devPrefs.wall || wakeLock || document.visibilityState !== 'visible' || !('wakeLock' in navigator)) return;
-  try { wakeLock = await navigator.wakeLock.request('screen'); wakeLock.addEventListener('release', () => { wakeLock = null; }); } catch { }
-}
-function wallTick() {
-  if (todayStr() !== wallDay) { wallDay = todayStr(); renderAll(); return; } // past midnight: new date, new "today" everywhere
-  renderHeader();
-}
-let wallRefresh = 0;
-function applyWall() {
-  document.documentElement.classList.toggle('wall', !!devPrefs.wall);
-  clearInterval(wallTimer); clearInterval(wallRefresh); clearTimeout(idleTimer);
-  if (!devPrefs.wall) { if (wakeLock) { wakeLock.release().catch(() => { }); wakeLock = null; } return; }
-  wake(); bumpIdle();
-  wallTimer = setInterval(wallTick, 60e3);
-  wallRefresh = setInterval(() => { loadWeather(true); loadDublin(true); loadNews(); pullIfStale(); }, 15 * 60e3);
-}
-function bumpIdle() {
-  if (!devPrefs.wall) return; clearTimeout(idleTimer);
-  idleTimer = setTimeout(() => {
-    const busy = sheet.open || editing || /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement && document.activeElement.tagName);
-    if (!busy) { scrollTo({ top: 0, behavior: 'smooth' }); $$('.card .body').forEach(b => { b.scrollTop = 0; }); if (curPhone && ptab !== 'home') setTab('home'); }
-    bumpIdle();
-  }, 3 * 60e3);
-}
-['pointerdown', 'keydown', 'wheel'].forEach(t => addEventListener(t, bumpIdle, { passive: true }));
-document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') { wake(); if (devPrefs.wall) wallTick(); } });
-
 /* ---------- Settings → This device ---------- */
 const deviceNow = () => `Right now: <b>${device.phone ? 'Phone view' : 'Big-screen view'}</b> with <b>${device.touch ? 'touch' : 'mouse'} controls</b>.`;
-const segHtml = (name, cur, opts) => `<div class="seg" data-dev="${name}">${opts.map(([v, l]) => `<label><input type="radio" name="dev-${name}" value="${v}"${cur === v ? ' checked' : ''}><span>${l}</span></label>`).join('')}</div>`;
+const segHtml = (name, cur, opts) => `<div class="seg" data-dev="${name}">${opts.map(([v, l]) => `<label><input type="radio" name="dev-${name}" value="${v}"${String(cur) === String(v) ? ' checked' : ''}><span>${l}</span></label>`).join('')}</div>`;
+const TEXT_SIZES = [[1, 'Normal'], [1.15, 'Large'], [1.3, 'Extra large']];
 function deviceSettingsHtml() {
   return `<div class="set-group"><h3>This device <small>only changes this screen, not your other devices</small></h3>
     <p id="devNow">${deviceNow()}</p>
     <div class="muted dev-lbl">Layout</div>${segHtml('view', devPrefs.view, [['auto', 'Auto'], ['phone', 'Phone'], ['large', 'Big screen']])}
     <div class="muted dev-lbl">Controls</div>${segHtml('input', devPrefs.input, [['auto', 'Auto'], ['touch', 'Touch'], ['mouse', 'Mouse']])}
-    <label class="swrow"><span>Wall display mode<small style="display:block;font-weight:500;color:var(--faint)">For a mounted tablet: keeps the screen on, refreshes weather and news, goes back to the top after 3 idle minutes.</small></span><input type="checkbox" role="switch" id="devWall"${devPrefs.wall ? ' checked' : ''}></label>
+    <div class="muted dev-lbl">Text size</div>${segHtml('text', devPrefs.text, TEXT_SIZES)}
+    ${wallSettingsHtml()}
   </div>`;
 }
 function bindDeviceSettings(b) {
-  $$('[data-dev]', b).forEach(g => g.addEventListener('change', e => { devPrefs[g.dataset.dev] = e.target.value; saveDev(); applyDevice(); $('#devNow', b).innerHTML = deviceNow(); }));
-  $('#devWall', b).addEventListener('change', e => { devPrefs.wall = e.target.checked; saveDev(); applyWall(); toast(devPrefs.wall ? ('wakeLock' in navigator ? 'Wall mode on. The screen will stay awake.' : 'Wall mode on. This browser cannot keep the screen awake, so set auto-lock to Never.') : 'Wall mode off'); });
+  $$('[data-dev]', b).forEach(g => g.addEventListener('change', e => {
+    const k = g.dataset.dev, v = e.target.value;
+    devPrefs[k] = k === 'text' || k === 'saverMin' ? parseFloat(v) : v; saveDev();
+    if (k in { view: 1, input: 1, text: 1 }) { applyDevice(); $('#devNow', b).innerHTML = deviceNow(); }
+    else applyWall();
+  }));
+  bindWallSettings(b);
 }
