@@ -52,7 +52,7 @@ function openSettings() {
           try { await navigator.clipboard.writeText(sync.token); toast('Token copied'); } catch { const r = document.createRange(); r.selectNodeContents(ts); const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r); toast('Select and copy the token'); }
         });
         const now = $('#syncNow', b); now && now.addEventListener('click', () => { lastPull = Date.now(); syncNow(); });
-        const off = $('#syncOff', b); off && off.addEventListener('click', () => { if (!confirm('Disconnect this device? Your data stays here and in the cloud copy.')) return; sync = { token: '', gistId: '', last: 0, state: 'off', err: '' }; saveSyncCfg(); setSyncState('off'); sheet.close(); toast('Disconnected'); });
+        const off = $('#syncOff', b); off && off.addEventListener('click', () => { if (!confirm('Disconnect this device? Your data stays here and in the cloud copy.')) return; sync = { token: '', gistId: '', last: 0, state: 'off', err: '' }; saveSyncCfg(); try { localStorage.removeItem(BASE_KEY); } catch { } setSyncState('off'); sheet.close(); toast('Disconnected'); });
         $('#exp', b).addEventListener('click', () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' })); a.download = `home-dashboard-${todayStr()}.json`; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 2000); });
         $('#lockNow', b).addEventListener('click', () => { try { localStorage.removeItem(AUTH_KEY); } catch { } location.reload(); });
         $('#imp', b).addEventListener('click', () => $('#impFile', b).click());

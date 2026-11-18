@@ -99,9 +99,9 @@ function openPhoneArrange() {
     title: 'Arrange phone tabs', onOpen(b) {
       draw(b);
       const move = (id, dir) => {
-        const ord = phoneOrder(), tab = phoneTabOf(id), same = ord.filter(x => phoneTabOf(x) === tab), i = same.indexOf(id), j = i + dir;
-        if (j < 0 || j >= same.length) return;
-        const a = ord.indexOf(id), z = ord.indexOf(same[j]); [ord[a], ord[z]] = [ord[z], ord[a]];
+        const ord = phoneOrder(), tab = phoneTabOf(id), peers = ord.filter(x => phoneTabOf(x) === tab), i = peers.indexOf(id), j = i + dir;
+        if (j < 0 || j >= peers.length) return;
+        const a = ord.indexOf(id), z = ord.indexOf(peers[j]); [ord[a], ord[z]] = [ord[z], ord[a]];
         phoneCfg().order = ord; save(); applyPhone(); draw(b);
         const btn = $(`.pa-row[data-id="${id}"] [data-pa="${dir < 0 ? 'up' : 'down'}"]`, b); btn && !btn.disabled && btn.focus();
       };

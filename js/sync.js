@@ -4,6 +4,10 @@ const FILE = 'main-dashboard.json';
 let sync = Object.assign({ token: '', gistId: '', last: 0, state: 'off', err: '' }, (() => { try { return JSON.parse(lsGet(SYNC_KEY)) || {}; } catch { return {}; } })());
 const saveSyncCfg = () => lsSet(SYNC_KEY, JSON.stringify(sync));
 let syncing = false, syncQueued = false, syncTimer = 0;
+// the copy this device and the cloud last agreed on; lets sync merge item by item instead of "newest file wins"
+const BASE_KEY = 'hd.v1.syncBase';
+const loadBase = () => { try { return JSON.parse(lsGet(BASE_KEY)); } catch { return null; } };
+const saveBase = d => { if (!lsSet(BASE_KEY, JSON.stringify(d))) { try { localStorage.removeItem(BASE_KEY); } catch { } } };
 const hasData = d => ['todos', 'shop', 'notes', 'recipes', 'watch', 'events', 'chores', 'bills', 'links'].some(k => (d[k] || []).length) || Object.keys(d.meals || {}).length > 0;
 function setSyncState(s, err = '') { sync.state = sync.token ? s : 'off'; sync.err = err; $('#syncDot').dataset.s = sync.state; const el = $('#syncStatus'); if (el) el.innerHTML = syncStatusHtml(); }
 function syncStatusHtml() {
@@ -23,20 +27,29 @@ async function syncNow({ first = false } = {}) {
   syncing = true; setSyncState('syncing');
   try {
     if (!sync.gistId) { const list = await gh('/gists?per_page=100'); const g = list.find(x => x.files && x.files[FILE]); if (g) sync.gistId = g.id; }
-    const push = async () => { await gh('/gists/' + sync.gistId, { method: 'PATCH', body: JSON.stringify({ files: { [FILE]: { content: JSON.stringify(data) } } }) }); };
+    const push = async (d = data) => { await gh('/gists/' + sync.gistId, { method: 'PATCH', body: JSON.stringify({ files: { [FILE]: { content: JSON.stringify(d) } } }) }); };
+    const snap = JSON.stringify(data); // this device as it was when the sync started
     if (!sync.gistId) {
       const g = await gh('/gists', { method: 'POST', body: JSON.stringify({ description: 'Home Dashboard data (managed by the app, safe to ignore)', public: false, files: { [FILE]: { content: JSON.stringify(data) } } }) });
-      sync.gistId = g.id;
+      sync.gistId = g.id; saveBase(data);
     } else {
       const g = await gh('/gists/' + sync.gistId); const f = g.files && g.files[FILE]; let text = f && f.content;
       if (f && f.truncated) text = await (await fetch(f.raw_url)).text();
       let remote = null; try { remote = JSON.parse(text); } catch { }
-      if (!remote || remote.v !== 1) await push();
+      if (!remote || remote.v !== 1) { await push(); saveBase(data); }
       else if (first && hasData(data) && hasData(remote)) {
-        if (confirm('Found your dashboard in the cloud.\n\nOK: use the cloud copy on this device (replaces what is here).\nCancel: keep this device and overwrite the cloud copy.')) adopt(remote); else await push();
+        if (confirm('Found your dashboard in the cloud.\n\nOK: use the cloud copy on this device (replaces what is here).\nCancel: keep this device and overwrite the cloud copy.')) { adopt(remote); saveBase(remote); } else { await push(); saveBase(data); }
       }
-      else if (remote.updated > data.updated) adopt(remote);
-      else if (remote.updated < data.updated) await push();
+      else {
+        const base = loadBase();
+        // no agreed copy yet (first sync after this update): fall back once to "newest wins" so nothing deleted comes back
+        let merged = base ? normalize(mergeData(base, JSON.parse(snap), remote)) : remote.updated > data.updated ? normalize(remote) : JSON.parse(snap);
+        // anything typed while we were talking to GitHub is merged on top, and sent on the next pass
+        if (JSON.stringify(data) !== snap) { merged = normalize(mergeData(JSON.parse(snap), data, merged)); syncQueued = true; }
+        if (!same(merged, remote)) await push(merged);
+        saveBase(merged);
+        if (!same(merged, data)) { const fromCloud = !same(merged, JSON.parse(snap)); adopt(merged); if (fromCloud && !syncQueued) toast('Updated with changes from another device'); }
+      }
     }
     sync.last = Date.now(); saveSyncCfg(); setSyncState('ok');
   } catch (e) {
