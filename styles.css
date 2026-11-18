@@ -711,3 +711,12 @@ html.wall .top h1 { font-size: calc(30px * var(--fs)); }
 .btn.mic.on { background: var(--danger); color: #fff; animation: micPulse 1.2s ease-in-out infinite; }
 @keyframes micPulse { 50% { box-shadow: 0 0 0 8px color-mix(in srgb, var(--danger) 25%, transparent); } }
 .qa .actions { align-items: center; }
+
+/* ---------- add a device / sign out ---------- */
+.pair { display: grid; gap: 12px; }
+.pair-qr { background: #fff; border-radius: 18px; padding: 10px; width: min(300px, 78vw); aspect-ratio: 1; margin: 4px auto; display: grid; place-items: center; box-shadow: inset 0 0 0 1px rgba(0,0,0,.08); }
+.pair-qr svg { width: 100%; height: 100%; display: block; }
+.pair-btns { justify-content: center; }
+.pair-note { margin: 0; font-size: calc(13px * var(--fs)); line-height: 1.45; }
+.signout { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line); display: grid; gap: 6px; justify-items: start; }
+.signout small { color: var(--faint); font-weight: 500; font-size: calc(13px * var(--fs)); }

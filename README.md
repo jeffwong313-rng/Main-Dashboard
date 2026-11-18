@@ -48,6 +48,7 @@ The logic lives in `js/`. These are plain scripts with no build step, loaded in 
 | `device.js` | phone or big-screen view, touch or mouse, text size, swipes |
 | `wall.js` | wall display mode, screensaver, night mode |
 | `theme.js`, `merge.js`, `sync.js`, `settings.js` | theme, sync merge, Gist sync, Settings |
+| `pair.js`, `vendor/qrcode.js` | Add a device (QR code / link) and Sign out this device; QR library by Kazuhiko Arase, MIT |
 | `boot.js` | password gate and start-up |
 
 ## News widget
@@ -118,3 +119,13 @@ With Wall display mode on, Settings shows these options:
 - **Screensaver** (Off, Clock or Photos) starts after 2, 5, 10 or 30 idle minutes. It shows a large clock, the date, the weather and the next event. Tap anywhere to close it; that tap doesn't press anything underneath.
 - **Photos:** tap **Add photos** on the tablet to pick pictures from its gallery. They are resized to screen size and kept on that tablet only, so they are never synced or uploaded.
 - **Night mode** (10 PM to 6 AM) switches to the dark theme and shows a dim clock instead of photos.
+
+## Adding a device / signing out
+
+**Add a device:** on any device that already syncs, open Settings → Sync → **Add a device**. On the new phone, tablet or computer, scan the QR code with the camera, or open the link (use **Send link** to text it). One tap sets it up: it unlocks, connects sync and pulls everything down, with no password or token to type. The key travels in the part of the link after `#`, which browsers never send to any website, and it's removed from the address bar and history right away.
+
+On iPhone and iPad, a home-screen app has storage separate from Safari. Add the dashboard to the home screen first, open it, then paste the link in Settings → Sync → **Set up from another device**.
+
+The code is a house key: anyone with it can see and change the dashboard. To cancel all links, delete the token on GitHub and connect one device again with a new token, then re-add the others.
+
+**Sign out this device** (Settings → This device) saves any last changes to the cloud, then removes the dashboard, its sync key, settings and screensaver photos from that browser and locks it again. Use it on a work computer you're leaving, or before giving away a phone. **Stop syncing on this device** (in Sync) disconnects sync but keeps the data here.

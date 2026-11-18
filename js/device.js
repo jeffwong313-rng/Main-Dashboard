@@ -179,6 +179,7 @@ function deviceSettingsHtml() {
     <div class="muted dev-lbl">Controls</div>${segHtml('input', devPrefs.input, [['auto', 'Auto'], ['touch', 'Touch'], ['mouse', 'Mouse']])}
     <div class="muted dev-lbl">Text size</div>${segHtml('text', devPrefs.text, TEXT_SIZES)}
     ${wallSettingsHtml()}
+    <div class="signout"><button class="btn danger" type="button" id="devSignOut">Sign out this device</button><small>Removes the dashboard, sync key and settings from this browser. Use it before handing on a computer or phone.</small></div>
   </div>`;
 }
 function bindDeviceSettings(b) {
@@ -189,4 +190,5 @@ function bindDeviceSettings(b) {
     else applyWall();
   }));
   bindWallSettings(b);
+  $('#devSignOut', b).addEventListener('click', () => { sheet.close(); setTimeout(signOutDevice, 150); });
 }
