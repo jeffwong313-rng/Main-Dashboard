@@ -1,28 +1,28 @@
 {
- "generated": "2026-11-18T19:31:45+00:00",
- "generatedLocal": "2026-11-18 11:31",
+ "generated": "2026-11-19T01:26:08+00:00",
+ "generatedLocal": "2026-11-18 17:26",
  "top": [
   {
-   "id": "as-overdose-deaths-fall-white-house-makes-misleading-claims",
-   "title": "As overdose deaths fall, White House makes misleading claims about who deserves credit",
-   "link": "https://www.npr.org/2026/11/18/nx-s1-6044209/drug-deaths-overdose-drop-trump-biden-fentanyl",
-   "source": "NPR National",
-   "topic": "U.S.",
-   "summary": "In a statement celebrating the historic drop in drug deaths, the White House pointed to successes since President Trump took office. In fact, the biggest progress happened under the Biden…",
-   "published": "2026-11-18T18:18:16+00:00",
+   "id": "anthropic-ipo-raises-record-81-3-billion-on-strong-ai-demand",
+   "title": "Anthropic IPO raises record $81.3 billion on strong AI demand",
+   "link": "https://www.npr.org/2026/11/18/nx-s1-6046212/anthropic-record-ipo-price",
+   "source": "NPR",
+   "topic": "Tech",
+   "summary": "The five-year-old artificial intelligence powerhouse priced its initial public offering at $83 a share, shrugging off growing concern about a possible AI bubble and volatility in tech…",
+   "published": "2026-11-18T23:54:56+00:00",
    "outlets": 1,
-   "score": 1.223
+   "score": 1.205
   },
   {
-   "id": "voyager-1-sets-distance-record-of-1-light-day-from-earth",
-   "title": "Voyager 1 sets distance record of 1 \"light day\" from Earth",
-   "link": "https://www.cbsnews.com/news/voyager-1-probe-light-day-earth-father-than-anything/",
+   "id": "u-s-issues-warning-for-americans-in-bahrain-after-new-irania",
+   "title": "U.S. issues warning for Americans in Bahrain after new Iranian attacks",
+   "link": "https://www.cbsnews.com/video/us-issues-warning-for-americans-in-bahrain-after-new-iranian-attacks/",
    "source": "CBS News",
-   "topic": "Science",
-   "summary": "Voyager 1 and its sister ship Voyager 2 are still beaming back data from interstellar space as they near their 50th anniversary next year.",
-   "published": "2026-11-18T19:19:35+00:00",
+   "topic": "U.S.",
+   "summary": "The U.S. is issuing a travel warning for American citizens visiting Bahrain as tensions with Iran once again escalate. CBS News' Charlie D'Agata has more.",
+   "published": "2026-11-19T01:18:50+00:00",
    "outlets": 1,
-   "score": 1.188
+   "score": 1.193
   },
   {
    "id": "inside-the-old-gas-pipeline-where-ukraine-is-fighting-an-und",
@@ -33,29 +33,117 @@
    "summary": "Watch: The BBC's Jonathan Beale joins Ukrainian forces taking the battle below ground and out of sight of Russian drones.",
    "published": "2026-11-18T17:00:40+00:00",
    "outlets": 1,
-   "score": 1.146
+   "score": 1.109
   },
   {
-   "id": "democrats-formally-nominate-hakeem-jeffries-for-speaker-of-t",
-   "title": "Democrats formally nominate Hakeem Jeffries for speaker of the House",
-   "link": "https://www.npr.org/2026/11/18/nx-s1-6043183/hakeem-jeffries-house-democrats-leadership-votes",
-   "source": "NPR Politics",
-   "topic": "Politics",
-   "summary": "The New York Democrat moved a step closer to becoming the first Black lawmaker in U.S. history to serve in the job, after House Democrats voted overwhelmingly to support him.",
-   "published": "2026-11-18T17:34:23+00:00",
-   "outlets": 2,
-   "score": 1.054
+   "id": "cma-awards-2026-the-complete-list-of-winners-updating",
+   "title": "CMA Awards 2026: The Complete List of Winners (Updating)",
+   "link": "https://variety.com/2026/music/news/cma-awards-winners-2026-complete-list-1236952628/",
+   "source": "Variety",
+   "topic": "Entertainment",
+   "summary": "The 60th annual CMA Awards show is being telecast live by ABC from Nashville’s Bridgestone Arena. Scroll down to see the 2026 winners as they are named over the course of the three-hour…",
+   "published": "2026-11-19T01:24:22+00:00",
+   "outlets": 1,
+   "score": 0.999
   },
   {
-   "id": "what-s-next-for-nvidia-whatever-doesn-t-rock-the-mind-boggli",
-   "title": "What’s next for Nvidia? Whatever doesn’t rock the mind-bogglingly profitable boat",
-   "link": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
+   "id": "no-1-florida-knocked-off-by-no-8-houston-dedan-thomas-jr-dro",
+   "title": "No. 1 Florida knocked off by No. 8 Houston: Dedan Thomas Jr. drops 30 points as Cougars play to strengths",
+   "link": "https://www.cbssports.com/college-basketball/news/florida-houston-players-era-dedan-thomas-jr-kelvin-sampson/",
+   "source": "CBS Sports",
+   "topic": "Sports",
+   "summary": "Top takeaways after No. 1 Florida goes down in the Players Era 8 semifinals. Kelvin Sampson's Cougars cranked up the heat in the second half to avenge the 2025 National Championship game…",
+   "published": "2026-11-19T00:36:45+00:00",
+   "outlets": 1,
+   "score": 0.96
+  },
+  {
+   "id": "san-francisco-health-plan-employees-cry-foul-over-alleged-re",
+   "title": "San Francisco Health Plan Employees Cry Foul Over Alleged Retaliation, Executive Pay",
+   "link": "https://ww2.kqed.org/news/2026/11/18/san-francisco-health-plan-employees-cry-foul-over-alleged-retaliation-executive-pay/",
+   "source": "KQED",
+   "topic": "Local",
+   "summary": "Several hundred workers allege they are facing retaliation for demanding transparency over executive pay and seeking stronger worker protections.",
+   "published": "2026-11-19T00:02:03+00:00",
+   "outlets": 1,
+   "score": 0.932
+  },
+  {
+   "id": "claude-maker-anthropic-poised-for-more-than-1-4tn-stock-mark",
+   "title": "Claude-maker Anthropic poised for more than $1.4tn stock market debut",
+   "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Business",
+   "topic": "Economy",
+   "summary": "Anthropic started just five years ago an is now one of the biggest names in artificial intelligence.",
+   "published": "2026-11-18T23:44:27+00:00",
+   "outlets": 1,
+   "score": 0.919
+  },
+  {
+   "id": "as-overdose-deaths-fall-white-house-makes-misleading-claims",
+   "title": "As overdose deaths fall, White House makes misleading claims about who deserves credit",
+   "link": "https://www.npr.org/2026/11/18/nx-s1-6044209/drug-deaths-overdose-drop-trump-biden-fentanyl",
+   "source": "NPR National",
+   "topic": "U.S.",
+   "summary": "In a statement celebrating the historic drop in drug deaths, the White House pointed to successes since President Trump took office. In fact, the biggest progress happened under the Biden…",
+   "published": "2026-11-18T18:18:16+00:00",
+   "outlets": 1,
+   "score": 0.91
+  },
+  {
+   "id": "ted-cruz-led-committee-approves-trump-fcc-nominee-15-0-as-de",
+   "title": "Ted Cruz-led committee approves Trump FCC nominee 15-0 as Democrats boycott vote",
+   "link": "https://arstechnica.com/tech-policy/2026/11/ted-cruz-led-committee-approves-trump-fcc-nominee-15-0-as-democrats-boycott-vote/",
+   "source": "Ars Technica",
+   "topic": "Tech",
+   "summary": "Democrats try to prevent quorum, say Thumann lied about not working on media issues.",
+   "published": "2026-11-18T23:25:04+00:00",
+   "outlets": 1,
+   "score": 0.904
+  },
+  {
+   "id": "the-nation-s-largest-school-districts-consider-ditching-goog",
+   "title": "The nation’s largest school districts consider ditching Google Search",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
    "source": "The Verge",
    "topic": "Tech",
-   "summary": "If someone handed you $8,300 every second, what would you do? That's how much pure profit Nvidia now makes. By the time you finish reading this paragraph, Nvidia will likely have cleared…",
-   "published": "2026-11-18T19:29:43+00:00",
+   "summary": "New York, Los Angeles, and Chicago schools are considering Google alternatives after the company said it will disable Search for schools that opt out of its AI features, according to The…",
+   "published": "2026-11-18T23:18:35+00:00",
    "outlets": 1,
-   "score": 0.998
+   "score": 0.899
+  },
+  {
+   "id": "democratic-strategists-think-montana-house-race-could-hold-t",
+   "title": "Democratic strategists think Montana House race could hold the secret to future wins",
+   "link": "https://www.npr.org/2026/11/18/nx-s1-6032798-e1/democratic-strategists-think-montana-house-race-could-hold-the-secret-to-future-wins",
+   "source": "NPR Politics",
+   "topic": "Politics",
+   "summary": "Montana is sending a Democrat to the U.S. House for the first time in three decades. Many in the party think Sam Forstag's campaign may be a playbook for how Democrats can win again in…",
+   "published": "2026-11-18T21:53:07+00:00",
+   "outlets": 1,
+   "score": 0.837
+  },
+  {
+   "id": "mcdonald-s-sex-abuse-they-were-waiting-for-the-younger-girls",
+   "title": "McDonald's sex abuse: 'They were waiting for the younger girls to turn 18'",
+   "link": "https://www.bbc.co.uk/news/articles/c6x2eve321jno?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Business",
+   "topic": "Economy",
+   "summary": "A former McDonald's worker calls on the firm to “change the way they treat younger employees” as a judge rules a legal case against the chain can go ahead.",
+   "published": "2026-11-19T00:00:59+00:00",
+   "outlets": 1,
+   "score": 0.835
+  },
+  {
+   "id": "some-americans-stocking-up-on-supplies-after-wave-of-major-t",
+   "title": "Some Americans stocking up on supplies after wave of major tech outages",
+   "link": "https://www.cbsnews.com/video/some-americans-stocking-up-on-supplies-after-wave-of-major-tech-outages/",
+   "source": "CBS News",
+   "topic": "U.S.",
+   "summary": "Some Americans are stocking up on food and supplies after the recent wave of tech outages that hit several American companies and the federal government. Officials have said there is no…",
+   "published": "2026-11-19T01:07:32+00:00",
+   "outlets": 1,
+   "score": 0.815
   },
   {
    "id": "fed-officials-expect-more-rate-hikes-worry-about-ai-impact-o",
@@ -64,53 +152,20 @@
    "source": "CNBC Finance",
    "topic": "Finance",
    "summary": "The Federal Reserve on Wednesday released minutes from its October policy meeting at which it voted to hold its benchmark interest rate in a range between 3.75%-4%.",
-   "published": "2026-11-18T19:26:32+00:00",
+   "published": "2026-11-18T19:41:59+00:00",
    "outlets": 1,
-   "score": 0.996
+   "score": 0.751
   },
   {
-   "id": "college-basketball-rankings-duke-plummets-in-updated-top-25",
-   "title": "College basketball rankings: Duke plummets in updated Top 25 And 1 after embarrassing home loss to Illinois",
-   "link": "https://www.cbssports.com/college-basketball/news/ncaa-top-25-and-1-rankings-duke-illinois-cameron-indoor-stadium-michigan-state/",
-   "source": "CBS Sports",
-   "topic": "Sports",
-   "summary": "The Fighting Illini handed the Blue Devils their second loss of the season in convincing fashion",
-   "published": "2026-11-18T19:23:32+00:00",
-   "outlets": 1,
-   "score": 0.993
-  },
-  {
-   "id": "african-tv-giant-primedia-acquires-the-africa-channel-and-as",
-   "title": "African TV Giant Primedia Acquires The Africa Channel and Assets, Expanding its Reach Across the Continent and in U.S.",
-   "link": "https://variety.com/2026/tv/news/primedia-africa-channel-paula-madison-narendra-reddy-1236952164/",
-   "source": "Variety",
-   "topic": "Entertainment",
-   "summary": "Primedia, Africa’s leading producer and distributor of television content, has acquired The Africa Channel, one of the few Black-owned U.S. media companies dedicated to creating content…",
-   "published": "2026-11-18T19:21:36+00:00",
-   "outlets": 1,
-   "score": 0.992
-  },
-  {
-   "id": "muse-privacy-invasions-are-freaking-out-meta-staffers-intern",
-   "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
-   "link": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
-   "source": "Ars Technica",
-   "topic": "Tech",
-   "summary": "Erratic Muse outputs sharing random bank, Bitcoin balances aren’t real, Meta says.",
-   "published": "2026-11-18T19:19:33+00:00",
-   "outlets": 1,
-   "score": 0.99
-  },
-  {
-   "id": "california-universities-ramp-up-response-to-immigration-arre",
-   "title": "California Universities Ramp Up Response to Immigration Arrests",
-   "link": "https://ww2.kqed.org/news/2026/11/18/california-universities-ramp-up-response-to-immigration-arrests/",
-   "source": "KQED",
-   "topic": "Local",
-   "summary": "The high-profile arrests of two women tied to local universities have tested campus administrations.",
-   "published": "2026-11-18T18:16:19+00:00",
-   "outlets": 1,
-   "score": 0.939
+   "id": "democrats-formally-nominate-hakeem-jeffries-for-speaker-of-t",
+   "title": "Democrats formally nominate Hakeem Jeffries for speaker of the House",
+   "link": "https://www.npr.org/2026/11/18/nx-s1-6043183/hakeem-jeffries-house-democrats-leadership-votes",
+   "source": "NPR Politics",
+   "topic": "Politics",
+   "summary": "The New York Democrat moved a step closer to becoming the first Black lawmaker in U.S. history to serve in the job, after House Democrats voted overwhelmingly to support him.",
+   "published": "2026-11-18T21:13:06+00:00",
+   "outlets": 2,
+   "score": 0.75
   },
   {
    "id": "karl-kani-dressed-hip-hop-royalty-for-decades-now-he-s-telli",
@@ -121,7 +176,29 @@
    "summary": "On NPR's Morning Edition , fashion designer Karl Kani talks about his new memoir, dressing some of hip-hop's biggest stars and why skinny jeans aren't for everyone.",
    "published": "2026-11-18T18:15:59+00:00",
    "outlets": 1,
-   "score": 0.939
+   "score": 0.699
+  },
+  {
+   "id": "jason-blum-and-james-wan-discuss-why-horror-is-hollywood-s-h",
+   "title": "Jason Blum and James Wan Discuss Why Horror Is Hollywood’s Hottest Genre and How ‘Obsession’ Hit Big at Blumhouse Atomic’s Business of Fear",
+   "link": "https://variety.com/2026/film/news/jason-blum-james-wan-obsession-blumhouse-atomic-1236952472/",
+   "source": "Variety",
+   "topic": "Entertainment",
+   "summary": "Blumhouse Atomic bosses Jason Blum and James Wan took a victory lap Wednesday at their Business of Fear panel, during which they discussed horror’s banner year at the box office and why…",
+   "published": "2026-11-19T01:18:14+00:00",
+   "outlets": 1,
+   "score": 0.685
+  },
+  {
+   "id": "vanessa-bryant-widow-of-kobe-reportedly-teaming-up-with-pau",
+   "title": "Vanessa Bryant, widow of Kobe, reportedly teaming up with Pau Gasol to bid on WNBA's Sparks",
+   "link": "https://www.cbssports.com/wnba/news/vanessa-bryant-pau-gasol-los-angeles-sparks-bid-wnba/",
+   "source": "CBS Sports",
+   "topic": "Sports",
+   "summary": "Los Angeles basketball royalty could be involved in a bid on the WNBA franchise",
+   "published": "2026-11-19T00:32:32+00:00",
+   "outlets": 1,
+   "score": 0.66
   },
   {
    "id": "the-sandpaper-plot-who-was-there-who-said-what",
@@ -132,7 +209,7 @@
    "summary": "As Cameron Bancroft's explosive allegations raise more questions about the sandpaper scandal, BBC Sport looks at who was there and what they have said since.",
    "published": "2026-11-18T16:13:04+00:00",
    "outlets": 1,
-   "score": 0.847
+   "score": 0.631
   },
   {
    "id": "trump-shakes-hands-with-putin-and-xi-ahead-of-historic-talks",
@@ -143,143 +220,145 @@
    "summary": "The three leaders will meet together for the first time on Thursday during a closely-watched summit.",
    "published": "2026-11-18T16:10:44+00:00",
    "outlets": 1,
-   "score": 0.846
+   "score": 0.629
   },
   {
-   "id": "democrats-nominate-hakeem-jeffries-to-be-us-speaker-of-the-h",
-   "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
-   "link": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC World",
-   "topic": "World",
-   "summary": "The nomination sets him on the path to become the first black lawmaker to lead the chamber when Democrats take control of the House in January.",
-   "published": "2026-11-18T19:15:36+00:00",
-   "outlets": 2,
-   "score": 0.82
-  },
-  {
-   "id": "epstein-s-death-may-not-have-been-suicide-new-analysis-sugge",
-   "title": "Epstein's death may not have been suicide, new analysis suggests",
-   "link": "https://www.cbsnews.com/news/jeffrey-epstein-death-suicide-forensics-expert-analysis/",
+   "id": "south-florida-hit-with-over-15-inches-of-rain",
+   "title": "South Florida hit with over 15 inches of rain",
+   "link": "https://www.cbsnews.com/video/south-florida-hit-with-over-15-inches-of-rain/",
    "source": "CBS News",
    "topic": "U.S.",
-   "summary": "Forensics expert Dr. Michael Freeman says multiple images and overlooked details about Jeffrey Epstein's death contradict the conclusion that he died by suicide.",
-   "published": "2026-11-18T19:16:47+00:00",
+   "summary": "Heavy rainfall has swamped roads, cars and homes in South Florida over the past 24 hours. Rob Marciano has the story.",
+   "published": "2026-11-19T01:04:44+00:00",
    "outlets": 1,
-   "score": 0.817
+   "score": 0.62
   },
   {
-   "id": "the-drones-don-t-fly-here-bbc-reports-from-ukraine-s-new-fr",
-   "title": "'The drones don't fly here' - BBC reports from Ukraine's new front line",
-   "link": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC World",
-   "topic": "World",
-   "summary": "Ukrainian forces are fighting Russian troops in an old Soviet tunnel in the Kharkiv region.",
-   "published": "2026-11-18T17:00:04+00:00",
+   "id": "bay-area-storm-brings-5-inches-of-rain-high-winds-flight-del",
+   "title": "Bay Area Storm Brings 5 Inches of Rain, High Winds, Flight Delays and Power Outages",
+   "link": "https://ww2.kqed.org/news/2026/11/18/bay-area-storm-brings-5-inches-of-rain-high-winds-flight-delays-and-power-outages/",
+   "source": "KQED",
+   "topic": "Local",
+   "summary": "Bay Area communities face flooding, road closures and widespread outages as severe weather disrupts travel and commutes.",
+   "published": "2026-11-18T23:11:37+00:00",
    "outlets": 1,
-   "score": 0.79
+   "score": 0.617
   },
   {
-   "id": "bbc-correspondents-discuss-historic-trump-xi-and-putin-meeti",
-   "title": "BBC correspondents discuss historic Trump, Xi and Putin meeting",
-   "link": "https://www.bbc.co.uk/news/videos/cqp86k23d84ro?at_medium=RSS&at_campaign=rss",
-   "source": "BBC US & Canada",
-   "topic": "U.S.",
-   "summary": "The BBC’s Laura Bicker, Steve Rosenberg and Nada Tawfik explain everything you need to know ahead of the unprecedented trilateral meeting.",
-   "published": "2026-11-18T11:57:10+00:00",
-   "outlets": 2,
-   "score": 0.759
-  },
-  {
-   "id": "typical-energy-bill-forecast-to-go-up-by-443-a-year-from-jan",
-   "title": "Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again",
-   "link": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Business",
-   "topic": "Economy",
-   "summary": "Energy bills are expected to jump by 26% a year for a typical household as UK inflation hits its highest rate for a year.",
-   "published": "2026-11-18T13:17:06+00:00",
-   "outlets": 1,
-   "score": 0.732
-  },
-  {
-   "id": "fears-grow-that-us-will-put-nobel-winning-judge-under-sancti",
-   "title": "Fears grow that US will put Nobel-winning judge under sanctions after Myanmar genocide ruling",
-   "link": "https://www.theguardian.com/world/2026/nov/18/us-sanctions-icj-judges-myanmar-genocide-ruling-israel-gaza-court",
-   "source": "The Guardian",
-   "topic": "World",
-   "summary": "A ruling against Myanmar could set precedent for court’s judgment on Israel’s actions in Gaza Fears are growing that the US could impose sanctions on judges at the international court of…",
-   "published": "2026-11-18T09:58:28+00:00",
-   "outlets": 1,
-   "score": 0.682
-  },
-  {
-   "id": "college-football-score-predictions-for-week-12-2026-model-ba",
-   "title": "College football score predictions for Week 12, 2026: Model backs USC (-17.5) vs. Maryland",
-   "link": "https://www.cbssports.com/betting/news/college-football-score-predictions-picks-for-week-12-2026/",
-   "source": "CBS Sports",
-   "topic": "Sports",
-   "summary": "SportsLine's model has revealed its Week 12 college football score predictions for matchups such as Tennessee vs. LSU, Georgia vs. South Carolina and Texas Tech vs. Baylor",
-   "published": "2026-11-18T19:14:39+00:00",
-   "outlets": 1,
-   "score": 0.68
-  },
-  {
-   "id": "sony-s-impressive-bravia-8-ii-oled-hits-a-new-low-price-ahea",
-   "title": "Sony’s impressive Bravia 8 II OLED hits a new low price ahead of Black Friday",
-   "link": "https://www.theverge.com/gadgets/1036693/sony-bravia-8-ii-oled-black-friday-2026-deal-sale",
-   "source": "The Verge",
-   "topic": "Tech",
-   "summary": "Black Friday is a great time to save on a new OLED television for your winter movie nights. Though, it turns out that you can already get a great deal on the 65-inch Sony Bravia 8 II, one…",
-   "published": "2026-11-18T19:00:42+00:00",
-   "outlets": 1,
-   "score": 0.672
-  },
-  {
-   "id": "furious-creator-elizabeth-meriwether-to-receive-atx-tv-fest",
-   "title": "‘Furious’ Creator Elizabeth Meriwether to Receive ATX TV Festival’s 2027 Showrunner Award",
-   "link": "https://variety.com/2026/awards/news/furious-liz-meriwether-atx-tv-festival-showrunner-award-1236952111/",
-   "source": "Variety",
-   "topic": "Entertainment",
-   "summary": "Elizabeth Meriwether is set to receive the 2027 Showrunner Award at next year’s ATX Television Festival, Variety has learned. Meriwether will take part in a conversation onstage at the…",
-   "published": "2026-11-18T19:00:00+00:00",
-   "outlets": 1,
-   "score": 0.672
-  },
-  {
-   "id": "trump-admin-orders-kalshi-to-halt-wagers-on-what-words-trump",
-   "title": "Trump admin orders Kalshi to halt wagers on what words Trump will say",
-   "link": "https://arstechnica.com/tech-policy/2026/11/trump-admin-orders-kalshi-to-halt-wagers-on-what-words-trump-will-say/",
+   "id": "ukraine-blew-up-putin-s-bridge-using-relay-drones-to-bypass",
+   "title": "Ukraine blew up Putin’s bridge using relay drones to bypass Starlink limits",
+   "link": "https://arstechnica.com/gadgets/2026/11/ukraine-blew-up-putins-bridge-using-relay-drones-to-bypass-starlink-limits/",
    "source": "Ars Technica",
    "topic": "Tech",
-   "summary": "CFTC: Kalshi bets may violate US ban on contracts that can be easily manipulated.",
-   "published": "2026-11-18T18:46:08+00:00",
+   "summary": "Ukraine's strike used homegrown tech while adapting battlefield lessons from its adversary.",
+   "published": "2026-11-18T23:10:39+00:00",
    "outlets": 1,
-   "score": 0.664
+   "score": 0.616
   },
   {
-   "id": "grand-theft-auto-6-is-a-masterpiece-say-critics",
-   "title": "Grand Theft Auto 6 is a masterpiece, say critics",
-   "link": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Entertainment",
-   "topic": "Entertainment",
-   "summary": "Critics have their say as to whether GTA 6, the most anticipated video game of all time, lives up to the hype.",
-   "published": "2026-11-18T17:34:25+00:00",
+   "id": "democrats-skip-a-vote-on-adding-brendan-carr-s-adviser-to-th",
+   "title": "Democrats skip a vote on adding Brendan Carr’s adviser to the FCC",
+   "link": "https://www.theverge.com/policy/1037134/democrats-boycott-fcc-nomination-vote-danielle-thumann-severs",
+   "source": "The Verge",
+   "topic": "Tech",
+   "summary": "Senate commerce committee Chair Ted Cruz (R-TX) began a meeting Wednesday meant to confirm President Donald Trump's nominee to the Federal Communications Commission with a lopsided dais.…",
+   "published": "2026-11-18T22:05:48+00:00",
    "outlets": 1,
-   "score": 0.625
+   "score": 0.584
   },
   {
-   "id": "got-a-canceled-flight-7-clever-ways-to-get-rebooked-fast",
-   "title": "Got a canceled flight? 7 clever ways to get rebooked fast",
-   "link": "https://www.npr.org/2026/11/18/nx-s1-6045636/got-a-canceled-flight-7-clever-ways-to-get-rebooked-fast",
-   "source": "NPR National",
-   "topic": "U.S.",
-   "summary": "Flying somewhere for Thanksgiving or the holidays? Travel insiders explain what to do if your flight gets canceled or delayed — so you can quickly get to your destination.",
-   "published": "2026-11-18T17:10:44+00:00",
+   "id": "can-anthropic-s-record-breaking-ipo-stop-the-ai-bubble-burst",
+   "title": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
+   "link": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Business",
+   "topic": "Economy",
+   "summary": "Anthropic's hotly anticipated IPO is expected to put it in the top 10 most valuable US companies, but the future is uncertain.",
+   "published": "2026-11-18T21:28:08+00:00",
    "outlets": 1,
-   "score": 0.613
+   "score": 0.566
   }
  ],
  "topics": {
+  "Tech": [
+   {
+    "id": "anthropic-ipo-raises-record-81-3-billion-on-strong-ai-demand",
+    "title": "Anthropic IPO raises record $81.3 billion on strong AI demand",
+    "link": "https://www.npr.org/2026/11/18/nx-s1-6046212/anthropic-record-ipo-price",
+    "source": "NPR",
+    "topic": "Tech",
+    "summary": "The five-year-old artificial intelligence powerhouse priced its initial public offering at $83 a share, shrugging off growing concern about a possible AI bubble and volatility in tech…",
+    "published": "2026-11-18T23:54:56+00:00",
+    "outlets": 1,
+    "score": 1.205
+   },
+   {
+    "id": "ted-cruz-led-committee-approves-trump-fcc-nominee-15-0-as-de",
+    "title": "Ted Cruz-led committee approves Trump FCC nominee 15-0 as Democrats boycott vote",
+    "link": "https://arstechnica.com/tech-policy/2026/11/ted-cruz-led-committee-approves-trump-fcc-nominee-15-0-as-democrats-boycott-vote/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "Democrats try to prevent quorum, say Thumann lied about not working on media issues.",
+    "published": "2026-11-18T23:25:04+00:00",
+    "outlets": 1,
+    "score": 0.904
+   },
+   {
+    "id": "the-nation-s-largest-school-districts-consider-ditching-goog",
+    "title": "The nation’s largest school districts consider ditching Google Search",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "New York, Los Angeles, and Chicago schools are considering Google alternatives after the company said it will disable Search for schools that opt out of its AI features, according to The…",
+    "published": "2026-11-18T23:18:35+00:00",
+    "outlets": 1,
+    "score": 0.899
+   },
+   {
+    "id": "ukraine-blew-up-putin-s-bridge-using-relay-drones-to-bypass",
+    "title": "Ukraine blew up Putin’s bridge using relay drones to bypass Starlink limits",
+    "link": "https://arstechnica.com/gadgets/2026/11/ukraine-blew-up-putins-bridge-using-relay-drones-to-bypass-starlink-limits/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "Ukraine's strike used homegrown tech while adapting battlefield lessons from its adversary.",
+    "published": "2026-11-18T23:10:39+00:00",
+    "outlets": 1,
+    "score": 0.616
+   },
+   {
+    "id": "democrats-skip-a-vote-on-adding-brendan-carr-s-adviser-to-th",
+    "title": "Democrats skip a vote on adding Brendan Carr’s adviser to the FCC",
+    "link": "https://www.theverge.com/policy/1037134/democrats-boycott-fcc-nomination-vote-danielle-thumann-severs",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "Senate commerce committee Chair Ted Cruz (R-TX) began a meeting Wednesday meant to confirm President Donald Trump's nominee to the Federal Communications Commission with a lopsided dais.…",
+    "published": "2026-11-18T22:05:48+00:00",
+    "outlets": 1,
+    "score": 0.584
+   },
+   {
+    "id": "absolute-batman-can-save-dc-studios",
+    "title": "Absolute Batman can save DC Studios",
+    "link": "https://www.theverge.com/entertainment/1035722/absolute-batman-can-save-dc-studios",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "With James Gunn and Peter Safran out as the co-heads of DC Studios following Skydance's acquisition of Warner Bros. Discovery, it's unclear what will become of the cinematic universe that…",
+    "published": "2026-11-18T22:27:32+00:00",
+    "outlets": 1,
+    "score": 0.454
+   }
+  ],
   "U.S.": [
+   {
+    "id": "u-s-issues-warning-for-americans-in-bahrain-after-new-irania",
+    "title": "U.S. issues warning for Americans in Bahrain after new Iranian attacks",
+    "link": "https://www.cbsnews.com/video/us-issues-warning-for-americans-in-bahrain-after-new-iranian-attacks/",
+    "source": "CBS News",
+    "topic": "U.S.",
+    "summary": "The U.S. is issuing a travel warning for American citizens visiting Bahrain as tensions with Iran once again escalate. CBS News' Charlie D'Agata has more.",
+    "published": "2026-11-19T01:18:50+00:00",
+    "outlets": 1,
+    "score": 1.193
+   },
    {
     "id": "as-overdose-deaths-fall-white-house-makes-misleading-claims",
     "title": "As overdose deaths fall, White House makes misleading claims about who deserves credit",
@@ -289,7 +368,18 @@
     "summary": "In a statement celebrating the historic drop in drug deaths, the White House pointed to successes since President Trump took office. In fact, the biggest progress happened under the Biden…",
     "published": "2026-11-18T18:18:16+00:00",
     "outlets": 1,
-    "score": 1.223
+    "score": 0.91
+   },
+   {
+    "id": "some-americans-stocking-up-on-supplies-after-wave-of-major-t",
+    "title": "Some Americans stocking up on supplies after wave of major tech outages",
+    "link": "https://www.cbsnews.com/video/some-americans-stocking-up-on-supplies-after-wave-of-major-tech-outages/",
+    "source": "CBS News",
+    "topic": "U.S.",
+    "summary": "Some Americans are stocking up on food and supplies after the recent wave of tech outages that hit several American companies and the federal government. Officials have said there is no…",
+    "published": "2026-11-19T01:07:32+00:00",
+    "outlets": 1,
+    "score": 0.815
    },
    {
     "id": "trump-shakes-hands-with-putin-and-xi-ahead-of-historic-talks",
@@ -300,18 +390,18 @@
     "summary": "The three leaders will meet together for the first time on Thursday during a closely-watched summit.",
     "published": "2026-11-18T16:10:44+00:00",
     "outlets": 1,
-    "score": 0.846
+    "score": 0.629
    },
    {
-    "id": "epstein-s-death-may-not-have-been-suicide-new-analysis-sugge",
-    "title": "Epstein's death may not have been suicide, new analysis suggests",
-    "link": "https://www.cbsnews.com/news/jeffrey-epstein-death-suicide-forensics-expert-analysis/",
+    "id": "south-florida-hit-with-over-15-inches-of-rain",
+    "title": "South Florida hit with over 15 inches of rain",
+    "link": "https://www.cbsnews.com/video/south-florida-hit-with-over-15-inches-of-rain/",
     "source": "CBS News",
     "topic": "U.S.",
-    "summary": "Forensics expert Dr. Michael Freeman says multiple images and overlooked details about Jeffrey Epstein's death contradict the conclusion that he died by suicide.",
-    "published": "2026-11-18T19:16:47+00:00",
+    "summary": "Heavy rainfall has swamped roads, cars and homes in South Florida over the past 24 hours. Rob Marciano has the story.",
+    "published": "2026-11-19T01:04:44+00:00",
     "outlets": 1,
-    "score": 0.817
+    "score": 0.62
    },
    {
     "id": "bbc-correspondents-discuss-historic-trump-xi-and-putin-meeti",
@@ -322,64 +412,7 @@
     "summary": "The BBC’s Laura Bicker, Steve Rosenberg and Nada Tawfik explain everything you need to know ahead of the unprecedented trilateral meeting.",
     "published": "2026-11-18T11:57:10+00:00",
     "outlets": 2,
-    "score": 0.759
-   },
-   {
-    "id": "got-a-canceled-flight-7-clever-ways-to-get-rebooked-fast",
-    "title": "Got a canceled flight? 7 clever ways to get rebooked fast",
-    "link": "https://www.npr.org/2026/11/18/nx-s1-6045636/got-a-canceled-flight-7-clever-ways-to-get-rebooked-fast",
-    "source": "NPR National",
-    "topic": "U.S.",
-    "summary": "Flying somewhere for Thanksgiving or the holidays? Travel insiders explain what to do if your flight gets canceled or delayed — so you can quickly get to your destination.",
-    "published": "2026-11-18T17:10:44+00:00",
-    "outlets": 1,
-    "score": 0.613
-   },
-   {
-    "id": "largest-u-s-data-centers-use-as-much-power-as-some-countries",
-    "title": "Largest U.S. data centers use as much power as some countries",
-    "link": "https://www.cbsnews.com/news/hyperscale-data-centers-electricity-harvard-study/",
-    "source": "CBS News",
-    "topic": "U.S.",
-    "summary": "Hyperscale data centers used almost 2% of all U.S. electricity between 2024 and 2025, a Harvard study shows.",
-    "published": "2026-11-18T19:05:01+00:00",
-    "outlets": 1,
-    "score": 0.419
-   }
-  ],
-  "Science": [
-   {
-    "id": "voyager-1-sets-distance-record-of-1-light-day-from-earth",
-    "title": "Voyager 1 sets distance record of 1 \"light day\" from Earth",
-    "link": "https://www.cbsnews.com/news/voyager-1-probe-light-day-earth-father-than-anything/",
-    "source": "CBS News",
-    "topic": "Science",
-    "summary": "Voyager 1 and its sister ship Voyager 2 are still beaming back data from interstellar space as they near their 50th anniversary next year.",
-    "published": "2026-11-18T19:19:35+00:00",
-    "outlets": 1,
-    "score": 1.188
-   },
-   {
-    "id": "more-people-are-getting-the-flu-should-you-get-a-flu-shot-be",
-    "title": "More people are getting the flu. Should you get a flu shot before you travel?",
-    "link": "https://www.npr.org/2026/11/17/nx-s1-6043086/thanksgiving-travel-cold-flu-vaccine-shot-booster",
-    "source": "NPR Science",
-    "topic": "Science",
-    "summary": "Thanksgiving is just around the corner, just as millions of Americans are expected to travel for the holidays. Another thing that's upon us? Cold and flu season.",
-    "published": "2026-11-17T10:00:00+00:00",
-    "outlets": 1,
-    "score": 0.35
-   },
-   {
-    "id": "brain-cell-mapping-lays-groundwork-for-better-treatments-for",
-    "title": "Brain cell mapping lays groundwork for better treatments for conditions like dementia",
-    "link": "https://www.npr.org/2026/11/16/nx-s1-6038924/brain-cell-mapping-lays-groundwork-for-better-treatments-for-conditions-like-dementia",
-    "source": "NPR Science",
-    "topic": "Science",
-    "summary": "A major effort from brain researchers around the world has yielded a cellular atlas of the basal ganglia — structures key to learning and controlling motor skills.",
-    "published": "2026-11-16T23:48:15+00:00",
-    "outlets": 1,
-    "score": 0.241
+    "score": 0.565
    }
   ],
   "World": [
@@ -392,7 +425,7 @@
     "summary": "Watch: The BBC's Jonathan Beale joins Ukrainian forces taking the battle below ground and out of sight of Russian drones.",
     "published": "2026-11-18T17:00:40+00:00",
     "outlets": 1,
-    "score": 1.146
+    "score": 1.109
    },
    {
     "id": "karl-kani-dressed-hip-hop-royalty-for-decades-now-he-s-telli",
@@ -403,29 +436,7 @@
     "summary": "On NPR's Morning Edition , fashion designer Karl Kani talks about his new memoir, dressing some of hip-hop's biggest stars and why skinny jeans aren't for everyone.",
     "published": "2026-11-18T18:15:59+00:00",
     "outlets": 1,
-    "score": 0.939
-   },
-   {
-    "id": "democrats-nominate-hakeem-jeffries-to-be-us-speaker-of-the-h",
-    "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
-    "link": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "topic": "World",
-    "summary": "The nomination sets him on the path to become the first black lawmaker to lead the chamber when Democrats take control of the House in January.",
-    "published": "2026-11-18T19:15:36+00:00",
-    "outlets": 2,
-    "score": 0.82
-   },
-   {
-    "id": "the-drones-don-t-fly-here-bbc-reports-from-ukraine-s-new-fr",
-    "title": "'The drones don't fly here' - BBC reports from Ukraine's new front line",
-    "link": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "topic": "World",
-    "summary": "Ukrainian forces are fighting Russian troops in an old Soviet tunnel in the Kharkiv region.",
-    "published": "2026-11-18T17:00:04+00:00",
-    "outlets": 1,
-    "score": 0.79
+    "score": 0.699
    },
    {
     "id": "fears-grow-that-us-will-put-nobel-winning-judge-under-sancti",
@@ -436,314 +447,75 @@
     "summary": "A ruling against Myanmar could set precedent for court’s judgment on Israel’s actions in Gaza Fears are growing that the US could impose sanctions on judges at the international court of…",
     "published": "2026-11-18T09:58:28+00:00",
     "outlets": 1,
-    "score": 0.682
+    "score": 0.508
    },
    {
-    "id": "mary-peltola-flips-alaska-s-senate-seat-and-nvidia-won-t-rei",
-    "title": "Mary Peltola flips Alaska's Senate seat. And, Nvidia won't reinstate Jensen Huang",
-    "link": "https://www.npr.org/2026/11/18/g-s1-154145/up-first-newsletter-mary-peltola-alaska-trump-asia-nvidia-tech-issues-ai",
-    "source": "NPR World",
-    "topic": "World",
-    "summary": "Former Democratic Rep. Mary Peltola has won one of the U.S.' most watched Senate races. And, Nvidia's board says it doesn't plan to reinstate former CEO Jensen Huang despite pressure from…",
-    "published": "2026-11-18T12:14:28+00:00",
-    "outlets": 1,
-    "score": 0.479
-   }
-  ],
-  "Politics": [
-   {
-    "id": "democrats-formally-nominate-hakeem-jeffries-for-speaker-of-t",
-    "title": "Democrats formally nominate Hakeem Jeffries for speaker of the House",
-    "link": "https://www.npr.org/2026/11/18/nx-s1-6043183/hakeem-jeffries-house-democrats-leadership-votes",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "The New York Democrat moved a step closer to becoming the first Black lawmaker in U.S. history to serve in the job, after House Democrats voted overwhelmingly to support him.",
-    "published": "2026-11-18T17:34:23+00:00",
-    "outlets": 2,
-    "score": 1.054
-   },
-   {
-    "id": "trump-expected-to-press-xi-on-americans-detained-in-china",
-    "title": "Trump expected to press Xi on Americans detained in China",
-    "link": "https://www.cbsnews.com/news/trump-xi-detained-americans/",
-    "source": "CBS News",
-    "topic": "Politics",
-    "summary": "President Trump is expected to again press Chinese President Xi Jinping to release two Americans wrongfully detained in China when the leaders meet, their families say.",
-    "published": "2026-11-18T19:08:52+00:00",
-    "outlets": 1,
-    "score": 0.501
-   },
-   {
-    "id": "house-democrat-warns-13-trump-allies-to-save-their-records-f",
-    "title": "House Democrat warns 13 Trump allies to save their records for upcoming investigations",
-    "link": "https://www.npr.org/2026/11/18/g-s1-154147/robert-garcia-house-democrats-investigations-trump-administration",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "Among the recipients of letters from Robert Garcia, incoming chair of the House Oversight Committee, are Donald Trump Jr. and Eric Trump, Jared Kushner and White House Chief of Staff…",
-    "published": "2026-11-18T15:01:32+00:00",
-    "outlets": 1,
-    "score": 0.42
-   },
-   {
-    "id": "trump-lands-in-china-with-key-meetings-with-xi-and-putin-on",
-    "title": "Trump lands in China with key meetings with Xi and Putin on the agenda",
-    "link": "https://www.npr.org/2026/11/18/nx-s1-6045518/trump-china-xi-putin",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "Xi paid Trump a special honor by greeting him on the tarmac after Air Force One arrived in Shenzhen, reciprocating a gesture made by the U.S. president during Xi's visit to Washington in…",
-    "published": "2026-11-18T10:32:03+00:00",
-    "outlets": 1,
-    "score": 0.228
-   },
-   {
-    "id": "apec-summit-as-it-happened-xi-welcomes-trump-on-china-visit",
-    "title": "Apec summit as it happened: Xi welcomes Trump on China visit as Putin claims Europe in ‘humiliating decline’",
-    "link": "https://www.theguardian.com/world/live/2026/nov/18/apec-summit-live-updates-xi-putin-trump-world-leaders-gather-in-china",
+    "id": "florida-pastor-found-guilty-over-2021-assassination-of-haiti",
+    "title": "Florida pastor found guilty over 2021 assassination of Haitian president",
+    "link": "https://www.theguardian.com/us-news/2026/nov/18/florida-pastor-guilty-haiti-president-assassination",
     "source": "The Guardian",
-    "topic": "Politics",
-    "summary": "This blog is now closed, you can read more on this story here Yalta became a byword for betrayal. Will Trump, Xi and Putin enact another carve-up? That is the question the Guardian’s…",
-    "published": "2026-11-18T17:48:24+00:00",
-    "outlets": 1,
-    "score": 0.183
-   },
-   {
-    "id": "project-gryffindor-meta-s-plan-to-get-more-school-kids-using",
-    "title": "Project Gryffindor: Meta's plan to get more school kids using Instagram",
-    "link": "https://www.npr.org/2026/11/18/nx-s1-6037808/meta-instagram-schools-teens-safety",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "Meta said it launched its \"school partnership program\" to keep teens safe, but internal documents tell a different story.",
-    "published": "2026-11-18T10:00:00+00:00",
-    "outlets": 1,
-    "score": 0.168
-   }
-  ],
-  "Tech": [
-   {
-    "id": "what-s-next-for-nvidia-whatever-doesn-t-rock-the-mind-boggli",
-    "title": "What’s next for Nvidia? Whatever doesn’t rock the mind-bogglingly profitable boat",
-    "link": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "If someone handed you $8,300 every second, what would you do? That's how much pure profit Nvidia now makes. By the time you finish reading this paragraph, Nvidia will likely have cleared…",
-    "published": "2026-11-18T19:29:43+00:00",
-    "outlets": 1,
-    "score": 0.998
-   },
-   {
-    "id": "muse-privacy-invasions-are-freaking-out-meta-staffers-intern",
-    "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
-    "link": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "Erratic Muse outputs sharing random bank, Bitcoin balances aren’t real, Meta says.",
-    "published": "2026-11-18T19:19:33+00:00",
-    "outlets": 1,
-    "score": 0.99
-   },
-   {
-    "id": "sony-s-impressive-bravia-8-ii-oled-hits-a-new-low-price-ahea",
-    "title": "Sony’s impressive Bravia 8 II OLED hits a new low price ahead of Black Friday",
-    "link": "https://www.theverge.com/gadgets/1036693/sony-bravia-8-ii-oled-black-friday-2026-deal-sale",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "Black Friday is a great time to save on a new OLED television for your winter movie nights. Though, it turns out that you can already get a great deal on the 65-inch Sony Bravia 8 II, one…",
-    "published": "2026-11-18T19:00:42+00:00",
-    "outlets": 1,
-    "score": 0.672
-   },
-   {
-    "id": "trump-admin-orders-kalshi-to-halt-wagers-on-what-words-trump",
-    "title": "Trump admin orders Kalshi to halt wagers on what words Trump will say",
-    "link": "https://arstechnica.com/tech-policy/2026/11/trump-admin-orders-kalshi-to-halt-wagers-on-what-words-trump-will-say/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "CFTC: Kalshi bets may violate US ban on contracts that can be easily manipulated.",
-    "published": "2026-11-18T18:46:08+00:00",
-    "outlets": 1,
-    "score": 0.664
-   },
-   {
-    "id": "the-shameful-measles-data-that-lost-the-us-its-elimination-s",
-    "title": "The \"shameful\" measles data that lost the US its elimination status",
-    "link": "https://arstechnica.com/health/2026/11/the-shameful-measles-data-that-lost-the-us-its-elimination-status/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "Measles became endemic in the US months ago—and it's only accelerating.",
-    "published": "2026-11-18T18:30:23+00:00",
+    "topic": "World",
+    "summary": "Christian Emmanuel Sanon faces life in prison after conviction on charges arising from killing of Jovenel Moïse A Florida pastor with dual Haitian-American citizenship was convicted on…",
+    "published": "2026-11-18T23:52:36+00:00",
     "outlets": 2,
-    "score": 0.595
+    "score": 0.494
    },
    {
-    "id": "instagram-now-lets-you-edit-your-stories-after-you-post-them",
-    "title": "Instagram now lets you edit your stories after you post them",
-    "link": "https://www.theverge.com/tech/1036941/instagram-now-lets-you-edit-your-stories-after-you-post-them",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "Instagram's latest update will allow you to edit your Stories without losing your views, likes, or replies. You can now edit the text, music, stickers, and drawings for up to 15 minutes…",
-    "published": "2026-11-18T19:29:10+00:00",
+    "id": "myanmar-faces-historic-genocide-verdict-at-un-court-over-roh",
+    "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
+    "link": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "summary": "No state has ever been found guilty by an international court of committing genocide.",
+    "published": "2026-11-18T23:04:06+00:00",
     "outlets": 1,
-    "score": 0.525
-   }
-  ],
-  "Finance": [
-   {
-    "id": "fed-officials-expect-more-rate-hikes-worry-about-ai-impact-o",
-    "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
-    "link": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
-    "source": "CNBC Finance",
-    "topic": "Finance",
-    "summary": "The Federal Reserve on Wednesday released minutes from its October policy meeting at which it voted to hold its benchmark interest rate in a range between 3.75%-4%.",
-    "published": "2026-11-18T19:26:32+00:00",
-    "outlets": 1,
-    "score": 0.996
+    "score": 0.468
    },
    {
-    "id": "i-watched-trump-xi-and-putin-gather-in-china-here-are-my-top",
-    "title": "I watched Trump, Xi and Putin gather in China. Here are my top takeaways",
-    "link": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html",
-    "source": "CNBC Finance",
-    "topic": "Finance",
-    "summary": "U.S. President Donald Trump, Chinese President Xi Jinping and Russian President Vladimir Putin are expected to hold a rare trilateral meeting on Thursday.",
-    "published": "2026-11-18T16:14:10+00:00",
+    "id": "the-drones-don-t-fly-here-bbc-reports-from-ukraine-s-new-fr",
+    "title": "'The drones don't fly here' - BBC reports from Ukraine's new front line",
+    "link": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "summary": "Ukrainian forces are fighting Russian troops in an old Soviet tunnel in the Kharkiv region.",
+    "published": "2026-11-18T17:00:04+00:00",
     "outlets": 1,
-    "score": 0.585
-   },
-   {
-    "id": "tech-outages-are-causing-people-to-panic-buy-costco-is-benef",
-    "title": "Tech outages are causing people to panic-buy. Costco is benefiting, Mizuho says",
-    "link": "https://www.cnbc.com/2026/11/18/tech-outage-costco-panic-buying.html",
-    "source": "CNBC Finance",
-    "topic": "Finance",
-    "summary": "Shoppers are spending more at Costco as tech outages turn into a race to get emergency goods.",
-    "published": "2026-11-18T16:33:14+00:00",
-    "outlets": 1,
-    "score": 0.454
-   },
-   {
-    "id": "nvidia-has-lost-2-trillion-in-value-here-s-what-options-trad",
-    "title": "Nvidia has lost $2 trillion in value. Here's what options traders expect from earnings",
-    "link": "https://www.cnbc.com/2026/11/17/nvidia-has-lost-2-trillion-in-value-heres-what-options-traders-expect-from-earnings.html",
-    "source": "CNBC Investing",
-    "topic": "Finance",
-    "summary": "Nvidia options are pricing in a bigger move than usual.",
-    "published": "2026-11-17T13:16:43+00:00",
-    "outlets": 1,
-    "score": 0.35
-   },
-   {
-    "id": "fed-s-waller-says-central-bank-may-need-to-shock-people-with",
-    "title": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
-    "link": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
-    "source": "CNBC Finance",
-    "topic": "Finance",
-    "summary": "Continued inflation above the Fed's 2% target is pushing central bank officials into a more aggressive stance.",
-    "published": "2026-11-18T15:13:39+00:00",
-    "outlets": 1,
-    "score": 0.343
-   },
-   {
-    "id": "putin-says-eu-is-losing-industry-falling-behind-competition",
-    "title": "Putin says EU is losing industry, falling behind competition, ahead of meeting with Trump and Xi",
-    "link": "https://www.cnbc.com/2026/11/18/putin-apec-eu-trump-xi-meeting.html",
-    "source": "CNBC Finance",
-    "topic": "Finance",
-    "summary": "Putin used the speech to emphasize Russia's economic resilience despite U.S. sanctions, and played up opportunities for APEC members in the country.",
-    "published": "2026-11-18T08:29:35+00:00",
-    "outlets": 1,
-    "score": 0.206
-   }
-  ],
-  "Sports": [
-   {
-    "id": "college-basketball-rankings-duke-plummets-in-updated-top-25",
-    "title": "College basketball rankings: Duke plummets in updated Top 25 And 1 after embarrassing home loss to Illinois",
-    "link": "https://www.cbssports.com/college-basketball/news/ncaa-top-25-and-1-rankings-duke-illinois-cameron-indoor-stadium-michigan-state/",
-    "source": "CBS Sports",
-    "topic": "Sports",
-    "summary": "The Fighting Illini handed the Blue Devils their second loss of the season in convincing fashion",
-    "published": "2026-11-18T19:23:32+00:00",
-    "outlets": 1,
-    "score": 0.993
-   },
-   {
-    "id": "the-sandpaper-plot-who-was-there-who-said-what",
-    "title": "The sandpaper plot - who was there, who said what?",
-    "link": "https://www.bbc.co.uk/sport/cricket/articles/cqwy41w3zydgo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Sport",
-    "topic": "Sports",
-    "summary": "As Cameron Bancroft's explosive allegations raise more questions about the sandpaper scandal, BBC Sport looks at who was there and what they have said since.",
-    "published": "2026-11-18T16:13:04+00:00",
-    "outlets": 1,
-    "score": 0.847
-   },
-   {
-    "id": "college-football-score-predictions-for-week-12-2026-model-ba",
-    "title": "College football score predictions for Week 12, 2026: Model backs USC (-17.5) vs. Maryland",
-    "link": "https://www.cbssports.com/betting/news/college-football-score-predictions-picks-for-week-12-2026/",
-    "source": "CBS Sports",
-    "topic": "Sports",
-    "summary": "SportsLine's model has revealed its Week 12 college football score predictions for matchups such as Tennessee vs. LSU, Georgia vs. South Carolina and Texas Tech vs. Baylor",
-    "published": "2026-11-18T19:14:39+00:00",
-    "outlets": 1,
-    "score": 0.68
-   },
-   {
-    "id": "the-tightest-survival-scrap-for-years-why-it-s-not-too-early",
-    "title": "The tightest survival scrap for years? Why it's not too early to worry",
-    "link": "https://www.bbc.co.uk/sport/football/articles/cj3vgp36z063o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Sport",
-    "topic": "Sports",
-    "summary": "The Premier League resumes on Saturday with Crystal Palace, Sunderland and Man Utd in the relegation zone. But is it too early to be worried?",
-    "published": "2026-11-18T16:09:55+00:00",
-    "outlets": 1,
-    "score": 0.583
-   },
-   {
-    "id": "florida-vs-houston-prediction-odds-time-2026-players-era-8-p",
-    "title": "Florida vs. Houston prediction, odds, time: 2026 Players Era 8 picks for Nov. 18 by proven model",
-    "link": "https://www.cbssports.com/betting/news/florida-houston-prediction-odds-time-2026-players-era-8-college-basketball-picks-best-bets/",
-    "source": "CBS Sports",
-    "topic": "Sports",
-    "summary": "SportsLine model reveals its picks for the 2026 Players Era 8 college basketball semifinal showdown featuring the No. 1 Florida Gators and No. 8 Houston Cougars",
-    "published": "2026-11-18T19:10:41+00:00",
-    "outlets": 1,
-    "score": 0.517
-   },
-   {
-    "id": "sec-frustrated-over-lsu-s-rj-luis-boycotts-of-tigers-conside",
-    "title": "SEC frustrated over LSU's RJ Luis: Boycotts of Tigers considered if Will Wade puts ex-St. John's star on court",
-    "link": "https://www.cbssports.com/college-basketball/news/lsu-rj-luis-sec-boycott-will-wade-court-ruling-tigers-roster/",
-    "source": "CBS Sports",
-    "topic": "Sports",
-    "summary": "'I don't believe that it's hyperbole to say we will have boycotts,' one SEC source tells CBS Sports as Luis' saga continues",
-    "published": "2026-11-18T19:21:02+00:00",
-    "outlets": 1,
-    "score": 0.422
+    "score": 0.452
    }
   ],
   "Entertainment": [
    {
-    "id": "african-tv-giant-primedia-acquires-the-africa-channel-and-as",
-    "title": "African TV Giant Primedia Acquires The Africa Channel and Assets, Expanding its Reach Across the Continent and in U.S.",
-    "link": "https://variety.com/2026/tv/news/primedia-africa-channel-paula-madison-narendra-reddy-1236952164/",
+    "id": "cma-awards-2026-the-complete-list-of-winners-updating",
+    "title": "CMA Awards 2026: The Complete List of Winners (Updating)",
+    "link": "https://variety.com/2026/music/news/cma-awards-winners-2026-complete-list-1236952628/",
     "source": "Variety",
     "topic": "Entertainment",
-    "summary": "Primedia, Africa’s leading producer and distributor of television content, has acquired The Africa Channel, one of the few Black-owned U.S. media companies dedicated to creating content…",
-    "published": "2026-11-18T19:21:36+00:00",
+    "summary": "The 60th annual CMA Awards show is being telecast live by ABC from Nashville’s Bridgestone Arena. Scroll down to see the 2026 winners as they are named over the course of the three-hour…",
+    "published": "2026-11-19T01:24:22+00:00",
     "outlets": 1,
-    "score": 0.992
+    "score": 0.999
    },
    {
-    "id": "furious-creator-elizabeth-meriwether-to-receive-atx-tv-fest",
-    "title": "‘Furious’ Creator Elizabeth Meriwether to Receive ATX TV Festival’s 2027 Showrunner Award",
-    "link": "https://variety.com/2026/awards/news/furious-liz-meriwether-atx-tv-festival-showrunner-award-1236952111/",
+    "id": "jason-blum-and-james-wan-discuss-why-horror-is-hollywood-s-h",
+    "title": "Jason Blum and James Wan Discuss Why Horror Is Hollywood’s Hottest Genre and How ‘Obsession’ Hit Big at Blumhouse Atomic’s Business of Fear",
+    "link": "https://variety.com/2026/film/news/jason-blum-james-wan-obsession-blumhouse-atomic-1236952472/",
     "source": "Variety",
     "topic": "Entertainment",
-    "summary": "Elizabeth Meriwether is set to receive the 2027 Showrunner Award at next year’s ATX Television Festival, Variety has learned. Meriwether will take part in a conversation onstage at the…",
-    "published": "2026-11-18T19:00:00+00:00",
+    "summary": "Blumhouse Atomic bosses Jason Blum and James Wan took a victory lap Wednesday at their Business of Fear panel, during which they discussed horror’s banner year at the box office and why…",
+    "published": "2026-11-19T01:18:14+00:00",
     "outlets": 1,
-    "score": 0.672
+    "score": 0.685
+   },
+   {
+    "id": "why-gta-has-never-been-adapted-for-film-or-tv-we-prefer-to-c",
+    "title": "Why ‘GTA’ Has Never Been Adapted for Film or TV: ‘We Prefer to Control Our Own Destiny,’ Take-Two CEO Says",
+    "link": "https://variety.com/2026/gaming/news/gta-6-movie-grand-theft-auto-games-adapted-1236952350/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "With this week’s debut of “Grand Theft Auto 6” widely considered to be the entertainment event of the decade, the Rockstar Games-created franchise seems like an obvious target for a…",
+    "published": "2026-11-19T00:29:08+00:00",
+    "outlets": 1,
+    "score": 0.502
    },
    {
     "id": "grand-theft-auto-6-is-a-masterpiece-say-critics",
@@ -754,7 +526,7 @@
     "summary": "Critics have their say as to whether GTA 6, the most anticipated video game of all time, lives up to the hype.",
     "published": "2026-11-18T17:34:25+00:00",
     "outlets": 1,
-    "score": 0.625
+    "score": 0.465
    },
    {
     "id": "harry-styles-billie-eilish-sam-fender-and-cher-to-headline-g",
@@ -765,121 +537,189 @@
     "summary": "The festival will also host Cher in the Sunday \"legends\" slot, the unofficial fourth headline set.",
     "published": "2026-11-18T07:59:54+00:00",
     "outlets": 1,
-    "score": 0.562
+    "score": 0.418
    },
    {
-    "id": "how-nbc-s-longtime-page-program-has-served-as-a-key-stepping",
-    "title": "How NBC’s Longtime Page Program Has Served as a Key Stepping Stone to Media Leadership",
-    "link": "https://variety.com/2026/tv/news/nbc-page-program-history-stepping-stone-kenneth-1236952075/",
+    "id": "chris-pratt-to-star-in-sci-fi-family-drama-the-traveler-inks",
+    "title": "Chris Pratt to Star in Sci-Fi Family Drama ‘The Traveler,’ Inks First-Look Producing Deal at Paramount (EXCLUSIVE)",
+    "link": "https://variety.com/2026/film/news/chris-pratt-the-traveler-paramount-deal-1236952517/",
     "source": "Variety",
     "topic": "Entertainment",
-    "summary": "Katie Hockmeyer now oversees “Saturday Night Live” as NBC’s executive vice president of late night. But she still can’t forget her first brush with the sketch comedy staple: As an NBC page…",
-    "published": "2026-11-18T19:00:00+00:00",
+    "summary": "Chris Pratt is setting up his next sci-fi adventure: starring in Paramount Pictures’ big-screen adaptation of “The Traveler,” based on the novel by Joseph Eckert. The film is part of the…",
+    "published": "2026-11-19T00:16:50+00:00",
     "outlets": 1,
-    "score": 0.513
+    "score": 0.402
+   }
+  ],
+  "Sports": [
+   {
+    "id": "no-1-florida-knocked-off-by-no-8-houston-dedan-thomas-jr-dro",
+    "title": "No. 1 Florida knocked off by No. 8 Houston: Dedan Thomas Jr. drops 30 points as Cougars play to strengths",
+    "link": "https://www.cbssports.com/college-basketball/news/florida-houston-players-era-dedan-thomas-jr-kelvin-sampson/",
+    "source": "CBS Sports",
+    "topic": "Sports",
+    "summary": "Top takeaways after No. 1 Florida goes down in the Players Era 8 semifinals. Kelvin Sampson's Cougars cranked up the heat in the second half to avenge the 2025 National Championship game…",
+    "published": "2026-11-19T00:36:45+00:00",
+    "outlets": 1,
+    "score": 0.96
    },
    {
-    "id": "comedian-morgan-jay-launches-music-therapy-show-with-guests",
-    "title": "Comedian Morgan Jay Launches ‘Music Therapy’ Show With Guests Kam Patterson, Josh Johnson and More (EXCLUSIVE)",
-    "link": "https://variety.com/2026/tv/news/morgan-jay-music-therapy-show-youtube-1236951468/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "Morgan Jay, the stand-up comedian best known for his viral auto-tuned crowd-work songs, has launched a new show on YouTube called “Music Therapy.” The interview series, which debuted on…",
-    "published": "2026-11-18T19:00:00+00:00",
+    "id": "vanessa-bryant-widow-of-kobe-reportedly-teaming-up-with-pau",
+    "title": "Vanessa Bryant, widow of Kobe, reportedly teaming up with Pau Gasol to bid on WNBA's Sparks",
+    "link": "https://www.cbssports.com/wnba/news/vanessa-bryant-pau-gasol-los-angeles-sparks-bid-wnba/",
+    "source": "CBS Sports",
+    "topic": "Sports",
+    "summary": "Los Angeles basketball royalty could be involved in a bid on the WNBA franchise",
+    "published": "2026-11-19T00:32:32+00:00",
     "outlets": 1,
-    "score": 0.414
+    "score": 0.66
+   },
+   {
+    "id": "the-sandpaper-plot-who-was-there-who-said-what",
+    "title": "The sandpaper plot - who was there, who said what?",
+    "link": "https://www.bbc.co.uk/sport/cricket/articles/cqwy41w3zydgo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "topic": "Sports",
+    "summary": "As Cameron Bancroft's explosive allegations raise more questions about the sandpaper scandal, BBC Sport looks at who was there and what they have said since.",
+    "published": "2026-11-18T16:13:04+00:00",
+    "outlets": 1,
+    "score": 0.631
+   },
+   {
+    "id": "no-3-uconn-vs-no-12-arizona-cbb-pick-ruling-gives-wildcats-b",
+    "title": "No. 3 UConn vs. No. 12 Arizona CBB pick: Ruling gives Wildcats boost as they seek 4th straight win in series",
+    "link": "https://www.cbssports.com/betting/news/no-3-uconn-vs-no-12-arizona-cbb-pick-ruling-gives-wildcats-boost-as-they-seek-4th-straight-win-in-series/",
+    "source": "CBS Sports",
+    "topic": "Sports",
+    "summary": "No. 3 UConn visits No. 12 Arizona in the college basketball game of the night Wednesday",
+    "published": "2026-11-19T00:30:53+00:00",
+    "outlets": 1,
+    "score": 0.503
+   },
+   {
+    "id": "the-tightest-survival-scrap-for-years-why-it-s-not-too-early",
+    "title": "The tightest survival scrap for years? Why it's not too early to worry",
+    "link": "https://www.bbc.co.uk/sport/football/articles/cj3vgp36z063o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "topic": "Sports",
+    "summary": "The Premier League resumes on Saturday with Crystal Palace, Sunderland and Man Utd in the relegation zone. But is it too early to be worried?",
+    "published": "2026-11-18T16:09:55+00:00",
+    "outlets": 1,
+    "score": 0.434
+   },
+   {
+    "id": "uconn-vs-arizona-prediction-odds-2026-college-basketball-pic",
+    "title": "UConn vs. Arizona prediction, odds: 2026 college basketball picks for Wednesday, Nov. 18 by proven model",
+    "link": "https://www.cbssports.com/betting/news/uconn-arizona-prediction-odds-2026-college-basketball-picks-best-bets-wednesday-november-18/",
+    "source": "CBS Sports",
+    "topic": "Sports",
+    "summary": "SportsLine model reveals its picks for the college basketball matchup featuring the No. 3 UConn Huskies vs. No. 12 Arizona Wildcats on Wednesday night",
+    "published": "2026-11-19T00:01:25+00:00",
+    "outlets": 1,
+    "score": 0.397
    }
   ],
   "Local": [
    {
-    "id": "california-universities-ramp-up-response-to-immigration-arre",
-    "title": "California Universities Ramp Up Response to Immigration Arrests",
-    "link": "https://ww2.kqed.org/news/2026/11/18/california-universities-ramp-up-response-to-immigration-arrests/",
+    "id": "san-francisco-health-plan-employees-cry-foul-over-alleged-re",
+    "title": "San Francisco Health Plan Employees Cry Foul Over Alleged Retaliation, Executive Pay",
+    "link": "https://ww2.kqed.org/news/2026/11/18/san-francisco-health-plan-employees-cry-foul-over-alleged-retaliation-executive-pay/",
     "source": "KQED",
     "topic": "Local",
-    "summary": "The high-profile arrests of two women tied to local universities have tested campus administrations.",
-    "published": "2026-11-18T18:16:19+00:00",
+    "summary": "Several hundred workers allege they are facing retaliation for demanding transparency over executive pay and seeking stronger worker protections.",
+    "published": "2026-11-19T00:02:03+00:00",
     "outlets": 1,
-    "score": 0.939
+    "score": 0.932
    },
    {
-    "id": "california-could-be-18-years-behind-its-renewable-energy-goa",
-    "title": "California Could Be 18 Years Behind Its Renewable Energy Goals, Report Says",
-    "link": "https://ww2.kqed.org/news/2026/11/18/california-could-be-18-years-behind-its-renewable-energy-goals-report-says/",
+    "id": "bay-area-storm-brings-5-inches-of-rain-high-winds-flight-del",
+    "title": "Bay Area Storm Brings 5 Inches of Rain, High Winds, Flight Delays and Power Outages",
+    "link": "https://ww2.kqed.org/news/2026/11/18/bay-area-storm-brings-5-inches-of-rain-high-winds-flight-delays-and-power-outages/",
     "source": "KQED",
     "topic": "Local",
-    "summary": "The state may be off track to meet its goal of producing 100% of its electricity from clean energy sources, like solar and wind, by 2045.",
-    "published": "2026-11-18T15:00:00+00:00",
+    "summary": "Bay Area communities face flooding, road closures and widespread outages as severe weather disrupts travel and commutes.",
+    "published": "2026-11-18T23:11:37+00:00",
     "outlets": 1,
-    "score": 0.55
+    "score": 0.617
    },
    {
-    "id": "computer-history-museum-tests-ai-glasses-for-blind-visitors",
-    "title": "Computer History Museum Tests AI Glasses for Blind Visitors",
-    "link": "https://ww2.kqed.org/news/2026/11/18/computer-history-museum-tests-ai-glasses-for-blind-visitors/",
+    "id": "california-budget-analyst-warns-stock-market-crash-poses-ris",
+    "title": "California Budget Analyst Warns Stock Market Crash Poses Risk of Ballooning Deficit",
+    "link": "https://ww2.kqed.org/news/2026/11/18/california-budget-analyst-warns-stock-market-crash-poses-risk-of-ballooning-deficit/",
     "source": "KQED",
     "topic": "Local",
-    "summary": "A new research project explores how artificial intelligence could help blind visitors navigate museums independently, but raises questions about privacy and surveillance.",
-    "published": "2026-11-18T12:00:00+00:00",
+    "summary": "The state faces a projected $2 billion shortfall next year, but if the Nvidia slide signals a broader economic downturn to come, the effects would be far greater.",
+    "published": "2026-11-18T21:58:38+00:00",
     "outlets": 1,
-    "score": 0.361
+    "score": 0.443
    },
    {
-    "id": "in-an-era-of-venue-closures-924-gilman-beats-the-odds",
-    "title": "In An Era of Venue Closures, 924 Gilman Beats the Odds",
-    "link": "https://ww2.kqed.org/news/2026/11/18/bay-area-venues-close-but-924-gilman-beats-odds/",
+    "id": "contra-costa-county-sued-over-alleged-systemic-abuse-of-mino",
+    "title": "Contra Costa County Sued Over Alleged ‘Systemic’ Abuse of Minors",
+    "link": "https://ww2.kqed.org/news/2026/11/18/contra-costa-county-sued-over-alleged-systemic-abuse-of-minors/",
     "source": "KQED",
     "topic": "Local",
-    "summary": "Multiple Bay Area music venues have announced closures, but all-ages Berkeley club 924 Gilman endures.",
-    "published": "2026-11-18T11:00:00+00:00",
+    "summary": "Both individuals allege emotional, physical and sexual abuse at the hands of Drotts, who was then employed as a behavioral health clinician at the county’s Martinez juvenile hall.",
+    "published": "2026-11-18T21:52:01+00:00",
     "outlets": 1,
-    "score": 0.278
+    "score": 0.356
    },
    {
-    "id": "nba-yaoi-welcome-to-the-world-of-gay-basketball-fanfic",
-    "title": "NBA Yaoi? Welcome to the World of Gay Basketball Fanfic",
-    "link": "https://ww2.kqed.org/news/2026/11/18/nba-yaoi-welcome-to-the-world-of-gay-basketball-fanfic/",
+    "id": "tahoe-to-see-multiple-feet-of-snow-at-lake-level-and-up",
+    "title": "Tahoe to See Multiple Feet of Snow at Lake Level and Up",
+    "link": "https://ww2.kqed.org/news/2026/11/18/tahoe-to-see-multiple-feet-of-snow-at-lake-level-and-up/",
     "source": "KQED",
     "topic": "Local",
-    "summary": "An online trend imagining two NBA players in love proves to be a community for women and queer folks who watch sports.",
-    "published": "2026-11-18T11:00:00+00:00",
+    "summary": "Most ski resorts have not yet opened for the season. Those planning to travel to the mountains should check road conditions, Caltrans said.",
+    "published": "2026-11-18T21:29:47+00:00",
     "outlets": 1,
-    "score": 0.233
+    "score": 0.293
    },
    {
-    "id": "sfmta-approves-ai-camera-citation-program-to-deter-bus-stop",
-    "title": "SFMTA Approves AI Camera Citation Program to Deter Bus Stop, Transit Lane Parking",
-    "link": "https://ww2.kqed.org/news/2026/11/17/muni-targets-bus-stop-transit-lane-double-parking-with-proposed-ai-cameras/",
+    "id": "real-estate-climate-and-wild-parties-here-s-how-anthropic-s",
+    "title": "Real Estate, Climate and Wild Parties? Here’s How Anthropic’s IPO Could Affect the Bay Area",
+    "link": "https://ww2.kqed.org/news/2026/11/18/anthropic-ipo-open-ai-when-will-go-public-effect-on-san-francisco-bay-area/",
     "source": "KQED",
     "topic": "Local",
-    "summary": "San Francisco transit officials approved upgrades to bus-mounted cameras to increase enforcement against drivers who block transit-only lanes and bus stops.",
-    "published": "2026-11-18T01:04:54+00:00",
+    "summary": "The ANT is set to march onto the trading floor this Thursday with a $1.4 trillion valuation. Will any of this money trickle down to its hometown?",
+    "published": "2026-11-18T21:13:06+00:00",
     "outlets": 1,
-    "score": 0.122
+    "score": 0.249
    }
   ],
   "Economy": [
    {
-    "id": "typical-energy-bill-forecast-to-go-up-by-443-a-year-from-jan",
-    "title": "Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again",
-    "link": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
+    "id": "claude-maker-anthropic-poised-for-more-than-1-4tn-stock-mark",
+    "title": "Claude-maker Anthropic poised for more than $1.4tn stock market debut",
+    "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
     "source": "BBC Business",
     "topic": "Economy",
-    "summary": "Energy bills are expected to jump by 26% a year for a typical household as UK inflation hits its highest rate for a year.",
-    "published": "2026-11-18T13:17:06+00:00",
+    "summary": "Anthropic started just five years ago an is now one of the biggest names in artificial intelligence.",
+    "published": "2026-11-18T23:44:27+00:00",
     "outlets": 1,
-    "score": 0.732
+    "score": 0.919
    },
    {
-    "id": "heating-bills-chocolate-and-cat-food-what-the-inflation-figu",
-    "title": "Heating bills, chocolate and cat food: What the inflation figures mean for you",
-    "link": "https://www.bbc.co.uk/news/articles/ckq6eg55n221o?at_medium=RSS&at_campaign=rss",
+    "id": "mcdonald-s-sex-abuse-they-were-waiting-for-the-younger-girls",
+    "title": "McDonald's sex abuse: 'They were waiting for the younger girls to turn 18'",
+    "link": "https://www.bbc.co.uk/news/articles/c6x2eve321jno?at_medium=RSS&at_campaign=rss",
     "source": "BBC Business",
     "topic": "Economy",
-    "summary": "Prices are rising at their fastest pace for a year in the UK, and higher energy costs are on the way.",
-    "published": "2026-11-18T13:10:01+00:00",
+    "summary": "A former McDonald's worker calls on the firm to “change the way they treat younger employees” as a judge rules a legal case against the chain can go ahead.",
+    "published": "2026-11-19T00:00:59+00:00",
     "outlets": 1,
-    "score": 0.502
+    "score": 0.835
+   },
+   {
+    "id": "can-anthropic-s-record-breaking-ipo-stop-the-ai-bubble-burst",
+    "title": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
+    "link": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "Anthropic's hotly anticipated IPO is expected to put it in the top 10 most valuable US companies, but the future is uncertain.",
+    "published": "2026-11-18T21:28:08+00:00",
+    "outlets": 1,
+    "score": 0.566
    },
    {
     "id": "the-seven-anthropic-founders-who-are-about-to-become-multi-b",
@@ -888,9 +728,9 @@
     "source": "BBC Business",
     "topic": "Economy",
     "summary": "The AI company behind Claude is about to sell its shares on the US stock market - making its founders very rich.",
-    "published": "2026-11-18T13:55:14+00:00",
+    "published": "2026-11-18T23:42:07+00:00",
     "outlets": 1,
-    "score": 0.398
+    "score": 0.483
    },
    {
     "id": "can-google-win-the-ai-race-without-killing-its-cash-cow",
@@ -904,26 +744,151 @@
     "score": 0.35
    },
    {
-    "id": "she-went-to-college-to-become-a-social-worker-now-she-s-join",
-    "title": "She went to college to become a social worker. Now she's joined the skilled trades",
-    "link": "https://www.npr.org/2026/11/17/nx-s1-6012818/skilled-trades-apprenticeship-college-data-centers-jobs",
-    "source": "NPR Economy",
-    "topic": "Economy",
-    "summary": "While the rise of AI continues to fuel the debate over whether college is worth the cost, apprenticeships in the skilled trades are having a moment, drawing in people of all backgrounds…",
-    "published": "2026-11-17T10:00:00+00:00",
-    "outlets": 1,
-    "score": 0.241
-   },
-   {
-    "id": "how-important-are-nvidia-and-jensen-huang-to-the-us-economy",
-    "title": "How important are Nvidia and Jensen Huang to the US economy?",
-    "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
+    "id": "gilts-v-kilts-what-is-happening-with-scottish-government-bon",
+    "title": "Gilts v kilts: What is happening with Scottish government bonds?",
+    "link": "https://www.bbc.co.uk/news/articles/cmwy8pgj2z8vo?at_medium=RSS&at_campaign=rss",
     "source": "BBC Business",
     "topic": "Economy",
-    "summary": "The former Nvidia chief executive has been at the centre of the artificial intelligence boom.",
-    "published": "2026-11-18T06:04:21+00:00",
+    "summary": "MSPs have heard both the pros and cons of the government's plan to launch its first ever bond to the market?",
+    "published": "2026-11-18T23:01:09+00:00",
     "outlets": 1,
-    "score": 0.182
+    "score": 0.316
+   }
+  ],
+  "Politics": [
+   {
+    "id": "democratic-strategists-think-montana-house-race-could-hold-t",
+    "title": "Democratic strategists think Montana House race could hold the secret to future wins",
+    "link": "https://www.npr.org/2026/11/18/nx-s1-6032798-e1/democratic-strategists-think-montana-house-race-could-hold-the-secret-to-future-wins",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "Montana is sending a Democrat to the U.S. House for the first time in three decades. Many in the party think Sam Forstag's campaign may be a playbook for how Democrats can win again in…",
+    "published": "2026-11-18T21:53:07+00:00",
+    "outlets": 1,
+    "score": 0.837
+   },
+   {
+    "id": "democrats-formally-nominate-hakeem-jeffries-for-speaker-of-t",
+    "title": "Democrats formally nominate Hakeem Jeffries for speaker of the House",
+    "link": "https://www.npr.org/2026/11/18/nx-s1-6043183/hakeem-jeffries-house-democrats-leadership-votes",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "The New York Democrat moved a step closer to becoming the first Black lawmaker in U.S. history to serve in the job, after House Democrats voted overwhelmingly to support him.",
+    "published": "2026-11-18T21:13:06+00:00",
+    "outlets": 2,
+    "score": 0.75
+   },
+   {
+    "id": "latest-on-trump-s-summit-with-xi-putin",
+    "title": "Latest on Trump's summit with Xi, Putin",
+    "link": "https://www.cbsnews.com/video/latest-on-trumps-summit-with-xi-putin/",
+    "source": "CBS News",
+    "topic": "Politics",
+    "summary": "President Trump has arrived in China ahead of his highly-anticipated meeting with Chinese President Xi Jinping and Russian President Vladimir Putin. CBS News' Nancy Cordes reports.",
+    "published": "2026-11-19T00:54:00+00:00",
+    "outlets": 1,
+    "score": 0.417
+   },
+   {
+    "id": "house-democrat-warns-13-trump-allies-to-save-their-records-f",
+    "title": "House Democrat warns 13 Trump allies to save their records for upcoming investigations",
+    "link": "https://www.npr.org/2026/11/18/g-s1-154147/robert-garcia-house-democrats-investigations-trump-administration",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "Among the recipients of letters from Robert Garcia, incoming chair of the House Oversight Committee, are Donald Trump Jr. and Eric Trump, Jared Kushner and White House Chief of Staff…",
+    "published": "2026-11-18T15:01:32+00:00",
+    "outlets": 1,
+    "score": 0.253
+   },
+   {
+    "id": "apec-summit-as-it-happened-xi-welcomes-trump-on-china-visit",
+    "title": "Apec summit as it happened: Xi welcomes Trump on China visit as Putin claims Europe in ‘humiliating decline’",
+    "link": "https://www.theguardian.com/world/live/2026/nov/18/apec-summit-live-updates-xi-putin-trump-world-leaders-gather-in-china",
+    "source": "The Guardian",
+    "topic": "Politics",
+    "summary": "This blog is now closed, you can read more on this story here Yalta became a byword for betrayal. Will Trump, Xi and Putin enact another carve-up? That is the question the Guardian’s…",
+    "published": "2026-11-18T17:48:24+00:00",
+    "outlets": 1,
+    "score": 0.137
+   },
+   {
+    "id": "project-gryffindor-meta-s-plan-to-get-more-school-kids-using",
+    "title": "Project Gryffindor: Meta's plan to get more school kids using Instagram",
+    "link": "https://www.npr.org/2026/11/18/nx-s1-6037808/meta-instagram-schools-teens-safety",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "Meta said it launched its \"school partnership program\" to keep teens safe, but internal documents tell a different story.",
+    "published": "2026-11-18T10:00:00+00:00",
+    "outlets": 1,
+    "score": 0.111
+   }
+  ],
+  "Finance": [
+   {
+    "id": "fed-officials-expect-more-rate-hikes-worry-about-ai-impact-o",
+    "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+    "link": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+    "source": "CNBC Finance",
+    "topic": "Finance",
+    "summary": "The Federal Reserve on Wednesday released minutes from its October policy meeting at which it voted to hold its benchmark interest rate in a range between 3.75%-4%.",
+    "published": "2026-11-18T19:41:59+00:00",
+    "outlets": 1,
+    "score": 0.751
+   },
+   {
+    "id": "i-watched-trump-xi-and-putin-gather-in-china-here-are-my-top",
+    "title": "I watched Trump, Xi and Putin gather in China. Here are my top takeaways",
+    "link": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html",
+    "source": "CNBC Finance",
+    "topic": "Finance",
+    "summary": "U.S. President Donald Trump, Chinese President Xi Jinping and Russian President Vladimir Putin are expected to hold a rare trilateral meeting on Thursday.",
+    "published": "2026-11-18T19:47:05+00:00",
+    "outlets": 1,
+    "score": 0.52
+   },
+   {
+    "id": "nvidia-has-lost-2-trillion-in-value-here-s-what-options-trad",
+    "title": "Nvidia has lost $2 trillion in value. Here's what options traders expect from earnings",
+    "link": "https://www.cnbc.com/2026/11/17/nvidia-has-lost-2-trillion-in-value-heres-what-options-traders-expect-from-earnings.html",
+    "source": "CNBC Investing",
+    "topic": "Finance",
+    "summary": "Nvidia options are pricing in a bigger move than usual.",
+    "published": "2026-11-17T13:16:43+00:00",
+    "outlets": 1,
+    "score": 0.35
+   },
+   {
+    "id": "tech-outages-are-causing-people-to-panic-buy-costco-is-benef",
+    "title": "Tech outages are causing people to panic-buy. Costco is benefiting, Mizuho says",
+    "link": "https://www.cnbc.com/2026/11/18/tech-outage-costco-panic-buying.html",
+    "source": "CNBC Finance",
+    "topic": "Finance",
+    "summary": "Shoppers are spending more at Costco as tech outages turn into a race to get emergency goods.",
+    "published": "2026-11-18T16:33:14+00:00",
+    "outlets": 1,
+    "score": 0.338
+   },
+   {
+    "id": "mystery-firm-spending-millions-to-attend-trump-crypto-gala",
+    "title": "Mystery firm spending millions to attend Trump crypto gala",
+    "link": "https://www.cbsnews.com/video/mystery-firm-spending-millions-to-attend-trump-crypto-gala/",
+    "source": "CBS News",
+    "topic": "Finance",
+    "summary": "A mysterious digital finance firm claims to have amassed more than $2 million in $TRUMP coin over the past two months in a competition to attend President Trump's upcoming cryptocurrency…",
+    "published": "2026-11-19T00:00:43+00:00",
+    "outlets": 1,
+    "score": 0.269
+   },
+   {
+    "id": "fed-s-waller-says-central-bank-may-need-to-shock-people-with",
+    "title": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
+    "link": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
+    "source": "CNBC Finance",
+    "topic": "Finance",
+    "summary": "Continued inflation above the Fed's 2% target is pushing central bank officials into a more aggressive stance.",
+    "published": "2026-11-18T15:13:39+00:00",
+    "outlets": 1,
+    "score": 0.255
    }
   ],
   "Health": [
@@ -936,40 +901,7 @@
     "summary": "After dismantling the United States Agency for International Development, the Trump administration is restarting foreign aid. In Zambia and Zimbabwe, there are different approaches but…",
     "published": "2026-11-18T13:03:38+00:00",
     "outlets": 1,
-    "score": 0.499
-   },
-   {
-    "id": "police-investigate-death-of-boy-3-after-nursery-incident",
-    "title": "Police investigate death of boy, 3, after nursery incident",
-    "link": "https://www.bbc.co.uk/news/articles/cm8x0q1p2q8jo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News",
-    "topic": "Health",
-    "summary": "The boy died in hospital three days after an incident at Cosy Toes Nursery in Middleton, police say.",
-    "published": "2026-11-18T16:51:58+00:00",
-    "outlets": 1,
-    "score": 0.308
-   },
-   {
-    "id": "regulator-mistakenly-sent-complaints-about-doctors-to-newspa",
-    "title": "Regulator mistakenly sent complaints about doctors to newspaper",
-    "link": "https://www.bbc.co.uk/news/articles/c8wy5erexq0ko?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News",
-    "topic": "Health",
-    "summary": "Information sent to the Times newspaper by the General Medical Council included summaries of complaints alleging antisemitism and Islamophobia against doctors.",
-    "published": "2026-11-18T17:48:10+00:00",
-    "outlets": 1,
-    "score": 0.236
-   },
-   {
-    "id": "u-s-officially-loses-its-measles-elimination-status",
-    "title": "U.S. officially loses its measles elimination status",
-    "link": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status",
-    "source": "NPR Health",
-    "topic": "Health",
-    "summary": "The Pan American Health Organization announced that measles is no longer considered eliminated in the U.S. It's classified as endemic now because a strain has lingered in the U.S. for over…",
-    "published": "2026-11-17T21:53:30+00:00",
-    "outlets": 2,
-    "score": 0.208
+    "score": 0.371
    },
    {
     "id": "public-health-expert-reacts-to-latest-measles-milestone",
@@ -983,15 +915,39 @@
     "score": 0.184
    },
    {
-    "id": "epa-and-city-of-la-sued-over-lineage-warehouse-fire-testing",
-    "title": "EPA and City of LA sued over Lineage warehouse fire testing data",
-    "link": "https://www.cbsnews.com/news/boyle-heights-lawsuit-epa-la-lineage-warehouse-fire/",
-    "source": "CBS News",
+    "id": "u-s-officially-loses-its-measles-elimination-status",
+    "title": "U.S. officially loses its measles elimination status",
+    "link": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status",
+    "source": "NPR Health",
     "topic": "Health",
-    "summary": "Five months after a fire at a food storage warehouse rocked Boyle Heights and East Los Angeles, residents say they still feel the effects on their health and are demanding transparency.",
-    "published": "2026-11-18T17:42:42+00:00",
+    "summary": "The Pan American Health Organization announced that measles is no longer considered eliminated in the U.S. It's classified as endemic now because a strain has lingered in the U.S. for over…",
+    "published": "2026-11-17T21:53:30+00:00",
     "outlets": 1,
-    "score": 0.184
+    "score": 0.149
+   },
+   {
+    "id": "i-m-a-human-doctor-with-human-intelligence-but-i-sure-do-lik",
+    "title": "I'm a human doctor with human intelligence. But I sure do like my AI notetaker",
+    "link": "https://www.npr.org/2026/11/17/nx-s1-6037556/medicine-ai-doctor-notetaker-scribe",
+    "source": "NPR Health",
+    "topic": "Health",
+    "summary": "Has your doctor asked whether they can use artificial intelligence to take notes during an exam? It's very popular, and here's how to think through the pros and the cons of the new…",
+    "published": "2026-11-17T11:00:00+00:00",
+    "outlets": 1,
+    "score": 0.125
+   }
+  ],
+  "Science": [
+   {
+    "id": "more-people-are-getting-the-flu-should-you-get-a-flu-shot-be",
+    "title": "More people are getting the flu. Should you get a flu shot before you travel?",
+    "link": "https://www.npr.org/2026/11/17/nx-s1-6043086/thanksgiving-travel-cold-flu-vaccine-shot-booster",
+    "source": "NPR Science",
+    "topic": "Science",
+    "summary": "Thanksgiving is just around the corner, just as millions of Americans are expected to travel for the holidays. Another thing that's upon us? Cold and flu season.",
+    "published": "2026-11-17T10:00:00+00:00",
+    "outlets": 1,
+    "score": 0.35
    }
   ]
  }
