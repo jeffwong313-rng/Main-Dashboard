@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-20T23:17:42+00:00",
- "generatedLocal": "2026-11-20 15:17",
+ "generated": "2026-11-21T04:14:01+00:00",
+ "generatedLocal": "2026-11-20 20:14",
  "top": [
   {
    "id": "s-p-500-sinks-3-7-and-the-nasdaq-composite-goes-negative-for",
@@ -11,40 +11,18 @@
    "summary": "AI stocks have hefty market values and have a much bigger impact on the market's direction. They were responsible for Wall Street's big gains this year and are now behind the big slide for…",
    "published": "2026-11-20T22:11:29+00:00",
    "outlets": 1,
-   "score": 1.23
+   "score": 1.249
   },
   {
-   "id": "mayor-mamdani-announces-plan-to-shut-down-rikers-island",
-   "title": "Mayor Mamdani announces plan to shut down Rikers Island",
-   "link": "https://www.cbsnews.com/news/zohran-mamdani-rikers-island-closing-plan-nyc/",
+   "id": "south-florida-begins-recovery-after-widespread-flooding",
+   "title": "South Florida begins recovery after widespread flooding",
+   "link": "https://www.cbsnews.com/live-updates/south-florida-flooding-live-updates-heavy-rain-broward-miami-dade/",
    "source": "CBS News",
    "topic": "U.S.",
-   "summary": "New York City Mayor Zohran Mamdani unveiled his strategy to shut down Rikers Island and replace it with four smaller jails across the city.",
-   "published": "2026-11-20T23:12:13+00:00",
+   "summary": "Historic flooding across South Florida has left neighborhoods underwater, roads impassable and Broward schools closed as residents begin cleanup efforts and officials assess the damage.",
+   "published": "2026-11-21T02:42:51+00:00",
    "outlets": 1,
-   "score": 1.195
-  },
-  {
-   "id": "ufc-fight-night-start-time-for-jiri-prochazka-vs-navajo-stir",
-   "title": "UFC Fight Night start time for Jiri Prochazka vs. Navajo Stirling: Where to watch live on Paramount+",
-   "link": "https://www.cbssports.com/ufc/news/where-watch-ufc-fight-night-qatar-start-time-live-stream/",
-   "source": "CBS Sports",
-   "topic": "Sports",
-   "summary": "Top light heavyweights collide in the main event from Qatar",
-   "published": "2026-11-20T23:10:26+00:00",
-   "outlets": 1,
-   "score": 0.994
-  },
-  {
-   "id": "michael-won-t-be-submitted-for-bafta-awards-as-filmmakers-p",
-   "title": "‘Michael’ Won’t Be Submitted for BAFTA Awards as Filmmakers Pass on Billion-Dollar Biopic’s Entry (EXCLUSIVE)",
-   "link": "https://variety.com/2026/film/awards/michael-biopic-bafta-awards-2027-not-submitted-1236954593/",
-   "source": "Variety",
-   "topic": "Entertainment",
-   "summary": "The highest-grossing biopic ever made is sitting out one of the biggest stops on the road to the Oscars. “Michael,” Antoine Fuqua’s billion-dollar portrait of the King of Pop, will not be…",
-   "published": "2026-11-20T23:05:49+00:00",
-   "outlets": 1,
-   "score": 0.99
+   "score": 1.112
   },
   {
    "id": "uk-to-explore-even-closer-ties-with-eu-after-agreeing-deal-s",
@@ -55,7 +33,62 @@
    "summary": "The UK-EU deal agreed on Friday covers British food exports, emissions trading and a youth experience scheme.",
    "published": "2026-11-20T17:49:48+00:00",
    "outlets": 1,
-   "score": 0.989
+   "score": 1.005
+  },
+  {
+   "id": "bill-maher-mocks-grand-theft-auto-6-playing-young-men-with-a",
+   "title": "Bill Maher Mocks ‘Grand Theft Auto 6’-Playing Young Men With Awful ICE Joke",
+   "link": "https://variety.com/2026/tv/news/bill-maher-grand-theft-auto-6-young-men-ice-real-time-hbo-1236954795/",
+   "source": "Variety",
+   "topic": "Entertainment",
+   "summary": "The Season 24 finale of “Real Time with Bill Maher” aired Friday night — it’s been renewed for two more seasons through 2028 — and the crabby comic’s monologue tackled everything from the…",
+   "published": "2026-11-21T03:21:11+00:00",
+   "outlets": 1,
+   "score": 0.957
+  },
+  {
+   "id": "fantasy-baseball-offseason-tracker-royce-lewis-provides-dept",
+   "title": "Fantasy Baseball Offseason Tracker: Royce Lewis provides depth for Dodgers' aging infield",
+   "link": "https://www.cbssports.com/fantasy/baseball/news/fantasy-baseball-offseason-tracker-royce-lewis-provides-depth-for-dodgers-aging-infield/",
+   "source": "CBS Sports",
+   "topic": "Sports",
+   "summary": "Here's a rundown of the offseason moves that matter",
+   "published": "2026-11-21T01:31:44+00:00",
+   "outlets": 1,
+   "score": 0.873
+  },
+  {
+   "id": "xavier-becerra-inherits-a-budget-shortfall",
+   "title": "Xavier Becerra Inherits a Budget Shortfall",
+   "link": "https://ww2.kqed.org/news/2026/11/20/xavier-becerra-inherits-a-budget-shortfall/",
+   "source": "KQED",
+   "topic": "Local",
+   "summary": "When Xavier Becerra takes over as governor next year, he'll be met with a budget deficit and a record Democratic caucus.",
+   "published": "2026-11-21T00:10:00+00:00",
+   "outlets": 1,
+   "score": 0.816
+  },
+  {
+   "id": "price-beats-kotaskova-to-become-undisputed-champion",
+   "title": "Price beats Kotaskova to become undisputed champion",
+   "link": "https://www.bbc.co.uk/sport/boxing/articles/cw808y2lrkzxo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "topic": "Sports",
+   "summary": "Lauren Price dominates Michaela Kotaskova to seal her place in history by becoming undisputed world welterweight champion.",
+   "published": "2026-11-20T23:30:56+00:00",
+   "outlets": 1,
+   "score": 0.79
+  },
+  {
+   "id": "youtube-is-reportedly-preparing-to-settle-social-media-addic",
+   "title": "YouTube is reportedly preparing to settle social media addiction claims for $3 billion",
+   "link": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement",
+   "source": "The Verge",
+   "topic": "Tech",
+   "summary": "YouTube is preparing to pay $3 billion to thousands of school districts to settle claims that its \"addictive design\" harmed kids, according to Bloomberg. Sources tell the publication that…",
+   "published": "2026-11-20T22:51:40+00:00",
+   "outlets": 1,
+   "score": 0.764
   },
   {
    "id": "tech-stock-sell-off-drags-markets-down-as-anthropic-shares-s",
@@ -66,7 +99,18 @@
    "summary": "Pressures weighed on US markets, with the S&P 500 and the Dow Jones Industrial Average pushed into correction territory.",
    "published": "2026-11-20T22:42:47+00:00",
    "outlets": 1,
-   "score": 0.971
+   "score": 0.759
+  },
+  {
+   "id": "stocks-enter-correction-territory-driven-by-deepening-tech-r",
+   "title": "Stocks enter correction territory, driven by deepening tech rout",
+   "link": "https://www.cbsnews.com/news/stocks-enter-correction-territory-ai-fears/",
+   "source": "CBS News",
+   "topic": "Finance",
+   "summary": "The tech-heavy Nasdaq tumbled more than 1,200 points, putting it on track for its second-worst day of the year.",
+   "published": "2026-11-21T02:25:00+00:00",
+   "outlets": 1,
+   "score": 0.756
   },
   {
    "id": "trump-fcc-declares-california-isn-t-allowed-to-enforce-phone",
@@ -77,18 +121,7 @@
    "summary": "FCC preempts state rules that require AT&T to keep offering home phone service.",
    "published": "2026-11-20T22:28:24+00:00",
    "outlets": 1,
-   "score": 0.96
-  },
-  {
-   "id": "california-proposition-roundup-what-passed-and-what-failed",
-   "title": "California Proposition Roundup: What Passed and What Failed",
-   "link": "https://ww2.kqed.org/news/2026/11/20/california-proposition-roundup-results-so-far/",
-   "source": "KQED",
-   "topic": "Local",
-   "summary": "Voters weighed in on 14 state propositions; seven will become law, and seven others lost.",
-   "published": "2026-11-20T21:47:02+00:00",
-   "outlets": 1,
-   "score": 0.927
+   "score": 0.75
   },
   {
    "id": "new-research-gives-insight-to-where-your-brain-plans-out-you",
@@ -99,7 +132,7 @@
    "summary": "New research shows where this all takes place and what it means for possibly treating those who have speech difficulties.",
    "published": "2026-11-20T21:38:25+00:00",
    "outlets": 1,
-   "score": 0.921
+   "score": 0.719
   },
   {
    "id": "the-latest-from-trump-s-press-conference",
@@ -110,7 +143,7 @@
    "summary": "President Trump gave a wide-ranging press conference following his historic trip to Asia where he met with Chinese President Xi and Russian President Putin.",
    "published": "2026-11-20T21:38:21+00:00",
    "outlets": 1,
-   "score": 0.921
+   "score": 0.719
   },
   {
    "id": "trump-s-impact-on-an-ohio-steel-plant",
@@ -121,7 +154,7 @@
    "summary": "The giant steel plant in Middletown, Ohio planned to switch away from using coke, a refined form of coal. The switch would have cut hazardous air pollution -- and greenhouse gas emissions.…",
    "published": "2026-11-20T21:38:11+00:00",
    "outlets": 1,
-   "score": 0.92
+   "score": 0.719
   },
   {
    "id": "another-day-of-survival-for-a-family-in-ukraine",
@@ -132,18 +165,7 @@
    "summary": "On the outskirts of Kyiv, one family prepares for the fifth winter of war against Russia -- stockpiling food and fuel and trying to maintain as much a sense of normalcy as possible.",
    "published": "2026-11-20T21:32:31+00:00",
    "outlets": 1,
-   "score": 0.916
-  },
-  {
-   "id": "youtube-is-reportedly-preparing-to-settle-social-media-addic",
-   "title": "YouTube is reportedly preparing to settle social media addiction claims for $3 billion",
-   "link": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement",
-   "source": "The Verge",
-   "topic": "Tech",
-   "summary": "YouTube is preparing to pay $3 billion to thousands of school districts to settle claims that its \"addictive design\" harmed kids, according to Bloomberg. Sources tell the publication that…",
-   "published": "2026-11-20T20:43:52+00:00",
-   "outlets": 1,
-   "score": 0.88
+   "score": 0.716
   },
   {
    "id": "prediction-markets-outlook-for-stocks-in-2026-dims-amid-ai-s",
@@ -154,62 +176,62 @@
    "summary": "Odds that the S&P 500 will cross 8,000, which were once north of 70%, are extremely low on platform Kalshi.",
    "published": "2026-11-20T19:59:03+00:00",
    "outlets": 1,
-   "score": 0.847
+   "score": 0.662
   },
   {
-   "id": "faisal-islam-this-cost-cutting-uk-eu-deal-doesn-t-mean-lower",
-   "title": "Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow",
-   "link": "https://www.bbc.co.uk/news/articles/cm1wr029evnqo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Business",
-   "topic": "Economy",
-   "summary": "The trade deal is unlikely lower food prices for shoppers, but should boost the economy more than other post-Brexit agreements.",
-   "published": "2026-11-20T16:41:52+00:00",
-   "outlets": 1,
-   "score": 0.838
-  },
-  {
-   "id": "trump-signs-common-cents-act",
-   "title": "Trump signs Common Cents Act",
-   "link": "https://www.cbsnews.com/news/trump-signs-common-cents-act-into-law/",
-   "source": "CBS News",
-   "topic": "Politics",
-   "summary": "The Common Cents Act established guidelines for businesses and consumers when conducting cash transactions.",
-   "published": "2026-11-20T23:04:00+00:00",
-   "outlets": 1,
-   "score": 0.818
-  },
-  {
-   "id": "man-utd-fan-criticism-has-gone-too-far-at-times-berrada",
-   "title": "Man Utd fan criticism has gone too far at times - Berrada",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cwz0k32j9kr9o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "topic": "Sports",
-   "summary": "Manchester United chief executive Omar Berrada says some of the recent criticism of the club's hierarchy has \"crossed a line\".",
-   "published": "2026-11-20T16:55:11+00:00",
-   "outlets": 1,
-   "score": 0.727
-  },
-  {
-   "id": "borgata-sportsbook-promo-code-2026-bet-20-get-100-instantly",
-   "title": "Borgata Sportsbook promo code 2026: Bet $20, get $100 instantly in bonus bets",
-   "link": "https://www.cbssports.com/betting/news/borgata-promo-code/",
-   "source": "CBS Sports",
-   "topic": "Sports",
-   "summary": "Borgata Sportsbook promo code for new users: CBS100 to bet $20, get $100 instantly in bonus bets",
-   "published": "2026-11-20T23:08:27+00:00",
-   "outlets": 1,
-   "score": 0.684
-  },
-  {
-   "id": "home-alone-director-chris-columbus-said-minutes-before-new",
-   "title": "‘Home Alone’ Director Chris Columbus Said Minutes Before New Sequel Was Announced That Another Movie ‘Can’t Happen’ After Catherine O’Hara’s Death",
-   "link": "https://variety.com/2026/film/news/chris-columbus-home-alone-reboot-reaction-catherine-ohara-1236954497/",
+   "id": "godavari-director-nikhil-mahajan-turns-a-malegaon-carjackin",
+   "title": "‘Godavari’ Director Nikhil Mahajan Turns a Malegaon Carjacking Into Neo-Noir With WAVES Film Bazaar Project ‘Mongoose’",
+   "link": "https://variety.com/2026/film/markets-festivals/godavari-director-nikhil-mahajan-carjacking-neo-noir-mongoose-1236954786/",
    "source": "Variety",
    "topic": "Entertainment",
-   "summary": "Chris Columbus didn’t know a new “Home Alone” was coming. The director of the 1990 original spoke with Variety minutes before news broke that Disney is developing a new installment with…",
-   "published": "2026-11-20T22:57:37+00:00",
+   "summary": "Nikhil Mahajan, the Indian National Film Award-winning director of “Godavari” and the Netflix series “Betaal,” is bringing “Mongoose,” a Marathi-language neo-noir thriller about a cab…",
+   "published": "2026-11-21T02:32:10+00:00",
    "outlets": 1,
-   "score": 0.678
+   "score": 0.634
+  },
+  {
+   "id": "aljamain-sterling-says-critics-can-argue-with-the-history-bo",
+   "title": "Aljamain Sterling says critics can argue with the history books as he chases more legacy: 'Numbers don't lie'",
+   "link": "https://www.cbssports.com/ufc/news/aljamain-sterling-chases-legacy-at-ufc-fight-night/",
+   "source": "CBS Sports",
+   "topic": "Sports",
+   "summary": "Sterling believes a win over Kevin Vallejos at UFC Fight Night in Qatar could put him in line for a second title shot in as many divisions",
+   "published": "2026-11-21T01:30:53+00:00",
+   "outlets": 1,
+   "score": 0.602
+  },
+  {
+   "id": "jonathan-rinderknecht-found-guilty-in-palisades-fire-case",
+   "title": "Jonathan Rinderknecht found guilty in Palisades Fire case",
+   "link": "https://www.cbsnews.com/news/jonathan-rinderknecht-found-guilty-in-palisades-fire-case/",
+   "source": "CBS News",
+   "topic": "U.S.",
+   "summary": "A Los Angeles County jury has found Jonathan Rinderknecht guilty of starting a blaze that erupted into the deadly and destructive Palisades Fire in 2025.",
+   "published": "2026-11-21T02:02:18+00:00",
+   "outlets": 1,
+   "score": 0.566
+  },
+  {
+   "id": "thao-corruption-trial-fbi-tape-shows-defendant-lying-prosecu",
+   "title": "Thao Corruption Trial: FBI Tape Shows Defendant Lying, Prosecution Says",
+   "link": "https://ww2.kqed.org/news/2026/11/20/thao-corruption-trial-fbi-tape-shows-defendant-lying-prosecution-says/",
+   "source": "KQED",
+   "topic": "Local",
+   "summary": "The interview between Oakland businessman Andy Duong and an FBI special agent took place just hours after the FBI raided his home.",
+   "published": "2026-11-20T23:51:07+00:00",
+   "outlets": 1,
+   "score": 0.554
+  },
+  {
+   "id": "cost-of-man-utd-hiring-and-firing-managers-nears-100m",
+   "title": "Cost of Man Utd hiring and firing managers nears £100m",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cwd01n9z23x5o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "topic": "Sports",
+   "summary": "Manchester United borrowed £10m three days after confirming Mauricio Pochettino would be their new head coach, which will cost them £7.5m in compensation to US Soccer.",
+   "published": "2026-11-20T23:18:16+00:00",
+   "outlets": 1,
+   "score": 0.539
   },
   {
    "id": "gta-6-sales-hit-3-8bn-in-a-single-day-the-biggest-entertainm",
@@ -220,7 +242,7 @@
    "summary": "The mammoth figure surpasses every video game launch and single-day film box office record.",
    "published": "2026-11-20T22:53:24+00:00",
    "outlets": 1,
-   "score": 0.676
+   "score": 0.528
   },
   {
    "id": "spacex-s-starshield-troubles-in-ukraine-could-threaten-its-b",
@@ -231,51 +253,29 @@
    "summary": "\"Explain the changes that were made to the Starshield service in October 2026.\"",
    "published": "2026-11-20T22:16:51+00:00",
    "outlets": 1,
-   "score": 0.656
+   "score": 0.512
   },
   {
-   "id": "denmark-accuses-russia-of-plotting-to-assassinate-us-ukraini",
-   "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
-   "link": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
-   "source": "BBC World",
-   "topic": "World",
-   "summary": "The Russian embassy in Denmark has denied the allegation, which has led to Russia's defence attaché being expelled.",
-   "published": "2026-11-20T21:57:07+00:00",
+   "id": "rockstar-says-gta-vi-made-3-79-billion-in-its-first-day",
+   "title": "Rockstar says GTA VI made $3.79 billion in its first day",
+   "link": "https://www.theverge.com/games/1036279/gta-vi-sales",
+   "source": "The Verge",
+   "topic": "Tech",
+   "summary": "GTA VI earned $3.79 billion in its first day of sales, which set \"a new record for entertainment across any medium,\" according to an announcement from Rockstar Games. The game also sold…",
+   "published": "2026-11-20T22:10:53+00:00",
    "outlets": 1,
-   "score": 0.645
+   "score": 0.51
   },
   {
-   "id": "preppers-aren-t-afraid-of-an-outage",
-   "title": "Preppers aren't afraid of an outage",
-   "link": "https://www.npr.org/2026/11/20/nx-s1-6044297/preppers-arent-afraid-of-an-outage",
-   "source": "NPR National",
-   "topic": "U.S.",
-   "summary": "In the wake of a series of tech failures, major government network crashes and flight stoppages, many people online are looking to preppers to learn how to become self-reliant.",
-   "published": "2026-11-20T21:30:58+00:00",
+   "id": "faisal-islam-this-cost-cutting-uk-eu-deal-doesn-t-mean-lower",
+   "title": "Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow",
+   "link": "https://www.bbc.co.uk/news/articles/cm1wr029evnqo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Business",
+   "topic": "Economy",
+   "summary": "The trade deal is unlikely lower food prices for shoppers, but should boost the economy more than other post-Brexit agreements.",
+   "published": "2026-11-20T16:41:52+00:00",
    "outlets": 1,
-   "score": 0.631
-  },
-  {
-   "id": "rising-seas-have-forced-this-quinault-village-to-relocate",
-   "title": "Rising seas have forced this Quinault village to relocate",
-   "link": "https://www.npr.org/2026/11/20/nx-s1-6046485/rising-seas-have-forced-this-quinault-village-to-relocate",
-   "source": "NPR",
-   "topic": "U.S.",
-   "summary": "The Quinault Indian Nation has moved its largest village away from rising seas and tsunamis",
-   "published": "2026-11-20T21:38:13+00:00",
-   "outlets": 1,
-   "score": 0.63
-  },
-  {
-   "id": "marine-corps-hero-under-federal-investigation",
-   "title": "Marine Corps hero under federal investigation",
-   "link": "https://www.cbsnews.com/news/marine-corps-hero-brad-kasal-federal-investigation/",
-   "source": "CBS News",
-   "topic": "U.S.",
-   "summary": "Retired Sgt. Maj. Bradley Kasal, whose bloodied visage was depicted in an iconic Iraq War photo, is under investigation stemming from his tenure as a high school JROTC instructor.",
-   "published": "2026-11-20T23:00:50+00:00",
-   "outlets": 1,
-   "score": 0.623
+   "score": 0.504
   }
  ],
  "topics": {
@@ -289,7 +289,18 @@
     "summary": "AI stocks have hefty market values and have a much bigger impact on the market's direction. They were responsible for Wall Street's big gains this year and are now behind the big slide for…",
     "published": "2026-11-20T22:11:29+00:00",
     "outlets": 1,
-    "score": 1.23
+    "score": 1.249
+   },
+   {
+    "id": "stocks-enter-correction-territory-driven-by-deepening-tech-r",
+    "title": "Stocks enter correction territory, driven by deepening tech rout",
+    "link": "https://www.cbsnews.com/news/stocks-enter-correction-territory-ai-fears/",
+    "source": "CBS News",
+    "topic": "Finance",
+    "summary": "The tech-heavy Nasdaq tumbled more than 1,200 points, putting it on track for its second-worst day of the year.",
+    "published": "2026-11-21T02:25:00+00:00",
+    "outlets": 1,
+    "score": 0.756
    },
    {
     "id": "prediction-markets-outlook-for-stocks-in-2026-dims-amid-ai-s",
@@ -300,7 +311,7 @@
     "summary": "Odds that the S&P 500 will cross 8,000, which were once north of 70%, are extremely low on platform Kalshi.",
     "published": "2026-11-20T19:59:03+00:00",
     "outlets": 1,
-    "score": 0.847
+    "score": 0.662
    },
    {
     "id": "warsh-wants-fed-officials-to-talk-less-instead-they-re-talki",
@@ -311,7 +322,7 @@
     "summary": "Fed officials have been rushing to the microphones lately while the Fed chairman stays on the sidelines.",
     "published": "2026-11-20T21:10:48+00:00",
     "outlets": 1,
-    "score": 0.62
+    "score": 0.485
    },
    {
     "id": "as-anthropic-shares-tank-investors-scramble-to-hedge-it-coul",
@@ -322,7 +333,7 @@
     "summary": "Anthropic options list Monday. They will likely be expensive",
     "published": "2026-11-20T15:12:40+00:00",
     "outlets": 1,
-    "score": 0.46
+    "score": 0.36
    },
    {
     "id": "cathie-wood-s-ark-invest-was-a-big-buyer-of-anthropic-as-she",
@@ -333,31 +344,20 @@
     "summary": "Wood's firm bought $90.8 million worth of Anthropic in six funds, according to a trade notification from the firm.",
     "published": "2026-11-20T16:18:04+00:00",
     "outlets": 1,
-    "score": 0.371
-   },
-   {
-    "id": "the-bull-market-has-a-new-problem-the-smart-money-is-selling",
-    "title": "The bull market has a new problem. The 'smart money' is selling",
-    "link": "https://www.cnbc.com/2026/11/20/equity-issuance-bull-market-problem.html",
-    "source": "CNBC Finance",
-    "topic": "Finance",
-    "summary": "Companies are shifting from share buybacks to stock issuance, adding new supply. Anthropic’s $81 billion IPO puts that demand to the test.",
-    "published": "2026-11-20T14:15:29+00:00",
-    "outlets": 1,
-    "score": 0.335
+    "score": 0.29
    }
   ],
   "U.S.": [
    {
-    "id": "mayor-mamdani-announces-plan-to-shut-down-rikers-island",
-    "title": "Mayor Mamdani announces plan to shut down Rikers Island",
-    "link": "https://www.cbsnews.com/news/zohran-mamdani-rikers-island-closing-plan-nyc/",
+    "id": "south-florida-begins-recovery-after-widespread-flooding",
+    "title": "South Florida begins recovery after widespread flooding",
+    "link": "https://www.cbsnews.com/live-updates/south-florida-flooding-live-updates-heavy-rain-broward-miami-dade/",
     "source": "CBS News",
     "topic": "U.S.",
-    "summary": "New York City Mayor Zohran Mamdani unveiled his strategy to shut down Rikers Island and replace it with four smaller jails across the city.",
-    "published": "2026-11-20T23:12:13+00:00",
+    "summary": "Historic flooding across South Florida has left neighborhoods underwater, roads impassable and Broward schools closed as residents begin cleanup efforts and officials assess the damage.",
+    "published": "2026-11-21T02:42:51+00:00",
     "outlets": 1,
-    "score": 1.195
+    "score": 1.112
    },
    {
     "id": "tech-stock-sell-off-drags-markets-down-as-anthropic-shares-s",
@@ -368,7 +368,7 @@
     "summary": "Pressures weighed on US markets, with the S&P 500 and the Dow Jones Industrial Average pushed into correction territory.",
     "published": "2026-11-20T22:42:47+00:00",
     "outlets": 1,
-    "score": 0.971
+    "score": 0.759
    },
    {
     "id": "trump-s-impact-on-an-ohio-steel-plant",
@@ -379,18 +379,29 @@
     "summary": "The giant steel plant in Middletown, Ohio planned to switch away from using coke, a refined form of coal. The switch would have cut hazardous air pollution -- and greenhouse gas emissions.…",
     "published": "2026-11-20T21:38:11+00:00",
     "outlets": 1,
-    "score": 0.92
+    "score": 0.719
    },
    {
-    "id": "preppers-aren-t-afraid-of-an-outage",
-    "title": "Preppers aren't afraid of an outage",
-    "link": "https://www.npr.org/2026/11/20/nx-s1-6044297/preppers-arent-afraid-of-an-outage",
+    "id": "jonathan-rinderknecht-found-guilty-in-palisades-fire-case",
+    "title": "Jonathan Rinderknecht found guilty in Palisades Fire case",
+    "link": "https://www.cbsnews.com/news/jonathan-rinderknecht-found-guilty-in-palisades-fire-case/",
+    "source": "CBS News",
+    "topic": "U.S.",
+    "summary": "A Los Angeles County jury has found Jonathan Rinderknecht guilty of starting a blaze that erupted into the deadly and destructive Palisades Fire in 2025.",
+    "published": "2026-11-21T02:02:18+00:00",
+    "outlets": 1,
+    "score": 0.566
+   },
+   {
+    "id": "mlk-s-handwritten-draft-of-iconic-speech-on-display-for-the",
+    "title": "MLK's handwritten draft of iconic speech on display for the first time",
+    "link": "https://www.npr.org/2026/11/20/nx-s1-6039337/mlk-i-have-a-dream-speech-draft-public-display",
     "source": "NPR National",
     "topic": "U.S.",
-    "summary": "In the wake of a series of tech failures, major government network crashes and flight stoppages, many people online are looking to preppers to learn how to become self-reliant.",
-    "published": "2026-11-20T21:30:58+00:00",
+    "summary": "The only known handwritten draft of The Reverend Martin Luther King Jr.'s 'I Have a Dream' speech is on display in his hometown. The iconic phrase, however, never made it on the page.",
+    "published": "2026-11-20T21:38:05+00:00",
     "outlets": 1,
-    "score": 0.631
+    "score": 0.496
    },
    {
     "id": "rising-seas-have-forced-this-quinault-village-to-relocate",
@@ -401,154 +412,7 @@
     "summary": "The Quinault Indian Nation has moved its largest village away from rising seas and tsunamis",
     "published": "2026-11-20T21:38:13+00:00",
     "outlets": 1,
-    "score": 0.63
-   },
-   {
-    "id": "marine-corps-hero-under-federal-investigation",
-    "title": "Marine Corps hero under federal investigation",
-    "link": "https://www.cbsnews.com/news/marine-corps-hero-brad-kasal-federal-investigation/",
-    "source": "CBS News",
-    "topic": "U.S.",
-    "summary": "Retired Sgt. Maj. Bradley Kasal, whose bloodied visage was depicted in an iconic Iraq War photo, is under investigation stemming from his tenure as a high school JROTC instructor.",
-    "published": "2026-11-20T23:00:50+00:00",
-    "outlets": 1,
-    "score": 0.623
-   }
-  ],
-  "Sports": [
-   {
-    "id": "ufc-fight-night-start-time-for-jiri-prochazka-vs-navajo-stir",
-    "title": "UFC Fight Night start time for Jiri Prochazka vs. Navajo Stirling: Where to watch live on Paramount+",
-    "link": "https://www.cbssports.com/ufc/news/where-watch-ufc-fight-night-qatar-start-time-live-stream/",
-    "source": "CBS Sports",
-    "topic": "Sports",
-    "summary": "Top light heavyweights collide in the main event from Qatar",
-    "published": "2026-11-20T23:10:26+00:00",
-    "outlets": 1,
-    "score": 0.994
-   },
-   {
-    "id": "man-utd-fan-criticism-has-gone-too-far-at-times-berrada",
-    "title": "Man Utd fan criticism has gone too far at times - Berrada",
-    "link": "https://www.bbc.co.uk/sport/football/articles/cwz0k32j9kr9o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Sport",
-    "topic": "Sports",
-    "summary": "Manchester United chief executive Omar Berrada says some of the recent criticism of the club's hierarchy has \"crossed a line\".",
-    "published": "2026-11-20T16:55:11+00:00",
-    "outlets": 1,
-    "score": 0.727
-   },
-   {
-    "id": "borgata-sportsbook-promo-code-2026-bet-20-get-100-instantly",
-    "title": "Borgata Sportsbook promo code 2026: Bet $20, get $100 instantly in bonus bets",
-    "link": "https://www.cbssports.com/betting/news/borgata-promo-code/",
-    "source": "CBS Sports",
-    "topic": "Sports",
-    "summary": "Borgata Sportsbook promo code for new users: CBS100 to bet $20, get $100 instantly in bonus bets",
-    "published": "2026-11-20T23:08:27+00:00",
-    "outlets": 1,
-    "score": 0.684
-   },
-   {
-    "id": "week-11-nfl-odds-picks-predictions-computer-model-backs-cowb",
-    "title": "Week 11 NFL odds, picks, predictions: Computer model backs Cowboys and Saints",
-    "link": "https://www.cbssports.com/betting/news/nfl-odds-picks-spreads-betting-lines-predictions-week-11-2026/",
-    "source": "CBS Sports",
-    "topic": "Sports",
-    "summary": "SportsLine's advanced model has simulated every game in the Week 11 NFL schedule 10,000 times and locked in its NFL best bets today",
-    "published": "2026-11-20T23:05:35+00:00",
-    "outlets": 1,
-    "score": 0.521
-   },
-   {
-    "id": "nfl-great-brady-could-buy-chelsea-stake",
-    "title": "NFL great Brady could buy Chelsea stake",
-    "link": "https://www.bbc.co.uk/sport/football/articles/cmg46k97k92do?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Sport",
-    "topic": "Sports",
-    "summary": "American football great Tom Brady is looking to invest in Chelsea through ownership group Clearlake Capital.",
-    "published": "2026-11-20T22:36:35+00:00",
-    "outlets": 1,
-    "score": 0.509
-   },
-   {
-    "id": "stacked-england-aim-to-pile-on-style-and-add-to-all-black-mi",
-    "title": "Stacked England aim to pile on style and add to All Black misery",
-    "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cqrmgjpp0l48o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Sport",
-    "topic": "Sports",
-    "summary": "England's easy-on-the-eye revival will be stress-tested by a New Zealand side under sudden pressure on Saturday",
-    "published": "2026-11-20T16:51:17+00:00",
-    "outlets": 1,
-    "score": 0.5
-   }
-  ],
-  "Entertainment": [
-   {
-    "id": "michael-won-t-be-submitted-for-bafta-awards-as-filmmakers-p",
-    "title": "‘Michael’ Won’t Be Submitted for BAFTA Awards as Filmmakers Pass on Billion-Dollar Biopic’s Entry (EXCLUSIVE)",
-    "link": "https://variety.com/2026/film/awards/michael-biopic-bafta-awards-2027-not-submitted-1236954593/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "The highest-grossing biopic ever made is sitting out one of the biggest stops on the road to the Oscars. “Michael,” Antoine Fuqua’s billion-dollar portrait of the King of Pop, will not be…",
-    "published": "2026-11-20T23:05:49+00:00",
-    "outlets": 1,
-    "score": 0.99
-   },
-   {
-    "id": "home-alone-director-chris-columbus-said-minutes-before-new",
-    "title": "‘Home Alone’ Director Chris Columbus Said Minutes Before New Sequel Was Announced That Another Movie ‘Can’t Happen’ After Catherine O’Hara’s Death",
-    "link": "https://variety.com/2026/film/news/chris-columbus-home-alone-reboot-reaction-catherine-ohara-1236954497/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "Chris Columbus didn’t know a new “Home Alone” was coming. The director of the 1990 original spoke with Variety minutes before news broke that Disney is developing a new installment with…",
-    "published": "2026-11-20T22:57:37+00:00",
-    "outlets": 1,
-    "score": 0.678
-   },
-   {
-    "id": "gta-6-sales-hit-3-8bn-in-a-single-day-the-biggest-entertainm",
-    "title": "GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history",
-    "link": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Entertainment",
-    "topic": "Entertainment",
-    "summary": "The mammoth figure surpasses every video game launch and single-day film box office record.",
-    "published": "2026-11-20T22:53:24+00:00",
-    "outlets": 1,
-    "score": 0.676
-   },
-   {
-    "id": "being-heumann-producers-team-with-marc-furmie-rezistor-film",
-    "title": "‘Being Heumann’ Producers Team With Marc Furmie, Rezistor Films on Cult Comic ‘Deadworld’ Film — Film News in Brief",
-    "link": "https://variety.com/2026/film/news/film-news-in-brief-nov-16-2026-1236949296/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "“Being Heumann” producers Kevin Cleary and John W. Beach, of Gravity Squared Entertainment, are joining with Marc Furmie of Rezistor Films to adapt and produce “Deadworld.” Furmie will…",
-    "published": "2026-11-20T22:47:00+00:00",
-    "outlets": 1,
-    "score": 0.513
-   },
-   {
-    "id": "he-walked-so-i-could-run-project-hail-mary-breakout-james-o",
-    "title": "‘He Walked So I Could Run’: ‘Project Hail Mary’ Breakout James Ortiz on Andy Serkis, Becoming Rocky and the Art of Puppetry",
-    "link": "https://variety.com/2026/film/awards/james-ortiz-rocky-project-hail-mary-oscars-puppetry-serkis-1236954348/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "The reason so many of us cried at “Project Hail Mary” has five legs, no face and a voice that belongs to James Ortiz. And he’s so damn effective. In April, Variety exclusively reported…",
-    "published": "2026-11-20T22:45:53+00:00",
-    "outlets": 1,
-    "score": 0.414
-   },
-   {
-    "id": "new-hunger-games-cast-say-joining-the-franchise-is-nerve-rac",
-    "title": "New Hunger Games cast say joining the franchise is 'nerve-racking'",
-    "link": "https://www.bbc.co.uk/news/articles/c8752w5vz2zqo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Entertainment",
-    "topic": "Entertainment",
-    "summary": "The prequel, which is set 24 years before the original The Hunger Games film, is released today.",
-    "published": "2026-11-20T01:11:57+00:00",
-    "outlets": 1,
-    "score": 0.35
+    "score": 0.492
    }
   ],
   "World": [
@@ -561,7 +425,7 @@
     "summary": "The UK-EU deal agreed on Friday covers British food exports, emissions trading and a youth experience scheme.",
     "published": "2026-11-20T17:49:48+00:00",
     "outlets": 1,
-    "score": 0.989
+    "score": 1.005
    },
    {
     "id": "another-day-of-survival-for-a-family-in-ukraine",
@@ -572,18 +436,18 @@
     "summary": "On the outskirts of Kyiv, one family prepares for the fifth winter of war against Russia -- stockpiling food and fuel and trying to maintain as much a sense of normalcy as possible.",
     "published": "2026-11-20T21:32:31+00:00",
     "outlets": 1,
-    "score": 0.916
+    "score": 0.716
    },
    {
-    "id": "denmark-accuses-russia-of-plotting-to-assassinate-us-ukraini",
-    "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
-    "link": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
+    "id": "russian-missile-hits-poland-as-ukraine-s-allies-hold-militar",
+    "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+    "link": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
     "source": "BBC World",
     "topic": "World",
-    "summary": "The Russian embassy in Denmark has denied the allegation, which has led to Russia's defence attaché being expelled.",
-    "published": "2026-11-20T21:57:07+00:00",
+    "summary": "Nobody was hurt and no damage has been reported, but Warsaw described the incident as a \"provocation\" from Moscow.",
+    "published": "2026-11-21T02:09:46+00:00",
     "outlets": 1,
-    "score": 0.645
+    "score": 0.475
    },
    {
     "id": "california-s-coastal-communities-on-alert-as-biggest-waves-i",
@@ -594,100 +458,201 @@
     "summary": "Hazard warnings issued throughout week after powerful swells and waves of more than 9 metres recorded Multiple coastal hazard warnings were issued this week across California as successive…",
     "published": "2026-11-20T09:03:20+00:00",
     "outlets": 1,
-    "score": 0.54
+    "score": 0.422
    },
    {
-    "id": "french-police-officers-sentenced-for-beating-of-music-produc",
-    "title": "French police officers sentenced for beating of music producer Michel Zecler",
-    "link": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
+    "id": "trump-touts-meeting-with-xi-and-putin-but-offers-little-resu",
+    "title": "Trump touts meeting with Xi and Putin but offers little results",
+    "link": "https://www.npr.org/2026/11/20/nx-s1-6047594/trump-asia-trip-xi-putin-press-conference",
+    "source": "NPR World",
     "topic": "World",
-    "summary": "The court has upheld the 2020 beating of the black music producer as an aggravated circumstance of racism.",
-    "published": "2026-11-20T22:37:09+00:00",
+    "summary": "At a White House press conference Friday, Trump offered little in actual results of the meetings, beyond a joint statement on unity over some issues.",
+    "published": "2026-11-20T15:00:00+00:00",
     "outlets": 1,
-    "score": 0.509
+    "score": 0.356
    },
    {
-    "id": "russian-missile-hits-poland-as-ukraine-s-allies-hold-militar",
-    "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-    "link": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
+    "id": "man-guilty-of-murdering-woman-he-groomed-on-fetish-site",
+    "title": "Man guilty of murdering woman he groomed on fetish site",
+    "link": "https://www.bbc.co.uk/news/articles/cmy49lekdkkzo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News",
     "topic": "World",
-    "summary": "Nobody was hurt and no damage has been reported, but Warsaw described the incident as a \"provocation\" from Moscow.",
-    "published": "2026-11-20T16:54:29+00:00",
+    "summary": "Dwain Hall has been found guilty of the kidnap and first-degree murder of Sonia Exelby.",
+    "published": "2026-11-20T18:17:56+00:00",
     "outlets": 1,
-    "score": 0.497
+    "score": 0.337
    }
   ],
-  "Tech": [
+  "Entertainment": [
    {
-    "id": "trump-fcc-declares-california-isn-t-allowed-to-enforce-phone",
-    "title": "Trump FCC declares California isn't allowed to enforce phone service rules",
-    "link": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "FCC preempts state rules that require AT&T to keep offering home phone service.",
-    "published": "2026-11-20T22:28:24+00:00",
+    "id": "bill-maher-mocks-grand-theft-auto-6-playing-young-men-with-a",
+    "title": "Bill Maher Mocks ‘Grand Theft Auto 6’-Playing Young Men With Awful ICE Joke",
+    "link": "https://variety.com/2026/tv/news/bill-maher-grand-theft-auto-6-young-men-ice-real-time-hbo-1236954795/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "The Season 24 finale of “Real Time with Bill Maher” aired Friday night — it’s been renewed for two more seasons through 2028 — and the crabby comic’s monologue tackled everything from the…",
+    "published": "2026-11-21T03:21:11+00:00",
     "outlets": 1,
-    "score": 0.96
+    "score": 0.957
    },
    {
-    "id": "youtube-is-reportedly-preparing-to-settle-social-media-addic",
-    "title": "YouTube is reportedly preparing to settle social media addiction claims for $3 billion",
-    "link": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "YouTube is preparing to pay $3 billion to thousands of school districts to settle claims that its \"addictive design\" harmed kids, according to Bloomberg. Sources tell the publication that…",
-    "published": "2026-11-20T20:43:52+00:00",
+    "id": "godavari-director-nikhil-mahajan-turns-a-malegaon-carjackin",
+    "title": "‘Godavari’ Director Nikhil Mahajan Turns a Malegaon Carjacking Into Neo-Noir With WAVES Film Bazaar Project ‘Mongoose’",
+    "link": "https://variety.com/2026/film/markets-festivals/godavari-director-nikhil-mahajan-carjacking-neo-noir-mongoose-1236954786/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "Nikhil Mahajan, the Indian National Film Award-winning director of “Godavari” and the Netflix series “Betaal,” is bringing “Mongoose,” a Marathi-language neo-noir thriller about a cab…",
+    "published": "2026-11-21T02:32:10+00:00",
     "outlets": 1,
-    "score": 0.88
+    "score": 0.634
    },
    {
-    "id": "spacex-s-starshield-troubles-in-ukraine-could-threaten-its-b",
-    "title": "SpaceX's Starshield troubles in Ukraine could threaten its broader military business",
-    "link": "https://arstechnica.com/space/2026/11/incoming-house-chair-threatens-spacex-funding-over-ukraine-controversy/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "\"Explain the changes that were made to the Starshield service in October 2026.\"",
-    "published": "2026-11-20T22:16:51+00:00",
+    "id": "gta-6-sales-hit-3-8bn-in-a-single-day-the-biggest-entertainm",
+    "title": "GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history",
+    "link": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Entertainment",
+    "topic": "Entertainment",
+    "summary": "The mammoth figure surpasses every video game launch and single-day film box office record.",
+    "published": "2026-11-20T22:53:24+00:00",
     "outlets": 1,
-    "score": 0.656
+    "score": 0.528
    },
    {
-    "id": "rockstar-says-gta-vi-made-3-79-billion-in-its-first-day",
-    "title": "Rockstar says GTA VI made $3.79 billion in its first day",
-    "link": "https://www.theverge.com/games/1036279/gta-vi-sales",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "GTA VI earned $3.79 billion in its first day of sales, which set \"a new record for entertainment across any medium,\" according to an announcement from Rockstar Games. The game also sold…",
-    "published": "2026-11-20T19:39:02+00:00",
+    "id": "melania-trump-calls-for-peace-when-asked-about-children-in-g",
+    "title": "Melania Trump Calls for ‘Peace’ When Asked About Children in Gaza and Israel at Amazon Series Premiere",
+    "link": "https://variety.com/2026/tv/news/melania-trump-series-gaza-israel-children-peace-amazon-1236954718/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "Amazon Prime Video’s “Melania: The Series” offers a peek into the often-reclusive first lady’s personal life and role inside the White House, including her efforts to provide children in…",
+    "published": "2026-11-21T00:30:25+00:00",
     "outlets": 1,
-    "score": 0.575
+    "score": 0.437
    },
    {
-    "id": "google-rolls-out-new-search-homepage-with-ai-chat-history-an",
-    "title": "Google rolls out new search homepage with AI chat history and no search button",
-    "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "Google search is making it even easier to access AI tools on the search page.",
-    "published": "2026-11-20T21:58:29+00:00",
+    "id": "new-hunger-games-cast-say-joining-the-franchise-is-nerve-rac",
+    "title": "New Hunger Games cast say joining the franchise is 'nerve-racking'",
+    "link": "https://www.bbc.co.uk/news/articles/c8752w5vz2zqo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Entertainment",
+    "topic": "Entertainment",
+    "summary": "The prequel, which is set 24 years before the original The Hunger Games film, is released today.",
+    "published": "2026-11-20T01:11:57+00:00",
     "outlets": 1,
-    "score": 0.493
+    "score": 0.35
    },
    {
-    "id": "eufy-s-omni-c28-is-53-percent-off-ahead-of-black-friday",
-    "title": "Eufy’s Omni C28 is 53 percent off ahead of Black Friday",
-    "link": "https://www.theverge.com/gadgets/1037933/eufy-omni-c28-robot-vacuum-deal-sale",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "Hosting Thanksgiving can be fun, but cleaning up afterwards? Not so much. Eufy’s Omni C28 robot vacuum / mop hybrid can help, and thanks to an early Black Friday deal, you can pick it up…",
-    "published": "2026-11-20T17:50:06+00:00",
+    "id": "e-j-carroll-law-order-gta-5-and-blue-bloods-actor-dies-at-66",
+    "title": "E.J. Carroll, ‘Law & Order,’ ‘GTA 5’ and ‘Blue Bloods’ Actor, Dies at 66",
+    "link": "https://variety.com/2026/tv/news/e-j-carroll-dead-the-deuce-1236954725/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "E.J. Carroll, who appeared in projects including “The Deuce,” “Law & Order” and “Grand Theft Auto V,” died on Thursday. He was 66. Carroll died suddenly Thursday morning, his rep confirmed…",
+    "published": "2026-11-21T00:17:59+00:00",
     "outlets": 1,
-    "score": 0.401
+    "score": 0.35
+   }
+  ],
+  "Sports": [
+   {
+    "id": "fantasy-baseball-offseason-tracker-royce-lewis-provides-dept",
+    "title": "Fantasy Baseball Offseason Tracker: Royce Lewis provides depth for Dodgers' aging infield",
+    "link": "https://www.cbssports.com/fantasy/baseball/news/fantasy-baseball-offseason-tracker-royce-lewis-provides-depth-for-dodgers-aging-infield/",
+    "source": "CBS Sports",
+    "topic": "Sports",
+    "summary": "Here's a rundown of the offseason moves that matter",
+    "published": "2026-11-21T01:31:44+00:00",
+    "outlets": 1,
+    "score": 0.873
+   },
+   {
+    "id": "price-beats-kotaskova-to-become-undisputed-champion",
+    "title": "Price beats Kotaskova to become undisputed champion",
+    "link": "https://www.bbc.co.uk/sport/boxing/articles/cw808y2lrkzxo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "topic": "Sports",
+    "summary": "Lauren Price dominates Michaela Kotaskova to seal her place in history by becoming undisputed world welterweight champion.",
+    "published": "2026-11-20T23:30:56+00:00",
+    "outlets": 1,
+    "score": 0.79
+   },
+   {
+    "id": "aljamain-sterling-says-critics-can-argue-with-the-history-bo",
+    "title": "Aljamain Sterling says critics can argue with the history books as he chases more legacy: 'Numbers don't lie'",
+    "link": "https://www.cbssports.com/ufc/news/aljamain-sterling-chases-legacy-at-ufc-fight-night/",
+    "source": "CBS Sports",
+    "topic": "Sports",
+    "summary": "Sterling believes a win over Kevin Vallejos at UFC Fight Night in Qatar could put him in line for a second title shot in as many divisions",
+    "published": "2026-11-21T01:30:53+00:00",
+    "outlets": 1,
+    "score": 0.602
+   },
+   {
+    "id": "cost-of-man-utd-hiring-and-firing-managers-nears-100m",
+    "title": "Cost of Man Utd hiring and firing managers nears £100m",
+    "link": "https://www.bbc.co.uk/sport/football/articles/cwd01n9z23x5o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "topic": "Sports",
+    "summary": "Manchester United borrowed £10m three days after confirming Mauricio Pochettino would be their new head coach, which will cost them £7.5m in compensation to US Soccer.",
+    "published": "2026-11-20T23:18:16+00:00",
+    "outlets": 1,
+    "score": 0.539
+   },
+   {
+    "id": "kentucky-vs-indiana-prediction-pick-odds-spread-wildcats-fac",
+    "title": "Kentucky vs. Indiana prediction, pick, odds, spread: Wildcats face Hooisers in blue-blood clash",
+    "link": "https://www.cbssports.com/college-basketball/news/kentucky-indiana-prediction-picks-odds-spread-where-to-watch-live/",
+    "source": "CBS Sports",
+    "topic": "Sports",
+    "summary": "Indiana's revamped frontcourt and balanced scoring attack give the unbeaten Hoosiers a decisive edge against a Wildcats squad still searching for an identity",
+    "published": "2026-11-21T00:45:45+00:00",
+    "outlets": 1,
+    "score": 0.442
+   },
+   {
+    "id": "teammates-navajo-stirling-carlos-ulberg-rapidly-approach-an",
+    "title": "Teammates Navajo Stirling, Carlos Ulberg rapidly approach an awkward dilemma atop light heavyweight division",
+    "link": "https://www.cbssports.com/ufc/news/navajo-stirling-carlos-ulberg-light-heavyweight-title-ufc-fight-night/",
+    "source": "CBS Sports",
+    "topic": "Sports",
+    "summary": "Stirling could catapult himself into the 205-pound title picture with a win over former champ Jiri Prochazka in Qatar this weekend",
+    "published": "2026-11-21T00:32:38+00:00",
+    "outlets": 1,
+    "score": 0.354
    }
   ],
   "Local": [
+   {
+    "id": "xavier-becerra-inherits-a-budget-shortfall",
+    "title": "Xavier Becerra Inherits a Budget Shortfall",
+    "link": "https://ww2.kqed.org/news/2026/11/20/xavier-becerra-inherits-a-budget-shortfall/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "When Xavier Becerra takes over as governor next year, he'll be met with a budget deficit and a record Democratic caucus.",
+    "published": "2026-11-21T00:10:00+00:00",
+    "outlets": 1,
+    "score": 0.816
+   },
+   {
+    "id": "thao-corruption-trial-fbi-tape-shows-defendant-lying-prosecu",
+    "title": "Thao Corruption Trial: FBI Tape Shows Defendant Lying, Prosecution Says",
+    "link": "https://ww2.kqed.org/news/2026/11/20/thao-corruption-trial-fbi-tape-shows-defendant-lying-prosecution-says/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "The interview between Oakland businessman Andy Duong and an FBI special agent took place just hours after the FBI raided his home.",
+    "published": "2026-11-20T23:51:07+00:00",
+    "outlets": 1,
+    "score": 0.554
+   },
+   {
+    "id": "vallejo-releases-investigation-finding-mayor-broke-city-cond",
+    "title": "Vallejo Releases Investigation Finding Mayor Broke City Conduct Laws",
+    "link": "https://ww2.kqed.org/news/2026/11/20/vallejo-releases-investigation-finding-mayor-broke-city-conduct-laws/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "The city released a redacted report alleging Mayor Andrea Sorce improperly sought the removal of a city employee linked to the Vallejo Police Department.",
+    "published": "2026-11-20T23:20:58+00:00",
+    "outlets": 1,
+    "score": 0.412
+   },
    {
     "id": "california-proposition-roundup-what-passed-and-what-failed",
     "title": "California Proposition Roundup: What Passed and What Failed",
@@ -697,7 +662,7 @@
     "summary": "Voters weighed in on 14 state propositions; seven will become law, and seven others lost.",
     "published": "2026-11-20T21:47:02+00:00",
     "outlets": 1,
-    "score": 0.927
+    "score": 0.308
    },
    {
     "id": "another-storm-is-hitting-the-bay-area-here-s-how-it-could-af",
@@ -708,7 +673,7 @@
     "summary": "The Bay Area might be in for a messy pre-holiday travel period if the combination of storm and coastal flooding impacts unfolds as expected.",
     "published": "2026-11-20T20:02:03+00:00",
     "outlets": 1,
-    "score": 0.586
+    "score": 0.237
    },
    {
     "id": "on-another-rock-the-moon-landing-and-the-occupation-of-alcat",
@@ -719,40 +684,75 @@
     "summary": "Listen to this and more in-depth storytelling by subscribing to The California Report Magazine podcast. On November 19, 1969, the Apollo 12 astronauts touched down on the moon. The very…",
     "published": "2026-11-20T19:00:00+00:00",
     "outlets": 1,
-    "score": 0.425
+    "score": 0.194
+   }
+  ],
+  "Tech": [
+   {
+    "id": "youtube-is-reportedly-preparing-to-settle-social-media-addic",
+    "title": "YouTube is reportedly preparing to settle social media addiction claims for $3 billion",
+    "link": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "YouTube is preparing to pay $3 billion to thousands of school districts to settle claims that its \"addictive design\" harmed kids, according to Bloomberg. Sources tell the publication that…",
+    "published": "2026-11-20T22:51:40+00:00",
+    "outlets": 1,
+    "score": 0.764
    },
    {
-    "id": "ski-resorts-in-the-sierras-opening-early-thanks-to-heavy-sno",
-    "title": "Ski Resorts in the Sierras Opening Early Thanks to Heavy Snow",
-    "link": "https://ww2.kqed.org/news/2026/11/20/ski-resorts-in-the-sierras-opening-early-thanks-to-heavy-snow/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "This year's El Niño is helping some resorts like Palisades in Lake Tahoe opening ahead of schedule.",
-    "published": "2026-11-20T17:47:21+00:00",
+    "id": "trump-fcc-declares-california-isn-t-allowed-to-enforce-phone",
+    "title": "Trump FCC declares California isn't allowed to enforce phone service rules",
+    "link": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "FCC preempts state rules that require AT&T to keep offering home phone service.",
+    "published": "2026-11-20T22:28:24+00:00",
     "outlets": 1,
-    "score": 0.323
+    "score": 0.75
    },
    {
-    "id": "feds-urge-california-not-to-ban-countertop-material-linked-t",
-    "title": "Feds Urge California Not to Ban Countertop Material Linked to Rise in Silicosis",
-    "link": "https://ww2.kqed.org/news/2026/11/20/feds-urge-california-not-to-ban-countertop-material-linked-to-rise-in-silicosis/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "Federal OSHA head says state should focus instead on enforcement of current safety rules, an approach California officials consider insufficient to stop deadly silicosis.",
-    "published": "2026-11-20T17:40:35+00:00",
+    "id": "spacex-s-starshield-troubles-in-ukraine-could-threaten-its-b",
+    "title": "SpaceX's Starshield troubles in Ukraine could threaten its broader military business",
+    "link": "https://arstechnica.com/space/2026/11/incoming-house-chair-threatens-spacex-funding-over-ukraine-controversy/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "\"Explain the changes that were made to the Starshield service in October 2026.\"",
+    "published": "2026-11-20T22:16:51+00:00",
     "outlets": 1,
-    "score": 0.27
+    "score": 0.512
    },
    {
-    "id": "california-s-legislature-is-becoming-bluer-than-ever-that-do",
-    "title": "California’s Legislature Is Becoming Bluer Than Ever. That Doesn’t Mean They All Agree",
-    "link": "https://ww2.kqed.org/news/2026/11/20/californias-legislature-is-becoming-bluer-than-ever-that-doesnt-mean-they-all-agree/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "As Democrats prepare to govern with their largest caucus in modern history, ideological splits and pressures on new members from swing districts could have major implications for policy.",
-    "published": "2026-11-20T17:23:05+00:00",
+    "id": "rockstar-says-gta-vi-made-3-79-billion-in-its-first-day",
+    "title": "Rockstar says GTA VI made $3.79 billion in its first day",
+    "link": "https://www.theverge.com/games/1036279/gta-vi-sales",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "GTA VI earned $3.79 billion in its first day of sales, which set \"a new record for entertainment across any medium,\" according to an announcement from Rockstar Games. The game also sold…",
+    "published": "2026-11-20T22:10:53+00:00",
     "outlets": 1,
-    "score": 0.229
+    "score": 0.51
+   },
+   {
+    "id": "google-rolls-out-new-search-homepage-with-ai-chat-history-an",
+    "title": "Google rolls out new search homepage with AI chat history and no search button",
+    "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "Google search is making it even easier to access AI tools on the search page.",
+    "published": "2026-11-20T21:58:29+00:00",
+    "outlets": 1,
+    "score": 0.385
+   },
+   {
+    "id": "eufy-s-omni-c28-is-53-percent-off-ahead-of-black-friday",
+    "title": "Eufy’s Omni C28 is 53 percent off ahead of Black Friday",
+    "link": "https://www.theverge.com/gadgets/1037933/eufy-omni-c28-robot-vacuum-deal-sale",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "Hosting Thanksgiving can be fun, but cleaning up afterwards? Not so much. Eufy’s Omni C28 robot vacuum / mop hybrid can help, and thanks to an early Black Friday deal, you can pick it up…",
+    "published": "2026-11-20T17:50:06+00:00",
+    "outlets": 1,
+    "score": 0.313
    }
   ],
   "Science": [
@@ -765,7 +765,7 @@
     "summary": "New research shows where this all takes place and what it means for possibly treating those who have speech difficulties.",
     "published": "2026-11-20T21:38:25+00:00",
     "outlets": 1,
-    "score": 0.921
+    "score": 0.719
    }
   ],
   "Politics": [
@@ -778,18 +778,7 @@
     "summary": "President Trump gave a wide-ranging press conference following his historic trip to Asia where he met with Chinese President Xi and Russian President Putin.",
     "published": "2026-11-20T21:38:21+00:00",
     "outlets": 1,
-    "score": 0.921
-   },
-   {
-    "id": "trump-signs-common-cents-act",
-    "title": "Trump signs Common Cents Act",
-    "link": "https://www.cbsnews.com/news/trump-signs-common-cents-act-into-law/",
-    "source": "CBS News",
-    "topic": "Politics",
-    "summary": "The Common Cents Act established guidelines for businesses and consumers when conducting cash transactions.",
-    "published": "2026-11-20T23:04:00+00:00",
-    "outlets": 1,
-    "score": 0.818
+    "score": 0.719
    },
    {
     "id": "a-second-judge-blocks-trump-s-arch-saying-it-s-unlikely-to-s",
@@ -800,18 +789,7 @@
     "summary": "A federal judge in Virginia said she will issue a preliminary injunction against Trump's arch, going a step further than the D.C. federal judge who temporarily blocked construction earlier…",
     "published": "2026-11-20T18:25:09+00:00",
     "outlets": 1,
-    "score": 0.54
-   },
-   {
-    "id": "rep-glenn-ivey-on-ice-releasing-university-of-maryland-stude",
-    "title": "Rep. Glenn Ivey on ICE releasing University of Maryland student, Senate leadership race, more",
-    "link": "https://www.cbsnews.com/video/rep-glenn-ivey-on-ice-releasing-umd-student-senate-leadership-race-more/",
-    "source": "CBS News",
-    "topic": "Politics",
-    "summary": "Democratic Rep. Glenn Ivey joins \"The Takeout\" to discuss ICE's release of a detained University of Maryland student and more.",
-    "published": "2026-11-20T22:58:55+00:00",
-    "outlets": 1,
-    "score": 0.503
+    "score": 0.422
    },
    {
     "id": "trump-initially-accepted-the-midterm-results-but-most-gop-vo",
@@ -822,18 +800,40 @@
     "summary": "Less than half of Republicans nationwide considered the midterm elections \"free and fair,\" according to new polling.",
     "published": "2026-11-20T17:00:00+00:00",
     "outlets": 1,
-    "score": 0.499
+    "score": 0.3
    },
    {
-    "id": "what-we-learned-from-trump-s-first-press-conference-followin",
-    "title": "What we learned from Trump's first press conference following summit with Xi, Putin",
-    "link": "https://www.cbsnews.com/video/what-we-learned-from-trumps-first-press-conference-following-summit-with-xi-putin/",
+    "id": "trump-defends-calling-putin-his-friend-talks-outages-in-firs",
+    "title": "Trump defends calling Putin his friend, talks outages in first presser after China summit",
+    "link": "https://www.cbsnews.com/video/trump-defends-calling-putin-his-friend-talks-outages-in-first-presser-after-china-summit/",
     "source": "CBS News",
     "topic": "Politics",
-    "summary": "President Trump addressed the recent wave of tech outages, Iran, and more during his first press conference following his summit with Xi Jinping and Vladimir Putin. CBS News' Ed O'Keefe…",
-    "published": "2026-11-20T22:43:34+00:00",
+    "summary": "President Trump addressed Iran's nuclear program, the Ukraine war and more in his first press conference following his summit with Vladimir Putin and Xi Jinping on Friday. Ed O'Keefe…",
+    "published": "2026-11-21T01:08:22+00:00",
     "outlets": 1,
-    "score": 0.315
+    "score": 0.187
+   },
+   {
+    "id": "trump-threatens-tremendous-penalties-for-us-tech-firms-that",
+    "title": "Trump threatens ‘tremendous penalties’ for US tech firms that build datacenters abroad",
+    "link": "https://www.theguardian.com/us-news/2026/nov/20/trump-datacenters-white-house",
+    "source": "The Guardian",
+    "topic": "Politics",
+    "summary": "President gives wide-ranging White House press conference and says he has ‘fantastic relationships’ with Putin and Xi Donald Trump threatened on Friday to impose “tremendous penalties” on…",
+    "published": "2026-11-20T21:47:41+00:00",
+    "outlets": 1,
+    "score": 0.145
+   },
+   {
+    "id": "judges-have-put-trump-s-arch-and-golf-course-on-hold-but-onl",
+    "title": "Judges have put Trump's arch and golf course on hold, but only for a matter of days",
+    "link": "https://www.npr.org/2026/11/19/nx-s1-6047151/trump-arch-golf-course-judge-orders",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "A federal judge has twice delayed construction of Trump's arch. Another is keeping East Potomac Park open. The proposed golf course redesign got mixed feedback from a federal arts panel on…",
+    "published": "2026-11-19T19:46:27+00:00",
+    "outlets": 1,
+    "score": 0.069
    }
   ],
   "Economy": [
@@ -846,7 +846,7 @@
     "summary": "The trade deal is unlikely lower food prices for shoppers, but should boost the economy more than other post-Brexit agreements.",
     "published": "2026-11-20T16:41:52+00:00",
     "outlets": 1,
-    "score": 0.838
+    "score": 0.504
    },
    {
     "id": "just-how-vulnerable-are-we-to-cyberattacks",
@@ -857,7 +857,18 @@
     "summary": "In a week of outages, we're thinking about the rising threat of AI-powered cyberattacks. But sometimes, it's not the most sophisticated attack that's concerning, but the easy targets…",
     "published": "2026-11-20T12:00:00+00:00",
     "outlets": 1,
-    "score": 0.569
+    "score": 0.444
+   },
+   {
+    "id": "airbnb-s-divisive-new-house-rules-come-into-force",
+    "title": "Airbnb's divisive new house rules come into force",
+    "link": "https://www.bbc.co.uk/news/articles/cmx278n2genyo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "New rules on what Airbnb hosts can reasonably ask guests to do could mean fewer chores but higher costs for customers.",
+    "published": "2026-11-20T15:48:35+00:00",
+    "outlets": 1,
+    "score": 0.117
    },
    {
     "id": "should-ai-be-judging-our-credit-worthiness",
@@ -868,7 +879,7 @@
     "summary": "Would AI be a good judge of whether you should get a mortgage, car loan or mobile phone contract?",
     "published": "2026-11-20T07:32:19+00:00",
     "outlets": 1,
-    "score": 0.14
+    "score": 0.109
    },
    {
     "id": "tinned-food-and-long-life-milk-boost-retail-sales-after-be-r",
@@ -879,7 +890,7 @@
     "summary": "People stocking up on long-life food drove retail sales higher October, according to official data.",
     "published": "2026-11-20T09:44:56+00:00",
     "outlets": 1,
-    "score": 0.137
+    "score": 0.107
    },
    {
     "id": "fish-and-eggs-al-desko-the-dos-and-don-ts-of-lunch-at-work",
@@ -891,20 +902,20 @@
     "published": "2026-11-20T00:08:37+00:00",
     "outlets": 1,
     "score": 0.084
-   },
-   {
-    "id": "mouldy-infested-housing-for-vulnerable-people-sold-as-ethica",
-    "title": "Mouldy, infested housing for vulnerable people sold as ethical investments abroad",
-    "link": "https://www.bbc.co.uk/news/articles/c6evre8j12vno?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "The properties are marketed at premium prices with claims of “government-backed” returns, the BBC finds.",
-    "published": "2026-11-20T06:00:33+00:00",
-    "outlets": 1,
-    "score": 0.083
    }
   ],
   "Health": [
+   {
+    "id": "teen-becomes-viral-chef-after-stepping-up-when-his-mom-had-c",
+    "title": "Teen becomes viral chef after stepping up when his mom had cancer",
+    "link": "https://www.cbsnews.com/news/joey-charney-georgia-teen-chef-cancer/",
+    "source": "CBS News",
+    "topic": "Health",
+    "summary": "In August, Jennifer Charney, a stay-at-home mother of eight, lost her 10-year battle with breast cancer. Her youngest son, Joey, stepped up to become the family's chef.",
+    "published": "2026-11-21T01:26:26+00:00",
+    "outlets": 1,
+    "score": 0.373
+   },
    {
     "id": "for-some-patients-psychedelic-treatment-brings-new-troubles",
     "title": "For some patients, psychedelic treatment brings new troubles in its aftermath",
@@ -915,6 +926,17 @@
     "published": "2026-11-19T23:07:17+00:00",
     "outlets": 1,
     "score": 0.35
+   },
+   {
+    "id": "teenager-cooking-meals-for-family-after-mother-s-death-now-h",
+    "title": "Teenager cooking meals for family after mother's death now has 2 million social media followers",
+    "link": "https://www.cbsnews.com/video/teenager-cooking-meals-for-family-after-mothers-death-now-has-2-million-social-media-followers/",
+    "source": "CBS News",
+    "topic": "Health",
+    "summary": "18-year-old Joey Charney's mother died of breast cancer in August, so he started cooking meals for his family and documenting his dishes on social media. Now he has over 2 million…",
+    "published": "2026-11-21T01:17:31+00:00",
+    "outlets": 1,
+    "score": 0.319
    },
    {
     "id": "the-magic-six-how-to-strengthen-your-marriage-in-midlife",
