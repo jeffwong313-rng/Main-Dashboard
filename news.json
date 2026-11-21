@@ -1,625 +1,522 @@
 {
- "generated": "2026-11-21T04:14:01+00:00",
- "generatedLocal": "2026-11-20 20:14",
+ "generated": "2026-11-21T20:01:01+00:00",
+ "generatedLocal": "2026-11-21 12:01",
  "top": [
   {
-   "id": "s-p-500-sinks-3-7-and-the-nasdaq-composite-goes-negative-for",
-   "title": "S&P 500 sinks 3.7% and the Nasdaq composite goes negative for the year",
-   "link": "https://www.npr.org/2026/11/20/g-s1-154797/nasdaq-sp500-stock-market-ai-sink-negative",
-   "source": "NPR",
-   "topic": "Finance",
-   "summary": "AI stocks have hefty market values and have a much bigger impact on the market's direction. They were responsible for Wall Street's big gains this year and are now behind the big slide for…",
-   "published": "2026-11-20T22:11:29+00:00",
-   "outlets": 1,
-   "score": 1.249
-  },
-  {
-   "id": "south-florida-begins-recovery-after-widespread-flooding",
-   "title": "South Florida begins recovery after widespread flooding",
-   "link": "https://www.cbsnews.com/live-updates/south-florida-flooding-live-updates-heavy-rain-broward-miami-dade/",
-   "source": "CBS News",
-   "topic": "U.S.",
-   "summary": "Historic flooding across South Florida has left neighborhoods underwater, roads impassable and Broward schools closed as residents begin cleanup efforts and officials assess the damage.",
-   "published": "2026-11-21T02:42:51+00:00",
-   "outlets": 1,
-   "score": 1.112
-  },
-  {
-   "id": "uk-to-explore-even-closer-ties-with-eu-after-agreeing-deal-s",
-   "title": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
-   "link": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC World",
-   "topic": "World",
-   "summary": "The UK-EU deal agreed on Friday covers British food exports, emissions trading and a youth experience scheme.",
-   "published": "2026-11-20T17:49:48+00:00",
-   "outlets": 1,
-   "score": 1.005
-  },
-  {
-   "id": "bill-maher-mocks-grand-theft-auto-6-playing-young-men-with-a",
-   "title": "Bill Maher Mocks ‘Grand Theft Auto 6’-Playing Young Men With Awful ICE Joke",
-   "link": "https://variety.com/2026/tv/news/bill-maher-grand-theft-auto-6-young-men-ice-real-time-hbo-1236954795/",
-   "source": "Variety",
-   "topic": "Entertainment",
-   "summary": "The Season 24 finale of “Real Time with Bill Maher” aired Friday night — it’s been renewed for two more seasons through 2028 — and the crabby comic’s monologue tackled everything from the…",
-   "published": "2026-11-21T03:21:11+00:00",
-   "outlets": 1,
-   "score": 0.957
-  },
-  {
-   "id": "fantasy-baseball-offseason-tracker-royce-lewis-provides-dept",
-   "title": "Fantasy Baseball Offseason Tracker: Royce Lewis provides depth for Dodgers' aging infield",
-   "link": "https://www.cbssports.com/fantasy/baseball/news/fantasy-baseball-offseason-tracker-royce-lewis-provides-depth-for-dodgers-aging-infield/",
-   "source": "CBS Sports",
-   "topic": "Sports",
-   "summary": "Here's a rundown of the offseason moves that matter",
-   "published": "2026-11-21T01:31:44+00:00",
-   "outlets": 1,
-   "score": 0.873
-  },
-  {
-   "id": "xavier-becerra-inherits-a-budget-shortfall",
-   "title": "Xavier Becerra Inherits a Budget Shortfall",
-   "link": "https://ww2.kqed.org/news/2026/11/20/xavier-becerra-inherits-a-budget-shortfall/",
-   "source": "KQED",
-   "topic": "Local",
-   "summary": "When Xavier Becerra takes over as governor next year, he'll be met with a budget deficit and a record Democratic caucus.",
-   "published": "2026-11-21T00:10:00+00:00",
-   "outlets": 1,
-   "score": 0.816
-  },
-  {
-   "id": "price-beats-kotaskova-to-become-undisputed-champion",
-   "title": "Price beats Kotaskova to become undisputed champion",
-   "link": "https://www.bbc.co.uk/sport/boxing/articles/cw808y2lrkzxo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "topic": "Sports",
-   "summary": "Lauren Price dominates Michaela Kotaskova to seal her place in history by becoming undisputed world welterweight champion.",
-   "published": "2026-11-20T23:30:56+00:00",
-   "outlets": 1,
-   "score": 0.79
-  },
-  {
-   "id": "youtube-is-reportedly-preparing-to-settle-social-media-addic",
-   "title": "YouTube is reportedly preparing to settle social media addiction claims for $3 billion",
-   "link": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement",
-   "source": "The Verge",
-   "topic": "Tech",
-   "summary": "YouTube is preparing to pay $3 billion to thousands of school districts to settle claims that its \"addictive design\" harmed kids, according to Bloomberg. Sources tell the publication that…",
-   "published": "2026-11-20T22:51:40+00:00",
-   "outlets": 1,
-   "score": 0.764
-  },
-  {
-   "id": "tech-stock-sell-off-drags-markets-down-as-anthropic-shares-s",
-   "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
-   "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC US & Canada",
-   "topic": "U.S.",
-   "summary": "Pressures weighed on US markets, with the S&P 500 and the Dow Jones Industrial Average pushed into correction territory.",
-   "published": "2026-11-20T22:42:47+00:00",
-   "outlets": 1,
-   "score": 0.759
-  },
-  {
-   "id": "stocks-enter-correction-territory-driven-by-deepening-tech-r",
-   "title": "Stocks enter correction territory, driven by deepening tech rout",
-   "link": "https://www.cbsnews.com/news/stocks-enter-correction-territory-ai-fears/",
-   "source": "CBS News",
-   "topic": "Finance",
-   "summary": "The tech-heavy Nasdaq tumbled more than 1,200 points, putting it on track for its second-worst day of the year.",
-   "published": "2026-11-21T02:25:00+00:00",
-   "outlets": 1,
-   "score": 0.756
-  },
-  {
-   "id": "trump-fcc-declares-california-isn-t-allowed-to-enforce-phone",
-   "title": "Trump FCC declares California isn't allowed to enforce phone service rules",
-   "link": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/",
-   "source": "Ars Technica",
-   "topic": "Tech",
-   "summary": "FCC preempts state rules that require AT&T to keep offering home phone service.",
-   "published": "2026-11-20T22:28:24+00:00",
-   "outlets": 1,
-   "score": 0.75
-  },
-  {
-   "id": "new-research-gives-insight-to-where-your-brain-plans-out-you",
-   "title": "New research gives insight to where your brain plans out your speech",
-   "link": "https://www.npr.org/2026/11/20/nx-s1-6047695/new-research-gives-insight-to-where-your-brain-plans-out-your-speech",
-   "source": "NPR Science",
-   "topic": "Science",
-   "summary": "New research shows where this all takes place and what it means for possibly treating those who have speech difficulties.",
-   "published": "2026-11-20T21:38:25+00:00",
-   "outlets": 1,
-   "score": 0.719
-  },
-  {
-   "id": "the-latest-from-trump-s-press-conference",
-   "title": "The latest from Trump's press conference",
-   "link": "https://www.npr.org/2026/11/20/nx-s1-6047636/trump-presser",
-   "source": "NPR Politics",
-   "topic": "Politics",
-   "summary": "President Trump gave a wide-ranging press conference following his historic trip to Asia where he met with Chinese President Xi and Russian President Putin.",
-   "published": "2026-11-20T21:38:21+00:00",
-   "outlets": 1,
-   "score": 0.719
-  },
-  {
-   "id": "trump-s-impact-on-an-ohio-steel-plant",
-   "title": "Trump's impact on an Ohio steel plant",
-   "link": "https://www.npr.org/2026/11/20/nx-s1-5860971/trumps-impact-on-ohio-steel-plant",
+   "id": "storms-expected-on-both-coasts-threatens-thanksgiving-travel",
+   "title": "Storms expected on both coasts threatens Thanksgiving travel",
+   "link": "https://www.npr.org/2026/11/21/nx-s1-6047508/weather-thanksgiving-storm-elnino",
    "source": "NPR National",
    "topic": "U.S.",
-   "summary": "The giant steel plant in Middletown, Ohio planned to switch away from using coke, a refined form of coal. The switch would have cut hazardous air pollution -- and greenhouse gas emissions.…",
-   "published": "2026-11-20T21:38:11+00:00",
+   "summary": "The mayor of San Francisco is asking people in the city not to travel unless \"absolutely essential.\" Meanwhile, a storm moving up the Eastern seaboard could also cause travel delays ahead…",
+   "published": "2026-11-21T18:22:46+00:00",
    "outlets": 1,
-   "score": 0.719
+   "score": 1.198
   },
   {
-   "id": "another-day-of-survival-for-a-family-in-ukraine",
-   "title": "Another day of survival for a family in Ukraine",
-   "link": "https://www.npr.org/2026/11/20/nx-s1-6042206/another-day-of-survival-for-a-family-in-ukraine",
-   "source": "NPR World",
-   "topic": "World",
-   "summary": "On the outskirts of Kyiv, one family prepares for the fifth winter of war against Russia -- stockpiling food and fuel and trying to maintain as much a sense of normalcy as possible.",
-   "published": "2026-11-20T21:32:31+00:00",
-   "outlets": 1,
-   "score": 0.716
-  },
-  {
-   "id": "prediction-markets-outlook-for-stocks-in-2026-dims-amid-ai-s",
-   "title": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
-   "link": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html",
-   "source": "CNBC Finance",
-   "topic": "Finance",
-   "summary": "Odds that the S&P 500 will cross 8,000, which were once north of 70%, are extremely low on platform Kalshi.",
-   "published": "2026-11-20T19:59:03+00:00",
-   "outlets": 1,
-   "score": 0.662
-  },
-  {
-   "id": "godavari-director-nikhil-mahajan-turns-a-malegaon-carjackin",
-   "title": "‘Godavari’ Director Nikhil Mahajan Turns a Malegaon Carjacking Into Neo-Noir With WAVES Film Bazaar Project ‘Mongoose’",
-   "link": "https://variety.com/2026/film/markets-festivals/godavari-director-nikhil-mahajan-carjacking-neo-noir-mongoose-1236954786/",
-   "source": "Variety",
-   "topic": "Entertainment",
-   "summary": "Nikhil Mahajan, the Indian National Film Award-winning director of “Godavari” and the Netflix series “Betaal,” is bringing “Mongoose,” a Marathi-language neo-noir thriller about a cab…",
-   "published": "2026-11-21T02:32:10+00:00",
-   "outlets": 1,
-   "score": 0.634
-  },
-  {
-   "id": "aljamain-sterling-says-critics-can-argue-with-the-history-bo",
-   "title": "Aljamain Sterling says critics can argue with the history books as he chases more legacy: 'Numbers don't lie'",
-   "link": "https://www.cbssports.com/ufc/news/aljamain-sterling-chases-legacy-at-ufc-fight-night/",
-   "source": "CBS Sports",
-   "topic": "Sports",
-   "summary": "Sterling believes a win over Kevin Vallejos at UFC Fight Night in Qatar could put him in line for a second title shot in as many divisions",
-   "published": "2026-11-21T01:30:53+00:00",
-   "outlets": 1,
-   "score": 0.602
-  },
-  {
-   "id": "jonathan-rinderknecht-found-guilty-in-palisades-fire-case",
-   "title": "Jonathan Rinderknecht found guilty in Palisades Fire case",
-   "link": "https://www.cbsnews.com/news/jonathan-rinderknecht-found-guilty-in-palisades-fire-case/",
+   "id": "violence-breaks-out-in-mexico-after-capture-of-drug-kingpin",
+   "title": "Violence breaks out in Mexico after capture of drug kingpin wanted by FBI",
+   "link": "https://www.cbsnews.com/news/mexico-drug-kingpin-arrest-fausto-isidro-meza-flores-sinaloa/",
    "source": "CBS News",
    "topic": "U.S.",
-   "summary": "A Los Angeles County jury has found Jonathan Rinderknecht guilty of starting a blaze that erupted into the deadly and destructive Palisades Fire in 2025.",
-   "published": "2026-11-21T02:02:18+00:00",
+   "summary": "Fausto Isidro Meza-Flores is allegedly the leader of a cartel responsible for drug distribution and importation.",
+   "published": "2026-11-21T19:58:01+00:00",
    "outlets": 1,
-   "score": 0.566
+   "score": 1.197
   },
   {
-   "id": "thao-corruption-trial-fbi-tape-shows-defendant-lying-prosecu",
-   "title": "Thao Corruption Trial: FBI Tape Shows Defendant Lying, Prosecution Says",
-   "link": "https://ww2.kqed.org/news/2026/11/20/thao-corruption-trial-fbi-tape-shows-defendant-lying-prosecution-says/",
-   "source": "KQED",
-   "topic": "Local",
-   "summary": "The interview between Oakland businessman Andy Duong and an FBI special agent took place just hours after the FBI raided his home.",
-   "published": "2026-11-20T23:51:07+00:00",
+   "id": "jeff-goldblum-performs-a-piano-medley-and-reflects-on-his-ca",
+   "title": "Jeff Goldblum Performs a Piano Medley and Reflects on His Career at Marrakech Film Festival: ‘The Stories That We Tell Matter’",
+   "link": "https://variety.com/2026/film/global/jeff-goldblum-career-marrakech-film-festival-tilda-swinton-1236954972/",
+   "source": "Variety",
+   "topic": "Entertainment",
+   "summary": "Jeff Goldblum was honored with a tribute award at the Marrakech Film Festival on Saturday, reflecting on more than half a century in cinema during a heartfelt speech in which he thanked…",
+   "published": "2026-11-21T19:51:33+00:00",
    "outlets": 1,
-   "score": 0.554
+   "score": 0.992
   },
   {
-   "id": "cost-of-man-utd-hiring-and-firing-managers-nears-100m",
-   "title": "Cost of Man Utd hiring and firing managers nears £100m",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cwd01n9z23x5o?at_medium=RSS&at_campaign=rss",
+   "id": "can-win-over-all-blacks-finally-break-england-s-boom-bust-cy",
+   "title": "Can win over All Blacks finally break England's boom-bust cycle?",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c6gregx71gjro?at_medium=RSS&at_campaign=rss",
    "source": "BBC Sport",
    "topic": "Sports",
-   "summary": "Manchester United borrowed £10m three days after confirming Mauricio Pochettino would be their new head coach, which will cost them £7.5m in compensation to US Soccer.",
-   "published": "2026-11-20T23:18:16+00:00",
+   "summary": "Twelve months ago, England beat New Zealand and flopped in the following Six Nations. Can their 2026 success pave the way to more permanent success?",
+   "published": "2026-11-21T19:49:02+00:00",
    "outlets": 1,
-   "score": 0.539
+   "score": 0.99
   },
   {
-   "id": "gta-6-sales-hit-3-8bn-in-a-single-day-the-biggest-entertainm",
-   "title": "GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history",
-   "link": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Entertainment",
-   "topic": "Entertainment",
-   "summary": "The mammoth figure surpasses every video game launch and single-day film box office record.",
-   "published": "2026-11-20T22:53:24+00:00",
+   "id": "thousands-of-mixed-status-california-families-to-lose-housin",
+   "title": "Thousands of Mixed-Status California Families to Lose Housing Under Trump HUD Rule",
+   "link": "https://ww2.kqed.org/news/2026/11/21/thousands-of-mixed-status-california-families-to-lose-housing-under-trump-hud-rule/",
+   "source": "KQED",
+   "topic": "Local",
+   "summary": "A new rule barring mixed immigration status families from federally funded housing will hit California harder than any other state.",
+   "published": "2026-11-21T19:00:00+00:00",
    "outlets": 1,
-   "score": 0.528
+   "score": 0.95
   },
   {
-   "id": "spacex-s-starshield-troubles-in-ukraine-could-threaten-its-b",
-   "title": "SpaceX's Starshield troubles in Ukraine could threaten its broader military business",
-   "link": "https://arstechnica.com/space/2026/11/incoming-house-chair-threatens-spacex-funding-over-ukraine-controversy/",
-   "source": "Ars Technica",
-   "topic": "Tech",
-   "summary": "\"Explain the changes that were made to the Starshield service in October 2026.\"",
-   "published": "2026-11-20T22:16:51+00:00",
+   "id": "texas-vs-arkansas-odds-college-football-picks-use-polymarket",
+   "title": "Texas vs. Arkansas odds, college football picks: Use Polymarket promo code CBSSPORTS for $25 bonus on Saturday",
+   "link": "https://www.cbssports.com/prediction/news/texas-vs-arkansas-odds-college-football-picks-use-polymarket-promo-code-cbssports-25-bonus-saturday/",
+   "source": "CBS Sports",
+   "topic": "Sports",
+   "summary": "Use the best Polymarket promo code CBSSPORTS for a $25 bonus, which you can use on Arkansas vs. Texas on Saturday",
+   "published": "2026-11-21T18:50:46+00:00",
    "outlets": 1,
-   "score": 0.512
+   "score": 0.943
   },
   {
-   "id": "rockstar-says-gta-vi-made-3-79-billion-in-its-first-day",
-   "title": "Rockstar says GTA VI made $3.79 billion in its first day",
-   "link": "https://www.theverge.com/games/1036279/gta-vi-sales",
+   "id": "zelensky-says-crimean-bridge-strikes-fair-response-as-he-mee",
+   "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+   "link": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "topic": "World",
+   "summary": "Ukraine's president says Kyiv acted after 109 separate Russian aerial attacks on bridges in Ukraine.",
+   "published": "2026-11-21T13:17:38+00:00",
+   "outlets": 1,
+   "score": 0.929
+  },
+  {
+   "id": "mexico-detains-top-cartel-boss-el-chapo-isidro-setting-off-v",
+   "title": "Mexico detains top cartel boss 'El Chapo Isidro,' setting off violence",
+   "link": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
+   "source": "NPR World",
+   "topic": "World",
+   "summary": "Fausto Isidro Meza Flores, better known as \"El Chapo Isidro,\" was one of the FBI's most wanted fugitives. His arrest in northwest Mexico on Saturday has sparked violence in the region.",
+   "published": "2026-11-21T18:08:55+00:00",
+   "outlets": 1,
+   "score": 0.911
+  },
+  {
+   "id": "the-fbi-and-usda-were-reportedly-hacked",
+   "title": "The FBI and USDA were reportedly hacked",
+   "link": "https://www.theverge.com/tech/1039543/fbi-usda-hacked",
    "source": "The Verge",
    "topic": "Tech",
-   "summary": "GTA VI earned $3.79 billion in its first day of sales, which set \"a new record for entertainment across any medium,\" according to an announcement from Rockstar Games. The game also sold…",
-   "published": "2026-11-20T22:10:53+00:00",
+   "summary": "Friday, it was reported that both the US Department of Agriculture (USDA) and the FBI were hacked. In reporting on the FBI hack, CNN noted that this is the second such attack on the agency…",
+   "published": "2026-11-21T17:51:21+00:00",
    "outlets": 1,
-   "score": 0.51
+   "score": 0.898
   },
   {
-   "id": "faisal-islam-this-cost-cutting-uk-eu-deal-doesn-t-mean-lower",
-   "title": "Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow",
-   "link": "https://www.bbc.co.uk/news/articles/cm1wr029evnqo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Business",
-   "topic": "Economy",
-   "summary": "The trade deal is unlikely lower food prices for shoppers, but should boost the economy more than other post-Brexit agreements.",
-   "published": "2026-11-20T16:41:52+00:00",
+   "id": "lock-of-george-washington-s-hair-sells-at-auction-for-4-000",
+   "title": "Lock of George Washington's hair sells at auction for $4,000",
+   "link": "https://www.cbsnews.com/news/george-washington-lock-of-hair-auction/",
+   "source": "CBS News",
+   "topic": "U.S.",
+   "summary": "South Carolina-based auction house Richmond Auctions said George Washington's lock of hair was sold for $4,000.",
+   "published": "2026-11-21T19:12:45+00:00",
    "outlets": 1,
-   "score": 0.504
+   "score": 0.795
+  },
+  {
+   "id": "streeting-calls-putin-a-cold-blooded-killer-as-he-meets-zele",
+   "title": "Streeting calls Putin a 'cold-blooded killer' as he meets Zelensky in Kyiv",
+   "link": "https://www.bbc.co.uk/news/videos/cqevrddp91z8o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC News",
+   "topic": "World",
+   "summary": "The BBC's Sarah Rainsford reports from Kyiv after Ukrainian President Zelensky met the UK defence secretary.",
+   "published": "2026-11-21T16:16:29+00:00",
+   "outlets": 1,
+   "score": 0.744
+  },
+  {
+   "id": "how-a-gop-redistricting-dummymander-in-north-carolina-backfi",
+   "title": "How a GOP redistricting 'dummymander' in North Carolina backfired by 2 seats",
+   "link": "https://www.npr.org/2026/11/21/nx-s1-6044778/how-a-gop-redistricting-dummymander-in-north-carolina-backfired-by-2-seats",
+   "source": "NPR Politics",
+   "topic": "Politics",
+   "summary": "In North Carolina, Republican lawmakers redrew voting maps, aiming to gain one seat in Congress. Instead, they lost two seats, in a classic example of what political scientists call a…",
+   "published": "2026-11-21T12:40:21+00:00",
+   "outlets": 1,
+   "score": 0.693
+  },
+  {
+   "id": "scientists-sequenced-a-whale-s-entire-genome-using-drones-an",
+   "title": "Scientists sequenced a whale's entire genome using drones and whale snot",
+   "link": "https://www.npr.org/2026/11/21/nx-s1-6044816/scientists-sequenced-a-whales-entire-genome-using-drones-and-whale-snot",
+   "source": "NPR Science",
+   "topic": "Science",
+   "summary": "Scientists were able to sequence the entire genome of a whale using samples of its snot. They used sharp flying skills and commercial drones affixed with petri dishes to collect the samples.",
+   "published": "2026-11-21T12:40:15+00:00",
+   "outlets": 1,
+   "score": 0.693
+  },
+  {
+   "id": "philadelphia-neonatologist-joanna-parga-belinkie-on-keeping",
+   "title": "Philadelphia neonatologist Joanna Parga-Belinkie on keeping babies safe from measles",
+   "link": "https://www.npr.org/2026/11/21/nx-s1-6038857/philadelphia-neonatologist-joanna-parga-belinkie-on-keeping-babies-safe-from-measles",
+   "source": "NPR Health",
+   "topic": "Health",
+   "summary": "Amid ongoing measles outbreaks, Philadelphia neonatologist Joanna Parga-Belinkie talks with NPR's Scott Simon about how she keeps infants too young for the vaccine safe.",
+   "published": "2026-11-21T12:40:10+00:00",
+   "outlets": 1,
+   "score": 0.693
+  },
+  {
+   "id": "spitting-image-co-creator-peter-fluck-dies-aged-85",
+   "title": "Spitting Image co-creator Peter Fluck dies aged 85",
+   "link": "https://www.bbc.co.uk/news/articles/cm3vg9dqr6zyo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Entertainment",
+   "topic": "Entertainment",
+   "summary": "The 85-year-old he died in the early hours of Saturday at home in Cornwall, following a recent illness.",
+   "published": "2026-11-21T19:43:19+00:00",
+   "outlets": 1,
+   "score": 0.68
+  },
+  {
+   "id": "russell-crowe-s-request-to-shoot-a-beautiful-mind-in-sequenc",
+   "title": "Russell Crowe’s Request to Shoot ‘A Beautiful Mind’ in Sequence Added $1 Million to the Budget, Says Ron Howard: ‘It Was the Right Kind of Investment’",
+   "link": "https://variety.com/2026/film/news/russell-crowe-a-beautiful-mind-sequence-ron-howard-1236955038/",
+   "source": "Variety",
+   "topic": "Entertainment",
+   "summary": "“A Beautiful Mind” director Ron Howard recently called Russell Crowe’s suggestion to shoot the film in order, which cost the studio an additional $1 million, was “the right kind of…",
+   "published": "2026-11-21T19:28:57+00:00",
+   "outlets": 1,
+   "score": 0.671
+  },
+  {
+   "id": "race-realism-isn-t-realistic-and-it-isn-t-good-science",
+   "title": "“Race realism” isn’t realistic—and it isn’t good science",
+   "link": "https://arstechnica.com/science/2026/11/race-realism-isnt-realistic-and-it-isnt-good-science/",
+   "source": "Ars Technica",
+   "topic": "Tech",
+   "summary": "Modern genetics does not support claims of innate racial differences in intelligence.",
+   "published": "2026-11-21T12:01:13+00:00",
+   "outlets": 1,
+   "score": 0.67
+  },
+  {
+   "id": "russia-bound-ship-attacked-in-gulf-of-finland",
+   "title": "Russia-bound ship attacked in Gulf of Finland",
+   "link": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "topic": "World",
+   "summary": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
+   "published": "2026-11-21T19:20:22+00:00",
+   "outlets": 1,
+   "score": 0.667
+  },
+  {
+   "id": "ireland-beat-world-champions-south-africa-in-thriller",
+   "title": "Ireland beat world champions South Africa in thriller",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cqe9k2v4xjeko?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "topic": "Sports",
+   "summary": "Ireland exact revenge on world champions South Africa with a thrilling win in Dublin after England's victory over New Zealand dashed Andy Farrell's side's hopes of reaching next weekend's…",
+   "published": "2026-11-21T18:46:29+00:00",
+   "outlets": 1,
+   "score": 0.648
+  },
+  {
+   "id": "ucla-vs-michigan-prediction-odds-time-week-12-college-footba",
+   "title": "UCLA vs. Michigan prediction, odds, time: Week 12 college football picks from proven model",
+   "link": "https://www.cbssports.com/betting/news/ucla-michigan-prediction-odds-time-2026-week-12-college-football-picks-best-bets/",
+   "source": "CBS Sports",
+   "topic": "Sports",
+   "summary": "SportsLine's model revealed its best bets for Saturday's Big Ten contest between the UCLA Bruins and Michigan Wolverines on CBS and Paramount+",
+   "published": "2026-11-21T18:45:48+00:00",
+   "outlets": 1,
+   "score": 0.648
+  },
+  {
+   "id": "federal-jury-convicts-man-of-starting-the-deadly-2025-palisa",
+   "title": "Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles",
+   "link": "https://www.npr.org/2026/11/21/nx-s1-6049625/palisades-fire-conviction",
+   "source": "NPR National",
+   "topic": "U.S.",
+   "summary": "Prosecutors argued the defendant, 30-year-old Jonathan Rinderknecht, had been \"mad at everything\" in the days leading up to the January 2025 fire, which killed 12 people.",
+   "published": "2026-11-21T13:58:33+00:00",
+   "outlets": 2,
+   "score": 0.61
+  },
+  {
+   "id": "dea-says-new-synthetic-pills-are-deadlier-than-they-ve-seen",
+   "title": "DEA says new synthetic pills are deadlier than they've seen before",
+   "link": "https://www.cbsnews.com/video/dea-says-new-synthetic-pills-are-deadlier-than-theyve-seen-before/",
+   "source": "CBS News",
+   "topic": "U.S.",
+   "summary": "\"The cartels will exploit every avenue and every source possible to bring new poison to the United States. Listen, it's all about profit for them,\" says DEA Administrator Terry Cole. Cole…",
+   "published": "2026-11-21T19:10:00+00:00",
+   "outlets": 1,
+   "score": 0.605
+  },
+  {
+   "id": "why-the-us-air-traffic-control-system-still-relies-on-an-ant",
+   "title": "Why the US Air Traffic Control System Still Relies on an ‘Antique’ Network",
+   "link": "https://ww2.kqed.org/news/2026/11/21/why-the-us-air-traffic-control-system-still-relies-on-an-antique-network/",
+   "source": "KQED",
+   "topic": "Local",
+   "summary": "The FAA says the outage that led to Friday's nationwide ground stop began with a fiber-optic cable upgrade. Industry experts say the work is long overdue.",
+   "published": "2026-11-21T17:00:00+00:00",
+   "outlets": 1,
+   "score": 0.593
+  },
+  {
+   "id": "fbi-reportedly-investigating-apparent-hack-of-its-criminal-d",
+   "title": "FBI reportedly investigating apparent hack of its criminal database",
+   "link": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC US & Canada",
+   "topic": "U.S.",
+   "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
+   "published": "2026-11-21T16:35:15+00:00",
+   "outlets": 1,
+   "score": 0.581
+  },
+  {
+   "id": "killer-robots-u-n-talks-fall-short-of-hopes-for-legally-bind",
+   "title": "Killer robots: U.N. talks fall short of hopes for legally binding rules",
+   "link": "https://www.npr.org/2026/11/21/nx-s1-6047916/killer-robots-un-drones",
+   "source": "NPR World",
+   "topic": "World",
+   "summary": "U.N. talks in Geneva have failed to deliver binding rules on autonomous weapons, as humanitarian groups warn that military AI is advancing far faster than diplomacy.",
+   "published": "2026-11-21T14:18:17+00:00",
+   "outlets": 1,
+   "score": 0.518
   }
  ],
  "topics": {
-  "Finance": [
-   {
-    "id": "s-p-500-sinks-3-7-and-the-nasdaq-composite-goes-negative-for",
-    "title": "S&P 500 sinks 3.7% and the Nasdaq composite goes negative for the year",
-    "link": "https://www.npr.org/2026/11/20/g-s1-154797/nasdaq-sp500-stock-market-ai-sink-negative",
-    "source": "NPR",
-    "topic": "Finance",
-    "summary": "AI stocks have hefty market values and have a much bigger impact on the market's direction. They were responsible for Wall Street's big gains this year and are now behind the big slide for…",
-    "published": "2026-11-20T22:11:29+00:00",
-    "outlets": 1,
-    "score": 1.249
-   },
-   {
-    "id": "stocks-enter-correction-territory-driven-by-deepening-tech-r",
-    "title": "Stocks enter correction territory, driven by deepening tech rout",
-    "link": "https://www.cbsnews.com/news/stocks-enter-correction-territory-ai-fears/",
-    "source": "CBS News",
-    "topic": "Finance",
-    "summary": "The tech-heavy Nasdaq tumbled more than 1,200 points, putting it on track for its second-worst day of the year.",
-    "published": "2026-11-21T02:25:00+00:00",
-    "outlets": 1,
-    "score": 0.756
-   },
-   {
-    "id": "prediction-markets-outlook-for-stocks-in-2026-dims-amid-ai-s",
-    "title": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
-    "link": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html",
-    "source": "CNBC Finance",
-    "topic": "Finance",
-    "summary": "Odds that the S&P 500 will cross 8,000, which were once north of 70%, are extremely low on platform Kalshi.",
-    "published": "2026-11-20T19:59:03+00:00",
-    "outlets": 1,
-    "score": 0.662
-   },
-   {
-    "id": "warsh-wants-fed-officials-to-talk-less-instead-they-re-talki",
-    "title": "Warsh wants Fed officials to talk less. Instead, they’re talking more",
-    "link": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html",
-    "source": "CNBC Finance",
-    "topic": "Finance",
-    "summary": "Fed officials have been rushing to the microphones lately while the Fed chairman stays on the sidelines.",
-    "published": "2026-11-20T21:10:48+00:00",
-    "outlets": 1,
-    "score": 0.485
-   },
-   {
-    "id": "as-anthropic-shares-tank-investors-scramble-to-hedge-it-coul",
-    "title": "As Anthropic shares tank, investors scramble to hedge. It could be very expensive",
-    "link": "https://www.cnbc.com/2026/11/20/as-anthropic-shares-tank-investors-scramble-to-hedge-it-could-be-very-expensive.html",
-    "source": "CNBC Investing",
-    "topic": "Finance",
-    "summary": "Anthropic options list Monday. They will likely be expensive",
-    "published": "2026-11-20T15:12:40+00:00",
-    "outlets": 1,
-    "score": 0.36
-   },
-   {
-    "id": "cathie-wood-s-ark-invest-was-a-big-buyer-of-anthropic-as-she",
-    "title": "Cathie Wood’s Ark Invest was a big buyer of Anthropic as she tells CNBC she’s ‘quite optimistic’",
-    "link": "https://www.cnbc.com/2026/11/20/cathie-woods-ark-invest-was-a-big-buyer-of-anthropic-during-debut.html",
-    "source": "CNBC Investing",
-    "topic": "Finance",
-    "summary": "Wood's firm bought $90.8 million worth of Anthropic in six funds, according to a trade notification from the firm.",
-    "published": "2026-11-20T16:18:04+00:00",
-    "outlets": 1,
-    "score": 0.29
-   }
-  ],
   "U.S.": [
    {
-    "id": "south-florida-begins-recovery-after-widespread-flooding",
-    "title": "South Florida begins recovery after widespread flooding",
-    "link": "https://www.cbsnews.com/live-updates/south-florida-flooding-live-updates-heavy-rain-broward-miami-dade/",
-    "source": "CBS News",
+    "id": "storms-expected-on-both-coasts-threatens-thanksgiving-travel",
+    "title": "Storms expected on both coasts threatens Thanksgiving travel",
+    "link": "https://www.npr.org/2026/11/21/nx-s1-6047508/weather-thanksgiving-storm-elnino",
+    "source": "NPR National",
     "topic": "U.S.",
-    "summary": "Historic flooding across South Florida has left neighborhoods underwater, roads impassable and Broward schools closed as residents begin cleanup efforts and officials assess the damage.",
-    "published": "2026-11-21T02:42:51+00:00",
+    "summary": "The mayor of San Francisco is asking people in the city not to travel unless \"absolutely essential.\" Meanwhile, a storm moving up the Eastern seaboard could also cause travel delays ahead…",
+    "published": "2026-11-21T18:22:46+00:00",
     "outlets": 1,
-    "score": 1.112
+    "score": 1.198
    },
    {
-    "id": "tech-stock-sell-off-drags-markets-down-as-anthropic-shares-s",
-    "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
-    "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+    "id": "violence-breaks-out-in-mexico-after-capture-of-drug-kingpin",
+    "title": "Violence breaks out in Mexico after capture of drug kingpin wanted by FBI",
+    "link": "https://www.cbsnews.com/news/mexico-drug-kingpin-arrest-fausto-isidro-meza-flores-sinaloa/",
+    "source": "CBS News",
+    "topic": "U.S.",
+    "summary": "Fausto Isidro Meza-Flores is allegedly the leader of a cartel responsible for drug distribution and importation.",
+    "published": "2026-11-21T19:58:01+00:00",
+    "outlets": 1,
+    "score": 1.197
+   },
+   {
+    "id": "lock-of-george-washington-s-hair-sells-at-auction-for-4-000",
+    "title": "Lock of George Washington's hair sells at auction for $4,000",
+    "link": "https://www.cbsnews.com/news/george-washington-lock-of-hair-auction/",
+    "source": "CBS News",
+    "topic": "U.S.",
+    "summary": "South Carolina-based auction house Richmond Auctions said George Washington's lock of hair was sold for $4,000.",
+    "published": "2026-11-21T19:12:45+00:00",
+    "outlets": 1,
+    "score": 0.795
+   },
+   {
+    "id": "federal-jury-convicts-man-of-starting-the-deadly-2025-palisa",
+    "title": "Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles",
+    "link": "https://www.npr.org/2026/11/21/nx-s1-6049625/palisades-fire-conviction",
+    "source": "NPR National",
+    "topic": "U.S.",
+    "summary": "Prosecutors argued the defendant, 30-year-old Jonathan Rinderknecht, had been \"mad at everything\" in the days leading up to the January 2025 fire, which killed 12 people.",
+    "published": "2026-11-21T13:58:33+00:00",
+    "outlets": 2,
+    "score": 0.61
+   },
+   {
+    "id": "dea-says-new-synthetic-pills-are-deadlier-than-they-ve-seen",
+    "title": "DEA says new synthetic pills are deadlier than they've seen before",
+    "link": "https://www.cbsnews.com/video/dea-says-new-synthetic-pills-are-deadlier-than-theyve-seen-before/",
+    "source": "CBS News",
+    "topic": "U.S.",
+    "summary": "\"The cartels will exploit every avenue and every source possible to bring new poison to the United States. Listen, it's all about profit for them,\" says DEA Administrator Terry Cole. Cole…",
+    "published": "2026-11-21T19:10:00+00:00",
+    "outlets": 1,
+    "score": 0.605
+   },
+   {
+    "id": "fbi-reportedly-investigating-apparent-hack-of-its-criminal-d",
+    "title": "FBI reportedly investigating apparent hack of its criminal database",
+    "link": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
     "source": "BBC US & Canada",
     "topic": "U.S.",
-    "summary": "Pressures weighed on US markets, with the S&P 500 and the Dow Jones Industrial Average pushed into correction territory.",
-    "published": "2026-11-20T22:42:47+00:00",
+    "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
+    "published": "2026-11-21T16:35:15+00:00",
     "outlets": 1,
-    "score": 0.759
-   },
-   {
-    "id": "trump-s-impact-on-an-ohio-steel-plant",
-    "title": "Trump's impact on an Ohio steel plant",
-    "link": "https://www.npr.org/2026/11/20/nx-s1-5860971/trumps-impact-on-ohio-steel-plant",
-    "source": "NPR National",
-    "topic": "U.S.",
-    "summary": "The giant steel plant in Middletown, Ohio planned to switch away from using coke, a refined form of coal. The switch would have cut hazardous air pollution -- and greenhouse gas emissions.…",
-    "published": "2026-11-20T21:38:11+00:00",
-    "outlets": 1,
-    "score": 0.719
-   },
-   {
-    "id": "jonathan-rinderknecht-found-guilty-in-palisades-fire-case",
-    "title": "Jonathan Rinderknecht found guilty in Palisades Fire case",
-    "link": "https://www.cbsnews.com/news/jonathan-rinderknecht-found-guilty-in-palisades-fire-case/",
-    "source": "CBS News",
-    "topic": "U.S.",
-    "summary": "A Los Angeles County jury has found Jonathan Rinderknecht guilty of starting a blaze that erupted into the deadly and destructive Palisades Fire in 2025.",
-    "published": "2026-11-21T02:02:18+00:00",
-    "outlets": 1,
-    "score": 0.566
-   },
-   {
-    "id": "mlk-s-handwritten-draft-of-iconic-speech-on-display-for-the",
-    "title": "MLK's handwritten draft of iconic speech on display for the first time",
-    "link": "https://www.npr.org/2026/11/20/nx-s1-6039337/mlk-i-have-a-dream-speech-draft-public-display",
-    "source": "NPR National",
-    "topic": "U.S.",
-    "summary": "The only known handwritten draft of The Reverend Martin Luther King Jr.'s 'I Have a Dream' speech is on display in his hometown. The iconic phrase, however, never made it on the page.",
-    "published": "2026-11-20T21:38:05+00:00",
-    "outlets": 1,
-    "score": 0.496
-   },
-   {
-    "id": "rising-seas-have-forced-this-quinault-village-to-relocate",
-    "title": "Rising seas have forced this Quinault village to relocate",
-    "link": "https://www.npr.org/2026/11/20/nx-s1-6046485/rising-seas-have-forced-this-quinault-village-to-relocate",
-    "source": "NPR",
-    "topic": "U.S.",
-    "summary": "The Quinault Indian Nation has moved its largest village away from rising seas and tsunamis",
-    "published": "2026-11-20T21:38:13+00:00",
-    "outlets": 1,
-    "score": 0.492
-   }
-  ],
-  "World": [
-   {
-    "id": "uk-to-explore-even-closer-ties-with-eu-after-agreeing-deal-s",
-    "title": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
-    "link": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "topic": "World",
-    "summary": "The UK-EU deal agreed on Friday covers British food exports, emissions trading and a youth experience scheme.",
-    "published": "2026-11-20T17:49:48+00:00",
-    "outlets": 1,
-    "score": 1.005
-   },
-   {
-    "id": "another-day-of-survival-for-a-family-in-ukraine",
-    "title": "Another day of survival for a family in Ukraine",
-    "link": "https://www.npr.org/2026/11/20/nx-s1-6042206/another-day-of-survival-for-a-family-in-ukraine",
-    "source": "NPR World",
-    "topic": "World",
-    "summary": "On the outskirts of Kyiv, one family prepares for the fifth winter of war against Russia -- stockpiling food and fuel and trying to maintain as much a sense of normalcy as possible.",
-    "published": "2026-11-20T21:32:31+00:00",
-    "outlets": 1,
-    "score": 0.716
-   },
-   {
-    "id": "russian-missile-hits-poland-as-ukraine-s-allies-hold-militar",
-    "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-    "link": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "topic": "World",
-    "summary": "Nobody was hurt and no damage has been reported, but Warsaw described the incident as a \"provocation\" from Moscow.",
-    "published": "2026-11-21T02:09:46+00:00",
-    "outlets": 1,
-    "score": 0.475
-   },
-   {
-    "id": "california-s-coastal-communities-on-alert-as-biggest-waves-i",
-    "title": "California’s coastal communities on alert as biggest waves in years hit state",
-    "link": "https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state",
-    "source": "The Guardian",
-    "topic": "World",
-    "summary": "Hazard warnings issued throughout week after powerful swells and waves of more than 9 metres recorded Multiple coastal hazard warnings were issued this week across California as successive…",
-    "published": "2026-11-20T09:03:20+00:00",
-    "outlets": 1,
-    "score": 0.422
-   },
-   {
-    "id": "trump-touts-meeting-with-xi-and-putin-but-offers-little-resu",
-    "title": "Trump touts meeting with Xi and Putin but offers little results",
-    "link": "https://www.npr.org/2026/11/20/nx-s1-6047594/trump-asia-trip-xi-putin-press-conference",
-    "source": "NPR World",
-    "topic": "World",
-    "summary": "At a White House press conference Friday, Trump offered little in actual results of the meetings, beyond a joint statement on unity over some issues.",
-    "published": "2026-11-20T15:00:00+00:00",
-    "outlets": 1,
-    "score": 0.356
-   },
-   {
-    "id": "man-guilty-of-murdering-woman-he-groomed-on-fetish-site",
-    "title": "Man guilty of murdering woman he groomed on fetish site",
-    "link": "https://www.bbc.co.uk/news/articles/cmy49lekdkkzo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News",
-    "topic": "World",
-    "summary": "Dwain Hall has been found guilty of the kidnap and first-degree murder of Sonia Exelby.",
-    "published": "2026-11-20T18:17:56+00:00",
-    "outlets": 1,
-    "score": 0.337
+    "score": 0.581
    }
   ],
   "Entertainment": [
    {
-    "id": "bill-maher-mocks-grand-theft-auto-6-playing-young-men-with-a",
-    "title": "Bill Maher Mocks ‘Grand Theft Auto 6’-Playing Young Men With Awful ICE Joke",
-    "link": "https://variety.com/2026/tv/news/bill-maher-grand-theft-auto-6-young-men-ice-real-time-hbo-1236954795/",
+    "id": "jeff-goldblum-performs-a-piano-medley-and-reflects-on-his-ca",
+    "title": "Jeff Goldblum Performs a Piano Medley and Reflects on His Career at Marrakech Film Festival: ‘The Stories That We Tell Matter’",
+    "link": "https://variety.com/2026/film/global/jeff-goldblum-career-marrakech-film-festival-tilda-swinton-1236954972/",
     "source": "Variety",
     "topic": "Entertainment",
-    "summary": "The Season 24 finale of “Real Time with Bill Maher” aired Friday night — it’s been renewed for two more seasons through 2028 — and the crabby comic’s monologue tackled everything from the…",
-    "published": "2026-11-21T03:21:11+00:00",
+    "summary": "Jeff Goldblum was honored with a tribute award at the Marrakech Film Festival on Saturday, reflecting on more than half a century in cinema during a heartfelt speech in which he thanked…",
+    "published": "2026-11-21T19:51:33+00:00",
     "outlets": 1,
-    "score": 0.957
+    "score": 0.992
    },
    {
-    "id": "godavari-director-nikhil-mahajan-turns-a-malegaon-carjackin",
-    "title": "‘Godavari’ Director Nikhil Mahajan Turns a Malegaon Carjacking Into Neo-Noir With WAVES Film Bazaar Project ‘Mongoose’",
-    "link": "https://variety.com/2026/film/markets-festivals/godavari-director-nikhil-mahajan-carjacking-neo-noir-mongoose-1236954786/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "Nikhil Mahajan, the Indian National Film Award-winning director of “Godavari” and the Netflix series “Betaal,” is bringing “Mongoose,” a Marathi-language neo-noir thriller about a cab…",
-    "published": "2026-11-21T02:32:10+00:00",
-    "outlets": 1,
-    "score": 0.634
-   },
-   {
-    "id": "gta-6-sales-hit-3-8bn-in-a-single-day-the-biggest-entertainm",
-    "title": "GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history",
-    "link": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+    "id": "spitting-image-co-creator-peter-fluck-dies-aged-85",
+    "title": "Spitting Image co-creator Peter Fluck dies aged 85",
+    "link": "https://www.bbc.co.uk/news/articles/cm3vg9dqr6zyo?at_medium=RSS&at_campaign=rss",
     "source": "BBC Entertainment",
     "topic": "Entertainment",
-    "summary": "The mammoth figure surpasses every video game launch and single-day film box office record.",
-    "published": "2026-11-20T22:53:24+00:00",
+    "summary": "The 85-year-old he died in the early hours of Saturday at home in Cornwall, following a recent illness.",
+    "published": "2026-11-21T19:43:19+00:00",
     "outlets": 1,
-    "score": 0.528
+    "score": 0.68
    },
    {
-    "id": "melania-trump-calls-for-peace-when-asked-about-children-in-g",
-    "title": "Melania Trump Calls for ‘Peace’ When Asked About Children in Gaza and Israel at Amazon Series Premiere",
-    "link": "https://variety.com/2026/tv/news/melania-trump-series-gaza-israel-children-peace-amazon-1236954718/",
+    "id": "russell-crowe-s-request-to-shoot-a-beautiful-mind-in-sequenc",
+    "title": "Russell Crowe’s Request to Shoot ‘A Beautiful Mind’ in Sequence Added $1 Million to the Budget, Says Ron Howard: ‘It Was the Right Kind of Investment’",
+    "link": "https://variety.com/2026/film/news/russell-crowe-a-beautiful-mind-sequence-ron-howard-1236955038/",
     "source": "Variety",
     "topic": "Entertainment",
-    "summary": "Amazon Prime Video’s “Melania: The Series” offers a peek into the often-reclusive first lady’s personal life and role inside the White House, including her efforts to provide children in…",
-    "published": "2026-11-21T00:30:25+00:00",
+    "summary": "“A Beautiful Mind” director Ron Howard recently called Russell Crowe’s suggestion to shoot the film in order, which cost the studio an additional $1 million, was “the right kind of…",
+    "published": "2026-11-21T19:28:57+00:00",
     "outlets": 1,
-    "score": 0.437
+    "score": 0.671
    },
    {
-    "id": "new-hunger-games-cast-say-joining-the-franchise-is-nerve-rac",
-    "title": "New Hunger Games cast say joining the franchise is 'nerve-racking'",
-    "link": "https://www.bbc.co.uk/news/articles/c8752w5vz2zqo?at_medium=RSS&at_campaign=rss",
+    "id": "how-the-elsinore-makeup-team-transformed-stars-andrew-scott",
+    "title": "How the ‘Elsinore’ Makeup Team Transformed Stars Andrew Scott and Olivia Colman to Bring the Story of Ian Charleson to Life",
+    "link": "https://variety.com/2026/artisans/news/elsinore-makeup-olivia-colman-andrew-scott-1236954968/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "In “Elsinore,” Andrew Scott plays real-life actor Ian Charleson, who performed his final role while dying of AIDS. Written by Stephen Beresford, “Elsinore” follows the deeply emotional and…",
+    "published": "2026-11-21T19:09:40+00:00",
+    "outlets": 1,
+    "score": 0.504
+   },
+   {
+    "id": "stephan-james-on-honoring-carl-weathers-legacy-and-learning",
+    "title": "Stephan James on Honoring Carl Weathers’ Legacy and Learning to Box for ‘I Play Rocky’",
+    "link": "https://variety.com/2026/film/features/i-play-rocky-stephan-james-carl-weathers-boxing-training-1236954058/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "Stephan James has played a few real-life figures in his career, including Olympic gold medalist Jesse Owens (in 2016’s “Race”) and civil rights leader John Lewis (2014’s “Selma”), so he…",
+    "published": "2026-11-21T18:30:00+00:00",
+    "outlets": 1,
+    "score": 0.394
+   },
+   {
+    "id": "who-will-be-robert-pattinson-s-bond-girl-and-does-the-role-n",
+    "title": "Who will be Robert Pattinson's 'Bond girl' - and does the role need to change?",
+    "link": "https://www.bbc.co.uk/news/articles/cr4g1l7x52jno?at_medium=RSS&at_campaign=rss",
     "source": "BBC Entertainment",
     "topic": "Entertainment",
-    "summary": "The prequel, which is set 24 years before the original The Hunger Games film, is released today.",
-    "published": "2026-11-20T01:11:57+00:00",
+    "summary": "Pattinson’s announcement as 007 has completely upped the game, and commentators say his leading lady will need a \"very strong identity\".",
+    "published": "2026-11-21T00:03:16+00:00",
     "outlets": 1,
-    "score": 0.35
-   },
-   {
-    "id": "e-j-carroll-law-order-gta-5-and-blue-bloods-actor-dies-at-66",
-    "title": "E.J. Carroll, ‘Law & Order,’ ‘GTA 5’ and ‘Blue Bloods’ Actor, Dies at 66",
-    "link": "https://variety.com/2026/tv/news/e-j-carroll-dead-the-deuce-1236954725/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "E.J. Carroll, who appeared in projects including “The Deuce,” “Law & Order” and “Grand Theft Auto V,” died on Thursday. He was 66. Carroll died suddenly Thursday morning, his rep confirmed…",
-    "published": "2026-11-21T00:17:59+00:00",
-    "outlets": 1,
-    "score": 0.35
+    "score": 0.369
    }
   ],
   "Sports": [
    {
-    "id": "fantasy-baseball-offseason-tracker-royce-lewis-provides-dept",
-    "title": "Fantasy Baseball Offseason Tracker: Royce Lewis provides depth for Dodgers' aging infield",
-    "link": "https://www.cbssports.com/fantasy/baseball/news/fantasy-baseball-offseason-tracker-royce-lewis-provides-depth-for-dodgers-aging-infield/",
-    "source": "CBS Sports",
-    "topic": "Sports",
-    "summary": "Here's a rundown of the offseason moves that matter",
-    "published": "2026-11-21T01:31:44+00:00",
-    "outlets": 1,
-    "score": 0.873
-   },
-   {
-    "id": "price-beats-kotaskova-to-become-undisputed-champion",
-    "title": "Price beats Kotaskova to become undisputed champion",
-    "link": "https://www.bbc.co.uk/sport/boxing/articles/cw808y2lrkzxo?at_medium=RSS&at_campaign=rss",
+    "id": "can-win-over-all-blacks-finally-break-england-s-boom-bust-cy",
+    "title": "Can win over All Blacks finally break England's boom-bust cycle?",
+    "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c6gregx71gjro?at_medium=RSS&at_campaign=rss",
     "source": "BBC Sport",
     "topic": "Sports",
-    "summary": "Lauren Price dominates Michaela Kotaskova to seal her place in history by becoming undisputed world welterweight champion.",
-    "published": "2026-11-20T23:30:56+00:00",
+    "summary": "Twelve months ago, England beat New Zealand and flopped in the following Six Nations. Can their 2026 success pave the way to more permanent success?",
+    "published": "2026-11-21T19:49:02+00:00",
     "outlets": 1,
-    "score": 0.79
+    "score": 0.99
    },
    {
-    "id": "aljamain-sterling-says-critics-can-argue-with-the-history-bo",
-    "title": "Aljamain Sterling says critics can argue with the history books as he chases more legacy: 'Numbers don't lie'",
-    "link": "https://www.cbssports.com/ufc/news/aljamain-sterling-chases-legacy-at-ufc-fight-night/",
+    "id": "texas-vs-arkansas-odds-college-football-picks-use-polymarket",
+    "title": "Texas vs. Arkansas odds, college football picks: Use Polymarket promo code CBSSPORTS for $25 bonus on Saturday",
+    "link": "https://www.cbssports.com/prediction/news/texas-vs-arkansas-odds-college-football-picks-use-polymarket-promo-code-cbssports-25-bonus-saturday/",
     "source": "CBS Sports",
     "topic": "Sports",
-    "summary": "Sterling believes a win over Kevin Vallejos at UFC Fight Night in Qatar could put him in line for a second title shot in as many divisions",
-    "published": "2026-11-21T01:30:53+00:00",
+    "summary": "Use the best Polymarket promo code CBSSPORTS for a $25 bonus, which you can use on Arkansas vs. Texas on Saturday",
+    "published": "2026-11-21T18:50:46+00:00",
     "outlets": 1,
-    "score": 0.602
+    "score": 0.943
    },
    {
-    "id": "cost-of-man-utd-hiring-and-firing-managers-nears-100m",
-    "title": "Cost of Man Utd hiring and firing managers nears £100m",
-    "link": "https://www.bbc.co.uk/sport/football/articles/cwd01n9z23x5o?at_medium=RSS&at_campaign=rss",
+    "id": "ireland-beat-world-champions-south-africa-in-thriller",
+    "title": "Ireland beat world champions South Africa in thriller",
+    "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cqe9k2v4xjeko?at_medium=RSS&at_campaign=rss",
     "source": "BBC Sport",
     "topic": "Sports",
-    "summary": "Manchester United borrowed £10m three days after confirming Mauricio Pochettino would be their new head coach, which will cost them £7.5m in compensation to US Soccer.",
-    "published": "2026-11-20T23:18:16+00:00",
+    "summary": "Ireland exact revenge on world champions South Africa with a thrilling win in Dublin after England's victory over New Zealand dashed Andy Farrell's side's hopes of reaching next weekend's…",
+    "published": "2026-11-21T18:46:29+00:00",
     "outlets": 1,
-    "score": 0.539
+    "score": 0.648
    },
    {
-    "id": "kentucky-vs-indiana-prediction-pick-odds-spread-wildcats-fac",
-    "title": "Kentucky vs. Indiana prediction, pick, odds, spread: Wildcats face Hooisers in blue-blood clash",
-    "link": "https://www.cbssports.com/college-basketball/news/kentucky-indiana-prediction-picks-odds-spread-where-to-watch-live/",
+    "id": "ucla-vs-michigan-prediction-odds-time-week-12-college-footba",
+    "title": "UCLA vs. Michigan prediction, odds, time: Week 12 college football picks from proven model",
+    "link": "https://www.cbssports.com/betting/news/ucla-michigan-prediction-odds-time-2026-week-12-college-football-picks-best-bets/",
     "source": "CBS Sports",
     "topic": "Sports",
-    "summary": "Indiana's revamped frontcourt and balanced scoring attack give the unbeaten Hoosiers a decisive edge against a Wildcats squad still searching for an identity",
-    "published": "2026-11-21T00:45:45+00:00",
+    "summary": "SportsLine's model revealed its best bets for Saturday's Big Ten contest between the UCLA Bruins and Michigan Wolverines on CBS and Paramount+",
+    "published": "2026-11-21T18:45:48+00:00",
     "outlets": 1,
-    "score": 0.442
+    "score": 0.648
    },
    {
-    "id": "teammates-navajo-stirling-carlos-ulberg-rapidly-approach-an",
-    "title": "Teammates Navajo Stirling, Carlos Ulberg rapidly approach an awkward dilemma atop light heavyweight division",
-    "link": "https://www.cbssports.com/ufc/news/navajo-stirling-carlos-ulberg-light-heavyweight-title-ufc-fight-night/",
+    "id": "who-was-a-consistent-threat-newcastle-v-arsenal-player-ratin",
+    "title": "Who was 'a consistent threat'? Newcastle v Arsenal player ratings",
+    "link": "https://www.bbc.co.uk/sport/football/articles/cq4gn97e8ee4o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "topic": "Sports",
+    "summary": "BBC Sport's Alex Howell shares his player ratings for Newcastle and Arsenal's 2-2 draw in the Premier League - and you can rate the players too.",
+    "published": "2026-11-21T19:29:48+00:00",
+    "outlets": 1,
+    "score": 0.513
+   },
+   {
+    "id": "a-j-ewing-mets-agree-to-eight-year-95-million-extension-afte",
+    "title": "A.J. Ewing, Mets agree to eight-year, $95 million extension after standout rookie season, per reports",
+    "link": "https://www.cbssports.com/mlb/news/a-j-ewing-new-york-mets-contract-extension/",
     "source": "CBS Sports",
     "topic": "Sports",
-    "summary": "Stirling could catapult himself into the 205-pound title picture with a win over former champ Jiri Prochazka in Qatar this weekend",
-    "published": "2026-11-21T00:32:38+00:00",
+    "summary": "Ewing cracked the top 10 in the National League Rookie of the Year voting last season",
+    "published": "2026-11-21T18:38:18+00:00",
     "outlets": 1,
-    "score": 0.354
+    "score": 0.491
    }
   ],
   "Local": [
+   {
+    "id": "thousands-of-mixed-status-california-families-to-lose-housin",
+    "title": "Thousands of Mixed-Status California Families to Lose Housing Under Trump HUD Rule",
+    "link": "https://ww2.kqed.org/news/2026/11/21/thousands-of-mixed-status-california-families-to-lose-housing-under-trump-hud-rule/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "A new rule barring mixed immigration status families from federally funded housing will hit California harder than any other state.",
+    "published": "2026-11-21T19:00:00+00:00",
+    "outlets": 1,
+    "score": 0.95
+   },
+   {
+    "id": "why-the-us-air-traffic-control-system-still-relies-on-an-ant",
+    "title": "Why the US Air Traffic Control System Still Relies on an ‘Antique’ Network",
+    "link": "https://ww2.kqed.org/news/2026/11/21/why-the-us-air-traffic-control-system-still-relies-on-an-antique-network/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "The FAA says the outage that led to Friday's nationwide ground stop began with a fiber-optic cable upgrade. Industry experts say the work is long overdue.",
+    "published": "2026-11-21T17:00:00+00:00",
+    "outlets": 1,
+    "score": 0.593
+   },
+   {
+    "id": "a-growing-movement-aims-to-elect-president-by-popular-vote-h",
+    "title": "A Growing Movement Aims to Elect President by Popular Vote. How Would That Work?",
+    "link": "https://ww2.kqed.org/news/2026/11/21/a-growing-movement-aims-to-elect-president-by-popular-vote-how-would-that-work/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "Democratic victories in November could expand the list of states on the National Popular Vote Interstate Compact — gaining enough to sidestep the Electoral College.",
+    "published": "2026-11-21T15:00:00+00:00",
+    "outlets": 1,
+    "score": 0.41
+   },
    {
     "id": "xavier-becerra-inherits-a-budget-shortfall",
     "title": "Xavier Becerra Inherits a Budget Shortfall",
@@ -629,7 +526,7 @@
     "summary": "When Xavier Becerra takes over as governor next year, he'll be met with a budget deficit and a record Democratic caucus.",
     "published": "2026-11-21T00:10:00+00:00",
     "outlets": 1,
-    "score": 0.816
+    "score": 0.158
    },
    {
     "id": "thao-corruption-trial-fbi-tape-shows-defendant-lying-prosecu",
@@ -640,7 +537,7 @@
     "summary": "The interview between Oakland businessman Andy Duong and an FBI special agent took place just hours after the FBI raided his home.",
     "published": "2026-11-20T23:51:07+00:00",
     "outlets": 1,
-    "score": 0.554
+    "score": 0.13
    },
    {
     "id": "vallejo-releases-investigation-finding-mayor-broke-city-cond",
@@ -651,53 +548,132 @@
     "summary": "The city released a redacted report alleging Mayor Andrea Sorce improperly sought the removal of a city employee linked to the Vallejo Police Department.",
     "published": "2026-11-20T23:20:58+00:00",
     "outlets": 1,
-    "score": 0.412
+    "score": 0.109
+   }
+  ],
+  "World": [
+   {
+    "id": "zelensky-says-crimean-bridge-strikes-fair-response-as-he-mee",
+    "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+    "link": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "summary": "Ukraine's president says Kyiv acted after 109 separate Russian aerial attacks on bridges in Ukraine.",
+    "published": "2026-11-21T13:17:38+00:00",
+    "outlets": 1,
+    "score": 0.929
    },
    {
-    "id": "california-proposition-roundup-what-passed-and-what-failed",
-    "title": "California Proposition Roundup: What Passed and What Failed",
-    "link": "https://ww2.kqed.org/news/2026/11/20/california-proposition-roundup-results-so-far/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "Voters weighed in on 14 state propositions; seven will become law, and seven others lost.",
-    "published": "2026-11-20T21:47:02+00:00",
+    "id": "mexico-detains-top-cartel-boss-el-chapo-isidro-setting-off-v",
+    "title": "Mexico detains top cartel boss 'El Chapo Isidro,' setting off violence",
+    "link": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
+    "source": "NPR World",
+    "topic": "World",
+    "summary": "Fausto Isidro Meza Flores, better known as \"El Chapo Isidro,\" was one of the FBI's most wanted fugitives. His arrest in northwest Mexico on Saturday has sparked violence in the region.",
+    "published": "2026-11-21T18:08:55+00:00",
     "outlets": 1,
-    "score": 0.308
+    "score": 0.911
    },
    {
-    "id": "another-storm-is-hitting-the-bay-area-here-s-how-it-could-af",
-    "title": "Another Storm Is Hitting the Bay Area. Here’s How It Could Affect Thanksgiving Travel",
-    "link": "https://ww2.kqed.org/news/2026/11/20/another-storm-is-hitting-the-bay-area-heres-how-it-could-affect-thanksgiving-travel/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "The Bay Area might be in for a messy pre-holiday travel period if the combination of storm and coastal flooding impacts unfolds as expected.",
-    "published": "2026-11-20T20:02:03+00:00",
+    "id": "streeting-calls-putin-a-cold-blooded-killer-as-he-meets-zele",
+    "title": "Streeting calls Putin a 'cold-blooded killer' as he meets Zelensky in Kyiv",
+    "link": "https://www.bbc.co.uk/news/videos/cqevrddp91z8o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News",
+    "topic": "World",
+    "summary": "The BBC's Sarah Rainsford reports from Kyiv after Ukrainian President Zelensky met the UK defence secretary.",
+    "published": "2026-11-21T16:16:29+00:00",
     "outlets": 1,
-    "score": 0.237
+    "score": 0.744
    },
    {
-    "id": "on-another-rock-the-moon-landing-and-the-occupation-of-alcat",
-    "title": "On Another Rock: The Moon Landing and the Occupation of Alcatraz",
-    "link": "https://ww2.kqed.org/news/2026/11/20/on-another-rock-the-moon-landing-and-the-occupation-of-alcatraz/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "Listen to this and more in-depth storytelling by subscribing to The California Report Magazine podcast. On November 19, 1969, the Apollo 12 astronauts touched down on the moon. The very…",
-    "published": "2026-11-20T19:00:00+00:00",
+    "id": "russia-bound-ship-attacked-in-gulf-of-finland",
+    "title": "Russia-bound ship attacked in Gulf of Finland",
+    "link": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "summary": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
+    "published": "2026-11-21T19:20:22+00:00",
     "outlets": 1,
-    "score": 0.194
+    "score": 0.667
+   },
+   {
+    "id": "killer-robots-u-n-talks-fall-short-of-hopes-for-legally-bind",
+    "title": "Killer robots: U.N. talks fall short of hopes for legally binding rules",
+    "link": "https://www.npr.org/2026/11/21/nx-s1-6047916/killer-robots-un-drones",
+    "source": "NPR World",
+    "topic": "World",
+    "summary": "U.N. talks in Geneva have failed to deliver binding rules on autonomous weapons, as humanitarian groups warn that military AI is advancing far faster than diplomacy.",
+    "published": "2026-11-21T14:18:17+00:00",
+    "outlets": 1,
+    "score": 0.518
+   },
+   {
+    "id": "fight-over-fossil-fuels-leaves-cop31-climate-talks-in-deadlo",
+    "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
+    "link": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "summary": "Countries from nearly 200 countries are in a deadlock to try and get a new global climate agreement.",
+    "published": "2026-11-21T19:33:49+00:00",
+    "outlets": 1,
+    "score": 0.454
    }
   ],
   "Tech": [
    {
-    "id": "youtube-is-reportedly-preparing-to-settle-social-media-addic",
-    "title": "YouTube is reportedly preparing to settle social media addiction claims for $3 billion",
-    "link": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement",
+    "id": "the-fbi-and-usda-were-reportedly-hacked",
+    "title": "The FBI and USDA were reportedly hacked",
+    "link": "https://www.theverge.com/tech/1039543/fbi-usda-hacked",
     "source": "The Verge",
     "topic": "Tech",
-    "summary": "YouTube is preparing to pay $3 billion to thousands of school districts to settle claims that its \"addictive design\" harmed kids, according to Bloomberg. Sources tell the publication that…",
-    "published": "2026-11-20T22:51:40+00:00",
+    "summary": "Friday, it was reported that both the US Department of Agriculture (USDA) and the FBI were hacked. In reporting on the FBI hack, CNN noted that this is the second such attack on the agency…",
+    "published": "2026-11-21T17:51:21+00:00",
     "outlets": 1,
-    "score": 0.764
+    "score": 0.898
+   },
+   {
+    "id": "race-realism-isn-t-realistic-and-it-isn-t-good-science",
+    "title": "“Race realism” isn’t realistic—and it isn’t good science",
+    "link": "https://arstechnica.com/science/2026/11/race-realism-isnt-realistic-and-it-isnt-good-science/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "Modern genetics does not support claims of innate racial differences in intelligence.",
+    "published": "2026-11-21T12:01:13+00:00",
+    "outlets": 1,
+    "score": 0.67
+   },
+   {
+    "id": "amazon-s-first-digital-photo-frame-is-up-to-50-percent-off-f",
+    "title": "Amazon’s first digital photo frame is up to 50 percent off for Black Friday",
+    "link": "https://www.theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "Amazon only announced its first digital photo frame less than a month ago, but it’s already getting a sizable discount for Black Friday. You can currently grab the Alexa Photo Frame at…",
+    "published": "2026-11-21T15:13:56+00:00",
+    "outlets": 1,
+    "score": 0.414
+   },
+   {
+    "id": "can-anthropic-afford-to-put-safety-first",
+    "title": "Can Anthropic afford to put safety first?",
+    "link": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude…",
+    "published": "2026-11-21T13:29:45+00:00",
+    "outlets": 1,
+    "score": 0.307
+   },
+   {
+    "id": "our-go-to-earbuds-for-taking-calls-have-fallen-to-their-lowe",
+    "title": "Our go-to earbuds for taking calls have fallen to their lowest price to date",
+    "link": "https://www.theverge.com/gadgets/1039160/anker-soundcore-liberty-5-pro-black-friday-2026-deal-sale",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "If you’re looking for a new pair of earbuds, the Soundcore Liberty 5 Pro are on sale for $129.99 at Amazon, Best Buy, and Walmart right now. That’s the lowest price we’ve seen for Anker’s…",
+    "published": "2026-11-21T14:55:28+00:00",
+    "outlets": 1,
+    "score": 0.277
    },
    {
     "id": "trump-fcc-declares-california-isn-t-allowed-to-enforce-phone",
@@ -708,54 +684,89 @@
     "summary": "FCC preempts state rules that require AT&T to keep offering home phone service.",
     "published": "2026-11-20T22:28:24+00:00",
     "outlets": 1,
-    "score": 0.75
+    "score": 0.241
+   }
+  ],
+  "Politics": [
+   {
+    "id": "how-a-gop-redistricting-dummymander-in-north-carolina-backfi",
+    "title": "How a GOP redistricting 'dummymander' in North Carolina backfired by 2 seats",
+    "link": "https://www.npr.org/2026/11/21/nx-s1-6044778/how-a-gop-redistricting-dummymander-in-north-carolina-backfired-by-2-seats",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "In North Carolina, Republican lawmakers redrew voting maps, aiming to gain one seat in Congress. Instead, they lost two seats, in a classic example of what political scientists call a…",
+    "published": "2026-11-21T12:40:21+00:00",
+    "outlets": 1,
+    "score": 0.693
    },
    {
-    "id": "spacex-s-starshield-troubles-in-ukraine-could-threaten-its-b",
-    "title": "SpaceX's Starshield troubles in Ukraine could threaten its broader military business",
-    "link": "https://arstechnica.com/space/2026/11/incoming-house-chair-threatens-spacex-funding-over-ukraine-controversy/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "\"Explain the changes that were made to the Starshield service in October 2026.\"",
-    "published": "2026-11-20T22:16:51+00:00",
+    "id": "the-new-yorker-s-jason-zengerle-on-hakeem-jeffries-rise-to-f",
+    "title": "The New Yorker's Jason Zengerle on Hakeem Jeffries' rise to first Black House speaker",
+    "link": "https://www.npr.org/2026/11/21/nx-s1-6047580/the-new-yorkers-jason-zengerle-on-hakeem-jeffries-rise-to-first-black-house-speaker",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "Hakeem Jeffries is set to become the first-ever African American speaker of the U.S. House of Representatives. NPR's Scott Simon talks to Jason Zengerle of The New Yorker about the rise of…",
+    "published": "2026-11-21T12:40:19+00:00",
     "outlets": 1,
-    "score": 0.512
+    "score": 0.478
    },
    {
-    "id": "rockstar-says-gta-vi-made-3-79-billion-in-its-first-day",
-    "title": "Rockstar says GTA VI made $3.79 billion in its first day",
-    "link": "https://www.theverge.com/games/1036279/gta-vi-sales",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "GTA VI earned $3.79 billion in its first day of sales, which set \"a new record for entertainment across any medium,\" according to an announcement from Rockstar Games. The game also sold…",
-    "published": "2026-11-20T22:10:53+00:00",
+    "id": "trump-signs-executive-order-on-federal-workers-responses-to",
+    "title": "Trump signs executive order on federal workers' responses to Congress",
+    "link": "https://www.cbsnews.com/news/trump-executive-order-federal-contractors-white-house-congress/",
+    "source": "CBS News",
+    "topic": "Politics",
+    "summary": "If they fail to comply, the White House warns their contracts could be terminated and their future work with the federal government suspended.",
+    "published": "2026-11-21T18:33:46+00:00",
     "outlets": 1,
-    "score": 0.51
+    "score": 0.475
    },
    {
-    "id": "google-rolls-out-new-search-homepage-with-ai-chat-history-an",
-    "title": "Google rolls out new search homepage with AI chat history and no search button",
-    "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "Google search is making it even easier to access AI tools on the search page.",
-    "published": "2026-11-20T21:58:29+00:00",
+    "id": "week-in-politics-trump-returns-from-asia-hails-trip-as-one-o",
+    "title": "Week in Politics: Trump returns from Asia; hails trip as one of best in history",
+    "link": "https://www.npr.org/2026/11/21/nx-s1-6047376/week-in-politics-trump-returns-from-asia-hails-trip-as-one-of-best-in-history",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "President Trump returned from his trip to Asia, saying it was one of the most successful presidential visits to that continent -- or anywhere else -- in American history.",
+    "published": "2026-11-21T12:40:15+00:00",
     "outlets": 1,
-    "score": 0.385
+    "score": 0.365
    },
    {
-    "id": "eufy-s-omni-c28-is-53-percent-off-ahead-of-black-friday",
-    "title": "Eufy’s Omni C28 is 53 percent off ahead of Black Friday",
-    "link": "https://www.theverge.com/gadgets/1037933/eufy-omni-c28-robot-vacuum-deal-sale",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "Hosting Thanksgiving can be fun, but cleaning up afterwards? Not so much. Eufy’s Omni C28 robot vacuum / mop hybrid can help, and thanks to an early Black Friday deal, you can pick it up…",
-    "published": "2026-11-20T17:50:06+00:00",
+    "id": "trump-says-he-wants-permanent-deal-with-iran",
+    "title": "Trump says he wants \"permanent\" deal with Iran",
+    "link": "https://www.cbsnews.com/live-updates/iran-war-trump-tehran-denies-chemical-weapons/",
+    "source": "CBS News",
+    "topic": "Politics",
+    "summary": "Despite rising tension, President Trump told an Israeli outlet he may not make a decision on his next move in the Iran war until 2027.",
+    "published": "2026-11-21T18:00:17+00:00",
     "outlets": 1,
-    "score": 0.313
+    "score": 0.334
+   },
+   {
+    "id": "an-effort-to-circumvent-the-electoral-college-may-be-within",
+    "title": "An effort to circumvent the Electoral College may be within reach. But hurdles remain",
+    "link": "https://www.npr.org/2026/11/21/nx-s1-6044237/electoral-college-national-popular-vote-interstate-compact",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "A national effort to ensure that only winners of the popular vote become president could reach a critical milestone soon.",
+    "published": "2026-11-21T10:00:00+00:00",
+    "outlets": 1,
+    "score": 0.258
    }
   ],
   "Science": [
+   {
+    "id": "scientists-sequenced-a-whale-s-entire-genome-using-drones-an",
+    "title": "Scientists sequenced a whale's entire genome using drones and whale snot",
+    "link": "https://www.npr.org/2026/11/21/nx-s1-6044816/scientists-sequenced-a-whales-entire-genome-using-drones-and-whale-snot",
+    "source": "NPR Science",
+    "topic": "Science",
+    "summary": "Scientists were able to sequence the entire genome of a whale using samples of its snot. They used sharp flying skills and commercial drones affixed with petri dishes to collect the samples.",
+    "published": "2026-11-21T12:40:15+00:00",
+    "outlets": 1,
+    "score": 0.693
+   },
    {
     "id": "new-research-gives-insight-to-where-your-brain-plans-out-you",
     "title": "New research gives insight to where your brain plans out your speech",
@@ -765,156 +776,42 @@
     "summary": "New research shows where this all takes place and what it means for possibly treating those who have speech difficulties.",
     "published": "2026-11-20T21:38:25+00:00",
     "outlets": 1,
-    "score": 0.719
-   }
-  ],
-  "Politics": [
-   {
-    "id": "the-latest-from-trump-s-press-conference",
-    "title": "The latest from Trump's press conference",
-    "link": "https://www.npr.org/2026/11/20/nx-s1-6047636/trump-presser",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "President Trump gave a wide-ranging press conference following his historic trip to Asia where he met with Chinese President Xi and Russian President Putin.",
-    "published": "2026-11-20T21:38:21+00:00",
-    "outlets": 1,
-    "score": 0.719
-   },
-   {
-    "id": "a-second-judge-blocks-trump-s-arch-saying-it-s-unlikely-to-s",
-    "title": "A second judge blocks Trump's arch, saying it's unlikely to succeed in court",
-    "link": "https://www.npr.org/2026/11/20/nx-s1-6048675/trump-arch-blocked-arlington",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "A federal judge in Virginia said she will issue a preliminary injunction against Trump's arch, going a step further than the D.C. federal judge who temporarily blocked construction earlier…",
-    "published": "2026-11-20T18:25:09+00:00",
-    "outlets": 1,
-    "score": 0.422
-   },
-   {
-    "id": "trump-initially-accepted-the-midterm-results-but-most-gop-vo",
-    "title": "Trump initially accepted the midterm results, but most GOP voters doubt they were fair",
-    "link": "https://www.npr.org/2026/11/20/nx-s1-6047605/midterm-election-distrust-republicans",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "Less than half of Republicans nationwide considered the midterm elections \"free and fair,\" according to new polling.",
-    "published": "2026-11-20T17:00:00+00:00",
-    "outlets": 1,
-    "score": 0.3
-   },
-   {
-    "id": "trump-defends-calling-putin-his-friend-talks-outages-in-firs",
-    "title": "Trump defends calling Putin his friend, talks outages in first presser after China summit",
-    "link": "https://www.cbsnews.com/video/trump-defends-calling-putin-his-friend-talks-outages-in-first-presser-after-china-summit/",
-    "source": "CBS News",
-    "topic": "Politics",
-    "summary": "President Trump addressed Iran's nuclear program, the Ukraine war and more in his first press conference following his summit with Vladimir Putin and Xi Jinping on Friday. Ed O'Keefe…",
-    "published": "2026-11-21T01:08:22+00:00",
-    "outlets": 1,
-    "score": 0.187
-   },
-   {
-    "id": "trump-threatens-tremendous-penalties-for-us-tech-firms-that",
-    "title": "Trump threatens ‘tremendous penalties’ for US tech firms that build datacenters abroad",
-    "link": "https://www.theguardian.com/us-news/2026/nov/20/trump-datacenters-white-house",
-    "source": "The Guardian",
-    "topic": "Politics",
-    "summary": "President gives wide-ranging White House press conference and says he has ‘fantastic relationships’ with Putin and Xi Donald Trump threatened on Friday to impose “tremendous penalties” on…",
-    "published": "2026-11-20T21:47:41+00:00",
-    "outlets": 1,
-    "score": 0.145
-   },
-   {
-    "id": "judges-have-put-trump-s-arch-and-golf-course-on-hold-but-onl",
-    "title": "Judges have put Trump's arch and golf course on hold, but only for a matter of days",
-    "link": "https://www.npr.org/2026/11/19/nx-s1-6047151/trump-arch-golf-course-judge-orders",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "A federal judge has twice delayed construction of Trump's arch. Another is keeping East Potomac Park open. The proposed golf course redesign got mixed feedback from a federal arts panel on…",
-    "published": "2026-11-19T19:46:27+00:00",
-    "outlets": 1,
-    "score": 0.069
-   }
-  ],
-  "Economy": [
-   {
-    "id": "faisal-islam-this-cost-cutting-uk-eu-deal-doesn-t-mean-lower",
-    "title": "Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow",
-    "link": "https://www.bbc.co.uk/news/articles/cm1wr029evnqo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "The trade deal is unlikely lower food prices for shoppers, but should boost the economy more than other post-Brexit agreements.",
-    "published": "2026-11-20T16:41:52+00:00",
-    "outlets": 1,
-    "score": 0.504
-   },
-   {
-    "id": "just-how-vulnerable-are-we-to-cyberattacks",
-    "title": "Just how vulnerable are we to cyberattacks?",
-    "link": "https://www.npr.org/sections/planet-money/2026/11/20/nx-s1-6047750/just-how-vulnerable-are-we-to-cyberattacks",
-    "source": "NPR Economy",
-    "topic": "Economy",
-    "summary": "In a week of outages, we're thinking about the rising threat of AI-powered cyberattacks. But sometimes, it's not the most sophisticated attack that's concerning, but the easy targets…",
-    "published": "2026-11-20T12:00:00+00:00",
-    "outlets": 1,
-    "score": 0.444
-   },
-   {
-    "id": "airbnb-s-divisive-new-house-rules-come-into-force",
-    "title": "Airbnb's divisive new house rules come into force",
-    "link": "https://www.bbc.co.uk/news/articles/cmx278n2genyo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "New rules on what Airbnb hosts can reasonably ask guests to do could mean fewer chores but higher costs for customers.",
-    "published": "2026-11-20T15:48:35+00:00",
-    "outlets": 1,
-    "score": 0.117
-   },
-   {
-    "id": "should-ai-be-judging-our-credit-worthiness",
-    "title": "Should AI be judging our credit worthiness?",
-    "link": "https://www.bbc.co.uk/news/articles/c6d94pzk9vleo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "Would AI be a good judge of whether you should get a mortgage, car loan or mobile phone contract?",
-    "published": "2026-11-20T07:32:19+00:00",
-    "outlets": 1,
-    "score": 0.109
-   },
-   {
-    "id": "tinned-food-and-long-life-milk-boost-retail-sales-after-be-r",
-    "title": "Tinned food and long-life milk boost retail sales after 'Be Ready' campaign launch",
-    "link": "https://www.bbc.co.uk/news/articles/ck053mzy2qqeo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "People stocking up on long-life food drove retail sales higher October, according to official data.",
-    "published": "2026-11-20T09:44:56+00:00",
-    "outlets": 1,
-    "score": 0.107
-   },
-   {
-    "id": "fish-and-eggs-al-desko-the-dos-and-don-ts-of-lunch-at-work",
-    "title": "Fish and eggs al desko? The dos and don'ts of lunch at work",
-    "link": "https://www.bbc.co.uk/news/articles/cwp8g4092zglo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "Eating at your desk? The dos and don'ts of lunch at work",
-    "published": "2026-11-20T00:08:37+00:00",
-    "outlets": 1,
-    "score": 0.084
+    "score": 0.241
    }
   ],
   "Health": [
    {
-    "id": "teen-becomes-viral-chef-after-stepping-up-when-his-mom-had-c",
-    "title": "Teen becomes viral chef after stepping up when his mom had cancer",
-    "link": "https://www.cbsnews.com/news/joey-charney-georgia-teen-chef-cancer/",
-    "source": "CBS News",
+    "id": "philadelphia-neonatologist-joanna-parga-belinkie-on-keeping",
+    "title": "Philadelphia neonatologist Joanna Parga-Belinkie on keeping babies safe from measles",
+    "link": "https://www.npr.org/2026/11/21/nx-s1-6038857/philadelphia-neonatologist-joanna-parga-belinkie-on-keeping-babies-safe-from-measles",
+    "source": "NPR Health",
     "topic": "Health",
-    "summary": "In August, Jennifer Charney, a stay-at-home mother of eight, lost her 10-year battle with breast cancer. Her youngest son, Joey, stepped up to become the family's chef.",
-    "published": "2026-11-21T01:26:26+00:00",
+    "summary": "Amid ongoing measles outbreaks, Philadelphia neonatologist Joanna Parga-Belinkie talks with NPR's Scott Simon about how she keeps infants too young for the vaccine safe.",
+    "published": "2026-11-21T12:40:10+00:00",
     "outlets": 1,
-    "score": 0.373
+    "score": 0.693
+   },
+   {
+    "id": "catherine-talks-openly-about-how-cancer-changed-her-in-docum",
+    "title": "Catherine talks openly about how cancer changed her in documentary on BBC",
+    "link": "https://www.bbc.co.uk/news/articles/c85y14zvexz9o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News",
+    "topic": "Health",
+    "summary": "\"There is a much, much deeper part to what a cancer diagnosis shifts in you,\" says Catherine in the documentary.",
+    "published": "2026-11-21T12:00:03+00:00",
+    "outlets": 1,
+    "score": 0.458
+   },
+   {
+    "id": "we-re-not-meant-to-carry-life-s-challenges-alone-catherine",
+    "title": "'We're not meant to carry life's challenges alone', Catherine says in first clip",
+    "link": "https://www.bbc.co.uk/news/videos/cwe85gyedjp5o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News",
+    "topic": "Health",
+    "summary": "Catherine has spoken about how \"cancer does change you\" in a documentary that will be screened on BBC One on 29 November.",
+    "published": "2026-11-21T12:17:45+00:00",
+    "outlets": 1,
+    "score": 0.376
    },
    {
     "id": "for-some-patients-psychedelic-treatment-brings-new-troubles",
@@ -925,40 +822,143 @@
     "summary": "Psychedelics could transform mental health care, but some advocates and researchers say there needs to be more focus on the minority of people with persistent troubles after using these…",
     "published": "2026-11-19T23:07:17+00:00",
     "outlets": 1,
+    "score": 0.241
+   }
+  ],
+  "Finance": [
+   {
+    "id": "how-china-is-using-summits-to-expand-its-global-influence",
+    "title": "How China is using summits to expand its global influence",
+    "link": "https://www.cnbc.com/2026/11/21/china-xi-trump-putin-global-diplomacy-shenzhen.html",
+    "source": "CNBC Finance",
+    "topic": "Finance",
+    "summary": "Chinese President Xi Jinping has helped coordinate yet another photo-op of global significance.",
+    "published": "2026-11-21T06:00:02+00:00",
+    "outlets": 1,
+    "score": 0.496
+   },
+   {
+    "id": "prediction-markets-outlook-for-stocks-in-2026-dims-amid-ai-s",
+    "title": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
+    "link": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html",
+    "source": "CNBC Investing",
+    "topic": "Finance",
+    "summary": "Odds that the S&P 500 will cross 8,000, which were once north of 70%, are extremely low on platform Kalshi.",
+    "published": "2026-11-20T19:59:03+00:00",
+    "outlets": 1,
     "score": 0.35
    },
    {
-    "id": "teenager-cooking-meals-for-family-after-mother-s-death-now-h",
-    "title": "Teenager cooking meals for family after mother's death now has 2 million social media followers",
-    "link": "https://www.cbsnews.com/video/teenager-cooking-meals-for-family-after-mothers-death-now-has-2-million-social-media-followers/",
-    "source": "CBS News",
-    "topic": "Health",
-    "summary": "18-year-old Joey Charney's mother died of breast cancer in August, so he started cooking meals for his family and documenting his dishes on social media. Now he has over 2 million…",
-    "published": "2026-11-21T01:17:31+00:00",
-    "outlets": 1,
-    "score": 0.319
-   },
-   {
-    "id": "the-magic-six-how-to-strengthen-your-marriage-in-midlife",
-    "title": "The 'Magic Six': How to strengthen your marriage in midlife",
-    "link": "https://www.npr.org/2026/11/19/nx-s1-5996688/magic-6-marriage-tips-nina-totenberg-relationships",
-    "source": "NPR Health",
-    "topic": "Health",
-    "summary": "How do we maintain healthy romantic relationships as we age? Allison Aubrey and Scott Detrow talk about about the science of healthy, later-in-life relationships.",
-    "published": "2026-11-19T18:28:23+00:00",
+    "id": "as-anthropic-shares-tank-investors-scramble-to-hedge-it-coul",
+    "title": "As Anthropic shares tank, investors scramble to hedge. It could be very expensive",
+    "link": "https://www.cnbc.com/2026/11/20/as-anthropic-shares-tank-investors-scramble-to-hedge-it-could-be-very-expensive.html",
+    "source": "CNBC Investing",
+    "topic": "Finance",
+    "summary": "Anthropic options list Monday. They will likely be expensive",
+    "published": "2026-11-20T15:12:40+00:00",
     "outlets": 1,
     "score": 0.241
    },
    {
-    "id": "world-toilet-day-is-a-funny-idea-with-a-serious-goal-a-world",
-    "title": "World Toilet Day is a funny idea with a serious goal: A world awash in toilets",
-    "link": "https://www.npr.org/2026/11/19/g-s1-154159/world-toilet-day-gender-equality-menstruation",
-    "source": "NPR Health",
-    "topic": "Health",
-    "summary": "Yahoo for the loo! November 19 marks the 25th anniversary of World Toilet Day. The theme this year: \"Sanitation and Gender Equality: Safe Toilets, Equal Futures.\"",
-    "published": "2026-11-19T12:26:31+00:00",
+    "id": "5-ways-to-turn-off-your-work-brain-after-the-day-ends",
+    "title": "5 ways to turn off your 'work brain' after the day ends",
+    "link": "https://www.npr.org/2026/11/21/nx-s1-6043793/stop-thinking-about-work",
+    "source": "NPR",
+    "topic": "Finance",
+    "summary": "Don't let your work troubles follow you home. Psychologist Guy Winch shares techniques to help you stop ruminating about your nine-to-five, so you can focus on what really matters.",
+    "published": "2026-11-21T10:01:00+00:00",
+    "outlets": 1,
+    "score": 0.19
+   },
+   {
+    "id": "warsh-wants-fed-officials-to-talk-less-instead-they-re-talki",
+    "title": "Warsh wants Fed officials to talk less. Instead, they’re talking more",
+    "link": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html",
+    "source": "CNBC Finance",
+    "topic": "Finance",
+    "summary": "Fed officials have been rushing to the microphones lately while the Fed chairman stays on the sidelines.",
+    "published": "2026-11-20T21:10:48+00:00",
     "outlets": 1,
     "score": 0.184
+   },
+   {
+    "id": "cathie-wood-s-ark-invest-was-a-big-buyer-of-anthropic-as-she",
+    "title": "Cathie Wood’s Ark Invest was a big buyer of Anthropic as she tells CNBC she’s ‘quite optimistic’",
+    "link": "https://www.cnbc.com/2026/11/20/cathie-woods-ark-invest-was-a-big-buyer-of-anthropic-during-debut.html",
+    "source": "CNBC Investing",
+    "topic": "Finance",
+    "summary": "Wood's firm bought $90.8 million worth of Anthropic in six funds, according to a trade notification from the firm.",
+    "published": "2026-11-20T16:18:04+00:00",
+    "outlets": 1,
+    "score": 0.184
+   }
+  ],
+  "Economy": [
+   {
+    "id": "trump-vows-to-work-with-democrats-to-cap-credit-card-interes",
+    "title": "Trump vows to work with Democrats to cap credit card interest rates",
+    "link": "https://www.cbsnews.com/news/trump-credit-card-rates-democrats-politics/",
+    "source": "CBS News",
+    "topic": "Economy",
+    "summary": "President Trump says he will work with the incoming Democratic Congress to cap credit card interest rates.",
+    "published": "2026-11-21T18:27:57+00:00",
+    "outlets": 1,
+    "score": 0.397
+   },
+   {
+    "id": "just-how-vulnerable-are-we-to-cyberattacks",
+    "title": "Just how vulnerable are we to cyberattacks?",
+    "link": "https://www.npr.org/sections/planet-money/2026/11/20/nx-s1-6047750/just-how-vulnerable-are-we-to-cyberattacks",
+    "source": "NPR Economy",
+    "topic": "Economy",
+    "summary": "In a week of outages, we're thinking about the rising threat of AI-powered cyberattacks. But sometimes, it's not the most sophisticated attack that's concerning, but the easy targets…",
+    "published": "2026-11-20T12:00:00+00:00",
+    "outlets": 1,
+    "score": 0.35
+   },
+   {
+    "id": "tech-stock-sell-off-drags-markets-down-as-anthropic-shares-s",
+    "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
+    "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "Pressures weighed on US markets, with the S&P 500 and the Dow Jones Industrial Average pushed into correction territory.",
+    "published": "2026-11-20T22:42:47+00:00",
+    "outlets": 1,
+    "score": 0.35
+   },
+   {
+    "id": "uk-to-explore-even-closer-ties-with-eu-after-agreeing-deal-s",
+    "title": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
+    "link": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "The UK-EU deal agreed on Friday covers British food exports, emissions trading and a youth experience scheme.",
+    "published": "2026-11-20T17:49:48+00:00",
+    "outlets": 1,
+    "score": 0.314
+   },
+   {
+    "id": "faisal-islam-this-cost-cutting-uk-eu-deal-doesn-t-mean-lower",
+    "title": "Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow",
+    "link": "https://www.bbc.co.uk/news/articles/cm1wr029evnqo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "The trade deal is unlikely lower food prices for shoppers, but should boost the economy more than other post-Brexit agreements.",
+    "published": "2026-11-20T16:41:52+00:00",
+    "outlets": 1,
+    "score": 0.184
+   },
+   {
+    "id": "should-ai-be-judging-our-credit-worthiness",
+    "title": "Should AI be judging our credit worthiness?",
+    "link": "https://www.bbc.co.uk/news/articles/c6d94pzk9vleo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "Would AI be a good judge of whether you should get a mortgage, car loan or mobile phone contract?",
+    "published": "2026-11-20T07:32:19+00:00",
+    "outlets": 1,
+    "score": 0.108
    }
   ]
  }
