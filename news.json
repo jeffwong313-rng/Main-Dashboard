@@ -1,226 +1,182 @@
 {
- "generated": "2026-11-24T06:18:59+00:00",
- "generatedLocal": "2026-11-23 22:18",
+ "generated": "2026-11-24T18:10:52+00:00",
+ "generatedLocal": "2026-11-24 10:10",
  "top": [
   {
-   "id": "trump-faces-backlash-after-saying-he-convinced-nvidia-to-rei",
-   "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
-   "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC World",
-   "topic": "World",
-   "summary": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.",
-   "published": "2026-11-24T04:36:31+00:00",
-   "outlets": 3,
-   "score": 1.896
-  },
-  {
-   "id": "nvidia-ceo-jensen-huang-is-back-what-happens-next",
-   "title": "Nvidia CEO Jensen Huang is back. What happens next?",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
-   "source": "The Verge",
-   "topic": "Tech",
-   "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation.…",
-   "published": "2026-11-24T04:15:00+00:00",
-   "outlets": 4,
-   "score": 1.536
-  },
-  {
-   "id": "us-army-to-detonate-toxic-explosives-in-iowa-after-trump-pau",
-   "title": "US Army to detonate toxic explosives in Iowa after Trump paused plan",
-   "link": "https://www.bbc.co.uk/news/articles/cr2klqzqx1qvo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC US & Canada",
-   "topic": "U.S.",
-   "summary": "The US military plans to detonate five tonnes of expired explosives on Wednesday, after appeals court decision.",
-   "published": "2026-11-24T04:42:06+00:00",
-   "outlets": 3,
-   "score": 1.042
-  },
-  {
-   "id": "how-nvidia-is-reacting-to-jensen-huang-s-return-as-ceo",
-   "title": "How Nvidia is reacting to Jensen Huang's return as CEO",
-   "link": "https://www.bbc.co.uk/news/videos/ckedq2edqegzo?at_medium=RSS&at_campaign=rss",
+   "id": "disability-benefit-review-calls-for-closer-link-with-claiman",
+   "title": "Disability benefit review calls for closer link with claimant costs",
+   "link": "https://www.bbc.co.uk/news/articles/cm4gn6gn9057o?at_medium=RSS&at_campaign=rss",
    "source": "BBC News",
-   "topic": "Politics",
-   "summary": "BBC's Lily Jamali reports from Nvidia's headquarters, where she gauges the reaction to Huang's return after Trump says he brokered a deal.",
-   "published": "2026-11-24T01:21:41+00:00",
-   "outlets": 1,
-   "score": 1.015
-  },
-  {
-   "id": "love-blooms-behind-an-open-prison-s-missing-bars-in-venice-a",
-   "title": "Love Blooms Behind an Open Prison’s Missing Bars in Venice and Busan-Selected Director Nidhi Saxena’s ‘Azaad Nagar’ at WAVES Film Bazaar",
-   "link": "https://variety.com/2026/film/markets-festivals/love-blooms-open-prison-venice-directors-azaad-nagar-1236956781/",
-   "source": "Variety",
-   "topic": "Entertainment",
-   "summary": "Nidhi Saxena, whose films have premiered at Busan and Venice, is presenting “Azaad Nagar” (Redemption Road), a Hindi-language love story set inside an Indian open prison, at the…",
-   "published": "2026-11-24T06:17:35+00:00",
-   "outlets": 1,
-   "score": 0.999
-  },
-  {
-   "id": "nfl-week-11-grades-for-every-team-commanders-earn-a-for-stun",
-   "title": "NFL Week 11 grades for every team: Commanders earn 'A-' for stunning Monday win",
-   "link": "https://www.cbssports.com/nfl/news/nfl-week-11-grades-every-team-cowboys-earn-a-high-flying-win-steelers-nearly-fail/",
-   "source": "CBS Sports",
-   "topic": "Sports",
-   "summary": "We're handing out grades for every team that played in Week 11",
-   "published": "2026-11-24T05:01:47+00:00",
-   "outlets": 1,
-   "score": 0.938
-  },
-  {
-   "id": "california-democrat-rep-gomez-resigns-following-ethics-repor",
-   "title": "California Democrat Rep. Gomez resigns following ethics report on sexual misconduct allegations",
-   "link": "https://www.npr.org/2026/11/23/g-s1-155142/california-democrat-rep-gomez-resigns-following-ethics-report-on-sexual-misconduct-allegations",
-   "source": "NPR Politics",
-   "topic": "Politics",
-   "summary": "California Congressman Rep. Jimmy Gomez says he will resign after a House Ethics report concluded Gomez's actions violated House rules by \"making unwelcome sexual advances.\"",
-   "published": "2026-11-23T22:29:53+00:00",
-   "outlets": 1,
-   "score": 0.879
-  },
-  {
-   "id": "what-strike-on-russian-ship-in-libya-says-about-spread-of-uk",
-   "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
-   "link": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC World",
    "topic": "World",
-   "summary": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner.",
-   "published": "2026-11-23T20:48:35+00:00",
-   "outlets": 2,
-   "score": 0.853
-  },
-  {
-   "id": "ice-release-2-us-citizens-detained-in-oakland-after-communit",
-   "title": "ICE Release 2 US Citizens Detained in Oakland After Community Gathering",
-   "link": "https://ww2.kqed.org/news/2026/11/23/ice-release-2-us-citizens-detained-in-oakland-after-community-gathering/",
-   "source": "KQED",
-   "topic": "Local",
-   "summary": "Officials and advocates called the arrests part of a surge of “disturbing and aggressive ICE operations” in the East Bay.",
-   "published": "2026-11-24T00:28:28+00:00",
+   "summary": "A government-commissioned report calls for a \"rebalancing\" of the amount paid to different claimants.",
+   "published": "2026-11-24T17:38:37+00:00",
    "outlets": 1,
-   "score": 0.747
+   "score": 1.266
   },
   {
-   "id": "google-alternative-kagi-launches-an-email-service",
-   "title": "Google alternative Kagi launches an email service",
-   "link": "https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative",
-   "source": "The Verge",
-   "topic": "Tech",
-   "summary": "Kagi, which already offers a paid alternative to Google Search and its own Orion browser as a rival to Chrome, is taking on another Google service: Gmail. Today, Kagi announced a public…",
-   "published": "2026-11-24T00:02:52+00:00",
+   "id": "oil-prices-fall-despite-iran-s-ongoing-attacks-on-tankers",
+   "title": "Oil prices fall despite Iran's ongoing attacks on tankers",
+   "link": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
+   "source": "CBS News",
+   "topic": "U.S.",
+   "summary": "Despite Iran claiming daily attacks on takers around the Strait of Hormuz and escalating fighting between the Saudis and Iran's Houthi allies, oil prices continue to decline.",
+   "published": "2026-11-24T17:56:49+00:00",
    "outlets": 1,
-   "score": 0.731
+   "score": 1.186
   },
   {
-   "id": "invading-armies-subterfuge-and-conquest-how-fire-ant-wars-af",
-   "title": "Invading armies, subterfuge and conquest: How fire ant wars affect ecosystems",
-   "link": "https://www.npr.org/2026/11/23/nx-s1-6037814/invading-armies-subterfuge-and-conquest-how-fire-ant-wars-affect-ecosystems",
-   "source": "NPR Science",
-   "topic": "Science",
-   "summary": "Ants disperse seeds, scavenge, turn soil and serve as a food source in their ecosystems. If local ants are displaced by invasive ants from elsewhere, the effects are widely felt.",
-   "published": "2026-11-23T23:12:05+00:00",
-   "outlets": 1,
-   "score": 0.701
-  },
-  {
-   "id": "russian-incursions-into-nato-territory-are-increasing",
-   "title": "Russian incursions into NATO territory are increasing",
-   "link": "https://www.npr.org/2026/11/23/nx-s1-6051013/russian-incursions-into-nato-territory-are-increasing",
+   "id": "who-really-owns-the-albanian-land-jared-kushner-wants-to-tur",
+   "title": "Who really owns the Albanian land Jared Kushner wants to turn into a 5-star resort?",
+   "link": "https://www.npr.org/2026/11/24/g-s1-154623/albania-jared-kushner-land-deal-protests",
    "source": "NPR World",
    "topic": "World",
-   "summary": "NATO Secretary General Mark Rutte is seeking to reassure the alliance's eastern European members after three Russian cruise missiles landed in Poland on Friday.",
-   "published": "2026-11-23T23:08:51+00:00",
+   "summary": "Albania's Prime Minister Edi Rama has vowed that Kushner's resort project will go ahead as planned. But an ongoing investigation by Albania's state prosecutor into forged land titles could…",
+   "published": "2026-11-24T14:24:04+00:00",
    "outlets": 1,
-   "score": 0.699
+   "score": 1.076
   },
   {
-   "id": "tarkowski-s-first-premier-league-red-ruins-moyes-night-was-i",
-   "title": "Tarkowski's first Premier League red ruins Moyes' night - was it deserved?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cmqx5eynvpqno?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "topic": "Sports",
-   "summary": "Everton captain James Tarkowski was sent off for the first time in his Premier League career in Monday's 4-0 loss at Brentford - but was it a harsh decision?",
-   "published": "2026-11-23T22:43:39+00:00",
-   "outlets": 1,
-   "score": 0.684
-  },
-  {
-   "id": "nvidia-surge-what-investors-should-do-with-the-stock-and-the",
-   "title": "Nvidia surge: What investors should do with the stock and the AI trade now",
-   "link": "https://www.cnbc.com/2026/11/23/nvidia-stock-jensen-huang-ai-trade.html",
-   "source": "CNBC Investing",
-   "topic": "Finance",
-   "summary": "The market is loving the return of Jensen Huang, but investors and lawmakers have their guards up.",
-   "published": "2026-11-23T22:43:38+00:00",
-   "outlets": 1,
-   "score": 0.684
-  },
-  {
-   "id": "ranbir-kapoor-s-brahmastra-sequel-could-go-even-more-indian",
-   "title": "Ranbir Kapoor’s ‘Brahmastra’ Sequel Could Go ‘Even More Indian,’ Director Ayan Mukerji Tells IFFI",
-   "link": "https://variety.com/2026/film/festivals/ranbir-kapoor-brahmastra-sequel-more-indian-1236956772/",
-   "source": "Variety",
-   "topic": "Entertainment",
-   "summary": "Ayan Mukerji, director of the Ranbir Kapoor-starring fantasy epic “Brahmastra: Part One – Shiva,” told audiences at the 57th International Film Festival of India (IFFI) in Goa that his…",
-   "published": "2026-11-24T06:04:06+00:00",
-   "outlets": 1,
-   "score": 0.681
-  },
-  {
-   "id": "chris-mason-can-burnham-turn-volume-down-on-eu-debate",
-   "title": "Chris Mason: Can Burnham turn volume down on EU debate?",
-   "link": "https://www.bbc.co.uk/news/articles/c6pw47jyyz5no?at_medium=RSS&at_campaign=rss",
-   "source": "BBC News",
-   "topic": "World",
-   "summary": "The BBC's Chris Mason analyses what the EU conversation means for Labour and the PM.",
-   "published": "2026-11-24T00:45:53+00:00",
-   "outlets": 1,
-   "score": 0.679
-  },
-  {
-   "id": "chicago-now-has-the-worst-traffic-in-the-u-s-here-s-why",
-   "title": "Chicago now has the worst traffic in the U.S. — here's why",
-   "link": "https://www.npr.org/2026/11/23/nx-s1-6038839-e1/chicago-now-has-the-worst-traffic-in-the-u-s-heres-why",
-   "source": "NPR National",
-   "topic": "U.S.",
-   "summary": "Chicago takes the top ranking for traffic jams according to a pair of new analyses, and according to its many, many frustrated drivers who waste hours of their lives stuck in them.",
-   "published": "2026-11-23T22:05:12+00:00",
-   "outlets": 1,
-   "score": 0.663
-  },
-  {
-   "id": "trump-halts-iowa-detonation-says-new-governor-to-blame-if-it",
-   "title": "Trump halts Iowa detonation, says new governor to blame if it blows accidentally",
-   "link": "https://arstechnica.com/health/2026/11/trump-halts-iowa-detonation-says-new-governor-to-blame-if-it-blows-accidentally/",
+   "id": "kalshi-makes-difficult-decision-to-halt-utah-trading-after-l",
+   "title": "Kalshi makes “difficult decision” to halt Utah trading after losing court fights",
+   "link": "https://arstechnica.com/tech-policy/2026/11/kalshi-makes-difficult-decision-to-halt-utah-trading-after-losing-court-fights/",
    "source": "Ars Technica",
    "topic": "Tech",
-   "summary": "The Army said on Sunday that it would carry out the detonation on Wednesday.",
-   "published": "2026-11-23T21:58:34+00:00",
+   "summary": "Kalshi’s pause in Utah draws cheers as critics bash ads and boo insider trading.",
+   "published": "2026-11-24T18:03:58+00:00",
    "outlets": 1,
-   "score": 0.659
+   "score": 0.994
   },
   {
-   "id": "2026-nfl-playoff-picture-standings-49ers-reign-over-nfc-jagu",
-   "title": "2026 NFL playoff picture, standings: 49ers reign over NFC, Jaguars slip in AFC, wild-card battles heat up",
-   "link": "https://www.cbssports.com/nfl/news/2026-nfl-playoff-picture-standings-49ers-reign-over-nfc-jaguars-slip-in-afc/",
+   "id": "elizabeth-holmes-ex-assistant-speaks-out-on-you-can-see-ever",
+   "title": "Elizabeth Holmes’ Ex-Assistant Speaks Out on ‘You Can See Everything’ and Amanda Seyfried’s ‘Valid’ Performance: Holmes ‘Softened a Lot in the Film’",
+   "link": "https://variety.com/2026/tv/news/elizabeth-holmes-ex-assistant-you-can-see-everything-1236957074/",
+   "source": "Variety",
+   "topic": "Entertainment",
+   "summary": "For Aria Marinelli, “You Can See Everything” hit a little close to home. Marinelli, who worked as Elizabeth Holmes’ assistant in 2009, during the early stages of Theranos, spoke about…",
+   "published": "2026-11-24T18:01:47+00:00",
+   "outlets": 1,
+   "score": 0.992
+  },
+  {
+   "id": "more-than-300-russians-killed-as-moscow-props-up-mali-s-junt",
+   "title": "More than 300 Russians killed as Moscow props up Mali’s junta, leaked data reveals",
+   "link": "https://www.theguardian.com/world/2026/nov/24/russian-fighters-killed-in-mali-africa-leaked-data",
+   "source": "The Guardian",
+   "topic": "World",
+   "summary": "Exclusive: Records list 349 deaths in three years in Mali and also shed light on Russia’s military activity elsewhere in Africa When the attack on Kidal began before dawn on 25 April this…",
+   "published": "2026-11-24T16:00:50+00:00",
+   "outlets": 1,
+   "score": 0.987
+  },
+  {
+   "id": "michigan-will-not-hire-trev-alberts-as-next-ad-school-could",
+   "title": "Michigan will not hire Trev Alberts as next AD: School could owe full buyout to ex-Texas A&M administrator",
+   "link": "https://www.cbssports.com/college-football/news/michigan-will-not-hire-texas-a-m-ad-trev-alberts-could-still-owe-full-buyout/",
    "source": "CBS Sports",
    "topic": "Sports",
-   "summary": "A comprehensive look at all seven seeds in the AFC and NFC and the teams on the outside looking in",
-   "published": "2026-11-24T04:33:23+00:00",
+   "summary": "Alberts was set to leave for his third job in three years, but is now thrown into flux",
+   "published": "2026-11-24T17:30:25+00:00",
    "outlets": 1,
-   "score": 0.632
+   "score": 0.967
   },
   {
-   "id": "us-to-blacklist-asian-ai-firm-megaspeed-after-nvidia-scandal",
-   "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
-   "link": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+   "id": "dreame-and-eufy-are-offering-nearly-60-percent-off-robovacs",
+   "title": "Dreame and Eufy are offering nearly 60 percent off robovacs for Black Friday",
+   "link": "https://www.theverge.com/gadgets/1040315/black-friday-best-early-robot-vacuum-mop-deals-2026",
+   "source": "The Verge",
+   "topic": "Tech",
+   "summary": "Between putting up decorations, entertaining guests, and meal prep, the holidays are busy enough without worrying about vacuuming. Thankfully, a proper robot vacuum can do the dirty work…",
+   "published": "2026-11-24T17:19:50+00:00",
+   "outlets": 1,
+   "score": 0.958
+  },
+  {
+   "id": "this-jury-could-hang-judge-in-sheng-thao-trial-says-convict",
+   "title": "‘This Jury Could Hang:’ Judge in Sheng Thao Trial Says Conviction Not Guaranteed",
+   "link": "https://ww2.kqed.org/news/2026/11/24/sheng-thao-tria-defense-attorneys-accuse-key-witness-of-lying-ask-to-dismiss-case/",
+   "source": "KQED",
+   "topic": "Local",
+   "summary": "Defense attorneys in the federal corruption trial filed a motion to dismiss the case, arguing a controversial government witness lied on the stand and prosecutors failed to correct him.",
+   "published": "2026-11-24T17:19:39+00:00",
+   "outlets": 1,
+   "score": 0.958
+  },
+  {
+   "id": "nvidia-shares-slide-as-trump-s-role-in-jensen-huang-s-comeba",
+   "title": "Nvidia shares slide as Trump's role in Jensen Huang's comeback questioned by US politicians",
+   "link": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
    "source": "BBC World",
    "topic": "World",
-   "summary": "Megaspeed has been accused of funneling AI chips to China after a former executive's affair with Jensen Huang became public.",
-   "published": "2026-11-23T23:16:08+00:00",
+   "summary": "Nvidia's stock market value surged on the annoucement of Huang's reappointment, but some of the gains reversed in Tuesday trading.",
+   "published": "2026-11-24T17:04:20+00:00",
    "outlets": 1,
-   "score": 0.63
+   "score": 0.946
+  },
+  {
+   "id": "yoro-red-card-overturned-but-refs-chief-webb-backs-decision",
+   "title": "Yoro red card overturned, but refs' chief Webb backs decision",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ck868g93djl5o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "topic": "Sports",
+   "summary": "Manchester United defender Leny Yoro is clear to face Brentford on Saturday as his red card at Anfield is overturned.",
+   "published": "2026-11-24T17:00:32+00:00",
+   "outlets": 1,
+   "score": 0.943
+  },
+  {
+   "id": "duran-to-phillies-seager-to-rays-trades-we-want-to-see-befor",
+   "title": "Duran to Phillies! Seager to Rays! Trades we want to see before baseball shuts down",
+   "link": "https://www.espn.com/mlb/story/_/id/50541491/offseason-trades-lockout-red-sox-yankees",
+   "source": "ESPN",
+   "topic": "Sports",
+   "summary": "An MLB lockout is looming. Our experts suggest some last-minute deals.",
+   "published": "2026-11-24T16:58:15+00:00",
+   "outlets": 1,
+   "score": 0.941
+  },
+  {
+   "id": "us-court-unseals-heavily-redacted-records-on-ilhan-omar-home",
+   "title": "US court unseals heavily redacted records on Ilhan Omar home search",
+   "link": "https://www.bbc.co.uk/news/articles/c6n831lzl5y1o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC US & Canada",
+   "topic": "U.S.",
+   "summary": "Prosecutors say they are pursuing evidence of crimes allegedly committed by the Democratic congresswoman over decades, and unrelated to her work in Congress.",
+   "published": "2026-11-24T16:32:16+00:00",
+   "outlets": 1,
+   "score": 0.921
+  },
+  {
+   "id": "jensen-huang-returns-to-nvidia-and-rep-gomez-resigns-amid-al",
+   "title": "Jensen Huang returns to Nvidia. And, Rep. Gomez resigns amid alleged sexual misconduct",
+   "link": "https://www.npr.org/2026/11/24/g-s1-155227/up-first-newsletter-nvidia-jensen-huang-trump-ukraine-russia-jimmy-gomez",
+   "source": "NPR Politics",
+   "topic": "Politics",
+   "summary": "President Trump took credit for negotiating Jensen Huang's return as CEO of Nvidia. And, Rep. Jimmy Gomez, D-Calif., says his resignation will be effective Dec. 1.",
+   "published": "2026-11-24T12:12:25+00:00",
+   "outlets": 2,
+   "score": 0.832
+  },
+  {
+   "id": "two-arrested-on-suspicion-of-burglary-at-prince-and-princess",
+   "title": "Two arrested on suspicion of burglary at Prince and Princess of Wales's Norfolk home",
+   "link": "https://www.bbc.co.uk/news/articles/cr9d7qdg24vno?at_medium=RSS&at_campaign=rss",
+   "source": "BBC News",
+   "topic": "World",
+   "summary": "The break-in took place at the family's country retreat in Norfolk, on the Sandringham Estate.",
+   "published": "2026-11-24T16:19:29+00:00",
+   "outlets": 1,
+   "score": 0.817
+  },
+  {
+   "id": "iranian-women-praise-singer-lashed-for-not-wearing-a-hijab",
+   "title": "Iranian women praise singer lashed for not wearing a hijab",
+   "link": "https://www.cbsnews.com/news/iran-singer-parastoo-ahmadi-lashed-performing-no-hijab/",
+   "source": "CBS News",
+   "topic": "Entertainment",
+   "summary": "Parastoo Ahmadi was lashed 74 times for the crime of \"outraging public decency\" after she livestreamed a concert without her hair covered.",
+   "published": "2026-11-24T17:40:00+00:00",
+   "outlets": 1,
+   "score": 0.807
   },
   {
    "id": "fed-s-john-williams-indicates-higher-interest-rates-likely-o",
@@ -229,193 +185,202 @@
    "source": "CNBC Finance",
    "topic": "Finance",
    "summary": "The influential central banker expressed confidence that inflation will get closer to the Fed's 2% target in 2027.",
-   "published": "2026-11-23T21:02:17+00:00",
+   "published": "2026-11-24T13:33:26+00:00",
    "outlets": 1,
-   "score": 0.629
+   "score": 0.794
   },
   {
-   "id": "us-rapper-postpones-two-arena-shows-after-manchester-evacuat",
-   "title": "US rapper postpones two arena shows after Manchester evacuation",
-   "link": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo?at_medium=RSS&at_campaign=rss",
+   "id": "bbc-and-netflix-team-up-for-new-cbeebies-hub-on-streamer",
+   "title": "BBC and Netflix team up for new CBeebies hub on streamer",
+   "link": "https://www.bbc.co.uk/news/articles/c9zr585dxkgzo?at_medium=RSS&at_campaign=rss",
    "source": "BBC Entertainment",
    "topic": "Entertainment",
-   "summary": "Don Toliver's show on Sunday was evacuated after an \"unknown substance\" was released into the crowd.",
-   "published": "2026-11-23T20:49:08+00:00",
+   "summary": "The limited trial will see a CBeebies hub on Netflix for the first time and will feature 24 programmes.",
+   "published": "2026-11-24T13:05:09+00:00",
    "outlets": 1,
-   "score": 0.622
+   "score": 0.775
   },
   {
-   "id": "they-attended-trump-s-controversial-meme-coin-dinner-it-didn",
-   "title": "They attended Trump's controversial meme coin dinner. It didn't go well",
-   "link": "https://www.npr.org/2026/11/23/nx-s1-6045883/they-attended-trumps-controversial-meme-coin-dinner-it-didnt-go-well",
-   "source": "NPR",
-   "topic": "Politics",
-   "summary": "Trump held another meme coin dinner for top holders of his cryptocurrency — an event that has raised intense controversy. Here's an inside account from two guests who attended.",
-   "published": "2026-11-23T22:17:59+00:00",
-   "outlets": 1,
-   "score": 0.6
-  },
-  {
-   "id": "some-women-in-tech-have-concerns-about-huang-s-return",
-   "title": "Some women in tech have concerns about Huang's return",
-   "link": "https://www.npr.org/2026/11/23/nx-s1-6045799/how-some-women-in-tech-are-responding-to-jensen-huangs-return-to-nvidia",
-   "source": "NPR",
+   "id": "court-lifts-administrative-stay-allowing-lead-azide-detonati",
+   "title": "Court lifts administrative stay, allowing lead azide detonation to move forward",
+   "link": "https://www.npr.org/2026/11/24/nx-s1-6051547/court-lifts-administrative-stay-allowing-lead-azide-detonation-to-move-forward",
+   "source": "NPR National",
    "topic": "U.S.",
-   "summary": "Women who have advocated for DEI in tech say Jensen Huang's return to NVIDIA as CEO sends a message that in Silicon Valley, all that matters is money. s",
-   "published": "2026-11-23T22:03:57+00:00",
+   "summary": "It's been an on-off-and-on again schedule for the Army's plan to detonate tons of unusable bomb-making material in Iowa with even President Trump weighing in on what should happen.",
+   "published": "2026-11-24T11:42:15+00:00",
    "outlets": 1,
-   "score": 0.589
+   "score": 0.723
   },
   {
-   "id": "afghan-women-with-uk-university-offers-heartbroken-after-vis",
-   "title": "Afghan women with UK university offers 'heartbroken' after visas stopped",
-   "link": "https://www.bbc.co.uk/news/articles/c6vg25e1v17wo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC News",
-   "topic": "World",
-   "summary": "In March this year, the UK Home Office announced an \"emergency visa brake\" on study visas for applicants from Afghanistan.",
-   "published": "2026-11-24T06:00:47+00:00",
+   "id": "what-should-it-cost-to-insure-a-home-in-wildfire-country",
+   "title": "What should it cost to insure a home in wildfire country?",
+   "link": "https://www.npr.org/sections/planet-money/2026/11/24/g-s1-154477/what-should-it-cost-to-insure-a-home-in-wildfire-country",
+   "source": "NPR Economy",
+   "topic": "Economy",
+   "summary": "Some California homeowners have spent thousands making their homes safer from wildfires. Yet all that work has barely made a dent in their insurance bills. Should they be getting a bigger…",
+   "published": "2026-11-24T11:30:00+00:00",
    "outlets": 1,
-   "score": 0.545
+   "score": 0.716
+  },
+  {
+   "id": "one-only-campaign-botox-cosmetic-onabotulinumtoxina-has-bee",
+   "title": "‘One & Only’ Campaign: BOTOX® Cosmetic (onabotulinumtoxinA) Has Been FDA Approved for Over 20 Years",
+   "link": "https://variety.com/2026/biz/lifestyle/botox-cosmetic-one-and-only-campaign-1236683743/",
+   "source": "Variety",
+   "topic": "Entertainment",
+   "summary": "Click here for Medication Guide, including Boxed Warning. In a world where trends come and go, there’s one thing that never goes out of style: being authentically yourself. The “One &…",
+   "published": "2026-11-24T18:00:00+00:00",
+   "outlets": 1,
+   "score": 0.683
+  },
+  {
+   "id": "tidal-announces-ban-on-ai-generated-music-27-million-tracks",
+   "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+   "link": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+   "source": "Ars Technica",
+   "topic": "Tech",
+   "summary": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
+   "published": "2026-11-24T17:34:34+00:00",
+   "outlets": 1,
+   "score": 0.669
+  },
+  {
+   "id": "fantasy-baseball-offseason-tracker-orioles-swap-out-trevor-r",
+   "title": "Fantasy Baseball Offseason Tracker: Orioles swap out Trevor Rogers for Freddy Peralta",
+   "link": "https://www.cbssports.com/fantasy/baseball/news/fantasy-baseball-offseason-tracker-orioles-swap-out-trevor-rogers-for-freddy-peralta/",
+   "source": "CBS Sports",
+   "topic": "Sports",
+   "summary": "Here's a rundown of the offseason moves that matter",
+   "published": "2026-11-24T17:29:41+00:00",
+   "outlets": 1,
+   "score": 0.666
+  },
+  {
+   "id": "doctors-struggle-to-save-babies-after-parents-refuse-vitamin",
+   "title": "Doctors struggle to save babies after parents refuse vitamin K",
+   "link": "https://www.npr.org/2026/11/24/nx-s1-6001723/vitamin-k-deficiency-refusal-vaccine-misinformation-newborn-bleeding",
+   "source": "NPR Health",
+   "topic": "Health",
+   "summary": "Doctors are fighting an uphill battle against disinformation about routine vitamin K shots given to newborns in the hospital. It helps prevent a rare but devastating bleeding disorder.",
+   "published": "2026-11-24T10:00:00+00:00",
+   "outlets": 1,
+   "score": 0.664
+  },
+  {
+   "id": "tidal-will-start-banning-ai-generated-music-next-month",
+   "title": "Tidal will start banning AI-generated music next month",
+   "link": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+   "source": "The Verge",
+   "topic": "Tech",
+   "summary": "Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000…",
+   "published": "2026-11-24T17:17:09+00:00",
+   "outlets": 1,
+   "score": 0.659
   }
  ],
  "topics": {
   "World": [
    {
-    "id": "trump-faces-backlash-after-saying-he-convinced-nvidia-to-rei",
-    "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
-    "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
+    "id": "disability-benefit-review-calls-for-closer-link-with-claiman",
+    "title": "Disability benefit review calls for closer link with claimant costs",
+    "link": "https://www.bbc.co.uk/news/articles/cm4gn6gn9057o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News",
     "topic": "World",
-    "summary": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.",
-    "published": "2026-11-24T04:36:31+00:00",
-    "outlets": 3,
-    "score": 1.896
+    "summary": "A government-commissioned report calls for a \"rebalancing\" of the amount paid to different claimants.",
+    "published": "2026-11-24T17:38:37+00:00",
+    "outlets": 1,
+    "score": 1.266
    },
    {
-    "id": "what-strike-on-russian-ship-in-libya-says-about-spread-of-uk",
-    "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
-    "link": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "topic": "World",
-    "summary": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner.",
-    "published": "2026-11-23T20:48:35+00:00",
-    "outlets": 2,
-    "score": 0.853
-   },
-   {
-    "id": "russian-incursions-into-nato-territory-are-increasing",
-    "title": "Russian incursions into NATO territory are increasing",
-    "link": "https://www.npr.org/2026/11/23/nx-s1-6051013/russian-incursions-into-nato-territory-are-increasing",
+    "id": "who-really-owns-the-albanian-land-jared-kushner-wants-to-tur",
+    "title": "Who really owns the Albanian land Jared Kushner wants to turn into a 5-star resort?",
+    "link": "https://www.npr.org/2026/11/24/g-s1-154623/albania-jared-kushner-land-deal-protests",
     "source": "NPR World",
     "topic": "World",
-    "summary": "NATO Secretary General Mark Rutte is seeking to reassure the alliance's eastern European members after three Russian cruise missiles landed in Poland on Friday.",
-    "published": "2026-11-23T23:08:51+00:00",
+    "summary": "Albania's Prime Minister Edi Rama has vowed that Kushner's resort project will go ahead as planned. But an ongoing investigation by Albania's state prosecutor into forged land titles could…",
+    "published": "2026-11-24T14:24:04+00:00",
     "outlets": 1,
-    "score": 0.699
+    "score": 1.076
    },
    {
-    "id": "chris-mason-can-burnham-turn-volume-down-on-eu-debate",
-    "title": "Chris Mason: Can Burnham turn volume down on EU debate?",
-    "link": "https://www.bbc.co.uk/news/articles/c6pw47jyyz5no?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News",
+    "id": "more-than-300-russians-killed-as-moscow-props-up-mali-s-junt",
+    "title": "More than 300 Russians killed as Moscow props up Mali’s junta, leaked data reveals",
+    "link": "https://www.theguardian.com/world/2026/nov/24/russian-fighters-killed-in-mali-africa-leaked-data",
+    "source": "The Guardian",
     "topic": "World",
-    "summary": "The BBC's Chris Mason analyses what the EU conversation means for Labour and the PM.",
-    "published": "2026-11-24T00:45:53+00:00",
+    "summary": "Exclusive: Records list 349 deaths in three years in Mali and also shed light on Russia’s military activity elsewhere in Africa When the attack on Kidal began before dawn on 25 April this…",
+    "published": "2026-11-24T16:00:50+00:00",
     "outlets": 1,
-    "score": 0.679
+    "score": 0.987
    },
    {
-    "id": "us-to-blacklist-asian-ai-firm-megaspeed-after-nvidia-scandal",
-    "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
-    "link": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+    "id": "nvidia-shares-slide-as-trump-s-role-in-jensen-huang-s-comeba",
+    "title": "Nvidia shares slide as Trump's role in Jensen Huang's comeback questioned by US politicians",
+    "link": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
     "source": "BBC World",
     "topic": "World",
-    "summary": "Megaspeed has been accused of funneling AI chips to China after a former executive's affair with Jensen Huang became public.",
-    "published": "2026-11-23T23:16:08+00:00",
+    "summary": "Nvidia's stock market value surged on the annoucement of Huang's reappointment, but some of the gains reversed in Tuesday trading.",
+    "published": "2026-11-24T17:04:20+00:00",
     "outlets": 1,
-    "score": 0.63
+    "score": 0.946
    },
    {
-    "id": "afghan-women-with-uk-university-offers-heartbroken-after-vis",
-    "title": "Afghan women with UK university offers 'heartbroken' after visas stopped",
-    "link": "https://www.bbc.co.uk/news/articles/c6vg25e1v17wo?at_medium=RSS&at_campaign=rss",
+    "id": "two-arrested-on-suspicion-of-burglary-at-prince-and-princess",
+    "title": "Two arrested on suspicion of burglary at Prince and Princess of Wales's Norfolk home",
+    "link": "https://www.bbc.co.uk/news/articles/cr9d7qdg24vno?at_medium=RSS&at_campaign=rss",
     "source": "BBC News",
     "topic": "World",
-    "summary": "In March this year, the UK Home Office announced an \"emergency visa brake\" on study visas for applicants from Afghanistan.",
-    "published": "2026-11-24T06:00:47+00:00",
+    "summary": "The break-in took place at the family's country retreat in Norfolk, on the Sandringham Estate.",
+    "published": "2026-11-24T16:19:29+00:00",
     "outlets": 1,
-    "score": 0.545
-   }
-  ],
-  "Tech": [
-   {
-    "id": "nvidia-ceo-jensen-huang-is-back-what-happens-next",
-    "title": "Nvidia CEO Jensen Huang is back. What happens next?",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation.…",
-    "published": "2026-11-24T04:15:00+00:00",
-    "outlets": 4,
-    "score": 1.536
+    "score": 0.817
    },
    {
-    "id": "google-alternative-kagi-launches-an-email-service",
-    "title": "Google alternative Kagi launches an email service",
-    "link": "https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "Kagi, which already offers a paid alternative to Google Search and its own Orion browser as a rival to Chrome, is taking on another Google service: Gmail. Today, Kagi announced a public…",
-    "published": "2026-11-24T00:02:52+00:00",
+    "id": "i-m-proud-of-it-killer-confesses-after-murdering-ian-huntle",
+    "title": "'I'm proud of it': Killer confesses after murdering Ian Huntley",
+    "link": "https://www.bbc.co.uk/news/videos/c60evp1g7r7no?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News",
+    "topic": "World",
+    "summary": "Triple murderer Anthony Russell said he planned to kill Ian Huntley and that he had \"nothing to lose\".",
+    "published": "2026-11-24T16:24:34+00:00",
     "outlets": 1,
-    "score": 0.731
-   },
-   {
-    "id": "trump-halts-iowa-detonation-says-new-governor-to-blame-if-it",
-    "title": "Trump halts Iowa detonation, says new governor to blame if it blows accidentally",
-    "link": "https://arstechnica.com/health/2026/11/trump-halts-iowa-detonation-says-new-governor-to-blame-if-it-blows-accidentally/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "The Army said on Sunday that it would carry out the detonation on Wednesday.",
-    "published": "2026-11-23T21:58:34+00:00",
-    "outlets": 1,
-    "score": 0.659
-   },
-   {
-    "id": "the-hacker-behind-early-gta-vi-leaks-has-been-sentenced-and",
-    "title": "The hacker behind early GTA VI leaks has been sentenced — and released",
-    "link": "https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "Arion Kurtaj, who pleaded guilty last week to hacking Grand Theft Auto VI developer Rockstar Games and other companies, including Uber and Revolut, was sentenced to seven years in prison…",
-    "published": "2026-11-23T23:25:01+00:00",
-    "outlets": 1,
-    "score": 0.488
-   },
-   {
-    "id": "states-sue-spacex-to-stop-grok-from-generating-child-sex-ima",
-    "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
-    "link": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "X says every Grok output is screened, but state AGs say Grok is still making CSAM.",
-    "published": "2026-11-23T21:30:44+00:00",
-    "outlets": 1,
-    "score": 0.444
-   },
-   {
-    "id": "the-verge-s-2026-holiday-gift-guide",
-    "title": "The Verge’s 2026 holiday gift guide",
-    "link": "https://www.theverge.com/gadgets/1026041/holiday-gift-guide-2026",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "Gift-giving isn't just about grabbing something solid under a determined spending limit. It's an expression of love, a way to show someone how well you really know them. That doesn't mean…",
-    "published": "2026-11-23T23:14:10+00:00",
-    "outlets": 1,
-    "score": 0.369
+    "score": 0.506
    }
   ],
   "U.S.": [
+   {
+    "id": "oil-prices-fall-despite-iran-s-ongoing-attacks-on-tankers",
+    "title": "Oil prices fall despite Iran's ongoing attacks on tankers",
+    "link": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
+    "source": "CBS News",
+    "topic": "U.S.",
+    "summary": "Despite Iran claiming daily attacks on takers around the Strait of Hormuz and escalating fighting between the Saudis and Iran's Houthi allies, oil prices continue to decline.",
+    "published": "2026-11-24T17:56:49+00:00",
+    "outlets": 1,
+    "score": 1.186
+   },
+   {
+    "id": "us-court-unseals-heavily-redacted-records-on-ilhan-omar-home",
+    "title": "US court unseals heavily redacted records on Ilhan Omar home search",
+    "link": "https://www.bbc.co.uk/news/articles/c6n831lzl5y1o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC US & Canada",
+    "topic": "U.S.",
+    "summary": "Prosecutors say they are pursuing evidence of crimes allegedly committed by the Democratic congresswoman over decades, and unrelated to her work in Congress.",
+    "published": "2026-11-24T16:32:16+00:00",
+    "outlets": 1,
+    "score": 0.921
+   },
+   {
+    "id": "court-lifts-administrative-stay-allowing-lead-azide-detonati",
+    "title": "Court lifts administrative stay, allowing lead azide detonation to move forward",
+    "link": "https://www.npr.org/2026/11/24/nx-s1-6051547/court-lifts-administrative-stay-allowing-lead-azide-detonation-to-move-forward",
+    "source": "NPR National",
+    "topic": "U.S.",
+    "summary": "It's been an on-off-and-on again schedule for the Army's plan to detonate tons of unusable bomb-making material in Iowa with even President Trump weighing in on what should happen.",
+    "published": "2026-11-24T11:42:15+00:00",
+    "outlets": 1,
+    "score": 0.723
+   },
    {
     "id": "us-army-to-detonate-toxic-explosives-in-iowa-after-trump-pau",
     "title": "US Army to detonate toxic explosives in Iowa after Trump paused plan",
@@ -423,271 +388,293 @@
     "source": "BBC US & Canada",
     "topic": "U.S.",
     "summary": "The US military plans to detonate five tonnes of expired explosives on Wednesday, after appeals court decision.",
-    "published": "2026-11-24T04:42:06+00:00",
+    "published": "2026-11-24T17:10:31+00:00",
     "outlets": 3,
-    "score": 1.042
+    "score": 0.602
    },
    {
-    "id": "chicago-now-has-the-worst-traffic-in-the-u-s-here-s-why",
-    "title": "Chicago now has the worst traffic in the U.S. — here's why",
-    "link": "https://www.npr.org/2026/11/23/nx-s1-6038839-e1/chicago-now-has-the-worst-traffic-in-the-u-s-heres-why",
-    "source": "NPR National",
-    "topic": "U.S.",
-    "summary": "Chicago takes the top ranking for traffic jams according to a pair of new analyses, and according to its many, many frustrated drivers who waste hours of their lives stuck in them.",
-    "published": "2026-11-23T22:05:12+00:00",
-    "outlets": 1,
-    "score": 0.663
-   },
-   {
-    "id": "some-women-in-tech-have-concerns-about-huang-s-return",
-    "title": "Some women in tech have concerns about Huang's return",
-    "link": "https://www.npr.org/2026/11/23/nx-s1-6045799/how-some-women-in-tech-are-responding-to-jensen-huangs-return-to-nvidia",
-    "source": "NPR",
-    "topic": "U.S.",
-    "summary": "Women who have advocated for DEI in tech say Jensen Huang's return to NVIDIA as CEO sends a message that in Silicon Valley, all that matters is money. s",
-    "published": "2026-11-23T22:03:57+00:00",
-    "outlets": 1,
-    "score": 0.589
-   },
-   {
-    "id": "a-timeline-of-the-karen-read-case",
-    "title": "A timeline of the Karen Read case",
-    "link": "https://www.cbsnews.com/news/karen-read-trial-timeline-john-okeefe/",
-    "source": "CBS News",
-    "topic": "U.S.",
-    "summary": "Here's a look at how events have unfolded in the Karen Read case.",
-    "published": "2026-11-24T03:20:34+00:00",
-    "outlets": 1,
-    "score": 0.544
-   },
-   {
-    "id": "analysis-why-jensen-huang-proved-too-big-to-fire",
-    "title": "Analysis: Why Jensen Huang proved too big to fire",
-    "link": "https://www.bbc.co.uk/news/articles/ckr5g8edl94eo?at_medium=RSS&at_campaign=rss",
+    "id": "will-bad-weather-disrupt-thanksgiving-travel",
+    "title": "Will bad weather disrupt Thanksgiving travel?",
+    "link": "https://www.bbc.co.uk/news/videos/c5742n4741keo?at_medium=RSS&at_campaign=rss",
     "source": "BBC US & Canada",
     "topic": "U.S.",
-    "summary": "Huang's role at the centre of his company's journey to lynchpin of AI proved crucial.",
-    "published": "2026-11-23T17:11:58+00:00",
+    "summary": "BBC Weather's Elizabeth Rizzini looks at the weather that will impact travel over US Thanksgiving.",
+    "published": "2026-11-24T13:18:22+00:00",
     "outlets": 1,
-    "score": 0.519
+    "score": 0.54
    },
    {
-    "id": "federal-court-releases-rep-ilhan-omar-d-c-home-raid-document",
-    "title": "Federal court releases Rep. Ilhan Omar D.C. home raid documents",
-    "link": "https://www.cbsnews.com/news/congresswoman-ilhan-omar-house-raid-documents-release/",
+    "id": "man-on-cruise-ship-goes-overboard-off-bahamas-search-underwa",
+    "title": "Man on cruise ship goes overboard off Bahamas, search underway",
+    "link": "https://www.cbsnews.com/news/royal-caribbean-allure-of-the-seas-man-overboard-bahamas/",
     "source": "CBS News",
     "topic": "U.S.",
-    "summary": "A federal court on Monday evening released documents regarding last month's raid at the Washington, D.C. home of Democratic Minnesota U.S. Rep. Ilhan Omar.",
-    "published": "2026-11-24T02:21:00+00:00",
+    "summary": "The Allure of the Seas is on an eight-day Thanksgiving cruise in the Caribbean that departed from Miami on Sunday.",
+    "published": "2026-11-24T17:30:19+00:00",
     "outlets": 1,
-    "score": 0.419
+    "score": 0.494
    }
   ],
-  "Politics": [
+  "Tech": [
    {
-    "id": "how-nvidia-is-reacting-to-jensen-huang-s-return-as-ceo",
-    "title": "How Nvidia is reacting to Jensen Huang's return as CEO",
-    "link": "https://www.bbc.co.uk/news/videos/ckedq2edqegzo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News",
-    "topic": "Politics",
-    "summary": "BBC's Lily Jamali reports from Nvidia's headquarters, where she gauges the reaction to Huang's return after Trump says he brokered a deal.",
-    "published": "2026-11-24T01:21:41+00:00",
+    "id": "kalshi-makes-difficult-decision-to-halt-utah-trading-after-l",
+    "title": "Kalshi makes “difficult decision” to halt Utah trading after losing court fights",
+    "link": "https://arstechnica.com/tech-policy/2026/11/kalshi-makes-difficult-decision-to-halt-utah-trading-after-losing-court-fights/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "Kalshi’s pause in Utah draws cheers as critics bash ads and boo insider trading.",
+    "published": "2026-11-24T18:03:58+00:00",
     "outlets": 1,
-    "score": 1.015
+    "score": 0.994
    },
    {
-    "id": "california-democrat-rep-gomez-resigns-following-ethics-repor",
-    "title": "California Democrat Rep. Gomez resigns following ethics report on sexual misconduct allegations",
-    "link": "https://www.npr.org/2026/11/23/g-s1-155142/california-democrat-rep-gomez-resigns-following-ethics-report-on-sexual-misconduct-allegations",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "California Congressman Rep. Jimmy Gomez says he will resign after a House Ethics report concluded Gomez's actions violated House rules by \"making unwelcome sexual advances.\"",
-    "published": "2026-11-23T22:29:53+00:00",
+    "id": "dreame-and-eufy-are-offering-nearly-60-percent-off-robovacs",
+    "title": "Dreame and Eufy are offering nearly 60 percent off robovacs for Black Friday",
+    "link": "https://www.theverge.com/gadgets/1040315/black-friday-best-early-robot-vacuum-mop-deals-2026",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "Between putting up decorations, entertaining guests, and meal prep, the holidays are busy enough without worrying about vacuuming. Thankfully, a proper robot vacuum can do the dirty work…",
+    "published": "2026-11-24T17:19:50+00:00",
     "outlets": 1,
-    "score": 0.879
+    "score": 0.958
    },
    {
-    "id": "they-attended-trump-s-controversial-meme-coin-dinner-it-didn",
-    "title": "They attended Trump's controversial meme coin dinner. It didn't go well",
-    "link": "https://www.npr.org/2026/11/23/nx-s1-6045883/they-attended-trumps-controversial-meme-coin-dinner-it-didnt-go-well",
-    "source": "NPR",
-    "topic": "Politics",
-    "summary": "Trump held another meme coin dinner for top holders of his cryptocurrency — an event that has raised intense controversy. Here's an inside account from two guests who attended.",
-    "published": "2026-11-23T22:17:59+00:00",
+    "id": "tidal-announces-ban-on-ai-generated-music-27-million-tracks",
+    "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+    "link": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
+    "published": "2026-11-24T17:34:34+00:00",
     "outlets": 1,
-    "score": 0.6
+    "score": 0.669
    },
    {
-    "id": "trump-downplays-iran-s-latest-attacks-as-it-vows-to-use-all",
-    "title": "Trump downplays Iran's latest attacks as it vows to use all means to end U.S. blockade",
-    "link": "https://www.cbsnews.com/video/trump-downplays-irans-latest-attacks-threatens-all-means-end-us-blockade/",
-    "source": "CBS News",
-    "topic": "Politics",
-    "summary": "The Iranian government said it would use \"all available means\" to end the U.S. naval blockade of the country's ports, dubbing it an \"act of military aggression.\" CBS News Pentagon reporter…",
-    "published": "2026-11-24T01:49:00+00:00",
+    "id": "tidal-will-start-banning-ai-generated-music-next-month",
+    "title": "Tidal will start banning AI-generated music next month",
+    "link": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000…",
+    "published": "2026-11-24T17:17:09+00:00",
     "outlets": 1,
-    "score": 0.295
+    "score": 0.659
    },
    {
-    "id": "butt-of-the-joke-trump-impersonator-mocks-president-at-canad",
-    "title": "Butt of the joke: Trump impersonator mocks president at Canada press dinner",
-    "link": "https://www.theguardian.com/world/2026/nov/23/canada-trump-impersonator-press-dinner",
-    "source": "The Guardian",
-    "topic": "Politics",
-    "summary": "Carney watches on as comedian lampoons US leader and his interest in men’s backsides at correspondents’ event Ottawa Canada’s prime minister, Mark Carney, was joined on stage in Ottawa by…",
-    "published": "2026-11-23T22:41:48+00:00",
+    "id": "us-commerce-department-adds-megaspeed-to-trade-blacklist-as",
+    "title": "US Commerce Department adds Megaspeed to trade blacklist as Huang retakes control of Nvidia",
+    "link": "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "As Jensen Huang returns to his post as Nvidia's CEO with support from the Trump administration, the Department of Commerce has added Megaspeed to its Entity List, which blocks trade with…",
+    "published": "2026-11-24T17:28:09+00:00",
     "outlets": 1,
-    "score": 0.231
+    "score": 0.508
    },
    {
-    "id": "after-midterm-losses-republicans-debate-what-s-next-for-the",
-    "title": "After midterm losses, Republicans debate what's next for the party",
-    "link": "https://www.npr.org/2026/11/23/nx-s1-6044259/after-midterm-losses-republicans-debate-whats-next-for-the-party",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "In the wake of their midterm election losses, Republicans are discussing what happened and what the future might be for their party.",
-    "published": "2026-11-23T09:45:06+00:00",
+    "id": "porsche-718-boxster-prototype-drive-this-electric-roadster-i",
+    "title": "Porsche 718 Boxster prototype drive: This electric roadster is real",
+    "link": "https://arstechnica.com/cars/2026/11/fake-gears-and-real-911-dna-driving-porsches-electric-718-boxster/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "Technical details are still limited, but we already know it's fun to drive.",
+    "published": "2026-11-24T16:58:20+00:00",
     "outlets": 1,
-    "score": 0.188
+    "score": 0.495
    }
   ],
   "Entertainment": [
    {
-    "id": "love-blooms-behind-an-open-prison-s-missing-bars-in-venice-a",
-    "title": "Love Blooms Behind an Open Prison’s Missing Bars in Venice and Busan-Selected Director Nidhi Saxena’s ‘Azaad Nagar’ at WAVES Film Bazaar",
-    "link": "https://variety.com/2026/film/markets-festivals/love-blooms-open-prison-venice-directors-azaad-nagar-1236956781/",
+    "id": "elizabeth-holmes-ex-assistant-speaks-out-on-you-can-see-ever",
+    "title": "Elizabeth Holmes’ Ex-Assistant Speaks Out on ‘You Can See Everything’ and Amanda Seyfried’s ‘Valid’ Performance: Holmes ‘Softened a Lot in the Film’",
+    "link": "https://variety.com/2026/tv/news/elizabeth-holmes-ex-assistant-you-can-see-everything-1236957074/",
     "source": "Variety",
     "topic": "Entertainment",
-    "summary": "Nidhi Saxena, whose films have premiered at Busan and Venice, is presenting “Azaad Nagar” (Redemption Road), a Hindi-language love story set inside an Indian open prison, at the…",
-    "published": "2026-11-24T06:17:35+00:00",
+    "summary": "For Aria Marinelli, “You Can See Everything” hit a little close to home. Marinelli, who worked as Elizabeth Holmes’ assistant in 2009, during the early stages of Theranos, spoke about…",
+    "published": "2026-11-24T18:01:47+00:00",
     "outlets": 1,
-    "score": 0.999
+    "score": 0.992
    },
    {
-    "id": "ranbir-kapoor-s-brahmastra-sequel-could-go-even-more-indian",
-    "title": "Ranbir Kapoor’s ‘Brahmastra’ Sequel Could Go ‘Even More Indian,’ Director Ayan Mukerji Tells IFFI",
-    "link": "https://variety.com/2026/film/festivals/ranbir-kapoor-brahmastra-sequel-more-indian-1236956772/",
-    "source": "Variety",
+    "id": "iranian-women-praise-singer-lashed-for-not-wearing-a-hijab",
+    "title": "Iranian women praise singer lashed for not wearing a hijab",
+    "link": "https://www.cbsnews.com/news/iran-singer-parastoo-ahmadi-lashed-performing-no-hijab/",
+    "source": "CBS News",
     "topic": "Entertainment",
-    "summary": "Ayan Mukerji, director of the Ranbir Kapoor-starring fantasy epic “Brahmastra: Part One – Shiva,” told audiences at the 57th International Film Festival of India (IFFI) in Goa that his…",
-    "published": "2026-11-24T06:04:06+00:00",
+    "summary": "Parastoo Ahmadi was lashed 74 times for the crime of \"outraging public decency\" after she livestreamed a concert without her hair covered.",
+    "published": "2026-11-24T17:40:00+00:00",
     "outlets": 1,
-    "score": 0.681
+    "score": 0.807
    },
    {
-    "id": "us-rapper-postpones-two-arena-shows-after-manchester-evacuat",
-    "title": "US rapper postpones two arena shows after Manchester evacuation",
-    "link": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo?at_medium=RSS&at_campaign=rss",
+    "id": "bbc-and-netflix-team-up-for-new-cbeebies-hub-on-streamer",
+    "title": "BBC and Netflix team up for new CBeebies hub on streamer",
+    "link": "https://www.bbc.co.uk/news/articles/c9zr585dxkgzo?at_medium=RSS&at_campaign=rss",
     "source": "BBC Entertainment",
     "topic": "Entertainment",
-    "summary": "Don Toliver's show on Sunday was evacuated after an \"unknown substance\" was released into the crowd.",
-    "published": "2026-11-23T20:49:08+00:00",
+    "summary": "The limited trial will see a CBeebies hub on Netflix for the first time and will feature 24 programmes.",
+    "published": "2026-11-24T13:05:09+00:00",
     "outlets": 1,
-    "score": 0.622
+    "score": 0.775
    },
    {
-    "id": "elephants-in-the-fog-adds-mexico-south-korea-portugal-sales",
-    "title": "‘Elephants in the Fog’ Adds Mexico, South Korea, Portugal Sales as Oscar Campaign Visits U.N. (EXCLUSIVE)",
-    "link": "https://variety.com/2026/film/festivals/elephants-fog-mexico-south-korea-portugal-sales-1236956767/",
+    "id": "one-only-campaign-botox-cosmetic-onabotulinumtoxina-has-bee",
+    "title": "‘One & Only’ Campaign: BOTOX® Cosmetic (onabotulinumtoxinA) Has Been FDA Approved for Over 20 Years",
+    "link": "https://variety.com/2026/biz/lifestyle/botox-cosmetic-one-and-only-campaign-1236683743/",
     "source": "Variety",
     "topic": "Entertainment",
-    "summary": "Best Friend Forever has closed new sales deals for “Elephants in the Fog” in Mexico, South Korea and Portugal, as Nepal’s Oscar entry for best international feature film builds a campaign…",
-    "published": "2026-11-24T05:50:13+00:00",
+    "summary": "Click here for Medication Guide, including Boxed Warning. In a world where trends come and go, there’s one thing that never goes out of style: being authentically yourself. The “One &…",
+    "published": "2026-11-24T18:00:00+00:00",
     "outlets": 1,
-    "score": 0.514
+    "score": 0.683
    },
    {
-    "id": "hila-klein-exits-h3-podcast-following-ethan-klein-affair-i-m",
-    "title": "Hila Klein Exits ‘H3 Podcast’ Following Ethan Klein Affair: ‘I’m Devastated That Things Have Come to This’",
-    "link": "https://variety.com/2026/digital/news/hila-klein-exits-h3-podcast-ethan-klein-affair-1236956758/",
+    "id": "lord-of-the-rings-the-rings-of-power-renewed-for-season-4-a",
+    "title": "‘Lord of the Rings: The Rings of Power’ Renewed for Season 4 at Amazon Prime Video",
+    "link": "https://variety.com/2026/tv/news/lord-of-the-rings-rings-of-power-renewed-season-4-1236957049/",
     "source": "Variety",
     "topic": "Entertainment",
-    "summary": "Hila Klein is officially exiting the “H3 Podcast” a month after it was revealed that her co-host and husband, Ethan Klein, had been having a six-month affair. The news follows Hila’s…",
-    "published": "2026-11-24T05:36:19+00:00",
+    "summary": "“The Lord of the Rings: The Rings of Power” has been renewed for Season 4 at Amazon Prime Video. The Tolkien series, which is set thousands of years before the books in Middle-earth, is in…",
+    "published": "2026-11-24T18:00:00+00:00",
     "outlets": 1,
-    "score": 0.411
+    "score": 0.522
    },
    {
-    "id": "police-investigate-unknown-substance-that-caused-manchester",
-    "title": "Police investigate unknown substance that caused Manchester's Co-op Live evacuation",
-    "link": "https://www.bbc.co.uk/news/articles/c9e851dn8516o?at_medium=RSS&at_campaign=rss",
+    "id": "irish-reality-star-dances-her-way-to-final-of-dancing-with-t",
+    "title": "Irish reality star dances her way to final of Dancing with the Stars",
+    "link": "https://www.bbc.co.uk/news/articles/cw9879841ev7o?at_medium=RSS&at_campaign=rss",
     "source": "BBC Entertainment",
     "topic": "Entertainment",
-    "summary": "People describe a \"horrible smell\" and hearing screaming as they were evacuated from the Don Toliver gig.",
-    "published": "2026-11-23T17:34:24+00:00",
+    "summary": "The final will be shown on ABC and Disney+ in the US at 20:00 local time, with no option for people here in the UK to watch live.",
+    "published": "2026-11-24T16:06:10+00:00",
     "outlets": 1,
-    "score": 0.365
+    "score": 0.474
    }
   ],
   "Sports": [
    {
-    "id": "nfl-week-11-grades-for-every-team-commanders-earn-a-for-stun",
-    "title": "NFL Week 11 grades for every team: Commanders earn 'A-' for stunning Monday win",
-    "link": "https://www.cbssports.com/nfl/news/nfl-week-11-grades-every-team-cowboys-earn-a-high-flying-win-steelers-nearly-fail/",
+    "id": "michigan-will-not-hire-trev-alberts-as-next-ad-school-could",
+    "title": "Michigan will not hire Trev Alberts as next AD: School could owe full buyout to ex-Texas A&M administrator",
+    "link": "https://www.cbssports.com/college-football/news/michigan-will-not-hire-texas-a-m-ad-trev-alberts-could-still-owe-full-buyout/",
     "source": "CBS Sports",
     "topic": "Sports",
-    "summary": "We're handing out grades for every team that played in Week 11",
-    "published": "2026-11-24T05:01:47+00:00",
+    "summary": "Alberts was set to leave for his third job in three years, but is now thrown into flux",
+    "published": "2026-11-24T17:30:25+00:00",
     "outlets": 1,
-    "score": 0.938
+    "score": 0.967
    },
    {
-    "id": "tarkowski-s-first-premier-league-red-ruins-moyes-night-was-i",
-    "title": "Tarkowski's first Premier League red ruins Moyes' night - was it deserved?",
-    "link": "https://www.bbc.co.uk/sport/football/articles/cmqx5eynvpqno?at_medium=RSS&at_campaign=rss",
+    "id": "yoro-red-card-overturned-but-refs-chief-webb-backs-decision",
+    "title": "Yoro red card overturned, but refs' chief Webb backs decision",
+    "link": "https://www.bbc.co.uk/sport/football/articles/ck868g93djl5o?at_medium=RSS&at_campaign=rss",
     "source": "BBC Sport",
     "topic": "Sports",
-    "summary": "Everton captain James Tarkowski was sent off for the first time in his Premier League career in Monday's 4-0 loss at Brentford - but was it a harsh decision?",
-    "published": "2026-11-23T22:43:39+00:00",
+    "summary": "Manchester United defender Leny Yoro is clear to face Brentford on Saturday as his red card at Anfield is overturned.",
+    "published": "2026-11-24T17:00:32+00:00",
     "outlets": 1,
-    "score": 0.684
+    "score": 0.943
    },
    {
-    "id": "2026-nfl-playoff-picture-standings-49ers-reign-over-nfc-jagu",
-    "title": "2026 NFL playoff picture, standings: 49ers reign over NFC, Jaguars slip in AFC, wild-card battles heat up",
-    "link": "https://www.cbssports.com/nfl/news/2026-nfl-playoff-picture-standings-49ers-reign-over-nfc-jaguars-slip-in-afc/",
-    "source": "CBS Sports",
+    "id": "duran-to-phillies-seager-to-rays-trades-we-want-to-see-befor",
+    "title": "Duran to Phillies! Seager to Rays! Trades we want to see before baseball shuts down",
+    "link": "https://www.espn.com/mlb/story/_/id/50541491/offseason-trades-lockout-red-sox-yankees",
+    "source": "ESPN",
     "topic": "Sports",
-    "summary": "A comprehensive look at all seven seeds in the AFC and NFC and the teams on the outside looking in",
-    "published": "2026-11-24T04:33:23+00:00",
+    "summary": "An MLB lockout is looming. Our experts suggest some last-minute deals.",
+    "published": "2026-11-24T16:58:15+00:00",
     "outlets": 1,
-    "score": 0.632
+    "score": 0.941
    },
    {
-    "id": "fantasy-baseball-offseason-tracker-trevor-rogers-deal-with-c",
-    "title": "Fantasy Baseball Offseason Tracker: Trevor Rogers' deal with Cubs underscores his upside",
-    "link": "https://www.cbssports.com/fantasy/baseball/news/fantasy-baseball-offseason-tracker-trevor-rogers-deal-with-cubs-underscores-his-upside/",
+    "id": "fantasy-baseball-offseason-tracker-orioles-swap-out-trevor-r",
+    "title": "Fantasy Baseball Offseason Tracker: Orioles swap out Trevor Rogers for Freddy Peralta",
+    "link": "https://www.cbssports.com/fantasy/baseball/news/fantasy-baseball-offseason-tracker-orioles-swap-out-trevor-rogers-for-freddy-peralta/",
     "source": "CBS Sports",
     "topic": "Sports",
     "summary": "Here's a rundown of the offseason moves that matter",
-    "published": "2026-11-24T04:16:51+00:00",
+    "published": "2026-11-24T17:29:41+00:00",
     "outlets": 1,
-    "score": 0.475
+    "score": 0.666
    },
    {
-    "id": "janelt-scores-stunner-as-brentford-beat-10-man-everton",
-    "title": "Janelt scores stunner as Brentford beat 10-man Everton",
-    "link": "https://www.bbc.co.uk/sport/football/videos/c5gm3jlw7l7xo?at_medium=RSS&at_campaign=rss",
+    "id": "senegal-reinstated-as-afcon-2025-winners-10-months-after-tou",
+    "title": "Senegal reinstated as Afcon 2025 winners - 10 months after tournament",
+    "link": "https://www.bbc.co.uk/sport/football/articles/crn80y2l1404o?at_medium=RSS&at_campaign=rss",
     "source": "BBC Sport",
     "topic": "Sports",
-    "summary": "Watch highlights as Brentford earn a comfortable 3-0 win against 10-man Everton in the Premier League, including a great goal by Vitaly Janelt.",
-    "published": "2026-11-23T22:31:27+00:00",
+    "summary": "Ten months after the 2025 Africa Cup of Nations final, Senegal are reinstated as champions following a ruling by the Court of Arbitration for Sport.",
+    "published": "2026-11-24T17:16:09+00:00",
     "outlets": 1,
-    "score": 0.467
+    "score": 0.659
    },
    {
-    "id": "sec-schedules-vote-on-possible-lsu-expulsion-as-rj-luis-disp",
-    "title": "SEC schedules vote on possible LSU expulsion as RJ Luis dispute pushes league to the brink",
-    "link": "https://www.cbssports.com/college-basketball/news/sec-vote-lsu-expulsion-rj-luis/",
-    "source": "CBS Sports",
+    "id": "did-mets-just-win-nl-east-how-tarik-skubal-raises-new-york-s",
+    "title": "Did Mets just win NL East? How Tarik Skubal raises New York's 2027 projections",
+    "link": "https://www.espn.com/mlb/story/_/id/50574273/tarik-skubal-mets-projections-2027",
+    "source": "ESPN",
     "topic": "Sports",
-    "summary": "LSU's standoff with the SEC has escalated into a legal and political fight, with major penalties still in play",
-    "published": "2026-11-24T02:33:24+00:00",
+    "summary": "Only one team could land MLB's biggest free agent. Here's what that means for the Mets.",
+    "published": "2026-11-24T16:58:15+00:00",
     "outlets": 1,
-    "score": 0.353
+    "score": 0.649
    }
   ],
   "Local": [
+   {
+    "id": "this-jury-could-hang-judge-in-sheng-thao-trial-says-convict",
+    "title": "‘This Jury Could Hang:’ Judge in Sheng Thao Trial Says Conviction Not Guaranteed",
+    "link": "https://ww2.kqed.org/news/2026/11/24/sheng-thao-tria-defense-attorneys-accuse-key-witness-of-lying-ask-to-dismiss-case/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "Defense attorneys in the federal corruption trial filed a motion to dismiss the case, arguing a controversial government witness lied on the stand and prosecutors failed to correct him.",
+    "published": "2026-11-24T17:19:39+00:00",
+    "outlets": 1,
+    "score": 0.958
+   },
+   {
+    "id": "california-s-fruit-ful-fall-season",
+    "title": "California’s ‘Fruit’-ful Fall Season",
+    "link": "https://ww2.kqed.org/news/2026/11/24/californias-fruit-ful-fall-season/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "Fruit harvests in the fall season highlight California's deep agricultural heritage.",
+    "published": "2026-11-24T17:08:38+00:00",
+    "outlets": 1,
+    "score": 0.655
+   },
+   {
+    "id": "where-to-find-free-thanksgiving-2026-meals-in-the-bay-area",
+    "title": "Where to Find Free Thanksgiving 2026 Meals in the Bay Area",
+    "link": "https://ww2.kqed.org/news/2026/11/24/where-to-find-free-thanksgiving-2026-meals-in-the-bay-area/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "Organizations across the Bay Area are providing free, warm meals this Thanksgiving week.",
+    "published": "2026-11-24T17:00:00+00:00",
+    "outlets": 1,
+    "score": 0.496
+   },
+   {
+    "id": "my-car-was-parked-on-a-street-that-flooded-now-what",
+    "title": "My Car Was Parked on a Street That Flooded. Now What?",
+    "link": "https://ww2.kqed.org/news/2026/11/24/my-car-was-parked-on-a-street-that-flooded-now-what/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "On top of last week’s flooding, heavy rain is predicted to continue this week. Here’s what you can do immediately if your car has been caught in a flood.",
+    "published": "2026-11-24T15:00:00+00:00",
+    "outlets": 1,
+    "score": 0.363
+   },
+   {
+    "id": "heartbreaking-flooding-could-force-bay-area-s-iconic-heath",
+    "title": "‘Heartbreaking’: Flooding Could Force Bay Area’s Iconic Heath Ceramics to Relocate",
+    "link": "https://ww2.kqed.org/news/2026/11/24/heartbreaking-flooding-could-force-bay-areas-iconic-heath-ceramics-to-relocate/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "Flooding exacerbated by El Niño and this week’s king tides might just be the last straw for the Sausalito mid-century pottery and tile makers.",
+    "published": "2026-11-24T12:00:00+00:00",
+    "outlets": 1,
+    "score": 0.262
+   },
    {
     "id": "ice-release-2-us-citizens-detained-in-oakland-after-communit",
     "title": "ICE Release 2 US Citizens Detained in Oakland After Community Gathering",
@@ -697,89 +684,89 @@
     "summary": "Officials and advocates called the arrests part of a surge of “disturbing and aggressive ICE operations” in the East Bay.",
     "published": "2026-11-24T00:28:28+00:00",
     "outlets": 1,
-    "score": 0.747
-   },
-   {
-    "id": "how-you-can-enter-the-sfo-post-security-without-a-ticket",
-    "title": "How You Can Enter the SFO Post-Security — Without a Ticket",
-    "link": "https://ww2.kqed.org/news/2026/11/23/how-you-can-enter-the-sfo-post-security-without-a-ticket/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "Excited to see someone at the airport? You can now meet them right at the gate at SFO",
-    "published": "2026-11-23T23:57:17+00:00",
-    "outlets": 1,
-    "score": 0.502
-   },
-   {
-    "id": "this-jury-could-hang-judge-in-sheng-thao-trial-says-convict",
-    "title": "‘This Jury Could Hang:’ Judge in Sheng Thao Trial Says Conviction Not Guaranteed",
-    "link": "https://ww2.kqed.org/news/2026/11/23/sheng-thao-tria-defense-attorneys-accuse-key-witness-of-lying-ask-to-dismiss-case/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "Defense attorneys in the federal corruption trial filed a motion to dismiss the case, arguing a controversial government witness lied on the stand and prosecutors failed to correct him.",
-    "published": "2026-11-23T18:00:33+00:00",
-    "outlets": 1,
-    "score": 0.23
-   },
-   {
-    "id": "ucla-campus-protests-2-years-later",
-    "title": "UCLA Campus Protests, 2 Years Later",
-    "link": "https://ww2.kqed.org/news/2026/11/23/ucla-campus-protests-2-years-later/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "Two years after UCLA campus protests, student activism takes new forms.",
-    "published": "2026-11-23T17:41:50+00:00",
-    "outlets": 1,
-    "score": 0.19
-   },
-   {
-    "id": "why-students-might-lose-access-to-financial-aid-because-of-l",
-    "title": "Why Students Might Lose Access to Financial Aid Because of ‘Low-Quality’ Online Courses",
-    "link": "https://ww2.kqed.org/news/2026/11/23/why-students-might-lose-access-to-financial-aid-because-of-low-quality-online-courses/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "Colleges — and ultimately students — risk losing access to state and federal financial aid after a CalMatters investigation found online professors teaching over a dozen classes across…",
-    "published": "2026-11-23T16:30:00+00:00",
-    "outlets": 1,
-    "score": 0.154
-   },
-   {
-    "id": "thanksgiving-is-the-time-to-snag-your-first-tahoe-camping-re",
-    "title": "Thanksgiving Is the Time to Snag Your First Tahoe Camping Reservation for 2027 (Seriously)",
-    "link": "https://ww2.kqed.org/news/2026/11/23/thanksgiving-is-the-time-to-snag-your-first-tahoe-camping-reservation-for-2027-seriously/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "If you have desires to spend the 2027 Memorial Day weekend camping, you’ll need to wake up early this Thanksgiving.",
-    "published": "2026-11-23T12:00:00+00:00",
-    "outlets": 1,
-    "score": 0.096
+    "score": 0.127
    }
   ],
-  "Science": [
+  "Politics": [
    {
-    "id": "invading-armies-subterfuge-and-conquest-how-fire-ant-wars-af",
-    "title": "Invading armies, subterfuge and conquest: How fire ant wars affect ecosystems",
-    "link": "https://www.npr.org/2026/11/23/nx-s1-6037814/invading-armies-subterfuge-and-conquest-how-fire-ant-wars-affect-ecosystems",
-    "source": "NPR Science",
-    "topic": "Science",
-    "summary": "Ants disperse seeds, scavenge, turn soil and serve as a food source in their ecosystems. If local ants are displaced by invasive ants from elsewhere, the effects are widely felt.",
-    "published": "2026-11-23T23:12:05+00:00",
-    "outlets": 1,
-    "score": 0.701
+    "id": "jensen-huang-returns-to-nvidia-and-rep-gomez-resigns-amid-al",
+    "title": "Jensen Huang returns to Nvidia. And, Rep. Gomez resigns amid alleged sexual misconduct",
+    "link": "https://www.npr.org/2026/11/24/g-s1-155227/up-first-newsletter-nvidia-jensen-huang-trump-ukraine-russia-jimmy-gomez",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "President Trump took credit for negotiating Jensen Huang's return as CEO of Nvidia. And, Rep. Jimmy Gomez, D-Calif., says his resignation will be effective Dec. 1.",
+    "published": "2026-11-24T12:12:25+00:00",
+    "outlets": 2,
+    "score": 0.832
    },
    {
-    "id": "bank-of-england-directors-illegally-profited-from-post-aboli",
-    "title": "Bank of England directors illegally profited from post-abolition enslavement in Cuba",
-    "link": "https://www.theguardian.com/news/2026/nov/22/bank-of-england-directors-illegally-profited-enslavement-cuba",
-    "source": "The Guardian",
-    "topic": "Science",
-    "summary": "New research finds that the British-led Cobre Mining Company helped industrialise Manchester via copper deposits and enslaved African people • Slave-trade wealth was embedded in Britain’s…",
-    "published": "2026-11-22T08:00:22+00:00",
+    "id": "trump-takes-credit-for-jensen-huang-returns-to-nvidia-says-i",
+    "title": "Trump takes credit for Jensen Huang returns to Nvidia, says its good for the economy",
+    "link": "https://www.npr.org/2026/11/24/nx-s1-6051045/trump-takes-credit-for-jensen-huang-returns-to-nvidia-says-its-good-for-the-economy",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "President Trump touted the return of Jensen Huang to Nvidia's C-suite as good for the company -- and good for the United States economy.",
+    "published": "2026-11-24T11:42:24+00:00",
+    "outlets": 2,
+    "score": 0.575
+   },
+   {
+    "id": "for-workplace-culture-champions-jensen-huang-s-return-is-unf",
+    "title": "For workplace culture champions, Jensen Huang's return is 'unfathomable'",
+    "link": "https://www.npr.org/2026/11/24/nx-s1-6051583/nvidia-huang-dei-trump-women",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "Some who have worked to promote diversity and inclusion in Silicon Valley say Jensen Huang's reinstatement as Nvidia's CEO sends a message that all that matters is money.",
+    "published": "2026-11-24T10:00:00+00:00",
     "outlets": 1,
-    "score": 0.084
+    "score": 0.35
+   },
+   {
+    "id": "they-attended-trump-s-meme-coin-dinner-it-didn-t-go-well",
+    "title": "They attended Trump's meme coin dinner. It didn't go well",
+    "link": "https://www.npr.org/2026/11/24/nx-s1-6051604/trump-crypto-corruption-meme-coin-dinner",
+    "source": "NPR",
+    "topic": "Politics",
+    "summary": "Trump's meme coin dinners have sparked intense controversy. These two guests attended his latest on Sunday — and agreed to provide NPR inside access.",
+    "published": "2026-11-24T10:00:00+00:00",
+    "outlets": 1,
+    "score": 0.308
+   },
+   {
+    "id": "democrats-probe-whether-trump-jr-aligned-businesses-benefit",
+    "title": "Democrats probe whether Trump Jr.-aligned businesses benefit from government access",
+    "link": "https://www.npr.org/2026/11/24/nx-s1-6051028/jamie-raskin-donald-trump-jr-1789-capital-democrats-investigation",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "Investigators say companies with ties to Donald Trump Jr's investment firm, 1789 Capital, have profited since his father's reelection.",
+    "published": "2026-11-24T10:00:00+00:00",
+    "outlets": 1,
+    "score": 0.283
+   },
+   {
+    "id": "full-remarks-trump-officials-on-plan-to-detonate-toxic-lead",
+    "title": "Full remarks: Trump officials on plan to detonate toxic lead azide 1 day before Thanksgiving",
+    "link": "https://www.cbsnews.com/video/full-remarks-trump-officials-plan-to-detonate-toxic-lead-azide-1-day-before-thanksgiving/",
+    "source": "CBS News",
+    "topic": "Politics",
+    "summary": "Trump administration and military officials spoke on the U.S. Army's plan to detonate thousands of pounds of lead azide in Iowa on Wednesday morning.",
+    "published": "2026-11-24T16:56:00+00:00",
+    "outlets": 1,
+    "score": 0.272
    }
   ],
   "Finance": [
+   {
+    "id": "fed-s-john-williams-indicates-higher-interest-rates-likely-o",
+    "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+    "link": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
+    "source": "CNBC Finance",
+    "topic": "Finance",
+    "summary": "The influential central banker expressed confidence that inflation will get closer to the Fed's 2% target in 2027.",
+    "published": "2026-11-24T13:33:26+00:00",
+    "outlets": 1,
+    "score": 0.794
+   },
    {
     "id": "nvidia-surge-what-investors-should-do-with-the-stock-and-the",
     "title": "Nvidia surge: What investors should do with the stock and the AI trade now",
@@ -789,29 +776,7 @@
     "summary": "The market is loving the return of Jensen Huang, but investors and lawmakers have their guards up.",
     "published": "2026-11-23T22:43:38+00:00",
     "outlets": 1,
-    "score": 0.684
-   },
-   {
-    "id": "fed-s-john-williams-indicates-higher-interest-rates-likely-o",
-    "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
-    "link": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
-    "source": "CNBC Finance",
-    "topic": "Finance",
-    "summary": "The influential central banker expressed confidence that inflation will get closer to the Fed's 2% target in 2027.",
-    "published": "2026-11-23T21:02:17+00:00",
-    "outlets": 1,
-    "score": 0.629
-   },
-   {
-    "id": "employees-at-eric-trump-backed-robot-startup-lose-health-ben",
-    "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
-    "link": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
-    "source": "CNBC Finance",
-    "topic": "Finance",
-    "summary": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
-    "published": "2026-11-23T23:28:19+00:00",
-    "outlets": 1,
-    "score": 0.374
+    "score": 0.378
    },
    {
     "id": "this-establishes-a-bottom-jensen-huang-s-return-seen-as-lik",
@@ -822,7 +787,7 @@
     "summary": "Wall Street strategists say Jensen Huang’s return to Nvidia could steady the AI trade, though spending and data-center risks remain.",
     "published": "2026-11-23T18:00:47+00:00",
     "outlets": 1,
-    "score": 0.373
+    "score": 0.241
    },
    {
     "id": "the-biggest-money-making-energy-trade-looks-over-what-to-buy",
@@ -833,89 +798,54 @@
     "summary": "The epic boom in refinery-related stocks is unwinding.",
     "published": "2026-11-23T12:00:20+00:00",
     "outlets": 1,
-    "score": 0.276
+    "score": 0.241
    },
    {
-    "id": "top-wall-street-analysts-favor-these-3-dividend-stocks-for-s",
-    "title": "Top Wall Street analysts favor these 3 dividend stocks for strong returns",
-    "link": "https://www.cnbc.com/2026/11/22/top-wall-street-analysts-favor-these-stocks-for-strong-returns.html",
-    "source": "CNBC Investing",
+    "id": "employees-at-eric-trump-backed-robot-startup-lose-health-ben",
+    "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+    "link": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
+    "source": "CNBC Finance",
     "topic": "Finance",
-    "summary": "Wall Street analysts can help shortlist attractive dividend-paying stocks, as their recommendations are backed by thorough analysis of a company's financials.",
-    "published": "2026-11-22T12:13:56+00:00",
+    "summary": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
+    "published": "2026-11-23T23:28:19+00:00",
     "outlets": 1,
-    "score": 0.184
-   }
-  ],
-  "Health": [
-   {
-    "id": "medicare-for-all-is-back-on-the-drawing-board-does-it-stand",
-    "title": "'Medicare for all' is back on the drawing board. Does it stand a better chance this time?",
-    "link": "https://www.npr.org/2026/11/23/nx-s1-6047706/health-medicare-for-all-chances",
-    "source": "NPR Health",
-    "topic": "Health",
-    "summary": "Several newly elected Democratic U.S. senators campaigned on Medicare for All. Could this be the time it actually gets traction?",
-    "published": "2026-11-23T16:00:49+00:00",
-    "outlets": 1,
-    "score": 0.489
-   },
-   {
-    "id": "life-is-not-infinite-catherine-talks-about-mortality-in-new",
-    "title": "'Life is not infinite': Catherine talks about 'mortality' in new documentary clip",
-    "link": "https://www.bbc.co.uk/news/videos/c920x1534e31o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News",
-    "topic": "Health",
-    "summary": "The Princess of Wales talks about her cancer journey in a new clip from the upcoming BBC documentary, Heal.",
-    "published": "2026-11-23T22:01:09+00:00",
-    "outlets": 1,
-    "score": 0.264
-   },
-   {
-    "id": "mushroom-supplements-promise-health-benefits-what-does-the-s",
-    "title": "Mushroom supplements promise health benefits. What does the science say?",
-    "link": "https://www.npr.org/2026/11/23/nx-s1-6047791/mushroom-supplements-health-research",
-    "source": "NPR Health",
-    "topic": "Health",
-    "summary": "Wellness influencers say mushroom supplements can help with your gut health, focus and immune system. Here is where research suggests there are some links.",
-    "published": "2026-11-23T10:00:00+00:00",
-    "outlets": 1,
-    "score": 0.25
-   },
-   {
-    "id": "anthropic-touts-potential-for-ai-led-medical-advancements",
-    "title": "Anthropic touts potential for AI-led medical advancements",
-    "link": "https://www.cbsnews.com/video/anthropic-touts-potential-for-ai-led-medical-advancements/",
-    "source": "CBS News",
-    "topic": "Health",
-    "summary": "Anthropic CEO Dario Amodei talked about his hopes to cure disease using artificial intelligence last Thursday, as his company started trading publicly. CBS News MoneyWatch reporter Megan…",
-    "published": "2026-11-24T01:38:50+00:00",
-    "outlets": 1,
-    "score": 0.229
-   },
-   {
-    "id": "9th-measles-death-recorded-in-pennsylvania-amid-ongoing-outb",
-    "title": "9th measles death recorded in Pennsylvania amid ongoing outbreak",
-    "link": "https://www.cbsnews.com/news/pennsylvania-measles-outbreak-death/",
-    "source": "CBS News",
-    "topic": "Health",
-    "summary": "Pennsylvania's outbreak is the largest in the country​, with over 1,600 cases reported, and the deaths this year are the Keystone State's first from measles in 35 years.",
-    "published": "2026-11-24T01:26:00+00:00",
-    "outlets": 1,
-    "score": 0.186
-   },
-   {
-    "id": "meet-the-young-authors-a-literacy-program-inspires-kids-in-s",
-    "title": "Meet the young authors! A literacy program inspires kids in South Africa",
-    "link": "https://www.npr.org/2026/11/22/g-s1-154387/books-children-authors-south-africa-literacy",
-    "source": "NPR Health",
-    "topic": "Health",
-    "summary": "South Africa is working to overcome a children's literacy crisis. In one Johannesburg township, a reading club is instilling a love of books in kids — and inspiring them to become authors.",
-    "published": "2026-11-22T17:34:20+00:00",
-    "outlets": 1,
-    "score": 0.184
+    "score": 0.207
    }
   ],
   "Economy": [
+   {
+    "id": "what-should-it-cost-to-insure-a-home-in-wildfire-country",
+    "title": "What should it cost to insure a home in wildfire country?",
+    "link": "https://www.npr.org/sections/planet-money/2026/11/24/g-s1-154477/what-should-it-cost-to-insure-a-home-in-wildfire-country",
+    "source": "NPR Economy",
+    "topic": "Economy",
+    "summary": "Some California homeowners have spent thousands making their homes safer from wildfires. Yet all that work has barely made a dent in their insurance bills. Should they be getting a bigger…",
+    "published": "2026-11-24T11:30:00+00:00",
+    "outlets": 1,
+    "score": 0.716
+   },
+   {
+    "id": "world-cup-drove-profits-surge-says-marston-s",
+    "title": "World Cup drove profits surge, says Marston's",
+    "link": "https://www.bbc.co.uk/news/articles/cm7523pyk75lo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "The company says an \"excellent World Cup\" helped drive strong trading as annual profits rose by 18%.",
+    "published": "2026-11-24T13:03:20+00:00",
+    "outlets": 1,
+    "score": 0.329
+   },
+   {
+    "id": "the-shake-up-facing-renters-as-a-new-kind-of-landlord-emerge",
+    "title": "The shake-up facing renters as a new kind of landlord emerges",
+    "link": "https://www.bbc.co.uk/news/articles/c6n90g2l82d1o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Business",
+    "topic": "Economy",
+    "summary": "Companies building flats that they then rent out could usher in big changes for renters.",
+    "published": "2026-11-24T00:28:48+00:00",
+    "outlets": 1,
+    "score": 0.285
+   },
    {
     "id": "from-wall-street-to-main-street-how-artificial-intelligence",
     "title": "From Wall Street to Main Street, how artificial intelligence is affecting the economy",
@@ -925,18 +855,18 @@
     "summary": "Artificial intelligence is sending shock waves through the stock market, as investors try to predict how their big bets will pay off. Meanwhile some real businesses are putting AI to work…",
     "published": "2026-11-23T11:46:29+00:00",
     "outlets": 1,
-    "score": 0.396
+    "score": 0.241
    },
    {
-    "id": "nvidia-value-climbs-by-almost-1tn-and-tech-stocks-rally-afte",
-    "title": "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
-    "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
+    "id": "bbc-secret-filming-shows-dog-breeder-selling-sick-puppies-fo",
+    "title": "BBC secret filming shows dog breeder selling sick puppies for £2k each",
+    "link": "https://www.bbc.co.uk/news/articles/c8d36d43y8po?at_medium=RSS&at_campaign=rss",
     "source": "BBC Business",
     "topic": "Economy",
-    "summary": "The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 6.5%.",
-    "published": "2026-11-23T21:23:42+00:00",
+    "summary": "The breeder's rating was downgraded but he continued to advertise as five-star, investigation finds.",
+    "published": "2026-11-24T00:11:08+00:00",
     "outlets": 1,
-    "score": 0.337
+    "score": 0.214
    },
    {
     "id": "chief-economist-for-moody-s-analytics-on-why-anthropic-s-ipo",
@@ -947,40 +877,77 @@
     "summary": "NPR's Michel Martin speaks with Mark Zandi, chief economist for Moody's Analytics, about Anthropic's Wall Street debut and why it seems to have triggered recent market volatility.",
     "published": "2026-11-23T11:46:24+00:00",
     "outlets": 1,
-    "score": 0.273
+    "score": 0.184
+   }
+  ],
+  "Health": [
+   {
+    "id": "doctors-struggle-to-save-babies-after-parents-refuse-vitamin",
+    "title": "Doctors struggle to save babies after parents refuse vitamin K",
+    "link": "https://www.npr.org/2026/11/24/nx-s1-6001723/vitamin-k-deficiency-refusal-vaccine-misinformation-newborn-bleeding",
+    "source": "NPR Health",
+    "topic": "Health",
+    "summary": "Doctors are fighting an uphill battle against disinformation about routine vitamin K shots given to newborns in the hospital. It helps prevent a rare but devastating bleeding disorder.",
+    "published": "2026-11-24T10:00:00+00:00",
+    "outlets": 1,
+    "score": 0.664
    },
    {
-    "id": "i-pay-250-a-month-for-someone-else-to-do-my-life-admin-it-s",
-    "title": "I pay £250 a month for someone else to do my life admin - it's worth it",
-    "link": "https://www.bbc.co.uk/news/articles/c6zjr3g13zkno?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "Busy mothers on both sides of the Atlantic are paying companies to handle their to-do lists.",
-    "published": "2026-11-24T00:01:04+00:00",
+    "id": "the-human-cost-of-the-electric-vehicle-boom-is-at-the-center",
+    "title": "The human cost of the electric vehicle boom is at the center of a lawsuit in Congo",
+    "link": "https://www.npr.org/2026/11/24/nx-s1-6042912/drc-congo-mining-china-copper-colbalt-critical-minerals",
+    "source": "NPR Health",
+    "topic": "Health",
+    "summary": "A landmark lawsuit in Congo sees 27 residents accuse a Chinese-owned copper and cobalt mine of poisoning their community and the government of failing to protect them.",
+    "published": "2026-11-24T10:00:00+00:00",
     "outlets": 1,
-    "score": 0.261
+    "score": 0.458
    },
    {
-    "id": "how-important-are-nvidia-and-jensen-huang-to-the-us-economy",
-    "title": "How important are Nvidia and Jensen Huang to the US economy?",
-    "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "The Nvidia chief executive has been at the centre of the artificial intelligence boom.",
-    "published": "2026-11-23T16:12:35+00:00",
+    "id": "mushroom-supplements-promise-health-benefits-what-does-the-s",
+    "title": "Mushroom supplements promise health benefits. What does the science say?",
+    "link": "https://www.npr.org/2026/11/23/nx-s1-6047791/mushroom-supplements-health-research",
+    "source": "NPR Health",
+    "topic": "Health",
+    "summary": "Wellness influencers say mushroom supplements can help with your gut health, focus and immune system. Here is where research suggests there are some links.",
+    "published": "2026-11-23T10:00:00+00:00",
     "outlets": 1,
-    "score": 0.21
+    "score": 0.149
+   }
+  ],
+  "Science": [
+   {
+    "id": "spacecraft-enters-mercury-s-orbit-after-8-year-journey-despi",
+    "title": "Spacecraft enters Mercury's orbit after 8-year journey despite glitch",
+    "link": "https://www.cbsnews.com/news/bepicolombo-enters-mercury-orbit-despite-glitch/",
+    "source": "CBS News",
+    "topic": "Science",
+    "summary": "BepiColombo was launched as a joint mission between the European Space Agency and the Japan Aerospace Exploration Agency in October 2018.",
+    "published": "2026-11-24T17:34:32+00:00",
+    "outlets": 1,
+    "score": 0.613
    },
    {
-    "id": "ai-is-making-it-hard-for-young-people-to-find-work-report-sa",
-    "title": "AI is making it hard for young people to find work, report says",
-    "link": "https://www.npr.org/2026/11/23/nx-s1-6048624/ai-is-making-it-hard-for-young-people-to-find-work-report-says",
-    "source": "NPR Economy",
-    "topic": "Economy",
-    "summary": "NPR's Steve Inskeep speaks with Matt Sigelman, president of the Burning Glass Institute, about a new report indicating that AI is already squeezing the job market for young jobseekers.",
-    "published": "2026-11-23T09:42:40+00:00",
+    "id": "invading-armies-subterfuge-and-conquest-how-fire-ant-wars-af",
+    "title": "Invading armies, subterfuge and conquest: How fire ant wars affect ecosystems",
+    "link": "https://www.npr.org/2026/11/23/nx-s1-6037814/invading-armies-subterfuge-and-conquest-how-fire-ant-wars-affect-ecosystems",
+    "source": "NPR Science",
+    "topic": "Science",
+    "summary": "Ants disperse seeds, scavenge, turn soil and serve as a food source in their ecosystems. If local ants are displaced by invasive ants from elsewhere, the effects are widely felt.",
+    "published": "2026-11-23T23:12:05+00:00",
     "outlets": 1,
-    "score": 0.188
+    "score": 0.387
+   },
+   {
+    "id": "medicare-for-all-is-back-on-the-drawing-board-does-it-stand",
+    "title": "'Medicare for all' is back on the drawing board. Does it stand a better chance this time?",
+    "link": "https://www.npr.org/2026/11/23/nx-s1-6047706/health-medicare-for-all-chances",
+    "source": "NPR Science",
+    "topic": "Science",
+    "summary": "Several newly elected Democratic U.S. senators campaigned on Medicare for All. Could this be the time it actually gets traction?",
+    "published": "2026-11-23T16:00:49+00:00",
+    "outlets": 1,
+    "score": 0.241
    }
   ]
  }
