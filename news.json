@@ -1,339 +1,317 @@
 {
- "generated": "2026-11-27T04:54:37+00:00",
- "generatedLocal": "2026-11-26 20:54",
+ "generated": "2026-11-27T14:52:56+00:00",
+ "generatedLocal": "2026-11-27 06:52",
  "top": [
   {
-   "id": "powerful-storms-disrupt-holiday-travel-as-macy-s-thanksgivin",
-   "title": "Powerful storms disrupt holiday travel, as Macy's Thanksgiving Day Parade is postponed",
-   "link": "https://www.npr.org/2026/11/26/nx-s1-6054079/storms-expected-on-both-coasts-as-millions-travel-for-thanksgiving",
-   "source": "NPR National",
+   "id": "restless-ghosts-one-case-a-century-of-doubt-case-by-case-48",
+   "title": "Restless Ghosts: One Case, A Century of Doubt | Case by Case | \"48 Hours\" Podcast",
+   "link": "https://www.cbsnews.com/video/112726-48-hours-case-by-case-episode-32/",
+   "source": "CBS News",
    "topic": "U.S.",
-   "summary": "Extreme weather that has unleashed strong winds, high tides, heavy rain and floods is expected to impact travel plans of an estimated 81.5 million people as they travel across the United…",
-   "published": "2026-11-27T03:40:10+00:00",
-   "outlets": 2,
-   "score": 1.265
+   "summary": "Nearly 100 years ago, two young socialites were found dead in a New Jersey mansion. Ruled a murder-suicide, the case sparked rumors of a cover-up, a controversial investigation, and…",
+   "published": "2026-11-28T00:00:00+00:00",
+   "outlets": 1,
+   "score": 1.2
   },
   {
-   "id": "us-too-focused-on-middle-east-and-not-pushing-russia-hard-en",
-   "title": "US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
+   "id": "thanksgiving-storm-batters-east-coast-and-black-friday-sales",
+   "title": "Thanksgiving storm batters East Coast. And, Black Friday sales to hit record levels",
+   "link": "https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court",
+   "source": "NPR National",
+   "topic": "U.S.",
+   "summary": "A powerful storm knocked out power for nearly 1 million customers and flooded streets. And, experts predict inflation will not dampen American spending for the holidays",
+   "published": "2026-11-27T11:59:02+00:00",
+   "outlets": 1,
+   "score": 1.125
+  },
+  {
+   "id": "use-betmgm-bonus-code-cbssports-to-get-1-500-bonus-bets-for",
+   "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Steelers-Broncos, Texas-Texas A&M on Black Friday",
+   "link": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-steelers-broncos-texas-texas-am-black-friday/",
+   "source": "CBS Sports",
+   "topic": "Sports",
+   "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for Black Friday NFL, college football betting",
+   "published": "2026-11-27T14:49:31+00:00",
+   "outlets": 1,
+   "score": 0.997
+  },
+  {
+   "id": "man-utd-trigger-fernandes-one-year-contract-extension",
+   "title": "Man Utd trigger Fernandes' one-year contract extension",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c6d91j5geepqo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "topic": "Sports",
+   "summary": "Manchester United activate an option on captain Bruno Fernandes' contract, extending it until 2028.",
+   "published": "2026-11-27T14:37:07+00:00",
+   "outlets": 1,
+   "score": 0.987
+  },
+  {
+   "id": "we-have-no-interest-in-hearing-from-huw-edwards-downing-str",
+   "title": "'We have no interest in hearing from Huw Edwards', Downing Street says",
+   "link": "https://www.bbc.co.uk/news/articles/c60mdl2y2w3do?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Entertainment",
+   "topic": "Entertainment",
+   "summary": "There has been a backlash against new interviews with the disgraced former BBC News presenter.",
+   "published": "2026-11-27T14:33:10+00:00",
+   "outlets": 1,
+   "score": 0.984
+  },
+  {
+   "id": "hundreds-of-thousands-still-without-power-after-storms-hit-u",
+   "title": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
+   "link": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC US & Canada",
+   "topic": "U.S.",
+   "summary": "Pennsylvania and neighbouring states remain badly affected on Friday after both coasts were lashed with wind and rain.",
+   "published": "2026-11-27T14:49:59+00:00",
+   "outlets": 1,
+   "score": 0.998
+  },
+  {
+   "id": "zelensky-criticises-strange-trump-putin-friendship-in-bbc-in",
+   "title": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
    "link": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
    "source": "BBC World",
    "topic": "World",
-   "summary": "Ukraine's president voices frustration with US and says it is \"strange\" Trump has described Vladimir Putin as a friend.",
-   "published": "2026-11-26T22:49:27+00:00",
-   "outlets": 1,
-   "score": 1.247
-  },
-  {
-   "id": "jerry-jones-refutes-aaron-rodgers-accusations-calls-mike-mcc",
-   "title": "Jerry Jones refutes Aaron Rodgers' accusations, calls Mike McCarthy 'outstanding'",
-   "link": "https://www.cbssports.com/nfl/news/jerry-jones-calls-mike-mccarthy-outstanding-refutes-aaron-rodgers-accusations/",
-   "source": "CBS Sports",
-   "topic": "Sports",
-   "summary": "Rodgers accused McCarthy of being late to meetings, sleeping in meetings and being behind on film prep",
-   "published": "2026-11-27T04:49:17+00:00",
-   "outlets": 1,
-   "score": 0.996
-  },
-  {
-   "id": "laxman-utekar-rajkumar-periasamy-and-vishnuvardhan-set-new-f",
-   "title": "Laxman Utekar, Rajkumar Periasamy and Vishnuvardhan Set New Films With Bhushan Kumar’s T-Series (EXCLUSIVE)",
-   "link": "https://variety.com/2026/film/news/laxman-utekar-rajkumar-periasamy-vishnuvardhan-films-tseries-1236958689/",
-   "source": "Variety",
-   "topic": "Entertainment",
-   "summary": "Directors Laxman Utekar, Rajkumar Periasamy and Vishnuvardhan are set to collaborate with Indian studio T-Series chair and managing director Bhushan Kumar on three new films. Title, story…",
-   "published": "2026-11-27T04:30:00+00:00",
-   "outlets": 1,
-   "score": 0.98
-  },
-  {
-   "id": "tomlin-saddened-by-rodgers-bitter-exit-calls-situation-a-dum",
-   "title": "Tomlin saddened by Rodgers' bitter exit, calls situation 'a dumpster fire'",
-   "link": "https://www.espn.com/nfl/story/_/id/50608802/tomlin-calls-rodgers-mccarthy-situation-dumpster-fire",
-   "source": "ESPN",
-   "topic": "Sports",
-   "summary": "Mike Tomlin said he was saddened by Aaron Rodgers' tumultuous exit from Pittsburgh and disagreed with how the QB \"aired out\" his grievances against Mike McCarthy.",
-   "published": "2026-11-27T04:24:11+00:00",
+   "summary": "Ukraine's president voices frustration with US and says it is not pushing Russia hard enough in peace talks to end the war.",
+   "published": "2026-11-27T09:07:48+00:00",
    "outlets": 1,
    "score": 0.975
   },
   {
-   "id": "major-thanksgiving-storm-brings-flooding-flight-delays-acros",
-   "title": "Major Thanksgiving storm brings flooding, flight delays across US",
-   "link": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC US & Canada",
-   "topic": "U.S.",
-   "summary": "Almost one million customers in the US had no power on Thursday evening as storms descended on both US coasts, bringing wind gusts, heavy rain and flooding.",
-   "published": "2026-11-27T00:52:11+00:00",
-   "outlets": 1,
-   "score": 0.817
-  },
-  {
-   "id": "australia-s-sandpapergate-probe-to-also-include-2017-18-ashe",
-   "title": "Australia's sandpapergate probe to also include 2017-18 Ashes",
-   "link": "https://www.bbc.co.uk/sport/cricket/articles/cxdd1335nyj0o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Sport",
-   "topic": "Sports",
-   "summary": "Cricket Australia's fresh independent probe into the sandpapergate scandal has been widened to include the 2017-18 Ashes series against England.",
-   "published": "2026-11-27T00:43:03+00:00",
-   "outlets": 1,
-   "score": 0.811
-  },
-  {
-   "id": "what-stores-are-open-on-black-friday-here-are-the-hours",
-   "title": "What stores are open on Black Friday? Here are the hours.",
-   "link": "https://www.cbsnews.com/news/thanksgiving-store-hours-open-closed-2026-black-friday/",
-   "source": "CBS News",
-   "topic": "Finance",
-   "summary": "Many retailers open their doors early on Black Friday, but the stock market will have shorter hours. Here's what to know.",
-   "published": "2026-11-27T03:01:00+00:00",
-   "outlets": 1,
-   "score": 0.753
-  },
-  {
-   "id": "after-democrats-midterm-wins-some-hope-attacks-on-dei-will-e",
-   "title": "After Democrats' midterm wins, some hope attacks on DEI will ease",
-   "link": "https://www.npr.org/2026/11/26/nx-s1-6036795-e1/after-democrats-midterm-wins-some-hope-attacks-on-dei-will-ease",
-   "source": "NPR Politics",
-   "topic": "Politics",
-   "summary": "After the midterms, a Democratic congressman declared that DEI is back. What does Democrats' ascendance portend for diversity initiatives that the Trump administration relentlessly attacked?",
-   "published": "2026-11-26T23:06:14+00:00",
-   "outlets": 1,
-   "score": 0.748
-  },
-  {
-   "id": "this-week-in-science-anxiety-in-college-students-potatoes-on",
-   "title": "This week in science: anxiety in college students, potatoes on the moon and whale snot",
-   "link": "https://www.npr.org/2026/11/26/nx-s1-6044622/this-week-in-science-anxiety-in-college-students-potatoes-on-the-moon-and-whale-snot",
-   "source": "NPR Science",
-   "topic": "Science",
-   "summary": "Science reporters Nate Rott and Sanden Totten talk about the growing risk of anxiety among college students, a simulation of growing potatoes on the Moon, and the genetic secrets in whale…",
-   "published": "2026-11-26T22:55:53+00:00",
-   "outlets": 1,
-   "score": 0.742
-  },
-  {
-   "id": "trump-to-visit-maker-of-semiconductor-chips-including-nvidia",
-   "title": "Trump to visit maker of semiconductor chips, including Nvidia's",
-   "link": "https://www.cbsnews.com/news/trump-visit-tsmc-semiconductor-facility-phoenix-nvidia/",
-   "source": "CBS News",
-   "topic": "Politics",
-   "summary": "President Trump will visit the Phoenix TSMC facility, one of the largest manufacturers of advanced chips, including Nvidia's.",
-   "published": "2026-11-27T02:34:45+00:00",
-   "outlets": 1,
-   "score": 0.731
-  },
-  {
-   "id": "being-a-prepper-once-came-with-a-stigma-recent-outages-are-t",
-   "title": "Being a prepper once came with a stigma. Recent outages are turning skeptics into believers",
-   "link": "https://www.npr.org/2026/11/26/nx-s1-6044297-e1/being-a-prepper-once-came-with-a-stigma-recent-outages-are-turning-skeptics-into-believers",
-   "source": "NPR National",
-   "topic": "U.S.",
-   "summary": "In the wake of a series of tech failures, major government network crashes and flight stoppages, many people online are looking to preppers to learn how to become self-reliant.",
-   "published": "2026-11-26T21:51:51+00:00",
-   "outlets": 1,
-   "score": 0.703
-  },
-  {
-   "id": "steelers-owner-rodgers-insubordination-can-t-be-tolerated-ba",
-   "title": "Steelers owner: Rodgers' 'insubordination can't be tolerated,' backs McCarthy",
-   "link": "https://www.espn.com/nfl/story/_/id/50605070/steelers-owner-disappointed-rodgers-backs-mccarthy",
-   "source": "ESPN",
-   "topic": "Sports",
-   "summary": "Steelers owner Art Rooney II reacted to Wednesday's fiery interview from Aaron Rodgers by saying he was \"disappointed in where this went\" with their now-former quarterback, adding he has…",
-   "published": "2026-11-27T04:24:12+00:00",
-   "outlets": 1,
-   "score": 0.672
-  },
-  {
-   "id": "netflix-s-coziest-show-has-made-a-very-quiet-return",
-   "title": "Netflix’s coziest show has made a very quiet return",
-   "link": "https://www.theverge.com/entertainment/1043489/midnight-diner-season3",
-   "source": "The Verge",
-   "topic": "Tech",
-   "summary": "The bigger Netflix gets, the easier it is to miss stuff. This is true of all digital platforms, of course, but it's especially true of Netflix of late, as the streaming service's lineup…",
-   "published": "2026-11-26T20:50:57+00:00",
-   "outlets": 1,
-   "score": 0.668
-  },
-  {
-   "id": "turkeys-not-just-on-dinner-table-at-one-la-county-business",
-   "title": "Turkeys Not Just on Dinner Table at One LA County Business",
-   "link": "https://ww2.kqed.org/news/2026/11/26/turkeys-not-just-on-dinner-table-at-one-la-county-business/",
-   "source": "KQED",
-   "topic": "Local",
-   "summary": "Don't eat turkey, hug them at The Gentle Barn in Santa Clarita.",
-   "published": "2026-11-26T20:30:18+00:00",
-   "outlets": 1,
-   "score": 0.657
-  },
-  {
-   "id": "prisco-s-week-12-nfl-picks-browns-over-raiders-steelers-over",
-   "title": "Prisco's Week 12 NFL picks: Browns over Raiders, Steelers overcome issues to upset Broncos",
-   "link": "https://www.cbssports.com/nfl/news/pete-priscos-week-12-nfl-picks-odds-expert-picks/",
-   "source": "CBS Sports",
-   "topic": "Sports",
-   "summary": "Pete Prisco reveals all of his Week 12 picks, including the Steelers to upset the Broncos on Black Friday",
-   "published": "2026-11-27T03:42:14+00:00",
-   "outlets": 1,
-   "score": 0.649
-  },
-  {
-   "id": "faisal-islam-why-trump-s-new-tariffs-are-less-of-a-threat",
-   "title": "Faisal Islam: Why Trump's new tariffs are less of a threat",
-   "link": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Business",
-   "topic": "Economy",
-   "summary": "Other countries have rerouted trade in response to his first tariff salvo, now they are looking beyond Trump's tenure.",
-   "published": "2026-11-26T19:55:58+00:00",
-   "outlets": 1,
-   "score": 0.638
-  },
-  {
-   "id": "zelensky-questions-strange-trump-putin-friendship-in-bbc-int",
-   "title": "Zelensky questions 'strange' Trump-Putin friendship in BBC interview",
-   "link": "https://www.bbc.co.uk/news/videos/cm9309nwk7x9o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC News",
-   "topic": "Politics",
-   "summary": "The Ukrainian president tells the BBC that Russia's Vladimir Putin should not be treated as a friend.",
-   "published": "2026-11-26T22:06:20+00:00",
-   "outlets": 1,
-   "score": 0.638
-  },
-  {
-   "id": "congo-ebola-outbreak-reaches-12-000-cases-as-some-responders",
-   "title": "Congo Ebola outbreak reaches 12,000 cases as some responders evacuate",
-   "link": "https://www.npr.org/2026/11/26/g-s1-155957/congo-ebola-responders",
+   "id": "french-cinema-star-g-rard-depardieu-ordered-to-stand-trial-f",
+   "title": "French cinema star Gérard Depardieu ordered to stand trial for rape and sexual assault",
+   "link": "https://www.npr.org/2026/11/27/nx-s1-6055559/gerard-depardieu-trial-rape-france",
    "source": "NPR World",
    "topic": "World",
-   "summary": "As the fast-moving outbreak continues to spread in eastern Congo, fighting between rebels and the army is disrupting efforts to contain the spread of the disease.",
-   "published": "2026-11-26T13:47:09+00:00",
-   "outlets": 1,
-   "score": 0.61
+   "summary": "The case has become one of the most prominent in France's reckoning with sexual violence, as the #MeToo movement has faced resistance in the country, particularly in the arts.",
+   "published": "2026-11-27T11:49:50+00:00",
+   "outlets": 2,
+   "score": 0.966
   },
   {
-   "id": "ford-unveils-the-gt41-as-it-hopes-to-win-le-mans-again",
-   "title": "Ford unveils the GT41 as it hopes to win Le Mans again",
-   "link": "https://arstechnica.com/cars/2026/11/ford-unveils-the-gt41-as-it-hopes-to-win-le-mans-again/",
-   "source": "Ars Technica",
+   "id": "buying-a-laptop-right-now-is-rough-but-these-black-friday-de",
+   "title": "Buying a laptop right now is rough, but these Black Friday deals help",
+   "link": "https://www.theverge.com/gadgets/1042512/best-black-friday-laptop-notebook-deals-2026",
+   "source": "The Verge",
    "topic": "Tech",
-   "summary": "Ford enters the World Endurance Championship in 2027 with the new prototype.",
-   "published": "2026-11-26T18:00:29+00:00",
+   "summary": "Laptop prices have been a hot-button topic all year long thanks to RAMageddon. We’ve seen existing models get more expensive and new models arrive at higher prices than last-gen —…",
+   "published": "2026-11-27T14:03:27+00:00",
    "outlets": 1,
-   "score": 0.58
+   "score": 0.96
   },
   {
-   "id": "semiconductor-chips-are-the-new-oil-here-s-why",
-   "title": "Semiconductor chips are the new oil. Here's why",
-   "link": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html",
-   "source": "CNBC Investing",
-   "topic": "Finance",
-   "summary": "Semiconductor exports overtook oil and gas for the first time in 2026, as the AI boom fueled chip demand.",
-   "published": "2026-11-26T17:52:15+00:00",
-   "outlets": 1,
-   "score": 0.576
-  },
-  {
-   "id": "blade-runner-2099-boss-silka-luisa-on-what-the-finale-means",
-   "title": "‘Blade Runner 2099’ Boss Silka Luisa on What the Finale Means for Replicants and the Fate of Cora and Olwen",
-   "link": "https://variety.com/2026/tv/news/blade-runner-2099-finale-cora-olwen-fates-1236958380/",
+   "id": "iranian-activist-and-it-was-just-an-accident-screenwriter-me",
+   "title": "Iranian Activist and ‘It Was Just an Accident’ Screenwriter Mehdi Mahmoudian Arrested in Tehran on Charges of ‘Anti-Government Propaganda’",
+   "link": "https://variety.com/2026/film/global/it-was-just-an-accident-writer-mehdi-mahmoudian-arrested-iran-1236959405/",
    "source": "Variety",
    "topic": "Entertainment",
-   "summary": "SPOILER ALERT: This article contains major spoilers for the finale of “Blade Runner 2099,” now streaming on Prime Video. In the finale of “Blade Runner 2099,” the future of humanity is…",
-   "published": "2026-11-27T01:00:00+00:00",
+   "summary": "Iranian activist Mehdi Mahmoudian, who is also the co-writer of revered auteur Jafar Panahi’s Palme d’Or-winning drama “It Was Just an Accident,” has been arrested at his home in Tehran…",
+   "published": "2026-11-27T13:51:43+00:00",
    "outlets": 1,
-   "score": 0.567
+   "score": 0.95
   },
   {
-   "id": "huw-edwards-gives-first-interviews-since-child-abuse-image-c",
-   "title": "Huw Edwards gives first interviews since child abuse image conviction",
-   "link": "https://www.bbc.co.uk/news/articles/c38x05jrjnx7o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Entertainment",
-   "topic": "Entertainment",
-   "summary": "Minister Anna Turley said she was \"deeply uncomfortable\" with the interviews, while Channel 4 has insisted it \"holds Edwards to account\".",
-   "published": "2026-11-27T00:38:03+00:00",
-   "outlets": 1,
-   "score": 0.557
-  },
-  {
-   "id": "tributes-for-duran-duran-guitarist-andy-taylor-after-his-dea",
-   "title": "Tributes for Duran Duran guitarist Andy Taylor after his death aged 65",
-   "link": "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Entertainment",
-   "topic": "Entertainment",
-   "summary": "Simon Le Bon and his other bandmates say Taylor \"brought an indelible fire and swagger to our music\".",
-   "published": "2026-11-26T12:33:23+00:00",
-   "outlets": 2,
-   "score": 0.532
-  },
-  {
-   "id": "buyer-beware-nvidia-s-volatile-swings-expose-risks-of-single",
-   "title": "Buyer beware? Nvidia's volatile swings expose risks of single-stock ETFs",
-   "link": "https://www.cnbc.com/2026/11/26/nvidias-volatile-swings-expose-risks-of-single-stock-etfs.html",
+   "id": "the-s-p-500-is-in-a-correction-bear-markets-and-recessions-d",
+   "title": "The S&P 500 is in a correction. Bear markets and recessions don't always follow",
+   "link": "https://www.cnbc.com/2026/11/27/the-sp-500-is-in-a-correction-bear-markets-and-recessions-dont-always-follow.html",
    "source": "CNBC Finance",
    "topic": "Finance",
-   "summary": "ETF Action founding partner Mike Akins and GraniteShares CEO Will Rhind react to Nvidia's sharp losses and latest comeback.",
-   "published": "2026-11-26T16:00:01+00:00",
+   "summary": "The November sell-off has so far pushed the S&P 500 into a correction. History shows that a correction doesn't always lead to a bear market, or a recession.",
+   "published": "2026-11-27T13:21:56+00:00",
    "outlets": 1,
-   "score": 0.524
+   "score": 0.927
+  },
+  {
+   "id": "intel-faced-a-choice-give-trump-10-or-face-the-consequences",
+   "title": "Intel faced a choice: Give Trump 10% or face the consequences",
+   "link": "https://arstechnica.com/tech-policy/2026/11/intel-faced-a-choice-give-trump-10-or-face-the-consequences/",
+   "source": "Ars Technica",
+   "topic": "Tech",
+   "summary": "Intel faced pressure to surrender a 10% stake to unlock billions in promised grants.",
+   "published": "2026-11-27T12:05:01+00:00",
+   "outlets": 1,
+   "score": 0.869
+  },
+  {
+   "id": "how-many-native-people-are-missing-or-murdered-in-california",
+   "title": "How Many Native People Are Missing or Murdered in California? The State Still Can’t Say",
+   "link": "https://ww2.kqed.org/news/2026/11/27/how-many-native-people-are-missing-or-murdered-in-california-the-state-still-cant-say/",
+   "source": "KQED",
+   "topic": "Local",
+   "summary": "Newsom vetoed a statewide program, calling it duplicative of existing efforts. Advocates say families turn to social media and grassroots groups instead of police.",
+   "published": "2026-11-27T12:00:00+00:00",
+   "outlets": 1,
+   "score": 0.866
+  },
+  {
+   "id": "powerful-thanksgiving-day-storm-causes-flooding-power-outage",
+   "title": "Powerful Thanksgiving Day storm causes flooding, power outages",
+   "link": "https://www.cbsnews.com/news/thanksgiving-day-storm-northeast-midwest-flooding-power-outages/",
+   "source": "CBS News",
+   "topic": "U.S.",
+   "summary": "The storm hammered sections of the East Coast with torrential rain, high winds and flooding, knocking out power to hundreds of thousands of customers.",
+   "published": "2026-11-27T14:44:36+00:00",
+   "outlets": 1,
+   "score": 0.822
+  },
+  {
+   "id": "can-luxury-save-macy-s",
+   "title": "Can luxury save Macy's?",
+   "link": "https://www.npr.org/2026/11/27/nx-s1-6026486/macys-tries-to-reinvent-with-luxury",
+   "source": "NPR Economy",
+   "topic": "Economy",
+   "summary": "This week's celebration of Macy's 100th Thanksgiving parade finds the department store at a turning point. After years of losing sales, the retailer is reimagining itself — as a higher-end…",
+   "published": "2026-11-27T10:01:00+00:00",
+   "outlets": 1,
+   "score": 0.784
+  },
+  {
+   "id": "a-lonely-road-catherine-joins-cancer-support-group-in-new-d",
+   "title": "'A lonely road': Catherine joins cancer support group in new documentary",
+   "link": "https://www.bbc.co.uk/news/videos/c6879eqe01e0o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC News",
+   "topic": "Health",
+   "summary": "The documentary features her personal thoughts on her illness and recovery, following her cancer diagnosis.",
+   "published": "2026-11-27T12:11:22+00:00",
+   "outlets": 1,
+   "score": 0.784
+  },
+  {
+   "id": "trump-effectively-ended-asylum-advocates-look-to-the-supreme",
+   "title": "Trump effectively ended asylum. Advocates look to the Supreme Court to restore it",
+   "link": "https://www.npr.org/2026/11/27/nx-s1-6037854/trump-effectively-ended-asylum-supreme-court",
+   "source": "NPR Politics",
+   "topic": "Politics",
+   "summary": "Trump's sweeping immigration changes — an asylum ban, mass firings and new legal maneuvers — have all but ended asylum. The high court will soon consider whether some shifts deny people…",
+   "published": "2026-11-27T10:00:00+00:00",
+   "outlets": 1,
+   "score": 0.783
+  },
+  {
+   "id": "12-strategies-to-cut-your-risk-of-dementia-take-this-quiz-to",
+   "title": "12 strategies to cut your risk of dementia. Take this quiz to start",
+   "link": "https://www.npr.org/2026/11/27/nx-s1-6050867/prevent-dementia-alzheimers-your-turn",
+   "source": "NPR Health",
+   "topic": "Health",
+   "summary": "Here's something you can do as you gather with family and friends this holiday season: Take a free, five-minute quiz to assess your brain health. You'll learn simple changes to keep your…",
+   "published": "2026-11-27T10:00:00+00:00",
+   "outlets": 1,
+   "score": 0.783
+  },
+  {
+   "id": "california-voters-pass-billionaire-s-measure-to-bankroll-his",
+   "title": "California voters pass billionaire's measure to bankroll his own medical lab",
+   "link": "https://www.npr.org/2026/11/27/nx-s1-6052399/california-voters-pass-billionaires-measure-to-bankroll-his-own-medical-lab",
+   "source": "NPR Science",
+   "topic": "Science",
+   "summary": "California voters passed a ballot measure backed by a billionaire to fund $8.4 billion in immunology research. Half the funding will go to the research group funded by the same billionaire.",
+   "published": "2026-11-27T09:45:53+00:00",
+   "outlets": 1,
+   "score": 0.774
+  },
+  {
+   "id": "mad-about-mara-the-diy-dance-movement-helping-young-nigerian",
+   "title": "Mad about mara: the DIY dance movement helping young Nigerians escape the daily grind",
+   "link": "https://www.theguardian.com/world/2026/nov/27/mad-about-mara-the-diy-dance-movement-helping-young-nigerians-escape-the-daily-grind",
+   "source": "The Guardian",
+   "topic": "World",
+   "summary": "What started as one artist’s response to being cut out of a music video has exploded, becoming a driving force in Nigeria’s cultural landscape As a student in the central Nigerian city of…",
+   "published": "2026-11-27T06:00:56+00:00",
+   "outlets": 1,
+   "score": 0.706
+  },
+  {
+   "id": "nvidia-s-billion-dollar-board-bet-who-s-protected-as-lawsuit",
+   "title": "Nvidia's billion-dollar board bet: Who's protected as lawsuits mount?",
+   "link": "https://www.cnbc.com/2026/11/25/nvidias-billion-dollar-board-bet-whos-protected-as-lawsuits-mount.html",
+   "source": "CNBC Investing",
+   "topic": "Finance",
+   "summary": "Nvidia's board is under investigation, and directors are already defendants in a shareholder lawsuit accusing them of failing to properly oversee the company.",
+   "published": "2026-11-27T14:47:33+00:00",
+   "outlets": 1,
+   "score": 0.687
+  },
+  {
+   "id": "nfl-dfs-steelers-vs-broncos-top-daily-fantasy-picks-lineups",
+   "title": "NFL DFS, Steelers vs. Broncos: Top daily Fantasy picks, lineups for the 2026 Black Friday game",
+   "link": "https://www.cbssports.com/betting/news/nfl-dfs-steelers-broncos-daily-fantasy-picks-lineups-fanduel-draftkings-2026-black-friday-game/",
+   "source": "CBS Sports",
+   "topic": "Sports",
+   "summary": "DFS millionaire Mike McClure shares his top daily Fantasy picks and advice for Steelers vs. Broncos in the NFL Black Friday game",
+   "published": "2026-11-27T14:42:41+00:00",
+   "outlets": 1,
+   "score": 0.684
+  },
+  {
+   "id": "the-absolute-best-black-friday-deals-we-ve-found-so-far",
+   "title": "The absolute best Black Friday deals we’ve found (so far)",
+   "link": "https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas",
+   "source": "The Verge",
+   "topic": "Tech",
+   "summary": "This year’s Black Friday deals have launched in waves over the past several weeks, but now the floodgates have officially opened. You can now take advantage of the lowest prices we’ve seen…",
+   "published": "2026-11-27T14:41:02+00:00",
+   "outlets": 1,
+   "score": 0.683
+  },
+  {
+   "id": "dec-donnelly-says-i-m-a-celebrity-tension-became-much-bigger",
+   "title": "Dec Donnelly says I'm a Celebrity tension 'became much bigger deal than it should have'",
+   "link": "https://www.bbc.co.uk/news/articles/c65y1k8qx7q4o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Entertainment",
+   "topic": "Entertainment",
+   "summary": "The co-hosts discussed tensions that flared between Mariella Frostrup and AJ Odudu on the show.",
+   "published": "2026-11-27T14:06:20+00:00",
+   "outlets": 1,
+   "score": 0.663
+  },
+  {
+   "id": "cricket-australia-may-not-like-sandpaper-forum-findings-vaug",
+   "title": "Cricket Australia may not like sandpaper forum findings - Vaughan",
+   "link": "https://www.bbc.co.uk/sport/cricket/articles/c5pv903jvy2po?at_medium=RSS&at_campaign=rss",
+   "source": "BBC Sport",
+   "topic": "Sports",
+   "summary": "Cricket Australia will not like what it finds from a forum into the sandpaper scandal, according to former England captain Michael Vaughan.",
+   "published": "2026-11-27T14:05:57+00:00",
+   "outlets": 1,
+   "score": 0.663
   }
  ],
  "topics": {
   "U.S.": [
    {
-    "id": "powerful-storms-disrupt-holiday-travel-as-macy-s-thanksgivin",
-    "title": "Powerful storms disrupt holiday travel, as Macy's Thanksgiving Day Parade is postponed",
-    "link": "https://www.npr.org/2026/11/26/nx-s1-6054079/storms-expected-on-both-coasts-as-millions-travel-for-thanksgiving",
-    "source": "NPR National",
-    "topic": "U.S.",
-    "summary": "Extreme weather that has unleashed strong winds, high tides, heavy rain and floods is expected to impact travel plans of an estimated 81.5 million people as they travel across the United…",
-    "published": "2026-11-27T03:40:10+00:00",
-    "outlets": 2,
-    "score": 1.265
-   },
-   {
-    "id": "major-thanksgiving-storm-brings-flooding-flight-delays-acros",
-    "title": "Major Thanksgiving storm brings flooding, flight delays across US",
-    "link": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC US & Canada",
-    "topic": "U.S.",
-    "summary": "Almost one million customers in the US had no power on Thursday evening as storms descended on both US coasts, bringing wind gusts, heavy rain and flooding.",
-    "published": "2026-11-27T00:52:11+00:00",
-    "outlets": 1,
-    "score": 0.817
-   },
-   {
-    "id": "being-a-prepper-once-came-with-a-stigma-recent-outages-are-t",
-    "title": "Being a prepper once came with a stigma. Recent outages are turning skeptics into believers",
-    "link": "https://www.npr.org/2026/11/26/nx-s1-6044297-e1/being-a-prepper-once-came-with-a-stigma-recent-outages-are-turning-skeptics-into-believers",
-    "source": "NPR National",
-    "topic": "U.S.",
-    "summary": "In the wake of a series of tech failures, major government network crashes and flight stoppages, many people online are looking to preppers to learn how to become self-reliant.",
-    "published": "2026-11-26T21:51:51+00:00",
-    "outlets": 1,
-    "score": 0.703
-   },
-   {
-    "id": "iran-accused-of-carrying-out-drone-attack-killing-2-italians",
-    "title": "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-    "link": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/",
+    "id": "restless-ghosts-one-case-a-century-of-doubt-case-by-case-48",
+    "title": "Restless Ghosts: One Case, A Century of Doubt | Case by Case | \"48 Hours\" Podcast",
+    "link": "https://www.cbsnews.com/video/112726-48-hours-case-by-case-episode-32/",
     "source": "CBS News",
     "topic": "U.S.",
-    "summary": "Iran denies being behind a deadly attack on a Kuwaiti military facility that killed two Italian nationals.",
-    "published": "2026-11-27T02:29:01+00:00",
+    "summary": "Nearly 100 years ago, two young socialites were found dead in a New Jersey mansion. Ruled a murder-suicide, the case sparked rumors of a cover-up, a controversial investigation, and…",
+    "published": "2026-11-28T00:00:00+00:00",
     "outlets": 1,
-    "score": 0.452
+    "score": 1.2
    },
    {
-    "id": "watch-roofs-torn-off-and-streets-under-water-as-severe-weath",
-    "title": "Watch: Roofs torn off and streets under water as severe weather hits US",
-    "link": "https://www.bbc.co.uk/news/videos/cq808d704m22o?at_medium=RSS&at_campaign=rss",
+    "id": "thanksgiving-storm-batters-east-coast-and-black-friday-sales",
+    "title": "Thanksgiving storm batters East Coast. And, Black Friday sales to hit record levels",
+    "link": "https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court",
+    "source": "NPR National",
+    "topic": "U.S.",
+    "summary": "A powerful storm knocked out power for nearly 1 million customers and flooded streets. And, experts predict inflation will not dampen American spending for the holidays",
+    "published": "2026-11-27T11:59:02+00:00",
+    "outlets": 1,
+    "score": 1.125
+   },
+   {
+    "id": "hundreds-of-thousands-still-without-power-after-storms-hit-u",
+    "title": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
+    "link": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss",
     "source": "BBC US & Canada",
     "topic": "U.S.",
-    "summary": "Hundreds of thousands have been affected by storms in the country as the Thanksgiving holiday weekend begins.",
-    "published": "2026-11-26T19:26:16+00:00",
+    "summary": "Pennsylvania and neighbouring states remain badly affected on Friday after both coasts were lashed with wind and rain.",
+    "published": "2026-11-27T14:49:59+00:00",
     "outlets": 1,
-    "score": 0.429
+    "score": 0.998
    },
    {
     "id": "powerful-thanksgiving-day-storm-causes-flooding-power-outage",
@@ -342,226 +320,327 @@
     "source": "CBS News",
     "topic": "U.S.",
     "summary": "The storm hammered sections of the East Coast with torrential rain, high winds and flooding, knocking out power to hundreds of thousands of customers.",
-    "published": "2026-11-27T02:11:00+00:00",
+    "published": "2026-11-27T14:44:36+00:00",
     "outlets": 1,
-    "score": 0.374
-   }
-  ],
-  "World": [
-   {
-    "id": "us-too-focused-on-middle-east-and-not-pushing-russia-hard-en",
-    "title": "US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
-    "link": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "topic": "World",
-    "summary": "Ukraine's president voices frustration with US and says it is \"strange\" Trump has described Vladimir Putin as a friend.",
-    "published": "2026-11-26T22:49:27+00:00",
-    "outlets": 1,
-    "score": 1.247
+    "score": 0.822
    },
    {
-    "id": "congo-ebola-outbreak-reaches-12-000-cases-as-some-responders",
-    "title": "Congo Ebola outbreak reaches 12,000 cases as some responders evacuate",
-    "link": "https://www.npr.org/2026/11/26/g-s1-155957/congo-ebola-responders",
-    "source": "NPR World",
-    "topic": "World",
-    "summary": "As the fast-moving outbreak continues to spread in eastern Congo, fighting between rebels and the army is disrupting efforts to contain the spread of the disease.",
-    "published": "2026-11-26T13:47:09+00:00",
+    "id": "inside-a-nestl-test-kitchen-where-chefs-are-creating-glp-1-f",
+    "title": "Inside a Nestlé test kitchen where chefs are creating GLP-1-friendly meals",
+    "link": "https://www.cbsnews.com/video/inside-a-nestle-test-kitchen-where-chefs-are-creating-glp-1-friendly-meals/",
+    "source": "CBS News",
+    "topic": "U.S.",
+    "summary": "More Americans are taking GLP-1 drugs, prompting food manufacturers to rethink some of their recipes. Kelly O'Grady gets an inside look at how Nestlé is making meals targeting the growing…",
+    "published": "2026-11-27T14:40:07+00:00",
     "outlets": 1,
-    "score": 0.61
+    "score": 0.625
    },
    {
-    "id": "i-m-no-longer-a-uae-official-un-hopeful-lana-nusseibeh-trie",
-    "title": "‘I’m no longer a UAE official’: UN hopeful Lana Nusseibeh tries to shake off Sudan record",
-    "link": "https://www.theguardian.com/world/2026/nov/26/lana-nusseibeh-uae-sudan-un-secretary-general",
-    "source": "The Guardian",
-    "topic": "World",
-    "summary": "The US and Russia’s candidate for secretary general is on a charm offensive. Can she overcome London’s resistance to her bid? Lana Nusseibeh is in Britain this week, attempting to present…",
-    "published": "2026-11-26T12:37:42+00:00",
+    "id": "from-thanksgiving-blackouts-to-black-friday-a-holiday-hit-by",
+    "title": "From Thanksgiving blackouts to Black Friday, a holiday hit by wild weather and economic woes",
+    "link": "https://www.npr.org/2026/11/27/nx-s1-6054884/thanksgiving-weather-black-friday",
+    "source": "NPR National",
+    "topic": "U.S.",
+    "summary": "A storm battered much of the country on Thursday, knocking out power to thousands of homes and disrupting travel. Today, Black Friday shopping deals kick off, and on Saturday New York City…",
+    "published": "2026-11-27T10:59:36+00:00",
     "outlets": 1,
-    "score": 0.487
-   },
-   {
-    "id": "met-police-ruined-my-life-says-kenyan-man-wrongly-sentenced",
-    "title": "Met Police ruined my life, says Kenyan man wrongly sentenced over attack on UK couple",
-    "link": "https://www.bbc.co.uk/news/articles/cqvg2nlr8kd8o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News",
-    "topic": "World",
-    "summary": "Evidence from a British police officer helped convict Ali Kololo over a 2011 attack in the Kenyan resort of Lamu.",
-    "published": "2026-11-27T00:48:11+00:00",
-    "outlets": 1,
-    "score": 0.45
-   },
-   {
-    "id": "north-korea-s-kim-vows-to-build-more-nuclear-weapons-after-i",
-    "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
-    "link": "https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump",
-    "source": "NPR World",
-    "topic": "World",
-    "summary": "Leader Kim Jong Un reportedly visited facilities that produce nuclear ingredients and called for building more nuclear weapons to cope with threats from the U.S. and South Korea.",
-    "published": "2026-11-26T13:31:28+00:00",
-    "outlets": 1,
-    "score": 0.415
-   },
-   {
-    "id": "new-zealand-s-ruling-coalition-falls-short-of-parliamentary",
-    "title": "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
-    "link": "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC World",
-    "topic": "World",
-    "summary": "The right-leaning ruling bloc led by the National Party has fallen short of the majority needed to govern.",
-    "published": "2026-11-27T03:28:15+00:00",
-    "outlets": 1,
-    "score": 0.396
+    "score": 0.568
    }
   ],
   "Sports": [
    {
-    "id": "jerry-jones-refutes-aaron-rodgers-accusations-calls-mike-mcc",
-    "title": "Jerry Jones refutes Aaron Rodgers' accusations, calls Mike McCarthy 'outstanding'",
-    "link": "https://www.cbssports.com/nfl/news/jerry-jones-calls-mike-mccarthy-outstanding-refutes-aaron-rodgers-accusations/",
+    "id": "use-betmgm-bonus-code-cbssports-to-get-1-500-bonus-bets-for",
+    "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Steelers-Broncos, Texas-Texas A&M on Black Friday",
+    "link": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-steelers-broncos-texas-texas-am-black-friday/",
     "source": "CBS Sports",
     "topic": "Sports",
-    "summary": "Rodgers accused McCarthy of being late to meetings, sleeping in meetings and being behind on film prep",
-    "published": "2026-11-27T04:49:17+00:00",
+    "summary": "Use the latest MGM promo code CBSSPORTS to get $1,500 in bonus bets if your first bet loses for Black Friday NFL, college football betting",
+    "published": "2026-11-27T14:49:31+00:00",
     "outlets": 1,
-    "score": 0.996
+    "score": 0.997
    },
    {
-    "id": "tomlin-saddened-by-rodgers-bitter-exit-calls-situation-a-dum",
-    "title": "Tomlin saddened by Rodgers' bitter exit, calls situation 'a dumpster fire'",
-    "link": "https://www.espn.com/nfl/story/_/id/50608802/tomlin-calls-rodgers-mccarthy-situation-dumpster-fire",
-    "source": "ESPN",
-    "topic": "Sports",
-    "summary": "Mike Tomlin said he was saddened by Aaron Rodgers' tumultuous exit from Pittsburgh and disagreed with how the QB \"aired out\" his grievances against Mike McCarthy.",
-    "published": "2026-11-27T04:24:11+00:00",
-    "outlets": 1,
-    "score": 0.975
-   },
-   {
-    "id": "australia-s-sandpapergate-probe-to-also-include-2017-18-ashe",
-    "title": "Australia's sandpapergate probe to also include 2017-18 Ashes",
-    "link": "https://www.bbc.co.uk/sport/cricket/articles/cxdd1335nyj0o?at_medium=RSS&at_campaign=rss",
+    "id": "man-utd-trigger-fernandes-one-year-contract-extension",
+    "title": "Man Utd trigger Fernandes' one-year contract extension",
+    "link": "https://www.bbc.co.uk/sport/football/articles/c6d91j5geepqo?at_medium=RSS&at_campaign=rss",
     "source": "BBC Sport",
     "topic": "Sports",
-    "summary": "Cricket Australia's fresh independent probe into the sandpapergate scandal has been widened to include the 2017-18 Ashes series against England.",
-    "published": "2026-11-27T00:43:03+00:00",
+    "summary": "Manchester United activate an option on captain Bruno Fernandes' contract, extending it until 2028.",
+    "published": "2026-11-27T14:37:07+00:00",
     "outlets": 1,
-    "score": 0.811
+    "score": 0.987
    },
    {
-    "id": "steelers-owner-rodgers-insubordination-can-t-be-tolerated-ba",
-    "title": "Steelers owner: Rodgers' 'insubordination can't be tolerated,' backs McCarthy",
-    "link": "https://www.espn.com/nfl/story/_/id/50605070/steelers-owner-disappointed-rodgers-backs-mccarthy",
-    "source": "ESPN",
-    "topic": "Sports",
-    "summary": "Steelers owner Art Rooney II reacted to Wednesday's fiery interview from Aaron Rodgers by saying he was \"disappointed in where this went\" with their now-former quarterback, adding he has…",
-    "published": "2026-11-27T04:24:12+00:00",
-    "outlets": 1,
-    "score": 0.672
-   },
-   {
-    "id": "prisco-s-week-12-nfl-picks-browns-over-raiders-steelers-over",
-    "title": "Prisco's Week 12 NFL picks: Browns over Raiders, Steelers overcome issues to upset Broncos",
-    "link": "https://www.cbssports.com/nfl/news/pete-priscos-week-12-nfl-picks-odds-expert-picks/",
+    "id": "nfl-dfs-steelers-vs-broncos-top-daily-fantasy-picks-lineups",
+    "title": "NFL DFS, Steelers vs. Broncos: Top daily Fantasy picks, lineups for the 2026 Black Friday game",
+    "link": "https://www.cbssports.com/betting/news/nfl-dfs-steelers-broncos-daily-fantasy-picks-lineups-fanduel-draftkings-2026-black-friday-game/",
     "source": "CBS Sports",
     "topic": "Sports",
-    "summary": "Pete Prisco reveals all of his Week 12 picks, including the Steelers to upset the Broncos on Black Friday",
-    "published": "2026-11-27T03:42:14+00:00",
+    "summary": "DFS millionaire Mike McClure shares his top daily Fantasy picks and advice for Steelers vs. Broncos in the NFL Black Friday game",
+    "published": "2026-11-27T14:42:41+00:00",
     "outlets": 1,
-    "score": 0.649
+    "score": 0.684
    },
    {
-    "id": "cowboys-jones-backing-schottenheimer-despite-damning-setback",
-    "title": "Cowboys' Jones backing Schottenheimer despite 'damning setbacks'",
-    "link": "https://www.espn.com/nfl/story/_/id/50608969/cowboys-jerry-jones-backs-coach-damning-setbacks",
-    "source": "ESPN",
+    "id": "cricket-australia-may-not-like-sandpaper-forum-findings-vaug",
+    "title": "Cricket Australia may not like sandpaper forum findings - Vaughan",
+    "link": "https://www.bbc.co.uk/sport/cricket/articles/c5pv903jvy2po?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
     "topic": "Sports",
-    "summary": "Jerry Jones said he did not anticipate making immediate changes but still labeled the Cowboys' latest fourth-quarter collapse as a \"damning\" setback.",
-    "published": "2026-11-27T04:24:12+00:00",
+    "summary": "Cricket Australia will not like what it finds from a forum into the sandpaper scandal, according to former England captain Michael Vaughan.",
+    "published": "2026-11-27T14:05:57+00:00",
     "outlets": 1,
-    "score": 0.513
+    "score": 0.663
+   },
+   {
+    "id": "england-outclass-australia-again-to-take-series-lead",
+    "title": "England outclass Australia again to take series lead",
+    "link": "https://www.bbc.co.uk/sport/cricket/articles/cm9d704g26z4o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "topic": "Sports",
+    "summary": "England reaffirm their advantage over a struggling Australia in white-ball cricket with a seven-wicket thrashing in the third T20 at The Gabba.",
+    "published": "2026-11-27T11:45:14+00:00",
+    "outlets": 1,
+    "score": 0.45
+   },
+   {
+    "id": "self-learning-ai-releases-nfl-picks-score-predictions-for-ev",
+    "title": "Self-learning AI releases NFL picks, score predictions for every Week 12 game",
+    "link": "https://www.cbssports.com/betting/news/nfl-picks-ai-score-predictions-best-bets-today-week-12-2026/",
+    "source": "CBS Sports",
+    "topic": "Sports",
+    "summary": "SportsLine AI evaluated the Week 12 NFL odds and revealed its NFL score predictions and best NFL picks",
+    "published": "2026-11-27T14:31:56+00:00",
+    "outlets": 1,
+    "score": 0.418
    }
   ],
   "Entertainment": [
    {
-    "id": "laxman-utekar-rajkumar-periasamy-and-vishnuvardhan-set-new-f",
-    "title": "Laxman Utekar, Rajkumar Periasamy and Vishnuvardhan Set New Films With Bhushan Kumar’s T-Series (EXCLUSIVE)",
-    "link": "https://variety.com/2026/film/news/laxman-utekar-rajkumar-periasamy-vishnuvardhan-films-tseries-1236958689/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "Directors Laxman Utekar, Rajkumar Periasamy and Vishnuvardhan are set to collaborate with Indian studio T-Series chair and managing director Bhushan Kumar on three new films. Title, story…",
-    "published": "2026-11-27T04:30:00+00:00",
-    "outlets": 1,
-    "score": 0.98
-   },
-   {
-    "id": "blade-runner-2099-boss-silka-luisa-on-what-the-finale-means",
-    "title": "‘Blade Runner 2099’ Boss Silka Luisa on What the Finale Means for Replicants and the Fate of Cora and Olwen",
-    "link": "https://variety.com/2026/tv/news/blade-runner-2099-finale-cora-olwen-fates-1236958380/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "SPOILER ALERT: This article contains major spoilers for the finale of “Blade Runner 2099,” now streaming on Prime Video. In the finale of “Blade Runner 2099,” the future of humanity is…",
-    "published": "2026-11-27T01:00:00+00:00",
-    "outlets": 1,
-    "score": 0.567
-   },
-   {
-    "id": "huw-edwards-gives-first-interviews-since-child-abuse-image-c",
-    "title": "Huw Edwards gives first interviews since child abuse image conviction",
-    "link": "https://www.bbc.co.uk/news/articles/c38x05jrjnx7o?at_medium=RSS&at_campaign=rss",
+    "id": "we-have-no-interest-in-hearing-from-huw-edwards-downing-str",
+    "title": "'We have no interest in hearing from Huw Edwards', Downing Street says",
+    "link": "https://www.bbc.co.uk/news/articles/c60mdl2y2w3do?at_medium=RSS&at_campaign=rss",
     "source": "BBC Entertainment",
     "topic": "Entertainment",
-    "summary": "Minister Anna Turley said she was \"deeply uncomfortable\" with the interviews, while Channel 4 has insisted it \"holds Edwards to account\".",
-    "published": "2026-11-27T00:38:03+00:00",
+    "summary": "There has been a backlash against new interviews with the disgraced former BBC News presenter.",
+    "published": "2026-11-27T14:33:10+00:00",
     "outlets": 1,
-    "score": 0.557
+    "score": 0.984
    },
    {
-    "id": "tributes-for-duran-duran-guitarist-andy-taylor-after-his-dea",
-    "title": "Tributes for Duran Duran guitarist Andy Taylor after his death aged 65",
-    "link": "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po?at_medium=RSS&at_campaign=rss",
+    "id": "iranian-activist-and-it-was-just-an-accident-screenwriter-me",
+    "title": "Iranian Activist and ‘It Was Just an Accident’ Screenwriter Mehdi Mahmoudian Arrested in Tehran on Charges of ‘Anti-Government Propaganda’",
+    "link": "https://variety.com/2026/film/global/it-was-just-an-accident-writer-mehdi-mahmoudian-arrested-iran-1236959405/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "Iranian activist Mehdi Mahmoudian, who is also the co-writer of revered auteur Jafar Panahi’s Palme d’Or-winning drama “It Was Just an Accident,” has been arrested at his home in Tehran…",
+    "published": "2026-11-27T13:51:43+00:00",
+    "outlets": 1,
+    "score": 0.95
+   },
+   {
+    "id": "dec-donnelly-says-i-m-a-celebrity-tension-became-much-bigger",
+    "title": "Dec Donnelly says I'm a Celebrity tension 'became much bigger deal than it should have'",
+    "link": "https://www.bbc.co.uk/news/articles/c65y1k8qx7q4o?at_medium=RSS&at_campaign=rss",
     "source": "BBC Entertainment",
     "topic": "Entertainment",
-    "summary": "Simon Le Bon and his other bandmates say Taylor \"brought an indelible fire and swagger to our music\".",
-    "published": "2026-11-26T12:33:23+00:00",
+    "summary": "The co-hosts discussed tensions that flared between Mariella Frostrup and AJ Odudu on the show.",
+    "published": "2026-11-27T14:06:20+00:00",
+    "outlets": 1,
+    "score": 0.663
+   },
+   {
+    "id": "producer-of-oscar-nominated-a-friend-of-dorothy-to-make-dire",
+    "title": "Producer of Oscar-Nominated ‘A Friend Of Dorothy’ to Make Directorial Debut With Disability Drama ‘Hidden Creatures,’ Easyjet Founder Boards as EP (EXCLUSIVE)",
+    "link": "https://variety.com/2026/film/global/a-friend-of-dorothy-max-marlow-directing-hidden-creatures-1236959288/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "Max Marlow, who produced this year’s Oscar-nominated short film “A Friend of Dorothy” starring Miriam Margolyes and Stephen Fry, is set to make his directorial debut. “Hidden Creatures” is…",
+    "published": "2026-11-27T13:42:53+00:00",
+    "outlets": 1,
+    "score": 0.651
+   },
+   {
+    "id": "five-gladiators-will-not-return-for-new-bbc-series",
+    "title": "Five Gladiators will not return for new BBC series",
+    "link": "https://www.bbc.co.uk/news/articles/cm0jx92d07n5o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Entertainment",
+    "topic": "Entertainment",
+    "summary": "The programme is set to feature a host of new faces when it returns to screens next year.",
+    "published": "2026-11-27T12:36:06+00:00",
+    "outlets": 1,
+    "score": 0.47
+   },
+   {
+    "id": "spain-nears-new-india-co-production-pact-as-it-wraps-country",
+    "title": "Spain Nears New India Co-Production Pact as It Wraps Country of Honor Run at IFFI Goa, WAVES Film Bazaar",
+    "link": "https://variety.com/2026/film/markets-festivals/spain-new-india-co-production-pact-iffi-goa-honor-run-1236959353/",
+    "source": "Variety",
+    "topic": "Entertainment",
+    "summary": "Spain and India have moved closer to a fresh film and audiovisual co-production treaty as Spain wrapped its run as Country of Honor at the 57th International Film Festival of India (IFFI)…",
+    "published": "2026-11-27T12:31:57+00:00",
+    "outlets": 1,
+    "score": 0.468
+   }
+  ],
+  "World": [
+   {
+    "id": "zelensky-criticises-strange-trump-putin-friendship-in-bbc-in",
+    "title": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
+    "link": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC World",
+    "topic": "World",
+    "summary": "Ukraine's president voices frustration with US and says it is not pushing Russia hard enough in peace talks to end the war.",
+    "published": "2026-11-27T09:07:48+00:00",
+    "outlets": 1,
+    "score": 0.975
+   },
+   {
+    "id": "french-cinema-star-g-rard-depardieu-ordered-to-stand-trial-f",
+    "title": "French cinema star Gérard Depardieu ordered to stand trial for rape and sexual assault",
+    "link": "https://www.npr.org/2026/11/27/nx-s1-6055559/gerard-depardieu-trial-rape-france",
+    "source": "NPR World",
+    "topic": "World",
+    "summary": "The case has become one of the most prominent in France's reckoning with sexual violence, as the #MeToo movement has faced resistance in the country, particularly in the arts.",
+    "published": "2026-11-27T11:49:50+00:00",
     "outlets": 2,
-    "score": 0.532
+    "score": 0.966
    },
    {
-    "id": "gerald-r-molen-oscar-winning-schindler-s-list-producer-dies",
-    "title": "Gerald R. Molen, Oscar-Winning ‘Schindler’s List’ Producer, Dies at 91",
-    "link": "https://variety.com/2026/film/news/gerald-r-molen-dead-schindlers-list-producer-1236959200/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "Gerald R. Molen, the Oscar-winning producer behind Steven Spielberg’s “Schindler’s List,” has died. He was 91. Molen’s death was announced by his great-niece, Rachel Lorraine Pullan, in an…",
-    "published": "2026-11-26T23:33:00+00:00",
+    "id": "mad-about-mara-the-diy-dance-movement-helping-young-nigerian",
+    "title": "Mad about mara: the DIY dance movement helping young Nigerians escape the daily grind",
+    "link": "https://www.theguardian.com/world/2026/nov/27/mad-about-mara-the-diy-dance-movement-helping-young-nigerians-escape-the-daily-grind",
+    "source": "The Guardian",
+    "topic": "World",
+    "summary": "What started as one artist’s response to being cut out of a music video has exploded, becoming a driving force in Nigeria’s cultural landscape As a student in the central Nigerian city of…",
+    "published": "2026-11-27T06:00:56+00:00",
     "outlets": 1,
-    "score": 0.403
+    "score": 0.706
    },
    {
-    "id": "asha-bhosle-and-s-janaki-remembered-by-singer-k-s-chithra-an",
-    "title": "Asha Bhosle and S. Janaki Remembered by Singer K.S. Chithra and Suhasini Maniratnam at IFFI’s Lata Mangeshkar Talk",
-    "link": "https://variety.com/2026/film/festivals/asha-bhosle-s-janaki-ks-chithra-suhasini-iffi-1236959192/",
-    "source": "Variety",
-    "topic": "Entertainment",
-    "summary": "Asha Bhosle and S. Janaki, two of Indian cinema’s most celebrated playback singers, were remembered at the 57th International Film Festival of India (IFFI) in Goa by singer K.S. Chithra…",
-    "published": "2026-11-26T22:34:41+00:00",
+    "id": "as-un-secretary-general-s-last-day-approaches-search-for-his",
+    "title": "As UN Secretary General's last day approaches, search for his replacement continues",
+    "link": "https://www.npr.org/2026/11/27/nx-s1-6050907/as-un-secretary-generals-last-day-approaches-search-for-his-replacement-continues",
+    "source": "NPR World",
+    "topic": "World",
+    "summary": "The UN Secretary General's term ends this year, but the big powers at the UN have been unable to agree on a replacement. UN watchers worry that there will be little time to get up to speed.",
+    "published": "2026-11-27T09:46:13+00:00",
     "outlets": 1,
-    "score": 0.403
+    "score": 0.534
+   },
+   {
+    "id": "i-wouldn-t-be-here-today-without-you-student-s-praise-for-m",
+    "title": "'I wouldn't be here today without you': Student's praise for man who stopped Huntingdon train attacker",
+    "link": "https://www.bbc.co.uk/news/articles/ck792lq4xrero?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News",
+    "topic": "World",
+    "summary": "Astrid credits Stephen Crean with saving her life during the Huntingdon train attack last year.",
+    "published": "2026-11-27T07:53:24+00:00",
+    "outlets": 1,
+    "score": 0.482
+   },
+   {
+    "id": "watch-student-describes-moment-passenger-threw-himself-at-at",
+    "title": "Watch: Student describes moment passenger 'threw himself' at attacker and saved her life",
+    "link": "https://www.bbc.co.uk/news/videos/cqzr566llz4no?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News",
+    "topic": "World",
+    "summary": "The BBC's Lucy Manning spoke to Astrid and Stephen after the verdicts, as they met for the first time since the attack.",
+    "published": "2026-11-27T06:50:28+00:00",
+    "outlets": 1,
+    "score": 0.37
+   }
+  ],
+  "Tech": [
+   {
+    "id": "buying-a-laptop-right-now-is-rough-but-these-black-friday-de",
+    "title": "Buying a laptop right now is rough, but these Black Friday deals help",
+    "link": "https://www.theverge.com/gadgets/1042512/best-black-friday-laptop-notebook-deals-2026",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "Laptop prices have been a hot-button topic all year long thanks to RAMageddon. We’ve seen existing models get more expensive and new models arrive at higher prices than last-gen —…",
+    "published": "2026-11-27T14:03:27+00:00",
+    "outlets": 1,
+    "score": 0.96
+   },
+   {
+    "id": "intel-faced-a-choice-give-trump-10-or-face-the-consequences",
+    "title": "Intel faced a choice: Give Trump 10% or face the consequences",
+    "link": "https://arstechnica.com/tech-policy/2026/11/intel-faced-a-choice-give-trump-10-or-face-the-consequences/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "Intel faced pressure to surrender a 10% stake to unlock billions in promised grants.",
+    "published": "2026-11-27T12:05:01+00:00",
+    "outlets": 1,
+    "score": 0.869
+   },
+   {
+    "id": "the-absolute-best-black-friday-deals-we-ve-found-so-far",
+    "title": "The absolute best Black Friday deals we’ve found (so far)",
+    "link": "https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas",
+    "source": "The Verge",
+    "topic": "Tech",
+    "summary": "This year’s Black Friday deals have launched in waves over the past several weeks, but now the floodgates have officially opened. You can now take advantage of the lowest prices we’ve seen…",
+    "published": "2026-11-27T14:41:02+00:00",
+    "outlets": 1,
+    "score": 0.683
+   },
+   {
+    "id": "books-bikes-and-the-burbs-these-are-ars-staff-s-holiday-gift",
+    "title": "Books, bikes, and The Burbs: These are Ars staff’s holiday gift picks for 2026",
+    "link": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "We polled the Ars staff about their favorite pickups this year; here's the list.",
+    "published": "2026-11-27T11:30:04+00:00",
+    "outlets": 1,
+    "score": 0.582
+   },
+   {
+    "id": "fake-online-stores-may-fool-ai-shopping-bots-on-black-friday",
+    "title": "Fake online stores may fool AI shopping bots on Black Friday",
+    "link": "https://www.cbsnews.com/news/black-friday-ai-shopping-agents-fake-online-stores/",
+    "source": "CBS News",
+    "topic": "Tech",
+    "summary": "AI bots are accidentally steering shoppers toward websites and online shops created by scammers using AI.",
+    "published": "2026-11-27T14:38:33+00:00",
+    "outlets": 1,
+    "score": 0.423
+   },
+   {
+    "id": "volvo-s-big-batteries-we-drive-its-updated-2028-plug-in-hybr",
+    "title": "Volvo's big batteries: We drive its updated 2028 plug-in hybrids",
+    "link": "https://arstechnica.com/cars/2026/11/volvos-big-batteries-we-drive-its-updated-2028-plug-in-hybrids/",
+    "source": "Ars Technica",
+    "topic": "Tech",
+    "summary": "There’s just one thing we still don’t know: How much will they cost?",
+    "published": "2026-11-27T08:00:53+00:00",
+    "outlets": 1,
+    "score": 0.373
    }
   ],
   "Finance": [
    {
-    "id": "what-stores-are-open-on-black-friday-here-are-the-hours",
-    "title": "What stores are open on Black Friday? Here are the hours.",
-    "link": "https://www.cbsnews.com/news/thanksgiving-store-hours-open-closed-2026-black-friday/",
-    "source": "CBS News",
+    "id": "the-s-p-500-is-in-a-correction-bear-markets-and-recessions-d",
+    "title": "The S&P 500 is in a correction. Bear markets and recessions don't always follow",
+    "link": "https://www.cnbc.com/2026/11/27/the-sp-500-is-in-a-correction-bear-markets-and-recessions-dont-always-follow.html",
+    "source": "CNBC Finance",
     "topic": "Finance",
-    "summary": "Many retailers open their doors early on Black Friday, but the stock market will have shorter hours. Here's what to know.",
-    "published": "2026-11-27T03:01:00+00:00",
+    "summary": "The November sell-off has so far pushed the S&P 500 into a correction. History shows that a correction doesn't always lead to a bear market, or a recession.",
+    "published": "2026-11-27T13:21:56+00:00",
     "outlets": 1,
-    "score": 0.753
+    "score": 0.927
+   },
+   {
+    "id": "nvidia-s-billion-dollar-board-bet-who-s-protected-as-lawsuit",
+    "title": "Nvidia's billion-dollar board bet: Who's protected as lawsuits mount?",
+    "link": "https://www.cnbc.com/2026/11/25/nvidias-billion-dollar-board-bet-whos-protected-as-lawsuits-mount.html",
+    "source": "CNBC Investing",
+    "topic": "Finance",
+    "summary": "Nvidia's board is under investigation, and directors are already defendants in a shareholder lawsuit accusing them of failing to properly oversee the company.",
+    "published": "2026-11-27T14:47:33+00:00",
+    "outlets": 1,
+    "score": 0.687
    },
    {
     "id": "semiconductor-chips-are-the-new-oil-here-s-why",
@@ -572,7 +651,18 @@
     "summary": "Semiconductor exports overtook oil and gas for the first time in 2026, as the AI boom fueled chip demand.",
     "published": "2026-11-26T17:52:15+00:00",
     "outlets": 1,
-    "score": 0.576
+    "score": 0.35
+   },
+   {
+    "id": "liesman-nvidia-whiplash-tests-kevin-warsh-s-push-to-read-mar",
+    "title": "Liesman: Nvidia whiplash tests Kevin Warsh’s push to read market signals",
+    "link": "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html",
+    "source": "CNBC Finance",
+    "topic": "Finance",
+    "summary": "The extreme market gyrations and the drama surrounding Nvidia this past week have highlighted the dilemma facing Federal Reserve Chairman Kevin Warsh.",
+    "published": "2026-11-27T13:29:43+00:00",
+    "outlets": 1,
+    "score": 0.252
    },
    {
     "id": "buyer-beware-nvidia-s-volatile-swings-expose-risks-of-single",
@@ -582,17 +672,6 @@
     "topic": "Finance",
     "summary": "ETF Action founding partner Mike Akins and GraniteShares CEO Will Rhind react to Nvidia's sharp losses and latest comeback.",
     "published": "2026-11-26T16:00:01+00:00",
-    "outlets": 1,
-    "score": 0.524
-   },
-   {
-    "id": "nvidia-s-billion-dollar-board-bet-who-s-protected-as-lawsuit",
-    "title": "Nvidia's billion-dollar board bet: Who's protected as lawsuits mount?",
-    "link": "https://www.cnbc.com/2026/11/25/nvidias-billion-dollar-board-bet-whos-protected-as-lawsuits-mount.html",
-    "source": "CNBC Investing",
-    "topic": "Finance",
-    "summary": "Nvidia's board is under investigation, and directors are already defendants in a shareholder lawsuit accusing them of failing to properly oversee the company.",
-    "published": "2026-11-25T22:04:58+00:00",
     "outlets": 1,
     "score": 0.241
    },
@@ -605,170 +684,32 @@
     "summary": "Xpeng Co-President Brian Gu shared his humanoid robot predictions with CNBC in an interview Thursday.",
     "published": "2026-11-26T07:30:11+00:00",
     "outlets": 1,
-    "score": 0.184
-   },
-   {
-    "id": "beware-higher-correlation-but-nab-high-u-s-credit-yields-fun",
-    "title": "Beware higher correlation but nab high U.S. credit yields, fund managers say",
-    "link": "https://www.cnbc.com/2026/11/26/mispricing-risk-fund-managers-ai-volatility.html",
-    "source": "CNBC Finance",
-    "topic": "Finance",
-    "summary": "The AI boom could trigger a recession, but data centers remain an attractive investment opportunity, a hedge fund manager said.",
-    "published": "2026-11-26T05:36:01+00:00",
-    "outlets": 1,
     "score": 0.149
    }
   ],
-  "Politics": [
-   {
-    "id": "after-democrats-midterm-wins-some-hope-attacks-on-dei-will-e",
-    "title": "After Democrats' midterm wins, some hope attacks on DEI will ease",
-    "link": "https://www.npr.org/2026/11/26/nx-s1-6036795-e1/after-democrats-midterm-wins-some-hope-attacks-on-dei-will-ease",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "After the midterms, a Democratic congressman declared that DEI is back. What does Democrats' ascendance portend for diversity initiatives that the Trump administration relentlessly attacked?",
-    "published": "2026-11-26T23:06:14+00:00",
-    "outlets": 1,
-    "score": 0.748
-   },
-   {
-    "id": "trump-to-visit-maker-of-semiconductor-chips-including-nvidia",
-    "title": "Trump to visit maker of semiconductor chips, including Nvidia's",
-    "link": "https://www.cbsnews.com/news/trump-visit-tsmc-semiconductor-facility-phoenix-nvidia/",
-    "source": "CBS News",
-    "topic": "Politics",
-    "summary": "President Trump will visit the Phoenix TSMC facility, one of the largest manufacturers of advanced chips, including Nvidia's.",
-    "published": "2026-11-27T02:34:45+00:00",
-    "outlets": 1,
-    "score": 0.731
-   },
-   {
-    "id": "zelensky-questions-strange-trump-putin-friendship-in-bbc-int",
-    "title": "Zelensky questions 'strange' Trump-Putin friendship in BBC interview",
-    "link": "https://www.bbc.co.uk/news/videos/cm9309nwk7x9o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News",
-    "topic": "Politics",
-    "summary": "The Ukrainian president tells the BBC that Russia's Vladimir Putin should not be treated as a friend.",
-    "published": "2026-11-26T22:06:20+00:00",
-    "outlets": 1,
-    "score": 0.638
-   },
-   {
-    "id": "storms-disrupt-thanksgiving-travel-and-fcc-violated-abc-s-fr",
-    "title": "Storms disrupt Thanksgiving travel. And, FCC violated ABC's free speech, judge says",
-    "link": "https://www.npr.org/2026/11/26/g-s1-155950/up-first-newsletter-thanksgiving-weather-travel-trump-tariffs-iowa-detonation-fcc-free-speech",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "The East Coast's weather is a major concern this holiday, as it could lead to coastal flooding. And, the judge says the FCC can't punish ABC for satire Trump doesn't like.",
-    "published": "2026-11-26T12:24:29+00:00",
-    "outlets": 1,
-    "score": 0.302
-   },
-   {
-    "id": "trump-administration-proposes-new-tariffs-on-goods-from-majo",
-    "title": "Trump administration proposes new tariffs on goods from major U.S. trading partners",
-    "link": "https://www.npr.org/2026/11/26/nx-s1-6054103/trump-administration-proposes-new-tariffs-on-goods-from-major-u-s-trading-partners",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "President Trump's new proposed tariffs are already meeting pushback from Democrats and some free trade advocates.",
-    "published": "2026-11-26T11:43:47+00:00",
-    "outlets": 1,
-    "score": 0.223
-   },
-   {
-    "id": "sen-tim-kaine-d-va-shares-why-he-opposes-trump-s-proposed-ta",
-    "title": "Sen. Tim Kaine, D-Va., shares why he opposes Trump's proposed tariffs",
-    "link": "https://www.npr.org/2026/11/26/nx-s1-6053944/sen-tim-kaine-d-va-shares-why-he-opposes-trumps-proposed-tariffs",
-    "source": "NPR Politics",
-    "topic": "Politics",
-    "summary": "NPR's A Martinez speaks with Virginia Sen. Tim Kaine about the Democrat's opposition to President Trump's new tariffs.",
-    "published": "2026-11-26T11:43:10+00:00",
-    "outlets": 1,
-    "score": 0.18
-   }
-  ],
-  "Science": [
-   {
-    "id": "this-week-in-science-anxiety-in-college-students-potatoes-on",
-    "title": "This week in science: anxiety in college students, potatoes on the moon and whale snot",
-    "link": "https://www.npr.org/2026/11/26/nx-s1-6044622/this-week-in-science-anxiety-in-college-students-potatoes-on-the-moon-and-whale-snot",
-    "source": "NPR Science",
-    "topic": "Science",
-    "summary": "Science reporters Nate Rott and Sanden Totten talk about the growing risk of anxiety among college students, a simulation of growing potatoes on the Moon, and the genetic secrets in whale…",
-    "published": "2026-11-26T22:55:53+00:00",
-    "outlets": 1,
-    "score": 0.742
-   }
-  ],
-  "Tech": [
-   {
-    "id": "netflix-s-coziest-show-has-made-a-very-quiet-return",
-    "title": "Netflix’s coziest show has made a very quiet return",
-    "link": "https://www.theverge.com/entertainment/1043489/midnight-diner-season3",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "The bigger Netflix gets, the easier it is to miss stuff. This is true of all digital platforms, of course, but it's especially true of Netflix of late, as the streaming service's lineup…",
-    "published": "2026-11-26T20:50:57+00:00",
-    "outlets": 1,
-    "score": 0.668
-   },
-   {
-    "id": "ford-unveils-the-gt41-as-it-hopes-to-win-le-mans-again",
-    "title": "Ford unveils the GT41 as it hopes to win Le Mans again",
-    "link": "https://arstechnica.com/cars/2026/11/ford-unveils-the-gt41-as-it-hopes-to-win-le-mans-again/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "Ford enters the World Endurance Championship in 2027 with the new prototype.",
-    "published": "2026-11-26T18:00:29+00:00",
-    "outlets": 1,
-    "score": 0.58
-   },
-   {
-    "id": "the-garmin-forerunner-265s-is-down-to-300-its-best-price-of",
-    "title": "The Garmin Forerunner 265S is down to $300, its best price of the year",
-    "link": "https://www.theverge.com/gadgets/1042483/garmin-forerunner-265s-fitness-tracker-wearable-deal-sale-black-friday",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "The Forerunner 265S may not be the newest or flashiest Garmin, but it’s one that I’ve always loved most in testing. For runners with smaller wrists, it fits nicely. The battery life is…",
-    "published": "2026-11-26T16:56:43+00:00",
-    "outlets": 1,
-    "score": 0.379
-   },
-   {
-    "id": "draining-peatlands-is-responsible-for-a-few-percent-of-our-g",
-    "title": "Draining peatlands is responsible for a few percent of our global warming",
-    "link": "https://arstechnica.com/science/2026/11/draining-peatlands-is-responsible-for-a-few-percent-of-our-global-warming/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "Detailed estimate going back to 1800 shows how much carbon is being liberated.",
-    "published": "2026-11-26T12:15:42+00:00",
-    "outlets": 1,
-    "score": 0.3
-   },
-   {
-    "id": "the-macbook-neo-is-receiving-a-rare-100-discount-for-black-f",
-    "title": "The MacBook Neo is receiving a rare $100 discount for Black Friday",
-    "link": "https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale",
-    "source": "The Verge",
-    "topic": "Tech",
-    "summary": "If you’re looking for a new laptop or a gift for the student in your life, you can save $100 on the MacBook Neo at several retailers, in both storage sizes and all four colors. The 256GB…",
-    "published": "2026-11-26T17:15:53+00:00",
-    "outlets": 1,
-    "score": 0.294
-   },
-   {
-    "id": "the-fcc-has-authorized-spacex-to-deploy-1-million-satellites",
-    "title": "The FCC has authorized SpaceX to deploy 1 million satellites",
-    "link": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
-    "source": "Ars Technica",
-    "topic": "Tech",
-    "summary": "This constellation would increase the number of satellites in orbit by roughly 50-fold.",
-    "published": "2026-11-26T09:27:44+00:00",
-    "outlets": 3,
-    "score": 0.276
-   }
-  ],
   "Local": [
+   {
+    "id": "how-many-native-people-are-missing-or-murdered-in-california",
+    "title": "How Many Native People Are Missing or Murdered in California? The State Still Can’t Say",
+    "link": "https://ww2.kqed.org/news/2026/11/27/how-many-native-people-are-missing-or-murdered-in-california-the-state-still-cant-say/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "Newsom vetoed a statewide program, calling it duplicative of existing efforts. Advocates say families turn to social media and grassroots groups instead of police.",
+    "published": "2026-11-27T12:00:00+00:00",
+    "outlets": 1,
+    "score": 0.866
+   },
+   {
+    "id": "what-to-know-before-using-ai-agents-for-black-friday-shoppin",
+    "title": "What to Know Before Using AI Agents for Black Friday Shopping",
+    "link": "https://ww2.kqed.org/news/2026/11/26/what-to-know-before-using-ai-agents-for-black-friday-shopping/",
+    "source": "KQED",
+    "topic": "Local",
+    "summary": "59% of U.S. shoppers plan to use AI for holiday shopping this weekend, according to the National Retail Federation",
+    "published": "2026-11-27T14:33:47+00:00",
+    "outlets": 2,
+    "score": 0.503
+   },
    {
     "id": "turkeys-not-just-on-dinner-table-at-one-la-county-business",
     "title": "Turkeys Not Just on Dinner Table at One LA County Business",
@@ -778,18 +719,7 @@
     "summary": "Don't eat turkey, hug them at The Gentle Barn in Santa Clarita.",
     "published": "2026-11-26T20:30:18+00:00",
     "outlets": 1,
-    "score": 0.657
-   },
-   {
-    "id": "what-to-know-before-using-ai-agents-for-black-friday-shoppin",
-    "title": "What to Know Before Using AI Agents for Black Friday Shopping",
-    "link": "https://ww2.kqed.org/news/2026/11/26/what-to-know-before-using-ai-agents-for-black-friday-shopping/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "59% of U.S. shoppers plan to use AI for holiday shopping this weekend, according to the National Retail Federation",
-    "published": "2026-11-26T15:00:00+00:00",
-    "outlets": 1,
-    "score": 0.344
+    "score": 0.275
    },
    {
     "id": "1-day-tahoe-ski-lift-tickets-ranked-in-order-from-least-to-m",
@@ -800,7 +730,7 @@
     "summary": "Even if you didn’t get a season ski pass, you can still hit the slopes this Thanksgiving weekend. Here are the cheapest lift tickets currently available.",
     "published": "2026-11-26T12:00:00+00:00",
     "outlets": 1,
-    "score": 0.226
+    "score": 0.149
    },
    {
     "id": "waymo-says-it-s-reviewing-customer-service-after-passenger-f",
@@ -811,7 +741,7 @@
     "summary": "A man posted on social media, saying that when he called the company, they implied the gun belonged to him.",
     "published": "2026-11-26T01:00:41+00:00",
     "outlets": 1,
-    "score": 0.149
+    "score": 0.125
    },
    {
     "id": "part-of-pacifica-pier-collapses-as-king-tides-and-strong-wav",
@@ -822,21 +752,43 @@
     "summary": "Flooding has occurred along California’s shorelines, affecting roadways in the North Bay and breaking off a piece of the Pacifica pier.",
     "published": "2026-11-25T22:00:45+00:00",
     "outlets": 1,
-    "score": 0.125
-   },
-   {
-    "id": "there-are-still-benefits-in-drinking-less-this-thanksgiving",
-    "title": "There Are Still Benefits in Drinking Less This Thanksgiving — Even if You Don’t Go Completely Dry",
-    "link": "https://ww2.kqed.org/news/2026/11/25/there-are-still-benefits-in-drinking-less-this-thanksgiving-even-if-you-dont-go-completely-dry/",
-    "source": "KQED",
-    "topic": "Local",
-    "summary": "This is a high-risk time of year for binge drinking. Health experts shared strategies to manage alcohol consumption during the holidays and what to know about the buzz surrounding GLP-1…",
-    "published": "2026-11-25T20:30:00+00:00",
-    "outlets": 1,
     "score": 0.108
    }
   ],
   "Economy": [
+   {
+    "id": "can-luxury-save-macy-s",
+    "title": "Can luxury save Macy's?",
+    "link": "https://www.npr.org/2026/11/27/nx-s1-6026486/macys-tries-to-reinvent-with-luxury",
+    "source": "NPR Economy",
+    "topic": "Economy",
+    "summary": "This week's celebration of Macy's 100th Thanksgiving parade finds the department store at a turning point. After years of losing sales, the retailer is reimagining itself — as a higher-end…",
+    "published": "2026-11-27T10:01:00+00:00",
+    "outlets": 1,
+    "score": 0.784
+   },
+   {
+    "id": "record-spending-expected-on-black-friday",
+    "title": "Record spending expected on Black Friday",
+    "link": "https://www.npr.org/2026/11/27/nx-s1-6047460/record-spending-expected-on-black-friday",
+    "source": "NPR Economy",
+    "topic": "Economy",
+    "summary": "Americans are expected to spend more money on Black Friday than any other day this year. How is inflation and the current economic situation affecting that?",
+    "published": "2026-11-27T09:45:48+00:00",
+    "outlets": 1,
+    "score": 0.534
+   },
+   {
+    "id": "why-americans-are-still-black-friday-shopping-despite-strain",
+    "title": "Why Americans are still Black Friday shopping despite strained wallets",
+    "link": "https://www.npr.org/2026/11/27/nx-s1-6054846/why-americans-are-still-black-friday-shopping-despite-strained-wallets",
+    "source": "NPR Economy",
+    "topic": "Economy",
+    "summary": "NPR's A Martinez asks Georgia Tech Professor Chris Gaffney why Americans continue to spend during the holidays, despite trouble spots in the economy.",
+    "published": "2026-11-27T09:45:35+00:00",
+    "outlets": 1,
+    "score": 0.407
+   },
    {
     "id": "faisal-islam-why-trump-s-new-tariffs-are-less-of-a-threat",
     "title": "Faisal Islam: Why Trump's new tariffs are less of a threat",
@@ -846,65 +798,65 @@
     "summary": "Other countries have rerouted trade in response to his first tariff salvo, now they are looking beyond Trump's tenure.",
     "published": "2026-11-26T19:55:58+00:00",
     "outlets": 1,
-    "score": 0.638
+    "score": 0.388
    },
    {
-    "id": "uk-to-pay-participation-fee-to-deliver-eu-deals",
-    "title": "UK to pay 'participation' fee to deliver EU deals",
-    "link": "https://www.bbc.co.uk/news/articles/ck2057x387ego?at_medium=RSS&at_campaign=rss",
+    "id": "screen-free-tweens-try-their-hand-at-dungeons-dragons",
+    "title": "Screen free tweens try their hand at Dungeons & Dragons",
+    "link": "https://www.npr.org/2026/11/27/nx-s1-6042445/screen-free-tweens-try-their-hand-at-dungeons-dragons",
+    "source": "NPR",
+    "topic": "Economy",
+    "summary": "Some parents, fed up with screens, have found an analog oasis in the role-playing game invented in the 1970s.",
+    "published": "2026-11-27T10:00:00+00:00",
+    "outlets": 1,
+    "score": 0.364
+   },
+   {
+    "id": "from-250-job-to-9-000-bill-inside-the-rogue-trader-networks",
+    "title": "From £250 job to £9,000 bill: Inside the rogue trader networks scamming customers at scale",
+    "link": "https://www.bbc.co.uk/news/articles/c65yme31k7m2o?at_medium=RSS&at_campaign=rss",
     "source": "BBC Business",
     "topic": "Economy",
-    "summary": "Details of the contribution towards EU running costs have been revealed in new legal documents.",
-    "published": "2026-11-26T23:17:12+00:00",
+    "summary": "Networks of plumbers and electricians are scamming people on a large scale, the BBC reveals.",
+    "published": "2026-11-27T00:58:49+00:00",
     "outlets": 1,
-    "score": 0.521
-   },
-   {
-    "id": "asia-made-a-big-ai-bet-on-nvidia-what-happens-now",
-    "title": "Asia made a big AI bet on Nvidia. What happens now?",
-    "link": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "Asian stocks have been on a rollercoaster ride after Jensen Huang's shock return as Nvidia CEO.",
-    "published": "2026-11-26T23:08:12+00:00",
-    "outlets": 1,
-    "score": 0.394
-   },
-   {
-    "id": "inflation-is-still-hot-fueled-in-part-by-the-ai-boom",
-    "title": "Inflation is still hot, fueled in part by the AI boom",
-    "link": "https://www.npr.org/2026/11/25/nx-s1-6053958/inflation-is-still-hot-fueled-in-part-by-the-ai-boom",
-    "source": "NPR Economy",
-    "topic": "Economy",
-    "summary": "The U.S. economy grew at a rapid clip during the summer and early fall, due in part to the artificial intelligence boom. That boom is also fueling higher inflation and rattling the stock…",
-    "published": "2026-11-25T22:04:36+00:00",
-    "outlets": 1,
-    "score": 0.35
-   },
-   {
-    "id": "i-spend-200-a-month-on-fancy-meals-by-myself-would-you-dine",
-    "title": "I spend £200 a month on fancy meals by myself - would you dine solo?",
-    "link": "https://www.bbc.co.uk/news/articles/cw8dv11dp2yeo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC Business",
-    "topic": "Economy",
-    "summary": "Solo-dining is being embraced as a self-care trend and it's reshaping the restaurant industry.",
-    "published": "2026-11-27T00:54:45+00:00",
-    "outlets": 1,
-    "score": 0.348
-   },
-   {
-    "id": "in-a-time-of-rising-costs-one-thanksgiving-commodity-is-chea",
-    "title": "In a time of rising costs, one Thanksgiving commodity is cheaper: cannabis",
-    "link": "https://www.npr.org/2026/11/25/nx-s1-6046173/cannabis-marijuana-prices-retailers-discounts",
-    "source": "NPR Economy",
-    "topic": "Economy",
-    "summary": "Steep discounts for \"Green Wednesday,\" one of the highest-selling days for cannabis, help customers keep costs down. But experts say retailers are feeling the pinch.",
-    "published": "2026-11-25T10:00:00+00:00",
-    "outlets": 1,
-    "score": 0.241
+    "score": 0.344
    }
   ],
   "Health": [
+   {
+    "id": "a-lonely-road-catherine-joins-cancer-support-group-in-new-d",
+    "title": "'A lonely road': Catherine joins cancer support group in new documentary",
+    "link": "https://www.bbc.co.uk/news/videos/c6879eqe01e0o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News",
+    "topic": "Health",
+    "summary": "The documentary features her personal thoughts on her illness and recovery, following her cancer diagnosis.",
+    "published": "2026-11-27T12:11:22+00:00",
+    "outlets": 1,
+    "score": 0.784
+   },
+   {
+    "id": "12-strategies-to-cut-your-risk-of-dementia-take-this-quiz-to",
+    "title": "12 strategies to cut your risk of dementia. Take this quiz to start",
+    "link": "https://www.npr.org/2026/11/27/nx-s1-6050867/prevent-dementia-alzheimers-your-turn",
+    "source": "NPR Health",
+    "topic": "Health",
+    "summary": "Here's something you can do as you gather with family and friends this holiday season: Take a free, five-minute quiz to assess your brain health. You'll learn simple changes to keep your…",
+    "published": "2026-11-27T10:00:00+00:00",
+    "outlets": 1,
+    "score": 0.783
+   },
+   {
+    "id": "nhs-boss-warns-of-horrible-spike-in-flu-as-hospital-admissio",
+    "title": "NHS boss warns of 'horrible spike' in flu as hospital admissions surge",
+    "link": "https://www.bbc.co.uk/news/articles/cwvg2ndxdjr2o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News",
+    "topic": "Health",
+    "summary": "Health officials are urging those at risk of getting flu to get vaccinated as soon as possible.",
+    "published": "2026-11-27T09:57:37+00:00",
+    "outlets": 1,
+    "score": 0.313
+   },
    {
     "id": "public-health-specialist-discusses-the-aftermath-of-the-muni",
     "title": "Public health specialist discusses the aftermath of the munitions detonation in Iowa",
@@ -914,29 +866,99 @@
     "summary": "NPR's A Martinez speaks with public health specialist Will Sander of the University of Illinois Urbana-Champaign about the aftermath of the Iowa munitions detonation.",
     "published": "2026-11-26T09:42:38+00:00",
     "outlets": 1,
-    "score": 0.383
-   },
-   {
-    "id": "nhs-boss-warns-of-horrible-spike-in-flu-as-hospital-admissio",
-    "title": "NHS boss warns of 'horrible spike' in flu as hospital admissions surge",
-    "link": "https://www.bbc.co.uk/news/articles/cwvg2ndxdjr2o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News",
-    "topic": "Health",
-    "summary": "Health officials are urging those at risk of getting flu to get vaccinated as soon as possible.",
-    "published": "2026-11-27T00:20:10+00:00",
-    "outlets": 1,
-    "score": 0.318
-   },
-   {
-    "id": "how-american-thanksgiving-took-root-and-evolved-in-liberia",
-    "title": "How American Thanksgiving took root — and evolved — in Liberia",
-    "link": "https://www.npr.org/2026/11/25/nx-s1-6048614/thanksgiving-liberia-gratitude-prayer",
-    "source": "NPR Health",
-    "topic": "Health",
-    "summary": "The first settlers of Liberia were African Americans who brought along the holiday of Thanksgiving — which has evolved to reflect the history and identity of this new nation.",
-    "published": "2026-11-25T14:14:34+00:00",
-    "outlets": 1,
     "score": 0.241
+   }
+  ],
+  "Politics": [
+   {
+    "id": "trump-effectively-ended-asylum-advocates-look-to-the-supreme",
+    "title": "Trump effectively ended asylum. Advocates look to the Supreme Court to restore it",
+    "link": "https://www.npr.org/2026/11/27/nx-s1-6037854/trump-effectively-ended-asylum-supreme-court",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "Trump's sweeping immigration changes — an asylum ban, mass firings and new legal maneuvers — have all but ended asylum. The high court will soon consider whether some shifts deny people…",
+    "published": "2026-11-27T10:00:00+00:00",
+    "outlets": 1,
+    "score": 0.783
+   },
+   {
+    "id": "after-democrats-midterm-wins-some-hope-attacks-on-dei-will-e",
+    "title": "After Democrats' midterm wins, some hope attacks on DEI will ease",
+    "link": "https://www.npr.org/2026/11/26/nx-s1-6036795-e1/after-democrats-midterm-wins-some-hope-attacks-on-dei-will-ease",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "After the midterms, a Democratic congressman declared that DEI is back. What does Democrats' ascendance portend for diversity initiatives that the Trump administration relentlessly attacked?",
+    "published": "2026-11-26T23:06:14+00:00",
+    "outlets": 1,
+    "score": 0.313
+   },
+   {
+    "id": "trump-slams-foes-and-threatens-future-vetoes-in-thanksgiving",
+    "title": "Trump slams foes and threatens future vetoes in Thanksgiving posts",
+    "link": "https://www.cbsnews.com/video/trump-slams-foes-and-threatens-future-vetoes-in-thanksgiving-posts/",
+    "source": "CBS News",
+    "topic": "Politics",
+    "summary": "President Trump took questions from reporters during the Thanksgiving holiday. He touched on Jensen Huang's return to Nvidia and lauded his latest meeting with Russia's Vladimir Putin and…",
+    "published": "2026-11-27T14:23:12+00:00",
+    "outlets": 1,
+    "score": 0.254
+   },
+   {
+    "id": "storms-disrupt-thanksgiving-travel-and-fcc-violated-abc-s-fr",
+    "title": "Storms disrupt Thanksgiving travel. And, FCC violated ABC's free speech, judge says",
+    "link": "https://www.npr.org/2026/11/26/g-s1-155950/up-first-newsletter-thanksgiving-weather-travel-trump-tariffs-iowa-detonation-fcc-free-speech",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "The East Coast's weather is a major concern this holiday, as it could lead to coastal flooding. And, the judge says the FCC can't punish ABC for satire Trump doesn't like.",
+    "published": "2026-11-26T12:24:29+00:00",
+    "outlets": 1,
+    "score": 0.184
+   },
+   {
+    "id": "it-s-impossible-spain-s-young-people-on-housing-ahead-of-su",
+    "title": "'It's impossible': Spain's young people on housing ahead of Sunday's election",
+    "link": "https://www.bbc.co.uk/news/videos/cm9w9y8947xqo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC News",
+    "topic": "Politics",
+    "summary": "Europe correspondent Nick Beake speaks to one couple kept apart by high rents in Valencia.",
+    "published": "2026-11-27T06:09:31+00:00",
+    "outlets": 1,
+    "score": 0.183
+   },
+   {
+    "id": "trump-administration-proposes-new-tariffs-on-goods-from-majo",
+    "title": "Trump administration proposes new tariffs on goods from major U.S. trading partners",
+    "link": "https://www.npr.org/2026/11/26/nx-s1-6054103/trump-administration-proposes-new-tariffs-on-goods-from-major-u-s-trading-partners",
+    "source": "NPR Politics",
+    "topic": "Politics",
+    "summary": "President Trump's new proposed tariffs are already meeting pushback from Democrats and some free trade advocates.",
+    "published": "2026-11-26T11:43:47+00:00",
+    "outlets": 1,
+    "score": 0.149
+   }
+  ],
+  "Science": [
+   {
+    "id": "california-voters-pass-billionaire-s-measure-to-bankroll-his",
+    "title": "California voters pass billionaire's measure to bankroll his own medical lab",
+    "link": "https://www.npr.org/2026/11/27/nx-s1-6052399/california-voters-pass-billionaires-measure-to-bankroll-his-own-medical-lab",
+    "source": "NPR Science",
+    "topic": "Science",
+    "summary": "California voters passed a ballot measure backed by a billionaire to fund $8.4 billion in immunology research. Half the funding will go to the research group funded by the same billionaire.",
+    "published": "2026-11-27T09:45:53+00:00",
+    "outlets": 1,
+    "score": 0.774
+   },
+   {
+    "id": "this-week-in-science-anxiety-in-college-students-potatoes-on",
+    "title": "This week in science: anxiety in college students, potatoes on the moon and whale snot",
+    "link": "https://www.npr.org/2026/11/26/nx-s1-6044622/this-week-in-science-anxiety-in-college-students-potatoes-on-the-moon-and-whale-snot",
+    "source": "NPR Science",
+    "topic": "Science",
+    "summary": "Science reporters Nate Rott and Sanden Totten talk about the growing risk of anxiety among college students, a simulation of growing potatoes on the Moon, and the genetic secrets in whale…",
+    "published": "2026-11-26T22:55:53+00:00",
+    "outlets": 1,
+    "score": 0.311
    }
   ]
  }
